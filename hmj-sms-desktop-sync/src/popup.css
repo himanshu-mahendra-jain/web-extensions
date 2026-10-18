@@ -1,0 +1,451 @@
+:root {
+  --bg: #f8f9fa;
+  --surface: #ffffff;
+  --fg: #202124;
+  --text: #3c4043;
+  --muted: #5f6368;
+  --subtle: #80868b;
+  --line: #e0e0e0;
+  --card-line: #edf2f7;
+  --icon-muted: #bdc1c6;
+  --accent: #6d28d9;
+  --accent-bg: #f5f3ff;
+  --accent-line: #ddd6fe;
+  --neutral-bg: #f1f3f4;
+  --neutral-line: #dadce0;
+  --ok: #137333;
+  --ok-bg: #e6f4ea;
+  --ok-line: #ceead6;
+  --warn: #b06000;
+  --warn-bg: #fef7e0;
+  --error: #c5221f;
+  --error-bg: #fce8e6;
+  --shadow: rgba(0, 0, 0, 0.06);
+  --shadow-hover: rgba(0, 0, 0, 0.1);
+
+  color-scheme: light dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+body {
+  width: 400px;
+  height: 540px;
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  color: var(--fg);
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Header */
+.app-header {
+  height: 52px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--accent);
+}
+
+.app-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--fg);
+}
+
+.status-badge {
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 10px;
+  background: var(--ok-bg);
+  color: var(--ok);
+  font-weight: 500;
+}
+
+.status-badge::before {
+  content: "● " / "";
+}
+
+.status-badge.syncing {
+  background: var(--warn-bg);
+  color: var(--warn);
+}
+
+.header-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.icon-btn {
+  background: transparent;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.icon-btn:hover {
+  background: var(--neutral-bg);
+}
+
+.icon-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--muted);
+}
+
+.qr-toggle-btn {
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-line);
+  color: var(--accent);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Connected Device Banner */
+.device-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 14px;
+  background: var(--ok-bg);
+  color: var(--ok);
+  border-bottom: 1px solid var(--ok-line);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.device-banner-names {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.device-banner-name {
+  font-weight: 600;
+}
+
+.device-banner-count {
+  font-size: 11px;
+  opacity: 0.85;
+}
+
+.device-banner-time {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* Pairing QR Code Card */
+.qr-card {
+  background: var(--surface);
+  border: 1px solid var(--neutral-line);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.qr-card h2 {
+  font-size: 15px;
+  margin-bottom: 4px;
+  color: var(--accent);
+}
+
+.qr-card p {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+/* Stays black on white in every theme, so phones can read it. */
+.qr-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  background: #ffffff;
+  border-radius: 8px;
+  forced-color-adjust: none;
+}
+
+.qr-code canvas {
+  width: 260px;
+  height: 260px;
+  image-rendering: pixelated;
+}
+
+.qr-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.qr-card .copy-status {
+  margin: 8px 0 0;
+  color: var(--error);
+}
+
+.copy-status:empty {
+  display: none;
+}
+
+.btn-pair-action {
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-line);
+  color: var(--accent);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-pair-action:hover {
+  background: var(--accent-line);
+}
+
+.btn-pair-action.btn-quiet {
+  background: var(--neutral-bg);
+  color: var(--muted);
+  border-color: var(--neutral-line);
+}
+
+/* Messages List */
+.conversations-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 6px 8px;
+}
+
+.empty-view {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.empty-icon {
+  width: 48px;
+  height: 48px;
+  fill: var(--icon-muted);
+  margin-bottom: 12px;
+}
+
+.empty-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.empty-sub {
+  font-size: 12px;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 14px;
+}
+
+.card {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  box-shadow: 0 1px 2px var(--shadow);
+  border: 1px solid var(--card-line);
+  position: relative;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.card:hover {
+  box-shadow: 0 2px 6px var(--shadow-hover);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.sender-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sender-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--fg);
+}
+
+.tag {
+  font-size: 10px;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+.tag-device {
+  color: var(--ok);
+  background: var(--ok-bg);
+  font-weight: 500;
+}
+
+.tag-sim {
+  color: var(--accent);
+  background: var(--accent-bg);
+  font-weight: 600;
+}
+
+.msg-time {
+  font-size: 11px;
+  color: var(--subtle);
+}
+
+.msg-body {
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--text);
+  word-break: break-word;
+}
+
+.msg-actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.msg-btn {
+  background: var(--neutral-bg);
+  border: 1px solid var(--neutral-line);
+  color: var(--muted);
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.msg-btn.msg-btn-otp {
+  background: var(--accent-bg);
+  border-color: var(--accent-line);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #202124;
+    --surface: #292a2d;
+    --fg: #e8eaed;
+    --text: #dadce0;
+    --muted: #9aa0a6;
+    --subtle: #9aa0a6;
+    --line: #3c4043;
+    --card-line: #3c4043;
+    --icon-muted: #5f6368;
+    --accent: #c084fc;
+    --accent-bg: #2e1065;
+    --accent-line: #4c1d95;
+    --neutral-bg: #3c4043;
+    --neutral-line: #5f6368;
+    --ok: #81c995;
+    --ok-bg: #1e3a29;
+    --ok-line: #2b5a3c;
+    --warn: #fdd663;
+    --warn-bg: #42361a;
+    --error: #f28b82;
+    --error-bg: #4a2523;
+    --shadow: rgba(0, 0, 0, 0.3);
+    --shadow-hover: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (forced-colors: active) {
+
+  button,
+  .card,
+  .qr-card,
+  .status-badge,
+  .tag {
+    border: 1px solid CanvasText;
+  }
+
+  button {
+    border-color: ButtonText;
+  }
+
+  .icon-btn svg,
+  .header-icon,
+  .empty-icon {
+    fill: CanvasText;
+  }
+
+  :focus-visible {
+    outline: 3px solid Highlight;
+  }
+}

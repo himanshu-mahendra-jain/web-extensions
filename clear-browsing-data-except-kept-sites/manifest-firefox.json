@@ -1,0 +1,62 @@
+{
+    "manifest_version": 3,
+    "name": "Clear Browsing Data Except Kept Sites",
+    "version": "1.0.0",
+    "description": "Clear history, cookies and site data on browser startup for every site except the ones you keep.",
+    "homepage_url": "https://github.com/himanshu-mahendra-jain/web-extensions",
+    "developer": {
+        "name": "Himanshu Mahendra Jain",
+        "url": "https://github.com/himanshu-mahendra-jain/web-extensions"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "clear-browsing-data-except-kept-sites@himanshu-mahendra-jain",
+            "strict_min_version": "153.0",
+            "data_collection_permissions": {
+                "required": [
+                    "none"
+                ]
+            }
+        },
+        "gecko_android": {
+            "strict_min_version": "153.0"
+        }
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "action": {
+        "default_title": "Clear Browsing Data Except Kept Sites",
+        "default_area": "navbar",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "32": "icons/icon32.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "permissions": [
+        "browsingData",
+        "contextualIdentities",
+        "cookies",
+        "history",
+        "storage"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ],
+        "type": "module"
+    },
+    "options_page": "options/options.html",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    }
+}

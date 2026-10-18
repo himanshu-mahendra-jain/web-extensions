@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kept Sites | Clear Browsing Data Except Kept Sites</title>
+
+    <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <p class="extension-name">Clear Browsing Data Except Kept Sites</p>
+
+            <a href="https://github.com/himanshu-mahendra-jain/web-extensions" target="_blank"
+                rel="noopener noreferrer" aria-label="GitHub repository, opens in a new tab">
+                GitHub
+            </a>
+        </header>
+
+        <section id="access-warning" class="warning" aria-labelledby="access-heading" hidden>
+            <h2 id="access-heading">Site access is off</h2>
+
+            <p id="access-text"></p>
+
+            <button id="grant-access" type="button">Allow Site Access</button>
+        </section>
+
+        <section id="clearing-off" class="notice" aria-labelledby="clearing-off-heading" hidden>
+            <h2 id="clearing-off-heading">Clearing is off</h2>
+
+            <p id="clearing-off-text"></p>
+
+            <button id="turn-on" type="button">Turn On Clearing</button>
+        </section>
+
+        <h1>Kept Sites</h1>
+
+        <p id="intro" class="intro"></p>
+
+        <form id="site-form">
+            <label class="visually-hidden" for="site-input">
+                Website domains
+            </label>
+
+            <input id="site-input" type="text" placeholder="example.com, github.com" autocomplete="off" autocapitalize="none"
+                spellcheck="false" inputmode="url" aria-describedby="site-hint message" required>
+
+            <button type="submit">Keep</button>
+        </form>
+
+        <p id="site-hint" class="hint">Separate several sites with commas.</p>
+
+        <p id="message" role="status"></p>
+
+        <p id="empty-state" class="empty-state" hidden></p>
+
+        <ul id="site-list" aria-label="Kept sites"></ul>
+
+        <section class="clearing" aria-labelledby="clearing-heading">
+            <h2 id="clearing-heading">Clearing</h2>
+
+            <label class="toggle">
+                <input id="clear-on-startup" type="checkbox">
+                Clear automatically when the browser starts
+            </label>
+
+            <div class="clear-row">
+                <button id="clear-now" type="button">Clear Now</button>
+
+                <p id="last-clear" role="status"></p>
+            </div>
+
+            <p class="hint">
+                The first clear can take several minutes when the browser holds a
+                lot of browsing data. You can keep browsing in the meantime.
+            </p>
+        </section>
+
+        <section id="leftovers" class="leftovers" aria-labelledby="leftovers-heading" hidden>
+            <h2 id="leftovers-heading">Leftover Site Data</h2>
+
+            <p class="section-intro">
+                Once the history and cookies of a site are deleted, the extension
+                no longer finds it, so its local storage, databases and cache
+                stay. Clear Leftovers deletes the site data of every site you do
+                not keep, found or not, after a clear like Clear Now.
+            </p>
+
+            <div class="clear-row">
+                <button id="clear-leftovers" type="button" class="secondary">Clear Leftovers</button>
+
+                <p id="leftovers-status" role="status"></p>
+            </div>
+        </section>
+
+        <section class="transfer" aria-labelledby="transfer-heading">
+            <h2 id="transfer-heading">Import and Export</h2>
+
+            <p class="section-intro">
+                Save your kept sites to a text file, or replace them with the
+                sites in one. A file can list one site per line or separate them
+                with commas.
+            </p>
+
+            <div class="button-row">
+                <button id="export-sites" type="button" class="secondary">Export</button>
+                <button id="import-sites" type="button" class="secondary">Import</button>
+                <input id="import-file" type="file" accept=".txt,text/plain" hidden>
+            </div>
+
+            <p id="transfer-status" role="status"></p>
+        </section>
+    </main>
+
+    <dialog id="confirm-dialog" aria-labelledby="confirm-heading" aria-describedby="confirm-warning">
+        <form method="dialog">
+            <h2 id="confirm-heading"></h2>
+
+            <div id="confirm-warning" class="danger"></div>
+
+            <div class="dialog-actions">
+                <button value="cancel" class="secondary" autofocus>Cancel</button>
+                <button id="confirm-action" value="confirm" class="danger-button"></button>
+            </div>
+        </form>
+    </dialog>
+
+    <script type="module" src="options.js"></script>
+</body>
+
+</html>

@@ -1,13 +1,15 @@
 # Web Extensions
 
-Monorepo for browser extensions and the shared build script that packages them into ready-to-upload ZIP files for Chrome, Microsoft Edge, and Firefox. The Firefox package also installs in Firefox for Android.
+Monorepo for browser extensions and the shared build script that packages them into ready-to-upload ZIP files for Chrome, Microsoft Edge, and Firefox. The Firefox package also installs in Firefox for Android. HMJ SMS Desktop Sync ships for Chrome and Edge only, since Firefox gives extensions no Web Push.
 
 ## Extensions
 
 | Directory | Extension |
 | --- | --- |
 | [`change-video-playback-speed/`](change-video-playback-speed/) | Change Video Playback Speed: cycle video and audio playback speed from the toolbar or a keyboard shortcut. |
+| [`clear-browsing-data-except-kept-sites/`](clear-browsing-data-except-kept-sites/) | Clear Browsing Data Except Kept Sites: clear history, cookies, and site data on browser startup for every site not on your keep list. |
 | [`enable-copy-and-right-click/`](enable-copy-and-right-click/) | Enable Copy and Right Click: restore copying, text selection, and right-click menus on restricted pages. |
+| [`hmj-sms-desktop-sync/`](hmj-sms-desktop-sync/) | HMJ SMS Desktop Sync: end-to-end encrypted SMS and OTP notifications from an Android phone. |
 | [`three-finger-tap-to-close-tab/`](three-finger-tap-to-close-tab/) | Three Finger Tap to Close Tab: close the current tab with a three-finger tap or middle click. |
 
 ## Build
@@ -67,9 +69,9 @@ Files only Chrome and Edge use can be left out of the Firefox package by listing
 
 ## Test
 
-Each extension has Playwright tests in its `tests/` directory. They load the unpacked extension into Chromium and use it the way a person would: toolbar clicks on pages and frames served by the tests, the settings and popup pages, and real storage and host permissions.
+Each extension has Playwright tests in its `tests/` directory. They load the unpacked extension into Chromium and use it the way a person would: toolbar clicks on pages and frames served by the tests, the settings and popup pages, and real storage, history, cookies, and Web Push messages.
 
-What a test browser cannot reach runs in a page against fake extension APIs instead (`tests/fake-chrome.js`, built on the shared parts in `test-support/fake-chrome.js`), with the extension's own source files loaded unchanged. This covers browser startup, keyboard shortcuts, and behaviour specific to one browser.
+What a test browser cannot reach runs in a page against fake extension APIs instead (`tests/fake-chrome.js`, built on the shared parts in `test-support/fake-chrome.js`), with the extension's own source files loaded unchanged. This covers browser startup, keyboard shortcuts, Firefox-only APIs such as containers, and the background code of `hmj-sms-desktop-sync/`.
 
 Every extension also checks that `manifest.json` and, where it has one, `manifest-firefox.json` agree, that the Firefox manifest declares Firefox for Android support with `gecko_android`, and that every file they reference exists, including Firefox variants, the scripts and stylesheets their HTML pages load, and the modules their scripts import. Every manifest gives extension pages the same content security policy: scripts from the package only, no plugins, no `<base>`, and no form that navigates.
 
@@ -78,8 +80,8 @@ Each extension with its own pages has `tests/accessibility.spec.js`: `toMatchAri
 The tests need Node.js and Playwright with Chromium and Firefox. Run them from the repository root:
 
 ```bash
-npx playwright test                                                          # every test
-npx playwright test change-video-playback-speed enable-copy-and-right-click  # the tests of these extensions
+npx playwright test                                                   # every test
+npx playwright test change-video-playback-speed hmj-sms-desktop-sync  # the tests of these extensions
 ```
 
 `test-support/tests/sources.spec.js` is the repository's lint. It reads every source file and fails on suppression comments, skipped or expected-to-fail tests, fixed waits, HTML or code built from strings, blocking dialogs, `var`, `console.log`, event handler properties and attributes, inline styles and scripts, and empty catches with no comment saying why, and it checks that every shipped script parses. No file is exempt.
@@ -134,14 +136,14 @@ The tests run by hand on the machine that holds the screenshot baselines, not on
 
 ```bash
 FIREFOX_ANDROID_DEVICE=<serial> ./check.sh  # every extension, with Firefox for Android
-./check.sh enable-copy-and-right-click      # only this extension
+./check.sh hmj-sms-desktop-sync             # only this extension
 ```
 
 It refuses a tree with uncommitted changes or untracked files. It then builds the packages, checks each changelog, runs `web-ext lint` on each Firefox package, and runs the tests, and ends by naming the commit it checked. Lint fails on any error, warning, or notice. It needs `web-ext` on the `PATH` besides the requirements of `build.sh` and the tests.
 
 Each extension keeps a `CHANGELOG.md` in the [Keep a Changelog](https://keepachangelog.com/) format: a `## [<version>] - <date>` section for each version, newest first, with `### New Features`, `### Changes`, and `### Bug Fixes` lists. Note changes people will notice under `## [Unreleased]`, and move them to a new version section when you change the version in both manifests. `./release-notes.sh <extension>` prints the section for the version in `manifest.json`, and fails if there is none.
 
-After each push to `main`, the Draft releases workflow drafts a GitHub release for every extension version not yet released: tag `<extension>-v<version>`, its packages, and the changelog section as notes. It replaces the extension's drafts on every push, so correct the notes in `CHANGELOG.md` rather than in the draft. Publishing a draft creates its tag, and that version is not drafted again, so an extension whose version did not change gets no new draft. When publishing, untick **Set as the latest release**: with three extensions, no single release is the latest.
+After each push to `main`, the Draft releases workflow drafts a GitHub release for every extension version not yet released: tag `<extension>-v<version>`, its packages, and the changelog section as notes. It replaces the extension's drafts on every push, so correct the notes in `CHANGELOG.md` rather than in the draft. Publishing a draft creates its tag, and that version is not drafted again, so an extension whose version did not change gets no new draft. When publishing, untick **Set as the latest release**: with five extensions, no single release is the latest.
 
 ## License
 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMS Desktop Sync</title>
+  <link rel="stylesheet" href="popup.css">
+  <script type="module" src="popup.js"></script>
+</head>
+
+<body>
+
+  <!-- Top App Bar -->
+  <header class="app-header">
+    <div class="header-left">
+      <svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 11H7V9h2v2zm4 0h-2V9h2v2zm4 0h-2V9h2v2z" />
+      </svg>
+      <h1 class="app-title">HMJ SMS</h1>
+      <span id="syncStatusBadge" class="status-badge">Ready</span>
+    </div>
+    <div class="header-actions">
+      <button id="btnToggleQr" class="qr-toggle-btn" title="Show Pairing QR Code">
+        Pair
+      </button>
+      <button id="btnSettings" class="icon-btn" title="Settings" aria-label="Settings">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Connected Device Banner -->
+  <div id="deviceBanner" class="device-banner" hidden>
+    <div class="device-banner-names">
+      <span id="deviceBannerName" class="device-banner-name">Phone</span>
+      <span id="deviceBannerCount" class="device-banner-count">(Linked)</span>
+    </div>
+    <span id="deviceBannerTime" class="device-banner-time">Active</span>
+  </div>
+
+  <!-- Pairing QR Code Card (Collapsible) -->
+  <section id="qrPanel" class="qr-card" aria-labelledby="qrHeading" hidden>
+    <h2 id="qrHeading">Pair with Android Phone</h2>
+    <p>Open SMS app on phone &rarr; <b>Settings &rarr; Desktop Sync &rarr; Scan QR Code</b></p>
+    <div id="qrContainer" class="qr-code" role="img" aria-label="Pairing QR code"></div>
+    <div class="qr-actions">
+      <button id="btnCopyPairingCode" class="btn-pair-action">
+        Copy Code
+      </button>
+      <button id="btnHideQr" class="btn-pair-action btn-quiet">
+        Hide
+      </button>
+    </div>
+    <p id="copyStatus" class="copy-status" role="status"></p>
+  </section>
+
+  <!-- Messages List View -->
+  <main id="conversationsContainer" class="conversations-list">
+    <div id="emptyView" class="empty-view" hidden>
+      <svg class="empty-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 11H7V9h2v2zm4 0h-2V9h2v2zm4 0h-2V9h2v2z" />
+      </svg>
+      <p id="emptyTitle" class="empty-title">Ready for incoming SMS</p>
+      <span id="emptySub" class="empty-sub">Incoming SMS and OTPs will appear here in real-time.</span>
+      <button id="btnShowQrEmpty" class="btn-pair-action">Show Pairing QR Code</button>
+    </div>
+    <div id="listItems"></div>
+  </main>
+
+  <!-- Says what the page did: a copy, a new message. -->
+  <div id="announcer" class="visually-hidden" role="status"></div>
+</body>
+
+</html>
