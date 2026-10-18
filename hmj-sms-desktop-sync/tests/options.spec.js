@@ -97,7 +97,7 @@ test("shows the pairing text and copies it", async ({ optionsPage, extensionId }
   const pairingText = optionsPage.locator("#txtPairingCode");
 
   await expect(pairingText).toHaveValue(
-    new RegExp(`^sms_pair:v1\\|${ENDPOINT}\\|test-p256dh\\|test-auth\\|Chrome \\(\\w+\\)\\|${extensionId}$`)
+    new RegExp(`^sms_pair:v1\\|${RegExp.escape(ENDPOINT)}\\|test-p256dh\\|test-auth\\|Chrome \\(\\w+\\)\\|${extensionId}$`)
   );
   await expect(optionsPage.locator("#optionsQrContainer canvas")).toBeVisible();
 

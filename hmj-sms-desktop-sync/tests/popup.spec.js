@@ -108,7 +108,7 @@ test.describe("without a linked phone", () => {
 
     await expect(button).toHaveText("Copied!");
     expect(await popup.evaluate(() => window.copiedTexts)).toEqual([
-      expect.stringMatching(new RegExp(`^sms_pair:v1\\|${ENDPOINT}\\|test-p256dh\\|test-auth\\|`))
+      expect.stringMatching(new RegExp(`^sms_pair:v1\\|${RegExp.escape(ENDPOINT)}\\|test-p256dh\\|test-auth\\|`))
     ]);
   });
 
