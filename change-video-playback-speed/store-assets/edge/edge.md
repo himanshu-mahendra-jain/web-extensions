@@ -1,7 +1,5 @@
 Change video and audio playback speed with one click or a keyboard shortcut.
 
-Works in Microsoft Edge on Windows, macOS, Linux, ChromeOS, GooglebookOS, and Android.
-
 Change Video Playback Speed is a lightweight, open-source extension that cycles through four useful playback speeds:
 
 1x → 1.2x → 1.5x → 2x → 1x
