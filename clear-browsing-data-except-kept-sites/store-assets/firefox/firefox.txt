@@ -1,0 +1,91 @@
+Clear history, cookies and site data on browser startup for every site except the ones you keep.
+
+Firefox for Android does not let extensions clear history, so only cookies and site data are cleared there.
+
+Clear Browsing Data Except Kept Sites is a lightweight, open-source extension that removes the history entries, cookies, and site data of every site you have not chosen to keep.
+
+Add the sites you want to stay signed in to and remember on the settings page, then turn clearing on. Each time Firefox starts, the extension clears the history and cookies of all other sites. You can also clear on demand with Clear Now.
+
+KEY FEATURES
+
+• Keep a list of sites whose history and cookies are never cleared, and import or export it as a text file
+• Clear history and cookies for all other sites when Firefox starts, once you turn it on
+• Clear on demand with Clear Now on the settings page
+• Keep subdomains of a kept site automatically
+• Keep the parent-domain cookies a kept site needs to stay signed in
+• Clear partitioned (third-party) cookies and container cookies; a kept site's partitioned cookies are kept only under kept sites
+• Clear the local storage, IndexedDB, service workers, and cache of sites that are not kept
+• Show the result of the last clear on the settings page
+• Warn when site access is turned off and cookies cannot be cleared
+• No analytics or tracking
+• No remote code or network requests
+
+KEPT SITES
+
+Open the settings page and add a domain such as:
+
+example.com
+
+To add several at once, separate them with commas.
+
+Export saves the list as a text file, one domain per line. Import replaces the list with the sites in a text file, and warns first when that drops sites you keep now.
+
+An address such as mail.example.com/inbox is reduced to its domain, and a leading www. is dropped. localhost and IPv4 addresses such as 192.168.1.1 are also accepted.
+
+Keeping example.com keeps the history and cookies of example.com and all its subdomains. Keeping mail.example.com also keeps the cookies of example.com, because they often hold the subdomain's sign-in.
+
+OPEN THE SETTINGS PAGE
+
+The settings page opens automatically after installation, so you can fill in the keep list before turning clearing on. Later, click the extension icon in the toolbar. In Firefox for Android, tap Clear Browsing Data Except Kept Sites in the browser's Extensions menu.
+
+You can also open it from the add-ons manager:
+
+1. Open the Firefox menu and select Add-ons and themes.
+2. Find Clear Browsing Data Except Kept Sites and click the three-dot menu next to it.
+3. Select Preferences.
+
+CLEARING ON STARTUP
+
+Clearing is off after installation, so nothing is removed until you ask for it. The settings page shows a "Clearing is off" notice with a Turn On Clearing button. Turning it on first shows a warning: every startup deletes the history and cookies of all sites except the kept ones and signs you out of them, or of every site when none are kept.
+
+Once on, clearing runs each time Firefox starts, because Firefox does not let extensions run when it closes. Clearing at startup removes what the previous session left behind. Turn it off or on again with "Clear automatically when the browser starts" on the settings page.
+
+CLEAR NOW
+
+Clear Now on the settings page clears immediately. When no sites are kept, it first shows a red warning that everything will be deleted. The settings page shows when the last clear ran and how many history entries and cookies it deleted.
+
+SITE ACCESS
+
+Cookies can only be removed for sites the extension has access to, so it asks for access to all websites. If you turn site access off, history is still cleared but cookies are skipped, and the settings page shows an Allow Site Access button.
+
+LIMITATIONS
+
+• Firefox cannot clear site data except chosen sites, so the extension clears the local storage, IndexedDB, and service workers of each site it finds in history, cookies, and open tabs that is not kept. A site found in none of these keeps its data. A site with a kept subdomain keeps its service workers, because Firefox would clear the subdomain's with them. The cache is cleared for every site, because Firefox cannot clear it by site; this signs no one out.
+• Firefox cannot clear Cache Storage, the offline files that service workers save, by site, so it is not cleared. To remove what the extension cannot reach, use Settings > Privacy & Security > Cookies and Site Data > Manage Data.
+• Tabs restored at startup can set new cookies while the clear runs. Those cookies remain until the next startup or Clear Now.
+• If Firefox Sync includes history, removed history entries may also be removed on your other devices.
+• Private windows are cleared only when the extension is allowed to run in them.
+
+PRIVACY
+
+• No analytics or tracking
+• No data collection
+• No network requests
+• No remote code
+• No external JavaScript
+• History and cookies are read only to decide what to remove, and only inside your browser
+• The keep list and settings are stored locally in your browser
+
+PERFORMANCE
+
+The extension does no work while you browse. It runs once when Firefox starts, if clearing is on, and when you click Clear Now.
+
+The first clear of a long history can take several minutes, because each history entry is deleted individually. You can keep browsing in the meantime. Later clears only remove the previous session's entries.
+
+OPEN SOURCE
+
+Clear Browsing Data Except Kept Sites is open source and licensed under the MIT License.
+
+View the source code, report issues, or contribute on GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

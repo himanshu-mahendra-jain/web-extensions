@@ -63,9 +63,9 @@ change-video-playback-speed/
 │   ├── playback.js
 │   └── page.js
 ├── store-assets/
-│   ├── chrome/      chrome.md and Chrome Web Store images
-│   ├── edge/        edge.md and Edge Add-ons images
-│   └── firefox/     firefox.md and the Firefox screenshot
+│   ├── chrome/      chrome.txt and Chrome Web Store images
+│   ├── edge/        edge.txt and Edge Add-ons images
+│   └── firefox/     firefox.txt and the Firefox screenshot
 ├── tests/
 │   ├── android/
 │   │   ├── playback.spec.js

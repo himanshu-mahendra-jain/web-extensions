@@ -1,0 +1,64 @@
+See the SMS messages and OTP codes your Android phone receives as desktop notifications, end-to-end encrypted, and copy a code with one click.
+
+HMJ SMS Desktop Sync is a lightweight, open-source extension that pairs with the HMJ SMS app on your Android phone. When a message arrives on your phone, it appears on your desktop within moments, so you can copy a sign-in code without picking up the phone.
+
+Messages travel straight from your phone to your browser through the browser's own push service, encrypted for this browser alone. There is no server in between, and the push service cannot read them.
+
+Tip: pin the extension in Chrome's Extensions menu (the puzzle-piece icon) to keep its icon on the toolbar.
+
+KEY FEATURES
+
+• Desktop notifications for every SMS your phone receives
+• Copy OTP and Copy Message buttons on each notification; clicking the notification copies the OTP, or the message when it has none
+• Recent messages in the toolbar popup, with one-click copy
+• Shows which phone and which SIM received each message, such as SIM 2: Jio
+• Pair several phones, and unlink them from the settings page
+• Pair with one QR code scan, with no account or sign-in
+• End-to-end encrypted with standard Web Push (RFC 8291 and RFC 8292)
+• Works from the keyboard and with screen readers, and follows dark mode and high-contrast colours
+• No server, analytics, or tracking
+
+PAIR YOUR PHONE
+
+1. Click the HMJ SMS Desktop Sync icon in the toolbar to show the pairing QR code.
+2. On your phone, open the HMJ SMS app, open its menu, and choose Desktop Sync.
+3. Tap Scan QR Code and scan the code on your screen.
+
+A test notification appears on your desktop to confirm the connection. To pair another phone, click Pair Another in the popup.
+
+COPY A CODE
+
+When a message with a code arrives, click Copy OTP on the notification, or click the notification itself, and paste the code where you need it. An OTP delivered more than 10 minutes late is marked as expired, and only its message can be copied.
+
+SETTINGS
+
+Click the gear in the popup to open the settings page. It lists your connected phones with when each was last active, shows the pairing QR code, sends a test notification, and clears all stored messages.
+
+PRIVACY
+
+• No server: messages go from your phone to your browser through the browser's push service, encrypted so only this browser can read them
+• No analytics or tracking
+• No remote code or external JavaScript
+• Messages and phone names are stored only in your browser
+• Messages older than 24 hours are removed automatically, and at most 100 messages are kept
+• Clear Recent Messages on the settings page removes all stored messages at once
+
+PERMISSIONS
+
+• Notifications: shows each incoming message as a desktop notification
+• Clipboard: copies an OTP or a message when you click a notification or a copy button
+• Storage: keeps the linked phones and recent messages locally in your browser
+• Offscreen document: writes to the clipboard, which the background service worker cannot do itself
+
+LIMITATIONS
+
+• Requires the HMJ SMS app on an Android phone.
+• Unlink removes a phone from the list only. A phone that is still paired can keep sending, and its next message lists it again.
+
+OPEN SOURCE
+
+HMJ SMS Desktop Sync is open source and licensed under the MIT License.
+
+View the source code, report issues, or contribute on GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions
