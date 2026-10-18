@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Three Finger Tap to Close Tab",
+  "version": "1.0.3",
+  "minimum_chrome_version": "103",
+  "description": "Close the current tab with a three-finger tap or middle click outside links and editable fields.",
+  "homepage_url": "https://github.com/himanshu-mahendra-jain/web-extensions",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Three Finger Tap to Close Tab",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "src/extension-api.js",
+        "src/content.js"
+      ],
+      "all_frames": false,
+      "run_at": "document_start"
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+  }
+}

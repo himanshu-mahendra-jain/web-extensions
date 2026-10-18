@@ -1,0 +1,37 @@
+name: Draft releases
+
+# Tests run by hand with check.sh before a draft is published; this
+# workflow only builds the packages and keeps the drafts current.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# No token access unless a job asks for it.
+permissions: {}
+
+# One run at a time, so two pushes never draft the same version twice.
+concurrency:
+  group: draft-releases
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-26.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      # The full history brings every tag, which marks released versions.
+      # gh gets its token from the next step, so git keeps none.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Draft a release of each new extension version
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: .github/draft-releases.sh

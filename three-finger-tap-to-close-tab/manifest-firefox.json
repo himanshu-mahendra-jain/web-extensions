@@ -1,0 +1,63 @@
+{
+    "manifest_version": 3,
+    "name": "Three Finger Tap to Close Tab",
+    "version": "1.0.3",
+    "description": "Close the current tab with a three-finger tap or middle click outside links and editable fields.",
+    "homepage_url": "https://github.com/himanshu-mahendra-jain/web-extensions",
+    "developer": {
+        "name": "Himanshu Mahendra Jain",
+        "url": "https://github.com/himanshu-mahendra-jain/web-extensions"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "three-finger-tap-close-tab@himanshu-mahendra-jain",
+            "strict_min_version": "153.0",
+            "data_collection_permissions": {
+                "required": [
+                    "none"
+                ]
+            }
+        },
+        "gecko_android": {
+            "strict_min_version": "153.0"
+        }
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "action": {
+        "default_title": "Three Finger Tap to Close Tab",
+        "default_area": "navbar",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "32": "icons/icon32.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ],
+        "type": "module"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "src/extension-api.js",
+                "src/content.js"
+            ],
+            "all_frames": false,
+            "run_at": "document_start"
+        }
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    }
+}

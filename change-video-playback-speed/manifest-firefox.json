@@ -1,0 +1,64 @@
+{
+    "manifest_version": 3,
+    "name": "Change Video Playback Speed",
+    "version": "1.0.4",
+    "description": "Quickly change video and audio playback speed between 1x, 1.2x, 1.5x, and 2x.",
+    "homepage_url": "https://github.com/himanshu-mahendra-jain/web-extensions",
+    "developer": {
+        "name": "Himanshu Mahendra Jain",
+        "url": "https://github.com/himanshu-mahendra-jain/web-extensions"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "change-video-playback-speed@himanshu-mahendra-jain",
+            "strict_min_version": "153.0",
+            "data_collection_permissions": {
+                "required": [
+                    "none"
+                ]
+            }
+        },
+        "gecko_android": {
+            "strict_min_version": "153.0"
+        }
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "action": {
+        "default_title": "Change Video Playback Speed",
+        "default_area": "navbar",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "32": "icons/icon32.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "commands": {
+        "change-playback-speed": {
+            "suggested_key": {
+                "windows": "Ctrl+Shift+Period",
+                "linux": "Ctrl+Shift+Period",
+                "mac": "Command+Shift+Period"
+            },
+            "description": "Change video playback speed"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ],
+        "type": "module"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    }
+}
