@@ -1,7 +1,5 @@
 Enable copying, text selection, and right-click menus on restricted webpages.
 
-Works in Microsoft Edge on Windows, macOS, Linux, ChromeOS, GooglebookOS, and Android.
-
 Enable Copy and Right Click is a lightweight, open-source extension that restores normal copy, text selection, and right-click behavior on webpages that restrict these actions.
 
 Click the extension icon in the toolbar or use the keyboard shortcut to enable copying and right click on the current tab.

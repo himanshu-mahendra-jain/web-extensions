@@ -1,7 +1,5 @@
 Close the current tab with a three-finger tap, middle click, or toolbar click.
 
-Works in Microsoft Edge on Windows, macOS, Linux, ChromeOS, GooglebookOS, and Android.
-
 Three Finger Tap to Close Tab is a lightweight, open-source extension that provides a quick and simple way to close the current browser tab.
 
 Three-finger tap or middle-click anywhere on a webpage outside links and editable fields to close the current tab. You can also click the extension icon in the toolbar to close the tab.
