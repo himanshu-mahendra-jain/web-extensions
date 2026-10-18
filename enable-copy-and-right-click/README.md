@@ -73,9 +73,9 @@ enable-copy-and-right-click/
 │   ├── enable.js
 │   └── site-utils.js
 ├── store-assets/
-│   ├── chrome/      chrome.md and Chrome Web Store images
-│   ├── edge/        edge.md and Edge Add-ons images
-│   └── firefox/     firefox.md and the Firefox screenshots
+│   ├── chrome/      chrome.txt and Chrome Web Store images
+│   ├── edge/        edge.txt and Edge Add-ons images
+│   └── firefox/     firefox.txt and the Firefox screenshots
 ├── tests/
 │   ├── android/
 │   │   ├── automatic-sites.spec.js
