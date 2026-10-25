@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Arifa za SMS na OTP papo hapo kutoka kwa simu yako ya Android, bila seva, zimesimbwa kwa njia fiche, nakili kwa mbofyo 1."
+  },
+  "statusLinked": {
+    "message": "Imeunganishwa"
+  },
+  "statusLinkedCount_one": {
+    "message": "Zimeunganishwa: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "Zimeunganishwa: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Haijaunganishwa"
+  },
+  "pairButton": {
+    "message": "Oanisha"
+  },
+  "pairButtonTitle": {
+    "message": "Onyesha msimbo wa QR wa kuoanisha"
+  },
+  "pairAnotherButton": {
+    "message": "Ongeza"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Onyesha msimbo wa QR ili kuunganisha simu nyingine"
+  },
+  "moreOptions": {
+    "message": "Chaguo zaidi"
+  },
+  "unlinkAllPhones": {
+    "message": "Tenganisha simu zote"
+  },
+  "clearMessages": {
+    "message": "Futa ujumbe"
+  },
+  "phoneFallbackName": {
+    "message": "Simu"
+  },
+  "bannerLinked": {
+    "message": "(imeunganishwa)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "(Simu $COUNT$ imeunganishwa)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "(Simu $COUNT$ zimeunganishwa)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Inatumika"
+  },
+  "linkedPhones": {
+    "message": "Simu zilizounganishwa"
+  },
+  "lastActive": {
+    "message": "Ilitumika mwisho: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Tenganisha"
+  },
+  "unlinkPhone": {
+    "message": "Tenganisha $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Ungependa kutenganisha $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Ujumbe kutoka $NAME$ utapuuzwa hapa. Ili isitume tena, tenganisha pia kompyuta hii kwenye programu ya SMS ya simu hiyo.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ imetenganishwa.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Oanisha na simu ya Android"
+  },
+  "pairOpenApp": {
+    "message": "Fungua programu ya HMJ SMS kwenye simu"
+  },
+  "pairAppPath": {
+    "message": "Mipangilio → Usawazishaji wa Kompyuta → Changanua Msimbo wa QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Msimbo wa QR wa kuoanisha"
+  },
+  "copyCode": {
+    "message": "Nakili msimbo"
+  },
+  "hide": {
+    "message": "Ficha"
+  },
+  "pairingWarning": {
+    "message": "Msimbo huu una funguo za muunganisho wako. Uonyeshe au ubandike kwenye simu yako tu, na uuweke mbali na usawazishaji wa ubao wa kunakili na kushiriki skrini."
+  },
+  "pairingChanged": {
+    "message": "Uoanishaji wako umebadilika. Changanua msimbo wa QR tena kwenye kila simu.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Arifa za kiendelezi hiki zimezimwa kwenye kivinjari, kwa hivyo ujumbe huhifadhiwa lakini hauonyeshwi.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Tayari kupokea SMS"
+  },
+  "emptyText": {
+    "message": "SMS na OTP zinazoingia zitaonekana hapa papo hapo."
+  },
+  "showPairingQrCode": {
+    "message": "Onyesha msimbo wa QR wa kuoanisha"
+  },
+  "connectedTo": {
+    "message": "Imeunganishwa na $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Imeunganishwa na simu $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Imeunganishwa na simu $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Inasubiri arifa za SMS na OTP kutoka $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Ghairi"
+  },
+  "copied": {
+    "message": "Imenakiliwa!"
+  },
+  "pairingCodeCopied": {
+    "message": "Msimbo wa kuoanisha umenakiliwa."
+  },
+  "otpCopied": {
+    "message": "OTP imenakiliwa."
+  },
+  "messageCopied": {
+    "message": "Ujumbe umenakiliwa."
+  },
+  "copyFailed": {
+    "message": "Imeshindwa kunakili: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Hakuna jibu kutoka kwa mchakato wa chinichini."
+  },
+  "unlinkAllTitle": {
+    "message": "Ungependa kutenganisha simu zote?"
+  },
+  "unlinkAllText": {
+    "message": "Kompyuta hii itapata msimbo mpya wa kuoanisha, na hakuna simu itakayoweza kuifikia tena. Ujumbe wote uliohifadhiwa kwenye kiendelezi hiki utaondolewa. Simu unazotaka kubaki nazo lazima zichanganue msimbo mpya wa QR."
+  },
+  "unlinkAllAction": {
+    "message": "Tenganisha zote"
+  },
+  "allPhonesUnlinked": {
+    "message": "Simu zote zimetenganishwa na ujumbe umefutwa. Changanua msimbo mpya wa QR ili kuoanisha tena."
+  },
+  "unlinkFailed": {
+    "message": "Imeshindwa kutenganisha: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Ungependa kufuta ujumbe wa hivi karibuni?"
+  },
+  "clearText": {
+    "message": "Ujumbe wote uliohifadhiwa kwenye kiendelezi hiki utaondolewa. Ujumbe ulio kwenye simu yako hautaathiriwa."
+  },
+  "messagesCleared": {
+    "message": "Ujumbe wote uliohifadhiwa umefutwa."
+  },
+  "clearFailed": {
+    "message": "Imeshindwa kufuta ujumbe: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Imeshindwa kuunda msimbo wa kuoanisha: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Ujumbe mpya kutoka $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Haijulikani"
+  },
+  "tagGroup": {
+    "message": "Kikundi"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Pamoja na $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Nakili OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Nakili maandishi"
+  },
+  "copyMessage": {
+    "message": "Nakili ujumbe"
+  },
+  "justNow": {
+    "message": "Sasa hivi"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Picha"
+  },
+  "photos_one": {
+    "message": "Picha $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "Picha $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Video"
+  },
+  "videos_one": {
+    "message": "Video $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "Video $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Sauti"
+  },
+  "audioClips_one": {
+    "message": "Klipu $COUNT$ ya sauti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "Klipu $COUNT$ za sauti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Mwasiliani"
+  },
+  "contacts_one": {
+    "message": "Mwasiliani $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "Waasiliani $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Faili"
+  },
+  "files_one": {
+    "message": "Faili $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "Faili $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ katika kikundi na $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "SMS mpya kutoka $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "MMS mpya kutoka $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Ujumbe mpya umepokelewa kutoka kwa simu"
+  },
+  "linkVerified": {
+    "message": "Muunganisho na $NAME$ umethibitishwa! Arifa za SMS za papo hapo zinatumika.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP IMEISHA MUDA]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Umewasilishwa baada ya kukatika) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ imetenganishwa",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Simu"
+  },
+  "ignoredMessages_one": {
+    "message": "Ujumbe $COUNT$ umepuuzwa. Tenganisha kompyuta hii kwenye programu ya SMS ya simu hiyo ili kuuzuia, au bofya hapa ili kutenganisha simu zote.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "Jumbe $COUNT$ zimepuuzwa. Tenganisha kompyuta hii kwenye programu ya SMS ya simu hiyo ili kuzizuia, au bofya hapa ili kutenganisha simu zote.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Msimbo wa kuoanisha ni mrefu mno kwa simu kuusoma."
+  },
+  "noPhoneToUnlink": {
+    "message": "Hakuna simu ya kutenganisha."
+  },
+  "noPushService": {
+    "message": "Kivinjari hiki hakiwezi kupokea ujumbe wa kusukuma."
+  }
+}

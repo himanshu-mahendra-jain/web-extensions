@@ -1,4 +1,4 @@
-import { ORIGIN, routeExtensionFiles } from "./harness.js";
+import { ORIGIN, defaultLocaleMessages, installFakeI18n, routeExtensionFiles } from "./harness.js";
 
 
 /*
@@ -13,6 +13,7 @@ export async function openFakeHarness(page, extensionPath, installFake, options 
   await routeExtensionFiles(page, extensionPath, { firefox: options.firefox });
 
   await page.goto(`${ORIGIN}/`);
+  await page.evaluate(installFakeI18n, { messages: defaultLocaleMessages(extensionPath) });
   await page.evaluate(installFakeKit);
   await page.evaluate(installFake, options);
 }
@@ -31,10 +32,13 @@ export async function openFakeHarness(page, extensionPath, installFake, options 
  * - recordingQuery(fake): a tabs.query() that records each query in
  *   fake.queries, answers fake.activeTabs and fails while
  *   fake.queryFails is set
- * - message(event, request): resolves with the reply of the
- *   listener that answers a runtime message
+ * - message(event, request, sender): resolves with the reply of the
+ *   listener that answers a runtime message; sender is what the
+ *   browser says sent it, by default one of the extension's own pages
  * - expose(api, firefox): names the fake APIs browser in Firefox and
  *   chrome elsewhere, never both
+ * - i18n: an i18n API that answers from the extension's default
+ *   locale; see installFakeI18n()
  */
 function installFakeKit() {
   const listeners = () => {
@@ -89,10 +93,17 @@ function installFakeKit() {
     return fake.activeTabs;
   };
 
-  const message = (event, request) => {
+  // A sender as the browser describes one of the extension's own pages.
+  const ownPage = () => {
+    const { runtime } = window.browser ?? window.chrome;
+
+    return { id: runtime.id, url: runtime.getURL("src/popup.html") };
+  };
+
+  const message = (event, request, sender = ownPage()) => {
     return new Promise((resolve) => {
       for (const listener of event.list) {
-        listener(request, {}, resolve);
+        listener(request, sender, resolve);
       }
     });
   };
@@ -108,6 +119,7 @@ function installFakeKit() {
     recordingAction,
     recordingQuery,
     message,
-    expose
+    expose,
+    i18n: window.fakeI18n
   };
 }

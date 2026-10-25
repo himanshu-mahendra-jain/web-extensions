@@ -117,6 +117,7 @@ remove_firefox_excludes() {
 
 # Package one extension directory into its own dist/ directory.
 # Runs in a subshell so the cd and the per-extension variables stay local.
+# _locales/, when the extension has one, goes into every package as it is.
 build_extension() {
     local extension_directory="$1"
     (
@@ -187,6 +188,9 @@ build_extension() {
         # Prepare Chromium package files.
         cp "$CHROMIUM_MANIFEST" "$CHROMIUM_STAGE/manifest.json"
         cp -R "icons" "$CHROMIUM_STAGE/icons"
+        if [ -d "_locales" ]; then
+            cp -R "_locales" "$CHROMIUM_STAGE/_locales"
+        fi
         if [ ! -f "options/placeholder" ]; then
             cp -R "options" "$CHROMIUM_STAGE/options"
         fi
@@ -202,6 +206,9 @@ build_extension() {
             # Prepare Firefox package files.
             cp "$FIREFOX_MANIFEST" "$FIREFOX_STAGE/manifest.json"
             cp -R "icons" "$FIREFOX_STAGE/icons"
+            if [ -d "_locales" ]; then
+                cp -R "_locales" "$FIREFOX_STAGE/_locales"
+            fi
             if [ ! -f "options/placeholder" ]; then
                 cp -R "options" "$FIREFOX_STAGE/options"
             fi

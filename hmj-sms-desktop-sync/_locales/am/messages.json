@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "ከAndroid ስልክዎ ያለ አገልጋይ፣ ከጫፍ እስከ ጫፍ የተመሰጠሩ የSMS እና OTP ማሳወቂያዎች በቅጽበት፣ በአንድ ጠቅታ ይቅዱ።"
+  },
+  "statusLinked": {
+    "message": "ተገናኝቷል"
+  },
+  "statusLinkedCount_one": {
+    "message": "የተገናኙ፦ $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "የተገናኙ፦ $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "አልተገናኘም"
+  },
+  "pairButton": {
+    "message": "አጣምር"
+  },
+  "pairButtonTitle": {
+    "message": "የማጣመሪያ QR ኮድ አሳይ"
+  },
+  "pairAnotherButton": {
+    "message": "አክል"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "ሌላ ስልክ ለማገናኘት QR ኮድ አሳይ"
+  },
+  "moreOptions": {
+    "message": "ተጨማሪ አማራጮች"
+  },
+  "unlinkAllPhones": {
+    "message": "ሁሉንም ስልኮች አላቅቅ"
+  },
+  "clearMessages": {
+    "message": "መልዕክቶችን አጽዳ"
+  },
+  "phoneFallbackName": {
+    "message": "ስልክ"
+  },
+  "bannerLinked": {
+    "message": "(ተገናኝቷል)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ ስልክ ተገናኝቷል)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ ስልኮች ተገናኝተዋል)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "ንቁ"
+  },
+  "linkedPhones": {
+    "message": "የተገናኙ ስልኮች"
+  },
+  "lastActive": {
+    "message": "ለመጨረሻ ጊዜ ንቁ፦ $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "አላቅቅ"
+  },
+  "unlinkPhone": {
+    "message": "$NAME$ን አላቅቅ",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "$NAME$ ይላቀቅ?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "ከ$NAME$ የሚመጡ መልዕክቶች እዚህ ችላ ይባላሉ። መላክ እንዲያቆም በዚያ ስልክ ላይ ባለው የSMS መተግበሪያ ውስጥም ይህን ኮምፒውተር ያላቅቁ።",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ ተላቅቋል።",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "ከAndroid ስልክ ጋር አጣምር"
+  },
+  "pairOpenApp": {
+    "message": "በስልኩ ላይ የHMJ SMS መተግበሪያን ይክፈቱ"
+  },
+  "pairAppPath": {
+    "message": "ቅንብሮች → የዴስክቶፕ ማመሳሰል → የQR ኮድ ይቃኙ",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "የማጣመሪያ QR ኮድ"
+  },
+  "copyCode": {
+    "message": "ኮድ ቅዳ"
+  },
+  "hide": {
+    "message": "ደብቅ"
+  },
+  "pairingWarning": {
+    "message": "ይህ ኮድ የግንኙነትዎን ቁልፎች ይዟል። በራስዎ ስልክ ላይ ብቻ ያሳዩት ወይም ይለጥፉት፣ እና ከቅንጥብ ሰሌዳ ማመሳሰል እና ከማያ ገጽ ማጋራት ያርቁት።"
+  },
+  "pairingChanged": {
+    "message": "ማጣመርዎ ተቀይሯል። በእያንዳንዱ ስልክ ላይ QR ኮዱን እንደገና ይቃኙ።",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "ለዚህ ቅጥያ ማሳወቂያዎች በአሳሹ ውስጥ ጠፍተዋል፣ ስለዚህ መልዕክቶች ይቀመጣሉ ግን አይታዩም።",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "ገቢ SMS ለመቀበል ዝግጁ"
+  },
+  "emptyText": {
+    "message": "ገቢ SMS እና OTPዎች እዚህ በቅጽበት ይታያሉ።"
+  },
+  "showPairingQrCode": {
+    "message": "የማጣመሪያ QR ኮድ አሳይ"
+  },
+  "connectedTo": {
+    "message": "ከ$NAME$ ጋር ተገናኝቷል",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "ከ$COUNT$ ስልክ ጋር ተገናኝቷል",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "ከ$COUNT$ ስልኮች ጋር ተገናኝቷል",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "ከ$NAMES$ የSMS እና OTP ማንቂያዎችን በመጠበቅ ላይ።",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "ይቅር"
+  },
+  "copied": {
+    "message": "ተቀድቷል!"
+  },
+  "pairingCodeCopied": {
+    "message": "የማጣመሪያ ኮዱ ተቀድቷል።"
+  },
+  "otpCopied": {
+    "message": "OTP ተቀድቷል።"
+  },
+  "messageCopied": {
+    "message": "መልዕክቱ ተቀድቷል።"
+  },
+  "copyFailed": {
+    "message": "መቅዳት አልተሳካም፦ $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "ከጀርባ ሂደቱ ምላሽ የለም።"
+  },
+  "unlinkAllTitle": {
+    "message": "ሁሉም ስልኮች ይላቀቁ?"
+  },
+  "unlinkAllText": {
+    "message": "ይህ ኮምፒውተር አዲስ የማጣመሪያ ኮድ ያገኛል፣ እና ምንም ስልክ ከዚህ በኋላ ሊደርስበት አይችልም። በዚህ ቅጥያ ውስጥ የተከማቹ ሁሉም መልዕክቶች ይወገዳሉ። የሚያቆዩዋቸው ስልኮች አዲሱን QR ኮድ መቃኘት አለባቸው።"
+  },
+  "unlinkAllAction": {
+    "message": "ሁሉንም አላቅቅ"
+  },
+  "allPhonesUnlinked": {
+    "message": "ሁሉም ስልኮች ተላቀዋል፣ መልዕክቶችም ጸድተዋል። እንደገና ለማጣመር አዲሱን QR ኮድ ይቃኙ።"
+  },
+  "unlinkFailed": {
+    "message": "ማላቀቅ አልተሳካም፦ $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "የቅርብ ጊዜ መልዕክቶች ይጽዱ?"
+  },
+  "clearText": {
+    "message": "በዚህ ቅጥያ ውስጥ የተከማቹ ሁሉም መልዕክቶች ይወገዳሉ። በስልክዎ ላይ ያሉ መልዕክቶች አይነኩም።"
+  },
+  "messagesCleared": {
+    "message": "ሁሉም የተከማቹ መልዕክቶች ጸድተዋል።"
+  },
+  "clearFailed": {
+    "message": "መልዕክቶችን ማጽዳት አልተሳካም፦ $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "የማጣመሪያ ኮድ መፍጠር አልተቻለም፦ $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "ከ$SENDER$ አዲስ መልዕክት።",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "ያልታወቀ"
+  },
+  "tagGroup": {
+    "message": "ቡድን"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "ከ$NAMES$ ጋር",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "OTP ቅዳ ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "ጽሑፍ ቅዳ"
+  },
+  "copyMessage": {
+    "message": "መልዕክት ቅዳ"
+  },
+  "justNow": {
+    "message": "አሁን"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "ፎቶ"
+  },
+  "photos_one": {
+    "message": "$COUNT$ ፎቶ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ ፎቶዎች",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "ቪዲዮ"
+  },
+  "videos_one": {
+    "message": "$COUNT$ ቪዲዮ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ ቪዲዮዎች",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "ድምጽ"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ የድምጽ ቅንጥብ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ የድምጽ ቅንጥቦች",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "እውቂያ"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ እውቂያ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ እውቂያዎች",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "ፋይል"
+  },
+  "files_one": {
+    "message": "$COUNT$ ፋይል",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ ፋይሎች",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ ከ$NAMES$ ጋር በቡድን",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "ከ$SENDER$ አዲስ SMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "ከ$SENDER$ አዲስ MMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "ከስልኩ አዲስ መልዕክት ደርሷል"
+  },
+  "linkVerified": {
+    "message": "ከ$NAME$ ጋር ያለው ግንኙነት ተረጋግጧል! ፈጣን የSMS ማንቂያዎች ንቁ ናቸው።",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[ጊዜው ያለፈበት OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(ግንኙነት ከተቋረጠ በኋላ የደረሰ) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ ተላቅቋል",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "አንድ ስልክ"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ መልዕክት ችላ ተብሏል። እነሱን ለማስቆም በዚያ ስልክ ላይ ባለው የSMS መተግበሪያ ውስጥ ይህን ኮምፒውተር ያላቅቁ፣ ወይም ሁሉንም ስልኮች ለማላቀቅ እዚህ ጠቅ ያድርጉ።",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ መልዕክቶች ችላ ተብለዋል። እነሱን ለማስቆም በዚያ ስልክ ላይ ባለው የSMS መተግበሪያ ውስጥ ይህን ኮምፒውተር ያላቅቁ፣ ወይም ሁሉንም ስልኮች ለማላቀቅ እዚህ ጠቅ ያድርጉ።",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "የማጣመሪያ ኮዱ ስልኩ ሊያነበው ከሚችለው በላይ ረጅም ነው።"
+  },
+  "noPhoneToUnlink": {
+    "message": "የሚላቀቅ ስልክ የለም።"
+  },
+  "noPushService": {
+    "message": "ይህ አሳሽ የpush መልዕክቶችን መቀበል አይችልም።"
+  }
+}

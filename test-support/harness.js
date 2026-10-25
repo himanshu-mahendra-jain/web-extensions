@@ -8,9 +8,67 @@ const CONTENT_TYPES = {
   ".css": "text/css",
   ".html": "text/html",
   ".js": "text/javascript",
+  ".json": "application/json",
   ".png": "image/png",
   ".svg": "image/svg+xml"
 };
+
+
+/*
+ * The messages of an extension's default locale, from
+ * _locales/<default_locale>/messages.json, or {} for an extension
+ * without default_locale.
+ */
+export function defaultLocaleMessages(extensionPath) {
+  const manifest = JSON.parse(fs.readFileSync(path.join(extensionPath, "manifest.json"), "utf8"));
+
+  if (!manifest.default_locale) {
+    return {};
+  }
+
+  return JSON.parse(fs.readFileSync(
+    path.join(extensionPath, "_locales", manifest.default_locale, "messages.json"),
+    "utf8"
+  ));
+}
+
+
+/*
+ * Runs in the page. Sets window.fakeI18n to an i18n API that answers
+ * from messages, as the browser does for its UI language when the
+ * extension has no messages of that language: getMessage() fills
+ * $NAME$ placeholders and $1 to $9 from the substitutions, turns $$
+ * into $, and answers "" for a message it does not have. direction is
+ * what @@bidi_dir answers, "rtl" as for Arabic, Hebrew or Persian.
+ */
+export function installFakeI18n({ messages, direction = "ltr" }) {
+  const predefined = { "@@bidi_dir": direction, "@@ui_locale": "en" };
+
+  window.fakeI18n = {
+    getUILanguage: () => navigator.language,
+
+    getMessage: (name, substitutions = []) => {
+      if (name in predefined) {
+        return predefined[name];
+      }
+
+      const entry = messages[name];
+
+      if (!entry) {
+        return "";
+      }
+
+      const values = [].concat(substitutions).map(String);
+      const placeholders = Object.fromEntries(
+        Object.entries(entry.placeholders ?? {}).map(([key, { content }]) => [key.toLowerCase(), content])
+      );
+
+      return entry.message
+        .replace(/\$([\w@]+)\$/g, (match, key) => placeholders[key.toLowerCase()] ?? match)
+        .replace(/\$(\$|[1-9])/g, (match, which) => (which === "$" ? "$" : values[which - 1] ?? ""));
+    }
+  };
+}
 
 
 /*

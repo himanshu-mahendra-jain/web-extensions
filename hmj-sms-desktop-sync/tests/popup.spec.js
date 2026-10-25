@@ -2,6 +2,8 @@ import {
   test as base,
   expect,
   ENDPOINT,
+  PAIRING_CODE_PATTERN,
+  getStorage,
   setStorage,
   shownNotifications,
   minutesAgo
@@ -67,6 +69,30 @@ async function rendersSince(page, serviceWorker, before) {
 }
 
 
+// Replaces the page's messages to the background script, before it loads.
+async function answerMessages(page, answer) {
+  await page.addInitScript((answer) => {
+    if (!globalThis.chrome?.runtime) {
+      return;
+    }
+
+    const sendMessage = chrome.runtime.sendMessage.bind(chrome.runtime);
+
+    chrome.runtime.sendMessage = (message) => {
+      if (answer.only && message?.type !== answer.only) {
+        return sendMessage(message);
+      }
+
+      return answer.error
+        ? Promise.reject(new Error(answer.error))
+        : Promise.resolve(answer.reply);
+    };
+  }, answer);
+
+  await page.reload();
+}
+
+
 const test = base.extend({
   // Storage to seed before the popup opens.
   stored: [{}, { option: true }],
@@ -86,21 +112,26 @@ const test = base.extend({
 });
 
 
-const PIXEL = { id: "pixel", name: "Pixel 8", lastSeen: minutesAgo(5), paired: true };
-const GALAXY = { id: "galaxy", name: "Galaxy S24", lastSeen: minutesAgo(1), paired: true };
+const PIXEL = { id: "pixel", name: "Pixel 8", lastSeen: minutesAgo(5) };
+const GALAXY = { id: "galaxy", name: "Galaxy S24", lastSeen: minutesAgo(1) };
 
 
 test.describe("without a linked phone", () => {
-  test("shows the pairing QR code", async ({ popup }) => {
+  test("shows the pairing QR code and warns that it holds keys", async ({ popup }) => {
     await expect(popup.locator("#syncStatusBadge")).toHaveText("Not Linked");
     await expect(popup.locator("#qrContainer canvas")).toBeVisible();
     await expect(popup.locator("#deviceBanner")).toBeHidden();
     await expect(popup.locator("#emptyTitle")).toHaveText("Ready for incoming SMS");
-    expect(await popup.evaluate(() => window.requests)).toEqual(["GET_PAIRING_CODE"]);
+    await expect(popup.locator(".qr-warning")).toHaveText(
+      /^This code holds the keys to your link\. Show or paste it only on your own phone, and keep it\s+away from clipboard sync and screen sharing\.$/
+    );
+    await expect(popup.locator("#repairBanner")).toBeHidden();
+    await expect(popup.locator("#notificationsOffBanner")).toBeHidden();
+    expect(await popup.evaluate(() => window.requests)).toEqual(["GET_STATUS", "GET_PAIRING_CODE"]);
   });
 
 
-  test("Copy Code copies the pairing text", async ({ popup }) => {
+  test("Copy Code copies the v2 pairing code", async ({ popup }) => {
     const button = popup.locator("#btnCopyPairingCode");
 
     await expect(popup.locator("#qrContainer canvas")).toBeVisible();
@@ -108,8 +139,9 @@ test.describe("without a linked phone", () => {
 
     await expect(button).toHaveText("Copied!");
     expect(await popup.evaluate(() => window.copiedTexts)).toEqual([
-      expect.stringMatching(new RegExp(`^sms_pair:v1\\|${RegExp.escape(ENDPOINT)}\\|test-p256dh\\|test-auth\\|`))
+      expect.stringMatching(PAIRING_CODE_PATTERN)
     ]);
+    expect((await popup.evaluate(() => window.copiedTexts))[0].split("|")[1]).toBe(ENDPOINT);
   });
 
 
@@ -123,13 +155,25 @@ test.describe("without a linked phone", () => {
 
     await button.click();
 
-    await expect(popup.locator("#qrPanel").getByRole("status"))
+    await expect(popup.locator("#copyStatus"))
       .toHaveText("Failed to copy: Clipboard is blocked.");
     await expect(button).not.toHaveText("Copied!");
   });
 
 
-  test("a phone that links while the popup is open replaces the QR code",async ({ popup, serviceWorker }) => {
+  test("a pairing code the background cannot make says why", async ({ popup }) => {
+    await answerMessages(popup, {
+      only: "GET_PAIRING_CODE",
+      reply: { ok: false, error: "Registration failed - push service error" }
+    });
+
+    await expect(popup.locator("#copyStatus"))
+      .toHaveText("Could not make a pairing code: Registration failed - push service error");
+    await expect(popup.locator("#qrContainer canvas")).toHaveCount(0);
+  });
+
+
+  test("a phone that links while the popup is open replaces the QR code", async ({ popup, serviceWorker }) => {
     await expect(popup.locator("#qrPanel")).toBeVisible();
 
     await setStorage(serviceWorker, { connected_devices: { pixel: PIXEL } });
@@ -137,6 +181,59 @@ test.describe("without a linked phone", () => {
     await expect(popup.locator("#qrPanel")).toBeHidden();
     await expect(popup.locator("#syncStatusBadge")).toHaveText("Linked");
   });
+});
+
+
+test.describe("when the phones lost this browser", () => {
+  // The phones were given an address that the browser has no subscription for any more.
+  test.use({ stored: { push_endpoint: `${ENDPOINT}-old`, connected_devices: { pixel: PIXEL } } });
+
+
+  test("opening the popup finds the subscription ended, and asks to pair again", async ({ popup, serviceWorker }) => {
+    await expect(popup.locator("#repairBanner")).toHaveText(
+      /^Your pairing changed\. Scan the QR code\s+again on each phone\.$/
+    );
+    await expect(popup.locator("#syncStatusBadge")).toHaveText("Not Linked");
+    await expect(popup.locator("#deviceBanner")).toBeHidden();
+    await expect(popup.locator("#qrContainer canvas")).toBeVisible();
+    expect(await getStorage(serviceWorker, "connected_devices")).toEqual({});
+    // The QR code holds a new subscription, which the phones are now given.
+    await expect.poll(() => getStorage(serviceWorker, "push_endpoint")).toBe(ENDPOINT);
+  });
+});
+
+
+test("a pairing lost while the popup is open shows the banner and the QR code", async ({ popup, serviceWorker }) => {
+  await setStorage(serviceWorker, { connected_devices: { pixel: PIXEL } });
+  await expect(popup.locator("#syncStatusBadge")).toHaveText("Linked");
+  await expect(popup.locator("#repairBanner")).toBeHidden();
+
+  await setStorage(serviceWorker, { needs_repair: true, connected_devices: {} });
+
+  await expect(popup.locator("#repairBanner")).toBeVisible();
+  await expect(popup.locator("#qrPanel")).toBeVisible();
+  // A banner that appears while the popup is open is read out.
+  await expect(popup.locator("#announcer")).toHaveText("Your pairing changed. Scan the QR code again on each phone.");
+
+  // A phone that pairs again reaches the new address.
+  await setStorage(serviceWorker, { needs_repair: false, connected_devices: { pixel: PIXEL } });
+
+  await expect(popup.locator("#repairBanner")).toBeHidden();
+});
+
+
+test("notifications turned off in the browser show a banner", async ({ popup, serviceWorker }) => {
+  await serviceWorker.evaluate(() => {
+    chrome.notifications.getPermissionLevel = async () => "denied";
+  });
+  await popup.reload();
+
+  await expect(popup.locator("#notificationsOffBanner")).toHaveText(
+    /^Notifications are turned\s+off for this extension in the browser, so messages are stored but not shown\.$/
+  );
+  await expect(popup.locator("#repairBanner")).toBeHidden();
+  // A banner the popup opens with is read in its place, not announced as well.
+  await expect(popup.locator("#announcer")).toBeEmpty();
 });
 
 
@@ -157,12 +254,12 @@ test.describe("with one linked phone", () => {
 
   test("asks for the pairing code only when the QR code is shown", async ({ popup }) => {
     await expect(popup.locator("#syncStatusBadge")).toHaveText("Linked");
-    expect(await popup.evaluate(() => window.requests)).toEqual([]);
+    expect(await popup.evaluate(() => window.requests)).toEqual(["GET_STATUS"]);
 
     await popup.getByRole("button", { name: "Pair Another" }).click();
 
     await expect(popup.locator("#qrContainer canvas")).toBeVisible();
-    expect(await popup.evaluate(() => window.requests)).toEqual(["GET_PAIRING_CODE"]);
+    expect(await popup.evaluate(() => window.requests)).toEqual(["GET_STATUS", "GET_PAIRING_CODE"]);
   });
 
 
@@ -204,6 +301,117 @@ test.describe("with two linked phones", () => {
     await expect(popup.locator("#emptySub")).toHaveText(
       "Waiting for incoming SMS & OTP alerts from Galaxy S24 and Pixel 8."
     );
+  });
+
+
+  test("the banner opens and closes the list of phones", async ({ popup }) => {
+    const banner = popup.locator("#deviceBanner");
+    const list = popup.getByRole("region", { name: "Linked phones" });
+
+    await expect(banner).toHaveAttribute("aria-expanded", "false");
+    await expect(list).toBeHidden();
+
+    await banner.click();
+
+    await expect(banner).toHaveAttribute("aria-expanded", "true");
+    await expect(list.getByRole("listitem")).toHaveText([
+      /Galaxy S24\s*Last active 1m ago\s*Unlink/,
+      /Pixel 8\s*Last active 5m ago\s*Unlink/
+    ]);
+
+    await banner.click();
+    await expect(list).toBeHidden();
+  });
+
+
+  test("Unlink asks in a dialog, then ignores the phone", async ({ popup, serviceWorker }) => {
+    await popup.locator("#deviceBanner").click();
+    await popup.getByRole("button", { name: "Unlink Pixel 8" }).click();
+
+    const dialog = popup.getByRole("dialog", { name: "Unlink Pixel 8?" });
+
+    await expect(dialog).toHaveAccessibleDescription(
+      "Messages from Pixel 8 will be ignored here. To stop it sending them, also unlink this computer in the SMS app on that phone."
+    );
+    // Cancel has the focus, so Enter does not unlink by accident.
+    await expect(dialog.getByRole("button", { name: "Cancel" })).toBeFocused();
+
+    await dialog.getByRole("button", { name: "Unlink" }).click();
+
+    await expect(dialog).toBeHidden();
+    await expect(popup.getByRole("listitem")).toHaveCount(1);
+    await expect(popup.locator("#actionStatus")).toHaveText("Pixel 8 unlinked.");
+    await expect(popup.locator("#deviceBanner")).toBeFocused();
+    expect(Object.keys(await getStorage(serviceWorker, "connected_devices"))).toEqual(["galaxy"]);
+    expect(Object.keys(await getStorage(serviceWorker, "unlinked_devices"))).toEqual(["pixel"]);
+  });
+
+
+  for (const [how, dismiss] of [
+    ["Cancel", (dialog) => dialog.getByRole("button", { name: "Cancel" }).click()],
+    ["Escape", (dialog) => dialog.press("Escape")]
+  ]) {
+    test(`${how} in the unlink dialog keeps the phone`, async ({ popup, serviceWorker }) => {
+      await popup.locator("#deviceBanner").click();
+      await popup.getByRole("button", { name: "Unlink Pixel 8" }).click();
+
+      const dialog = popup.getByRole("dialog");
+
+      await expect(dialog).toBeVisible();
+      await dismiss(dialog);
+
+      await expect(dialog).toBeHidden();
+      await expect(popup.getByRole("listitem")).toHaveCount(2);
+      expect(Object.keys(await getStorage(serviceWorker, "connected_devices")).sort())
+        .toEqual(["galaxy", "pixel"]);
+      expect(await getStorage(serviceWorker, "unlinked_devices")).toBeUndefined();
+    });
+  }
+
+
+  test("Unlink All Phones asks, then shows a new QR code for a new key", async ({ popup, serviceWorker }) => {
+    await popup.getByRole("button", { name: "Pair Another" }).click();
+    await expect(popup.locator("#qrContainer canvas")).toBeVisible();
+    await popup.locator("#btnCopyPairingCode").click();
+
+    await popup.getByRole("button", { name: "More options" }).click();
+    await popup.getByRole("button", { name: "Unlink All Phones" }).click();
+
+    const dialog = popup.getByRole("dialog", { name: "Unlink all phones?" });
+
+    await expect(dialog).toHaveAccessibleDescription(
+      "This computer gets a new pairing code, and no phone can reach it any more. Every message stored in this extension is removed. Phones you keep must scan the new QR code."
+    );
+    await dialog.getByRole("button", { name: "Unlink All" }).click();
+
+    await expect(popup.locator("#actionStatus"))
+      .toHaveText("All phones unlinked and messages cleared. Scan the new QR code to pair again.");
+    await expect(popup.locator("#syncStatusBadge")).toHaveText("Not Linked");
+    await expect(popup.locator("#qrContainer canvas")).toBeVisible();
+    await expect(popup.getByRole("button", { name: "More options" })).toBeFocused();
+
+    // The copied code is the new one, with the new push address.
+    await popup.locator("#btnCopyPairingCode").click();
+
+    const [before, after] = await popup.evaluate(() => window.copiedTexts);
+
+    expect(after).toMatch(PAIRING_CODE_PATTERN);
+    expect(after.split("|")[1]).toBe(`${ENDPOINT}-2`);
+    expect(after.split("|")[4]).not.toBe(before.split("|")[4]);
+    expect(await getStorage(serviceWorker, "connected_devices")).toEqual({});
+  });
+
+
+  test("a request that fails says why", async ({ popup }) => {
+    await answerMessages(popup, { only: "UNLINK_ALL", reply: { ok: false, error: "No push service." } });
+
+    await popup.getByRole("button", { name: "More options" }).click();
+    await popup.getByRole("button", { name: "Unlink All Phones" }).click();
+    await popup.getByRole("dialog").getByRole("button", { name: "Unlink All" }).click();
+
+    await expect(popup.locator("#actionStatus")).toHaveText("Failed to unlink: No push service.");
+    await expect(popup.locator("#actionStatus")).toHaveClass(/error/);
+    await expect(popup.locator("#syncStatusBadge")).toHaveText("2 Linked");
   });
 });
 
@@ -307,15 +515,154 @@ test.describe("with stored messages", () => {
     await expect(popup.locator(".card").first()).toContainText("Order shipped");
     await expect(popup.locator("#announcer")).toHaveText("New message from SHOP.");
   });
+
+
+  test("Clear Messages asks in a dialog, then empties the feed", async ({ popup, serviceWorker }) => {
+    await popup.getByRole("button", { name: "More options" }).click();
+    await popup.getByRole("button", { name: "Clear Messages" }).click();
+
+    const dialog = popup.getByRole("dialog", { name: "Clear recent messages?" });
+
+    await dialog.getByRole("button", { name: "Clear Messages" }).click();
+    await expect(dialog).toBeHidden();
+
+    await expect(popup.locator("#actionStatus")).toHaveText("All stored messages cleared.");
+    await expect(popup.locator(".card")).toHaveCount(0);
+    expect(await getStorage(serviceWorker, "recent_sms_feed")).toEqual([]);
+  });
+
+
+  test("Unlink All Phones also empties the feed", async ({ popup, serviceWorker }) => {
+    await expect(popup.locator(".card")).toHaveCount(2);
+
+    await popup.getByRole("button", { name: "More options" }).click();
+    await popup.getByRole("button", { name: "Unlink All Phones" }).click();
+    await popup.getByRole("dialog", { name: "Unlink all phones?" }).getByRole("button", { name: "Unlink All" }).click();
+
+    await expect(popup.locator("#actionStatus"))
+      .toHaveText("All phones unlinked and messages cleared. Scan the new QR code to pair again.");
+    await expect(popup.locator(".card")).toHaveCount(0);
+    expect(await getStorage(serviceWorker, "recent_sms_feed")).toEqual([]);
+  });
+
+
+  test("cancelling the clear dialog keeps the messages", async ({ popup, serviceWorker }) => {
+    await popup.getByRole("button", { name: "More options" }).click();
+    await popup.getByRole("button", { name: "Clear Messages" }).click();
+    await popup.getByRole("dialog").getByRole("button", { name: "Cancel" }).click();
+
+    await expect(popup.getByRole("button", { name: "More options" })).toBeFocused();
+    await expect(popup.locator("#actionStatus")).toBeEmpty();
+    expect(await getStorage(serviceWorker, "recent_sms_feed")).toHaveLength(3);
+  });
+
+
+  test("a dialog shown again before the last one's close event still asks", async ({ popup, serviceWorker }) => {
+    const dialog = popup.getByRole("dialog");
+
+    await popup.getByRole("button", { name: "More options" }).click();
+    await popup.getByRole("button", { name: "Clear Messages" }).click();
+    await expect(dialog).toBeVisible();
+
+    // Closed and shown again in one task, so the close event is still queued.
+    await popup.evaluate(() => {
+      document.getElementById("confirmDialog").close();
+      document.getElementById("btnClearFeed").click();
+    });
+
+    await expect(dialog).toBeVisible();
+    await dialog.getByRole("button", { name: "Clear Messages" }).click();
+
+    await expect(popup.locator("#actionStatus")).toHaveText("All stored messages cleared.");
+    expect(await getStorage(serviceWorker, "recent_sms_feed")).toEqual([]);
+  });
 });
 
 
-test("the settings button opens the options page", async ({ popup, context, extensionId }) => {
-  const optionsPage = context.waitForEvent("page");
+test.describe("times", () => {
+  const sent = minutesAgo(2.5);
 
-  await popup.getByRole("button", { name: "Settings" }).click();
+  test.use({
+    stored: {
+      connected_devices: { pixel: PIXEL },
+      recent_sms_feed: [{ id: 1, sender: "BANK", body: "Hi", timestamp: sent, deviceName: "Pixel 8" }]
+    }
+  });
 
-  await expect(await optionsPage).toHaveURL(
-    `chrome-extension://${extensionId}/options/options.html`
-  );
+
+  test("each time gives its full date and time, and counts on while the popup is open", async ({ popup }) => {
+    // The clock starts now and moves only when the test says.
+    await popup.clock.install();
+    await popup.reload();
+
+    const time = popup.locator(".card time");
+
+    await expect(time).toHaveText("2m ago");
+    await expect(time).toHaveAttribute("datetime", new Date(sent).toISOString());
+    await expect(time).toHaveAttribute("title", /^[A-Z][a-z]{2} \d{1,2}, \d{4}, \d{1,2}:\d{2}\s[AP]M$/);
+
+    await popup.locator("#deviceBanner").click();
+    await expect(popup.locator(".phone-meta time")).toHaveText("5m ago");
+    await expect(popup.locator("#deviceBanner time")).toHaveAttribute("datetime", new Date(PIXEL.lastSeen).toISOString());
+
+    await popup.clock.runFor(60 * 1000);
+
+    await expect(time).toHaveText("3m ago");
+    await expect(popup.locator(".phone-meta")).toHaveText("Last active 6m ago");
+  });
+});
+
+
+test.describe("with MMS messages", () => {
+  test.use({
+    stored: {
+      connected_devices: { pixel: PIXEL },
+      recent_sms_feed: [
+        {
+          id: -2,
+          kind: "mms",
+          sender: "Alice",
+          subject: "",
+          body: "Dinner at 8?",
+          attachments: ["image"],
+          group: ["Bob", "Carol", "Dave", "Erin"],
+          timestamp: minutesAgo(1),
+          deviceName: "Pixel 8",
+          simSlot: -1
+        },
+        {
+          id: -1,
+          kind: "mms",
+          sender: "Alice",
+          subject: "Trip photos",
+          body: "",
+          attachments: ["image", "image", "video"],
+          group: [],
+          timestamp: minutesAgo(3),
+          deviceName: "Pixel 8",
+          simSlot: -1
+        }
+      ]
+    }
+  });
+
+
+  test("a card names its kind, its group, its subject and its attachments", async ({ popup }) => {
+    const cards = popup.getByRole("article");
+
+    await expect(cards).toHaveCount(2);
+
+    await expect(cards.nth(0).locator(".tag-kind")).toHaveText("Group");
+    await expect(cards.nth(0).locator(".msg-group")).toHaveText("With Bob, Carol, Dave +1");
+    await expect(cards.nth(0).locator(".msg-body")).toHaveText("Dinner at 8?");
+    await expect(cards.nth(0).locator(".msg-attachments")).toHaveText("📷 Photo");
+
+    await expect(cards.nth(1).locator(".tag-kind")).toHaveText("MMS");
+    await expect(cards.nth(1).locator(".msg-subject")).toHaveText("Trip photos");
+    await expect(cards.nth(1).locator(".msg-body")).toHaveCount(0);
+    await expect(cards.nth(1).locator(".msg-attachments")).toHaveText("📷 2 photos · 🎬 Video");
+
+    await cards.nth(1).getByRole("button", { name: "Copy Text" }).click();
+    expect(await popup.evaluate(() => window.copiedTexts)).toEqual(["Trip photos"]);
+  });
 });

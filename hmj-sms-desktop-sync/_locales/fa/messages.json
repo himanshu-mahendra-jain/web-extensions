@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "اعلان‌های بی‌درنگ پیامک و OTP از گوشی Android، بدون سرور، با رمزگذاری سرتاسری و کپی با یک کلیک."
+  },
+  "statusLinked": {
+    "message": "پیوندشده"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ پیوندشده",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ پیوندشده",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "پیوندنشده"
+  },
+  "pairButton": {
+    "message": "جفت‌سازی"
+  },
+  "pairButtonTitle": {
+    "message": "نمایش کد QR جفت‌سازی"
+  },
+  "pairAnotherButton": {
+    "message": "افزودن"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "نمایش کد QR برای پیوند گوشی دیگر"
+  },
+  "moreOptions": {
+    "message": "گزینه‌های بیشتر"
+  },
+  "unlinkAllPhones": {
+    "message": "لغو پیوند همه گوشی‌ها"
+  },
+  "clearMessages": {
+    "message": "پاک کردن پیام‌ها"
+  },
+  "phoneFallbackName": {
+    "message": "گوشی"
+  },
+  "bannerLinked": {
+    "message": "(پیوندشده)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ گوشی پیوندشده)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ گوشی پیوندشده)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "فعال"
+  },
+  "linkedPhones": {
+    "message": "گوشی‌های پیوندشده"
+  },
+  "lastActive": {
+    "message": "آخرین فعالیت: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "لغو پیوند"
+  },
+  "unlinkPhone": {
+    "message": "لغو پیوند $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "پیوند $NAME$ لغو شود؟",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "پیام‌های $NAME$ اینجا نادیده گرفته می‌شوند. برای اینکه دیگر آن‌ها را نفرستد، پیوند این رایانه را در برنامه پیامک همان گوشی هم لغو کنید.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "پیوند $NAME$ لغو شد.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "جفت‌سازی با گوشی Android"
+  },
+  "pairOpenApp": {
+    "message": "برنامه HMJ SMS را در گوشی باز کنید"
+  },
+  "pairAppPath": {
+    "message": "تنظیمات ← همگام‌سازی دسکتاپ ← اسکن کد QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "کد QR جفت‌سازی"
+  },
+  "copyCode": {
+    "message": "کپی کد"
+  },
+  "hide": {
+    "message": "پنهان کردن"
+  },
+  "pairingWarning": {
+    "message": "این کد کلیدهای پیوند شما را در خود دارد. آن را فقط در گوشی خودتان نمایش دهید یا جای‌گذاری کنید و از همگام‌سازی بریده‌دان و اشتراک‌گذاری صفحه دور نگه دارید."
+  },
+  "pairingChanged": {
+    "message": "جفت‌سازی شما تغییر کرد. کد QR را دوباره در هر گوشی اسکن کنید.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "اعلان‌های این افزونه در مرورگر خاموش است، بنابراین پیام‌ها ذخیره می‌شوند اما نمایش داده نمی‌شوند.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "آماده دریافت پیامک"
+  },
+  "emptyText": {
+    "message": "پیامک‌ها و کدهای OTP دریافتی به‌صورت بی‌درنگ اینجا نشان داده می‌شوند."
+  },
+  "showPairingQrCode": {
+    "message": "نمایش کد QR جفت‌سازی"
+  },
+  "connectedTo": {
+    "message": "متصل به $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "متصل به $COUNT$ گوشی",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "متصل به $COUNT$ گوشی",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "در انتظار هشدارهای پیامک و OTP از $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "لغو"
+  },
+  "copied": {
+    "message": "کپی شد!"
+  },
+  "pairingCodeCopied": {
+    "message": "کد جفت‌سازی کپی شد."
+  },
+  "otpCopied": {
+    "message": "OTP کپی شد."
+  },
+  "messageCopied": {
+    "message": "پیام کپی شد."
+  },
+  "copyFailed": {
+    "message": "کپی نشد: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "پاسخی از فرایند پس‌زمینه دریافت نشد."
+  },
+  "unlinkAllTitle": {
+    "message": "پیوند همه گوشی‌ها لغو شود؟"
+  },
+  "unlinkAllText": {
+    "message": "این رایانه کد جفت‌سازی جدیدی می‌گیرد و هیچ گوشی‌ای دیگر به آن دسترسی ندارد. همه پیام‌های ذخیره‌شده در این افزونه حذف می‌شوند. گوشی‌هایی که نگه می‌دارید باید کد QR جدید را اسکن کنند."
+  },
+  "unlinkAllAction": {
+    "message": "لغو پیوند همه"
+  },
+  "allPhonesUnlinked": {
+    "message": "پیوند همه گوشی‌ها لغو و پیام‌ها پاک شد. برای جفت‌سازی دوباره، کد QR جدید را اسکن کنید."
+  },
+  "unlinkFailed": {
+    "message": "لغو پیوند انجام نشد: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "پیام‌های اخیر پاک شوند؟"
+  },
+  "clearText": {
+    "message": "همه پیام‌های ذخیره‌شده در این افزونه حذف می‌شوند. پیام‌های گوشی شما تغییری نمی‌کنند."
+  },
+  "messagesCleared": {
+    "message": "همه پیام‌های ذخیره‌شده پاک شدند."
+  },
+  "clearFailed": {
+    "message": "پاک کردن پیام‌ها انجام نشد: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "ساخت کد جفت‌سازی ممکن نشد: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "پیام جدید از $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "ناشناس"
+  },
+  "tagGroup": {
+    "message": "گروه"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "سیم‌کارت $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "سیم‌کارت $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "با $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "کپی OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "کپی متن"
+  },
+  "copyMessage": {
+    "message": "کپی پیام"
+  },
+  "justNow": {
+    "message": "همین حالا"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "عکس"
+  },
+  "photos_one": {
+    "message": "$COUNT$ عکس",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ عکس",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "ویدیو"
+  },
+  "videos_one": {
+    "message": "$COUNT$ ویدیو",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ ویدیو",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "صدا"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ قطعه صوتی",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ قطعه صوتی",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "مخاطب"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ مخاطب",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ مخاطب",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "فایل"
+  },
+  "files_one": {
+    "message": "$COUNT$ فایل",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ فایل",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ در گروه با $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "پیامک جدید از $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "پیام چندرسانه‌ای جدید از $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "پیام جدیدی از گوشی دریافت شد"
+  },
+  "linkVerified": {
+    "message": "پیوند با $NAME$ تأیید شد! هشدارهای فوری پیامک فعال است.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP منقضی‌شده]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(پس از قطع اتصال تحویل شد) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "پیوند $NAME$ لغو شده است",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "یک گوشی"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ پیام نادیده گرفته شد. برای توقف آن‌ها، پیوند این رایانه را در برنامه پیامک آن گوشی لغو کنید، یا اینجا کلیک کنید تا پیوند همه گوشی‌ها لغو شود.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ پیام نادیده گرفته شد. برای توقف آن‌ها، پیوند این رایانه را در برنامه پیامک آن گوشی لغو کنید، یا اینجا کلیک کنید تا پیوند همه گوشی‌ها لغو شود.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "کد جفت‌سازی برای خواندن در گوشی بیش از حد طولانی است."
+  },
+  "noPhoneToUnlink": {
+    "message": "گوشی‌ای برای لغو پیوند وجود ندارد."
+  },
+  "noPushService": {
+    "message": "این مرورگر نمی‌تواند پیام‌های push دریافت کند."
+  }
+}

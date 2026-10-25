@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Päästä päähän salatut SMS- ja OTP-ilmoitukset reaaliajassa Android-puhelimesta ilman palvelinta. Kopioi yhdellä klikkauksella."
+  },
+  "statusLinked": {
+    "message": "Yhdistetty"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ yhdistetty",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ yhdistetty",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Ei yhdistetty"
+  },
+  "pairButton": {
+    "message": "Yhdistä"
+  },
+  "pairButtonTitle": {
+    "message": "Näytä yhdistämisen QR-koodi"
+  },
+  "pairAnotherButton": {
+    "message": "Lisää"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Näytä QR-koodi toisen puhelimen yhdistämiseksi"
+  },
+  "moreOptions": {
+    "message": "Lisää vaihtoehtoja"
+  },
+  "unlinkAllPhones": {
+    "message": "Poista kaikki puhelimet"
+  },
+  "clearMessages": {
+    "message": "Tyhjennä viestit"
+  },
+  "phoneFallbackName": {
+    "message": "Puhelin"
+  },
+  "bannerLinked": {
+    "message": "(yhdistetty)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ puhelin yhdistetty)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ puhelinta yhdistetty)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Aktiivinen"
+  },
+  "linkedPhones": {
+    "message": "Yhdistetyt puhelimet"
+  },
+  "lastActive": {
+    "message": "Viimeksi aktiivinen: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Poista yhteys"
+  },
+  "unlinkPhone": {
+    "message": "Poista yhteys: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Poistetaanko yhteys: $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Viestit laitteelta $NAME$ ohitetaan täällä. Jotta se lopettaa niiden lähettämisen, poista yhteys tähän tietokoneeseen myös puhelimen SMS-sovelluksessa.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "Yhteys poistettu: $NAME$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Yhdistä Android-puhelimeen"
+  },
+  "pairOpenApp": {
+    "message": "Avaa HMJ SMS -sovellus puhelimessa"
+  },
+  "pairAppPath": {
+    "message": "Asetukset → Tietokonesynkronointi → Lue QR-koodi",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Yhdistämisen QR-koodi"
+  },
+  "copyCode": {
+    "message": "Kopioi koodi"
+  },
+  "hide": {
+    "message": "Piilota"
+  },
+  "pairingWarning": {
+    "message": "Tämä koodi sisältää yhteytesi avaimet. Näytä tai liitä se vain omaan puhelimeesi, äläkä päästä sitä leikepöydän synkronointiin tai näytön jakamiseen."
+  },
+  "pairingChanged": {
+    "message": "Yhdistäminen on muuttunut. Skannaa QR-koodi uudelleen jokaisella puhelimella.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Tämän laajennuksen ilmoitukset on poistettu käytöstä selaimessa, joten viestit tallennetaan mutta niitä ei näytetä.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Valmis vastaanottamaan tekstiviestejä"
+  },
+  "emptyText": {
+    "message": "Saapuvat tekstiviestit ja OTP-koodit näkyvät täällä reaaliajassa."
+  },
+  "showPairingQrCode": {
+    "message": "Näytä yhdistämisen QR-koodi"
+  },
+  "connectedTo": {
+    "message": "Yhdistetty: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Yhdistetty $COUNT$ puhelimeen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Yhdistetty $COUNT$ puhelimeen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Odotetaan SMS- ja OTP-ilmoituksia: $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Peruuta"
+  },
+  "copied": {
+    "message": "Kopioitu!"
+  },
+  "pairingCodeCopied": {
+    "message": "Yhdistämiskoodi kopioitu."
+  },
+  "otpCopied": {
+    "message": "OTP kopioitu."
+  },
+  "messageCopied": {
+    "message": "Viesti kopioitu."
+  },
+  "copyFailed": {
+    "message": "Kopiointi epäonnistui: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Taustaprosessi ei vastannut."
+  },
+  "unlinkAllTitle": {
+    "message": "Poistetaanko kaikki puhelimet?"
+  },
+  "unlinkAllText": {
+    "message": "Tämä tietokone saa uuden yhdistämiskoodin, eikä mikään puhelin voi enää tavoittaa sitä. Kaikki tähän laajennukseen tallennetut viestit poistetaan. Puhelimien, jotka haluat pitää, täytyy skannata uusi QR-koodi."
+  },
+  "unlinkAllAction": {
+    "message": "Poista kaikki"
+  },
+  "allPhonesUnlinked": {
+    "message": "Kaikki puhelimet poistettu ja viestit tyhjennetty. Yhdistä uudelleen skannaamalla uusi QR-koodi."
+  },
+  "unlinkFailed": {
+    "message": "Yhteyden poisto epäonnistui: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Tyhjennetäänkö viimeaikaiset viestit?"
+  },
+  "clearText": {
+    "message": "Kaikki tähän laajennukseen tallennetut viestit poistetaan. Puhelimesi viesteihin tämä ei vaikuta."
+  },
+  "messagesCleared": {
+    "message": "Kaikki tallennetut viestit tyhjennetty."
+  },
+  "clearFailed": {
+    "message": "Viestien tyhjennys epäonnistui: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Yhdistämiskoodin luonti epäonnistui: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Uusi viesti lähettäjältä $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Tuntematon"
+  },
+  "tagGroup": {
+    "message": "Ryhmä"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Mukana: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Kopioi OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Kopioi teksti"
+  },
+  "copyMessage": {
+    "message": "Kopioi viesti"
+  },
+  "justNow": {
+    "message": "Juuri nyt"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Kuva"
+  },
+  "photos_one": {
+    "message": "$COUNT$ kuva",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ kuvaa",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Video"
+  },
+  "videos_one": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ videota",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Ääni"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ äänileike",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ äänileikettä",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Yhteystieto"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ yhteystieto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ yhteystietoa",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Tiedosto"
+  },
+  "files_one": {
+    "message": "$COUNT$ tiedosto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ tiedostoa",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ ryhmässä: $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Uusi tekstiviesti: $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Uusi multimediaviesti: $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Uusi viesti puhelimesta"
+  },
+  "linkVerified": {
+    "message": "Yhteys laitteeseen $NAME$ vahvistettu! Välittömät SMS-ilmoitukset ovat käytössä.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[VANHENTUNUT OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Toimitettu yhteyden katkettua) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ ei ole enää yhdistetty",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Puhelin"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ viesti ohitettu. Lopeta ne poistamalla tämän tietokoneen yhteys puhelimen SMS-sovelluksessa tai poista kaikki puhelimet napsauttamalla tätä.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ viestiä ohitettu. Lopeta ne poistamalla tämän tietokoneen yhteys puhelimen SMS-sovelluksessa tai poista kaikki puhelimet napsauttamalla tätä.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Yhdistämiskoodi on liian pitkä puhelimen luettavaksi."
+  },
+  "noPhoneToUnlink": {
+    "message": "Ei poistettavaa puhelinta."
+  },
+  "noPushService": {
+    "message": "Tämä selain ei voi vastaanottaa push-viestejä."
+  }
+}

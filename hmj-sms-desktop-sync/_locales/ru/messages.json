@@ -1,0 +1,676 @@
+{
+  "extensionDescription": {
+    "message": "Бессерверные SMS и OTP-уведомления с Android-телефона в реальном времени со сквозным шифрованием и копированием в 1 клик."
+  },
+  "statusLinked": {
+    "message": "Связан"
+  },
+  "statusLinkedCount_one": {
+    "message": "Связано: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "Связано: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Не связан"
+  },
+  "pairButton": {
+    "message": "Связать"
+  },
+  "pairButtonTitle": {
+    "message": "Показать QR-код для связи"
+  },
+  "pairAnotherButton": {
+    "message": "Добавить"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Показать QR-код, чтобы связать ещё один телефон"
+  },
+  "moreOptions": {
+    "message": "Другие действия"
+  },
+  "unlinkAllPhones": {
+    "message": "Отвязать все телефоны"
+  },
+  "clearMessages": {
+    "message": "Очистить сообщения"
+  },
+  "phoneFallbackName": {
+    "message": "Телефон"
+  },
+  "bannerLinked": {
+    "message": "(связан)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ телефон связан)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ телефона связано)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Активен"
+  },
+  "linkedPhones": {
+    "message": "Связанные телефоны"
+  },
+  "lastActive": {
+    "message": "Был активен: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Отвязать"
+  },
+  "unlinkPhone": {
+    "message": "Отвязать $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Отвязать $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Сообщения от $NAME$ будут игнорироваться здесь. Чтобы телефон перестал их отправлять, также отключите этот компьютер в приложении SMS на том телефоне.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ отвязан.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Подключение к Android-телефону"
+  },
+  "pairOpenApp": {
+    "message": "Откройте приложение HMJ SMS на телефоне"
+  },
+  "pairAppPath": {
+    "message": "Настройки → Синхронизация с ПК → Сканировать QR-код",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "QR-код для связи"
+  },
+  "copyCode": {
+    "message": "Копировать код"
+  },
+  "hide": {
+    "message": "Скрыть"
+  },
+  "pairingWarning": {
+    "message": "Этот код содержит ключи сопряжения. Показывайте или вставляйте его только на своём телефоне; не передавайте его через синхронизацию буфера обмена и демонстрацию экрана."
+  },
+  "pairingChanged": {
+    "message": "Параметры сопряжения изменились. Отсканируйте QR-код заново на каждом телефоне.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Уведомления для этого расширения отключены в браузере, поэтому сообщения сохраняются, но не показываются на экране.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Готово к приёму SMS"
+  },
+  "emptyText": {
+    "message": "Входящие SMS и OTP-коды будут появляться здесь в реальном времени."
+  },
+  "showPairingQrCode": {
+    "message": "Показать QR-код для связи"
+  },
+  "connectedTo": {
+    "message": "Подключено к $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Подключено телефонов: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Подключено телефонов: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Ожидание входящих SMS и OTP-уведомлений от $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "copied": {
+    "message": "Скопировано!"
+  },
+  "pairingCodeCopied": {
+    "message": "Код связи скопирован."
+  },
+  "otpCopied": {
+    "message": "OTP скопирован."
+  },
+  "messageCopied": {
+    "message": "Сообщение скопировано."
+  },
+  "copyFailed": {
+    "message": "Не удалось скопировать: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Фоновая служба не отвечает."
+  },
+  "unlinkAllTitle": {
+    "message": "Отвязать все телефоны?"
+  },
+  "unlinkAllText": {
+    "message": "Этот компьютер получит новый код связи, и ни один телефон больше не сможет с ним связаться. Все сообщения, сохранённые в этом расширении, будут удалены. Телефонам, которые вы оставляете, нужно отсканировать новый QR-код."
+  },
+  "unlinkAllAction": {
+    "message": "Отвязать все"
+  },
+  "allPhonesUnlinked": {
+    "message": "Все телефоны отвязаны, сообщения удалены. Отсканируйте новый QR-код, чтобы связать снова."
+  },
+  "unlinkFailed": {
+    "message": "Не удалось отвязать: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Очистить последние сообщения?"
+  },
+  "clearText": {
+    "message": "Все сообщения, сохранённые в этом расширении, будут удалены. Сообщения на телефоне не затрагиваются."
+  },
+  "messagesCleared": {
+    "message": "Все сохранённые сообщения удалены."
+  },
+  "clearFailed": {
+    "message": "Не удалось очистить сообщения: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Не удалось создать код связи: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Новое сообщение от $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Неизвестно"
+  },
+  "tagGroup": {
+    "message": "Группа"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Участники: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Копировать OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Копировать текст"
+  },
+  "copyMessage": {
+    "message": "Копировать сообщение"
+  },
+  "justNow": {
+    "message": "Только что"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Фото"
+  },
+  "photos_one": {
+    "message": "$COUNT$ фото",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ фото",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Видео"
+  },
+  "videos_one": {
+    "message": "$COUNT$ видео",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ видео",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Аудио"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ аудиозапись",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ аудиозаписи",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Контакт"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ контакт",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ контакта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Файл"
+  },
+  "files_one": {
+    "message": "$COUNT$ файл",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ файла",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ в группе с $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Новое SMS от $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Новое MMS от $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Получено новое сообщение с телефона"
+  },
+  "linkVerified": {
+    "message": "Сопряжение с $NAME$ подтверждено! Мгновенные SMS-оповещения активны.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP ИСТЁК]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Доставлено после отключения) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ отвязан",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Телефон"
+  },
+  "ignoredMessages_one": {
+    "message": "Проигнорировано $COUNT$ сообщение. Отвяжите этот компьютер в приложении SMS на том телефоне, чтобы остановить отправку, или нажмите здесь, чтобы отвязать все телефоны.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "Проигнорировано $COUNT$ сообщений. Отвяжите этот компьютер в приложении SMS на том телефоне, чтобы остановить отправку, или нажмите здесь, чтобы отвязать все телефоны.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Код сопряжения слишком длинный, телефон не сможет его прочитать."
+  },
+  "noPhoneToUnlink": {
+    "message": "Нет телефона для отвязки."
+  },
+  "noPushService": {
+    "message": "Этот браузер не поддерживает прием push-уведомлений."
+  },
+  "statusLinkedCount_few": {
+    "message": "Связано: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_many": {
+    "message": "Связано: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_few": {
+    "message": "($COUNT$ телефона связано)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_many": {
+    "message": "($COUNT$ телефонов связано)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_few": {
+    "message": "Подключено телефонов: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_many": {
+    "message": "Подключено телефонов: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_few": {
+    "message": "$COUNT$ фото",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_many": {
+    "message": "$COUNT$ фото",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_few": {
+    "message": "$COUNT$ видео",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_many": {
+    "message": "$COUNT$ видео",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_few": {
+    "message": "$COUNT$ аудиозаписи",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_many": {
+    "message": "$COUNT$ аудиозаписей",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_few": {
+    "message": "$COUNT$ контакта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_many": {
+    "message": "$COUNT$ контактов",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_few": {
+    "message": "$COUNT$ файла",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_many": {
+    "message": "$COUNT$ файлов",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_few": {
+    "message": "$COUNT$ сообщения проигнорировано. Отвяжите этот компьютер в приложении SMS на том телефоне, чтобы остановить их, или нажмите здесь, чтобы отвязать все телефоны.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_many": {
+    "message": "$COUNT$ сообщений проигнорировано. Отвяжите этот компьютер в приложении SMS на том телефоне, чтобы остановить их, или нажмите здесь, чтобы отвязать все телефоны.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

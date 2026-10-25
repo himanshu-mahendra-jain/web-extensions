@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Szerver nélküli, végpontok között titkosított SMS- és OTP-értesítések valós időben Android-telefonról, másolás 1 kattintással."
+  },
+  "statusLinked": {
+    "message": "Társítva"
+  },
+  "statusLinkedCount_one": {
+    "message": "Társítva: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "Társítva: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Nincs társítva"
+  },
+  "pairButton": {
+    "message": "Párosít"
+  },
+  "pairButtonTitle": {
+    "message": "Párosító QR-kód megjelenítése"
+  },
+  "pairAnotherButton": {
+    "message": "Hozzáadás"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "QR-kód megjelenítése egy újabb telefon társításához"
+  },
+  "moreOptions": {
+    "message": "További lehetőségek"
+  },
+  "unlinkAllPhones": {
+    "message": "Összes telefon leválasztása"
+  },
+  "clearMessages": {
+    "message": "Üzenetek törlése"
+  },
+  "phoneFallbackName": {
+    "message": "Telefon"
+  },
+  "bannerLinked": {
+    "message": "(társítva)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ telefon társítva)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ telefon társítva)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Aktív"
+  },
+  "linkedPhones": {
+    "message": "Társított telefonok"
+  },
+  "lastActive": {
+    "message": "Utoljára aktív: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Leválasztás"
+  },
+  "unlinkPhone": {
+    "message": "$NAME$ leválasztása",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Leválasztja ezt: $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "A(z) $NAME$ üzeneteit itt figyelmen kívül hagyjuk. Ha azt szeretné, hogy ne küldje őket, válassza le ezt a számítógépet az adott telefon SMS-alkalmazásában is.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ leválasztva.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Párosítás Android-telefonnal"
+  },
+  "pairOpenApp": {
+    "message": "Nyissa meg a HMJ SMS alkalmazást a telefonon"
+  },
+  "pairAppPath": {
+    "message": "Beállítások → Asztali szinkronizálás → QR-kód beolvasása",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Párosító QR-kód"
+  },
+  "copyCode": {
+    "message": "Kód másolása"
+  },
+  "hide": {
+    "message": "Elrejtés"
+  },
+  "pairingWarning": {
+    "message": "Ez a kód tartalmazza a kapcsolat kulcsait. Csak a saját telefonján jelenítse meg vagy illessze be, és tartsa távol a vágólap-szinkronizálástól és a képernyőmegosztástól."
+  },
+  "pairingChanged": {
+    "message": "A párosítás megváltozott. Olvassa be újra a QR-kódot minden telefonon.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Ennek a bővítménynek az értesítései ki vannak kapcsolva a böngészőben, ezért az üzenetek mentésre kerülnek, de nem jelennek meg.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Készen áll a bejövő SMS-ekre"
+  },
+  "emptyText": {
+    "message": "A bejövő SMS-ek és OTP-kódok itt jelennek meg valós időben."
+  },
+  "showPairingQrCode": {
+    "message": "Párosító QR-kód megjelenítése"
+  },
+  "connectedTo": {
+    "message": "Csatlakoztatva: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "$COUNT$ telefon csatlakoztatva",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "$COUNT$ telefon csatlakoztatva",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Várakozás SMS- és OTP-értesítésekre innen: $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Mégse"
+  },
+  "copied": {
+    "message": "Másolva!"
+  },
+  "pairingCodeCopied": {
+    "message": "Párosítókód másolva."
+  },
+  "otpCopied": {
+    "message": "OTP másolva."
+  },
+  "messageCopied": {
+    "message": "Üzenet másolva."
+  },
+  "copyFailed": {
+    "message": "A másolás sikertelen: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Nem válaszol a háttérfolyamat."
+  },
+  "unlinkAllTitle": {
+    "message": "Leválasztja az összes telefont?"
+  },
+  "unlinkAllText": {
+    "message": "Ez a számítógép új párosítókódot kap, és egyetlen telefon sem érheti el többé. A bővítményben tárolt összes üzenet törlődik. A megtartani kívánt telefonoknak be kell olvasniuk az új QR-kódot."
+  },
+  "unlinkAllAction": {
+    "message": "Összes leválasztása"
+  },
+  "allPhonesUnlinked": {
+    "message": "Minden telefon leválasztva, az üzenetek törölve. Az újbóli párosításhoz olvassa be az új QR-kódot."
+  },
+  "unlinkFailed": {
+    "message": "A leválasztás sikertelen: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Törli a legutóbbi üzeneteket?"
+  },
+  "clearText": {
+    "message": "A bővítményben tárolt összes üzenet törlődik. A telefonon lévő üzeneteket ez nem érinti."
+  },
+  "messagesCleared": {
+    "message": "Minden tárolt üzenet törölve."
+  },
+  "clearFailed": {
+    "message": "Az üzenetek törlése sikertelen: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Nem sikerült párosítókódot létrehozni: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Új üzenet tőle: $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Ismeretlen"
+  },
+  "tagGroup": {
+    "message": "Csoport"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Résztvevők: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "OTP másolása ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Szöveg másolása"
+  },
+  "copyMessage": {
+    "message": "Üzenet másolása"
+  },
+  "justNow": {
+    "message": "Épp most"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Fotó"
+  },
+  "photos_one": {
+    "message": "$COUNT$ fotó",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ fotó",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Videó"
+  },
+  "videos_one": {
+    "message": "$COUNT$ videó",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ videó",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Hangfelvétel"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ hangfelvétel",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ hangfelvétel",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Névjegy"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ névjegy",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ névjegy",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Fájl"
+  },
+  "files_one": {
+    "message": "$COUNT$ fájl",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ fájl",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ csoportban: $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Új SMS tőle: $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Új MMS tőle: $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Új üzenet érkezett a telefonról"
+  },
+  "linkVerified": {
+    "message": "A kapcsolat ellenőrizve: $NAME$! Az azonnali SMS-értesítések aktívak.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[LEJÁRT OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Kapcsolatbontás után kézbesítve) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ leválasztva",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Egy telefon"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ üzenet figyelmen kívül hagyva. A leállításhoz válassza le ezt a számítógépet az adott telefon SMS-alkalmazásában, vagy kattintson ide az összes telefon leválasztásához.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ üzenet figyelmen kívül hagyva. A leállításhoz válassza le ezt a számítógépet az adott telefon SMS-alkalmazásában, vagy kattintson ide az összes telefon leválasztásához.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "A párosítókód túl hosszú ahhoz, hogy a telefon beolvassa."
+  },
+  "noPhoneToUnlink": {
+    "message": "Nincs leválasztható telefon."
+  },
+  "noPushService": {
+    "message": "Ez a böngésző nem tud push-üzeneteket fogadni."
+  }
+}

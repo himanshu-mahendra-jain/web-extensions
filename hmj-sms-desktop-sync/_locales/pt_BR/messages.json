@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Notificações de SMS e OTP em tempo real do seu Android, com criptografia de ponta a ponta, sem servidor e cópia em 1 clique."
+  },
+  "statusLinked": {
+    "message": "Vinculado"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ vinculado",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ vinculados",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Não vinculado"
+  },
+  "pairButton": {
+    "message": "Parear"
+  },
+  "pairButtonTitle": {
+    "message": "Mostrar QR code de pareamento"
+  },
+  "pairAnotherButton": {
+    "message": "Adicionar"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Mostrar QR code para vincular outro celular"
+  },
+  "moreOptions": {
+    "message": "Mais opções"
+  },
+  "unlinkAllPhones": {
+    "message": "Desvincular todos os celulares"
+  },
+  "clearMessages": {
+    "message": "Limpar mensagens"
+  },
+  "phoneFallbackName": {
+    "message": "Celular"
+  },
+  "bannerLinked": {
+    "message": "(vinculado)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ celular vinculado)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ celulares vinculados)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Ativo"
+  },
+  "linkedPhones": {
+    "message": "Celulares vinculados"
+  },
+  "lastActive": {
+    "message": "Última atividade: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Desvincular"
+  },
+  "unlinkPhone": {
+    "message": "Desvincular $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Desvincular $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "As mensagens de $NAME$ serão ignoradas aqui. Para que ele pare de enviá-las, desvincule também este computador no app SMS desse celular.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ desvinculado.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Parear com celular Android"
+  },
+  "pairOpenApp": {
+    "message": "Abra o app HMJ SMS no celular"
+  },
+  "pairAppPath": {
+    "message": "Configurações → Sincronização desktop → Ler código QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "QR code de pareamento"
+  },
+  "copyCode": {
+    "message": "Copiar código"
+  },
+  "hide": {
+    "message": "Ocultar"
+  },
+  "pairingWarning": {
+    "message": "Este código contém as chaves da sua conexão. Mostre ou cole-o apenas no seu próprio celular e mantenha-o longe da sincronização da área de transferência e do compartilhamento de tela."
+  },
+  "pairingChanged": {
+    "message": "O pareamento foi alterado. Escaneie o código QR novamente em cada celular.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "As notificações desta extensão estão desativadas no navegador; as mensagens serão salvas, mas não exibidas.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Pronto para receber SMS"
+  },
+  "emptyText": {
+    "message": "SMS e OTPs recebidos aparecerão aqui em tempo real."
+  },
+  "showPairingQrCode": {
+    "message": "Mostrar QR code de pareamento"
+  },
+  "connectedTo": {
+    "message": "Conectado a $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Conectado a $COUNT$ celular",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Conectado a $COUNT$ celulares",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Aguardando alertas de SMS e OTP de $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "copied": {
+    "message": "Copiado!"
+  },
+  "pairingCodeCopied": {
+    "message": "Código de pareamento copiado."
+  },
+  "otpCopied": {
+    "message": "OTP copiado."
+  },
+  "messageCopied": {
+    "message": "Mensagem copiada."
+  },
+  "copyFailed": {
+    "message": "Falha ao copiar: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Sem resposta do serviço em segundo plano."
+  },
+  "unlinkAllTitle": {
+    "message": "Desvincular todos os celulares?"
+  },
+  "unlinkAllText": {
+    "message": "Este computador recebe um novo código de pareamento e nenhum celular poderá mais alcançá-lo. Todas as mensagens armazenadas nesta extensão serão removidas. Os celulares que você mantiver precisarão ler o novo QR code."
+  },
+  "unlinkAllAction": {
+    "message": "Desvincular todos"
+  },
+  "allPhonesUnlinked": {
+    "message": "Todos os celulares foram desvinculados e as mensagens apagadas. Leia o novo QR code para parear novamente."
+  },
+  "unlinkFailed": {
+    "message": "Falha ao desvincular: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Limpar mensagens recentes?"
+  },
+  "clearText": {
+    "message": "Todas as mensagens armazenadas nesta extensão serão removidas. As mensagens no seu celular não serão afetadas."
+  },
+  "messagesCleared": {
+    "message": "Todas as mensagens armazenadas foram apagadas."
+  },
+  "clearFailed": {
+    "message": "Falha ao limpar as mensagens: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Não foi possível criar um código de pareamento: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Nova mensagem de $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Desconhecido"
+  },
+  "tagGroup": {
+    "message": "Grupo"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Com $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Copiar OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Copiar texto"
+  },
+  "copyMessage": {
+    "message": "Copiar mensagem"
+  },
+  "justNow": {
+    "message": "Agora mesmo"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Foto"
+  },
+  "photos_one": {
+    "message": "$COUNT$ foto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ fotos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Vídeo"
+  },
+  "videos_one": {
+    "message": "$COUNT$ vídeo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ vídeos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Áudio"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ clipe de áudio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ clipes de áudio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Contato"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ contato",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ contatos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Arquivo"
+  },
+  "files_one": {
+    "message": "$COUNT$ arquivo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ arquivos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ em grupo com $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Novo SMS de $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Novo MMS de $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Nova mensagem recebida do celular"
+  },
+  "linkVerified": {
+    "message": "Conexão com $NAME$ verificada! Alertas instantâneos de SMS estão ativos.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP EXPIRADO]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Recebido após desconexão) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ foi desvinculado",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Um celular"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ mensagem ignorada. Desvincule este computador no app SMS desse celular para interrompê-las ou clique aqui para desvincular todos os celulares.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ mensagens ignoradas. Desvincule este computador no app SMS desse celular para interrompê-las ou clique aqui para desvincular todos os celulares.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "O código de pareamento é longo demais para o celular ler."
+  },
+  "noPhoneToUnlink": {
+    "message": "Nenhum celular para desvincular."
+  },
+  "noPushService": {
+    "message": "Este navegador não pode receber notificações push."
+  }
+}

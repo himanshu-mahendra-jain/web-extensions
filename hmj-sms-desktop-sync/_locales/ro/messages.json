@@ -1,0 +1,604 @@
+{
+  "extensionDescription": {
+    "message": "Notificări SMS și OTP în timp real de pe telefonul Android, criptate integral, fără server, cu copiere dintr-un clic."
+  },
+  "statusLinked": {
+    "message": "Conectat"
+  },
+  "statusLinkedCount_one": {
+    "message": "Conectate: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "Conectate: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Neconectat"
+  },
+  "pairButton": {
+    "message": "Asociază"
+  },
+  "pairButtonTitle": {
+    "message": "Afișează codul QR de asociere"
+  },
+  "pairAnotherButton": {
+    "message": "Adaugă"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Afișează codul QR pentru a conecta încă un telefon"
+  },
+  "moreOptions": {
+    "message": "Mai multe opțiuni"
+  },
+  "unlinkAllPhones": {
+    "message": "Deconectează toate telefoanele"
+  },
+  "clearMessages": {
+    "message": "Șterge mesajele"
+  },
+  "phoneFallbackName": {
+    "message": "Telefon"
+  },
+  "bannerLinked": {
+    "message": "(conectat)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ telefon conectat)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ de telefoane conectate)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Activ"
+  },
+  "linkedPhones": {
+    "message": "Telefoane conectate"
+  },
+  "lastActive": {
+    "message": "Activ ultima dată: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Deconectează"
+  },
+  "unlinkPhone": {
+    "message": "Deconectează $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Deconectezi $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Mesajele de la $NAME$ vor fi ignorate aici. Ca să nu le mai trimită, deconectează și acest computer din aplicația SMS de pe acel telefon.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ a fost deconectat.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Asociază cu un telefon Android"
+  },
+  "pairOpenApp": {
+    "message": "Deschide aplicația HMJ SMS pe telefon"
+  },
+  "pairAppPath": {
+    "message": "Setări → Sincronizare desktop → Scanați codul QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Cod QR de asociere"
+  },
+  "copyCode": {
+    "message": "Copiază codul"
+  },
+  "hide": {
+    "message": "Ascunde"
+  },
+  "pairingWarning": {
+    "message": "Acest cod conține cheile conexiunii tale. Afișează-l sau lipește-l doar pe propriul telefon și ține-l departe de sincronizarea clipboardului și de partajarea ecranului."
+  },
+  "pairingChanged": {
+    "message": "Asocierea s-a schimbat. Scanează din nou codul QR pe fiecare telefon.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Notificările pentru această extensie sunt dezactivate în browser, așa că mesajele sunt salvate, dar nu sunt afișate.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Pregătit pentru SMS-uri"
+  },
+  "emptyText": {
+    "message": "SMS-urile și codurile OTP primite vor apărea aici în timp real."
+  },
+  "showPairingQrCode": {
+    "message": "Afișează codul QR de asociere"
+  },
+  "connectedTo": {
+    "message": "Conectat la $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Conectat la $COUNT$ telefon",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Conectat la $COUNT$ de telefoane",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Se așteaptă alerte SMS și OTP de la $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Anulează"
+  },
+  "copied": {
+    "message": "Copiat!"
+  },
+  "pairingCodeCopied": {
+    "message": "Codul de asociere a fost copiat."
+  },
+  "otpCopied": {
+    "message": "Codul OTP a fost copiat."
+  },
+  "messageCopied": {
+    "message": "Mesajul a fost copiat."
+  },
+  "copyFailed": {
+    "message": "Copierea nu a reușit: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Niciun răspuns de la procesul de fundal."
+  },
+  "unlinkAllTitle": {
+    "message": "Deconectezi toate telefoanele?"
+  },
+  "unlinkAllText": {
+    "message": "Acest computer primește un cod de asociere nou și niciun telefon nu îl mai poate contacta. Toate mesajele stocate în această extensie sunt eliminate. Telefoanele pe care le păstrezi trebuie să scaneze noul cod QR."
+  },
+  "unlinkAllAction": {
+    "message": "Deconectează tot"
+  },
+  "allPhonesUnlinked": {
+    "message": "Toate telefoanele au fost deconectate și mesajele șterse. Scanează noul cod QR pentru a asocia din nou."
+  },
+  "unlinkFailed": {
+    "message": "Deconectarea nu a reușit: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Ștergi mesajele recente?"
+  },
+  "clearText": {
+    "message": "Toate mesajele stocate în această extensie vor fi eliminate. Mesajele de pe telefon nu sunt afectate."
+  },
+  "messagesCleared": {
+    "message": "Toate mesajele stocate au fost șterse."
+  },
+  "clearFailed": {
+    "message": "Mesajele nu au putut fi șterse: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Nu s-a putut crea un cod de asociere: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Mesaj nou de la $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Necunoscut"
+  },
+  "tagGroup": {
+    "message": "Grup"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Cu $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Copiază OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Copiază textul"
+  },
+  "copyMessage": {
+    "message": "Copiază mesajul"
+  },
+  "justNow": {
+    "message": "Chiar acum"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Fotografie"
+  },
+  "photos_one": {
+    "message": "$COUNT$ fotografie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ de fotografii",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Videoclip"
+  },
+  "videos_one": {
+    "message": "$COUNT$ videoclip",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ de videoclipuri",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Audio"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ clip audio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ de clipuri audio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Contact"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ contact",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ de contacte",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Fișier"
+  },
+  "files_one": {
+    "message": "$COUNT$ fișier",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ de fișiere",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ în grup cu $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "SMS nou de la $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "MMS nou de la $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Mesaj nou primit de pe telefon"
+  },
+  "linkVerified": {
+    "message": "Conexiunea cu $NAME$ a fost verificată! Alertele SMS instantanee sunt active.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP EXPIRAT]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Livrat după deconectare) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ este deconectat",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Un telefon"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ mesaj ignorat. Deconectează acest computer din aplicația SMS de pe acel telefon ca să le oprești sau dă clic aici ca să deconectezi toate telefoanele.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ de mesaje ignorate. Deconectează acest computer din aplicația SMS de pe acel telefon ca să le oprești sau dă clic aici ca să deconectezi toate telefoanele.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Codul de asociere este prea lung pentru a fi citit de telefon."
+  },
+  "noPhoneToUnlink": {
+    "message": "Niciun telefon de deconectat."
+  },
+  "noPushService": {
+    "message": "Acest browser nu poate primi mesaje push."
+  },
+  "statusLinkedCount_few": {
+    "message": "Conectate: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_few": {
+    "message": "($COUNT$ telefoane conectate)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_few": {
+    "message": "Conectat la $COUNT$ telefoane",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_few": {
+    "message": "$COUNT$ fotografii",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_few": {
+    "message": "$COUNT$ videoclipuri",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_few": {
+    "message": "$COUNT$ clipuri audio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_few": {
+    "message": "$COUNT$ contacte",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_few": {
+    "message": "$COUNT$ fișiere",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_few": {
+    "message": "$COUNT$ mesaje ignorate. Deconectează acest computer din aplicația SMS de pe acel telefon ca să le oprești sau dă clic aici ca să deconectezi toate telefoanele.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

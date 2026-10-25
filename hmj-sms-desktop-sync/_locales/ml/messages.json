@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Android ഫോണിൽ നിന്ന് സെർവറില്ലാതെ, എൻക്രിപ്റ്റ് ചെയ്ത SMS, OTP അറിയിപ്പുകൾ തത്സമയം; 1 ക്ലിക്കിൽ പകർത്തുക."
+  },
+  "statusLinked": {
+    "message": "ലിങ്ക് ചെയ്തു"
+  },
+  "statusLinkedCount_one": {
+    "message": "ലിങ്ക് ചെയ്തവ: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "ലിങ്ക് ചെയ്തവ: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "ലിങ്കില്ല"
+  },
+  "pairButton": {
+    "message": "ജോടിയാക്കൂ"
+  },
+  "pairButtonTitle": {
+    "message": "ജോടിയാക്കൽ QR കോഡ് കാണിക്കുക"
+  },
+  "pairAnotherButton": {
+    "message": "ചേർക്കുക"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "മറ്റൊരു ഫോൺ ലിങ്ക് ചെയ്യാൻ QR കോഡ് കാണിക്കുക"
+  },
+  "moreOptions": {
+    "message": "കൂടുതൽ ഓപ്ഷനുകൾ"
+  },
+  "unlinkAllPhones": {
+    "message": "എല്ലാ ഫോണുകളും അൺലിങ്ക് ചെയ്യുക"
+  },
+  "clearMessages": {
+    "message": "സന്ദേശങ്ങൾ മായ്ക്കുക"
+  },
+  "phoneFallbackName": {
+    "message": "ഫോൺ"
+  },
+  "bannerLinked": {
+    "message": "(ലിങ്ക് ചെയ്തു)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ ഫോൺ ലിങ്ക് ചെയ്തു)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ ഫോണുകൾ ലിങ്ക് ചെയ്തു)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "സജീവം"
+  },
+  "linkedPhones": {
+    "message": "ലിങ്ക് ചെയ്ത ഫോണുകൾ"
+  },
+  "lastActive": {
+    "message": "അവസാനം സജീവം: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "അൺലിങ്ക് ചെയ്യുക"
+  },
+  "unlinkPhone": {
+    "message": "$NAME$ അൺലിങ്ക് ചെയ്യുക",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "$NAME$ അൺലിങ്ക് ചെയ്യണോ?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "$NAME$ ൽ നിന്നുള്ള സന്ദേശങ്ങൾ ഇവിടെ അവഗണിക്കും. അയയ്ക്കുന്നത് നിർത്താൻ, ആ ഫോണിലെ SMS ആപ്പിലും ഈ കമ്പ്യൂട്ടർ അൺലിങ്ക് ചെയ്യുക.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ അൺലിങ്ക് ചെയ്തു.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Android ഫോണുമായി ജോടിയാക്കുക"
+  },
+  "pairOpenApp": {
+    "message": "ഫോണിൽ HMJ SMS ആപ്പ് തുറക്കുക"
+  },
+  "pairAppPath": {
+    "message": "ക്രമീകരണങ്ങൾ → ഡെസ്ക്ടോപ്പ് സമന്വയം → QR കോഡ് സ്കാൻ ചെയ്യുക",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "ജോടിയാക്കൽ QR കോഡ്"
+  },
+  "copyCode": {
+    "message": "കോഡ് പകർത്തുക"
+  },
+  "hide": {
+    "message": "മറയ്ക്കുക"
+  },
+  "pairingWarning": {
+    "message": "ഈ കോഡിൽ നിങ്ങളുടെ ലിങ്കിന്റെ കീകൾ ഉണ്ട്. ഇത് നിങ്ങളുടെ സ്വന്തം ഫോണിൽ മാത്രം കാണിക്കുകയോ ഒട്ടിക്കുകയോ ചെയ്യുക, ക്ലിപ്പ്ബോർഡ് സമന്വയത്തിൽ നിന്നും സ്ക്രീൻ പങ്കിടലിൽ നിന്നും അകറ്റി നിർത്തുക."
+  },
+  "pairingChanged": {
+    "message": "നിങ്ങളുടെ ജോടിയാക്കൽ മാറി. ഓരോ ഫോണിലും QR കോഡ് വീണ്ടും സ്കാൻ ചെയ്യുക.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "ബ്രൗസറിൽ ഈ എക്സ്റ്റൻഷന്റെ അറിയിപ്പുകൾ ഓഫാണ്, അതിനാൽ സന്ദേശങ്ങൾ സംരക്ഷിക്കും, പക്ഷേ കാണിക്കില്ല.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "ഇൻകമിംഗ് SMS-നായി തയ്യാർ"
+  },
+  "emptyText": {
+    "message": "ഇൻകമിംഗ് SMS-ഉം OTP-കളും ഇവിടെ തത്സമയം ദൃശ്യമാകും."
+  },
+  "showPairingQrCode": {
+    "message": "ജോടിയാക്കൽ QR കോഡ് കാണിക്കുക"
+  },
+  "connectedTo": {
+    "message": "$NAME$ മായി കണക്റ്റ് ചെയ്തു",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "$COUNT$ ഫോണുമായി കണക്റ്റ് ചെയ്തു",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "$COUNT$ ഫോണുകളുമായി കണക്റ്റ് ചെയ്തു",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "$NAMES$ ൽ നിന്നുള്ള SMS, OTP അലേർട്ടുകൾക്കായി കാത്തിരിക്കുന്നു.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "റദ്ദാക്കുക"
+  },
+  "copied": {
+    "message": "പകർത്തി!"
+  },
+  "pairingCodeCopied": {
+    "message": "ജോടിയാക്കൽ കോഡ് പകർത്തി."
+  },
+  "otpCopied": {
+    "message": "OTP പകർത്തി."
+  },
+  "messageCopied": {
+    "message": "സന്ദേശം പകർത്തി."
+  },
+  "copyFailed": {
+    "message": "പകർത്താനായില്ല: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "പശ്ചാത്തലത്തിൽ നിന്ന് മറുപടിയില്ല."
+  },
+  "unlinkAllTitle": {
+    "message": "എല്ലാ ഫോണുകളും അൺലിങ്ക് ചെയ്യണോ?"
+  },
+  "unlinkAllText": {
+    "message": "ഈ കമ്പ്യൂട്ടറിന് പുതിയ ജോടിയാക്കൽ കോഡ് ലഭിക്കും, ഇനി ഒരു ഫോണിനും ഇതിലേക്ക് എത്താനാകില്ല. ഈ എക്സ്റ്റൻഷനിൽ സംഭരിച്ച എല്ലാ സന്ദേശങ്ങളും നീക്കം ചെയ്യും. നിങ്ങൾ നിലനിർത്തുന്ന ഫോണുകൾ പുതിയ QR കോഡ് സ്കാൻ ചെയ്യണം."
+  },
+  "unlinkAllAction": {
+    "message": "എല്ലാം അൺലിങ്ക് ചെയ്യുക"
+  },
+  "allPhonesUnlinked": {
+    "message": "എല്ലാ ഫോണുകളും അൺലിങ്ക് ചെയ്തു, സന്ദേശങ്ങൾ മായ്ച്ചു. വീണ്ടും ജോടിയാക്കാൻ പുതിയ QR കോഡ് സ്കാൻ ചെയ്യുക."
+  },
+  "unlinkFailed": {
+    "message": "അൺലിങ്ക് ചെയ്യാനായില്ല: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "സമീപകാല സന്ദേശങ്ങൾ മായ്ക്കണോ?"
+  },
+  "clearText": {
+    "message": "ഈ എക്സ്റ്റൻഷനിൽ സംഭരിച്ച എല്ലാ സന്ദേശങ്ങളും നീക്കം ചെയ്യും. നിങ്ങളുടെ ഫോണിലെ സന്ദേശങ്ങളെ ബാധിക്കില്ല."
+  },
+  "messagesCleared": {
+    "message": "സംഭരിച്ച എല്ലാ സന്ദേശങ്ങളും മായ്ച്ചു."
+  },
+  "clearFailed": {
+    "message": "സന്ദേശങ്ങൾ മായ്ക്കാനായില്ല: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "ജോടിയാക്കൽ കോഡ് സൃഷ്ടിക്കാനായില്ല: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "$SENDER$ ൽ നിന്ന് പുതിയ സന്ദേശം.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "അജ്ഞാതം"
+  },
+  "tagGroup": {
+    "message": "ഗ്രൂപ്പ്"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "$NAMES$ എന്നിവരോടൊപ്പം",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "OTP പകർത്തുക ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "ടെക്സ്റ്റ് പകർത്തുക"
+  },
+  "copyMessage": {
+    "message": "സന്ദേശം പകർത്തുക"
+  },
+  "justNow": {
+    "message": "ഇപ്പോൾ"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "ഫോട്ടോ"
+  },
+  "photos_one": {
+    "message": "$COUNT$ ഫോട്ടോ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ ഫോട്ടോകൾ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "വീഡിയോ"
+  },
+  "videos_one": {
+    "message": "$COUNT$ വീഡിയോ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ വീഡിയോകൾ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "ഓഡിയോ"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ ഓഡിയോ ക്ലിപ്പ്",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ ഓഡിയോ ക്ലിപ്പുകൾ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "കോൺടാക്റ്റ്"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ കോൺടാക്റ്റ്",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ കോൺടാക്റ്റുകൾ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "ഫയൽ"
+  },
+  "files_one": {
+    "message": "$COUNT$ ഫയൽ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ ഫയലുകൾ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$NAMES$ എന്നിവരുള്ള ഗ്രൂപ്പിൽ $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "$SENDER$ ൽ നിന്ന് പുതിയ SMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "$SENDER$ ൽ നിന്ന് പുതിയ MMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "ഫോണിൽ നിന്ന് പുതിയ സന്ദേശം ലഭിച്ചു"
+  },
+  "linkVerified": {
+    "message": "$NAME$ മായുള്ള ലിങ്ക് സ്ഥിരീകരിച്ചു! തൽക്ഷണ SMS അലേർട്ടുകൾ സജീവമാണ്.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[കാലഹരണപ്പെട്ട OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(വിച്ഛേദിച്ചതിന് ശേഷം ലഭിച്ചത്) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ അൺലിങ്ക് ചെയ്തിരിക്കുന്നു",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "ഒരു ഫോൺ"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ സന്ദേശം അവഗണിച്ചു. അവ നിർത്താൻ ആ ഫോണിലെ SMS ആപ്പിൽ ഈ കമ്പ്യൂട്ടർ അൺലിങ്ക് ചെയ്യുക, അല്ലെങ്കിൽ എല്ലാ ഫോണുകളും അൺലിങ്ക് ചെയ്യാൻ ഇവിടെ ക്ലിക്ക് ചെയ്യുക.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ സന്ദേശങ്ങൾ അവഗണിച്ചു. അവ നിർത്താൻ ആ ഫോണിലെ SMS ആപ്പിൽ ഈ കമ്പ്യൂട്ടർ അൺലിങ്ക് ചെയ്യുക, അല്ലെങ്കിൽ എല്ലാ ഫോണുകളും അൺലിങ്ക് ചെയ്യാൻ ഇവിടെ ക്ലിക്ക് ചെയ്യുക.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "ജോടിയാക്കൽ കോഡ് ഫോണിന് വായിക്കാനാകാത്തത്ര നീളമുള്ളതാണ്."
+  },
+  "noPhoneToUnlink": {
+    "message": "അൺലിങ്ക് ചെയ്യാൻ ഫോണില്ല."
+  },
+  "noPushService": {
+    "message": "ഈ ബ്രൗസറിന് പുഷ് സന്ദേശങ്ങൾ സ്വീകരിക്കാനാകില്ല."
+  }
+}

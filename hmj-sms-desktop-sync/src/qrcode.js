@@ -361,15 +361,23 @@ function generate(text) {
 }
 
 // ── Canvas renderer ───────────────────────────────────────────────────
+/*
+ * Every module gets the same whole number of screen pixels: the canvas
+ * is drawn in device pixels and shown at that size, never stretched,
+ * as uneven modules can stop a phone reading a dense code.
+ */
 function render(container, modules, size, targetPx) {
   const quietZone = 4; // modules
   const totalMod = size + quietZone * 2;
-  const scale = Math.max(1, Math.floor(targetPx / totalMod));
+  const pixelRatio = window.devicePixelRatio || 1;
+  const scale = Math.max(1, Math.floor((targetPx * pixelRatio) / totalMod));
   const renderSize = totalMod * scale;
 
   const canvas = document.createElement("canvas");
   canvas.width = renderSize;
   canvas.height = renderSize;
+  canvas.style.width = `${renderSize / pixelRatio}px`;
+  canvas.style.height = `${renderSize / pixelRatio}px`;
   container.replaceChildren(canvas);
 
   const ctx = canvas.getContext("2d");

@@ -49,10 +49,11 @@ export async function restartBackground(page) {
 /*
  * Runs in the page. The page records what the scripts did on
  * window.fake: notifications created and cleared, local storage
- * writes, messages sent, text copied, and offscreen documents opened.
+ * writes, messages sent, text copied, offscreen documents open,
+ * toolbar popups and windows opened.
  */
 function installFakeChrome({ storage = {}, permissionLevel = "granted" }) {
-  const { listeners, clone, storageArea, message, expose } = window.fakeKit;
+  const { listeners, clone, storageArea, message, expose, i18n } = window.fakeKit;
 
   const fake = {
     notifications: [],
@@ -62,6 +63,10 @@ function installFakeChrome({ storage = {}, permissionLevel = "granted" }) {
     sentMessages: [],
     copiedTexts: [],
     offscreenDocuments: [],
+    windows: [],
+    // Toolbar popups opened; set openPopupFails to answer as without a window to open in.
+    popupsOpened: 0,
+    openPopupFails: false,
     // chrome.storage.session
     session: {},
     onMessage: listeners(),
@@ -112,8 +117,28 @@ function installFakeChrome({ storage = {}, permissionLevel = "granted" }) {
     offscreen: {
       createDocument: async ({ url }) => {
         fake.offscreenDocuments.push(url);
+      },
+      closeDocument: async () => {
+        fake.offscreenDocuments.length = 0;
       }
-    }
+    },
+
+    windows: {
+      create: async (details) => {
+        fake.windows.push(details);
+      }
+    },
+
+    action: {
+      openPopup: async () => {
+        if (fake.openPopupFails) {
+          throw new Error("Could not find an active browser window.");
+        }
+        fake.popupsOpened++;
+      }
+    },
+
+    i18n
   }, false);
 
   chrome.runtime.getContexts = async ({ documentUrls }) => {

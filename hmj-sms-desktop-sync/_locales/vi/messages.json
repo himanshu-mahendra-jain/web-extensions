@@ -1,0 +1,541 @@
+{
+  "extensionDescription": {
+    "message": "Thông báo SMS và OTP theo thời gian thực từ điện thoại Android, không máy chủ, mã hóa đầu cuối, sao chép bằng 1 lần nhấp."
+  },
+  "statusLinked": {
+    "message": "Đã liên kết"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ đã liên kết",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Header badge when several phones are linked."
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ đã liên kết",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Chưa liên kết"
+  },
+  "pairButton": {
+    "message": "Ghép nối"
+  },
+  "pairButtonTitle": {
+    "message": "Hiện mã QR ghép nối"
+  },
+  "pairAnotherButton": {
+    "message": "Thêm"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Hiện mã QR để liên kết thêm một điện thoại"
+  },
+  "moreOptions": {
+    "message": "Tùy chọn khác"
+  },
+  "unlinkAllPhones": {
+    "message": "Hủy liên kết tất cả điện thoại"
+  },
+  "clearMessages": {
+    "message": "Xóa tin nhắn"
+  },
+  "phoneFallbackName": {
+    "message": "Điện thoại"
+  },
+  "bannerLinked": {
+    "message": "(đã liên kết)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ điện thoại đã liên kết)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "After the phones' names in the banner."
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ điện thoại đã liên kết)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Đang hoạt động"
+  },
+  "linkedPhones": {
+    "message": "Điện thoại đã liên kết"
+  },
+  "lastActive": {
+    "message": "Hoạt động lần cuối: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Hủy liên kết"
+  },
+  "unlinkPhone": {
+    "message": "Hủy liên kết $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Hủy liên kết $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Tin nhắn từ $NAME$ sẽ bị bỏ qua tại đây. Để điện thoại ngừng gửi, hãy hủy liên kết máy tính này trong ứng dụng SMS trên điện thoại đó.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "Đã hủy liên kết $NAME$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Ghép nối với điện thoại Android"
+  },
+  "pairOpenApp": {
+    "message": "Mở ứng dụng HMJ SMS trên điện thoại"
+  },
+  "pairAppPath": {
+    "message": "Cài đặt → Đồng bộ máy tính → Quét mã QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Mã QR ghép nối"
+  },
+  "copyCode": {
+    "message": "Sao chép mã"
+  },
+  "hide": {
+    "message": "Ẩn"
+  },
+  "pairingWarning": {
+    "message": "Mã này chứa khóa liên kết của bạn. Chỉ hiển thị hoặc dán mã trên điện thoại của chính bạn, và tránh để mã đi qua đồng bộ bảng nhớ tạm hay chia sẻ màn hình."
+  },
+  "pairingChanged": {
+    "message": "Ghép nối của bạn đã thay đổi. Hãy quét lại mã QR trên từng điện thoại.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Thông báo của tiện ích này đang tắt trong trình duyệt, nên tin nhắn được lưu nhưng không hiển thị.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Sẵn sàng nhận SMS"
+  },
+  "emptyText": {
+    "message": "SMS và OTP đến sẽ hiện ở đây theo thời gian thực."
+  },
+  "showPairingQrCode": {
+    "message": "Hiện mã QR ghép nối"
+  },
+  "connectedTo": {
+    "message": "Đã kết nối với $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Đã kết nối với $COUNT$ điện thoại",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Title of the empty message list when several phones are linked."
+  },
+  "connectedToCount_other": {
+    "message": "Đã kết nối với $COUNT$ điện thoại",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Đang chờ thông báo SMS và OTP từ $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Hủy"
+  },
+  "copied": {
+    "message": "Đã sao chép!"
+  },
+  "pairingCodeCopied": {
+    "message": "Đã sao chép mã ghép nối."
+  },
+  "otpCopied": {
+    "message": "Đã sao chép OTP."
+  },
+  "messageCopied": {
+    "message": "Đã sao chép tin nhắn."
+  },
+  "copyFailed": {
+    "message": "Không sao chép được: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Tiến trình nền không phản hồi."
+  },
+  "unlinkAllTitle": {
+    "message": "Hủy liên kết tất cả điện thoại?"
+  },
+  "unlinkAllText": {
+    "message": "Máy tính này sẽ nhận mã ghép nối mới và không điện thoại nào có thể kết nối tới nữa. Mọi tin nhắn lưu trong tiện ích này sẽ bị xóa. Những điện thoại bạn muốn giữ phải quét mã QR mới."
+  },
+  "unlinkAllAction": {
+    "message": "Hủy liên kết tất cả"
+  },
+  "allPhonesUnlinked": {
+    "message": "Đã hủy liên kết tất cả điện thoại và xóa tin nhắn. Hãy quét mã QR mới để ghép nối lại."
+  },
+  "unlinkFailed": {
+    "message": "Không hủy liên kết được: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Xóa tin nhắn gần đây?"
+  },
+  "clearText": {
+    "message": "Mọi tin nhắn lưu trong tiện ích này sẽ bị xóa. Tin nhắn trên điện thoại của bạn không bị ảnh hưởng."
+  },
+  "messagesCleared": {
+    "message": "Đã xóa tất cả tin nhắn đã lưu."
+  },
+  "clearFailed": {
+    "message": "Không xóa được tin nhắn: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Không tạo được mã ghép nối: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Tin nhắn mới từ $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Không xác định"
+  },
+  "tagGroup": {
+    "message": "Nhóm"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Với $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Sao chép OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Sao chép văn bản"
+  },
+  "copyMessage": {
+    "message": "Sao chép tin nhắn"
+  },
+  "justNow": {
+    "message": "Vừa xong"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Ảnh"
+  },
+  "photos_one": {
+    "message": "$COUNT$ ảnh",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Photos attached to an MMS."
+  },
+  "photos_other": {
+    "message": "$COUNT$ ảnh",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Video"
+  },
+  "videos_one": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Videos attached to an MMS."
+  },
+  "videos_other": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Âm thanh"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ đoạn âm thanh",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Audio clips attached to an MMS."
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ đoạn âm thanh",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Liên hệ"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ liên hệ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Contacts attached to an MMS."
+  },
+  "contacts_other": {
+    "message": "$COUNT$ liên hệ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Tệp"
+  },
+  "files_one": {
+    "message": "$COUNT$ tệp",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Files attached to an MMS."
+  },
+  "files_other": {
+    "message": "$COUNT$ tệp",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ trong nhóm với $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "SMS mới từ $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "MMS mới từ $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Có tin nhắn mới từ điện thoại"
+  },
+  "linkVerified": {
+    "message": "Đã xác minh liên kết với $NAME$! Thông báo SMS tức thì đã bật.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP HẾT HẠN]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Gửi đến sau khi mất kết nối) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "Đã hủy liên kết $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Một điện thoại"
+  },
+  "ignoredMessages_one": {
+    "message": "Đã bỏ qua $COUNT$ tin nhắn. Hủy liên kết máy tính này trong ứng dụng SMS trên điện thoại đó để dừng, hoặc nhấp vào đây để hủy liên kết tất cả điện thoại.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Text of the notice about messages from an unlinked phone."
+  },
+  "ignoredMessages_other": {
+    "message": "Đã bỏ qua $COUNT$ tin nhắn. Hủy liên kết máy tính này trong ứng dụng SMS trên điện thoại đó để dừng, hoặc nhấp vào đây để hủy liên kết tất cả điện thoại.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Mã ghép nối quá dài để điện thoại đọc được."
+  },
+  "noPhoneToUnlink": {
+    "message": "Không có điện thoại nào để hủy liên kết."
+  },
+  "noPushService": {
+    "message": "Trình duyệt này không thể nhận tin nhắn đẩy."
+  }
+}

@@ -1,0 +1,70 @@
+Prejemajte SMS sporočila in kode OTP iz telefona Android kot obvestila na namizju, s šifriranjem od konca do konca in kopiranjem kode z enim klikom.
+
+HMJ SMS Desktop Sync je lahka in odprtokodna razširitev, ki se poveže z aplikacijo HMJ SMS na vašem telefonu Android. Ko na telefon prispe sporočilo, se v trenutku prikaže na namizju, kar vam omogoča kopiranje prijavne kode, ne da bi se dotaknili telefona.
+
+Sporočila potujejo neposredno iz telefona v brskalnik prek brskalnikove lastne potisne storitve, šifrirana izključno za ta brskalnik. Vmes ni nobenih strežnikov, potisna storitev pa vsebine ne more prebrati.
+
+Nasvet: Pripnite razširitev v Chromovem meniju za razširitve (ikona sestavljanke), da bo ikona vedno vidna v orodni vrstici.
+
+KLJUČNE LASTNOSTI
+
+• Namizna obvestila za vsako prejeto sporočilo SMS na telefonu
+• Gumba «Kopiraj OTP» in «Kopiraj sporočilo» na vsakem obvestilu; klik na obvestilo kopira kodo OTP (ali celotno sporočilo, če kode ni)
+• Nedavna sporočila v pojavnem oknu orodne vrstice s kopiranjem z enim klikom
+• Prikaz, kateri telefon in katera kartica SIM je prejela sporočilo (npr. SIM 2: Jio)
+• Seznanite več telefonov; prekinite povezavo za enega ali za vse hkrati z novo kodo za seznanjanje
+• Enostavno seznanjanje z optičnim branjem kode QR – brez računa ali prijave
+• Šifriranje od konca do konca po standardih Web Push (RFC 8291 in RFC 8292)
+• Popolna dostopnost prek tipkovnice in z bralniki zaslona; podpora za temni način in visok kontrast
+• Brez strežnikov, brez analitike in brez sledenja
+
+SEZNANITE SVOJ TELEFON
+
+1. Kliknite ikono HMJ SMS Desktop Sync v orodni vrstici, da se prikaže koda QR za seznanjanje.
+2. V telefonu odprite aplikacijo HMJ SMS, odprite meni in izberite «Desktop Sync».
+3. Dotaknite se «Skeniraj kodo QR» in usmerite kamero v kodo na zaslonu.
+
+Na namizju se prikaže preizkusno obvestilo za potrditev povezave. Če želite seznaniti še en telefon, v pojavnem oknu kliknite «Seznani drugega».
+
+Koda za seznanjanje vsebuje šifrirne ključe za dostop do tega brskalnika. Prikažite ali prilepite jo samo na svojem telefonu ter se izogibajte sinhronizaciji odložišča in deljenju zaslona.
+
+KOPIRANJE KODE
+
+Ko prispe sporočilo s potrditveno kodo, kliknite «Kopiraj OTP» na obvestilu ali kliknite neposredno na obvestilo in prilepite kodo, kjer jo potrebujete. Koda OTP, dostavljena z zamudo več kot 10 minut, je označena kot potekla in kopirati je mogoče le besedilo sporočila.
+
+POVEZANI TELEFONI
+
+Kliknite ime telefona pod orodno vrstico pojavnega okna, da si ogledate seznam povezanih telefonov, čas njihove zadnje dejavnosti ali prekinete povezavo z napravo. Njena sporočila bodo odslej tukaj prezrta.
+
+V meniju (⋮) sta na voljo možnosti «Prekini povezavo z vsemi telefoni» (ustvari novo kodo za seznanjanje, s čimer prepreči nadaljnjo povezavo vseh telefonov, in izbriše shranjena sporočila) ter «Počisti sporočila».
+
+Če brskalnik prekine povezavo, na katero telefoni pošiljajo sporočila (npr. po mesecih brez sporočil), se v pojavnem oknu prikaže obvestilo in nova koda QR za optično branje na vsakem telefonu.
+
+ZASEBNOST
+
+• Brez strežnikov: Sporočila potujejo iz telefona v brskalnik prek potisne storitve, šifrirana tako, da jih lahko prebere le ta brskalnik
+• Brez analitike in sledenja uporabnikom
+• Brez oddaljene kode ali zunanjih skriptov
+• Sporočila, imena telefonov in ključ za seznanjanje so shranjeni izključno lokalno v vašem brskalniku
+• Sporočila, starejša od 24 ur, se samodejno izbrišejo; ohrani se največ 100 sporočil
+• Možnost «Počisti sporočila» v meniju takoj odstrani vsa shranjena sporočila, enako kot «Prekini povezavo z vsemi telefoni»
+
+DOVOLJENJA
+
+• Obvestila: Prikazuje vsako dohodno sporočilo kot namizno obvestilo
+• Odložišče: Kopira kodo OTP ali sporočilo ob kliku na obvestilo ali gumb za kopiranje
+• Shramba: Ohranja povezane telefone in nedavna sporočila lokalno v brskalniku
+• Dokument zunaj zaslona (offscreen): Zapisuje v sistemsko odložišče, česar servisni delavec v ozadju ne more izvesti neposredno
+
+OMEJITVE
+
+• Zahteva aplikacijo HMJ SMS na telefonu Android.
+• Če telefon odklopite v tej razširitvi, bodo njegova sporočila tukaj prezrta, vendar jih bo telefon še naprej pošiljal: Ta računalnik odklopite tudi v aplikaciji HMJ SMS na telefonu ali izberite «Prekini povezavo z vsemi telefoni» (pri čemer morajo ohranjeni telefoni optično prebrati novo kodo QR).
+
+ODPRTA KODA
+
+HMJ SMS Desktop Sync je odprtokodni projekt pod licenco MIT.
+
+Oglejte si izvorno kodo, prijavite težave ali prispevajte na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

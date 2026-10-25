@@ -1,0 +1,70 @@
+Gaukite „Android“ telefono SMS žinutes ir OTP kodus tiesiai į kompiuterio darbalaukį su visapusišku šifravimu (E2EE) ir nukopijuokite kodą 1 paspaudimu.
+
+„HMJ SMS Desktop Sync“ yra lengvas, atvirojo kodo naršyklės plėtinys, susiejamas su jūsų „Android“ telefone veikiančia programėle „HMJ SMS“. Gavus pranešimą į telefoną, jis iškart atsiranda kompiuterio ekrane, todėl galite greitai nukopijuoti patvirtinimo kodą neliesdami telefono.
+
+Žinutės keliauja tiesiai iš telefono į naršyklę per pačios naršyklės tiesioginių pranešimų (push) paslaugą, užšifruotos išskirtinai šiai naršyklei. Tarpinių serverių nėra, o pati paslauga negali perskaityti žinučių turinio.
+
+Patarimas: „Edge“ plėtinių meniu įjunkite „Rodyti įrankių juostoje“ ties „HMJ SMS Desktop Sync“ greitam naudojimui.
+
+PAGRINDINĖS FUNKCIJOS
+
+• Darbalaukio pranešimai apie kiekvieną į telefoną gautą SMS žinutę
+• Mygtukai „Kopijuoti OTP“ ir „Kopijuoti žinutę“ kiekviename pranešime; spustelėjus pranešimą, automatiškai nukopijuojamas kodas (arba visas tekstas, jei kodo nėra)
+• Paskutinių žinučių sąrašas įrankių juostos lange su 1 paspaudimo kopijavimo funkcija
+• Aiškiai rodoma, kuris telefonas ir kuri SIM kortelė gavo žinutę (pvz., SIM 2: Jio)
+• Galimybė susieti kelis telefonus; atjunkite vieną įrenginį arba visus iš karto sukurdami naują susiejimo kodą
+• Greitas susiejimas nuskaitant QR kodą – nereikia jokių paskyrų ar registracijos
+• Stiprus visapusiškas šifravimas (E2EE) pagal „Web Push“ standartus (RFC 8291 ir RFC 8292)
+• Pilnas prieinamumas klaviatūra ir ekrano skaitytuvais; tamsiojo režimo ir didelio kontrasto palaikymas
+• Jokių serverių, jokios analizės ir jokio naudotojų sekimo
+
+TELEFONO SUSIEJIMAS
+
+1. Spustelėkite „HMJ SMS Desktop Sync“ piktogramą įrankių juostoje, kad būtų parodytas susiejimo QR kodas.
+2. Telefone atidarykite „HMJ SMS“ programėlę, eikite į meniu ir pasirinkite „Desktop Sync“.
+3. Bakstelėkite „Nuskaityti QR kodą“ ir nukreipkite kamerą į kompiuterio ekrane rodomą kodą.
+
+Darbalaukyje pasirodys bandomasis pranešimas, patvirtinantis ryšį. Norėdami susieti kitą telefoną, iššokančiajame lange spustelėkite „Susieti kitą“.
+
+Susiejimo kode yra kriptografiniai raktai, skirti bendrauti su šia naršykle. Rodykite ar įklijuokite jį tik savo asmeniniame telefone ir venkite bendrinti ekraną.
+
+KODO KOPIJAVIMAS
+
+Gavę žinutę su patvirtinimo kodu, spustelėkite „Kopijuoti OTP“ pranešime arba spustelėkite patį pranešimą ir įklijuokite kodą ten, kur reikia. Daugiau nei 10 minučių vėluojantis OTP pažymimas kaip pasibaigęs, ir bus galima nukopijuoti tik žinutės tekstą.
+
+SUSIETI TELEFONAI
+
+Spustelėkite telefono pavadinimą po įrankių juosta, kad pamatytumėte susietų įrenginių sąrašą, jų paskutinį aktyvumą ir atjungtumėte norimą įrenginį. Jo žinutės vėliau bus ignoruojamos.
+
+Meniu (⋮) rasite parinktis „Atjungti visus telefonus“ (sukuria naują kodą, blokuodamas ankstesnius telefonus, ir ištrina išsaugotas žinutes) bei „Išvalyti žinutes“.
+
+Jei naršyklė nutraukia ryšį, kuriuo telefonai siunčia duomenis (pavyzdžiui, po kelių mėnesių be pranešimų), iššokantis langas apie tai praneš ir parodys naują QR kodą, kurį reikės nuskaityti kiekviename telefone.
+
+PRIVATUMAS
+
+• Be serverių: žinutės keliauja tiesiai iš telefono į naršyklę užšifruotu pavidalu – jas perskaityti gali tik ši naršyklė
+• Jokio naudotojų elgsenos sekimo ar analitikos
+• Nėra išorinio kodo ar trečiųjų šalių scenarijų
+• Žinutės, įrenginių pavadinimai ir susiejimo raktas saugomi tik lokaliai jūsų naršyklėje
+• Senesnės nei 24 valandų žinutės ištrinamos automatiškai; saugoma iki 100 naujausių žinučių
+• Meniu parinktis „Išvalyti žinutes“ arba „Atjungti visus telefonus“ akimirksniu pašalina visus duomenis
+
+LEIDIMAI
+
+• Pranešimai: gautoms žinutėms rodyti darbalaukyje
+• Iškarpinė: kodui ar žinutei kopijuoti spustelėjus pranešimą arba kopijavimo mygtuką
+• Saugykla: susietiems telefonams ir žinutėms saugoti naršyklėje
+• Fono dokumentas (Offscreen): saugiam įrašymui į sistemos iškarpinę iš fono proceso
+
+APRIBOJIMAI
+
+• Būtina „HMJ SMS“ programėlė „Android“ telefone.
+• Atjungus telefoną plėtinyje, jo žinutės kompiuteryje bus ignoruojamos, bet telefonas jas siųs tol, kol neatjungsite kompiuterio telefone: Atjunkite kompiuterį ir telefono „HMJ SMS“ programėlėje arba pasirinkite „Atjungti visus telefonus“.
+
+ATVIRASIS KODAS
+
+„HMJ SMS Desktop Sync“ yra atvirojo kodo projektas pagal MIT licenciją.
+
+Peržiūrėkite šaltinio kodą, praneškite apie klaidas ar prisidėkite „GitHub“:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

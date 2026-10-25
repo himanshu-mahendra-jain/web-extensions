@@ -1,0 +1,70 @@
+Veja as mensagens SMS e códigos OTP recebidos pelo seu telemóvel Android como notificações no ambiente de trabalho, com encriptação ponto a ponto e cópia de códigos com um clique.
+
+O HMJ SMS Desktop Sync é uma extensão leve e de código aberto que se emparelha com a aplicação HMJ SMS no seu telemóvel Android. Sempre que uma mensagem chega ao telemóvel, surge no seu ecrã num instante, permitindo copiar códigos de início de sessão sem precisar de pegar no telemóvel.
+
+As mensagens viajam diretamente do telemóvel para o seu navegador através do serviço push integrado do navegador, encriptadas exclusivamente para este navegador. Não existem servidores intermediários e o serviço push não consegue ler as suas mensagens.
+
+Sugestão: no menu de Extensões do Edge, ative «Mostrar na barra de ferramentas» para o HMJ SMS Desktop Sync de forma a manter o ícone sempre acessível.
+
+FUNCIONALIDADES PRINCIPAIS
+
+• Notificações no ambiente de trabalho para todos os SMS recebidos no telemóvel
+• Botões «Copiar OTP» e «Copiar mensagem» em cada notificação; clicar na notificação copia o código OTP, ou o texto da mensagem caso não contenha código
+• Mensagens recentes na janela da barra de ferramentas com cópia com um só clique
+• Mostra que telemóvel e que cartão SIM recebeu a mensagem (ex.: SIM 2: Jio)
+• Emparelhe múltiplos telemóveis; desvincule um através do popup ou todos de uma vez através de um novo código de emparelhamento
+• Emparelhamento rápido por leitura de código QR, sem registo ou criação de conta
+• Encriptação ponto a ponto com as normas Web Push (RFC 8291 e RFC 8292)
+• Totalmente acessível por teclado e leitores de ecrã; suporte a modo escuro e alto contraste
+• Sem servidores, sem métricas e sem rastreio
+
+EMPARELHAR O SEU TELEMÓVEL
+
+1. Clique no ícone do HMJ SMS Desktop Sync na barra de ferramentas para mostrar o código QR de emparelhamento.
+2. No telemóvel, abra a aplicação HMJ SMS, aceda ao menu e escolha «Desktop Sync».
+3. Toque em «Ler código QR» e aponte para o código no seu ecrã.
+
+Surgirá uma notificação de teste no seu computador a confirmar a ligação. Para emparelhar outro telemóvel, clique em «Emparelhar outro» na janela de contexto.
+
+O código de emparelhamento guarda as chaves de segurança para aceder a este navegador. Mostre-o ou cole-o apenas no seu telemóvel pessoal e evite partilhas de ecrã ou sincronizações do clipboard.
+
+COPIAR UM CÓDIGO
+
+Ao receber uma mensagem com código de autenticação, clique em «Copiar OTP» na notificação ou clique diretamente na notificação e cole o código onde precisar. Um OTP recebido com mais de 10 minutos de atraso é marcado como expirado, ficando disponível apenas a cópia do texto do SMS.
+
+TELEMÓVEIS VINCULADOS
+
+Clique no nome do telemóvel sob a barra de ferramentas para ver os telemóveis vinculados, a respetiva última atividade e desvincular qualquer um. As suas mensagens passarão a ser ignoradas neste computador.
+
+O menu (⋮) da janela inclui «Desvincular todos os telemóveis» (que gera um novo código de emparelhamento para bloquear o acesso anterior e elimina todas as mensagens guardadas) e «Limpar mensagens».
+
+Se o navegador interromper a ligação para a qual os telemóveis enviam mensagens, como após meses sem atividade, a janela avisará e apresentará um novo código QR para ler em cada telemóvel.
+
+PRIVACIDADE
+
+• Sem servidores: as mensagens passam do seu telemóvel para o navegador através do serviço push do navegador, encriptadas para que apenas este navegador as consiga decifrar
+• Sem recolha de dados analíticos nem rastreadores
+• Sem código remoto ou scripts externos
+• As mensagens, os nomes dos telemóveis e a chave de emparelhamento são armazenados apenas no seu navegador
+• Mensagens com mais de 24 horas são removidas automaticamente; guardam-se no máximo 100 mensagens
+• A opção «Limpar mensagens» no menu elimina todas as mensagens armazenadas em simultâneo, tal como «Desvincular todos os telemóveis»
+
+PERMISSÕES
+
+• Notificações: apresenta cada mensagem recebida como notificação no ambiente de trabalho
+• Área de transferência: copia o código OTP ou mensagem ao clicar numa notificação ou botão de cópia
+• Armazenamento: guarda localmente no seu navegador os telemóveis vinculados e o histórico de mensagens
+• Documento offscreen: escreve na área de transferência, algo que o service worker em segundo plano não consegue realizar diretamente
+
+LIMITAÇÕES
+
+• Requer a aplicação HMJ SMS instalada num telemóvel Android.
+• Desvincular um telemóvel aqui faz com que as suas mensagens sejam ignoradas neste navegador, mas só o telemóvel pode suspender os envios: desvincule este computador também na app HMJ SMS no telemóvel, ou escolha «Desvincular todos os telemóveis», após o que os telemóveis que pretenda manter terão de ler o novo código QR.
+
+CÓDIGO ABERTO
+
+O HMJ SMS Desktop Sync é um projeto de código aberto sob a licença MIT.
+
+Consulte o código-fonte, reporte problemas ou colabore no GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

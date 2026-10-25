@@ -1,0 +1,70 @@
+Vastaanota Android-puhelimesi SMS-viestit ja OTP-vahvistuskoodit työpöytäilmoituksina, päästä päähän salattuna, ja kopioi koodit yhdellä napsautuksella.
+
+HMJ SMS Desktop Sync on kevyt ja avoimen lähdekoodin laajennus, joka muodostaa pariliitoksen Android-puhelimesi HMJ SMS -sovelluksen kanssa. Kun puhelimeesi saapuu viesti, se ilmestyy välittömästi tietokoneen näytölle, jotta voit kopioida kirjautumiskoodit vaivattomasti puhelimeen koskematta.
+
+Viestit siirtyvät suoraan puhelimesta selaimeesi selaimen oman push-palvelun kautta, salattuna ainoastaan tätä nimenomaista selainta varten. Välissä ei ole palvelimia, eikä push-palvelu pysty lukemaan viestiesi sisältöä.
+
+Vinkki: Kiinnitä laajennus Chromen Laajennukset-valikosta (palapelikuvake), jotta sen kuvake pysyy aina näkyvissä työkalurivillä.
+
+TÄRKEIMMÄT OMINAISUUDET
+
+• Reaaliaikaiset työpöytäilmoitukset jokaisesta puhelimeesi saapuvasta SMS-viestistä
+• «Kopioi OTP» ja «Kopioi viesti» -painikkeet ilmoituksissa; ilmoituksen napsauttaminen kopioi OTP-koodin suoraan (tai koko viestin, jos koodia ei ole)
+• Viimeisimmät viestit työkalurivin ponnahdusikkunassa 1 napsautuksen kopioinnilla
+• Näyttää selkeästi, mikä puhelin ja SIM-kortti vastaanotti viestin (esim. SIM 2: Jio)
+• Yhdistä useita puhelimia; poista yksittäinen laite tai nollaa kaikki kerralla uudella pariliitoskoodilla
+• Nopea pariliitos QR-koodin skannauksella – ei käyttäjätilejä tai kirjautumista
+• Päästä päähän salattu (E2EE) virallisten Web Push -standardien (RFC 8291 ja RFC 8292) mukaisesti
+• Täysi saavutettavuus näppäimistöllä ja ruudunlukuohjelmilla; tumman tilan ja suuren kontrastin tuki
+• Ei palvelimia, ei analytiikkaa, ei seurantaa
+
+PUHELIMEN LIITTÄMINEN
+
+1. Napsauta HMJ SMS Desktop Sync -kuvaketta työkalurivillä avataksesi QR-koodin.
+2. Avaa puhelimessasi HMJ SMS -sovellus, siirry valikkoon ja valitse «Desktop Sync».
+3. Napauta «Skannaa QR-koodi» ja lue tietokoneen näytöllä näkyvä koodi.
+
+Työpöydällesi saapuu testi-ilmoitus yhteyden vahvistamiseksi. Voit yhdistää toisen puhelimen napsauttamalla ponnahdusikkunassa «Liitä toinen».
+
+Pariliitoskoodi sisältää salausavaimet tähän selaimeen yhdistämiseksi. Näytä tai liitä se vain omassa puhelimessasi, ja vältä leikepöydän jakamista tai näytön jakamista.
+
+KOODIN KOPIOIMINEN
+
+Kun viesti saapuu, napsauta ilmoituksessa «Kopioi OTP» tai napsauta suoraan itse ilmoitusta ja liitä koodi haluamaasi paikkaan. Yli 10 minuuttia myöhässä toimitettu OTP merkitään vanhentuneeksi, jolloin vain viestin teksti voidaan kopioida.
+
+LIITETYT PUHELIMET
+
+Napsauta ponnahdusikkunassa puhelimen nimeä nähdäksesi liitettyjen puhelimien luettelon ja niiden viimeisimmän aktiivisuuden sekä poistaaksesi laitteen liitoksen. Sen viestit ohitetaan jatkossa.
+
+Valikosta (⋮) löytyvät toiminnot «Katkaise kaikkien puhelimien yhteys» (luo uuden koodin estäen aiemmat laitteet ja tyhjentää tallennetut viestit) sekä «Tyhjennä viestit».
+
+Jos selain katkaisee yhteyden, johon puhelimet lähettävät tietoja (esimerkiksi kuukausien viestittömyyden jälkeen), ponnahdusikkuna ilmoittaa siitä ja näyttää uuden QR-koodin skannattavaksi jokaisella puhelimella.
+
+YKSITYISYYS
+
+• Ei palvelimia: Viestit siirtyvät puhelimesta selaimeen push-palvelun kautta salattuina siten, että vain tämä selain voi purkaa ne
+• Ei analytiikkaa tai käyttäjän seurantaa
+• Ei etäkoodia tai ulkoisia JavaScript-skriptejä
+• Viestit, laitenimet ja pariliitosavaimet tallennetaan vain paikallisesti selaimeesi
+• Yli 24 tuntia vanhat viestit poistetaan automaattisesti; enintään 100 viestiä säilytetään
+• Valikon «Tyhjennä viestit» tai «Katkaise kaikkien puhelimien yhteys» poistaa kaikki tallennetut tiedot välittömästi
+
+LUVAT
+
+• Ilmoitukset: Saapuvien viestien näyttämiseen työpöytäilmoituksina
+• Leikepöytä: OTP-koodin tai viestin kopioimiseen napsautettaessa ilmoitusta tai kopiointipainiketta
+• Tallennustila: Liitettyjen laitteiden ja viimeisimpien viestien säilyttämiseen paikallisesti selaimessa
+• Tausta-asiakirja (Offscreen): Järjestelmän leikepöydälle kirjoittamiseen turvallisesti taustalta käsin
+
+RAJOITUKSET
+
+• Vaatii HMJ SMS -sovelluksen Android-puhelimeen.
+• Laitteen poistaminen laajennuksessa estää viestien näkymisen tällä tietokoneella, mutta puhelin jatkaa lähettämistä, kunnes yhteys puretaan sovelluksessa: Katkaise tietokoneen yhteys myös puhelimen HMJ SMS -sovelluksessa, tai käytä toimintoa «Katkaise kaikkien puhelimien yhteys».
+
+AVOIN LÄHDEKOODI
+
+HMJ SMS Desktop Sync on avoimen lähdekoodin ohjelmisto MIT-lisenssillä.
+
+Lähdekoodi, vikailmoitukset ja kehitystyö GitHubissa:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,70 @@
+Se SMS-meddelanden och engångskoder (OTP) från din Android-telefon som skrivbordsnotiser, helkrypterade (E2EE), och kopiera koder med ett klick.
+
+HMJ SMS Desktop Sync är ett lätt och öppet tillägg som paras ihop med appen HMJ SMS på din Android-telefon. När ett meddelande når mobilen visas det direkt på din datorskärm, så att du smidigt kan kopiera inloggningskoder utan att behöva plocka upp telefonen.
+
+Meddelanden skickas direkt från din telefon till din webbläsare via webbläsarens egen push-tjänst, krypterade uteslutande för just denna webbläsare. Det finns ingen mellanliggande server, och push-tjänsten kan inte avläsa innehållet.
+
+Tips: I Edges tilläggsmeny slår du på «Visa i verktygsfältet» för HMJ SMS Desktop Sync för enkel åtkomst.
+
+HUVUDFUNKTIONER
+
+• Skrivbordsnotiser för varje SMS som din mobil tar emot
+• Knapparna «Kopiera OTP» och «Kopiera meddelande» i varje notis; ett klick på notisen kopierar OTP-koden, eller hela meddelandet om det saknar kod
+• Senaste meddelandena samlade i popup-fönstret med ett-klickskopiering
+• Visar vilken telefon och vilket SIM-kort som tog emot meddelandet (t.ex. SIM 2: Jio)
+• Koppla flera telefoner; koppla från en enskild telefon eller nollställ alla samtidigt med en ny parkopplingskod
+• Parkopplas snabbt genom att skanna en QR-kod – inget konto och ingen inloggning krävs
+• Helkryptering enligt standardiserade Web Push-protokoll (RFC 8291 och RFC 8292)
+• Fullt hanterbar via tangentbord och skärmläsare; stöd för mörkt läge och högkontrastfärger
+• Inga servrar, ingen analys och ingen spårning
+
+KOPPLA DIN TELEFON
+
+1. Klicka på ikonen för HMJ SMS Desktop Sync i verktygsfältet för att visa QR-koden.
+2. Öppna appen HMJ SMS på din telefon, öppna menyn och välj «Desktop Sync».
+3. Tryck på «Skanna QR-kod» och rikta kameran mot koden på datorskärmen.
+
+En testnotis visas på skrivbordet som bekräftar anslutningen. För att parkoppla en annan telefon klickar du på «Parkoppla en till» i fönstret.
+
+Parkopplingskoden innehåller krypteringsnycklarna för att nå denna webbläsare. Visa eller klistra bara in den på din egen mobil och undvik urklippssynkronisering och skärmdelning.
+
+KOPIERA EN KOD
+
+När ett meddelande med en kod kommer, klickar du på «Kopiera OTP» i notisen eller klickar direkt på notisen för att klistra in koden. En OTP-kod som levereras mer än 10 minuter för sent markeras som utgången och endast meddelandetexten kan kopieras.
+
+KOPPLADE TELEFONER
+
+Klicka på telefonens namn under verktygsfältet i popup-fönstret för att se listan över kopplade telefoner, senaste aktivitet och för att koppla från en enhet. Dess meddelanden kommer därefter att ignoreras här.
+
+Menyn (⋮) i popup-fönstret innehåller «Koppla från alla telefoner» (som skapar en ny parkopplingskod så att ingen telefon längre kan nå webbläsaren samt raderar alla sparade meddelanden) och «Rensa meddelanden».
+
+Om webbläsaren avslutar anslutningen som telefonerna sänder till, exempelvis efter flera månader utan meddelanden, meddelar popup-fönstret detta och visar en ny QR-kod att skanna på varje telefon.
+
+INTEGRITET
+
+• Inga servrar: Meddelanden går från din mobil direkt till webbläsaren via webbläsarens push-tjänst, krypterade så att endast denna webbläsare kan läsa dem
+• Ingen analys eller spårning av användarbeteende
+• Ingen extern kod eller tredjeparts-JavaScript
+• Meddelanden, enhetsnamn och krypteringsnycklar lagras enbart lokalt i din webbläsare
+• Meddelanden äldre än 24 timmar raderas automatiskt; högst 100 meddelanden sparas
+• «Rensa meddelanden» i menyn tar bort alla sparade meddelanden på en gång, precis som «Koppla från alla telefoner»
+
+BEHÖRIGHETER
+
+• Notiser: Visar inkommande meddelanden som skrivbordsnotiser
+• Urklipp: Kopierar OTP eller meddelanden när du klickar på en notis eller kopieringsknapp
+• Lagring: Sparar kopplade telefoner och tidigare meddelanden lokalt i webbläsaren
+• Offscreen-dokument: Skriver till urklipp, vilket en bakgrunds-service worker inte kan utföra på egen hand
+
+BEGRÄNSNINGAR
+
+• Kräver appen HMJ SMS på en Android-telefon.
+• Om du kopplar från en mobil här ignoreras dess meddelanden på denna dator, men mobilen fortsätter sända tills den kopplas bort: Koppla även från datorn i HMJ SMS-appen på mobilen eller välj «Koppla från alla telefoner» (varpå telefoner du vill behålla måste skanna den nya QR-koden).
+
+ÖPPEN KÄLLKOD
+
+HMJ SMS Desktop Sync är öppen källkod och licensierad under MIT-licensen.
+
+Granska källkoden, rapportera problem eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

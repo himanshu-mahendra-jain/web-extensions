@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Serverløse, ende-til-ende-krypterte SMS- og OTP-varsler i sanntid fra Android-telefonen din, med kopiering med 1 klikk."
+  },
+  "statusLinked": {
+    "message": "Tilkoblet"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ tilkoblet",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ tilkoblet",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Frakoblet"
+  },
+  "pairButton": {
+    "message": "Koble til"
+  },
+  "pairButtonTitle": {
+    "message": "Vis QR-kode for tilkobling"
+  },
+  "pairAnotherButton": {
+    "message": "Legg til"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Vis QR-kode for å koble til en telefon til"
+  },
+  "moreOptions": {
+    "message": "Flere alternativer"
+  },
+  "unlinkAllPhones": {
+    "message": "Koble fra alle telefoner"
+  },
+  "clearMessages": {
+    "message": "Tøm meldinger"
+  },
+  "phoneFallbackName": {
+    "message": "Telefon"
+  },
+  "bannerLinked": {
+    "message": "(tilkoblet)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ telefon tilkoblet)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ telefoner tilkoblet)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Aktiv"
+  },
+  "linkedPhones": {
+    "message": "Tilkoblede telefoner"
+  },
+  "lastActive": {
+    "message": "Sist aktiv: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Koble fra"
+  },
+  "unlinkPhone": {
+    "message": "Koble fra $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Vil du koble fra $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Meldinger fra $NAME$ ignoreres her. For at den skal slutte å sende dem, må du også koble fra denne datamaskinen i SMS-appen på telefonen.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ er koblet fra.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Koble til Android-telefon"
+  },
+  "pairOpenApp": {
+    "message": "Åpne HMJ SMS-appen på telefonen"
+  },
+  "pairAppPath": {
+    "message": "Innstillinger → Skrivebordssynkronisering → Skann QR-kode",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "QR-kode for tilkobling"
+  },
+  "copyCode": {
+    "message": "Kopier kode"
+  },
+  "hide": {
+    "message": "Skjul"
+  },
+  "pairingWarning": {
+    "message": "Denne koden inneholder nøklene til koblingen din. Vis eller lim den inn bare på din egen telefon, og hold den unna synkronisering av utklippstavlen og skjermdeling."
+  },
+  "pairingChanged": {
+    "message": "Tilkoblingen er endret. Skann QR-koden på nytt på hver telefon.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Varsler er slått av for denne utvidelsen i nettleseren, så meldinger lagres, men vises ikke.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Klar for innkommende SMS"
+  },
+  "emptyText": {
+    "message": "Innkommende SMS-er og OTP-er vises her i sanntid."
+  },
+  "showPairingQrCode": {
+    "message": "Vis QR-kode for tilkobling"
+  },
+  "connectedTo": {
+    "message": "Koblet til $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Koblet til $COUNT$ telefon",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Koblet til $COUNT$ telefoner",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Venter på SMS- og OTP-varsler fra $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "copied": {
+    "message": "Kopiert!"
+  },
+  "pairingCodeCopied": {
+    "message": "Tilkoblingskoden er kopiert."
+  },
+  "otpCopied": {
+    "message": "OTP er kopiert."
+  },
+  "messageCopied": {
+    "message": "Meldingen er kopiert."
+  },
+  "copyFailed": {
+    "message": "Kunne ikke kopiere: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Ingen svar fra bakgrunnsprosessen."
+  },
+  "unlinkAllTitle": {
+    "message": "Vil du koble fra alle telefoner?"
+  },
+  "unlinkAllText": {
+    "message": "Denne datamaskinen får en ny tilkoblingskode, og ingen telefon kan nå den lenger. Alle meldinger som er lagret i denne utvidelsen, fjernes. Telefoner du vil beholde, må skanne den nye QR-koden."
+  },
+  "unlinkAllAction": {
+    "message": "Koble fra alle"
+  },
+  "allPhonesUnlinked": {
+    "message": "Alle telefoner er koblet fra og meldingene tømt. Skann den nye QR-koden for å koble til igjen."
+  },
+  "unlinkFailed": {
+    "message": "Kunne ikke koble fra: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Vil du tømme nylige meldinger?"
+  },
+  "clearText": {
+    "message": "Alle meldinger som er lagret i denne utvidelsen, fjernes. Meldinger på telefonen påvirkes ikke."
+  },
+  "messagesCleared": {
+    "message": "Alle lagrede meldinger er tømt."
+  },
+  "clearFailed": {
+    "message": "Kunne ikke tømme meldingene: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Kunne ikke lage en tilkoblingskode: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Ny melding fra $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Ukjent"
+  },
+  "tagGroup": {
+    "message": "Gruppe"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Med $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Kopier OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Kopier tekst"
+  },
+  "copyMessage": {
+    "message": "Kopier melding"
+  },
+  "justNow": {
+    "message": "Akkurat nå"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Bilde"
+  },
+  "photos_one": {
+    "message": "$COUNT$ bilde",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ bilder",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Video"
+  },
+  "videos_one": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ videoer",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Lyd"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ lydklipp",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ lydklipp",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Kontakt"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ kontakt",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ kontakter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Fil"
+  },
+  "files_one": {
+    "message": "$COUNT$ fil",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ filer",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ i gruppe med $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Ny SMS fra $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Ny MMS fra $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Ny melding mottatt fra telefonen"
+  },
+  "linkVerified": {
+    "message": "Koblingen til $NAME$ er bekreftet! Umiddelbare SMS-varsler er aktive.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[UTLØPT OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Levert etter frakobling) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ er koblet fra",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "En telefon"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ melding ignorert. Koble fra denne datamaskinen i SMS-appen på telefonen for å stoppe dem, eller klikk her for å koble fra alle telefoner.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ meldinger ignorert. Koble fra denne datamaskinen i SMS-appen på telefonen for å stoppe dem, eller klikk her for å koble fra alle telefoner.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Tilkoblingskoden er for lang til at telefonen kan lese den."
+  },
+  "noPhoneToUnlink": {
+    "message": "Ingen telefon å koble fra."
+  },
+  "noPushService": {
+    "message": "Denne nettleseren kan ikke motta push-meldinger."
+  }
+}

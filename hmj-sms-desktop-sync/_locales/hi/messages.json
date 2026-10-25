@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "आपके Android फ़ोन से बिना सर्वर, एंड-टू-एंड एन्क्रिप्टेड SMS और OTP सूचनाएं रीयल-टाइम में, 1 क्लिक में कॉपी।"
+  },
+  "statusLinked": {
+    "message": "लिंक है"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ लिंक है",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ लिंक हैं",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "लिंक नहीं है"
+  },
+  "pairButton": {
+    "message": "पेयर करें"
+  },
+  "pairButtonTitle": {
+    "message": "पेयरिंग QR कोड दिखाएं"
+  },
+  "pairAnotherButton": {
+    "message": "जोड़ें"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "एक और फ़ोन लिंक करने के लिए QR कोड दिखाएं"
+  },
+  "moreOptions": {
+    "message": "ज़्यादा विकल्प"
+  },
+  "unlinkAllPhones": {
+    "message": "सभी फ़ोन अनलिंक करें"
+  },
+  "clearMessages": {
+    "message": "मैसेज मिटाएं"
+  },
+  "phoneFallbackName": {
+    "message": "फ़ोन"
+  },
+  "bannerLinked": {
+    "message": "(लिंक है)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ फ़ोन लिंक है)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ फ़ोन लिंक हैं)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "चालू"
+  },
+  "linkedPhones": {
+    "message": "लिंक किए गए फ़ोन"
+  },
+  "lastActive": {
+    "message": "आखिरी बार चालू: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "अनलिंक करें"
+  },
+  "unlinkPhone": {
+    "message": "$NAME$ को अनलिंक करें",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "$NAME$ को अनलिंक करें?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "$NAME$ से आने वाले मैसेज यहां अनदेखे कर दिए जाएंगे। फ़ोन से मैसेज भेजना बंद करने के लिए, उस फ़ोन के SMS ऐप में जाकर भी इस कंप्यूटर को अनलिंक करें।",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ अनलिंक हो गया।",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Android फ़ोन से पेयर करें"
+  },
+  "pairOpenApp": {
+    "message": "फ़ोन पर HMJ SMS ऐप खोलें"
+  },
+  "pairAppPath": {
+    "message": "सेटिंग्स → डेस्कटॉप सिंक → QR कोड स्कैन करें",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "पेयरिंग QR कोड"
+  },
+  "copyCode": {
+    "message": "कोड कॉपी करें"
+  },
+  "hide": {
+    "message": "छिपाएं"
+  },
+  "pairingWarning": {
+    "message": "इस कोड में आपके कनेक्शन की सुरक्षा कुंजियां (keys) हैं। इसे केवल अपने निजी फ़ोन पर दिखाएं या पेस्ट करें, और क्लिपबोर्ड सिंक या स्क्रीन शेयरिंग से दूर रखें।"
+  },
+  "pairingChanged": {
+    "message": "पेयरिंग कनेक्शन बदल गया है। कृपया प्रत्येक फ़ोन पर QR कोड फिर से स्कैन करें।",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "ब्राउज़र में इस एक्सटेंशन के नोटिफिकेशन्स बंद हैं, इसलिए मैसेज सेव होते हैं पर स्क्रीन पर दिखाई नहीं देंगे。",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "आने वाले SMS के लिए तैयार"
+  },
+  "emptyText": {
+    "message": "आने वाले SMS और OTP यहां रीयल-टाइम में दिखाई देंगे।"
+  },
+  "showPairingQrCode": {
+    "message": "पेयरिंग QR कोड दिखाएं"
+  },
+  "connectedTo": {
+    "message": "$NAME$ से कनेक्ट है",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "$COUNT$ फ़ोन से कनेक्ट है",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "$COUNT$ फ़ोन से कनेक्ट है",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "$NAMES$ से आने वाले SMS और OTP अलर्ट की प्रतीक्षा है।",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "रद्द करें"
+  },
+  "copied": {
+    "message": "कॉपी हो गया!"
+  },
+  "pairingCodeCopied": {
+    "message": "पेयरिंग कोड कॉपी हो गया।"
+  },
+  "otpCopied": {
+    "message": "OTP कॉपी हो गया।"
+  },
+  "messageCopied": {
+    "message": "मैसेज कॉपी हो गया।"
+  },
+  "copyFailed": {
+    "message": "कॉपी करने में विफल: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "बैकग्राउंड सर्विस से कोई जवाब नहीं मिला।"
+  },
+  "unlinkAllTitle": {
+    "message": "सभी फ़ोन अनलिंक करें?"
+  },
+  "unlinkAllText": {
+    "message": "इस कंप्यूटर के लिए एक नया पेयरिंग कोड बनाया जाएगा, जिससे कोई भी पुराना फ़ोन कनेक्ट नहीं रह पाएगा। इस एक्सटेंशन में सुरक्षित सभी मैसेज हटा दिए जाएंगे। जिन फ़ोन को जोड़े रखना है, उनसे नया QR कोड स्कैन करना होगा।"
+  },
+  "unlinkAllAction": {
+    "message": "सभी अनलिंक करें"
+  },
+  "allPhonesUnlinked": {
+    "message": "सभी फ़ोन अनलिंक हो गए और मैसेज मिटा दिए गए। फिर से पेयर करने के लिए नया QR कोड स्कैन करें।"
+  },
+  "unlinkFailed": {
+    "message": "अनलिंक करने में विफल: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "हाल के मैसेज मिटाएं?"
+  },
+  "clearText": {
+    "message": "इस एक्सटेंशन में सुरक्षित सभी मैसेज हटा दिए जाएंगे। आपके फ़ोन में मौजूद मैसेज पर इसका कोई असर नहीं पड़ेगा।"
+  },
+  "messagesCleared": {
+    "message": "सेव किए गए सभी मैसेज मिटा दिए गए।"
+  },
+  "clearFailed": {
+    "message": "मैसेज हटाने में विफल: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "पेयरिंग कोड बनाने में विफल: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "$SENDER$ से नया मैसेज।",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "अज्ञात"
+  },
+  "tagGroup": {
+    "message": "ग्रुप"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "$NAMES$ के साथ",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "OTP कॉपी करें ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "टेक्स्ट कॉपी करें"
+  },
+  "copyMessage": {
+    "message": "मैसेज कॉपी करें"
+  },
+  "justNow": {
+    "message": "अभी-अभी"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "फ़ोटो"
+  },
+  "photos_one": {
+    "message": "$COUNT$ फ़ोटो",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ फ़ोटो",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "वीडियो"
+  },
+  "videos_one": {
+    "message": "$COUNT$ वीडियो",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ वीडियो",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "ऑडियो"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ ऑडियो क्लिप",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ ऑडियो क्लिप",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "संपर्क"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ संपर्क",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ संपर्क",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "फ़ाइल"
+  },
+  "files_one": {
+    "message": "$COUNT$ फ़ाइल",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ फ़ाइलें",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$NAMES$ वाले ग्रुप में $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "$SENDER$ से नया SMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "$SENDER$ से नया MMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "फ़ोन से नया संदेश प्राप्त हुआ"
+  },
+  "linkVerified": {
+    "message": "$NAME$ के साथ कनेक्शन सत्यापित हो गया! तुरंत SMS अलर्ट सक्रिय हैं।",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[एक्सपायर हो चुका OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(डिसकनेक्ट होने के बाद प्राप्त हुआ) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ अनलिंक है",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "एक फ़ोन"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ मैसेज अनदेखा किया गया। इन्हें रोकने के लिए उस फ़ोन के SMS ऐप में इस कंप्यूटर को अनलिंक करें, या सभी फ़ोन अनलिंक करने के लिए यहां क्लिक करें।",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ मैसेज अनदेखे किए गए। इन्हें रोकने के लिए उस फ़ोन के SMS ऐप में इस कंप्यूटर को अनलिंक करें, या सभी फ़ोन अनलिंक करने के लिए यहां क्लिक करें।",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "पेयरिंग कोड बहुत लंबा है, फ़ोन इसे पढ़ नहीं सकता।"
+  },
+  "noPhoneToUnlink": {
+    "message": "अनलिंक करने के लिए कोई फ़ोन नहीं है।"
+  },
+  "noPushService": {
+    "message": "यह ब्राउज़र पुश मैसेज प्राप्त नहीं कर सकता।"
+  }
+}

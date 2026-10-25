@@ -28,7 +28,10 @@ async function handleCopy(text) {
     // Fallback to execCommand if navigator.clipboard fails
   }
 
-  // An offscreen document never has focus, which navigator.clipboard needs; execCommand does not.
+  /*
+   * An offscreen document never has focus, which navigator.clipboard needs; execCommand,
+   * though deprecated, does not, and is the path Chrome documents for offscreen copies.
+   */
   textarea.value = text;
   textarea.select();
   document.execCommand("copy");

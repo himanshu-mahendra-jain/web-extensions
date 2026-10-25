@@ -41,12 +41,15 @@ An extension directory must have this structure to be built:
 <extension>/
 ├── manifest.json            for Chromium-based browsers
 ├── manifest-firefox.json    for Firefox (optional)
+├── _locales/                translations (optional)
 ├── icons/
 ├── options/
 └── src/
 ```
 
-The packages contain `manifest.json`, `icons/`, `options/`, and `src/`. If `options/placeholder` exists, `options/` is left out, for extensions that do not currently ship an options page but still keep the required folder in place. Other files in the extension directory, such as `README.md`, `store-assets/`, and `tests/`, are not packaged.
+The packages contain `manifest.json`, `_locales/` when it exists, `icons/`, `options/`, and `src/`. If `options/placeholder` exists, `options/` is left out, for extensions that do not currently ship an options page but still keep the required folder in place. Other files in the extension directory, such as `README.md`, `store-assets/`, and `tests/`, are not packaged.
+
+An extension with `_locales/` names its `default_locale` in its manifests, and the manifest tests check that every `__MSG_name__` there is defined, that each message declares its placeholders, and that other locales translate only the default locale's messages. Keep the manifest's `name` literal: `build.sh` names the packages after it.
 
 ## Firefox File Variants
 

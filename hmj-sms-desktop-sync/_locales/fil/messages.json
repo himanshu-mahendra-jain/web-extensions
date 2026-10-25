@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Real-time na SMS at OTP notification mula sa Android phone mo, walang server, end-to-end encrypted, kopya sa 1 click."
+  },
+  "statusLinked": {
+    "message": "Naka-link"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ naka-link",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ naka-link",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Hindi naka-link"
+  },
+  "pairButton": {
+    "message": "I-pair"
+  },
+  "pairButtonTitle": {
+    "message": "Ipakita ang QR code sa pag-pair"
+  },
+  "pairAnotherButton": {
+    "message": "Magdagdag"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Ipakita ang QR code para mag-link ng isa pang phone"
+  },
+  "moreOptions": {
+    "message": "Higit pang opsyon"
+  },
+  "unlinkAllPhones": {
+    "message": "I-unlink ang lahat ng phone"
+  },
+  "clearMessages": {
+    "message": "I-clear ang mga mensahe"
+  },
+  "phoneFallbackName": {
+    "message": "Phone"
+  },
+  "bannerLinked": {
+    "message": "(naka-link)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ phone ang naka-link)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ phone ang naka-link)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Aktibo"
+  },
+  "linkedPhones": {
+    "message": "Mga naka-link na phone"
+  },
+  "lastActive": {
+    "message": "Huling aktibo: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "I-unlink"
+  },
+  "unlinkPhone": {
+    "message": "I-unlink ang $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "I-unlink ang $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Babalewalain dito ang mga mensahe mula sa $NAME$. Para tumigil ito sa pagpapadala, i-unlink din ang computer na ito sa SMS app ng phone na iyon.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "Na-unlink ang $NAME$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "I-pair sa Android phone"
+  },
+  "pairOpenApp": {
+    "message": "Buksan ang HMJ SMS app sa phone"
+  },
+  "pairAppPath": {
+    "message": "Mga Setting → Desktop Sync → I-scan ang QR Code",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "QR code sa pag-pair"
+  },
+  "copyCode": {
+    "message": "Kopyahin ang code"
+  },
+  "hide": {
+    "message": "Itago"
+  },
+  "pairingWarning": {
+    "message": "Hawak ng code na ito ang mga key ng iyong link. Ipakita o i-paste lang ito sa sarili mong phone, at ilayo ito sa clipboard sync at screen sharing."
+  },
+  "pairingChanged": {
+    "message": "Nagbago ang pairing mo. I-scan ulit ang QR code sa bawat phone.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Naka-off sa browser ang mga notification ng extension na ito, kaya naka-save ang mga mensahe pero hindi ipinapakita.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Handa na para sa papasok na SMS"
+  },
+  "emptyText": {
+    "message": "Lalabas dito nang real-time ang mga papasok na SMS at OTP."
+  },
+  "showPairingQrCode": {
+    "message": "Ipakita ang QR code sa pag-pair"
+  },
+  "connectedTo": {
+    "message": "Nakakonekta sa $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Nakakonekta sa $COUNT$ phone",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Nakakonekta sa $COUNT$ phone",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Naghihintay ng mga SMS at OTP alert mula sa $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Kanselahin"
+  },
+  "copied": {
+    "message": "Nakopya!"
+  },
+  "pairingCodeCopied": {
+    "message": "Nakopya ang pairing code."
+  },
+  "otpCopied": {
+    "message": "Nakopya ang OTP."
+  },
+  "messageCopied": {
+    "message": "Nakopya ang mensahe."
+  },
+  "copyFailed": {
+    "message": "Hindi nakopya: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Walang sagot mula sa background."
+  },
+  "unlinkAllTitle": {
+    "message": "I-unlink ang lahat ng phone?"
+  },
+  "unlinkAllText": {
+    "message": "Makakakuha ang computer na ito ng bagong pairing code, at wala nang phone na makakaabot dito. Aalisin ang bawat mensaheng naka-store sa extension na ito. Kailangang i-scan ng mga phone na pananatilihin mo ang bagong QR code."
+  },
+  "unlinkAllAction": {
+    "message": "I-unlink lahat"
+  },
+  "allPhonesUnlinked": {
+    "message": "Na-unlink ang lahat ng phone at na-clear ang mga mensahe. I-scan ang bagong QR code para mag-pair ulit."
+  },
+  "unlinkFailed": {
+    "message": "Hindi na-unlink: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "I-clear ang mga kamakailang mensahe?"
+  },
+  "clearText": {
+    "message": "Aalisin ang bawat mensaheng naka-store sa extension na ito. Hindi maaapektuhan ang mga mensahe sa iyong phone."
+  },
+  "messagesCleared": {
+    "message": "Na-clear ang lahat ng naka-store na mensahe."
+  },
+  "clearFailed": {
+    "message": "Hindi na-clear ang mga mensahe: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Hindi makagawa ng pairing code: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Bagong mensahe mula sa $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Hindi kilala"
+  },
+  "tagGroup": {
+    "message": "Grupo"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Kasama sina $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Kopyahin ang OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Kopyahin ang text"
+  },
+  "copyMessage": {
+    "message": "Kopyahin ang mensahe"
+  },
+  "justNow": {
+    "message": "Ngayon lang"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Larawan"
+  },
+  "photos_one": {
+    "message": "$COUNT$ larawan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ larawan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Video"
+  },
+  "videos_one": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Audio"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ audio clip",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ audio clip",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Contact"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ contact",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ contact",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "File"
+  },
+  "files_one": {
+    "message": "$COUNT$ file",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ file",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ sa grupo kasama sina $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Bagong SMS mula sa $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Bagong MMS mula sa $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "May bagong mensahe mula sa phone"
+  },
+  "linkVerified": {
+    "message": "Na-verify ang link sa $NAME$! Aktibo na ang mga instant SMS alert.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[EXPIRED NA OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Naihatid pagkatapos madiskonekta) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "Naka-unlink na ang $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Isang phone"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ mensahe ang binalewala. I-unlink ang computer na ito sa SMS app ng phone na iyon para itigil ang mga ito, o i-click dito para i-unlink ang lahat ng phone.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ mensahe ang binalewala. I-unlink ang computer na ito sa SMS app ng phone na iyon para itigil ang mga ito, o i-click dito para i-unlink ang lahat ng phone.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Masyadong mahaba ang pairing code para mabasa ng phone."
+  },
+  "noPhoneToUnlink": {
+    "message": "Walang phone na ia-unlink."
+  },
+  "noPushService": {
+    "message": "Hindi makakatanggap ng mga push message ang browser na ito."
+  }
+}

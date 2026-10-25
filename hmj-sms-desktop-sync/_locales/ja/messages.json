@@ -1,0 +1,541 @@
+{
+  "extensionDescription": {
+    "message": "サーバー不要・エンドツーエンド暗号化。Android スマホの SMS と OTP をリアルタイムで通知し、ワンクリックでコピー。"
+  },
+  "statusLinked": {
+    "message": "リンク済み"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ 台リンク済み",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Header badge when several phones are linked."
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ 台リンク済み",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "未リンク"
+  },
+  "pairButton": {
+    "message": "ペア設定"
+  },
+  "pairButtonTitle": {
+    "message": "ペア設定用 QR コードを表示"
+  },
+  "pairAnotherButton": {
+    "message": "追加"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "別のスマホをリンクする QR コードを表示"
+  },
+  "moreOptions": {
+    "message": "その他のオプション"
+  },
+  "unlinkAllPhones": {
+    "message": "すべてのスマホのリンクを解除"
+  },
+  "clearMessages": {
+    "message": "メッセージを消去"
+  },
+  "phoneFallbackName": {
+    "message": "スマホ"
+  },
+  "bannerLinked": {
+    "message": "（リンク済み）"
+  },
+  "bannerLinkedCount_one": {
+    "message": "（$COUNT$ 台リンク済み）",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "After the phones' names in the banner."
+  },
+  "bannerLinkedCount_other": {
+    "message": "（$COUNT$ 台リンク済み）",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "アクティブ"
+  },
+  "linkedPhones": {
+    "message": "リンク済みのスマホ"
+  },
+  "lastActive": {
+    "message": "最終アクティブ: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "リンク解除"
+  },
+  "unlinkPhone": {
+    "message": "$NAME$ のリンクを解除",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "$NAME$ のリンクを解除しますか？",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "$NAME$ からのメッセージは今後無視されます。送信自体を停止するには、スマートフォンの SMS アプリでもこのパソコンの連携を解除してください。",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ のリンクを解除しました。",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Android スマホとペア設定"
+  },
+  "pairOpenApp": {
+    "message": "スマホで HMJ SMS アプリを開く"
+  },
+  "pairAppPath": {
+    "message": "設定 → デスクトップ同期 → QRコードをスキャン",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "ペア設定用 QR コード"
+  },
+  "copyCode": {
+    "message": "コードをコピー"
+  },
+  "hide": {
+    "message": "非表示"
+  },
+  "pairingWarning": {
+    "message": "このコードにはペア設定の暗号鍵が含まれています。ご自身のスマートフォンでのみ表示または貼り付けを行い、クリップボードの同期や画面共有で見られないようにしてください。"
+  },
+  "pairingChanged": {
+    "message": "ペア設定が更新されました。各スマートフォンで QR コードを再度スキャンしてください。",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "ブラウザでこの拡張機能の通知が無効になっているため、メッセージは保存されますが表示されません。",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "SMS の受信準備ができました"
+  },
+  "emptyText": {
+    "message": "受信した SMS と OTP がここにリアルタイムで表示されます。"
+  },
+  "showPairingQrCode": {
+    "message": "ペア設定用 QR コードを表示"
+  },
+  "connectedTo": {
+    "message": "$NAME$ に接続済み",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "$COUNT$ 台のスマホに接続済み",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Title of the empty message list when several phones are linked."
+  },
+  "connectedToCount_other": {
+    "message": "$COUNT$ 台のスマホに接続済み",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "$NAMES$ からの SMS と OTP の通知を待機しています。",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "copied": {
+    "message": "コピーしました"
+  },
+  "pairingCodeCopied": {
+    "message": "ペア設定コードをコピーしました。"
+  },
+  "otpCopied": {
+    "message": "OTP をコピーしました。"
+  },
+  "messageCopied": {
+    "message": "メッセージをコピーしました。"
+  },
+  "copyFailed": {
+    "message": "コピーできませんでした: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "バックグラウンド処理から応答がありません。"
+  },
+  "unlinkAllTitle": {
+    "message": "すべてのスマホのリンクを解除しますか？"
+  },
+  "unlinkAllText": {
+    "message": "このパソコンには新しいペア設定コードが発行され、どのスマホからも届かなくなります。この拡張機能に保存されたメッセージはすべて削除されます。引き続き使うスマホは新しい QR コードをスキャンする必要があります。"
+  },
+  "unlinkAllAction": {
+    "message": "すべて解除"
+  },
+  "allPhonesUnlinked": {
+    "message": "すべてのスマホのリンクを解除し、メッセージを消去しました。もう一度ペア設定するには新しい QR コードをスキャンしてください。"
+  },
+  "unlinkFailed": {
+    "message": "リンクを解除できませんでした: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "最近のメッセージを消去しますか？"
+  },
+  "clearText": {
+    "message": "この拡張機能に保存されたメッセージはすべて削除されます。スマホ上のメッセージには影響しません。"
+  },
+  "messagesCleared": {
+    "message": "保存されたメッセージをすべて消去しました。"
+  },
+  "clearFailed": {
+    "message": "メッセージを消去できませんでした: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "ペア設定コードを作成できませんでした: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "$SENDER$ から新しいメッセージ。",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "不明"
+  },
+  "tagGroup": {
+    "message": "グループ"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "メンバー: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "OTP をコピー（$OTP$）",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "テキストをコピー"
+  },
+  "copyMessage": {
+    "message": "メッセージをコピー"
+  },
+  "justNow": {
+    "message": "たった今"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "写真"
+  },
+  "photos_one": {
+    "message": "写真 $COUNT$ 枚",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Photos attached to an MMS."
+  },
+  "photos_other": {
+    "message": "写真 $COUNT$ 枚",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "動画"
+  },
+  "videos_one": {
+    "message": "動画 $COUNT$ 本",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Videos attached to an MMS."
+  },
+  "videos_other": {
+    "message": "動画 $COUNT$ 本",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "音声"
+  },
+  "audioClips_one": {
+    "message": "音声 $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Audio clips attached to an MMS."
+  },
+  "audioClips_other": {
+    "message": "音声 $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "連絡先"
+  },
+  "contacts_one": {
+    "message": "連絡先 $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Contacts attached to an MMS."
+  },
+  "contacts_other": {
+    "message": "連絡先 $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "ファイル"
+  },
+  "files_one": {
+    "message": "ファイル $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Files attached to an MMS."
+  },
+  "files_other": {
+    "message": "ファイル $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$（グループ: $NAMES$）",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "$SENDER$ から新しい SMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "$SENDER$ から新しい MMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "スマートフォンから新しいメッセージを受信しました"
+  },
+  "linkVerified": {
+    "message": "$NAME$ とのペア設定を確認しました。SMS の即時通知が有効です。",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[期限切れの OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "（切断後に受信）$TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ はリンク解除済みです",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "スマホ"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ 件のメッセージを無視しました。止めるにはそのスマホの SMS アプリでこのパソコンのリンクを解除するか、ここをクリックしてすべてのスマホのリンクを解除してください。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Text of the notice about messages from an unlinked phone."
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ 件のメッセージを無視しました。止めるにはそのスマホの SMS アプリでこのパソコンのリンクを解除するか、ここをクリックしてすべてのスマホのリンクを解除してください。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "ペア設定コードが長すぎるため、スマートフォンで読み取れません。"
+  },
+  "noPhoneToUnlink": {
+    "message": "リンクを解除するスマホがありません。"
+  },
+  "noPushService": {
+    "message": "このブラウザはプッシュ通知を受信できません。"
+  }
+}

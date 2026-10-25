@@ -12,7 +12,7 @@ KEY FEATURES
 • Copy OTP and Copy Message buttons on each notification; clicking the notification copies the OTP, or the message when it has none
 • Recent messages in the toolbar popup, with one-click copy
 • Shows which phone and which SIM received each message, such as SIM 2: Jio
-• Pair several phones, and unlink them from the settings page
+• Pair several phones; unlink one from the popup, or all at once with a new pairing code
 • Pair with one QR code scan, with no account or sign-in
 • End-to-end encrypted with standard Web Push (RFC 8291 and RFC 8292)
 • Works from the keyboard and with screen readers, and follows dark mode and high-contrast colours
@@ -26,22 +26,28 @@ PAIR YOUR PHONE
 
 A test notification appears on your desktop to confirm the connection. To pair another phone, click Pair Another in the popup.
 
+The pairing code holds the key your phones use to reach this browser. Show or paste it only on your own phone, and keep it away from clipboard sync and screen sharing.
+
 COPY A CODE
 
 When a message with a code arrives, click Copy OTP on the notification, or click the notification itself, and paste the code where you need it. An OTP delivered more than 10 minutes late is marked as expired, and only its message can be copied.
 
-SETTINGS
+LINKED PHONES
 
-Click the gear in the popup to open the settings page. It lists your connected phones with when each was last active, shows the pairing QR code, sends a test notification, and clears all stored messages.
+Click the phone's name under the popup's toolbar to list your linked phones, with when each was last active, and unlink one. Its messages are then ignored here, and a quiet notice counts any it still sends.
+
+The menu (⋮) in the popup has Unlink All Phones, which makes a new pairing code so no phone can reach this browser any more and removes all stored messages, and Clear Messages.
+
+If the browser ends the connection the phones send to, such as after months without a message, the popup says so and shows a new QR code to scan on each phone.
 
 PRIVACY
 
 • No server: messages go from your phone to your browser through the browser's push service, encrypted so only this browser can read them
 • No analytics or tracking
 • No remote code or external JavaScript
-• Messages and phone names are stored only in your browser
+• Messages, phone names and the pairing key are stored only in your browser
 • Messages older than 24 hours are removed automatically, and at most 100 messages are kept
-• Clear Recent Messages on the settings page removes all stored messages at once
+• Clear Messages in the popup's menu removes all stored messages at once, and so does Unlink All Phones
 
 PERMISSIONS
 
@@ -53,7 +59,7 @@ PERMISSIONS
 LIMITATIONS
 
 • Requires the HMJ SMS app on an Android phone.
-• Unlink removes a phone from the list only. A phone that is still paired can keep sending, and its next message lists it again.
+• Unlinking one phone ignores its messages here, but only the phone can stop sending them: unlink this computer in the HMJ SMS app too, or use Unlink All Phones, after which the phones you keep must scan the new code.
 
 OPEN SOURCE
 

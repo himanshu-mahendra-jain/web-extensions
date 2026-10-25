@@ -1,0 +1,676 @@
+{
+  "extensionDescription": {
+    "message": "Bezserwerowe, szyfrowane end-to-end powiadomienia SMS i OTP w czasie rzeczywistym z telefonu z Androidem; kopiowanie 1 kliknięciem."
+  },
+  "statusLinked": {
+    "message": "Połączono"
+  },
+  "statusLinkedCount_one": {
+    "message": "Połączone: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "Połączone: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Nie połączono"
+  },
+  "pairButton": {
+    "message": "Sparuj"
+  },
+  "pairButtonTitle": {
+    "message": "Pokaż kod QR do parowania"
+  },
+  "pairAnotherButton": {
+    "message": "Dodaj"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Pokaż kod QR, aby połączyć kolejny telefon"
+  },
+  "moreOptions": {
+    "message": "Więcej opcji"
+  },
+  "unlinkAllPhones": {
+    "message": "Odłącz wszystkie telefony"
+  },
+  "clearMessages": {
+    "message": "Wyczyść wiadomości"
+  },
+  "phoneFallbackName": {
+    "message": "Telefon"
+  },
+  "bannerLinked": {
+    "message": "(połączony)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ telefon połączony)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ telefonu połączonego)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Aktywny"
+  },
+  "linkedPhones": {
+    "message": "Połączone telefony"
+  },
+  "lastActive": {
+    "message": "Ostatnio aktywny: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Odłącz"
+  },
+  "unlinkPhone": {
+    "message": "Odłącz $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Odłączyć $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Wiadomości z $NAME$ będą tu ignorowane. Aby telefon przestał je wysyłać, odłącz też ten komputer w aplikacji SMS na tym telefonie.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "Odłączono $NAME$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Sparuj z telefonem z Androidem"
+  },
+  "pairOpenApp": {
+    "message": "Otwórz aplikację HMJ SMS na telefonie"
+  },
+  "pairAppPath": {
+    "message": "Ustawienia → Synchronizacja z komputerem → Skanuj kod QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Kod QR do parowania"
+  },
+  "copyCode": {
+    "message": "Kopiuj kod"
+  },
+  "hide": {
+    "message": "Ukryj"
+  },
+  "pairingWarning": {
+    "message": "Ten kod zawiera klucze do Twojego połączenia. Pokazuj go lub wklejaj tylko na własnym telefonie i trzymaj z dala od synchronizacji schowka i udostępniania ekranu."
+  },
+  "pairingChanged": {
+    "message": "Konfiguracja parowania uległa zmianie. Zeskanuj kod QR ponownie na każdym telefonie.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Powiadomienia dla tego rozszerzenia są wyłączone w przeglądarce, więc wiadomości są zapisywane, ale nie są wyświetlane.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Gotowe na przychodzące SMS-y"
+  },
+  "emptyText": {
+    "message": "Przychodzące SMS-y i kody OTP będą się tu pojawiać na bieżąco."
+  },
+  "showPairingQrCode": {
+    "message": "Pokaż kod QR do parowania"
+  },
+  "connectedTo": {
+    "message": "Połączono z $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Połączone telefony: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Połączone telefony: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Oczekiwanie na przychodzące alerty SMS i OTP od $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Anuluj"
+  },
+  "copied": {
+    "message": "Skopiowano!"
+  },
+  "pairingCodeCopied": {
+    "message": "Skopiowano kod parowania."
+  },
+  "otpCopied": {
+    "message": "Skopiowano OTP."
+  },
+  "messageCopied": {
+    "message": "Skopiowano wiadomość."
+  },
+  "copyFailed": {
+    "message": "Nie udało się skopiować: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Brak odpowiedzi od usługi w tle."
+  },
+  "unlinkAllTitle": {
+    "message": "Odłączyć wszystkie telefony?"
+  },
+  "unlinkAllText": {
+    "message": "Ten komputer otrzyma nowy kod parowania i żaden telefon nie będzie mógł się z nim połączyć. Wszystkie wiadomości zapisane w tym rozszerzeniu zostaną usunięte. Telefony, które chcesz zachować, muszą zeskanować nowy kod QR."
+  },
+  "unlinkAllAction": {
+    "message": "Odłącz wszystkie"
+  },
+  "allPhonesUnlinked": {
+    "message": "Odłączono wszystkie telefony i wyczyszczono wiadomości. Zeskanuj nowy kod QR, aby sparować ponownie."
+  },
+  "unlinkFailed": {
+    "message": "Nie udało się odłączyć: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Wyczyścić ostatnie wiadomości?"
+  },
+  "clearText": {
+    "message": "Wszystkie wiadomości zapisane w tym rozszerzeniu zostaną usunięte. Nie dotyczy to wiadomości na telefonie."
+  },
+  "messagesCleared": {
+    "message": "Wyczyszczono wszystkie zapisane wiadomości."
+  },
+  "clearFailed": {
+    "message": "Nie udało się wyczyścić wiadomości: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Nie udało się utworzyć kodu parowania: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Nowa wiadomość od $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Nieznany"
+  },
+  "tagGroup": {
+    "message": "Grupa"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Z: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Kopiuj OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Kopiuj tekst"
+  },
+  "copyMessage": {
+    "message": "Kopiuj wiadomość"
+  },
+  "justNow": {
+    "message": "Przed chwilą"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Zdjęcie"
+  },
+  "photos_one": {
+    "message": "$COUNT$ zdjęcie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ zdjęcia",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Film"
+  },
+  "videos_one": {
+    "message": "$COUNT$ film",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ filmu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Nagranie audio"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ nagranie audio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ nagrania audio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Kontakt"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ kontakt",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ kontaktu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Plik"
+  },
+  "files_one": {
+    "message": "$COUNT$ plik",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ pliku",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ w grupie z: $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Nowy SMS od $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Nowy MMS od $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Odebrano nową wiadomość z telefonu"
+  },
+  "linkVerified": {
+    "message": "Połączenie z $NAME$ zweryfikowane! Natychmiastowe alerty SMS są aktywne.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[WYGASŁY OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Dostarczono po rozłączeniu) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "Odłączono $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Telefon"
+  },
+  "ignoredMessages_one": {
+    "message": "Zignorowano $COUNT$ wiadomość. Odłącz ten komputer w aplikacji SMS na tamtym telefonie, aby je zatrzymać, lub kliknij tutaj, aby odłączyć wszystkie telefony.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "Zignorowano $COUNT$ wiadomości. Odłącz ten komputer w aplikacji SMS na tamtym telefonie, aby je zatrzymać, lub kliknij tutaj, aby odłączyć wszystkie telefony.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Kod parowania jest zbyt długi, aby telefon mógł go odczytać."
+  },
+  "noPhoneToUnlink": {
+    "message": "Brak telefonu do odłączenia."
+  },
+  "noPushService": {
+    "message": "Ta przeglądarka nie może odbierać powiadomień push."
+  },
+  "statusLinkedCount_few": {
+    "message": "Połączone: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_many": {
+    "message": "Połączone: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_few": {
+    "message": "($COUNT$ telefony połączone)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_many": {
+    "message": "($COUNT$ telefonów połączonych)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_few": {
+    "message": "Połączone telefony: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_many": {
+    "message": "Połączone telefony: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_few": {
+    "message": "$COUNT$ zdjęcia",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_many": {
+    "message": "$COUNT$ zdjęć",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_few": {
+    "message": "$COUNT$ filmy",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_many": {
+    "message": "$COUNT$ filmów",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_few": {
+    "message": "$COUNT$ nagrania audio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_many": {
+    "message": "$COUNT$ nagrań audio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_few": {
+    "message": "$COUNT$ kontakty",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_many": {
+    "message": "$COUNT$ kontaktów",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_few": {
+    "message": "$COUNT$ pliki",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_many": {
+    "message": "$COUNT$ plików",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_few": {
+    "message": "Zignorowano $COUNT$ wiadomości. Odłącz ten komputer w aplikacji SMS na tamtym telefonie, aby je zatrzymać, lub kliknij tutaj, aby odłączyć wszystkie telefony.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_many": {
+    "message": "Zignorowano $COUNT$ wiadomości. Odłącz ten komputer w aplikacji SMS na tamtym telefonie, aby je zatrzymać, lub kliknij tutaj, aby odłączyć wszystkie telefony.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

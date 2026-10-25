@@ -1,0 +1,70 @@
+Android telefonunuza gelen SMS mesajlarını ve OTP kodlarını masaüstü bildirimi olarak alın, uçtan uca şifreli ve tek tıkla kopyalayın.
+
+HMJ SMS Desktop Sync, Android telefonunuzdaki HMJ SMS uygulamasıyla eşleşen hafif ve açık kaynaklı bir tarayıcı uzantısıdır. Telefonunuza bir mesaj geldiğinde, anında bilgisayar ekranınızda belirir; böylece telefonu elinize almanıza gerek kalmadan doğrulama kodlarını hızla kopyalayabilirsiniz.
+
+Mesajlar, telefonunuzdan tarayıcınıza doğrudan tarayıcının kendi anlık bildirim (push) hizmeti üzerinden aktarılır ve yalnızca bu tarayıcıya özel olarak şifrelenir. Arada hiçbir sunucu bulunmaz ve bildirim servisi mesajlarınızın içeriğini okuyamaz.
+
+İpucu: Edge Uzantılar menüsünde HMJ SMS Desktop Sync için «Araç çubuğunda göster» seçeneğini açarak hızlı erişim sağlayın.
+
+ÖNE ÇIKAN ÖZELLİKLER
+
+• Telefonunuza gelen her SMS için anlık masaüstü bildirimleri
+• Her bildirimde «OTP Kopyala» ve «Mesajı Kopyala» düğmeleri; bildirime tıklamak kodu otomatik olarak kopyalar (kod yoksa tüm mesajı kopyalar)
+• Araç çubuğu penceresinde son mesajlar listesi ve tek tıkla kopyalama kolaylığı
+• Mesajın hangi telefon ve hangi SIM kart tarafından alındığını net bir şekilde gösterir (örn. SIM 2: Jio)
+• Birden fazla telefonu bağlayabilme; tek bir cihazın bağlantısını kesme veya yeni eşleme koduyla hepsini aynı anda sıfırlama
+• QR kod taraması ile anında eşleşme – hesap veya giriş gerekmez
+• Standart Web Push protokolleri (RFC 8291 ve RFC 8292) ile güçlü uçtan uca şifreleme (E2EE)
+• Klavye ve ekran okuyucularla tam erişilebilirlik; karanlık mod ve yüksek kontrast desteği
+• Sunucu yok, analitik yok, kullanıcı takibi yok
+
+TELEFONUNUZU EŞLEME
+
+1. Araç çubuğundaki HMJ SMS Desktop Sync simgesine tıklayarak eşleme QR kodunu açın.
+2. Telefonunuzda HMJ SMS uygulamasını açın, menüye gidin ve «Desktop Sync» seçeneğini seçin.
+3. «QR Kodu Tara» düğmesine dokunun ve bilgisayar ekranındaki kodu kameranızla tarayın.
+
+Bağlantıyı onaylamak için masaüstünüzde bir test bildirimi görünecektir. Başka bir telefon eklemek için açılır penceredeki «Başka Eşle» seçeneğine tıklayın.
+
+Eşleme kodu, bu tarayıcıyla iletişim kurmak için şifreleme anahtarlarını barındırır. Kodu yalnızca kendi telefonunuzda gösterin veya yapıştırın; pano eşitlemesinden ve ekran paylaşımından uzak tutun.
+
+KOD KOPYALAMA
+
+Doğrulama kodu içeren bir mesaj geldiğinde, bildirimdeki «OTP Kopyala» düğmesine tıklayın veya doğrudan bildirime tıklayarak kodu dilediğiniz yere yapıştırın. 10 dakikadan fazla gecikmeyle ulaşan OTP kodları süresi dolmuş olarak işaretlenir ve yalnızca mesaj metni kopyalanabilir.
+
+BAĞLI TELEFONLAR
+
+Bağlı cihazların listesini ve son etkinlik zamanlarını görmek, dilediğiniz cihazın bağlantısını kesmek için açılır penceredeki telefon adına tıklayın. O cihazdan gelen mesajlar bundan sonra burada yoksayılacaktır.
+
+Menüde (⋮) «Tüm Telefonların Bağlantısını Kes» (yeni bir eşleme kodu oluşturarak önceki cihazların erişimini engeller ve kayıtlı mesajları temizler) ve «Mesajları Temizle» seçenekleri yer alır.
+
+Tarayıcı telefonların gönderdiği bağlantıyı sonlandırırsa (örneğin aylarca mesaj gelmedikten sonra), açılır pencere bunu bildirir ve her telefonda taranması için yeni bir QR kodu gösterir.
+
+GİZLİLİK
+
+• Sunucusuz: Mesajlar doğrudan tarayıcının bildirim hizmeti üzerinden gelir ve yalnızca bu tarayıcının çözebileceği şekilde şifrelenir
+• Hiçbir analiz verisi toplanmaz, kullanıcı takibi yapılmaz
+• Uzaktan kod yürütülmez veya harici JavaScript dosyaları yüklenmez
+• Mesajlar, cihaz adları ve eşleme anahtarı yalnızca yerel olarak tarayıcınızda saklanır
+• 24 saatten eski mesajlar otomatik olarak silinir; en fazla 100 mesaj tutulur
+• Menüdeki «Mesajları Temizle» veya «Tüm Telefonların Bağlantısını Kes» seçeneği tüm verileri anında siler
+
+İZİNLER
+
+• Bildirimler: Gelen mesajları masaüstü bildirimi olarak göstermek için
+• Pano (Clipboard): Bildirime veya kopyalama düğmesine tıklandığında OTP kodunu veya mesajı kopyalamak için
+• Depolama (Storage): Bağlı cihazları ve son mesajları tarayıcıda yerel olarak saklamak için
+• Ekran dışı belge (Offscreen): Sistem panosuna arka plandan güvenli şekilde yazmak için
+
+SINIRLAMALAR
+
+• Android telefonda HMJ SMS uygulamasının yüklü olması gerekir.
+• Uzantıda bir telefonun bağlantısını kesmek mesajların bu bilgisayarda görünmesini engeller, ancak telefonun göndermeyi durdurması için telefon uygulamasında da bu bilgisayarın bağlantısını kesin veya «Tüm Telefonların Bağlantısını Kes» seçeneğini kullanın.
+
+AÇIK KAYNAK
+
+HMJ SMS Desktop Sync, MIT Lisansı altında sunulan açık kaynaklı bir projedir.
+
+Kaynak kodunu incelemek, sorun bildirmek veya katkıda bulunmak için GitHub'ı ziyaret edin:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

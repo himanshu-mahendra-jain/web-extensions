@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Безсървърни, шифровани от край до край известия за SMS и OTP в реално време от телефон с Android, копиране с 1 клик."
+  },
+  "statusLinked": {
+    "message": "Свързан"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ свързан",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ свързани",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Несвързан"
+  },
+  "pairButton": {
+    "message": "Сдвояване"
+  },
+  "pairButtonTitle": {
+    "message": "Показване на QR кода за сдвояване"
+  },
+  "pairAnotherButton": {
+    "message": "Добавяне"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Показване на QR код за свързване на още един телефон"
+  },
+  "moreOptions": {
+    "message": "Още опции"
+  },
+  "unlinkAllPhones": {
+    "message": "Прекратяване на връзката с всички телефони"
+  },
+  "clearMessages": {
+    "message": "Изчистване на съобщенията"
+  },
+  "phoneFallbackName": {
+    "message": "Телефон"
+  },
+  "bannerLinked": {
+    "message": "(свързан)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ свързан телефон)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ свързани телефона)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Активен"
+  },
+  "linkedPhones": {
+    "message": "Свързани телефони"
+  },
+  "lastActive": {
+    "message": "Последна активност: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Прекратяване"
+  },
+  "unlinkPhone": {
+    "message": "Прекратяване на връзката с $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Да се прекрати ли връзката с $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Съобщенията от $NAME$ ще се пренебрегват тук. За да спре да ги изпраща, прекратете връзката с този компютър и в приложението SMS на онзи телефон.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "Връзката с $NAME$ е прекратена.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Сдвояване с телефон с Android"
+  },
+  "pairOpenApp": {
+    "message": "Отворете приложението HMJ SMS на телефона"
+  },
+  "pairAppPath": {
+    "message": "Настройки → Синхронизиране с компютър → Сканиране на QR код",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "QR код за сдвояване"
+  },
+  "copyCode": {
+    "message": "Копиране на кода"
+  },
+  "hide": {
+    "message": "Скриване"
+  },
+  "pairingWarning": {
+    "message": "Този код съдържа ключовете за връзката ви. Показвайте или поставяйте го само на собствения си телефон и го пазете от синхронизиране на буфера и споделяне на екрана."
+  },
+  "pairingChanged": {
+    "message": "Сдвояването се промени. Сканирайте QR кода отново на всеки телефон.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Известията за това разширение са изключени в браузъра, затова съобщенията се запазват, но не се показват.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Готово за входящи SMS"
+  },
+  "emptyText": {
+    "message": "Входящите SMS и OTP кодове ще се показват тук в реално време."
+  },
+  "showPairingQrCode": {
+    "message": "Показване на QR кода за сдвояване"
+  },
+  "connectedTo": {
+    "message": "Свързано с $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Свързано с $COUNT$ телефон",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Свързано с $COUNT$ телефона",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Изчакват се известия за SMS и OTP от $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Отказ"
+  },
+  "copied": {
+    "message": "Копирано!"
+  },
+  "pairingCodeCopied": {
+    "message": "Кодът за сдвояване е копиран."
+  },
+  "otpCopied": {
+    "message": "OTP кодът е копиран."
+  },
+  "messageCopied": {
+    "message": "Съобщението е копирано."
+  },
+  "copyFailed": {
+    "message": "Копирането не бе успешно: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Фоновият процес не отговаря."
+  },
+  "unlinkAllTitle": {
+    "message": "Да се прекрати ли връзката с всички телефони?"
+  },
+  "unlinkAllText": {
+    "message": "Този компютър получава нов код за сдвояване и никой телефон вече не може да се свърже с него. Всички съобщения, запазени в това разширение, се премахват. Телефоните, които искате да запазите, трябва да сканират новия QR код."
+  },
+  "unlinkAllAction": {
+    "message": "Прекратяване на всички"
+  },
+  "allPhonesUnlinked": {
+    "message": "Връзката с всички телефони е прекратена и съобщенията са изчистени. Сканирайте новия QR код, за да сдвоите отново."
+  },
+  "unlinkFailed": {
+    "message": "Прекратяването на връзката не бе успешно: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Да се изчистят ли последните съобщения?"
+  },
+  "clearText": {
+    "message": "Всички съобщения, запазени в това разширение, ще бъдат премахнати. Съобщенията на телефона не се засягат."
+  },
+  "messagesCleared": {
+    "message": "Всички запазени съобщения са изчистени."
+  },
+  "clearFailed": {
+    "message": "Изчистването на съобщенията не бе успешно: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Не можа да се създаде код за сдвояване: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Ново съобщение от $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Неизвестен"
+  },
+  "tagGroup": {
+    "message": "Група"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "С $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Копиране на OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Копиране на текста"
+  },
+  "copyMessage": {
+    "message": "Копиране на съобщението"
+  },
+  "justNow": {
+    "message": "Току-що"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Снимка"
+  },
+  "photos_one": {
+    "message": "$COUNT$ снимка",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ снимки",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Видео"
+  },
+  "videos_one": {
+    "message": "$COUNT$ видео",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ видеоклипа",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Аудио"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ аудиоклип",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ аудиоклипа",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Контакт"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ контакт",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ контакта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Файл"
+  },
+  "files_one": {
+    "message": "$COUNT$ файл",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ файла",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ в група с $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Нов SMS от $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Нов MMS от $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Получено е ново съобщение от телефона"
+  },
+  "linkVerified": {
+    "message": "Връзката с $NAME$ е потвърдена! Незабавните известия за SMS са активни.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[ИЗТЕКЪЛ OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Доставено след прекъсване) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "Връзката с $NAME$ е прекратена",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Телефон"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ пренебрегнато съобщение. Прекратете връзката с този компютър в приложението SMS на онзи телефон, за да ги спрете, или кликнете тук, за да прекратите връзката с всички телефони.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ пренебрегнати съобщения. Прекратете връзката с този компютър в приложението SMS на онзи телефон, за да ги спрете, или кликнете тук, за да прекратите връзката с всички телефони.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Кодът за сдвояване е твърде дълъг, за да бъде прочетен от телефона."
+  },
+  "noPhoneToUnlink": {
+    "message": "Няма телефон за прекратяване на връзката."
+  },
+  "noPushService": {
+    "message": "Този браузър не може да получава push съобщения."
+  }
+}

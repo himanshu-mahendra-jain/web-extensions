@@ -1,0 +1,820 @@
+{
+  "extensionDescription": {
+    "message": "إشعارات SMS ورموز OTP فورية من هاتف Android بدون خادم، مع تشفير تام بين الطرفين ونسخ بنقرة واحدة."
+  },
+  "statusLinked": {
+    "message": "مرتبط"
+  },
+  "statusLinkedCount_one": {
+    "message": "مرتبطة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "مرتبطة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "غير مرتبط"
+  },
+  "pairButton": {
+    "message": "إقران"
+  },
+  "pairButtonTitle": {
+    "message": "عرض رمز QR للإقران"
+  },
+  "pairAnotherButton": {
+    "message": "إضافة"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "عرض رمز QR لربط هاتف آخر"
+  },
+  "moreOptions": {
+    "message": "خيارات أخرى"
+  },
+  "unlinkAllPhones": {
+    "message": "إلغاء ربط كل الهواتف"
+  },
+  "clearMessages": {
+    "message": "محو الرسائل"
+  },
+  "phoneFallbackName": {
+    "message": "هاتف"
+  },
+  "bannerLinked": {
+    "message": "(مرتبط)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "(الهواتف المرتبطة: $COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "(الهواتف المرتبطة: $COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "نشط"
+  },
+  "linkedPhones": {
+    "message": "الهواتف المرتبطة"
+  },
+  "lastActive": {
+    "message": "آخر نشاط: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "إلغاء الربط"
+  },
+  "unlinkPhone": {
+    "message": "إلغاء ربط $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "هل تريد إلغاء ربط $NAME$؟",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "سيتم تجاهل الرسائل الواردة من $NAME$ هنا. لإيقاف إرسالها، ألغِ ربط هذا الكمبيوتر أيضًا في تطبيق SMS على ذلك الهاتف.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "تم إلغاء ربط $NAME$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "الإقران مع هاتف Android"
+  },
+  "pairOpenApp": {
+    "message": "افتح تطبيق HMJ SMS على الهاتف"
+  },
+  "pairAppPath": {
+    "message": "الإعدادات ← مزامنة سطح المكتب ← مسح رمز QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "رمز QR للإقران"
+  },
+  "copyCode": {
+    "message": "نسخ الرمز"
+  },
+  "hide": {
+    "message": "إخفاء"
+  },
+  "pairingWarning": {
+    "message": "يحتوي هذا الرمز على مفاتيح الأمان الخاصة باتصالك. اعرضه أو الصقه فقط على هاتفك الشخصي، واحفظه بعيداً عن مزامنة الحافظة ومشاركة الشاشة."
+  },
+  "pairingChanged": {
+    "message": "تغيرت معلومات الاقتران. يرجى مسح رمز QR مرة أخرى على كل هاتف.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "إشعارات هذه الإضافة معطلة في المتصفح، لذا يتم حفظ الرسائل ولكن لا يتم عرضها على الشاشة.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "جاهز لاستقبال رسائل SMS"
+  },
+  "emptyText": {
+    "message": "ستظهر رسائل SMS ورموز OTP الواردة هنا فورًا."
+  },
+  "showPairingQrCode": {
+    "message": "عرض رمز QR للإقران"
+  },
+  "connectedTo": {
+    "message": "متصل بـ $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "الهواتف المتصلة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "الهواتف المتصلة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "في انتظار تنبيهات SMS و OTP الواردة من $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "copied": {
+    "message": "تم النسخ!"
+  },
+  "pairingCodeCopied": {
+    "message": "تم نسخ رمز الإقران."
+  },
+  "otpCopied": {
+    "message": "تم نسخ رمز OTP."
+  },
+  "messageCopied": {
+    "message": "تم نسخ الرسالة."
+  },
+  "copyFailed": {
+    "message": "تعذّر النسخ: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "لا توجد استجابة من خدمة الخلفية."
+  },
+  "unlinkAllTitle": {
+    "message": "هل تريد إلغاء ربط كل الهواتف؟"
+  },
+  "unlinkAllText": {
+    "message": "سيحصل هذا الكمبيوتر على رمز إقران جديد، ولن يتمكن أي هاتف من الوصول إليه بعد الآن. ستتم إزالة كل الرسائل المخزنة في هذه الإضافة. يجب على الهواتف التي تحتفظ بها مسح رمز QR الجديد."
+  },
+  "unlinkAllAction": {
+    "message": "إلغاء ربط الكل"
+  },
+  "allPhonesUnlinked": {
+    "message": "تم إلغاء ربط كل الهواتف ومحو الرسائل. امسح رمز QR الجديد للإقران مرة أخرى."
+  },
+  "unlinkFailed": {
+    "message": "تعذّر إلغاء الربط: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "هل تريد محو الرسائل الأخيرة؟"
+  },
+  "clearText": {
+    "message": "ستتم إزالة كل الرسائل المخزنة في هذه الإضافة. لن تتأثر الرسائل الموجودة على هاتفك."
+  },
+  "messagesCleared": {
+    "message": "تم محو كل الرسائل المخزنة."
+  },
+  "clearFailed": {
+    "message": "تعذّر محو الرسائل: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "تعذّر إنشاء رمز إقران: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "رسالة جديدة من $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "غير معروف"
+  },
+  "tagGroup": {
+    "message": "مجموعة"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "شريحة SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "شريحة SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "مع $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "نسخ OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "نسخ النص"
+  },
+  "copyMessage": {
+    "message": "نسخ الرسالة"
+  },
+  "justNow": {
+    "message": "الآن"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "صورة"
+  },
+  "photos_one": {
+    "message": "$COUNT$ صورة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ صورة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "فيديو"
+  },
+  "videos_one": {
+    "message": "$COUNT$ فيديو",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ فيديو",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "مقطع صوتي"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ مقطع صوتي",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ مقطع صوتي",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "جهة اتصال"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ جهة اتصال",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ جهة اتصال",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "ملف"
+  },
+  "files_one": {
+    "message": "$COUNT$ ملف",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ ملف",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ في مجموعة مع $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "رسالة SMS جديدة من $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "رسالة MMS جديدة من $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "تم استلام رسالة جديدة من الهاتف"
+  },
+  "linkVerified": {
+    "message": "تم التحقق من الاتصال بـ $NAME$! تنبيهات SMS الفورية نشطة الآن.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[رمز OTP منتهي الصلاحية]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(وصلت بعد انقطاع الاتصال) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "تم إلغاء ربط $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "هاتف"
+  },
+  "ignoredMessages_one": {
+    "message": "الرسائل التي تم تجاهلها: $COUNT$. ألغِ ربط هذا الكمبيوتر في تطبيق SMS على ذلك الهاتف لإيقافها، أو انقر هنا لإلغاء ربط كل الهواتف.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "الرسائل التي تم تجاهلها: $COUNT$. ألغِ ربط هذا الكمبيوتر في تطبيق SMS على ذلك الهاتف لإيقافها، أو انقر هنا لإلغاء ربط كل الهواتف.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "رمز الاقتران طويل جداً ولا يمكن للهاتف قراءته."
+  },
+  "noPhoneToUnlink": {
+    "message": "لا يوجد هاتف لإلغاء ربطه."
+  },
+  "noPushService": {
+    "message": "لا يمكن لهذا المتصفح تلقي إشعارات الدفع (Push)."
+  },
+  "statusLinkedCount_zero": {
+    "message": "مرتبطة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_two": {
+    "message": "مرتبطة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_few": {
+    "message": "مرتبطة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_many": {
+    "message": "مرتبطة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_zero": {
+    "message": "(الهواتف المرتبطة: $COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_two": {
+    "message": "(الهواتف المرتبطة: $COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_few": {
+    "message": "(الهواتف المرتبطة: $COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_many": {
+    "message": "(الهواتف المرتبطة: $COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_zero": {
+    "message": "الهواتف المتصلة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_two": {
+    "message": "الهواتف المتصلة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_few": {
+    "message": "الهواتف المتصلة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_many": {
+    "message": "الهواتف المتصلة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_zero": {
+    "message": "$COUNT$ صورة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_two": {
+    "message": "$COUNT$ صورة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_few": {
+    "message": "$COUNT$ صور",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_many": {
+    "message": "$COUNT$ صورة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_zero": {
+    "message": "$COUNT$ فيديو",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_two": {
+    "message": "$COUNT$ فيديو",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_few": {
+    "message": "$COUNT$ فيديوهات",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_many": {
+    "message": "$COUNT$ فيديو",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_zero": {
+    "message": "$COUNT$ مقطع صوتي",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_two": {
+    "message": "$COUNT$ مقطع صوتي",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_few": {
+    "message": "$COUNT$ مقاطع صوتية",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_many": {
+    "message": "$COUNT$ مقطعًا صوتيًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_zero": {
+    "message": "$COUNT$ جهة اتصال",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_two": {
+    "message": "$COUNT$ جهة اتصال",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_few": {
+    "message": "$COUNT$ جهات اتصال",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_many": {
+    "message": "$COUNT$ جهة اتصال",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_zero": {
+    "message": "$COUNT$ ملف",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_two": {
+    "message": "$COUNT$ ملف",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_few": {
+    "message": "$COUNT$ ملفات",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_many": {
+    "message": "$COUNT$ ملفًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_zero": {
+    "message": "الرسائل التي تم تجاهلها: $COUNT$. ألغِ ربط هذا الكمبيوتر في تطبيق SMS على ذلك الهاتف لإيقافها، أو انقر هنا لإلغاء ربط كل الهواتف.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_two": {
+    "message": "الرسائل التي تم تجاهلها: $COUNT$. ألغِ ربط هذا الكمبيوتر في تطبيق SMS على ذلك الهاتف لإيقافها، أو انقر هنا لإلغاء ربط كل الهواتف.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_few": {
+    "message": "الرسائل التي تم تجاهلها: $COUNT$. ألغِ ربط هذا الكمبيوتر في تطبيق SMS على ذلك الهاتف لإيقافها، أو انقر هنا لإلغاء ربط كل الهواتف.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_many": {
+    "message": "الرسائل التي تم تجاهلها: $COUNT$. ألغِ ربط هذا الكمبيوتر في تطبيق SMS على ذلك الهاتف لإيقافها، أو انقر هنا لإلغاء ربط كل الهواتف.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

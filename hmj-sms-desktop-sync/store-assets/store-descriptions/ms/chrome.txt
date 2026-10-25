@@ -1,0 +1,70 @@
+Lihat mesej SMS dan kod OTP daripada telefon Android anda sebagai pemberitahuan desktop, disulitkan dari hujung ke hujung, dan salin kod dengan satu klik.
+
+HMJ SMS Desktop Sync ialah sambungan sumber terbuka yang ringan dan dipadankan dengan aplikasi HMJ SMS pada telefon Android anda. Apabila mesej tiba di telefon, ia akan dipaparkan serta-merta pada skrin komputer anda untuk memudahkan penyalinan kod pengesahan tanpa perlu mengambil telefon.
+
+Mesej dihantar terus dari telefon ke penyemak imbas anda melalui perkhidmatan tolak (push) terbina dalam penyemak imbas, disulitkan khusus untuk penyemak imbas ini sahaja. Tiada pelayan perantara digunakan, dan perkhidmatan tolak tidak dapat membaca isi kandungan mesej anda.
+
+Petua: Sematkan sambungan dalam menu Sambungan Chrome (ikon kepingan teka-teki) untuk mengekalkan ikonnya pada bar alat.
+
+CIRI-CIRI UTAMA
+
+• Pemberitahuan desktop masa nyata untuk setiap SMS yang diterima oleh telefon anda
+• Butang «Salin OTP» dan «Salin Mesej» pada setiap pemberitahuan; klik pada pemberitahuan untuk menyalin kod OTP secara automatik (atau seluruh mesej jika tiada kod)
+• Senarai mesej terkini dalam tetingkap timbul bar alat dengan keupayaan salin 1 klik
+• Menunjukkan telefon dan kad SIM mana yang menerima mesej (contohnya SIM 2: Jio)
+• Padankan beberapa telefon; putuskan sambungan satu peranti atau semuanya sekali gus dengan kod pemadanan baharu
+• Pemadanan pantas melalui imbasan kod QR tanpa memerlukan akaun atau log masuk
+• Disulitkan dari hujung ke hujung (E2EE) mengikut piawaian Web Push (RFC 8291 dan RFC 8292)
+• Boleh diakses sepenuhnya melalui papan kekunci dan pembaca skrin; menyokong mod gelap dan kontras tinggi
+• Tiada pelayan, tiada analitik, dan tiada penjejakan data pengguna
+
+MEMADANKAN TELEFON ANDA
+
+1. Klik ikon HMJ SMS Desktop Sync pada bar alat untuk memaparkan kod QR pemadanan.
+2. Buka aplikasi HMJ SMS pada telefon anda, buka menu dan pilih «Desktop Sync».
+3. Ketik «Imbas Kod QR» dan imbas kod yang dipaparkan pada skrin komputer anda.
+
+Pemberitahuan ujian akan muncul pada desktop untuk mengesahkan sambungan. Untuk memadankan telefon lain, klik «Padankan Peranti Lain» dalam tetingkap timbul.
+
+Kod pemadanan mengandungi kunci keselamatan bagi berkomunikasi dengan penyemak imbas ini. Paparkan atau tampal kod ini hanya pada telefon peribadi anda dan elakkan perkongsian skrin atau penyegerakan papan keratan.
+
+MENYALIN KOD
+
+Apabila mesej dengan kod tiba, klik «Salin OTP» pada pemberitahuan atau klik terus pada pemberitahuan tersebut, kemudian tampal kod di mana-mana yang anda perlukan. Kod OTP yang diterima lewat lebih 10 minit akan ditandakan sebagai tamat tempoh dan hanya teks mesej boleh disalin.
+
+TELEFON YANG DIHUBUNGKAN
+
+Klik pada nama telefon di bawah bar alat tetingkap timbul untuk melihat senarai peranti yang dipadankan, masa aktiviti terakhir dan memutuskan pautan peranti. Mesej daripada peranti tersebut akan diabaikan selepas itu.
+
+Menu (⋮) menyediakan pilihan «Putuskan Sambungan Semua Telefon» (menghasilkan kod pemadanan baharu untuk memutuskan capaian semua peranti terdahulu dan memadamkan mesej tersimpan) serta «Kosongkan Mesej».
+
+Jika penyemak imbas menamatkan sambungan yang dihantar oleh telefon, seperti selepas berbulan-bulan tanpa sebarang mesej, tetingkap pop timbul akan memaklumkannya dan memaparkan kod QR baharu untuk diimbas pada setiap telefon.
+
+PRIVASI
+
+• Tanpa pelayan: Mesej dihantar dari telefon ke penyemak imbas melalui perkhidmatan tolak, disulitkan supaya hanya penyemak imbas ini boleh membacanya
+• Tiada analitik atau penjejakan pengguna
+• Tiada kod jauh atau skrip JavaScript pihak ketiga
+• Mesej, nama telefon dan kunci pemadanan hanya disimpan secara setempat dalam penyemak imbas anda
+• Mesej yang berusia lebih 24 jam akan dipadamkan secara automatik; sehingga 100 mesej terkini disimpan
+• Pilihan «Kosongkan Mesej» dalam menu memadamkan semua mesej tersimpan sekali gus, sama seperti «Putuskan Sambungan Semua Telefon»
+
+KEBENARAN
+
+• Pemberitahuan: Memaparkan setiap mesej masuk sebagai pemberitahuan desktop
+• Papan Keratan (Clipboard): Menyalin kod OTP atau teks mesej apabila anda mengklik pemberitahuan atau butang salin
+• Storan: Menyimpan peranti yang dipadankan dan sejarah mesej secara setempat dalam penyemak imbas
+• Dokumen luar skrin (Offscreen): Menulis ke papan keratan sistem daripada proses latar belakang secara selamat
+
+BATASAN
+
+• Memerlukan aplikasi HMJ SMS pada telefon Android.
+• Memutuskan pautan telefon pada sambungan ini akan mengabaikan mesejnya pada komputer ini, tetapi telefon akan terus menghantarnya sehingga pautan diputuskan pada telefon: Putuskan sambungan komputer ini dalam aplikasi HMJ SMS pada telefon juga, atau pilih «Putuskan Sambungan Semua Telefon» (selepas itu telefon yang ingin dikekalkan mesti mengimbas kod QR baharu).
+
+SUMBER TERBUKA
+
+HMJ SMS Desktop Sync ialah projek sumber terbuka di bawah Lesen MIT.
+
+Lihat kod sumber, laporkan isu atau sumbangkan kod di GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

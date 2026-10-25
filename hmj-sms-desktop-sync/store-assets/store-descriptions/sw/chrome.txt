@@ -1,0 +1,70 @@
+Pokea ujumbe wa SMS na misimbo ya OTP kutoka kwa simu yako ya Android kama arifa kwenye kompyuta, ikiwa imesimbwa kutoka mwanzo hadi mwisho (E2EE), na unakili msimbo kwa mbofyo 1.
+
+HMJ SMS Desktop Sync ni kiendelezi chepesi cha programu huria (open-source) kinachounganishwa na programu ya HMJ SMS kwenye simu yako ya Android. Ujumbe unapofika kwenye simu yako, huonekana papo hapo kwenye skrini ya kompyuta yako, kukuwezesha kunakili nambari za uthibitishaji bila kuhitaji kuchukua simu yako.
+
+Ujumbe husafirishwa moja kwa moja kutoka kwa simu yako hadi kwenye kivinjari chako kupitia huduma ya arifa ya kivinjari yenyewe, ikiwa imesimbwa kwa njia fiche mahususi kwa kivinjari hiki pekee. Hakuna seva ya kati, na huduma ya arifa haiwezi kusoma ujumbe wako.
+
+Kidokezo: Bandika kiendelezi kwenye menyu ya Viendelezi ya Chrome (ikoni ya kipande cha fumbo) ili kuweka ikoni yake kwenye upau wa zana.
+
+VIPENGELE MUHIMU
+
+• Arifa za papo hapo kwenye kompyuta kwa kila SMS inayopokelewa kwenye simu yako
+• Vitufe vya «Nakili OTP» na «Nakili Ujumbe» kwenye kila arifa; kubofya arifa hunakili msimbo wa OTP mara moja (au ujumbe mzima ikiwa hakuna msimbo)
+• Orodha ya ujumbe wa hivi karibuni kwenye dirisha la upau wa zana na uwezo wa kunakili kwa mbofyo mmoja
+• Huonyesha simu na laini ya SIM iliyopokea ujumbe (kwa mfano SIM 2: Jio)
+• Unganisha simu kadhaa; tenganisha kifaa kimoja au vyote kwa pamoja kwa msimbo mpya wa kuoanisha
+• Kuoanisha kwa haraka kwa kuchanganua msimbo wa QR – bila akaunti wala kuingia
+• Usimbaji fiche thabiti kutoka mwanzo hadi mwisho kwa viwango vya Web Push (RFC 8291 na RFC 8292)
+• Inafikiwa kikamilifu kwa kibodi na visoma skrini; inasaidia hali ya giza na rangi zinazong'aa
+• Hakuna seva, hakuna uchanganuzi wa data, wala ufuatiliaji
+
+KUUNGANISHA SIMU YAKO
+
+1. Bofya ikoni ya HMJ SMS Desktop Sync kwenye upau wa zana ili kuonyesha msimbo wa QR.
+2. Kwenye simu yako, fungua programu ya HMJ SMS, nenda kwenye menyu na uchague «Desktop Sync».
+3. Gusa «Changanua Msimbo wa QR» na uchanganue msimbo ulio kwenye skrini ya kompyuta yako.
+
+Arifa ya majaribio itaonekana kwenye kompyuta yako ili kuthibitisha muunganisho. Ili kuunganisha simu nyingine, bofya «Oanisha Nyingine» kwenye dirisha ibukizi.
+
+Msimbo wa kuoanisha una funguo za usalama za kuwasiliana na kivinjari hiki. Onyesha au ubandike kwenye simu yako binafsi pekee, na uepuke ushirikishwaji wa skrini.
+
+KUNAKILI MSIMBO
+
+Ujumbe wenye msimbo wa uthibitishaji unapowasili, bofya «Nakili OTP» kwenye arifa au bofya arifa yenyewe, kisha ubandike msimbo pale unapouhitaji. OTP inayochelewa kwa zaidi ya dakika 10 huwekwa alama kuwa imekwisha muda wake na ujumbe pekee ndio unaoweza kunakiliwa.
+
+SIMU ZILIZOUNGANISHWA
+
+Bofya jina la simu chini ya upau wa zana ili kuona orodha ya vifaa vilivyounganishwa, muda vilipofanya kazi mara ya mwisho, na kutenganisha kifaa chochote. Ujumbe kutoka kwa kifaa hicho utapuuzwa hapa baada ya hapo.
+
+Menyu ya (⋮) ina chaguo za «Tenganisha Simu Zote» (hutengeneza msimbo mpya ili kuzuia simu zilizopita na kufuta ujumbe uliotunzwa) na «Futa Ujumbe».
+
+Ikiwa kivinjari kitakatisha muunganisho ambao simu hutuma (kama vile baada ya miezi kadhaa bila ujumbe), dirisha ibukizi litaarifu na kuonyesha msimbo mpya wa QR wa kuchanganua kwenye kila simu.
+
+FARAGHA
+
+• Bila seva: Ujumbe hutoka kwenye simu hadi kwenye kivinjari kupitia huduma ya arifa, ukiwa umesimbwa ili kivinjari hiki pekee kiweze kusoma
+• Hakuna ukusanyaji wa takwimu au ufuatiliaji wa mtumiaji
+• Hakuna msimbo wa mbali au faili za nje za JavaScript
+• Ujumbe, majina ya simu na ufunguo wa kuoanisha huhifadhiwa kwenye kivinjari chako pekee
+• Ujumbe wenye zaidi ya saa 24 hufutwa kiotomatiki; huhifadhi hadi jumbe 100 za hivi karibuni
+• Chaguo la «Futa Ujumbe» au «Tenganisha Simu Zote» hufuta data yote iliyohifadhiwa mara moja
+
+RUHUSA
+
+• Arifa: Kuonyesha ujumbe unaoingia kama arifa kwenye kompyuta
+• Ubao Klipu (Clipboard): Kunakili msimbo wa OTP au ujumbe unapobofya arifa au kitufe cha kunakili
+• Hifadhi (Storage): Kuhifadhi simu zilizounganishwa na ujumbe wa hivi karibuni kwenye kivinjari chako
+• Hati ya nje ya skrini (Offscreen): Kuandika kwa usalama kwenye ubao klipu kutoka kwa mchakato wa chinichini
+
+VIKWAZO
+
+• Inahitaji programu ya HMJ SMS kwenye simu ya Android.
+• Kutenganisha simu kwenye kiendelezi hupuuza ujumbe wake hapa, lakini simu itaendelea kutuma hadi uikate pia kwenye simu: Tenganisha kompyuta hii pia kwenye programu ya HMJ SMS kwenye simu, au tumia «Tenganisha Simu Zote».
+
+PROGRAMU HURIA
+
+HMJ SMS Desktop Sync ni mradi wa programu huria chini ya Leseni ya MIT.
+
+Tazama msimbo chanzo, ripoti matatizo au changia kwenye GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

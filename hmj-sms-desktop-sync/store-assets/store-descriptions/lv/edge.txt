@@ -1,0 +1,70 @@
+Saņemiet sava Android tālruņa SMS ziņas un OTP kodus kā darbvirsmas paziņojumus, ar pilnīgu šifrēšanu (E2EE), un kopējiet kodus ar 1 klikšķi.
+
+HMJ SMS Desktop Sync ir viegls atvērtā koda paplašinājums, kas savienojas ar lietotni HMJ SMS jūsu Android tālrunī. Kad tālrunī pienāk ziņa, tā nekavējoties parādās datora ekrānā, ļaujot ērti nokopēt verifikācijas kodus, nepieskaroties tālrunim.
+
+Ziņas tiek pārsūtītas tieši no tālruņa uz pārlūku, izmantojot paša pārlūka push pakalpojumu, šifrētas tikai šim pārlūkam. Pa ceļam nav starpniekserveru, un push pakalpojums nevar izlasīt jūsu ziņu saturu.
+
+Padoms: Edge paplašinājumu izvēlnē ieslēdziet «Rādīt rīkjoslā» paplašinājumam HMJ SMS Desktop Sync ātrai piekļuvei.
+
+GALVENĀS IEZĪMES
+
+• Reāllaika darbvirsmas paziņojumi par katru tālrunī saņemto SMS
+• Pogas «Kopēt OTP» un «Kopēt ziņu» katrā paziņojumā; klikšķis uz paziņojuma uzreiz nokopē kodu (vai visu ziņu, ja koda nav)
+• Jaunāko ziņu saraksts rīkjoslas uznirstošajā logā ar 1 klikšķa kopēšanu
+• Skaidri parāda, kurš tālrunis un kura SIM karte saņēma ziņu (piem., SIM 2: Jio)
+• Vairāku tālruņu pievienošana; atvienojiet atsevišķu ierīci vai atiestatiet visas uzreiz ar jaunu kodu
+• Tūlītēja savienošana, noskenējot QR kodu – nav nepieciešams konts vai pieteikšanās
+• Spēcīga šifrēšana no gala līdz galam saskaņā ar Web Push standartiem (RFC 8291 un RFC 8292)
+• Pilnīga pieejamība ar tastatūru un ekrāna lasītājiem; tumšā režīma un augsta kontrasta atbalsts
+• Nav serveru, nav analītikas, nav izsekošanas
+
+TĀLRUŅA SAVIENOŠANA
+
+1. Noklikšķiniet uz HMJ SMS Desktop Sync ikonas rīkjoslā, lai atvērtu QR kodu.
+2. Tālrunī atveriet lietotni HMJ SMS, atveriet izvēlni un izvēlieties «Desktop Sync».
+3. Pieskarieties «Skenēt QR kodu» un noskenējiet datora ekrānā redzamo kodu.
+
+Darbvirsmā parādīsies testa paziņojums, kas apstiprina savienojumu. Lai pievienotu citu tālruni, noklikšķiniet uz «Pievienot citu» uznirstošajā logā.
+
+Savienošanas kods satur šifrēšanas atslēgas saziņai ar šo pārlūku. Parādiet vai ielīmējiet to tikai savā tālrunī un nepakļaujiet ekrāna kopīgošanai.
+
+KODA KOPĒŠANA
+
+Kad pienāk ziņa ar kodu, noklikšķiniet uz «Kopēt OTP» paziņojumā vai noklikšķiniet tieši uz paša paziņojuma un ielīmējiet kodu vajadzīgajā vietā. OTP, kas pienāk ar vairāk nekā 10 minūšu aizkavēšanos, tiek atzīmēts kā derīgumu zaudējis, un var nokopēt tikai ziņas tekstu.
+
+SAVIENOTIE TĀLRUŅI
+
+Noklikšķiniet uz tālruņa nosaukuma rīkjoslas logā, lai apskatītu pievienotās ierīces, to pēdējo aktivitāti un atvienotu jebkuru no tām. Tās ziņas turpmāk šeit tiks ignorētas.
+
+Izvēlne (⋮) piedāvā iespējas «Atvienot visus tālruņus» (ģenerē jaunu kodu, liedzot iepriekšējiem tālruņiem piekļuvi, un izdzēš saglabātās ziņas) un «Notīrīt ziņas».
+
+Ja pārlūks pārtrauc savienojumu, uz kuru tālruņi sūta ziņas (piemēram, pēc vairākiem mēnešiem bez ziņām), uznirstošais logs par to paziņos un parādīs jaunu QR kodu, ko noskenēt katrā tālrunī.
+
+PRIVĀTUMS
+
+• Bez serveriem: ziņas tiek pārsūtītas no tālruņa uz pārlūku ar push pakalpojumu, šifrētas tā, lai tikai šis pārlūks varētu tās atšifrēt
+• Netiek vākta analītika un netiek veikta lietotāju izsekošana
+• Netiek izmantots ārējs kods vai trešo pušu skripti
+• Ziņas, ierīču nosaukumi un savienošanas atslēga tiek glabāti tikai lokāli jūsu pārlūkā
+• Ziņas, kas vecākas par 24 stundām, tiek automātiski dzēstas; tiek glabātas ne vairāk kā 100 jaunākās ziņas
+• Izvēlnes punkts «Notīrīt ziņas» vai «Atvienot visus tālruņus» acumirklī izdzēš visus datus
+
+ATĻAUJAS
+
+• Paziņojumi: ienākošo ziņu rādīšanai kā darbvirsmas paziņojumiem
+• Starpliktuve: koda vai ziņas kopēšanai, noklikšķinot uz paziņojuma vai pogas
+• Krātuve: pievienoto tālruņu un ziņu drošai glabāšanai lokāli pārlūkā
+• Fona dokuments (Offscreen): drošai rakstīšanai sistēmas starpliktuvē no fona procesa
+
+IEROBEŽOJUMI
+
+• Nepieciešama lietotne HMJ SMS Android tālrunī.
+• Tālruņa atvienošana paplašinājumā ignorē tā ziņas datorā, taču tālrunis turpinās tās sūtīt, kamēr savienojums netiks pārtraukts arī tālrunī: Atvienojiet šo datoru arī lietotnē HMJ SMS tālrunī, vai izmantojiet «Atvienot visus tālruņus».
+
+ATVĒRTAIS PIRMKODS
+
+HMJ SMS Desktop Sync ir atvērtā koda programmatūra saskaņā ar MIT licenci.
+
+Apskatiet pirmkodu, ziņojiet par kļūdām vai piedalieties izstrādē GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

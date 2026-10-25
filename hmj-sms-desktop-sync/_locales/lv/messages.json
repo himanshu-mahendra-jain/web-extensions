@@ -1,0 +1,604 @@
+{
+  "extensionDescription": {
+    "message": "Bezservera, pilnībā šifrēti SMS un OTP paziņojumi reāllaikā no Android tālruņa ar kopēšanu vienā klikšķī."
+  },
+  "statusLinked": {
+    "message": "Saistīts"
+  },
+  "statusLinkedCount_one": {
+    "message": "Saistīti: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "Saistīti: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Nav saistīts"
+  },
+  "pairButton": {
+    "message": "Savienot"
+  },
+  "pairButtonTitle": {
+    "message": "Rādīt QR kodu savienošanai pārī"
+  },
+  "pairAnotherButton": {
+    "message": "Pievienot"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Rādīt QR kodu vēl viena tālruņa saistīšanai"
+  },
+  "moreOptions": {
+    "message": "Citas iespējas"
+  },
+  "unlinkAllPhones": {
+    "message": "Atsaistīt visus tālruņus"
+  },
+  "clearMessages": {
+    "message": "Notīrīt ziņas"
+  },
+  "phoneFallbackName": {
+    "message": "Tālrunis"
+  },
+  "bannerLinked": {
+    "message": "(saistīts)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ saistīts tālrunis)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ saistīti tālruņi)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Aktīvs"
+  },
+  "linkedPhones": {
+    "message": "Saistītie tālruņi"
+  },
+  "lastActive": {
+    "message": "Pēdējo reizi aktīvs: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Atsaistīt"
+  },
+  "unlinkPhone": {
+    "message": "Atsaistīt $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Vai atsaistīt $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Ziņas no $NAME$ šeit tiks ignorētas. Lai tālrunis pārstātu tās sūtīt, atsaistiet šo datoru arī šī tālruņa SMS lietotnē.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ ir atsaistīts.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Savienošana pārī ar Android tālruni"
+  },
+  "pairOpenApp": {
+    "message": "Tālrunī atveriet lietotni HMJ SMS"
+  },
+  "pairAppPath": {
+    "message": "Iestatījumi → Sinhronizācija ar datoru → Skenēt QR kodu",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "QR kods savienošanai pārī"
+  },
+  "copyCode": {
+    "message": "Kopēt kodu"
+  },
+  "hide": {
+    "message": "Paslēpt"
+  },
+  "pairingWarning": {
+    "message": "Šajā kodā ir jūsu savienojuma atslēgas. Rādiet vai ielīmējiet to tikai savā tālrunī un sargājiet no starpliktuves sinhronizācijas un ekrāna kopīgošanas."
+  },
+  "pairingChanged": {
+    "message": "Savienojums ir mainījies. Katrā tālrunī vēlreiz noskenējiet QR kodu.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Šī paplašinājuma paziņojumi pārlūkā ir izslēgti, tāpēc ziņas tiek saglabātas, bet netiek rādītas.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Gatavs saņemt SMS"
+  },
+  "emptyText": {
+    "message": "Ienākošās SMS un OTP kodi šeit parādīsies reāllaikā."
+  },
+  "showPairingQrCode": {
+    "message": "Rādīt QR kodu savienošanai pārī"
+  },
+  "connectedTo": {
+    "message": "Savienots ar $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Savienoti tālruņi: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Savienoti tālruņi: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Gaida SMS un OTP paziņojumus no: $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Atcelt"
+  },
+  "copied": {
+    "message": "Nokopēts!"
+  },
+  "pairingCodeCopied": {
+    "message": "Savienošanas kods nokopēts."
+  },
+  "otpCopied": {
+    "message": "OTP nokopēts."
+  },
+  "messageCopied": {
+    "message": "Ziņa nokopēta."
+  },
+  "copyFailed": {
+    "message": "Neizdevās nokopēt: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Fona process neatbild."
+  },
+  "unlinkAllTitle": {
+    "message": "Vai atsaistīt visus tālruņus?"
+  },
+  "unlinkAllText": {
+    "message": "Šis dators saņems jaunu savienošanas kodu, un neviens tālrunis to vairs nevarēs sasniegt. Visas šajā paplašinājumā saglabātās ziņas tiks noņemtas. Tālruņiem, kurus vēlaties paturēt, jānoskenē jaunais QR kods."
+  },
+  "unlinkAllAction": {
+    "message": "Atsaistīt visus"
+  },
+  "allPhonesUnlinked": {
+    "message": "Visi tālruņi ir atsaistīti un ziņas notīrītas. Noskenējiet jauno QR kodu, lai savienotu atkārtoti."
+  },
+  "unlinkFailed": {
+    "message": "Neizdevās atsaistīt: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Vai notīrīt nesenās ziņas?"
+  },
+  "clearText": {
+    "message": "Visas šajā paplašinājumā saglabātās ziņas tiks noņemtas. Tālrunī esošās ziņas netiks ietekmētas."
+  },
+  "messagesCleared": {
+    "message": "Visas saglabātās ziņas ir notīrītas."
+  },
+  "clearFailed": {
+    "message": "Neizdevās notīrīt ziņas: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Neizdevās izveidot savienošanas kodu: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Jauna ziņa no $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Nezināms"
+  },
+  "tagGroup": {
+    "message": "Grupa"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Ar: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Kopēt OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Kopēt tekstu"
+  },
+  "copyMessage": {
+    "message": "Kopēt ziņu"
+  },
+  "justNow": {
+    "message": "Tikko"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Fotoattēls"
+  },
+  "photos_one": {
+    "message": "$COUNT$ fotoattēls",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ fotoattēli",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Video"
+  },
+  "videos_one": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Audioieraksts"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ audioieraksts",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ audioieraksti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Kontakts"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ kontakts",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ kontakti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Fails"
+  },
+  "files_one": {
+    "message": "$COUNT$ fails",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ faili",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ grupā ar: $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Jauna SMS no $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Jauna MMS no $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Saņemta jauna ziņa no tālruņa"
+  },
+  "linkVerified": {
+    "message": "Savienojums ar $NAME$ ir apstiprināts! Tūlītēji SMS paziņojumi ir aktīvi.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP BEIDZIES]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Piegādāts pēc atvienošanās) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ ir atsaistīts",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Tālrunis"
+  },
+  "ignoredMessages_one": {
+    "message": "Ignorēto ziņu skaits: $COUNT$. Lai tās apturētu, atsaistiet šo datoru tā tālruņa SMS lietotnē vai noklikšķiniet šeit, lai atsaistītu visus tālruņus.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "Ignorēto ziņu skaits: $COUNT$. Lai tās apturētu, atsaistiet šo datoru tā tālruņa SMS lietotnē vai noklikšķiniet šeit, lai atsaistītu visus tālruņus.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Savienošanas kods ir pārāk garš, lai tālrunis to nolasītu."
+  },
+  "noPhoneToUnlink": {
+    "message": "Nav tālruņa, ko atsaistīt."
+  },
+  "noPushService": {
+    "message": "Šī pārlūkprogramma nevar saņemt push ziņojumus."
+  },
+  "statusLinkedCount_zero": {
+    "message": "Saistīti: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_zero": {
+    "message": "($COUNT$ saistītu tālruņu)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_zero": {
+    "message": "Savienoti tālruņi: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_zero": {
+    "message": "$COUNT$ fotoattēlu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_zero": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_zero": {
+    "message": "$COUNT$ audioierakstu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_zero": {
+    "message": "$COUNT$ kontaktu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_zero": {
+    "message": "$COUNT$ failu",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_zero": {
+    "message": "Ignorēto ziņu skaits: $COUNT$. Lai tās apturētu, atsaistiet šo datoru tā tālruņa SMS lietotnē vai noklikšķiniet šeit, lai atsaistītu visus tālruņus.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+Primajte SMS poruke i OTP kodove sa svog Android telefona kao obavijesti na radnoj površini, uz enkripciju s kraja na kraj i kopiranje koda jednim klikom.
+
+HMJ SMS Desktop Sync je lagano proširenje otvorenog koda koje se povezuje s aplikacijom HMJ SMS na vašem Android telefonu. Kada na telefon stigne poruka, ona se odmah prikazuje na zaslonu računala, omogućujući vam kopiranje koda za prijavu bez posezanja za telefonom.
+
+Poruke putuju izravno s telefona u vaš preglednik putem ugrađene push usluge preglednika, šifrirane isključivo za ovaj preglednik. Između nema poslužitelja, a push usluga ne može pročitati sadržaj poruka.
+
+Savjet: Prikvačite proširenje u Chromeovom izborniku proširenja (ikona slagalice) kako bi ikona bila uvijek dostupna na alatnoj traci.
+
+GLAVNE ZNAČAJKE
+
+• Obavijesti na radnoj površini za svaki SMS koji vaš telefon primi
+• Gumbi «Kopiraj OTP» i «Kopiraj poruku» na svakoj obavijesti; klik na obavijest kopira OTP kod (ili cijeli tekst ako koda nema)
+• Prikaz nedavnih poruka u skočnom prozoru alatne trake uz kopiranje u 1 klik
+• Prikazuje koji je telefon i koja SIM kartica primila poruku (npr. SIM 2: Jio)
+• Povežite više telefona; odspojite jedan uređaj ili sve odjednom stvaranjem novog koda za uparivanje
+• Brzo uparivanje skeniranjem QR koda – bez korisničkih računa ili prijave
+• Enkripcija s kraja na kraj (E2EE) prema standardima Web Push (RFC 8291 i RFC 8292)
+• Potpuna pristupačnost putem tipkovnice i čitača zaslona; podrška za tamni način rada i visoki kontrast
+• Bez poslužitelja, bez analitike i praćenja
+
+UPARIVANJE TELEFONA
+
+1. Kliknite ikonu HMJ SMS Desktop Sync na alatnoj traci kako bi se prikazao QR kod za uparivanje.
+2. Na telefonu otvorite aplikaciju HMJ SMS, uđite u izbornik i odaberite «Desktop Sync».
+3. Dodirnite «Skeniraj QR kod» i usmjerite kameru prema kodu na zaslonu.
+
+Na radnoj površini pojavit će se testna obavijest koja potvrđuje uspješno povezivanje. Za uparivanje drugog telefona kliknite «Upari drugi» u skočnom prozoru.
+
+Kod za uparivanje sadrži kriptografske ključeve za komunikaciju s ovim preglednikom. Prikazujte ga i lijepite samo na vlastitom telefonu te izbjegavajte sinkronizaciju međuspremnika i dijeljenje zaslona.
+
+KOPIRANJE KODA
+
+Kada stigne poruka s potvrdnim kodom, kliknite «Kopiraj OTP» na obavijesti ili kliknite izravno na obavijest i zalijepite kod gdje vam je potreban. OTP dostavljen s više od 10 minuta kašnjenja označava se kao istekao i moguće je kopirati samo tekst poruke.
+
+POVEZANI TELEFONI
+
+Kliknite naziv telefona ispod alatne trake skočnog prozora kako biste vidjeli popis povezanih telefona, vrijeme njihove zadnje aktivnosti i odspojili bilo koji od njih. Njegove poruke od tada će se ovdje ignorirati.
+
+Izbornik (⋮) nudi opcije «Odspoji sve telefone» (stvara novi kod za uparivanje koji onemogućuje prethodnim telefonima slanje poruka i briše sve pohranjene poruke) te «Očisti poruke».
+
+Ako preglednik prekine vezu na koju telefoni šalju poruke, primjerice nakon mjeseci bez poruka, skočni prozor će to javiti i prikazati novi QR kod za skeniranje na svakom telefonu.
+
+PRIVATNOST
+
+• Bez poslužitelja: Poruke se prenose s telefona u preglednik putem push usluge, šifrirane tako da ih samo ovaj preglednik može pročitati
+• Bez prikupljanja analitike ili praćenja korisnika
+• Bez vanjskog koda i vanjskih JavaScript biblioteka
+• Poruke, nazivi telefona i ključ za uparivanje pohranjuju se isključivo lokalno u vašem pregledniku
+• Poruke starije od 24 sata automatski se brišu; čuva se najviše 100 najnovijih poruka
+• Opcija «Očisti poruke» u izborniku odmah uklanja sve spremljene poruke, baš kao i «Odspoji sve telefone»
+
+DOZVOLE
+
+• Obavijesti: Prikazuje svaku dolaznu poruku kao obavijest na radnoj površini
+• Međuspremnik: Kopira OTP ili poruku klikom na obavijest ili gumb za kopiranje
+• Pohrana: Čuva povezane telefone i nedavne poruke lokalno u pregledniku
+• Pozadinski dokument (offscreen): Zapisuje u međuspremnik sustava, što pozadinski servisni proces ne može izravno izvršiti
+
+OGRANIČENJA
+
+• Zahtijeva aplikaciju HMJ SMS na Android telefonu.
+• Odspajanje telefona u proširenju blokira poruke na ovom računalu, no telefon će ih nastaviti slati: Odspojite ovo računalo i u aplikaciji HMJ SMS na telefonu ili odaberite «Odspoji sve telefone» (nakon čega zadržani uređaji moraju skenirati novi QR kod).
+
+OTVORENI KOD
+
+HMJ SMS Desktop Sync je projekt otvorenog koda pod licencom MIT.
+
+Pregledajte izvorni kod, prijavite probleme ili doprinesite na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

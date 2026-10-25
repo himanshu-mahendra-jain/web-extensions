@@ -20,14 +20,15 @@ const VERSION_INFO = [
   0x2542E, 0x26A64, 0x27541, 0x28C69
 ];
 
-// A pairing text as long as a real one gets: FCM endpoint, keys, name, ID.
+// A pairing code as long as a real one gets: FCM endpoint, keys, VAPID key pair, name.
 const PAIRING_TEXT = [
-  "sms_pair:v1",
+  "sms_pair:v2",
   `https://fcm.googleapis.com/fcm/send/${"t".repeat(200)}`,
   "B".repeat(87),
   "a".repeat(22),
-  "Chrome (Windows)",
-  "abcdefghijklmnopabcdefghijklmnop"
+  "B".repeat(87),
+  "d".repeat(43),
+  "Chrome (Windows)"
 ].join("|");
 
 
@@ -150,7 +151,7 @@ test("refuses text longer than version 40 holds", async ({ page }) => {
 
 
 test("draws the finder, timing and dark-module patterns", async ({ page }) => {
-  for (const text of ["sms_pair:v1|x", "x".repeat(300)]) {
+  for (const text of ["sms_pair:v2|x", "x".repeat(300)]) {
     const { size, modules } = await renderModules(page, text);
 
     for (const [top, left] of [[0, 0], [0, size - 7], [size - 7, 0]]) {
@@ -180,7 +181,7 @@ test("draws the finder, timing and dark-module patterns", async ({ page }) => {
 
 
 test("encodes ECC level L format information in both copies", async ({ page }) => {
-  for (const text of ["a", "sms_pair:v1|x", PAIRING_TEXT]) {
+  for (const text of ["a", "sms_pair:v2|x", PAIRING_TEXT]) {
     const [first, second] = formatInfo(await renderModules(page, text));
 
     expect(first).toBe(second);
@@ -211,7 +212,7 @@ test("draws the same code for the same text inside a light quiet zone", async ({
 });
 
 
-test("a full-length pairing code keeps modules at least 2px wide in the 260px popup", async ({ page }) => {
+test("a full-length pairing code keeps modules at least 3px wide in the 260px popup", async ({ page }) => {
   const { size } = await renderModules(page, PAIRING_TEXT);
 
   const canvasWidth = await page.evaluate((text) => {
@@ -221,5 +222,39 @@ test("a full-length pairing code keeps modules at least 2px wide in the 260px po
     return container.querySelector("canvas").width;
   }, PAIRING_TEXT);
 
-  expect(canvasWidth / (size + 8)).toBeGreaterThanOrEqual(2);
+  expect(canvasWidth / (size + 8)).toBeGreaterThanOrEqual(3);
 });
+
+
+/*
+ * Stretched to a size that is not a whole multiple, modules come out
+ * uneven, and a phone can fail to read a code as dense as a pairing code.
+ */
+for (const deviceScaleFactor of [1, 1.25, 1.5, 2]) {
+  test.describe(`at ${deviceScaleFactor * 100}% display scaling`, () => {
+    test.use({ deviceScaleFactor });
+
+
+    test("every module gets the same whole number of screen pixels", async ({ page }) => {
+      const { size } = await renderModules(page, PAIRING_TEXT);
+
+      const shown = await page.evaluate((text) => {
+        const container = document.createElement("div");
+        document.body.append(container);
+        renderQrCode(container, text, 260);
+        const canvas = container.querySelector("canvas");
+        return {
+          pixels: canvas.width,
+          cssWidth: canvas.getBoundingClientRect().width,
+          cssHeight: canvas.getBoundingClientRect().height
+        };
+      }, PAIRING_TEXT);
+
+      expect(shown.pixels % (size + 8)).toBe(0);
+      // Layout keeps sizes in 1/64 px and paint snaps to device pixels, so within half a pixel.
+      expect(shown.cssWidth * deviceScaleFactor).toBeCloseTo(shown.pixels, 0);
+      expect(shown.cssHeight).toBe(shown.cssWidth);
+      expect(shown.cssWidth).toBeLessThanOrEqual(260);
+    });
+  });
+}

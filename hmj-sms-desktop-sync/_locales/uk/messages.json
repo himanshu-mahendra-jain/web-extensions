@@ -1,0 +1,676 @@
+{
+  "extensionDescription": {
+    "message": "Безсерверні SMS та OTP-сповіщення з Android-телефона в реальному часі з наскрізним шифруванням і копіюванням в 1 клік."
+  },
+  "statusLinked": {
+    "message": "Зв’язано"
+  },
+  "statusLinkedCount_one": {
+    "message": "Зв’язано: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "Зв’язано: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Не зв’язано"
+  },
+  "pairButton": {
+    "message": "Зв’язати"
+  },
+  "pairButtonTitle": {
+    "message": "Показати QR-код для зв’язування"
+  },
+  "pairAnotherButton": {
+    "message": "Додати"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Показати QR-код, щоб зв’язати ще один телефон"
+  },
+  "moreOptions": {
+    "message": "Інші дії"
+  },
+  "unlinkAllPhones": {
+    "message": "Відв’язати всі телефони"
+  },
+  "clearMessages": {
+    "message": "Очистити повідомлення"
+  },
+  "phoneFallbackName": {
+    "message": "Телефон"
+  },
+  "bannerLinked": {
+    "message": "(зв’язано)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ телефон зв’язано)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ телефона зв’язано)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Активний"
+  },
+  "linkedPhones": {
+    "message": "Зв’язані телефони"
+  },
+  "lastActive": {
+    "message": "Остання активність: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Відв’язати"
+  },
+  "unlinkPhone": {
+    "message": "Відв’язати $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Відв’язати $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Повідомлення від $NAME$ тут ігноруватимуться. Щоб телефон перестав їх надсилати, відв’яжіть цей комп’ютер і в застосунку SMS на тому телефоні.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ відв’язано.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Підключення до Android-телефона"
+  },
+  "pairOpenApp": {
+    "message": "Відкрийте застосунок HMJ SMS на телефоні"
+  },
+  "pairAppPath": {
+    "message": "Налаштування → Синхронізація з ПК → Сканувати QR-код",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "QR-код для зв’язування"
+  },
+  "copyCode": {
+    "message": "Копіювати код"
+  },
+  "hide": {
+    "message": "Сховати"
+  },
+  "pairingWarning": {
+    "message": "Цей код містить ключі вашого зв’язку. Показуйте та вставляйте його лише на своєму телефоні й тримайте подалі від синхронізації буфера обміну та демонстрації екрана."
+  },
+  "pairingChanged": {
+    "message": "Параметри з'єднання змінилися. Відскануйте QR-код заново на кожному телефоні.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Сповіщення для цього розширення вимкнено в браузері, тому повідомлення зберігаються, але не показуються на екрані.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Готово до отримання SMS"
+  },
+  "emptyText": {
+    "message": "Вхідні SMS та OTP-коди з’являтимуться тут у реальному часі."
+  },
+  "showPairingQrCode": {
+    "message": "Показати QR-код для зв’язування"
+  },
+  "connectedTo": {
+    "message": "Під’єднано до $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Під’єднано телефонів: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Під’єднано телефонів: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Очікування вхідних SMS та OTP-сповіщень від $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Скасувати"
+  },
+  "copied": {
+    "message": "Скопійовано!"
+  },
+  "pairingCodeCopied": {
+    "message": "Код зв’язування скопійовано."
+  },
+  "otpCopied": {
+    "message": "OTP скопійовано."
+  },
+  "messageCopied": {
+    "message": "Повідомлення скопійовано."
+  },
+  "copyFailed": {
+    "message": "Не вдалося скопіювати: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Фонова служба не відповідає."
+  },
+  "unlinkAllTitle": {
+    "message": "Відв’язати всі телефони?"
+  },
+  "unlinkAllText": {
+    "message": "Цей комп’ютер отримає новий код зв’язування, і жоден телефон більше не зможе з ним зв’язатися. Усі повідомлення, збережені в цьому розширенні, буде видалено. Телефони, які ви залишаєте, мають відсканувати новий QR-код."
+  },
+  "unlinkAllAction": {
+    "message": "Відв’язати всі"
+  },
+  "allPhonesUnlinked": {
+    "message": "Усі телефони відв’язано, повідомлення видалено. Відскануйте новий QR-код, щоб зв’язати знову."
+  },
+  "unlinkFailed": {
+    "message": "Не вдалося відв’язати: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Очистити останні повідомлення?"
+  },
+  "clearText": {
+    "message": "Усі повідомлення, збережені в цьому розширенні, буде видалено. Повідомлень на телефоні це не стосується."
+  },
+  "messagesCleared": {
+    "message": "Усі збережені повідомлення видалено."
+  },
+  "clearFailed": {
+    "message": "Не вдалося очистити повідомлення: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Не вдалося створити код зв’язування: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Нове повідомлення від $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Невідомий"
+  },
+  "tagGroup": {
+    "message": "Група"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Учасники: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Копіювати OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Копіювати текст"
+  },
+  "copyMessage": {
+    "message": "Копіювати повідомлення"
+  },
+  "justNow": {
+    "message": "Щойно"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Фото"
+  },
+  "photos_one": {
+    "message": "$COUNT$ фото",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ фото",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Відео"
+  },
+  "videos_one": {
+    "message": "$COUNT$ відео",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ відео",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Аудіо"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ аудіозапис",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ аудіозапису",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Контакт"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ контакт",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ контакту",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Файл"
+  },
+  "files_one": {
+    "message": "$COUNT$ файл",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ файлу",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ у групі з $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Нове SMS від $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Нове MMS від $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Отримано нове повідомлення з телефона"
+  },
+  "linkVerified": {
+    "message": "З'єднання з $NAME$ підтверджено! Миттєві SMS-сповіщення активні.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP ПРОСТРОЧЕНО]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Доставлено після відключення) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ відв’язано",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Телефон"
+  },
+  "ignoredMessages_one": {
+    "message": "Проігноровано $COUNT$ повідомлення. Від'єднайте цей комп'ютер у застосунку SMS на телефоні, щоб припинити відправку, або натисніть тут, щоб від'єднати всі телефони.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "Проігноровано $COUNT$ повідомлень. Від'єднайте цей комп'ютер у застосунку SMS на телефоні, щоб припинити відправку, або натисніть тут, щоб від'єднати всі телефони.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Код з'єднання занадто довгий, телефон не зможе його прочитати."
+  },
+  "noPhoneToUnlink": {
+    "message": "Немає телефона для відв’язування."
+  },
+  "noPushService": {
+    "message": "Цей браузер не підтримує отримання push-повідомлень."
+  },
+  "statusLinkedCount_few": {
+    "message": "Зв’язано: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_many": {
+    "message": "Зв’язано: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_few": {
+    "message": "($COUNT$ телефони зв’язано)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_many": {
+    "message": "($COUNT$ телефонів зв’язано)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_few": {
+    "message": "Під’єднано телефонів: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_many": {
+    "message": "Під’єднано телефонів: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_few": {
+    "message": "$COUNT$ фото",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_many": {
+    "message": "$COUNT$ фото",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_few": {
+    "message": "$COUNT$ відео",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_many": {
+    "message": "$COUNT$ відео",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_few": {
+    "message": "$COUNT$ аудіозаписи",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_many": {
+    "message": "$COUNT$ аудіозаписів",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_few": {
+    "message": "$COUNT$ контакти",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_many": {
+    "message": "$COUNT$ контактів",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_few": {
+    "message": "$COUNT$ файли",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_many": {
+    "message": "$COUNT$ файлів",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_few": {
+    "message": "$COUNT$ повідомлення проігноровано. Відв’яжіть цей комп’ютер у застосунку SMS на тому телефоні, щоб зупинити їх, або натисніть тут, щоб відв’язати всі телефони.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_many": {
+    "message": "$COUNT$ повідомлень проігноровано. Відв’яжіть цей комп’ютер у застосунку SMS на тому телефоні, щоб зупинити їх, або натисніть тут, щоб відв’язати всі телефони.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

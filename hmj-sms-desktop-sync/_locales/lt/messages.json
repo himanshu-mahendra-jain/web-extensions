@@ -1,0 +1,604 @@
+{
+  "extensionDescription": {
+    "message": "Be serverio, visapusiškai šifruojami SMS ir OTP pranešimai realiuoju laiku iš „Android“ telefono, kopijuojami vienu spustelėjimu."
+  },
+  "statusLinked": {
+    "message": "Susieta"
+  },
+  "statusLinkedCount_one": {
+    "message": "Susieta: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "Susieta: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Nesusieta"
+  },
+  "pairButton": {
+    "message": "Susieti"
+  },
+  "pairButtonTitle": {
+    "message": "Rodyti susiejimo QR kodą"
+  },
+  "pairAnotherButton": {
+    "message": "Pridėti"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Rodyti QR kodą dar vienam telefonui susieti"
+  },
+  "moreOptions": {
+    "message": "Daugiau parinkčių"
+  },
+  "unlinkAllPhones": {
+    "message": "Atsieti visus telefonus"
+  },
+  "clearMessages": {
+    "message": "Išvalyti pranešimus"
+  },
+  "phoneFallbackName": {
+    "message": "Telefonas"
+  },
+  "bannerLinked": {
+    "message": "(susieta)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "(susietas $COUNT$ telefonas)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "(susieta $COUNT$ telefonų)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Aktyvus"
+  },
+  "linkedPhones": {
+    "message": "Susieti telefonai"
+  },
+  "lastActive": {
+    "message": "Paskutinį kartą aktyvus: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Atsieti"
+  },
+  "unlinkPhone": {
+    "message": "Atsieti $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Atsieti $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Pranešimai iš $NAME$ čia bus ignoruojami. Kad telefonas nustotų juos siųsti, atsiekite šį kompiuterį ir to telefono SMS programoje.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ atsietas.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Susieti su „Android“ telefonu"
+  },
+  "pairOpenApp": {
+    "message": "Telefone atidarykite programą HMJ SMS"
+  },
+  "pairAppPath": {
+    "message": "Nustatymai → Sinchronizavimas su kompiuteriu → Nuskaityti QR kodą",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Susiejimo QR kodas"
+  },
+  "copyCode": {
+    "message": "Kopijuoti kodą"
+  },
+  "hide": {
+    "message": "Slėpti"
+  },
+  "pairingWarning": {
+    "message": "Šiame kode yra jūsų ryšio raktai. Rodykite ar įklijuokite jį tik savo telefone ir saugokite nuo iškarpinės sinchronizavimo bei ekrano bendrinimo."
+  },
+  "pairingChanged": {
+    "message": "Susiejimas pasikeitė. Kiekviename telefone iš naujo nuskaitykite QR kodą.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Šio plėtinio pranešimai naršyklėje išjungti, todėl žinutės išsaugomos, bet nerodomos.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Pasiruošta gauti SMS"
+  },
+  "emptyText": {
+    "message": "Gaunami SMS ir OTP kodai čia bus rodomi realiuoju laiku."
+  },
+  "showPairingQrCode": {
+    "message": "Rodyti susiejimo QR kodą"
+  },
+  "connectedTo": {
+    "message": "Prisijungta prie $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Prijungta telefonų: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Prijungta telefonų: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Laukiama SMS ir OTP įspėjimų iš: $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Atšaukti"
+  },
+  "copied": {
+    "message": "Nukopijuota!"
+  },
+  "pairingCodeCopied": {
+    "message": "Susiejimo kodas nukopijuotas."
+  },
+  "otpCopied": {
+    "message": "OTP nukopijuotas."
+  },
+  "messageCopied": {
+    "message": "Pranešimas nukopijuotas."
+  },
+  "copyFailed": {
+    "message": "Nepavyko nukopijuoti: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Fono procesas neatsako."
+  },
+  "unlinkAllTitle": {
+    "message": "Atsieti visus telefonus?"
+  },
+  "unlinkAllText": {
+    "message": "Šis kompiuteris gaus naują susiejimo kodą ir joks telefonas nebegalės jo pasiekti. Visi šiame plėtinyje saugomi pranešimai bus pašalinti. Telefonai, kuriuos norite palikti, turi nuskaityti naują QR kodą."
+  },
+  "unlinkAllAction": {
+    "message": "Atsieti visus"
+  },
+  "allPhonesUnlinked": {
+    "message": "Visi telefonai atsieti, pranešimai išvalyti. Nuskaitykite naują QR kodą, kad susietumėte iš naujo."
+  },
+  "unlinkFailed": {
+    "message": "Nepavyko atsieti: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Išvalyti naujausius pranešimus?"
+  },
+  "clearText": {
+    "message": "Visi šiame plėtinyje saugomi pranešimai bus pašalinti. Telefone esantys pranešimai nebus paveikti."
+  },
+  "messagesCleared": {
+    "message": "Visi saugomi pranešimai išvalyti."
+  },
+  "clearFailed": {
+    "message": "Nepavyko išvalyti pranešimų: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Nepavyko sukurti susiejimo kodo: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Naujas pranešimas nuo $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Nežinomas"
+  },
+  "tagGroup": {
+    "message": "Grupė"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Su: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Kopijuoti OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Kopijuoti tekstą"
+  },
+  "copyMessage": {
+    "message": "Kopijuoti pranešimą"
+  },
+  "justNow": {
+    "message": "Ką tik"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Nuotrauka"
+  },
+  "photos_one": {
+    "message": "$COUNT$ nuotrauka",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ nuotraukų",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Vaizdo įrašas"
+  },
+  "videos_one": {
+    "message": "$COUNT$ vaizdo įrašas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ vaizdo įrašų",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Garso įrašas"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ garso įrašas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ garso įrašų",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Kontaktas"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ kontaktas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ kontaktų",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Failas"
+  },
+  "files_one": {
+    "message": "$COUNT$ failas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ failų",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ grupėje su: $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Naujas SMS nuo $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Naujas MMS nuo $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Gautas naujas pranešimas iš telefono"
+  },
+  "linkVerified": {
+    "message": "Ryšys su $NAME$ patvirtintas! Momentiniai SMS įspėjimai įjungti.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[PASIBAIGĘS OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Pristatyta atsijungus) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ atsietas",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Telefonas"
+  },
+  "ignoredMessages_one": {
+    "message": "Ignoruotas $COUNT$ pranešimas. Norėdami juos sustabdyti, atsiekite šį kompiuterį to telefono SMS programoje arba spustelėkite čia, kad atsietumėte visus telefonus.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "Ignoruota $COUNT$ pranešimų. Norėdami juos sustabdyti, atsiekite šį kompiuterį to telefono SMS programoje arba spustelėkite čia, kad atsietumėte visus telefonus.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Susiejimo kodas per ilgas, kad telefonas galėtų jį nuskaityti."
+  },
+  "noPhoneToUnlink": {
+    "message": "Nėra telefono, kurį būtų galima atsieti."
+  },
+  "noPushService": {
+    "message": "Ši naršyklė negali gauti tiesioginių pranešimų."
+  },
+  "statusLinkedCount_few": {
+    "message": "Susieta: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_few": {
+    "message": "(susieti $COUNT$ telefonai)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_few": {
+    "message": "Prijungta telefonų: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_few": {
+    "message": "$COUNT$ nuotraukos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_few": {
+    "message": "$COUNT$ vaizdo įrašai",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_few": {
+    "message": "$COUNT$ garso įrašai",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_few": {
+    "message": "$COUNT$ kontaktai",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_few": {
+    "message": "$COUNT$ failai",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_few": {
+    "message": "Ignoruoti $COUNT$ pranešimai. Norėdami juos sustabdyti, atsiekite šį kompiuterį to telefono SMS programoje arba spustelėkite čia, kad atsietumėte visus telefonus.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

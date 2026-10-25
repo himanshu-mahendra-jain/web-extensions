@@ -1,6 +1,6 @@
 import { test as base, expect } from "@playwright/test";
 
-import { ORIGIN, routeExtensionFiles } from "./harness.js";
+import { ORIGIN, defaultLocaleMessages, installFakeI18n, routeExtensionFiles } from "./harness.js";
 
 
 export { expect };
@@ -42,6 +42,8 @@ export const test = base.extend({
  * cannot load extensions, so this is how both browsers draw the same
  * page from the same state. In Firefox the page gets the Firefox
  * package's files and APIs, unless state.firefox says otherwise.
+ * state.direction "rtl" lays the page out as a right-to-left language
+ * does; see installFakeI18n().
  */
 export async function openExtensionPage(page, extensionPath, pagePath, state = {}) {
   const firefox = state.firefox ??
@@ -49,6 +51,10 @@ export async function openExtensionPage(page, extensionPath, pagePath, state = {
 
   await routeExtensionFiles(page, extensionPath, { firefox });
 
+  await page.addInitScript(installFakeI18n, {
+    messages: defaultLocaleMessages(extensionPath),
+    direction: state.direction
+  });
   await page.addInitScript(installFakeChrome, { ...state, firefox });
 
   await page.goto(`${ORIGIN}/${pagePath}`);
@@ -62,7 +68,8 @@ export async function openExtensionPage(page, extensionPath, pagePath, state = {
  * namespaces adds empty APIs, such as "history", for pages that only
  * check whether the browser has them. firefox names the fake browser,
  * as Firefox does, instead of chrome, and makes runtime.getURL() name
- * a moz-extension: URL, for pages that tell Firefox apart by it.
+ * a moz-extension: URL, for pages that tell Firefox apart by it. i18n
+ * answers from the extension's default locale; see installFakeI18n().
  */
 function installFakeChrome({
   storage = {},
@@ -154,7 +161,9 @@ function installFakeChrome({
       },
       onAdded: event(),
       onRemoved: event()
-    }
+    },
+
+    i18n: window.fakeI18n
   };
 
   for (const namespace of namespaces) {

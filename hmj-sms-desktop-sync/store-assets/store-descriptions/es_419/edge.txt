@@ -1,0 +1,70 @@
+Recibe los mensajes SMS y códigos OTP de tu teléfono Android como notificaciones en tu computadora, con cifrado de extremo a extremo y copia de códigos en 1 clic.
+
+HMJ SMS Desktop Sync es una extensión ligera y de código abierto que se vincula con la aplicación HMJ SMS en tu teléfono Android. Cuando llega un mensaje a tu celular, aparece en tu computadora al instante para que puedas copiar tu código de verificación sin tener que levantar el teléfono.
+
+Los mensajes viajan directamente desde tu celular a tu navegador a través del servicio push del navegador, cifrados únicamente para este navegador. No hay servidores intermedios y el servicio push no puede leer su contenido.
+
+Consejo: en el menú de Extensiones de Edge, activa «Mostrar en la barra de herramientas» para HMJ SMS Desktop Sync para tenerla siempre a mano.
+
+CARACTERÍSTICAS PRINCIPALES
+
+• Notificaciones de escritorio para cada SMS que reciba tu celular
+• Botones de «Copiar OTP» y «Copiar mensaje» en cada notificación; al hacer clic en la notificación se copia el OTP, o el mensaje completo si no tiene código
+• Mensajes recientes en la ventana de la barra de herramientas, con copia en un clic
+• Muestra qué teléfono y qué tarjeta SIM recibió cada mensaje (por ejemplo, SIM 2: Jio)
+• Vincula varios celulares; desvincula uno desde la ventana emergente o todos a la vez con un nuevo código de vinculación
+• Vinculación mediante escaneo de código QR, sin cuentas ni contraseñas
+• Cifrado de extremo a extremo con el estándar Web Push (RFC 8291 y RFC 8292)
+• Accesible mediante teclado y lectores de pantalla; compatible con modo oscuro y modo de alto contraste
+• Sin servidores, sin analíticas ni rastreo de datos
+
+VINCULAR TU CELULAR
+
+1. Haz clic en el icono de HMJ SMS Desktop Sync en la barra de herramientas para mostrar el código QR de vinculación.
+2. En tu teléfono, abre la app HMJ SMS, entra en el menú y selecciona «Desktop Sync».
+3. Toca «Escanear código QR» y escanea el código en pantalla.
+
+Aparecerá una notificación de prueba en tu computadora para confirmar la conexión. Para vincular otro teléfono, haz clic en «Vincular otro» en la ventana emergente.
+
+El código de vinculación contiene las claves criptográficas para conectar con este navegador. Muéstralo o pégalo únicamente en tu propio celular y mantenlo alejado de aplicaciones de sincronización de portapapeles o llamadas con pantalla compartida.
+
+COPIAR UN CÓDIGO
+
+Cuando llegue un mensaje con un código de verificación, haz clic en «Copiar OTP» en la notificación, o en la notificación misma, y pega el código donde lo necesites. Si un OTP se recibe con más de 10 minutos de retraso, se marcará como vencido y solo podrás copiar el texto del mensaje.
+
+CELULARES VINCULADOS
+
+Haz clic en el nombre del celular debajo de la barra de herramientas para ver los dispositivos vinculados, cuándo estuvieron activos por última vez y desvincular cualquiera de ellos. A partir de ese momento sus mensajes serán ignorados aquí.
+
+El menú (⋮) de la ventana cuenta con «Desvincular todos los teléfonos» (genera un nuevo código de vinculación para desconectar todos los teléfonos y borra todos los mensajes guardados) y «Borrar mensajes».
+
+Si el navegador finaliza la conexión a la que envían los teléfonos, por ejemplo tras varios meses sin recibir mensajes, la ventana emergente te lo indicará y mostrará un nuevo código QR para escanear en cada teléfono.
+
+PRIVACIDAD
+
+• Sin servidores: los mensajes van directamente de tu celular a tu navegador a través del servicio push del navegador, cifrados de manera que solo este navegador puede leerlos
+• Sin analíticas ni rastreo de actividad
+• Sin código remoto ni scripts externos
+• Los mensajes, los nombres de los teléfonos y la clave de vinculación se guardan únicamente en tu navegador
+• Los mensajes con más de 24 horas se eliminan de forma automática; se mantiene un historial de hasta 100 mensajes
+• «Borrar mensajes» en el menú elimina todos los mensajes almacenados al instante, al igual que «Desvincular todos los teléfonos»
+
+PERMISOS
+
+• Notificaciones: muestra cada mensaje entrante como una notificación de escritorio
+• Portapapeles: copia el código OTP o el mensaje al hacer clic en una notificación o botón de copia
+• Almacenamiento: conserva los teléfonos vinculados y los mensajes recientes localmente en tu navegador
+• Documento offscreen: escribe en el portapapeles, algo que un service worker en segundo plano no puede hacer por sí solo
+
+LIMITACIONES
+
+• Requiere la aplicación HMJ SMS instalada en un celular Android.
+• Desvincular un teléfono aquí ignora sus mensajes en esta computadora, pero solo el celular puede detener los envíos: desvincula también esta computadora en la app HMJ SMS de tu celular, o usa «Desvincular todos los teléfonos», tras lo cual los celulares que desees mantener deberán escanear el nuevo código QR.
+
+CÓDIGO ABIERTO
+
+HMJ SMS Desktop Sync es un proyecto de código abierto bajo la Licencia MIT.
+
+Revisa el código fuente, reporta problemas o colabora en GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions
