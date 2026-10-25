@@ -1,0 +1,70 @@
+Saage oma Android-telefoni SMS-sõnumid ja OTP-koodid töölauateavitustena, otspunktkrüpteeritult ja kopeerige kood ühe klõpsuga.
+
+HMJ SMS Desktop Sync on kergekaaluline ja avatud lähtekoodiga laiendus, mis paaritub teie Android-telefoni HMJ SMS rakendusega. Kui telefoni saabub sõnum, kuvatakse see kohe arvutiekraanil, võimaldades teil kinnituskoode mugavalt kopeerida ilma telefoni haaramata.
+
+Sõnumid liiguvad telefonist otse brauserisse brauseri enda push-teenuse kaudu, krüpteerituna spetsiaalselt selle brauseri jaoks. Vahepealseid servereid ei ole ja push-teenus ei saa sõnumite sisu lugeda.
+
+Soovitus: kinnitage laiendus Chrome'i laienduste menüüs (pusletüki ikoon), et selle ikoon oleks tööriistaribal alati nähtaval.
+
+PÕHIOMADUSED
+
+• Reaalajas töölauateavitused iga telefoni saabuva SMS-i kohta
+• «Kopeeri OTP» ja «Kopeeri sõnum» nupud igal teavitusel; teavitusele klõpsamine kopeerib koodi (või kogu sõnumi, kui koodi pole)
+• Hiljutised sõnumid tööriistariba hüpikaknas 1-klõpsu kopeerimisega
+• Kuvab täpselt, milline telefon ja SIM-kaart sõnumi sai (nt SIM 2: Jio)
+• Mitme telefoni ühendamise võimalus; eraldi seadme eemaldamine või kõigi lähtestamine uue koodiga
+• Kiire sidumine QR-koodi skannimisega – ilma kontode ja sisselogimiseta
+• Otspunktkrüpteerimine (E2EE) vastavalt Web Push standarditele (RFC 8291 ja RFC 8292)
+• Täielik tugi klaviatuurile ja ekraanilugejatele; tumeda režiimi ja kõrge kontrasti tugi
+• Pole servereid, analüütikat ega kasutajate jälgimist
+
+TELEFONI SIDUMINE
+
+1. Klõpsake tööriistaribal HMJ SMS Desktop Sync ikoonil, et kuvada sidumise QR-kood.
+2. Avage telefonis HMJ SMS rakendus, minge menüüsse ja valige «Desktop Sync».
+3. Puudutage «Skanni QR-kood» ja suunake kaamera ekraanil olevale koodile.
+
+Ühenduse kinnitamiseks ilmub töölauale testteavitus. Teise telefoni lisamiseks klõpsake hüpikaknas «Pair Another».
+
+Sidumiskood sisaldab krüptovõtmeid selle brauseriga suhtlemiseks. Näidake või kleepige seda ainult oma telefonis ning vältige lõikelaua sünkroonimist ja ekraanijagamist.
+
+KOODI KOPEERIMINE
+
+Kui saabub koodiga sõnum, klõpsake teavitusel «Kopeeri OTP» või klõpsake otse teavitusele ja kleepige kood soovitud kohta. Rohkem kui 10 minutit hilinenud OTP märgitakse aegunuks ning kopeerida saab vaid sõnumi teksti.
+
+SEOTUD TELEFONID
+
+Klõpsake hüpikakna tööriistariba all oleval telefoni nimel, et näha seotud seadmeid, nende viimast aktiivsust ja eemaldada seos seadmega. Selle seadme sõnumeid edaspidi eiratakse.
+
+Menüüst (⋮) leiate valikud «Eemalda kõik telefonid» (genereerib uue koodi varasemate seadmete blokeerimiseks ja kustutab salvestatud sõnumid) ning «Kustuta sõnumid».
+
+Kui brauser lõpetab ühenduse, kuhu telefonid sõnumeid saadavad (näiteks pärast kuid ilma sõnumiteta), annab hüpikaken sellest teada ja kuvab uue QR-koodi, mida igas telefonis skannida.
+
+PRIVAATSUS
+
+• Ilma serverita: sõnumid liiguvad telefonist brauserisse push-teenuse kaudu, krüpteeritult nii, et neid saab lugeda ainult see brauser
+• Kasutusstatistikat ega tegevust ei jälgita
+• Ei kasutata kaugkoodi ega väliseid skripte
+• Sõnumid, seadmete nimed ja sidumisvõti salvestatakse ainult teie brauseris lokaalselt
+• Üle 24 tunni vanused sõnumid eemaldatakse automaatselt; säilitatakse kuni 100 viimast sõnumit
+• Menüüvalik «Kustuta sõnumid» või «Eemalda kõik telefonid» eemaldab kõik salvestatud andmed hetkega
+
+LOAD
+
+• Teavitused: sissetulevate sõnumite kuvamiseks töölaual
+• Lõikelaud: koodi või sõnumi kopeerimiseks teavitusele või kopeerimisnupule klõpsamisel
+• Salvestusruum: seotud telefonide ja hiljutiste sõnumite kohalikuks säilitamiseks
+• Taustadokument (Offscreen): turvaliseks lõikelauale kirjutamiseks taustaprotsessist
+
+PIIRANGUD
+
+• Vajalik on HMJ SMS rakendus Android-telefonis.
+• Telefoni lahtiühendamine laienduses eirab sõnumeid siin, kuid telefon saadab neid edasi, kuni ühendus katkestatakse rakenduses: Katkestage arvuti ühendus ka telefoni HMJ SMS rakenduses, või valige «Eemalda kõik telefonid».
+
+AVATUD LÄHTEKOOD
+
+HMJ SMS Desktop Sync on avatud lähtekoodiga tarkvara MIT litsentsi all.
+
+Vaadake lähtekoodi, teatage vigadest või panustage GitHubis:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

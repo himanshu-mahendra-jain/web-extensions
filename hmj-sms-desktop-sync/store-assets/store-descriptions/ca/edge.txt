@@ -1,0 +1,70 @@
+Rebeu els missatges SMS i codis OTP del vostre telèfon Android com a notificacions a l'escriptori, amb xifratge d'extrem a extrem i còpia de codis amb un sol clic.
+
+HMJ SMS Desktop Sync és una extensió lleugera i de codi obert que s'enllaça amb l'aplicació HMJ SMS del vostre telèfon Android. Quan arriba un missatge al telèfon, apareix a l'escriptori a l'instant per poder copiar codis d'inici de sessió sense haver d'agafar el telèfon.
+
+Els missatges viatgen directament des del telèfon cap al navegador a través del servei push integrat del navegador, xifrats exclusivament per a aquest navegador. No hi ha cap servidor intermediari i el servei push no pot llegir-ne el contingut.
+
+Consell: al menú d'extensions d'Edge, activeu «Mostra a la barra d'eines» per a HMJ SMS Desktop Sync per tenir la icona a mà.
+
+FUNCIONALITATS PRINCIPALS
+
+• Notificacions d'escriptori per a cada SMS rebut al vostre telèfon
+• Botons «Copia l'OTP» i «Copia el missatge» a cada notificació; en fer clic a la notificació es copia el codi OTP, o el missatge sencer si no en té
+• Missatges recents a la finestra emergent de la barra d'eines amb còpia en 1 clic
+• Mostra quin telèfon i quina targeta SIM ha rebut el missatge (per exemple, SIM 2: Jio)
+• Enllaceu diversos telèfons; desenllaceu-ne un des del menú o tots alhora generant un nou codi d'enllaç
+• Enllaç ràpid escanejant un codi QR, sense comptes ni registres
+• Xifratge d'extrem a extrem amb l'estàndard Web Push (RFC 8291 i RFC 8292)
+• Totalment accessible per teclat i lectors de pantalla; compatible amb mode fosc i alt contrast
+• Sense servidors, sense analítiques ni rastreig
+
+ENLLAÇAR EL VOSTRE TELÈFON
+
+1. Feu clic a la icona de HMJ SMS Desktop Sync a la barra d'eines per mostrar el codi QR d'enllaç.
+2. Al vostre telèfon, obriu l'aplicació HMJ SMS, aneu al menú i seleccioneu «Desktop Sync».
+3. Toqueu «Escaneja el codi QR» i escanegeu el codi de la pantalla.
+
+Apareixerà una notificació de prova a l'escriptori per confirmar la connexió. Per enllaçar un altre telèfon, feu clic a «Enllaça'n un altre» a la finestra emergent.
+
+El codi d'enllaç conté les claus criptogràfiques per connectar amb aquest navegador. Mostreu-lo o enganxeu-lo únicament al vostre telèfon i manteniu-lo allunyat d'eines de sincronització del porta-retalls i de pantalles compartides.
+
+COPIAR UN CODI
+
+Quan rebeu un missatge amb un codi, feu clic a «Copia l'OTP» a la notificació o feu clic a la mateixa notificació i enganxeu el codi allà on el necessiteu. Un codi OTP lliurat amb més de 10 minuts de retard es marcarà com a caducat i només se'n podrà copiar el missatge.
+
+TELÈFONS ENLLAÇATS
+
+Feu clic sobre el nom del telèfon a la barra d'eines per veure la llista de telèfons enllaçats, la seva darrera activitat i desenllaçar-ne qualsevol. Els seus missatges s'ignoraran en aquest ordinador a partir d'aquell moment.
+
+El menú (⋮) compta amb les opcions «Desenllaça tots els telèfons» (genera un nou codi d'enllaç per tallar l'accés anterior i elimina tots els missatges guardats) i «Neteja els missatges».
+
+Si el navegador interromp la connexió a la qual envien els telèfons, per exemple després de mesos sense missatges, la finestra emergent ho indicarà i mostrarà un nou codi QR per escanejar a cada telèfon.
+
+PRIVADESA
+
+• Sense servidors: els missatges van directament del telèfon al navegador mitjançant el servei push del navegador, xifrats de manera que només aquest navegador pot llegir-los
+• Sense analítiques ni seguiment
+• Sense codi remot ni scripts externs
+• Els missatges, els noms dels telèfons i la clau d'enllaç s'emmagatzemen només al navegador
+• Els missatges amb més de 24 hores s'eliminen automàticament; es conserven un màxim de 100 missatges
+• «Neteja els missatges» al menú suprimeix tots els missatges emmagatzemats a l'instant, igual que «Desenllaça tots els telèfons»
+
+PERMISOS
+
+• Notificacions: mostra cada missatge rebut com a notificació d'escriptori
+• Porta-retalls: copia el codi OTP o el missatge en fer clic a una notificació o botó de còpia
+• Emmagatzematge: desa localment al navegador els telèfons enllaçats i l'historial de missatges
+• Document fora de pantalla (offscreen): escriu al porta-retalls, tasca que el service worker en segon pla no pot fer directament
+
+LIMITACIONS
+
+• Requereix l'aplicació HMJ SMS en un telèfon Android.
+• Desenllaçar un telèfon aquí ignora els seus missatges en aquest navegador, però només el telèfon pot aturar l'enviament: desenllaceu també aquest ordinador a l'aplicació HMJ SMS del telèfon, o trieu «Desenllaça tots els telèfons», després de la qual cosa els telèfons que vulgueu mantenir hauran d'escanejar el nou codi QR.
+
+CODI OBERT
+
+HMJ SMS Desktop Sync és un projecte de codi obert sota llicència MIT.
+
+Consulteu el codi font, informeu d'errors o col·laboreu a GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

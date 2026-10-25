@@ -1,0 +1,70 @@
+Receba mensagens SMS e códigos OTP do seu celular Android como notificações na área de trabalho, com criptografia de ponta a ponta e cópia de códigos com um clique.
+
+O HMJ SMS Desktop Sync é uma extensão leve e de código aberto que se conecta ao aplicativo HMJ SMS no seu celular Android. Quando uma mensagem chega ao telefone, ela surge instantaneamente na área de trabalho do computador, permitindo copiar códigos de verificação sem precisar pegar o celular.
+
+As mensagens vão diretamente do celular para o navegador por meio do serviço de push integrado do próprio navegador, criptografadas unicamente para este navegador. Não há servidores intermediários e o serviço push não consegue ler o conteúdo.
+
+Dica: no menu de Extensões do Edge, ative «Mostrar na barra de ferramentas» para o HMJ SMS Desktop Sync e mantenha seu ícone acessível.
+
+PRINCIPAIS RECURSOS
+
+• Notificações no desktop para cada SMS recebido no celular
+• Botões «Copiar OTP» e «Copiar mensagem» em cada notificação; clicar na notificação copia o código OTP ou o texto da mensagem quando não houver código
+• Histórico recente de mensagens no popup da barra de ferramentas com cópia em 1 clique
+• Indica qual telefone e qual chip SIM recebeu cada mensagem (ex.: SIM 2: Jio)
+• Conecte vários celulares; desconecte um individualmente pelo popup ou todos de uma vez gerando um novo código de pareamento
+• Pareamento instantâneo via código QR, sem necessidade de conta ou login
+• Criptografia de ponta a ponta usando o padrão Web Push (RFC 8291 e RFC 8292)
+• Totalmente acessível por teclado e leitores de tela; suporte a modo escuro e alto contraste
+• Sem servidores, sem análises ou rastreamento
+
+PAREAR SEU CELULAR
+
+1. Clique no ícone do HMJ SMS Desktop Sync na barra de ferramentas para exibir o código QR de pareamento.
+2. No celular, abra o aplicativo HMJ SMS, abra o menu e escolha «Desktop Sync».
+3. Toque em «Escanear código QR» e aponte para o código na tela do computador.
+
+Uma notificação de teste será exibida no computador para confirmar a conexão. Para parear outro celular, clique em «Parear outro» no popup.
+
+O código de pareamento contém a chave de segurança necessária para alcançar este navegador. Exiba-o ou cole-o apenas no seu próprio celular e mantenha-o fora de ferramentas de sincronização de área de transferência e compartilhamento de tela.
+
+COPIAR UM CÓDIGO
+
+Ao receber uma mensagem com código de verificação, clique em «Copiar OTP» na notificação ou clique na própria notificação para copiar e colar onde precisar. Se um código OTP for entregue com mais de 10 minutos de atraso, será marcado como expirado e apenas o texto da mensagem poderá ser copiado.
+
+CELULARES CONECTADOS
+
+Clique no nome do telefone sob a barra de ferramentas do popup para listar os celulares conectados, ver quando estiveram ativos pela última vez e desconectar qualquer um deles. A partir daí, suas mensagens serão ignoradas aqui.
+
+O menu (⋮) do popup disponibiliza «Desconectar todos os telefones» (gera um novo código de pareamento para que nenhum telefone possa mais se comunicar com este navegador e limpa todas as mensagens salvas) e «Limpar mensagens».
+
+Se o navegador encerrar a conexão para a qual os celulares enviam dados, como após meses sem receber mensagens, o popup informará e exibirá um novo código QR para escanear em cada telefone.
+
+PRIVACIDADE
+
+• Sem servidores: as mensagens trafegam diretamente do celular para o navegador através do serviço push nativo, criptografadas para leitura exclusiva deste navegador
+• Sem ferramentas de análise ou rastreamento
+• Sem código remoto ou bibliotecas JavaScript externas
+• As mensagens, nomes dos dispositivos e a chave de pareamento ficam armazenados somente no seu navegador
+• Mensagens com mais de 24 horas são excluídas automaticamente; mantém-se no máximo 100 mensagens no histórico
+• A opção «Limpar mensagens» no menu remove todas as mensagens armazenadas de uma só vez, assim como «Desconectar todos os telefones»
+
+PERMISSÕES
+
+• Notificações: exibe mensagens recebidas como notificações na área de trabalho
+• Área de transferência: copia o código OTP ou mensagem ao clicar na notificação ou no botão de cópia
+• Armazenamento: mantém localmente no navegador os celulares vinculados e as mensagens recentes
+• Documento offscreen: grava dados na área de transferência, ação que um service worker de segundo plano não realiza diretamente
+
+LIMITAÇÕES
+
+• Requer o aplicativo HMJ SMS instalado em um telefone Android.
+• Desconectar um telefone nesta extensão ignora suas mensagens neste computador, mas apenas o celular pode interromper os envios: desconecte também este computador nas configurações do HMJ SMS no celular, ou use «Desconectar todos os telefones», após o que os celulares mantidos deverão ler o novo código QR.
+
+CÓDIGO ABERTO
+
+O HMJ SMS Desktop Sync é um projeto de código aberto sob a licença MIT.
+
+Acesse o código-fonte, reporte problemas ou contribua no GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

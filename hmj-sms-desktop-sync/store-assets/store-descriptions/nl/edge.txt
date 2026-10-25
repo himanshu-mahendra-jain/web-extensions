@@ -1,0 +1,70 @@
+Ontvang SMS-berichten en OTP-verificatiecodes van uw Android-telefoon als bureaubladmeldingen, end-to-end versleuteld, en kopieer codes met één klik.
+
+HMJ SMS Desktop Sync is een lichtgewicht open-source extensie die naadloos koppelt met de HMJ SMS-app op uw Android-telefoon. Zodra een bericht op uw telefoon binnenkomt, verschijnt het direct op uw computerscherm, zodat u inlogcodes eenvoudig kunt kopiëren zonder uw telefoon erbij te pakken.
+
+Berichten worden rechtstreeks van uw telefoon naar uw browser verzonden via de ingebouwde pushdienst van de browser, exclusief versleuteld voor deze browser. Er is geen tussenliggende server en de pushdienst kan de inhoud niet lezen.
+
+Tip: schakel in het extensiemenu van Edge «Weergeven op werkbalk» in voor HMJ SMS Desktop Sync om het pictogram altijd binnen handbereik te hebben.
+
+BELANGRIJKSTE FUNCTIES
+
+• Bureaubladmeldingen voor elke SMS die op uw telefoon binnenkomt
+• Knoppen «OTP kopiëren» en «Bericht kopiëren» op elke melding; door op de melding te klikken wordt de OTP-code gekopieerd (of het bericht als er geen code is)
+• Recente berichten in het werkbalkvenster met één-klik-kopieerfunctie
+• Duidelijke weergave van welke telefoon en welke SIM-kaart het bericht heeft ontvangen (bijv. SIM 2: Jio)
+• Koppel meerdere telefoons; ontkoppel een individuele telefoon of reset alles tegelijk met een nieuwe koppelcode
+• Koppel eenvoudig door een QR-code te scannen, zonder accounts of registratie
+• End-to-end versleuteld volgens de officiële Web Push-standaarden (RFC 8291 en RFC 8292)
+• Volledig toegankelijk via toetsenbord en schermlezers; ondersteunt donkere modus en hoog contrast
+• Geen servers, geen analyses en geen tracking
+
+UW TELEFOON KOPPELEN
+
+1. Klik op het HMJ SMS Desktop Sync-pictogram in de werkbalk om de koppel-QR-code weer te geven.
+2. Open de HMJ SMS-app op uw telefoon, open het menu en kies «Desktop Sync».
+3. Tik op «QR-code scannen» en scan de code op uw computerscherm.
+
+Er verschijnt een testmelding op uw bureaublad om de verbinding te bevestigen. Om nog een telefoon te koppelen, klikt u op «Nog een koppelen» in het venster.
+
+De koppelcode bevat de encryptiesleutels waarmee uw telefoons deze browser bereiken. Toon of plak deze uitsluitend op uw eigen telefoon en houd hem weg bij klembordsynchronisatie en schermdeling.
+
+EEN CODE KOPIËREN
+
+Wanneer een bericht met een verificatiecode arriveert, klikt u op «OTP kopiëren» in de melding of klikt u direct op de melding zelf, en plakt u de code waar nodig. Een OTP die meer dan 10 minuten na verzending arriveert, wordt als verlopen aangemerkt en alleen de tekst kan worden gekopieerd.
+
+GEKOPPELDE TELEFOONS
+
+Klik op de naam van de telefoon onder de werkbalk van de pop-up om een overzicht te zien van gekoppelde apparaten, wanneer ze voor het laatst actief waren en om een koppeling te verbreken. Berichten van die telefoon worden hierna genegeerd.
+
+In het menu (⋮) vindt u «Alle telefoons ontkoppelen» (genereert een nieuwe koppelcode zodat geen enkele telefoon deze browser nog kan bereiken en verwijdert alle opgeslagen berichten) en «Berichten wissen».
+
+Als de browser de verbinding beëindigt waarnaar de telefoons berichten sturen, bijvoorbeeld na maanden zonder berichten, meldt de pop-up dit en verschijnt er een nieuwe QR-code om op elke telefoon te scannen.
+
+PRIVACY
+
+• Geen servers: berichten reizen via de pushdienst van de browser rechtstreeks van telefoon naar browser, zodanig versleuteld dat alleen deze browser ze kan ontcijferen
+• Geen analytics of gebruikersstatistieken
+• Geen externe code of JavaScript van derden
+• Berichten, apparaatnamen en de koppelingssleutel worden uitsluitend lokaal in uw browser opgeslagen
+• Berichten ouder dan 24 uur worden automatisch verwijderd; er worden maximaal 100 recente berichten bewaard
+• «Berichten wissen» in het menu verwijdert alle opgeslagen berichten in één keer, net als «Alle telefoons ontkoppelen»
+
+MACHTIGINGEN
+
+• Meldingen: toont elk binnenkomend bericht als bureaubladnotificatie
+• Klembord: kopieert een OTP of bericht wanneer u op een melding of kopieerknop klikt
+• Opslag: bewaart gekoppelde telefoons en recente berichten lokaal in uw browser
+• Offscreen-document: schrijft naar het klembord, wat de background service worker niet rechtstreeks zelf kan doen
+
+BEPERKINGEN
+
+• Vereist de HMJ SMS-app op een Android-telefoon.
+• Het ontkoppelen van een telefoon in deze extensie negeert de berichten op deze computer, maar de telefoon blijft ze versturen totdat u deze computer ook in de app ontkoppelt: ontkoppel deze computer eveneens in de HMJ SMS-app op de telefoon, of kies «Alle telefoons ontkoppelen» (waarna behouden toestellen de nieuwe QR-code moeten scannen).
+
+OPEN SOURCE
+
+HMJ SMS Desktop Sync is open source en gelicentieerd onder de MIT-licentie.
+
+Bekijk de broncode, meld problemen of draag bij op GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

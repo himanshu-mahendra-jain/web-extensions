@@ -1,0 +1,70 @@
+Vizualizați mesajele SMS și codurile OTP primite pe telefonul Android ca notificări pe desktop, criptate end-to-end, și copiați codurile cu un singur clic.
+
+HMJ SMS Desktop Sync este o extensie ușoară și open-source care se asociază cu aplicația HMJ SMS de pe telefonul Android. Când sosește un mesaj pe telefon, acesta apare imediat pe desktop, permițându-vă să copiați codul de autentificare fără a mai ridica telefonul.
+
+Mesajele sunt transmise direct de la telefon către browser prin intermediul serviciului push nativ al browserului, criptate exclusiv pentru acest browser. Nu există servere intermediare, iar serviciul push nu poate citi mesajele.
+
+Sfat: în meniul Extensii din Edge, activați «Afișare în bara de instrumente» pentru HMJ SMS Desktop Sync pentru a avea acces rapid.
+
+CARACTERISTICI PRINCIPALE
+
+• Notificări pe desktop pentru fiecare SMS primit pe telefon
+• Butoane «Copiere OTP» și «Copiere mesaj» pe fiecare notificare; un clic pe notificare copiază codul OTP, sau mesajul întreg dacă nu conține cod
+• Istoricul mesajelor recente în fereastra barei de instrumente, cu copiere printr-un clic
+• Afișează ce telefon și ce cartelă SIM a primit fiecare mesaj (de exemplu, SIM 2: Jio)
+• Asociați mai multe telefoane; anulați asocierea unuia sau a tuturor generând un nou cod de asociere
+• Asociere instantanee prin scanarea unui cod QR, fără cont sau autentificare
+• Criptare end-to-end conformă cu standardele Web Push (RFC 8291 și RFC 8292)
+• Accesibil complet de la tastatură și prin cititoare de ecran; compatibil cu modul întunecat și contrast ridicat
+• Fără server, fără statistici sau urmărire
+
+ASOCIEREA TELEFONULUI
+
+1. Faceți clic pe pictograma HMJ SMS Desktop Sync din bara de instrumente pentru a afișa codul QR de asociere.
+2. Pe telefon, deschideți aplicația HMJ SMS, accesați meniul și selectați «Desktop Sync».
+3. Atingeți «Scanați codul QR» și scanați codul de pe ecran.
+
+O notificare de test va apărea pe desktop pentru a confirma conexiunea. Pentru a asocia un alt telefon, faceți clic pe «Asociați alt telefon» în fereastra extensiei.
+
+Codul de asociere conține cheile criptografice necesare pentru a comunica cu acest browser. Afișați-l sau inserați-l doar pe propriul telefon și păstrați-l departe de sincronizarea clipboard-ului sau partajarea ecranului.
+
+COPIEREA UNUI COD
+
+Când sosește un mesaj cu un cod, faceți clic pe «Copiere OTP» pe notificare, sau faceți clic direct pe notificare, și lipiți codul unde aveți nevoie. Un cod OTP sosit cu o întârziere mai mare de 10 minute este marcat ca expirat și doar mesajul poate fi copiat.
+
+TELEFOANE ASOCIATE
+
+Faceți clic pe numele telefonului de sub bara de instrumente a extensiei pentru a vedea lista telefoanelor asociate, ultima lor activitate și pentru a anula asocierea oricăruia. Mesajele sale vor fi ignorate aici.
+
+Meniul (⋮) din fereastră include opțiunile «Anulați asocierea tuturor telefoanelor» (generează un nou cod de asociere pentru ca niciun telefon să nu mai poată transmite mesaje acestui browser și șterge mesajele salvate) și «Ștergeți mesajele».
+
+Dacă browserul întrerupe conexiunea către care trimit telefoanele, de exemplu după luni întregi fără mesaje, fereastra extensiei vă va anunța și va afișa un nou cod QR de scanat pe fiecare telefon.
+
+CONFIDENȚIALITATE
+
+• Fără server: mesajele circulă direct de la telefon la browser prin serviciul push al browserului, criptate astfel încât doar acest browser le poate citi
+• Fără analiză de date sau urmărire
+• Fără cod la distanță sau fișiere JavaScript externe
+• Mesajele, denumirile telefoanelor și cheia de asociere sunt stocate doar în browserul dumneavoastră
+• Mesajele mai vechi de 24 de ore sunt șterse automat; se păstrează cel mult 100 de mesaje
+• Opțiunea «Ștergeți mesajele» din meniu elimină toate mesajele stocate dintr-o dată, la fel ca «Anulați asocierea tuturor telefoanelor»
+
+PERMISIUNI
+
+• Notificări: afișează fiecare mesaj primit sub formă de notificare pe desktop
+• Clipboard: copiază un cod OTP sau un mesaj la clic pe o notificare sau pe butonul de copiere
+• Stocare: păstrează telefoanele asociate și mesajele recente local în browser
+• Document offscreen: scrie în clipboard-ul sistemului, operațiune pe care service worker-ul de fundal nu o poate realiza direct
+
+LIMITĂRI
+
+• Necesită aplicația HMJ SMS instalată pe un telefon Android.
+• Anularea asocierii unui telefon aici ignoră mesajele acestuia în browser, dar numai telefonul poate opri transmiterea lor: anulați asocierea acestui computer și în aplicația HMJ SMS de pe telefon, sau utilizați «Anulați asocierea tuturor telefoanelor», după care telefoanele păstrate vor trebui să scaneze noul cod QR.
+
+SURSA DESCHISĂ (OPEN SOURCE)
+
+HMJ SMS Desktop Sync este un proiect open source distribuit sub Licența MIT.
+
+Vizualizați codul sursă, raportați probleme sau contribuiți pe GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

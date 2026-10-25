@@ -68,9 +68,12 @@ function minutesAgo(minutes) {
 }
 
 
-// Chrome offers each copy action as a button.
+// Chrome offers each copy action as a button; only one with an OTP to copy stays on screen.
 const buttons = (...titles) => {
-  return { buttons: titles.map((title) => ({ title })), requireInteraction: true };
+  return {
+    buttons: titles.map((title) => ({ title })),
+    requireInteraction: titles[0].startsWith("Copy OTP")
+  };
 };
 
 
@@ -87,6 +90,7 @@ test.describe("incoming messages", () => {
 
     expect(await feed(page)).toEqual([{
       id: "sms-1",
+      key: "pixel-8:sms-1",
       sender: "BANK",
       body: "Your code is 482913",
       timestamp,
@@ -98,11 +102,11 @@ test.describe("incoming messages", () => {
     }]);
 
     expect((await stored(page)).connected_devices).toEqual({
-      "pixel-8": { id: "pixel-8", name: "Pixel 8", lastSeen: expect.any(Number), paired: true }
+      "pixel-8": { id: "pixel-8", name: "Pixel 8", lastSeen: expect.any(Number) }
     });
 
     expect(await created(page)).toEqual([{
-      id: "sms_sms-1",
+      id: "sms_pixel-8_sms-1",
       type: "basic",
       iconUrl: "chrome-extension://test-id/icons/icon128.png",
       title: "[Pixel 8] [SIM 2] New SMS from BANK",
@@ -195,6 +199,38 @@ test.describe("incoming messages", () => {
   });
 
 
+  test("the same id from two phones is stored twice and notified twice", async ({ page }) => {
+    const timestamp = minutesAgo(1);
+
+    // Each phone numbers its own messages, and both got the same text at the same time.
+    await push(page, { ...OTP_SMS, timestamp });
+    await push(page, { ...OTP_SMS, deviceId: "galaxy", deviceName: "Galaxy S24", timestamp });
+
+    expect((await feed(page)).map(({ id, key }) => [id, key])).toEqual([
+      ["sms-1", "galaxy:sms-1"],
+      ["sms-1", "pixel-8:sms-1"]
+    ]);
+    expect((await created(page)).map(({ id }) => id)).toEqual(["sms_pixel-8_sms-1", "sms_galaxy_sms-1"]);
+    expect(Object.keys((await session(page)).notifications)).toEqual(["sms_pixel-8_sms-1", "sms_galaxy_sms-1"]);
+
+    // The same message from either phone again is still stored once.
+    await push(page, { ...OTP_SMS, deviceId: "galaxy", deviceName: "Galaxy S24", timestamp });
+
+    expect(await feedIds(page)).toEqual(["sms-1", "sms-1"]);
+  });
+
+
+  test("two pushes handled at once are both stored, with both phones", async ({ page }) => {
+    await page.evaluate((sms) => Promise.all([
+      window.background.handleIncoming({ ...sms, timestamp: Date.now() }),
+      window.background.handleIncoming({ ...sms, deviceId: "galaxy", deviceName: "Galaxy S24", timestamp: Date.now() })
+    ]), OTP_SMS);
+
+    expect((await feed(page)).map(({ key }) => key).toSorted()).toEqual(["galaxy:sms-1", "pixel-8:sms-1"]);
+    expect(Object.keys((await stored(page)).connected_devices).toSorted()).toEqual(["galaxy", "pixel-8"]);
+  });
+
+
   test("the same text from the same sender within 5 seconds is stored once", async ({ page }) => {
     const timestamp = minutesAgo(1);
 
@@ -266,6 +302,7 @@ test.describe("incoming messages", () => {
 
     expect(sms).toEqual({
       id: expect.any(Number),
+      key: `default_device:${sms.id}`,
       sender: "S".repeat(200),
       body: "B".repeat(4096),
       otp: null,
@@ -302,13 +339,32 @@ test.describe("incoming messages", () => {
   });
 
 
+  test("a phone named __proto__ is keyed by its name", async ({ page }) => {
+    // IDs that name Object properties, which a device map must never write.
+    for (const deviceId of ["__proto__", "constructor", "prototype"]) {
+      await push(page, { ...OTP_SMS, id: deviceId, body: deviceId, deviceId, timestamp: Date.now() });
+    }
+
+    const devices = await page.evaluate(async () => {
+      const { connected_devices: stored } = await chrome.storage.local.get("connected_devices");
+      return { keys: Object.keys(stored), plain: Object.getPrototypeOf(stored) === Object.prototype };
+    });
+
+    expect(devices).toEqual({ keys: ["device_pixel_8"], plain: true });
+    expect((await feed(page)).map(({ key, deviceId }) => [key, deviceId])).toEqual([
+      ["device_pixel_8:prototype", ""],
+      ["device_pixel_8:constructor", ""],
+      ["device_pixel_8:__proto__", ""]
+    ]);
+  });
+
+
   test("at most 10 phones stay linked, dropping the least recently seen", async ({ page }) => {
     const devices = Object.fromEntries(
       Array.from({ length: 10 }, (_, index) => [`phone-${index}`, {
         id: `phone-${index}`,
         name: `Phone ${index}`,
-        lastSeen: minutesAgo(60 - index),
-        paired: true
+        lastSeen: minutesAgo(60 - index)
       }])
     );
 
@@ -330,7 +386,7 @@ test.describe("notification clicks", () => {
     await push(page, { id: "sms-2", sender: "MOM", body: "Call me", timestamp: Date.now() });
 
     await page.evaluate(async () => {
-      for (const id of ["sms_sms-1", "sms_sms-2"]) {
+      for (const id of ["sms_pixel-8_sms-1", "sms_default_device_sms-2"]) {
         for (const listener of window.fake.onClicked.list) {
           await listener(id);
         }
@@ -338,7 +394,7 @@ test.describe("notification clicks", () => {
     });
 
     expect(await page.evaluate(() => window.fake.copiedTexts)).toEqual(["482913", "Call me"]);
-    expect(await page.evaluate(() => window.fake.cleared)).toEqual(["sms_sms-1", "sms_sms-2"]);
+    expect(await page.evaluate(() => window.fake.cleared)).toEqual(["sms_pixel-8_sms-1", "sms_default_device_sms-2"]);
   });
 
 
@@ -347,18 +403,18 @@ test.describe("notification clicks", () => {
     await push(page, { id: "sms-2", sender: "MOM", body: "Call me", timestamp: Date.now() });
 
     // Kept in memory-backed session storage, never with the stored messages.
-    expect(Object.keys((await session(page)).notifications)).toEqual(["sms_sms-1", "sms_sms-2"]);
+    expect(Object.keys((await session(page)).notifications)).toEqual(["sms_pixel-8_sms-1", "sms_default_device_sms-2"]);
     expect(Object.keys(await stored(page)).sort()).toEqual(["connected_devices", "recent_sms_feed"]);
 
     await restartBackground(page);
 
     await page.evaluate(async () => {
       for (const listener of window.fake.onClicked.list) {
-        await listener("sms_sms-1");
+        await listener("sms_pixel-8_sms-1");
       }
 
       for (const listener of window.fake.onButtonClicked.list) {
-        await listener("sms_sms-2", 0);
+        await listener("sms_default_device_sms-2", 0);
       }
     });
 
@@ -375,22 +431,23 @@ test.describe("notification clicks", () => {
     const ids = Object.keys((await session(page)).notifications);
 
     expect(ids).toHaveLength(50);
-    expect([ids[0], ids.at(-1)]).toEqual(["sms_m1", "sms_m50"]);
+    expect([ids[0], ids.at(-1)]).toEqual(["sms_default_device_m1", "sms_default_device_m50"]);
   });
 
 
   test("a notification's buttons copy its OTP or its text", async ({ page }) => {
-    for (const id of ["otp-1", "otp-2"]) {
-      await push(page, { ...OTP_SMS, id, timestamp: Date.now() });
+    // Each OTP is older than the one before, as when it arrives late, so both stay open.
+    for (const [index, id] of ["otp-1", "otp-2"].entries()) {
+      await push(page, { ...OTP_SMS, id, timestamp: minutesAgo(index + 1) });
     }
 
     await push(page, { id: "text-1", sender: "MOM", body: "Call me", timestamp: Date.now() });
 
     // [notification, button index, copied text]
     const clicks = [
-      ["sms_otp-1", 0, "482913"],
-      ["sms_otp-2", 1, "Your code is 482913"],
-      ["sms_text-1", 0, "Call me"]
+      ["sms_pixel-8_otp-1", 0, "482913"],
+      ["sms_pixel-8_otp-2", 1, "Your code is 482913"],
+      ["sms_default_device_text-1", 0, "Call me"]
     ];
 
     for (const [id, index] of clicks) {
@@ -403,7 +460,45 @@ test.describe("notification clicks", () => {
 
     await expect.poll(() => page.evaluate(() => window.fake.copiedTexts))
       .toEqual(clicks.map(([, , text]) => text));
-    expect(await page.evaluate(() => window.fake.cleared)).toEqual(["sms_otp-1", "sms_otp-2", "sms_text-1"]);
+    expect(await page.evaluate(() => window.fake.cleared)).toEqual(["sms_pixel-8_otp-1", "sms_pixel-8_otp-2", "sms_default_device_text-1"]);
+  });
+
+
+  test("a new OTP closes the earlier notifications, and nothing else does", async ({ page }) => {
+    const opened = async () => Object.keys((await session(page)).notifications);
+    const cleared = () => page.evaluate(() => window.fake.cleared);
+
+    await push(page, { ...OTP_SMS, id: "otp-1", timestamp: minutesAgo(3) });
+    await push(page, { id: "text-1", sender: "MOM", body: "Call me", timestamp: minutesAgo(2) });
+    await push(page, { ...OTP_SMS, id: "otp-2", timestamp: minutesAgo(1) });
+
+    // Both earlier ones go, so the code is alone, and what they copied is forgotten.
+    expect(await cleared()).toEqual(["sms_pixel-8_otp-1", "sms_default_device_text-1"]);
+    expect(await opened()).toEqual(["sms_pixel-8_otp-2"]);
+
+    // Neither an OTP that arrives late nor an expired one closes a newer code.
+    await push(page, { ...OTP_SMS, id: "otp-3", timestamp: minutesAgo(5) });
+    await push(page, { ...OTP_SMS, id: "otp-4", timestamp: minutesAgo(11) });
+    // Nor does a message without one.
+    await push(page, { id: "text-2", sender: "MOM", body: "Now", timestamp: Date.now() });
+
+    expect(await cleared()).toEqual(["sms_pixel-8_otp-1", "sms_default_device_text-1"]);
+    expect(await opened()).toEqual([
+      "sms_pixel-8_otp-2",
+      "sms_pixel-8_otp-3",
+      "sms_pixel-8_otp-4",
+      "sms_default_device_text-2"
+    ]);
+
+    // Only the OTPs still to be copied stay on screen.
+    expect((await created(page)).map(({ id, requireInteraction }) => [id, requireInteraction])).toEqual([
+      ["sms_pixel-8_otp-1", true],
+      ["sms_default_device_text-1", false],
+      ["sms_pixel-8_otp-2", true],
+      ["sms_pixel-8_otp-3", true],
+      ["sms_pixel-8_otp-4", false],
+      ["sms_default_device_text-2", false]
+    ]);
   });
 
 
@@ -416,11 +511,11 @@ test.describe("notification clicks", () => {
 
     await page.evaluate(async () => {
       for (const listener of window.fake.onButtonClicked.list) {
-        await listener("sms_late-1", 0);
+        await listener("sms_pixel-8_late-1", 0);
       }
 
       for (const listener of window.fake.onClicked.list) {
-        await listener("sms_late-2");
+        await listener("sms_pixel-8_late-2");
       }
     });
 
@@ -456,12 +551,39 @@ test.describe("installing and starting the browser", () => {
 test.describe("messages from the extension's pages", () => {
   test("a message without a known type gets no answer", async ({ page }) => {
     const answers = await page.evaluate(() => {
+      const sender = { id: chrome.runtime.id, url: chrome.runtime.getURL("src/popup.html") };
+
       return [null, undefined, "CLEAR_FEED", {}, { type: "toString" }].map((request) => {
-        return window.fake.onMessage.list.map((listener) => listener(request, {}, () => {}));
+        return window.fake.onMessage.list.map((listener) => listener(request, sender, () => {}));
       });
     });
 
     expect(answers).toEqual(Array(5).fill([undefined]));
+  });
+
+
+  test("a message from another extension gets no answer", async ({ page }) => {
+    await setStorage(page, {
+      recent_sms_feed: [{ id: 1, sender: "BANK", body: "Hi", timestamp: Date.now() }]
+    });
+
+    const answers = await page.evaluate(() => {
+      return [
+        { id: "other-extension", url: "chrome-extension://other-extension/page.html" },
+        // This extension's ID with a page that is not its own, as a content script would have.
+        { id: chrome.runtime.id, url: "https://example.test/" },
+        { id: chrome.runtime.id },
+        {}
+      ].map((sender) => {
+        return window.fake.onMessage.list.map((listener) => listener({ type: "CLEAR_FEED" }, sender, () => {}));
+      });
+    });
+
+    expect(answers).toEqual(Array(4).fill([undefined]));
+    expect(await feedIds(page)).toEqual([1]);
+
+    // The extension's own pages are still answered.
+    expect(await message(page, { type: "CLEAR_FEED" })).toEqual({ ok: true });
   });
 
 
@@ -472,20 +594,9 @@ test.describe("messages from the extension's pages", () => {
       };
     });
 
-    for (const type of ["CLEAR_FEED", "UNLINK_DEVICE"]) {
-      expect(await message(page, { type })).toEqual({ ok: false, error: "Storage is full." });
+    for (const request of [{ type: "CLEAR_FEED" }, { type: "UNLINK_DEVICE", deviceId: "pixel" }]) {
+      expect(await message(page, request)).toEqual({ ok: false, error: "Storage is full." });
     }
-  });
-
-
-  test("SEND_TEST_NOTIFICATION shows a test notification with an OTP", async ({ page }) => {
-    expect(await message(page, { type: "SEND_TEST_NOTIFICATION" })).toEqual({ ok: true });
-
-    expect(await created(page)).toEqual([expect.objectContaining({
-      title: "[Chrome] New SMS from Test Notification",
-      message: "Instant push alerts are working perfectly!",
-      ...buttons("Copy OTP (123456)", "Copy Message")
-    })]);
   });
 
 
@@ -500,30 +611,385 @@ test.describe("messages from the extension's pages", () => {
   });
 
 
-  test("GET_CONNECTED_DEVICES and UNLINK_DEVICE list and unlink phones", async ({ page }) => {
-    const pixel = { id: "pixel", name: "Pixel 8", lastSeen: 1, paired: true };
-    const galaxy = { id: "galaxy", name: "Galaxy S24", lastSeen: 2, paired: true };
+  test("UNLINK_DEVICE ignores a phone from then on", async ({ page }) => {
+    const pixel = { id: "pixel", name: "Pixel 8", lastSeen: 1 };
+    const galaxy = { id: "galaxy", name: "Galaxy S24", lastSeen: 2 };
 
     await setStorage(page, { connected_devices: { pixel, galaxy } });
-
-    // The fake storage keeps the order they were stored in.
-    expect(await message(page, { type: "GET_CONNECTED_DEVICES" }))
-      .toEqual({ ok: true, devices: [pixel, galaxy] });
 
     expect(await message(page, { type: "UNLINK_DEVICE", deviceId: "pixel" }))
       .toEqual({ ok: true, remaining: 1 });
     expect((await stored(page)).connected_devices).toEqual({ galaxy });
+    expect((await stored(page)).unlinked_devices).toEqual({
+      pixel: { name: "Pixel 8", unlinkedAt: expect.any(Number), ignored: 0 }
+    });
+  });
 
-    // Without a device ID every phone is unlinked.
+
+  test("UNLINK_DEVICE without a phone unlinks nothing", async ({ page }) => {
+    await setStorage(page, { connected_devices: { pixel: { id: "pixel", name: "Pixel 8" } } });
+
     expect(await message(page, { type: "UNLINK_DEVICE" }))
-      .toEqual({ ok: true, remaining: 0 });
-    expect((await stored(page)).connected_devices).toEqual({});
+      .toEqual({ ok: false, error: "No phone to unlink." });
+    expect(Object.keys((await stored(page)).connected_devices)).toEqual(["pixel"]);
+  });
+
+
+  test("at most 20 phones stay unlinked, dropping the one unlinked first", async ({ page }) => {
+    const unlinked = Object.fromEntries(Array.from({ length: 20 }, (_, index) => {
+      return [`phone-${index}`, { name: `Phone ${index}`, unlinkedAt: minutesAgo(60 - index), ignored: 0 }];
+    }));
+
+    await setStorage(page, { unlinked_devices: unlinked });
+    await message(page, { type: "UNLINK_DEVICE", deviceId: "phone-new" });
+
+    const ids = Object.keys((await stored(page)).unlinked_devices);
+
+    expect(ids).toHaveLength(20);
+    expect(ids).toContain("phone-new");
+    expect(ids).not.toContain("phone-0");
+  });
+
+
+  test("without a push service there is no pairing code and nothing to unlink all", async ({ page }) => {
+    expect(await message(page, { type: "GET_PAIRING_CODE" }))
+      .toEqual({ ok: false, error: "This browser cannot receive push messages." });
+    expect(await message(page, { type: "UNLINK_ALL" }))
+      .toEqual({ ok: false, error: "This browser cannot receive push messages." });
+  });
+});
+
+
+test.describe("an unlinked phone", () => {
+  test.beforeEach(async ({ page }) => {
+    await setStorage(page, {
+      unlinked_devices: { "pixel-8": { name: "Pixel 8", unlinkedAt: minutesAgo(5), ignored: 0 } }
+    });
+  });
+
+
+  test("its messages are not stored but counted in one quiet notice", async ({ page }) => {
+    await push(page, { ...OTP_SMS, timestamp: Date.now() });
+    await push(page, { ...OTP_SMS, id: "sms-2", timestamp: Date.now() });
+
+    const notice = (count) => ({
+      id: "unlinked_pixel-8",
+      type: "basic",
+      iconUrl: "chrome-extension://test-id/icons/icon128.png",
+      title: "Pixel 8 is unlinked",
+      message: `${count} ignored. Unlink this computer in the SMS app on that phone to stop them, or click here to unlink all phones.`,
+      buttons: [],
+      requireInteraction: false,
+      silent: true
+    });
+
+    // The second replaces the first: same ID, no sound.
+    expect(await created(page)).toEqual([notice("1 message"), notice("2 messages")]);
+
+    const after = await stored(page);
+
+    expect(after.recent_sms_feed).toBeUndefined();
+    expect(after.connected_devices).toBeUndefined();
+    expect(after.unlinked_devices["pixel-8"].ignored).toBe(2);
+    expect(Object.keys((await session(page)).notifications)).toEqual(["unlinked_pixel-8"]);
+  });
+
+
+  test("a click on its notice opens the toolbar popup", async ({ page }) => {
+    await push(page, { ...OTP_SMS, timestamp: Date.now() });
+
+    await page.evaluate(async () => {
+      for (const listener of window.fake.onClicked.list) {
+        await listener("unlinked_pixel-8");
+      }
+
+      // As the worker's notificationclick hands it over.
+      await window.background.notificationClicked({ notice: "unlinked_phone" }, "");
+    });
+
+    expect(await page.evaluate(() => window.fake.popupsOpened)).toBe(2);
+    expect(await page.evaluate(() => window.fake.windows)).toEqual([]);
+    expect(await page.evaluate(() => window.fake.copiedTexts)).toEqual([]);
+    expect(await page.evaluate(() => window.fake.cleared)).toEqual(["unlinked_pixel-8"]);
+  });
+
+
+  test("a click on its notice opens the popup in a window when the browser has none to open it in", async ({ page }) => {
+    await push(page, { ...OTP_SMS, timestamp: Date.now() });
+
+    await page.evaluate(async () => {
+      window.fake.openPopupFails = true;
+
+      for (const listener of window.fake.onClicked.list) {
+        await listener("unlinked_pixel-8");
+      }
+
+      await window.background.notificationClicked({ notice: "unlinked_phone" }, "");
+    });
+
+    expect(await page.evaluate(() => window.fake.popupsOpened)).toBe(0);
+    expect(await page.evaluate(() => window.fake.windows)).toEqual(Array(2).fill({
+      url: "chrome-extension://test-id/src/popup.html",
+      type: "popup",
+      width: 420,
+      height: 600
+    }));
+  });
+
+
+  test("a test ping links it again, and its messages arrive", async ({ page }) => {
+    await push(page, { type: "TEST_PING", deviceId: "pixel-8", deviceName: "Pixel 8" });
+
+    expect((await stored(page)).unlinked_devices).toEqual({});
+    expect(Object.keys((await stored(page)).connected_devices)).toEqual(["pixel-8"]);
+
+    await push(page, { ...OTP_SMS, timestamp: Date.now() });
+
+    expect((await feedIds(page))[0]).toBe("sms-1");
+  });
+
+
+  test("other phones are not affected", async ({ page }) => {
+    await push(page, { ...OTP_SMS, deviceId: "galaxy", deviceName: "Galaxy S24", timestamp: Date.now() });
+
+    expect(await feedIds(page)).toEqual(["sms-1"]);
+    expect((await created(page))[0].title).toBe("[Galaxy S24] [SIM 2] New SMS from BANK");
+  });
+});
+
+
+test.describe("MMS", () => {
+  const PHOTOS = {
+    id: -42,
+    kind: "mms",
+    sender: "Alice",
+    subject: "Trip photos",
+    body: "Look at this view!",
+    attachments: ["image", "image", "video"],
+    deviceId: "pixel-8",
+    deviceName: "Pixel 8"
+  };
+
+
+  test("an MMS says so, with its subject before its text and a line for its attachments", async ({ page }) => {
+    const timestamp = minutesAgo(1);
+
+    await push(page, { ...PHOTOS, timestamp });
+
+    expect(await feed(page)).toEqual([{
+      id: -42,
+      key: "pixel-8:-42",
+      kind: "mms",
+      sender: "Alice",
+      subject: "Trip photos",
+      body: "Look at this view!",
+      attachments: ["image", "image", "video"],
+      group: [],
+      timestamp,
+      otp: null,
+      deviceId: "pixel-8",
+      deviceName: "Pixel 8",
+      simSlot: -1,
+      simName: ""
+    }]);
+
+    expect(await created(page)).toEqual([expect.objectContaining({
+      id: "sms_pixel-8_-42",
+      title: "[Pixel 8] New MMS from Alice",
+      message: "Trip photos — Look at this view!\n📷 2 photos · 🎬 Video",
+      ...buttons("Copy Message")
+    })]);
+  });
+
+
+  test("a group MMS names the group, and more than three members are counted", async ({ page }) => {
+    await push(page, { ...PHOTOS, id: -43, subject: "", body: "Dinner at 8?", attachments: ["image"], group: ["Bob", "Carol"], timestamp: Date.now() });
+    await push(page, { ...PHOTOS, id: -44, subject: "", body: "Who's in?", attachments: [], group: ["Bob", "Carol", "Dave", "Erin", "Frank"], timestamp: Date.now() });
+
+    expect((await created(page)).map(({ title, message }) => [title, message])).toEqual([
+      ["[Pixel 8] Alice in group with Bob, Carol", "Dinner at 8?\n📷 Photo"],
+      ["[Pixel 8] Alice in group with Bob, Carol, Dave +2", "Who's in?"]
+    ]);
+  });
+
+
+  test("an MMS without text shows its attachments, and Copy Message copies the subject and text", async ({ page }) => {
+    await push(page, { ...PHOTOS, id: -45, subject: "", body: "", attachments: ["contact", "file", "audio"], timestamp: Date.now() });
+    await push(page, { ...PHOTOS, timestamp: Date.now() });
+
+    expect((await created(page))[0].message).toBe("🎵 Audio · 👤 Contact · 📎 File");
+
+    await page.evaluate(async () => {
+      for (const listener of window.fake.onButtonClicked.list) {
+        await listener("sms_pixel-8_-42", 0);
+      }
+    });
+
+    await expect.poll(() => page.evaluate(() => window.fake.copiedTexts))
+      .toEqual(["Trip photos\nLook at this view!"]);
+  });
+
+
+  test("unknown attachment kinds, names that are not text and too many members are dropped", async ({ page }) => {
+    await push(page, {
+      ...PHOTOS,
+      subject: "S".repeat(500),
+      attachments: ["image", "<script>", 7, "video", ...Array(30).fill("file")],
+      group: ["Bob", 42, "", null, "N".repeat(300), ...Array(30).fill("Zed")],
+      timestamp: Date.now()
+    });
+
+    const [mms] = await feed(page);
+
+    expect(mms.subject).toBe("S".repeat(200));
+    expect(mms.attachments).toEqual(["image", "video", ...Array(18).fill("file")]);
+    expect(mms.group).toEqual(["Bob", "N".repeat(200), ...Array(18).fill("Zed")]);
+  });
+
+
+  test("MMS fields count only on a message whose kind is mms", async ({ page }) => {
+    await push(page, { ...OTP_SMS, kind: "fax", subject: "Hi", attachments: ["image"], group: ["Bob"], timestamp: Date.now() });
+
+    const [sms] = await feed(page);
+
+    expect(sms).not.toHaveProperty("kind");
+    expect(sms).not.toHaveProperty("subject");
+    expect((await created(page))[0].title).toBe("[Pixel 8] [SIM 2] New SMS from BANK");
+  });
+});
+
+
+test.describe("the browser's and the system's names in the pairing code", () => {
+  for (const [browser, brands, userAgent, name] of [
+    ["Chrome", [{ brand: "Google Chrome" }], "Mozilla/5.0 Chrome/140.0.0.0 Safari/537.36", "Chrome"],
+    ["Edge", [{ brand: "Microsoft Edge" }], "Mozilla/5.0 Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0", "Edge"],
+    ["Edge without brands", [], "Mozilla/5.0 Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0", "Edge"]
+  ]) {
+    test(`${browser} is named ${name}`, async ({ page }) => {
+      expect(await page.evaluate(async ([brandList, agent]) => {
+        Object.defineProperty(navigator, "userAgentData", { value: { brands: brandList }, configurable: true });
+        Object.defineProperty(navigator, "userAgent", { value: agent, configurable: true });
+
+        return (await import("/src/background.js")).browserName();
+      }, [brands, userAgent])).toBe(name);
+    });
+  }
+
+
+  for (const [system, platform, userAgent, name] of [
+    ["ChromeOS", "Chrome OS", "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) Chrome/140.0.0.0", "ChromeOS"],
+    ["ChromeOS without userAgentData", undefined, "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) Chrome/140.0.0.0", "ChromeOS"],
+    ["Android in desktop mode", "Android", "Mozilla/5.0 (X11; Linux x86_64) Chrome/140.0.0.0", "Android"],
+    ["Android without userAgentData", undefined, "Mozilla/5.0 (Linux; Android 14) Chrome/140.0.0.0 Mobile", "Android"],
+    ["Linux", "Linux", "Mozilla/5.0 (X11; Linux x86_64) Chrome/140.0.0.0", "Linux"],
+    ["macOS", "macOS", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/140.0.0.0", "Mac"],
+    ["Windows", "Windows", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/140.0.0.0", "Windows"],
+    ["Windows without userAgentData", undefined, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/140.0.0.0", "Windows"],
+    ["an unknown system", "Fuchsia", "Mozilla/5.0 Chrome/140.0.0.0", "Desktop"]
+  ]) {
+    test(`${system} is named ${name}`, async ({ page }) => {
+      expect(await page.evaluate(async ([platformName, agent]) => {
+        const data = platformName === undefined ? undefined : { brands: [], platform: platformName };
+        Object.defineProperty(navigator, "userAgentData", { value: data, configurable: true });
+        Object.defineProperty(navigator, "userAgent", { value: agent, configurable: true });
+
+        return (await import("/src/background.js")).osName();
+      }, [platform, userAgent])).toBe(name);
+    });
+  }
+});
+
+
+test.describe("the push subscription", () => {
+  const PIXEL = { id: "pixel", name: "Pixel 8", lastSeen: 1 };
+
+
+  // Gives the background a PushManager whose subscription has endpoint, or none for null.
+  function subscribed(page, endpoint) {
+    return page.evaluate((address) => {
+      window.registration = {
+        pushManager: { getSubscription: async () => (address ? { endpoint: address } : null) }
+      };
+    }, endpoint);
+  }
+
+
+  function startBrowser(page) {
+    return page.evaluate(() => Promise.all(window.fake.onStartup.list.map((listener) => listener())));
+  }
+
+
+  for (const [how, endpoint] of [["changed", "https://push.test/new"], ["ended", null]]) {
+    test(`at startup, an address that ${how} under linked phones asks to pair again`, async ({ page }) => {
+      await setStorage(page, {
+        push_endpoint: "https://push.test/old",
+        connected_devices: { pixel: PIXEL },
+        unlinked_devices: { galaxy: { name: "Galaxy S24", unlinkedAt: 1, ignored: 0 } }
+      });
+      await subscribed(page, endpoint);
+
+      await startBrowser(page);
+
+      expect(await stored(page)).toEqual({
+        push_endpoint: endpoint,
+        needs_repair: true,
+        connected_devices: {},
+        unlinked_devices: {}
+      });
+    });
+  }
+
+
+  test("nothing asks to pair again without linked phones, or when the address is first noted", async ({ page }) => {
+    await setStorage(page, { push_endpoint: "https://push.test/old" });
+    await subscribed(page, "https://push.test/new");
+    await startBrowser(page);
+
+    expect(await stored(page)).toEqual({ push_endpoint: "https://push.test/new" });
+
+    // As after an update from a version that noted no address.
+    await page.evaluate(() => chrome.storage.local.remove("push_endpoint"));
+    await setStorage(page, { connected_devices: { pixel: PIXEL } });
+    await subscribed(page, "https://push.test/first");
+    await startBrowser(page);
+
+    expect(await stored(page)).toEqual({
+      push_endpoint: "https://push.test/first",
+      connected_devices: { pixel: PIXEL }
+    });
+  });
+
+
+  // Only a phone that scanned the new code reaches the new address, whatever it sends.
+  for (const [what, data] of [
+    ["a test ping", { type: "TEST_PING", deviceId: "pixel-8", deviceName: "Pixel 8" }],
+    ["an SMS", { ...OTP_SMS, timestamp: Date.now() }]
+  ]) {
+    test(`${what} at the new address clears the request to pair again`, async ({ page }) => {
+      await setStorage(page, { needs_repair: true });
+
+      await push(page, data);
+
+      expect((await stored(page)).needs_repair).toBe(false);
+      expect(Object.keys((await stored(page)).connected_devices)).toEqual(["pixel-8"]);
+    });
+  }
+
+
+  test("GET_STATUS says notifications are on", async ({ page }) => {
+    expect(await message(page, { type: "GET_STATUS" })).toEqual({ ok: true, notificationsOff: false });
   });
 });
 
 
 test.describe("with notifications turned off", () => {
   test.use({ permissionLevel: "denied" });
+
+
+  test("GET_STATUS says so", async ({ page }) => {
+    expect(await message(page, { type: "GET_STATUS" })).toEqual({ ok: true, notificationsOff: true });
+  });
+
 
 
   test("no notification is shown, but the SMS is stored", async ({ page }) => {

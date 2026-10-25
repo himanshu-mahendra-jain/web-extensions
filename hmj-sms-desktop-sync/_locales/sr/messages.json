@@ -1,0 +1,604 @@
+{
+  "extensionDescription": {
+    "message": "Обавештења о SMS и OTP порукама у реалном времену са Android телефона, без сервера, шифрована, копирање једним кликом."
+  },
+  "statusLinked": {
+    "message": "Повезано"
+  },
+  "statusLinkedCount_one": {
+    "message": "Повезано: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "Повезано: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Није повезано"
+  },
+  "pairButton": {
+    "message": "Упари"
+  },
+  "pairButtonTitle": {
+    "message": "Прикажи QR код за упаривање"
+  },
+  "pairAnotherButton": {
+    "message": "Додај"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Прикажи QR код за повезивање још једног телефона"
+  },
+  "moreOptions": {
+    "message": "Још опција"
+  },
+  "unlinkAllPhones": {
+    "message": "Прекини везу са свим телефонима"
+  },
+  "clearMessages": {
+    "message": "Обриши поруке"
+  },
+  "phoneFallbackName": {
+    "message": "Телефон"
+  },
+  "bannerLinked": {
+    "message": "(повезано)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ повезан телефон)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ повезаних телефона)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Активан"
+  },
+  "linkedPhones": {
+    "message": "Повезани телефони"
+  },
+  "lastActive": {
+    "message": "Последња активност: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Прекини везу"
+  },
+  "unlinkPhone": {
+    "message": "Прекини везу са уређајем $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Прекинути везу са уређајем $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Поруке са уређаја $NAME$ ће се овде занемаривати. Да би телефон престао да их шаље, прекините везу са овим рачунаром и у апликацији SMS на том телефону.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "Веза са уређајем $NAME$ је прекинута.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Упаривање са Android телефоном"
+  },
+  "pairOpenApp": {
+    "message": "Отворите апликацију HMJ SMS на телефону"
+  },
+  "pairAppPath": {
+    "message": "Подешавања → Синхронизација са рачунаром → Скенирај QR код",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "QR код за упаривање"
+  },
+  "copyCode": {
+    "message": "Копирај код"
+  },
+  "hide": {
+    "message": "Сакриј"
+  },
+  "pairingWarning": {
+    "message": "Овај код садржи кључеве ваше везе. Приказујте га или налепите само на свом телефону и држите га даље од синхронизације привремене меморије и дељења екрана."
+  },
+  "pairingChanged": {
+    "message": "Упаривање се променило. Поново скенирајте QR код на сваком телефону.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Обавештења за ово проширење су искључена у прегледачу, па се поруке чувају, али се не приказују.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Спремно за долазне SMS поруке"
+  },
+  "emptyText": {
+    "message": "Долазне SMS поруке и OTP кодови ће се овде појављивати у реалном времену."
+  },
+  "showPairingQrCode": {
+    "message": "Прикажи QR код за упаривање"
+  },
+  "connectedTo": {
+    "message": "Повезано са уређајем $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Повезани телефони: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Повезани телефони: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Чека се SMS и OTP обавештења са уређаја: $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Откажи"
+  },
+  "copied": {
+    "message": "Копирано!"
+  },
+  "pairingCodeCopied": {
+    "message": "Код за упаривање је копиран."
+  },
+  "otpCopied": {
+    "message": "OTP је копиран."
+  },
+  "messageCopied": {
+    "message": "Порука је копирана."
+  },
+  "copyFailed": {
+    "message": "Копирање није успело: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Позадински процес не одговара."
+  },
+  "unlinkAllTitle": {
+    "message": "Прекинути везу са свим телефонима?"
+  },
+  "unlinkAllText": {
+    "message": "Овај рачунар добија нови код за упаривање и ниједан телефон више не може да га достигне. Све поруке сачуване у овом додатку биће уклоњене. Телефони које желите да задржите морају да скенирају нови QR код."
+  },
+  "unlinkAllAction": {
+    "message": "Прекини све"
+  },
+  "allPhonesUnlinked": {
+    "message": "Веза са свим телефонима је прекинута и поруке су обрисане. Скенирајте нови QR код да бисте поново упарили."
+  },
+  "unlinkFailed": {
+    "message": "Прекидање везе није успело: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Обрисати недавне поруке?"
+  },
+  "clearText": {
+    "message": "Све поруке сачуване у овом додатку биће уклоњене. Поруке на телефону се неће променити."
+  },
+  "messagesCleared": {
+    "message": "Све сачуване поруке су обрисане."
+  },
+  "clearFailed": {
+    "message": "Брисање порука није успело: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Прављење кода за упаривање није успело: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Нова порука од $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Непознато"
+  },
+  "tagGroup": {
+    "message": "Група"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Са: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Копирај OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Копирај текст"
+  },
+  "copyMessage": {
+    "message": "Копирај поруку"
+  },
+  "justNow": {
+    "message": "Управо сада"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Фотографија"
+  },
+  "photos_one": {
+    "message": "$COUNT$ фотографија",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ фотографија",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Видео"
+  },
+  "videos_one": {
+    "message": "$COUNT$ видео",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ видео снимака",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Аудио снимак"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ аудио снимак",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ аудио снимака",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Контакт"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ контакт",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ контаката",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Датотека"
+  },
+  "files_one": {
+    "message": "$COUNT$ датотека",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ датотека",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ у групи са: $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Нова SMS порука од $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Нова MMS порука од $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Нова порука са телефона"
+  },
+  "linkVerified": {
+    "message": "Веза са уређајем $NAME$ је потврђена! Тренутна SMS обавештења су активна.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[ИСТЕКАО OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Испоручено након прекида везе) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "Веза са уређајем $NAME$ је прекинута",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Телефон"
+  },
+  "ignoredMessages_one": {
+    "message": "Занемарена је $COUNT$ порука. Прекините везу са овим рачунаром у апликацији SMS на том телефону да бисте их зауставили или кликните овде да бисте прекинули везу са свим телефонима.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "Занемарено је $COUNT$ порука. Прекините везу са овим рачунаром у апликацији SMS на том телефону да бисте их зауставили или кликните овде да бисте прекинули везу са свим телефонима.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Код за упаривање је предугачак да би га телефон прочитао."
+  },
+  "noPhoneToUnlink": {
+    "message": "Нема телефона за прекид везе."
+  },
+  "noPushService": {
+    "message": "Овај прегледач не може да прима push поруке."
+  },
+  "statusLinkedCount_few": {
+    "message": "Повезано: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_few": {
+    "message": "($COUNT$ повезана телефона)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_few": {
+    "message": "Повезани телефони: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_few": {
+    "message": "$COUNT$ фотографије",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_few": {
+    "message": "$COUNT$ видео снимка",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_few": {
+    "message": "$COUNT$ аудио снимка",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_few": {
+    "message": "$COUNT$ контакта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_few": {
+    "message": "$COUNT$ датотеке",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_few": {
+    "message": "Занемарене су $COUNT$ поруке. Прекините везу са овим рачунаром у апликацији SMS на том телефону да бисте их зауставили или кликните овде да бисте прекинули везу са свим телефонима.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

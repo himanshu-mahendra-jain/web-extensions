@@ -1,0 +1,604 @@
+{
+  "extensionDescription": {
+    "message": "Bezserverové, end-to-end šifrované upozornenia na SMS a OTP v reálnom čase z telefónu s Androidom, kopírovanie 1 kliknutím."
+  },
+  "statusLinked": {
+    "message": "Prepojené"
+  },
+  "statusLinkedCount_one": {
+    "message": "Prepojené: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "Prepojené: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Neprepojené"
+  },
+  "pairButton": {
+    "message": "Spárovať"
+  },
+  "pairButtonTitle": {
+    "message": "Zobraziť QR kód na spárovanie"
+  },
+  "pairAnotherButton": {
+    "message": "Pridať"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Zobraziť QR kód na prepojenie ďalšieho telefónu"
+  },
+  "moreOptions": {
+    "message": "Ďalšie možnosti"
+  },
+  "unlinkAllPhones": {
+    "message": "Odpojiť všetky telefóny"
+  },
+  "clearMessages": {
+    "message": "Vymazať správy"
+  },
+  "phoneFallbackName": {
+    "message": "Telefón"
+  },
+  "bannerLinked": {
+    "message": "(prepojené)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ prepojený telefón)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ prepojených telefónov)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Aktívny"
+  },
+  "linkedPhones": {
+    "message": "Prepojené telefóny"
+  },
+  "lastActive": {
+    "message": "Naposledy aktívny: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Odpojiť"
+  },
+  "unlinkPhone": {
+    "message": "Odpojiť $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Odpojiť $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Správy z $NAME$ sa tu budú ignorovať. Aby ich telefón prestal posielať, odpojte tento počítač aj v aplikácii SMS v danom telefóne.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ bol odpojený.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Spárovať s telefónom s Androidom"
+  },
+  "pairOpenApp": {
+    "message": "Otvorte v telefóne aplikáciu HMJ SMS"
+  },
+  "pairAppPath": {
+    "message": "Nastavenia → Synchronizácia s počítačom → Naskenovať QR kód",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "QR kód na spárovanie"
+  },
+  "copyCode": {
+    "message": "Kopírovať kód"
+  },
+  "hide": {
+    "message": "Skryť"
+  },
+  "pairingWarning": {
+    "message": "Tento kód obsahuje kľúče k vášmu prepojeniu. Zobrazujte ho alebo vkladajte len vo svojom telefóne a chráňte ho pred synchronizáciou schránky a zdieľaním obrazovky."
+  },
+  "pairingChanged": {
+    "message": "Spárovanie sa zmenilo. Na každom telefóne znova naskenujte QR kód.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Upozornenia pre toto rozšírenie sú v prehliadači vypnuté, takže správy sa ukladajú, ale nezobrazujú.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Pripravené na prichádzajúce SMS"
+  },
+  "emptyText": {
+    "message": "Prichádzajúce SMS a kódy OTP sa tu zobrazia v reálnom čase."
+  },
+  "showPairingQrCode": {
+    "message": "Zobraziť QR kód na spárovanie"
+  },
+  "connectedTo": {
+    "message": "Pripojené k $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Pripojené telefóny: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Pripojené telefóny: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Čaká sa na upozornenia SMS a OTP z: $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Zrušiť"
+  },
+  "copied": {
+    "message": "Skopírované!"
+  },
+  "pairingCodeCopied": {
+    "message": "Párovací kód bol skopírovaný."
+  },
+  "otpCopied": {
+    "message": "OTP bol skopírovaný."
+  },
+  "messageCopied": {
+    "message": "Správa bola skopírovaná."
+  },
+  "copyFailed": {
+    "message": "Kopírovanie zlyhalo: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Proces na pozadí neodpovedá."
+  },
+  "unlinkAllTitle": {
+    "message": "Odpojiť všetky telefóny?"
+  },
+  "unlinkAllText": {
+    "message": "Tento počítač dostane nový párovací kód a žiadny telefón sa k nemu už nedostane. Všetky správy uložené v tomto rozšírení sa odstránia. Telefóny, ktoré si chcete ponechať, musia naskenovať nový QR kód."
+  },
+  "unlinkAllAction": {
+    "message": "Odpojiť všetky"
+  },
+  "allPhonesUnlinked": {
+    "message": "Všetky telefóny boli odpojené a správy vymazané. Na opätovné spárovanie naskenujte nový QR kód."
+  },
+  "unlinkFailed": {
+    "message": "Odpojenie zlyhalo: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Vymazať nedávne správy?"
+  },
+  "clearText": {
+    "message": "Všetky správy uložené v tomto rozšírení sa odstránia. Správ v telefóne sa to netýka."
+  },
+  "messagesCleared": {
+    "message": "Všetky uložené správy boli vymazané."
+  },
+  "clearFailed": {
+    "message": "Správy sa nepodarilo vymazať: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Párovací kód sa nepodarilo vytvoriť: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Nová správa od $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Neznámy"
+  },
+  "tagGroup": {
+    "message": "Skupina"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "S: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Kopírovať OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Kopírovať text"
+  },
+  "copyMessage": {
+    "message": "Kopírovať správu"
+  },
+  "justNow": {
+    "message": "Práve teraz"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Fotka"
+  },
+  "photos_one": {
+    "message": "$COUNT$ fotka",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ fotiek",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Video"
+  },
+  "videos_one": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ videí",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Zvukový klip"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ zvukový klip",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ zvukových klipov",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Kontakt"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ kontakt",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ kontaktov",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Súbor"
+  },
+  "files_one": {
+    "message": "$COUNT$ súbor",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ súborov",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ v skupine s: $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Nová SMS od $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Nová MMS od $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Z telefónu prišla nová správa"
+  },
+  "linkVerified": {
+    "message": "Prepojenie s $NAME$ overené! Okamžité upozornenia na SMS sú aktívne.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[EXPIROVANÝ OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Doručené po odpojení) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ je odpojený",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Telefón"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ správa bola ignorovaná. Ak ich chcete zastaviť, odpojte tento počítač v aplikácii SMS v danom telefóne, alebo kliknutím sem odpojte všetky telefóny.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ správ bolo ignorovaných. Ak ich chcete zastaviť, odpojte tento počítač v aplikácii SMS v danom telefóne, alebo kliknutím sem odpojte všetky telefóny.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Párovací kód je pre telefón príliš dlhý."
+  },
+  "noPhoneToUnlink": {
+    "message": "Žiadny telefón na odpojenie."
+  },
+  "noPushService": {
+    "message": "Tento prehliadač nemôže prijímať push správy."
+  },
+  "statusLinkedCount_few": {
+    "message": "Prepojené: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_few": {
+    "message": "($COUNT$ prepojené telefóny)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_few": {
+    "message": "Pripojené telefóny: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_few": {
+    "message": "$COUNT$ fotky",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_few": {
+    "message": "$COUNT$ videá",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_few": {
+    "message": "$COUNT$ zvukové klipy",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_few": {
+    "message": "$COUNT$ kontakty",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_few": {
+    "message": "$COUNT$ súbory",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_few": {
+    "message": "$COUNT$ správy boli ignorované. Ak ich chcete zastaviť, odpojte tento počítač v aplikácii SMS v danom telefóne, alebo kliknutím sem odpojte všetky telefóny.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+Tekintse meg Android telefonjára érkező SMS üzeneteit és OTP kódjait asztali értesítésként, végpontok közötti titkosítással, és másolja a kódokat 1 kattintással.
+
+A HMJ SMS Desktop Sync egy könnyű és nyílt forráskódú bővítmény, amely közvetlenül kapcsolódik az Android telefonján futó HMJ SMS alkalmazáshoz. Amint üzenet érkezik telefonjára, az azonnal megjelenik a számítógép képernyőjén, így anélkül másolhatja a belépési kódokat, hogy kézbe kellene vennie a telefont.
+
+Az üzenetek a telefonjáról a böngésző saját push szolgáltatásán keresztül érkeznek, kizárólag ehhez a böngészőhöz titkosítva. Nincs közvetítő szerver, és maga a push szolgáltatás sem képes elolvasni az üzenetek tartalmát.
+
+Tipp: Az Edge Bővítmények menüjében kapcsolja be a «Megjelenítés az eszköztáron» lehetőséget a HMJ SMS Desktop Sync számára a gyors eléréshez.
+
+FŐBB JELLEMZŐK
+
+• Valós idejű asztali értesítések minden telefonra érkező SMS-ről
+• «OTP másolása» és «Üzenet másolása» gombok az értesítéseken; az értesítésre kattintva automatikusan másolódik a kód (vagy az egész üzenet, ha nincs kód)
+• Legutóbbi üzenetek listája az eszköztár felugró ablakában 1 kattintásos másolással
+• Pontosan jelzi, melyik telefon és melyik SIM kártya kapta az üzenetet (pl. SIM 2: Jio)
+• Több telefon párosításának lehetősége; egyedi lecsatolás vagy az összes azonnali visszaállítása új kóddal
+• Villámgyors párosítás QR-kód beolvasásával – fiók vagy bejelentkezés nélkül
+• Erős végpontok közötti titkosítás (E2EE) a szabványos Web Push előírások szerint (RFC 8291 és RFC 8292)
+• Teljes billentyűzet- és képernyőolvasó-támogatás; sötét mód és nagy kontrasztú témák
+• Nincs szerver, nincs analitika és nincs adatkövetés
+
+A TELEFON PÁROSÍTÁSA
+
+1. Kattintson a HMJ SMS Desktop Sync ikonjára az eszköztáron a párosítási QR-kód megjelenítéséhez.
+2. Nyissa meg a HMJ SMS alkalmazást a telefonján, lépjen a menübe, és válassza a «Desktop Sync» pontot.
+3. Érintse meg a «QR-kód beolvasása» gombot, és olvassa be a számítógép képernyőjén látható kódot.
+
+A kapcsolat megerősítésére egy tesztértesítés jelenik meg az asztalon. Újabb telefon hozzáadásához kattintson az «Újabb párosítása» gombra a felugró ablakban.
+
+A párosítási kód tartalmazza a böngészővel való biztonságos kapcsolathoz szükséges kulcsokat. Kizárólag saját telefonján jelenítse meg vagy illessze be, és kerülje a vágólap-szinkronizálást és a képernyőmegosztást.
+
+KÓD MÁSOLÁSA
+
+Amikor megerősítő kódot tartalmazó üzenet érkezik, kattintson az «OTP másolása» gombra az értesítésen vagy közvetlenül magára az értesítésre, majd illessze be a kódot a kívánt helyre. A több mint 10 perc késéssel érkező OTP kódokat a rendszer lejártnak tekinti, ekkor csak az üzenet szövege másolható.
+
+CSATOLT TELEFONOK
+
+Kattintson a telefon nevére a felugró ablakban a csatlakoztatott eszközök listájának és legutóbbi aktivitásuknak megtekintéséhez, vagy egy eszköz leválasztásához. Az adott telefonról érkező üzeneteket a bővítmény ezt követően figyelmen kívül hagyja.
+
+A menüben (⋮) elérhető az «Összes telefon leválasztása» (új párosítási kódot hoz létre, megszüntetve a korábbi eszközök hozzáférését, és törli a mentett üzeneteket) és az «Üzenetek törlése» funkció.
+
+Ha a böngésző megszünteti a kapcsolatot, amelyre a telefonok üzeneteket küldenek (például hónapokig tartó üzenetmentesség után), a felugró ablak ezt jelzi, és egy új QR-kódot jelenít meg, amelyet minden telefonon be kell olvasni.
+
+ADATVÉDELEM
+
+• Szervermentes működés: Az üzenetek a push szolgáltatáson keresztül jutnak a böngészőbe, olyan titkosítással, amelyet csak ez a böngésző képes feloldani
+• Nincs analitika vagy felhasználói nyomon követés
+• Nem futtat távoli kódot vagy külső JavaScript szkripteket
+• Az üzenetek, eszköznevek és a párosítási kulcs kizárólag a helyi böngészőben tárolódnak
+• A 24 óránál régebbi üzenetek automatikusan törlődnek; legfeljebb 100 üzenet marad meg
+• Az «Üzenetek törlése» vagy az «Összes telefon leválasztása» azonnal töröl minden helyi adatot
+
+ENGEDÉLYEK
+
+• Értesítések: A bejövő üzenetek asztali értesítésként való megjelenítéséhez
+• Vágólap: Az OTP kód vagy üzenet vágólapra másolásához az értesítésre vagy gombra kattintva
+• Tárhely: A csatolt telefonok és az üzenetek biztonságos helyi tárolásához a böngészőben
+• Háttérdokumentum (Offscreen): A rendszer vágólapjára történő biztonságos íráshoz a háttérfolyamatból
+
+KORLÁTOZÁSOK
+
+• Használatához a HMJ SMS alkalmazás szükséges Android telefonon.
+• Egy telefon leválasztása a bővítményben figyelmen kívül hagyja az üzeneteket ezen a gépen, de a telefon küldését csak maga a telefon állíthatja le: Válassza le a számítógépet a telefonos HMJ SMS appban is, vagy használja az «Összes telefon leválasztása» opciót.
+
+NYÍLT FORRÁSKÓD
+
+A HMJ SMS Desktop Sync egy nyílt forráskódú projekt MIT licenc alatt.
+
+Forráskód megtekintése, hibajelentés vagy hozzájárulás a GitHubon:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

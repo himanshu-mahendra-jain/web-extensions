@@ -1,0 +1,70 @@
+Lihat pesan SMS dan kode OTP dari ponsel Android Anda sebagai notifikasi desktop, terenkripsi end-to-end, dan salin kode hanya dengan satu klik.
+
+HMJ SMS Desktop Sync adalah ekstensi sumber terbuka (open-source) yang ringan dan dapat dipasangkan dengan aplikasi HMJ SMS di ponsel Android Anda. Saat pesan masuk di ponsel, notifikasi akan langsung muncul di komputer desktop Anda, memungkinkan Anda menyalin kode verifikasi tanpa perlu mengangkat ponsel.
+
+Pesan dikirimkan langsung dari ponsel ke peramban melalui layanan push bawaan peramban itu sendiri, terenkripsi khusus untuk peramban ini. Tidak ada server perantara, dan layanan push tidak dapat membaca isi pesan Anda.
+
+Tips: Sematkan ekstensi di menu Ekstensi Chrome (ikon potongan puzzle) agar ikonnya selalu terlihat di bilah alat.
+
+FITUR UTAMA
+
+• Notifikasi desktop seketika untuk setiap SMS yang diterima ponsel Anda
+• Tombol «Salin OTP» dan «Salin Pesan» pada setiap notifikasi; mengeklik notifikasi akan langsung menyalin kode OTP (atau seluruh pesan jika tidak berisi kode)
+• Daftar pesan terbaru di jendela bilah alat dengan fitur salin satu klik
+• Menampilkan ponsel dan kartu SIM mana yang menerima pesan (misalnya SIM 2: Jio)
+• Hubungkan beberapa ponsel; putuskan tautan satu ponsel atau semuanya sekaligus dengan kode penyandingan baru
+• Penyandingan cepat hanya dengan memindai kode QR, tanpa akun atau login
+• Terenkripsi secara end-to-end (E2EE) menggunakan standar Web Push (RFC 8291 dan RFC 8292)
+• Aksesibilitas penuh dengan keyboard dan pembaca layar; mendukung mode gelap serta kontras tinggi
+• Tanpa server, tanpa analitik, dan tanpa pelacakan
+
+MENYANDINGKAN PONSEL ANDA
+
+1. Klik ikon HMJ SMS Desktop Sync di bilah alat untuk memunculkan kode QR penyandingan.
+2. Di ponsel Anda, buka aplikasi HMJ SMS, buka menu, lalu pilih «Desktop Sync».
+3. Ketuk «Pindai Kode QR» dan arahkan kamera ke kode di layar komputer Anda.
+
+Notifikasi uji coba akan muncul di desktop untuk mengonfirmasi koneksi. Untuk menyandingkan ponsel lain, klik «Sandingkan Lainnya» di jendela ekstensi.
+
+Kode penyandingan berisi kunci enkripsi untuk berkomunikasi dengan peramban ini. Tampilkan atau tempelkan hanya di ponsel Anda sendiri, dan hindari sinkronisasi papan klip serta berbagi layar.
+
+MENYALIN KODE
+
+Saat pesan berisi kode tiba, klik «Salin OTP» pada notifikasi atau klik langsung pada notifikasi tersebut, lalu tempelkan kode di tempat yang Anda perlukan. OTP yang tiba terlambat lebih dari 10 menit akan ditandai kedaluwarsa, dan hanya teks pesan yang dapat disalin.
+
+PONSEL TERHUBUNG
+
+Klik nama ponsel di bawah bilah alat jendela ekstensi untuk melihat daftar perangkat yang terhubung, aktivitas terakhirnya, dan memutuskan tautan perangkat mana pun. Pesan dari perangkat tersebut akan diabaikan setelahnya.
+
+Menu (⋮) menyediakan opsi «Putuskan Semua Ponsel» (membuat kode penyandingan baru sehingga ponsel lama tidak dapat terhubung lagi dan menghapus semua pesan tersimpan) serta «Hapus Pesan».
+
+Jika peramban menghentikan koneksi tujuan pengiriman dari ponsel, seperti setelah berbulan-bulan tanpa pesan masuk, jendela pop-up akan memberitahukannya dan menampilkan kode QR baru untuk dipindai pada setiap ponsel.
+
+PRIVASI
+
+• Tanpa server: Pesan dikirim dari ponsel ke peramban melalui layanan push, terenkripsi sehingga hanya peramban ini yang dapat membacanya
+• Tanpa alat analitik maupun pelacakan aktivitas
+• Tanpa kode jarak jauh atau skrip JavaScript eksternal
+• Pesan, nama perangkat, dan kunci penyandingan hanya disimpan secara lokal di peramban Anda
+• Pesan yang lebih lama dari 24 jam akan dihapus secara otomatis; maksimal 100 pesan terbaru disimpan
+• Menu «Hapus Pesan» akan menghapus seluruh riwayat pesan seketika, begitu pula dengan «Putuskan Semua Ponsel»
+
+IZIN YANG DIGUNAKAN
+
+• Notifikasi: Menampilkan pesan masuk sebagai notifikasi desktop
+• Papan Klip (Clipboard): Menyalin kode OTP atau teks pesan saat Anda mengeklik notifikasi atau tombol salin
+• Penyimpanan (Storage): Menyimpan informasi ponsel terhubung dan pesan terbaru secara lokal di peramban
+• Dokumen offscreen: Menulis ke papan klip sistem dari proses latar belakang secara aman
+
+BATASAN
+
+• Memerlukan aplikasi HMJ SMS terpasang di ponsel Android.
+• Memutuskan tautan di ekstensi akan mengabaikan pesan pada komputer ini, tetapi ponsel tetap akan mengirimkannya hingga tautan diputus dari ponsel: Putuskan juga komputer ini di aplikasi HMJ SMS pada ponsel, atau gunakan «Putuskan Semua Ponsel» (setelah itu ponsel yang tetap ingin digunakan harus memindai kode QR baru).
+
+SUMBER TERBUKA (OPEN SOURCE)
+
+HMJ SMS Desktop Sync adalah perangkat lunak sumber terbuka di bawah Lisensi MIT.
+
+Lihat kode sumber, laporkan masalah, atau berkontribusi di GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

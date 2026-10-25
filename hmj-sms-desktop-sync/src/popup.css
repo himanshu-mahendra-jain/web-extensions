@@ -1,27 +1,37 @@
+/*
+ * Colors built on the icon's purple, #6502d9. Text colors meet WCAG AA (4.5:1) or better on
+ * the backgrounds they are used on, in both themes. Each token is light-dark(light, dark),
+ * picked by color-scheme, which follows the system's light or dark mode.
+ */
 :root {
-  --bg: #f8f9fa;
-  --surface: #ffffff;
-  --fg: #202124;
-  --text: #3c4043;
-  --muted: #5f6368;
-  --subtle: #80868b;
-  --line: #e0e0e0;
-  --card-line: #edf2f7;
-  --icon-muted: #bdc1c6;
-  --accent: #6d28d9;
-  --accent-bg: #f5f3ff;
-  --accent-line: #ddd6fe;
-  --neutral-bg: #f1f3f4;
-  --neutral-line: #dadce0;
-  --ok: #137333;
-  --ok-bg: #e6f4ea;
-  --ok-line: #ceead6;
-  --warn: #b06000;
-  --warn-bg: #fef7e0;
-  --error: #c5221f;
-  --error-bg: #fce8e6;
-  --shadow: rgba(0, 0, 0, 0.06);
-  --shadow-hover: rgba(0, 0, 0, 0.1);
+  --bg: light-dark(#f6f4fa, #141218);
+  --surface: light-dark(#ffffff, #211f26);
+  --fg: light-dark(#1c1b1f, #e8e3ed);
+  --text: light-dark(#2e2b35, #d9d3e0);
+  --muted: light-dark(#57535f, #b3acbe);
+  --line: light-dark(#e3dfea, #36323d);
+  --card-line: light-dark(#e9e5f0, #36323d);
+  --icon-muted: light-dark(#c4bdd3, #5a5466);
+  --accent: light-dark(#6502d9, #cdb3ff);
+  --accent-hover: light-dark(#5100b0, #ddcaff);
+  --accent-bg: light-dark(#f0e8ff, #33274a);
+  --accent-bg-hover: light-dark(#e4d6ff, #3f305c);
+  --accent-line: light-dark(#d4c1fa, #523d7a);
+  --on-accent: light-dark(#ffffff, #2a0a63);
+  --neutral-bg: light-dark(#f1eff5, #2d2a33);
+  --neutral-bg-hover: light-dark(#e6e3ec, #38343f);
+  --neutral-line: light-dark(#d6d2de, #4a4553);
+  --ok: light-dark(#146c2e, #8fd8a3);
+  --ok-bg: light-dark(#e3f4e7, #18301f);
+  --ok-line: light-dark(#bfe3c9, #2b5038);
+  --warn: light-dark(#7a4600, #ffd27a);
+  --warn-bg: light-dark(#fff3d9, #362a12);
+  --warn-line: light-dark(#f2d394, #5a4720);
+  --error: light-dark(#b3261e, #ffb4ab);
+  --error-bg: light-dark(#fce9e7, #44201c);
+  --error-solid: #b3261e;
+  --shadow: light-dark(rgba(28, 16, 54, 0.06), rgba(0, 0, 0, 0.3));
+  --shadow-hover: light-dark(rgba(28, 16, 54, 0.12), rgba(0, 0, 0, 0.5));
 
   color-scheme: light dark;
 }
@@ -37,6 +47,10 @@
   display: none !important;
 }
 
+/*
+ * Sizes are in rem, so the browser's font size settings apply; the popup keeps its fixed
+ * size, as popups stop at 800x600, and its regions scroll.
+ */
 body {
   width: 400px;
   height: 540px;
@@ -44,11 +58,14 @@ body {
   display: flex;
   flex-direction: column;
   color: var(--fg);
+  font-size: 0.875rem;
+  line-height: 1.4;
   overflow: hidden;
 }
 
 button {
   cursor: pointer;
+  font-size: inherit;
 }
 
 :focus-visible {
@@ -68,39 +85,50 @@ button {
 /* Header */
 .app-header {
   height: 52px;
+  flex-shrink: 0;
   background: var(--surface);
   border-bottom: 1px solid var(--line);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 14px;
+  padding: 0 12px 0 14px;
 }
 
 .header-left {
   display: flex;
   align-items: center;
   gap: 8px;
+  min-width: 0;
 }
 
 .header-icon {
-  width: 24px;
-  height: 24px;
-  fill: var(--accent);
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
 }
 
 .app-title {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 1.0625rem;
+  font-weight: 700;
   color: var(--fg);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .status-badge {
-  font-size: 11px;
-  padding: 2px 6px;
-  border-radius: 10px;
+  font-size: 0.75rem;
+  line-height: 1.3;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--ok-line);
   background: var(--ok-bg);
   color: var(--ok);
-  font-weight: 500;
+  font-weight: 600;
+  white-space: nowrap;
+  /* A long translation shortens with an ellipsis instead of running under the buttons. */
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .status-badge::before {
@@ -109,19 +137,23 @@ button {
 
 .status-badge.syncing {
   background: var(--warn-bg);
+  border-color: var(--warn-line);
   color: var(--warn);
 }
 
 .header-actions {
   display: flex;
-  gap: 4px;
+  align-items: center;
+  gap: 2px;
+  margin-inline-start: 8px;
+  flex-shrink: 0;
 }
 
 .icon-btn {
   background: transparent;
   border: none;
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -134,81 +166,239 @@ button {
 }
 
 .icon-btn svg {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   fill: var(--muted);
 }
 
 .qr-toggle-btn {
-  background: var(--accent-bg);
-  border: 1px solid var(--accent-line);
-  color: var(--accent);
-  border-radius: 6px;
-  padding: 4px 8px;
-  font-size: 12px;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  color: var(--on-accent);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.8125rem;
   font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 4px;
+  white-space: nowrap;
+  transition: background 0.2s;
 }
 
-/* Connected Device Banner */
+.qr-toggle-btn:hover {
+  background: var(--accent-hover);
+}
+
+/* Connected Device Banner: a button that opens the list of linked phones */
 .device-banner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 7px 14px;
+  width: 100%;
+  flex-shrink: 0;
+  padding: 9px 14px;
   background: var(--ok-bg);
   color: var(--ok);
+  border: 0;
   border-bottom: 1px solid var(--ok-line);
-  font-size: 12px;
+  font-size: 0.8125rem;
   font-weight: 500;
+  text-align: start;
+}
+
+.device-banner::after {
+  content: "▾" / "";
+  margin-inline-start: 8px;
+  color: var(--ok);
+}
+
+.device-banner[aria-expanded="true"]::after {
+  content: "▴" / "";
 }
 
 .device-banner-names {
   display: flex;
   align-items: center;
   gap: 6px;
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .device-banner-name {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .device-banner-count {
-  font-size: 11px;
-  opacity: 0.85;
+  font-size: 0.75rem;
 }
 
 .device-banner-time {
-  font-size: 11px;
+  margin-inline-start: auto;
+  padding-inline-start: 8px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+/* Linked phones, each with its Unlink button */
+.phone-list {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  flex-shrink: 0;
+  max-height: 168px;
+  overflow-y: auto;
+}
+
+.phone-list ul {
+  list-style: none;
+}
+
+.phone-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 14px;
+}
+
+.phone-item + .phone-item {
+  border-top: 1px solid var(--card-line);
+}
+
+.phone-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.phone-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.phone-meta {
+  font-size: 0.75rem;
   color: var(--muted);
+}
+
+.phone-unlink {
+  background: var(--error-bg);
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+/* More options menu, below its button */
+.menu {
+  position: fixed;
+  inset: auto;
+  top: 46px;
+  inset-inline-end: 10px;
+  margin: 0;
+  padding: 6px;
+  min-width: 200px;
+  background: var(--surface);
+  color: var(--fg);
+  border: 1px solid var(--neutral-line);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px var(--shadow-hover);
+}
+
+.menu:popover-open {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  padding: 9px 12px;
+  font-size: 0.875rem;
+  color: var(--fg);
+  text-align: start;
+}
+
+.menu-item:hover {
+  background: var(--neutral-bg);
+}
+
+.menu-item-danger {
+  color: var(--error);
+  font-weight: 600;
+}
+
+.action-status {
+  flex-shrink: 0;
+  padding: 8px 14px;
+  font-size: 0.8125rem;
+  background: var(--ok-bg);
+  color: var(--ok);
+  border-bottom: 1px solid var(--ok-line);
+}
+
+.action-status.error {
+  background: var(--error-bg);
+  color: var(--error);
+  border-bottom-color: var(--error);
+}
+
+.action-status:empty {
+  display: none;
+}
+
+/* Says why messages may not arrive or show, until that changes */
+.notice-banner {
+  flex-shrink: 0;
+  padding: 8px 14px;
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  background: var(--warn-bg);
+  color: var(--warn);
+  border-bottom: 1px solid var(--warn-line);
 }
 
 /* Pairing QR Code Card */
 .qr-card {
   background: var(--surface);
-  border: 1px solid var(--neutral-line);
-  border-radius: 10px;
-  padding: 16px;
-  margin: 10px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 10px 14px;
+  margin: 6px 10px;
   text-align: center;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 3px var(--shadow);
+  overflow-y: auto;
 }
 
 .qr-card h2 {
-  font-size: 15px;
+  font-size: 1rem;
+  font-weight: 700;
   margin-bottom: 4px;
   color: var(--accent);
 }
 
-.qr-card p {
-  font-size: 12px;
-  color: var(--muted);
-  margin-bottom: 12px;
+.qr-card .qr-steps {
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+/* The app's menu path stays on one line, so it reads as one step. */
+.qr-steps b {
+  color: var(--fg);
+  white-space: nowrap;
+}
+
+.step-arrow:dir(rtl) {
+  display: inline-block;
+  transform: scaleX(-1);
 }
 
 /* Stays black on white in every theme, so phones can read it. */
@@ -216,20 +406,21 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 4px;
   background: #ffffff;
   border-radius: 8px;
   forced-color-adjust: none;
 }
 
+/* qrcode.js sizes the canvas to whole screen pixels per module. */
 .qr-code canvas {
-  width: 260px;
-  height: 260px;
   image-rendering: pixelated;
 }
 
 .qr-actions {
-  margin-top: 10px;
+  margin-top: 6px;
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -237,7 +428,20 @@ button {
 
 .qr-card .copy-status {
   margin: 8px 0 0;
+  font-size: 0.8125rem;
   color: var(--error);
+}
+
+.qr-card .qr-warning {
+  margin: 8px 0 0;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  text-align: start;
+  color: var(--warn);
+  background: var(--warn-bg);
+  border: 1px solid var(--warn-line);
+  border-radius: 8px;
 }
 
 .copy-status:empty {
@@ -248,36 +452,40 @@ button {
   background: var(--accent-bg);
   border: 1px solid var(--accent-line);
   color: var(--accent);
-  border-radius: 6px;
-  padding: 6px 12px;
-  font-size: 12px;
+  border-radius: 999px;
+  padding: 7px 16px;
+  font-size: 0.8125rem;
   font-weight: 600;
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  transition: background 0.2s;
 }
 
 .btn-pair-action:hover {
-  background: var(--accent-line);
+  background: var(--accent-bg-hover);
 }
 
 .btn-pair-action.btn-quiet {
   background: var(--neutral-bg);
-  color: var(--muted);
+  color: var(--text);
   border-color: var(--neutral-line);
+}
+
+.btn-pair-action.btn-quiet:hover {
+  background: var(--neutral-bg-hover);
 }
 
 /* Messages List */
 .conversations-list {
   flex: 1;
   overflow-y: auto;
-  padding: 6px 8px;
+  padding: 8px 10px;
 }
 
 .empty-view {
   text-align: center;
-  padding: 40px 20px;
-  font-size: 14px;
+  padding: 40px 24px;
   color: var(--muted);
 }
 
@@ -289,130 +497,199 @@ button {
 }
 
 .empty-title {
+  font-size: 0.9375rem;
   font-weight: 600;
+  color: var(--fg);
   margin-bottom: 4px;
 }
 
 .empty-sub {
-  font-size: 12px;
+  font-size: 0.8125rem;
+  line-height: 1.45;
   color: var(--muted);
   display: block;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 .card {
   background: var(--surface);
-  border-radius: 8px;
-  padding: 10px 12px;
-  margin-bottom: 6px;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
   box-shadow: 0 1px 2px var(--shadow);
   border: 1px solid var(--card-line);
   position: relative;
-  transition: transform 0.1s, box-shadow 0.1s;
+  transition: box-shadow 0.15s;
 }
 
 .card:hover {
-  box-shadow: 0 2px 6px var(--shadow-hover);
+  box-shadow: 0 3px 10px var(--shadow-hover);
 }
 
 .card-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 4px;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 6px;
 }
 
 .sender-box {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 6px;
+  min-width: 0;
 }
 
 .sender-name {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 0.9375rem;
+  font-weight: 700;
   color: var(--fg);
+  word-break: break-word;
 }
 
 .tag {
-  font-size: 10px;
-  padding: 1px 5px;
-  border-radius: 4px;
+  font-size: 0.6875rem;
+  line-height: 1.3;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .tag-device {
   color: var(--ok);
   background: var(--ok-bg);
-  font-weight: 500;
 }
 
 .tag-sim {
   color: var(--accent);
   background: var(--accent-bg);
-  font-weight: 600;
+}
+
+.tag-kind {
+  color: var(--text);
+  background: var(--neutral-bg);
 }
 
 .msg-time {
-  font-size: 11px;
-  color: var(--subtle);
+  font-size: 0.75rem;
+  color: var(--muted);
+  white-space: nowrap;
+  padding-top: 2px;
 }
 
 .msg-body {
-  font-size: 13px;
-  line-height: 1.4;
+  font-size: 0.875rem;
+  line-height: 1.5;
   color: var(--text);
+  word-break: break-word;
+}
+
+.msg-group,
+.msg-attachments {
+  font-size: 0.8125rem;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.msg-attachments {
+  margin: 4px 0 0;
+}
+
+.msg-subject {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--fg);
   word-break: break-word;
 }
 
 .msg-actions {
   display: flex;
-  gap: 6px;
-  margin-top: 8px;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
 }
 
 .msg-btn {
   background: var(--neutral-bg);
   border: 1px solid var(--neutral-line);
-  color: var(--muted);
-  border-radius: 4px;
-  padding: 3px 8px;
-  font-size: 11px;
-  font-weight: 500;
+  color: var(--text);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: background 0.2s;
 }
 
+.msg-btn:hover {
+  background: var(--neutral-bg-hover);
+}
+
+/* The OTP is what a message is usually opened for, so its button stands out. */
 .msg-btn.msg-btn-otp {
-  background: var(--accent-bg);
-  border-color: var(--accent-line);
-  color: var(--accent);
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.msg-btn.msg-btn-otp:hover {
+  background: var(--accent-hover);
+}
+
+dialog {
+  width: calc(100% - 40px);
+  margin: auto;
+  padding: 20px;
+  border: 0;
+  border-top: 4px solid var(--error);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--fg);
+  box-shadow: 0 12px 32px var(--shadow-hover);
+}
+
+dialog::backdrop {
+  background: rgb(0 0 0 / 50%);
+}
+
+dialog h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--error);
+  margin-bottom: 8px;
+}
+
+dialog p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--text);
+  margin-bottom: 18px;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.dialog-btn {
+  background: var(--neutral-bg);
+  border: 1px solid var(--neutral-line);
+  color: var(--fg);
+  border-radius: 999px;
+  padding: 7px 16px;
+  font-size: 0.8125rem;
   font-weight: 600;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #202124;
-    --surface: #292a2d;
-    --fg: #e8eaed;
-    --text: #dadce0;
-    --muted: #9aa0a6;
-    --subtle: #9aa0a6;
-    --line: #3c4043;
-    --card-line: #3c4043;
-    --icon-muted: #5f6368;
-    --accent: #c084fc;
-    --accent-bg: #2e1065;
-    --accent-line: #4c1d95;
-    --neutral-bg: #3c4043;
-    --neutral-line: #5f6368;
-    --ok: #81c995;
-    --ok-bg: #1e3a29;
-    --ok-line: #2b5a3c;
-    --warn: #fdd663;
-    --warn-bg: #42361a;
-    --error: #f28b82;
-    --error-bg: #4a2523;
-    --shadow: rgba(0, 0, 0, 0.3);
-    --shadow-hover: rgba(0, 0, 0, 0.5);
-  }
+.dialog-btn-danger {
+  background: var(--error-solid);
+  border-color: var(--error-solid);
+  color: #ffffff;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -425,22 +702,41 @@ button {
   }
 }
 
-@media (forced-colors: active) {
+/* High contrast, whether the system forces its colors or the user asks for more contrast. */
+@media (forced-colors: active), (prefers-contrast: more) {
 
   button,
   .card,
   .qr-card,
+  .qr-warning,
+  .notice-banner,
   .status-badge,
-  .tag {
+  .tag,
+  .menu,
+  dialog {
     border: 1px solid CanvasText;
   }
 
   button {
     border-color: ButtonText;
   }
+}
+
+/* The buttons that have a border, whose own rules outrank the one above. */
+@media (prefers-contrast: more) and (not (forced-colors: active)) {
+
+  .qr-toggle-btn,
+  .btn-pair-action,
+  .msg-btn,
+  .phone-unlink,
+  .dialog-btn {
+    border-color: ButtonText;
+  }
+}
+
+@media (forced-colors: active) {
 
   .icon-btn svg,
-  .header-icon,
   .empty-icon {
     fill: CanvasText;
   }

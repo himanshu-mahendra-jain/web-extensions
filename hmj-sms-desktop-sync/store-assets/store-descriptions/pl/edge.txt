@@ -1,0 +1,70 @@
+Odbieraj wiadomości SMS i kody OTP ze swojego telefonu z Androidem jako powiadomienia na pulpicie, z szyfrowaniem end-to-end i kopiowaniem kodu jednym kliknięciem.
+
+HMJ SMS Desktop Sync to lekkie rozszerzenie open-source, które współpracuje z aplikacją HMJ SMS na telefonie z Androidem. Gdy na telefon przychodzi wiadomość, pojawia się ona natychmiast na ekranie komputera, umożliwiając szybkie skopiowanie kodu logowania bez konieczności sięgania po telefon.
+
+Wiadomości są przesyłane bezpośrednio z telefonu do przeglądarki za pośrednictwem jej wbudowanej usługi push, zaszyfrowane wyłącznie dla tej przeglądarki. Po drodze nie ma żadnych serwerów pośredniczących, a usługa push nie ma wglądu w treść.
+
+Wskazówka: w menu Rozszerzenia przeglądarki Edge włącz opcję «Pokaż na pasku narzędzi» dla HMJ SMS Desktop Sync, aby mieć do niego szybki dostęp.
+
+GŁÓWNE FUNKCJE
+
+• Powiadomienia na pulpicie dla każdego SMS-a otrzymanego na telefonie
+• Przyciski «Kopiuj OTP» i «Kopiuj wiadomość» na każdym powiadomieniu; kliknięcie powiadomienia kopiuje kod (lub całą treść, jeśli kodu brak)
+• Podgląd ostatnich wiadomości w oknie na pasku narzędzi z funkcją kopiowania 1 kliknięciem
+• Informacja, który telefon i która karta SIM odebrała daną wiadomość (np. SIM 2: Jio)
+• Możliwość połączenia wielu telefonów; odłączanie pojedynczego urządzenia lub wszystkich naraz za pomocą nowego kodu parowania
+• Błyskawiczne parowanie poprzez zeskanowanie kodu QR – bez konieczności zakładania konta czy logowania
+• Pełne szyfrowanie end-to-end zgodne ze standardami Web Push (RFC 8291 i RFC 8292)
+• Pełna obsługa za pomocą klawiatury i czytników ekranowych; obsługa trybu ciemnego i motywów o wysokim kontraście
+• Brak serwerów, brak analityki i śledzenia użytkowników
+
+PAROWANIE TELEFONU
+
+1. Kliknij ikonę HMJ SMS Desktop Sync na pasku narzędzi, aby wyświetlić kod QR parowania.
+2. Na telefonie otwórz aplikację HMJ SMS, wejdź w menu i wybierz «Desktop Sync».
+3. Dotknij «Skanuj kod QR» i skieruj aparat na ekran komputera.
+
+Na pulpicie pojawi się powiadomienie testowe potwierdzające połączenie. Aby sparować kolejny telefon, kliknij «Sparuj kolejny» w oknie rozszerzenia.
+
+Kod parowania zawiera klucze kryptograficzne do komunikacji z tą przeglądarką. Wyświetlaj lub wklejaj go wyłącznie na własnym telefonie i unikaj udostępniania go przez synchronizację schowka czy współdzielenie ekranu.
+
+KOPIOWANIE KODU
+
+Gdy nadejdzie wiadomość z kodem weryfikacyjnym, kliknij «Kopiuj OTP» na powiadomieniu lub kliknij samo powiadomienie, a następnie wklej kod tam, gdzie go potrzebujesz. Kod OTP doręczony z opóźnieniem powyżej 10 minut jest oznaczany jako przedawniony i wówczas można skopiować tylko treść wiadomości.
+
+POŁĄCZONE TELEFONY
+
+Kliknij nazwę telefonu pod paskiem narzędzi w oknie podręcznym, aby zobaczyć listę sparowanych telefonów, czas ich ostatniej aktywności oraz odłączyć dowolny z nich. Wiadomości z odłączonego urządzenia będą odtąd ignorowane.
+
+W menu (⋮) dostępna jest funkcja «Odłącz wszystkie telefony» (generuje nowy kod parowania uniemożliwiający wcześniejszym telefonom łączenie się i usuwa zapamiętane wiadomości) oraz «Wyczyść wiadomości».
+
+Jeśli przeglądarka zakończy połączenie, na które telefony wysyłają wiadomości (np. po miesiącach braku aktywności), okno rozszerzenia powiadomi o tym i wyświetli nowy kod QR do zeskanowania na każdym telefonie.
+
+PRYWATNOŚĆ
+
+• Brak serwerów: wiadomości wędrują bezpośrednio z telefonu do przeglądarki przez usługę push, w formie zaszyfrowanej tak, że odczytać może je tylko ta przeglądarka
+• Brak jakiejkolwiek analityki i narzędzi śledzących
+• Brak zewnętrznego kodu i obcych skryptów JavaScript
+• Wiadomości, nazwy telefonów i klucze parowania są przechowywane wyłącznie lokalnie w Twojej przeglądarce
+• Wiadomości starsze niż 24 godziny są usuwane automatycznie; zachowywanych jest maksymalnie 100 ostatnich wiadomości
+• Opcja «Wyczyść wiadomości» usuwa natychmiast całą zapisaną historię, podobnie jak «Odłącz wszystkie telefony»
+
+UPRAWNIENIA
+
+• Powiadomienia: wyświetla każdą przychodzącą wiadomość jako powiadomienie systemowe na pulpicie
+• Schowek: kopiuje kod OTP lub wiadomość po kliknięciu powiadomienia bądź przycisku kopiowania
+• Pamięć: zachowuje lokalnie w przeglądarce sparowane telefony i historię wiadomości
+• Dokument offscreen: zapisuje dane do schowka systemowego (czego skrypt service worker działający w tle nie może zrobić bezpośrednio)
+
+OGRANICZENIA
+
+• Wymaga zainstalowanej aplikacji HMJ SMS na telefonie z systemem Android.
+• Odłączenie telefonu w rozszerzeniu blokuje wyświetlanie wiadomości na tym komputerze, lecz tylko telefon może zaprzestać ich wysyłania: odłącz komputer również w aplikacji HMJ SMS na telefonie lub użyj opcji «Odłącz wszystkie telefony» (po czym wybrane telefony muszą zeskanować nowy kod QR).
+
+OPEN SOURCE
+
+HMJ SMS Desktop Sync to projekt otwartoźródłowy udostępniany na licencji MIT.
+
+Zobacz kod źródłowy, zgłaszaj uwagi lub wesprzyj rozwój projektu w serwisie GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

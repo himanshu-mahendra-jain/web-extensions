@@ -1,0 +1,70 @@
+Recevez les SMS et codes OTP de votre téléphone Android sous forme de notifications sur votre bureau, chiffrés de bout en bout, et copiez un code en un clic.
+
+HMJ SMS Desktop Sync est une extension légère et open source qui s'associe à l'application HMJ SMS de votre téléphone Android. Lorsqu'un message arrive sur votre téléphone, il s'affiche instantanément sur votre ordinateur, vous permettant de copier un code de connexion sans avoir à saisir votre téléphone.
+
+Les messages sont transmis directement de votre téléphone à votre navigateur via le service push natif du navigateur, chiffrés exclusivement pour ce navigateur. Aucun serveur intermédiaire n'intervient et le service push ne peut pas lire leur contenu.
+
+Astuce : épinglez l'extension dans le menu Extensions de Chrome (l'icône de pièce de puzzle) pour garder son icône visible dans la barre d'outils.
+
+FONCTIONNALITÉS PRINCIPALES
+
+• Notifications sur le bureau pour chaque SMS reçu sur votre téléphone
+• Boutons « Copier l'OTP » et « Copier le message » sur chaque notification ; cliquer sur la notification copie le code OTP, ou le message s'il n'en contient pas
+• Messages récents accessibles depuis le menu déroulant de la barre d'outils, avec copie en un clic
+• Affiche le téléphone et la carte SIM qui ont reçu le message (ex. : SIM 2 : Jio)
+• Associez plusieurs téléphones ; dissociez-en un depuis le menu déroulant ou tous d'un coup avec un nouveau code d'association
+• Association instantanée par simple scan de code QR, sans compte ni inscription
+• Chiffrement de bout en bout conforme aux normes Web Push (RFC 8291 et RFC 8292)
+• Accessible au clavier et compatible avec les lecteurs d'écran ; prise en charge du mode sombre et des contrastes élevés
+• Aucun serveur, aucune analyse, aucun suivi
+
+ASSOCIER VOTRE TÉLÉPHONE
+
+1. Cliquez sur l'icône de HMJ SMS Desktop Sync dans la barre d'outils pour afficher le code QR d'association.
+2. Sur votre téléphone, ouvrez l'application HMJ SMS, accédez au menu et choisissez « Desktop Sync ».
+3. Appuyez sur « Scanner le code QR » et scannez le code affiché sur votre écran.
+
+Une notification de test apparaît sur votre ordinateur pour confirmer la connexion. Pour associer un autre téléphone, cliquez sur « Associer un autre » dans le menu déroulant.
+
+Le code d'association contient la clé de sécurité utilisée par vos téléphones pour joindre ce navigateur. Ne l'affichez et ne le collez que sur votre propre téléphone, et tenez-le à l'écart de la synchronisation du presse-papiers et du partage d'écran.
+
+COPIER UN CODE
+
+Lorsqu'un message contenant un code arrive, cliquez sur « Copier l'OTP » sur la notification ou directement sur la notification elle-même, puis collez le code où vous le souhaitez. Un OTP reçu avec plus de 10 minutes de retard est considéré comme expiré et seul le texte du message peut être copié.
+
+TÉLÉPHONES ASSOCIÉS
+
+Cliquez sur le nom du téléphone sous la barre d'outils du menu déroulant pour lister vos téléphones associés, voir leur dernière activité et en dissocier un. Ses messages seront alors ignorés ici, et un compteur discret comptabilisera ceux qu'il envoie encore.
+
+Le menu (⋮) contient l'option « Dissocier tous les téléphones » (qui génère un nouveau code d'association afin qu'aucun téléphone ne puisse plus joindre ce navigateur et supprime tous les messages enregistrés) ainsi que « Effacer les messages ».
+
+Si le navigateur interrompt la connexion vers laquelle les téléphones envoient leurs messages, par exemple après plusieurs mois sans message, la fenêtre contextuelle vous en informe et affiche un nouveau code QR à scanner sur chaque téléphone.
+
+CONFIDENTIALITÉ
+
+• Sans serveur : les messages transitent directement de votre téléphone à votre navigateur via le service push de celui-ci, chiffrés pour que seul ce navigateur puisse les lire
+• Aucun outil d'analyse ni suivi publicitaire
+• Aucun code distant ni JavaScript externe
+• Les messages, noms d'appareils et clés d'association sont stockés exclusivement dans votre navigateur
+• Les messages de plus de 24 heures sont automatiquement supprimés, avec un historique maximal de 100 messages
+• « Effacer les messages » dans le menu supprime tous les messages stockés d'un seul coup, tout comme « Dissocier tous les téléphones »
+
+AUTORISATIONS
+
+• Notifications : affiche chaque message entrant sous forme de notification sur le bureau
+• Presse-papiers : copie un OTP ou un message lorsque vous cliquez sur une notification ou sur un bouton de copie
+• Stockage : conserve localement dans votre navigateur les téléphones associés et les messages récents
+• Document hors écran (Offscreen) : écrit dans le presse-papiers, ce que le service worker en arrière-plan ne peut faire directement
+
+LIMITES
+
+• Nécessite l'application HMJ SMS sur un téléphone Android.
+• Dissocier un téléphone ici ignore ses messages sur cet ordinateur, mais seul le téléphone peut cesser de les envoyer : dissociez aussi cet ordinateur dans l'application HMJ SMS de votre téléphone, ou utilisez « Dissocier tous les téléphones », après quoi les téléphones conservés devront scanner le nouveau code QR.
+
+OPEN SOURCE
+
+HMJ SMS Desktop Sync est un projet open source sous licence MIT.
+
+Consultez le code source, signalez des anomalies ou contribuez sur GitHub :
+
+https://github.com/himanshu-mahendra-jain/web-extensions

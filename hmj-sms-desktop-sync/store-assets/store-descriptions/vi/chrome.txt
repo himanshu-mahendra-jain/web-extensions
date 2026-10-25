@@ -1,0 +1,70 @@
+Nhận tin nhắn SMS và mã OTP từ điện thoại Android dưới dạng thông báo trên màn hình máy tính, mã hóa đầu cuối an toàn và sao chép mã chỉ với 1 cú nhấp chuột.
+
+HMJ SMS Desktop Sync là tiện ích mở rộng mã nguồn mở nhẹ nhàng, kết nối liền mạch với ứng dụng HMJ SMS trên điện thoại Android của bạn. Khi có tin nhắn đến điện thoại, thông báo sẽ lập tức xuất hiện trên máy tính giúp bạn sao chép mã đăng nhập nhanh chóng mà không cần cầm điện thoại.
+
+Tin nhắn được chuyển trực tiếp từ điện thoại sang trình duyệt thông qua dịch vụ push tích hợp sẵn của trình duyệt, được mã hóa riêng biệt cho trình duyệt này. Không có máy chủ trung gian và dịch vụ push hoàn toàn không thể đọc được nội dung tin nhắn.
+
+Mẹo: Hãy ghim tiện ích trong menu Tiện ích của Chrome (biểu tượng mảnh ghép) để luôn thấy biểu tượng trên thanh công cụ.
+
+TÍNH NĂNG NỔI BẬT
+
+• Thông báo trên màn hình máy tính cho mọi tin nhắn SMS gửi đến điện thoại
+• Nút «Sao chép OTP» và «Sao chép tin nhắn» trên từng thông báo; nhấp vào thông báo sẽ tự động sao chép mã OTP (hoặc toàn bộ nội dung nếu không có mã)
+• Xem các tin nhắn gần đây ngay trong cửa sổ thanh công cụ với tính năng sao chép 1 chạm
+• Hiển thị rõ điện thoại nào và SIM nào đã nhận tin nhắn (ví dụ: SIM 2: Jio)
+• Ghép nối nhiều điện thoại; ngắt kết nối một thiết bị hoặc làm mới toàn bộ bằng mã ghép nối mới
+• Ghép nối tức thì chỉ với một thao tác quét mã QR, không cần tạo tài khoản hay đăng nhập
+• Mã hóa đầu cuối (E2EE) chuẩn mực theo thông số Web Push (RFC 8291 và RFC 8292)
+• Hỗ trợ đầy đủ điều hướng bàn phím và trình đọc màn hình; tương thích chế độ tối và độ tương phản cao
+• Không máy chủ trung gian, không thu thập dữ liệu phân tích, không theo dõi
+
+GHÉP NỐI ĐIỆN THOẠI CỦA BẠN
+
+1. Nhấp vào biểu tượng HMJ SMS Desktop Sync trên thanh công cụ để hiển thị mã QR ghép nối.
+2. Trên điện thoại, mở ứng dụng HMJ SMS, vào menu và chọn «Desktop Sync».
+3. Nhấn «Quét mã QR» và hướng camera vào mã hiển thị trên màn hình máy tính.
+
+Một thông báo thử nghiệm sẽ xuất hiện trên máy tính để xác nhận kết nối thành công. Để ghép nối thêm điện thoại khác, nhấp «Ghép nối thiết bị khác» trong cửa sổ tiện ích.
+
+Mã ghép nối chứa khóa bảo mật dùng để kết nối với trình duyệt này. Chỉ hiển thị hoặc dán mã trên chính điện thoại của bạn, tránh để lộ qua các ứng dụng đồng bộ bộ nhớ tạm hoặc chia sẻ màn hình.
+
+SAO CHÉP MÃ XÁC THỰC
+
+Khi có tin nhắn chứa mã xác nhận gửi đến, hãy nhấp vào «Sao chép OTP» trên thông báo hoặc nhấp trực tiếp vào thông báo rồi dán mã vào nơi cần dùng. Mã OTP được gửi đến trễ hơn 10 phút sẽ được đánh dấu là hết hạn và bạn chỉ có thể sao chép nội dung văn bản.
+
+QUẢN LÝ ĐIỆN THOẠI ĐÃ KẾT NỐI
+
+Nhấp vào tên điện thoại bên dưới thanh công cụ để xem danh sách thiết bị đã liên kết, thời điểm hoạt động gần nhất và hủy liên kết thiết bị bất kỳ. Tin nhắn từ thiết bị đó sẽ được bỏ qua tại đây.
+
+Menu (⋮) cung cấp tính năng «Hủy liên kết tất cả điện thoại» (tạo mã ghép nối mới khiến mọi điện thoại trước đó không thể gửi tin nhắn đến nữa và xóa sạch tin nhắn đã lưu) cùng với «Xóa tin nhắn».
+
+Nếu trình duyệt chấm dứt kết nối mà điện thoại gửi đến, chẳng hạn như sau nhiều tháng không có tin nhắn, cửa sổ tiện ích sẽ thông báo và hiển thị mã QR mới để quét lại trên từng điện thoại.
+
+QUYỀN RIÊNG TƯ
+
+• Không máy chủ: Tin nhắn truyền trực tiếp từ điện thoại sang trình duyệt qua dịch vụ push, được mã hóa an toàn để chỉ trình duyệt này đọc được
+• Không thu thập thông tin người dùng hay theo dõi hành vi
+• Không tải mã từ xa hay chạy script JavaScript bên ngoài
+• Tin nhắn, tên thiết bị và khóa ghép nối chỉ được lưu trữ cục bộ trong trình duyệt của bạn
+• Tin nhắn cũ hơn 24 giờ sẽ tự động được dọn dẹp; lưu tối đa 100 tin nhắn gần nhất
+• Mục «Xóa tin nhắn» trong menu sẽ xóa sạch toàn bộ lịch sử ngay lập tức, tương tự như «Hủy liên kết tất cả điện thoại»
+
+QUYỀN TRUY CẬP
+
+• Thông báo: Hiển thị tin nhắn gửi đến dưới dạng thông báo máy tính
+• Bộ nhớ tạm (Clipboard): Sao chép mã OTP hoặc tin nhắn khi bạn nhấp vào thông báo hay nút sao chép
+• Lưu trữ (Storage): Lưu thông tin thiết bị đã liên kết và tin nhắn gần đây cục bộ trong trình duyệt
+• Tài liệu ngoài màn hình (Offscreen): Thực hiện ghi vào bộ nhớ tạm hệ thống an toàn từ tiến trình nền
+
+GIỚI HẠN SỬ DỤNG
+
+• Yêu cầu cài đặt ứng dụng HMJ SMS trên điện thoại Android.
+• Việc hủy liên kết một điện thoại trên tiện ích sẽ bỏ qua tin nhắn tại máy tính này, nhưng chỉ điện thoại mới có thể ngừng gửi: Hãy hủy liên kết máy tính này trong ứng dụng HMJ SMS trên điện thoại, hoặc chọn «Hủy liên kết tất cả điện thoại» (sau đó quét mã QR mới cho những điện thoại bạn muốn giữ lại).
+
+MÃ NGUỒN MỞ
+
+HMJ SMS Desktop Sync là dự án mã nguồn mở phát hành theo giấy phép MIT.
+
+Xem mã nguồn, báo cáo sự cố hoặc đóng góp trên GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

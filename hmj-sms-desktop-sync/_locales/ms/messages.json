@@ -1,0 +1,541 @@
+{
+  "extensionDescription": {
+    "message": "Pemberitahuan SMS & OTP masa nyata daripada telefon Android tanpa pelayan, disulitkan hujung ke hujung, salin dengan 1 klik."
+  },
+  "statusLinked": {
+    "message": "Dipautkan"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ dipautkan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Header badge when several phones are linked."
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ dipautkan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Tidak dipautkan"
+  },
+  "pairButton": {
+    "message": "Pautkan"
+  },
+  "pairButtonTitle": {
+    "message": "Tunjukkan kod QR pemautan"
+  },
+  "pairAnotherButton": {
+    "message": "Tambah"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Tunjukkan kod QR untuk memautkan telefon lain"
+  },
+  "moreOptions": {
+    "message": "Lagi pilihan"
+  },
+  "unlinkAllPhones": {
+    "message": "Nyahpaut semua telefon"
+  },
+  "clearMessages": {
+    "message": "Kosongkan mesej"
+  },
+  "phoneFallbackName": {
+    "message": "Telefon"
+  },
+  "bannerLinked": {
+    "message": "(dipautkan)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ telefon dipautkan)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "After the phones' names in the banner."
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ telefon dipautkan)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Aktif"
+  },
+  "linkedPhones": {
+    "message": "Telefon dipautkan"
+  },
+  "lastActive": {
+    "message": "Kali terakhir aktif: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Nyahpaut"
+  },
+  "unlinkPhone": {
+    "message": "Nyahpaut $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Nyahpaut $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Mesej daripada $NAME$ akan diabaikan di sini. Untuk menghentikannya daripada menghantar, nyahpaut juga komputer ini dalam apl SMS pada telefon itu.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ dinyahpaut.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Pautkan dengan telefon Android"
+  },
+  "pairOpenApp": {
+    "message": "Buka apl HMJ SMS pada telefon"
+  },
+  "pairAppPath": {
+    "message": "Tetapan → Penyegerakan Desktop → Imbas Kod QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Kod QR pemautan"
+  },
+  "copyCode": {
+    "message": "Salin kod"
+  },
+  "hide": {
+    "message": "Sembunyikan"
+  },
+  "pairingWarning": {
+    "message": "Kod ini mengandungi kunci pautan anda. Tunjukkan atau tampalkannya hanya pada telefon anda sendiri, dan jauhkan daripada penyegerakan papan keratan dan perkongsian skrin."
+  },
+  "pairingChanged": {
+    "message": "Pautan anda telah berubah. Imbas kod QR semula pada setiap telefon.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Pemberitahuan untuk sambungan ini dimatikan dalam penyemak imbas, jadi mesej disimpan tetapi tidak dipaparkan.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Sedia untuk SMS masuk"
+  },
+  "emptyText": {
+    "message": "SMS dan OTP masuk akan dipaparkan di sini dalam masa nyata."
+  },
+  "showPairingQrCode": {
+    "message": "Tunjukkan kod QR pemautan"
+  },
+  "connectedTo": {
+    "message": "Disambungkan ke $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Disambungkan ke $COUNT$ telefon",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Title of the empty message list when several phones are linked."
+  },
+  "connectedToCount_other": {
+    "message": "Disambungkan ke $COUNT$ telefon",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Menunggu makluman SMS & OTP daripada $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "copied": {
+    "message": "Disalin!"
+  },
+  "pairingCodeCopied": {
+    "message": "Kod pemautan disalin."
+  },
+  "otpCopied": {
+    "message": "OTP disalin."
+  },
+  "messageCopied": {
+    "message": "Mesej disalin."
+  },
+  "copyFailed": {
+    "message": "Gagal menyalin: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Tiada jawapan daripada proses latar belakang."
+  },
+  "unlinkAllTitle": {
+    "message": "Nyahpaut semua telefon?"
+  },
+  "unlinkAllText": {
+    "message": "Komputer ini mendapat kod pemautan baharu dan tiada telefon dapat mencapainya lagi. Semua mesej yang disimpan dalam sambungan ini dialih keluar. Telefon yang anda simpan mesti mengimbas kod QR baharu."
+  },
+  "unlinkAllAction": {
+    "message": "Nyahpaut semua"
+  },
+  "allPhonesUnlinked": {
+    "message": "Semua telefon dinyahpaut dan mesej dikosongkan. Imbas kod QR baharu untuk memautkan semula."
+  },
+  "unlinkFailed": {
+    "message": "Gagal menyahpaut: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Kosongkan mesej terbaharu?"
+  },
+  "clearText": {
+    "message": "Semua mesej yang disimpan dalam sambungan ini akan dialih keluar. Mesej pada telefon anda tidak terjejas."
+  },
+  "messagesCleared": {
+    "message": "Semua mesej yang disimpan telah dikosongkan."
+  },
+  "clearFailed": {
+    "message": "Gagal mengosongkan mesej: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Tidak dapat membuat kod pemautan: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Mesej baharu daripada $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Tidak diketahui"
+  },
+  "tagGroup": {
+    "message": "Kumpulan"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Dengan $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Salin OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Salin teks"
+  },
+  "copyMessage": {
+    "message": "Salin mesej"
+  },
+  "justNow": {
+    "message": "Sebentar tadi"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Foto"
+  },
+  "photos_one": {
+    "message": "$COUNT$ foto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Photos attached to an MMS."
+  },
+  "photos_other": {
+    "message": "$COUNT$ foto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Video"
+  },
+  "videos_one": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Videos attached to an MMS."
+  },
+  "videos_other": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Audio"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ klip audio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Audio clips attached to an MMS."
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ klip audio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Kenalan"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ kenalan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Contacts attached to an MMS."
+  },
+  "contacts_other": {
+    "message": "$COUNT$ kenalan",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Fail"
+  },
+  "files_one": {
+    "message": "$COUNT$ fail",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Files attached to an MMS."
+  },
+  "files_other": {
+    "message": "$COUNT$ fail",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ dalam kumpulan dengan $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "SMS baharu daripada $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "MMS baharu daripada $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Mesej baharu diterima daripada telefon"
+  },
+  "linkVerified": {
+    "message": "Pautan dengan $NAME$ disahkan! Makluman SMS segera aktif.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP TAMAT TEMPOH]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Dihantar selepas terputus) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ telah dinyahpaut",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Sebuah telefon"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ mesej diabaikan. Nyahpaut komputer ini dalam apl SMS pada telefon itu untuk menghentikannya, atau klik di sini untuk menyahpaut semua telefon.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Text of the notice about messages from an unlinked phone."
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ mesej diabaikan. Nyahpaut komputer ini dalam apl SMS pada telefon itu untuk menghentikannya, atau klik di sini untuk menyahpaut semua telefon.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Kod pemautan terlalu panjang untuk dibaca oleh telefon."
+  },
+  "noPhoneToUnlink": {
+    "message": "Tiada telefon untuk dinyahpaut."
+  },
+  "noPushService": {
+    "message": "Penyemak imbas ini tidak dapat menerima mesej tolak."
+  }
+}

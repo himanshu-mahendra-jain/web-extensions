@@ -1,0 +1,70 @@
+Zobrazujte SMS správy a OTP kódy zo svojho Android telefónu ako oznámenia na ploche, s koncovým šifrovaním a kopírovaním kódu jedným kliknutím.
+
+HMJ SMS Desktop Sync je odľahčené open-source rozšírenie, ktoré sa spája s aplikáciou HMJ SMS vo vašom Android telefóne. Keď vám na telefón príde správa, v priebehu okamihu sa zobrazí na obrazovke počítača, vďaka čomu môžete skopírovať prihlasovací kód bez toho, aby ste museli brať telefón do ruky.
+
+Správy putujú priamo z vášho telefónu do prehliadača prostredníctvom vstavanej push služby prehliadača, zašifrované výhradne pre tento konkrétny prehliadač. Medzi nimi nie je žiadny server a push služba obsah správ nedokáže prečítať.
+
+Tip: V ponuke Rozšírenia v prehliadači Edge zapnite možnosť «Zobraziť na paneli s nástrojmi» pre HMJ SMS Desktop Sync.
+
+HLAVNÉ FUNKCIE
+
+• Oznámenia na pracovnej ploche pre každú SMS doručenú do telefónu
+• Tlačidlá «Kopírovať OTP» a «Kopírovať správu» na každom oznámení; kliknutím na oznámenie sa skopíruje kód (alebo správa, ak kód neobsahuje)
+• Zoznam nedávnych správ v okne na paneli s nástrojmi s kopírovaním na 1 kliknutie
+• Zobrazenie, ktorý telefón a ktorá SIM karta správu prijala (napr. SIM 2: Jio)
+• Spárovanie viacerých telefónov; odpojenie jedného zariadenia alebo všetkých naraz vygenerovaním nového kódu
+• Okamžité spárovanie naskenovaním QR kódu – bez registrácie či prihlasovania
+• Koncové šifrovanie (E2EE) podľa štandardov Web Push (RFC 8291 a RFC 8292)
+• Plne ovládateľné pomocou klávesnice a čítačiek obrazovky; podpora tmavého režimu a vysokého kontrastu
+• Žiadne servery, žiadna analytika ani sledovanie používateľov
+
+SPÁROVANIE TELEFÓNU
+
+1. Kliknutím na ikonu HMJ SMS Desktop Sync na paneli s nástrojmi zobrazte párovací QR kód.
+2. Na telefóne otvorte aplikáciu HMJ SMS, otvorte menu a zvoľte «Desktop Sync».
+3. Klepnite na «Naskenovať QR kód» a namierte fotoaparát na obrazovku.
+
+Na ploche sa zobrazí skúšobné oznámenie potvrdzujúce úspešné spojenie. Ak chcete spárovať ďalší telefón, kliknite na «Spárovať ďalší» v okne rozšírenia.
+
+Párovací kód obsahuje kryptografické kľúče potrebné na komunikáciu s týmto prehliadačom. Zobrazujte a zadávajte ho iba na svojom vlastnom telefóne a neprenášajte ho cez zdieľanú schránku ani zdieľanie obrazovky.
+
+KOPÍROVANIE KÓDU
+
+Keď dorazí správa s overovacím kódom, kliknite na «Kopírovať OTP» na oznámení alebo kliknite priamo na oznámenie a vložte kód tam, kde ho potrebujete. Kód OTP doručený s oneskorením viac ako 10 minút sa označí ako expirovaný a je možné skopírovať iba text správy.
+
+PRIPOJENÉ TELEFÓNY
+
+Kliknutím na názov telefónu pod panelom nástrojov zobrazíte zoznam pripojených zariadení, ich poslednú aktivitu a môžete ktorékoľvek odpojiť. Správy z odpojeného telefónu budú odvtedy ignorované.
+
+V ponuke (⋮) nájdete voľbu «Odpojiť všetky telefóny» (vytvorí nový párovací kód, čím zabráni predchádzajúcim telefónom v spojení a vymaže uložené správy) a «Vymazať správy».
+
+Ak prehliadač ukončí spojenie, na ktoré telefóny odosielajú správy, napríklad po mesiacoch bez správ, vyskakovacie okno na to upozorní a zobrazí nový QR kód na naskenovanie na každom telefóne.
+
+SÚKROMIE
+
+• Bez servera: Správy putujú priamo z telefónu do prehliadača cez push službu, zašifrované tak, že ich dokáže prečítať iba tento prehliadač
+• Žiadna analytika ani sledovanie
+• Žiadny vzdialený kód ani externé skripty
+• Správy, názvy telefónov a párovací kľúč sú uložené výlučne lokálne vo vašom prehliadači
+• Správy staršie ako 24 hodín sa automaticky odstraňujú; uchováva sa maximálne 100 správ
+• Položka «Vymazať správy» v ponuke okamžite vymaže všetky uložené správy, rovnako ako «Odpojit všetky telefóny»
+
+OPRÁVNENIA
+
+• Oznámenia: Zobrazuje prichádzajúce správy ako systémové oznámenia na ploche
+• Schránka: Kopíruje kód OTP alebo správu po kliknutí na oznámenie či tlačidlo kopírovania
+• Úložisko: Uchováva spárované telefóny a nedávne správy lokálne v prehliadači
+• Dokument na pozadí (offscreen): Zapisuje do systémovej schránky, čo service worker v pozadí nemôže vykonávať priamo
+
+OBMEDZENIA
+
+• Vyžaduje aplikáciu HMJ SMS v Android telefóne.
+• Odpojenie telefónu v rozšírení spôsobí ignorovanie jeho správ na tomto počítači, avšak telefón ich bude naďalej odosielať, kým spojenie nezrušíte aj na ňom: Odpojte tento počítač tiež v aplikácii HMJ SMS v telefóne, alebo použite «Odpojiť všetky telefóny» (ponechané telefóny potom musia naskenovať nový kód).
+
+OPEN SOURCE
+
+HMJ SMS Desktop Sync je open-source projekt pod licenciou MIT.
+
+Zdrojový kód, hlásenie chýb a možnosť prispieť nájdete na GitHube:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

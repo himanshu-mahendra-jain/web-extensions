@@ -1,0 +1,70 @@
+Empfangen Sie SMS-Nachrichten und OTP-Codes Ihres Android-Smartphones als Desktop-Benachrichtigungen – Ende-zu-Ende-verschlüsselt und mit 1-Klick-Code-Kopieren.
+
+HMJ SMS Desktop Sync ist eine schlanke Open-Source-Erweiterung, die sich direkt mit der HMJ SMS App auf Ihrem Android-Smartphone koppelt. Trifft eine Nachricht auf Ihrem Smartphone ein, erscheint sie sofort auf Ihrem Desktop – so können Sie Anmeldecodes blitzschnell kopieren, ohne das Smartphone in die Hand nehmen zu müssen.
+
+Nachrichten werden über den browserinternen Push-Dienst direkt von Ihrem Smartphone an Ihren Browser übertragen – verschlüsselt ausschließlich für diesen Browser. Es gibt keine Zwischenserver, und der Push-Dienst kann die Inhalte nicht mitlesen.
+
+Tipp: Aktivieren Sie im Edge-Erweiterungsmenü die Option «In Symbolleiste anzeigen» für HMJ SMS Desktop Sync, um schnellen Zugriff zu haben.
+
+WICHTIGSTE FUNKTIONEN
+
+• Desktop-Benachrichtigungen für jede SMS, die auf Ihrem Smartphone eingeht
+• Schaltflächen «OTP kopieren» und «Nachricht kopieren» in jeder Benachrichtigung; ein Klick auf die Benachrichtigung kopiert den OTP-Code (oder den Nachrichtentext, falls kein Code enthalten ist)
+• Letzte Nachrichten direkt im Symbolleisten-Popup mit 1-Klick-Kopierfunktion
+• Anzeige, welches Smartphone und welche SIM-Karte die Nachricht empfangen hat (z. B. SIM 2: Jio)
+• Mehrere Smartphones koppeln; einzelne Geräte über das Popup trennen oder alle auf einmal mit einem neuen Kopplungscode
+• Einfache Kopplung per QR-Code-Scan – komplett ohne Konto oder Registrierung
+• Ende-zu-Ende-verschlüsselt nach den Standards Web Push (RFC 8291 und RFC 8292)
+• Vollständig per Tastatur und Screenreader bedienbar; unterstützt Dunkelmodus und Kontrastdesigns
+• Kein Server, keine Telemetrie, kein Tracking
+
+SMARTPHONE KOPPELN
+
+1. Klicken Sie in der Symbolleiste auf das Symbol von HMJ SMS Desktop Sync, um den QR-Code anzuzeigen.
+2. Öffnen Sie auf Ihrem Smartphone die HMJ SMS App, rufen Sie das Menü auf und wählen Sie «Desktop Sync».
+3. Tippen Sie auf «QR-Code scannen» und erfassen Sie den auf dem Bildschirm angezeigten Code.
+
+Eine Testbenachrichtigung auf Ihrem Desktop bestätigt die erfolgreiche Verbindung. Um ein weiteres Smartphone zu koppeln, klicken Sie im Popup auf «Weiteres koppeln».
+
+Der Kopplungscode enthält die kryptografischen Schlüssel für die Verbindung zu diesem Browser. Zeigen oder übertragen Sie ihn ausschließlich auf Ihr eigenes Smartphone und teilen Sie ihn nicht über Zwischenablage-Synchronisierung oder Bildschirmfreigaben.
+
+CODE KOPIEREN
+
+Wenn eine Nachricht mit Code eintrifft, klicken Sie in der Benachrichtigung auf «OTP kopieren» oder klicken Sie direkt auf die Benachrichtigung, um den Code einzufügen. Ein OTP, der mit mehr als 10 Minuten Verzögerung zugestellt wird, wird als abgelaufen markiert; in diesem Fall kann nur der Nachrichtentext kopiert werden.
+
+GEKOPPELTE SMARTPHONES
+
+Klicken Sie im Popup auf den Namen des Smartphones, um alle verbundenen Geräte sowie deren letzte Aktivität anzuzeigen und bei Bedarf ein Gerät zu trennen. Dessen Nachrichten werden ab dann ignoriert.
+
+Über das Menü (⋮) im Popup können Sie «Alle Smartphones trennen» auswählen (erzeugt einen neuen Kopplungscode, sodass kein Smartphone diesen Browser mehr erreichen kann, und löscht den lokalen Verlauf) sowie «Nachrichten löschen».
+
+Falls der Browser die Verbindung beendet, an die die Smartphones senden (etwa nach monatelanger Inaktivität), weist das Popup darauf hin und zeigt einen neuen QR-Code an, der auf jedem Smartphone gescannt werden muss.
+
+DATENSCHUTZ
+
+• Ohne Server: Nachrichten gelangen über den Push-Dienst des Browsers direkt vom Smartphone in Ihren Browser – so verschlüsselt, dass nur dieser Browser sie entschlüsseln kann
+• Keine Analysen, keine Telemetrie und kein Nutzer-Tracking
+• Kein Remote-Code und kein externes JavaScript
+• Nachrichten, Gerätenamen und Kopplungsschlüssel werden ausschließlich lokal in Ihrem Browser gespeichert
+• Nachrichten, die älter als 24 Stunden sind, werden automatisch gelöscht; maximal 100 Nachrichten werden aufbewahrt
+• «Nachrichten löschen» im Menü entfernt sofort alle gespeicherten Nachrichten, ebenso wie «Alle Smartphones trennen»
+
+BERECHTIGUNGEN
+
+• Benachrichtigungen: Zeigt jede eingehende Nachricht als Desktop-Benachrichtigung an
+• Zwischenablage: Kopiert den OTP-Code oder die Nachricht beim Klick auf eine Benachrichtigung oder Kopierschaltfläche
+• Speicher: Speichert gekoppelte Smartphones und aktuelle Nachrichten lokal in Ihrem Browser
+• Offscreen-Dokument: Schreibt in die Zwischenablage (eine Funktion, die der Hintergrund-Service-Worker nicht direkt ausführen kann)
+
+EINSCHRÄNKUNGEN
+
+• Erfordert die HMJ SMS App auf einem Android-Smartphone.
+• Das Trennen eines Smartphones in der Erweiterung ignoriert künftige Nachrichten hier, aber das Smartphone sendet sie weiterhin, solange die Verbindung dort besteht: Trennen Sie diesen Computer daher auch in der HMJ SMS App auf dem Smartphone oder nutzen Sie «Alle Smartphones trennen» (die verbleibenden Geräte müssen danach den neuen QR-Code scannen).
+
+OPEN SOURCE
+
+HMJ SMS Desktop Sync ist Open Source und unter der MIT-Lizenz lizenziert.
+
+Quellcode einsehen, Probleme melden oder beitragen auf GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

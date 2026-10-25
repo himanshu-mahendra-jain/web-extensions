@@ -4,6 +4,9 @@ A browser extension that clears browsing history, cookies, and site data for eve
 
 Add the sites you want to stay signed in to and remember on the settings page, then turn clearing on. Each time the browser starts, the extension removes the history entries, cookies, and site data of all other sites. You can also clear on demand from the settings page.
 
+<a href="https://microsoftedge.microsoft.com/addons/detail/clear-browsing-data-excep/fknkfbjpdbiobbibjcpjkpeebbcgljlc" rel="noopener noreferrer"><img src="https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/add-ons-badge-images/microsoft-edge-add-ons-badge.png" alt="Get it from Microsoft Edge"></a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/clear-browsing-data-except/" rel="noopener noreferrer"><img src="https://blog.mozilla.org/addons/files/2015/11/get-the-addon.png" alt="Get the add-on"></a>
+
 ▶ [Watch the 42-second video on YouTube](https://www.youtube.com/watch?v=t0ZZ6IDzdIU)
 
 ## Supported Browsers

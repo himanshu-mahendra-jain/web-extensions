@@ -1,0 +1,541 @@
+{
+  "extensionDescription": {
+    "message": "免伺服器、端對端加密，即時同步 Android 手機的簡訊與驗證碼通知，一鍵複製。"
+  },
+  "statusLinked": {
+    "message": "已連結"
+  },
+  "statusLinkedCount_one": {
+    "message": "已連結 $COUNT$ 支",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Header badge when several phones are linked."
+  },
+  "statusLinkedCount_other": {
+    "message": "已連結 $COUNT$ 支",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "未連結"
+  },
+  "pairButton": {
+    "message": "配對"
+  },
+  "pairButtonTitle": {
+    "message": "顯示配對 QR 圖碼"
+  },
+  "pairAnotherButton": {
+    "message": "新增"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "顯示 QR 圖碼以連結另一支手機"
+  },
+  "moreOptions": {
+    "message": "更多選項"
+  },
+  "unlinkAllPhones": {
+    "message": "取消連結所有手機"
+  },
+  "clearMessages": {
+    "message": "清除訊息"
+  },
+  "phoneFallbackName": {
+    "message": "手機"
+  },
+  "bannerLinked": {
+    "message": "（已連結）"
+  },
+  "bannerLinkedCount_one": {
+    "message": "（已連結 $COUNT$ 支手機）",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "After the phones' names in the banner."
+  },
+  "bannerLinkedCount_other": {
+    "message": "（已連結 $COUNT$ 支手機）",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "使用中"
+  },
+  "linkedPhones": {
+    "message": "已連結的手機"
+  },
+  "lastActive": {
+    "message": "上次使用：$TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "取消連結"
+  },
+  "unlinkPhone": {
+    "message": "取消連結 $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "要取消連結 $NAME$ 嗎？",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "來自 $NAME$ 的訊息將在此被忽略。若要徹底停止發送，請在手機端的 SMS 應用程式中一併解除與此電腦的連結。",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "已取消連結 $NAME$。",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "與 Android 手機配對"
+  },
+  "pairOpenApp": {
+    "message": "在手機上開啟 HMJ SMS 應用程式"
+  },
+  "pairAppPath": {
+    "message": "設定 → 桌面同步 → 掃描 QR 碼",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "配對 QR 圖碼"
+  },
+  "copyCode": {
+    "message": "複製代碼"
+  },
+  "hide": {
+    "message": "隱藏"
+  },
+  "pairingWarning": {
+    "message": "此配對代碼包含與此瀏覽器通訊所需的加密金鑰。請僅在您個人的手機上顯示或貼上，切勿透過剪貼簿同步或螢幕分享外洩。"
+  },
+  "pairingChanged": {
+    "message": "配對資訊已變更。請在每部手機上重新掃描 QR 碼。",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "瀏覽器已停用此擴充功能的通知，訊息將會儲存但不會跳出提示。",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "準備接收簡訊"
+  },
+  "emptyText": {
+    "message": "收到的簡訊和驗證碼會即時顯示在這裡。"
+  },
+  "showPairingQrCode": {
+    "message": "顯示配對 QR 圖碼"
+  },
+  "connectedTo": {
+    "message": "已連線至 $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "已連線至 $COUNT$ 支手機",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Title of the empty message list when several phones are linked."
+  },
+  "connectedToCount_other": {
+    "message": "已連線至 $COUNT$ 支手機",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "正在等待來自 $NAMES$ 的簡訊與 OTP 驗證碼通知。",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "copied": {
+    "message": "已複製！"
+  },
+  "pairingCodeCopied": {
+    "message": "已複製配對代碼。"
+  },
+  "otpCopied": {
+    "message": "已複製驗證碼。"
+  },
+  "messageCopied": {
+    "message": "已複製訊息。"
+  },
+  "copyFailed": {
+    "message": "無法複製：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "背景服務沒有回應。"
+  },
+  "unlinkAllTitle": {
+    "message": "要取消連結所有手機嗎？"
+  },
+  "unlinkAllText": {
+    "message": "這台電腦會取得新的配對代碼，任何手機都無法再連線到它。這個擴充功能中儲存的所有訊息都會遭到移除。要繼續使用的手機必須掃描新的 QR 圖碼。"
+  },
+  "unlinkAllAction": {
+    "message": "全部取消連結"
+  },
+  "allPhonesUnlinked": {
+    "message": "已取消連結所有手機並清除訊息。掃描新的 QR 圖碼即可重新配對。"
+  },
+  "unlinkFailed": {
+    "message": "無法取消連結：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "要清除最近的訊息嗎？"
+  },
+  "clearText": {
+    "message": "這個擴充功能中儲存的所有訊息都會遭到移除。手機上的訊息不受影響。"
+  },
+  "messagesCleared": {
+    "message": "已清除所有儲存的訊息。"
+  },
+  "clearFailed": {
+    "message": "無法清除訊息：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "無法建立配對代碼：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "來自 $SENDER$ 的新訊息。",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "不明"
+  },
+  "tagGroup": {
+    "message": "群組"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM 卡 $SLOT$：$NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM 卡 $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "與 $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "複製驗證碼（$OTP$）",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "複製文字"
+  },
+  "copyMessage": {
+    "message": "複製訊息"
+  },
+  "justNow": {
+    "message": "剛剛"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "相片"
+  },
+  "photos_one": {
+    "message": "$COUNT$ 張相片",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Photos attached to an MMS."
+  },
+  "photos_other": {
+    "message": "$COUNT$ 張相片",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "影片"
+  },
+  "videos_one": {
+    "message": "$COUNT$ 部影片",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Videos attached to an MMS."
+  },
+  "videos_other": {
+    "message": "$COUNT$ 部影片",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "音訊"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ 段音訊",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Audio clips attached to an MMS."
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ 段音訊",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "聯絡人"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ 位聯絡人",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Contacts attached to an MMS."
+  },
+  "contacts_other": {
+    "message": "$COUNT$ 位聯絡人",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "檔案"
+  },
+  "files_one": {
+    "message": "$COUNT$ 個檔案",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Files attached to an MMS."
+  },
+  "files_other": {
+    "message": "$COUNT$ 個檔案",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ 在與 $NAMES$ 的群組中",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "來自 $SENDER$ 的新簡訊",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "來自 $SENDER$ 的新多媒體簡訊",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "收到來自手機的新訊息"
+  },
+  "linkVerified": {
+    "message": "已驗證與 $NAME$ 的連線！即時簡訊通知已啟用。",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[驗證碼已過期]"
+  },
+  "simBadge": {
+    "message": "[SIM 卡 $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "（中斷連線後送達）$TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ 已取消連結",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "一支手機"
+  },
+  "ignoredMessages_one": {
+    "message": "已忽略 $COUNT$ 則訊息。請在該手機的簡訊應用程式中取消連結這台電腦以停止接收，或按一下這裡取消連結所有手機。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Text of the notice about messages from an unlinked phone."
+  },
+  "ignoredMessages_other": {
+    "message": "已忽略 $COUNT$ 則訊息。請在該手機的簡訊應用程式中取消連結這台電腦以停止接收，或按一下這裡取消連結所有手機。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "配對代碼過長，手機無法辨識讀取。"
+  },
+  "noPhoneToUnlink": {
+    "message": "沒有可取消連結的手機。"
+  },
+  "noPushService": {
+    "message": "此瀏覽器無法接收推播通知。"
+  }
+}

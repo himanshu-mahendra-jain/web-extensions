@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Android மொபைலிலிருந்து சர்வர் இன்றி, என்க்ரிப்ட் செய்த SMS, OTP அறிவிப்புகள் உடனுக்குடன்; 1 கிளிக்கில் நகலெடுக்கலாம்."
+  },
+  "statusLinked": {
+    "message": "இணைக்கப்பட்டது"
+  },
+  "statusLinkedCount_one": {
+    "message": "இணைக்கப்பட்டவை: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "இணைக்கப்பட்டவை: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "இணைக்கவில்லை"
+  },
+  "pairButton": {
+    "message": "இணை"
+  },
+  "pairButtonTitle": {
+    "message": "இணைப்பதற்கான QR குறியீட்டைக் காட்டு"
+  },
+  "pairAnotherButton": {
+    "message": "சேர்"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "மற்றொரு மொபைலை இணைக்க QR குறியீட்டைக் காட்டு"
+  },
+  "moreOptions": {
+    "message": "கூடுதல் விருப்பங்கள்"
+  },
+  "unlinkAllPhones": {
+    "message": "எல்லா மொபைல்களையும் துண்டி"
+  },
+  "clearMessages": {
+    "message": "மெசேஜ்களை அழி"
+  },
+  "phoneFallbackName": {
+    "message": "மொபைல்"
+  },
+  "bannerLinked": {
+    "message": "(இணைக்கப்பட்டது)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ மொபைல் இணைக்கப்பட்டது)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ மொபைல்கள் இணைக்கப்பட்டன)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "செயலில்"
+  },
+  "linkedPhones": {
+    "message": "இணைக்கப்பட்ட மொபைல்கள்"
+  },
+  "lastActive": {
+    "message": "கடைசியாகச் செயலில்: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "துண்டி"
+  },
+  "unlinkPhone": {
+    "message": "$NAME$ ஐத் துண்டி",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "$NAME$ ஐத் துண்டிக்கவா?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "$NAME$ இலிருந்து வரும் மெசேஜ்கள் இங்கே புறக்கணிக்கப்படும். அது அனுப்புவதை நிறுத்த, அந்த மொபைலின் SMS ஆப்ஸிலும் இந்தக் கம்ப்யூட்டரைத் துண்டிக்கவும்.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ துண்டிக்கப்பட்டது.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Android மொபைலுடன் இணை"
+  },
+  "pairOpenApp": {
+    "message": "மொபைலில் HMJ SMS ஆப்ஸைத் திறக்கவும்"
+  },
+  "pairAppPath": {
+    "message": "அமைப்புகள் → டெஸ்க்டாப் ஒத்திசைவு → QR குறியீட்டை ஸ்கேன் செய்க",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "இணைப்பதற்கான QR குறியீடு"
+  },
+  "copyCode": {
+    "message": "குறியீட்டை நகலெடு"
+  },
+  "hide": {
+    "message": "மறை"
+  },
+  "pairingWarning": {
+    "message": "இந்தக் குறியீட்டில் உங்கள் இணைப்பின் சாவிகள் உள்ளன. உங்கள் சொந்த மொபைலில் மட்டும் இதைக் காட்டவும் அல்லது ஒட்டவும், கிளிப்போர்டு ஒத்திசைவு மற்றும் திரைப் பகிர்விலிருந்து விலக்கி வைக்கவும்."
+  },
+  "pairingChanged": {
+    "message": "உங்கள் இணைப்பு மாறிவிட்டது. ஒவ்வொரு மொபைலிலும் QR குறியீட்டை மீண்டும் ஸ்கேன் செய்யவும்.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "உலாவியில் இந்த நீட்டிப்புக்கான அறிவிப்புகள் முடக்கப்பட்டுள்ளன, எனவே மெசேஜ்கள் சேமிக்கப்படும், ஆனால் காட்டப்படாது.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "வரும் SMSகளுக்குத் தயார்"
+  },
+  "emptyText": {
+    "message": "வரும் SMSகளும் OTPகளும் இங்கே உடனுக்குடன் தோன்றும்."
+  },
+  "showPairingQrCode": {
+    "message": "இணைப்பதற்கான QR குறியீட்டைக் காட்டு"
+  },
+  "connectedTo": {
+    "message": "$NAME$ உடன் இணைக்கப்பட்டது",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "$COUNT$ மொபைலுடன் இணைக்கப்பட்டது",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "$COUNT$ மொபைல்களுடன் இணைக்கப்பட்டது",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "$NAMES$ இலிருந்து SMS, OTP விழிப்பூட்டல்களுக்காகக் காத்திருக்கிறது.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "ரத்துசெய்"
+  },
+  "copied": {
+    "message": "நகலெடுக்கப்பட்டது!"
+  },
+  "pairingCodeCopied": {
+    "message": "இணைப்புக் குறியீடு நகலெடுக்கப்பட்டது."
+  },
+  "otpCopied": {
+    "message": "OTP நகலெடுக்கப்பட்டது."
+  },
+  "messageCopied": {
+    "message": "மெசேஜ் நகலெடுக்கப்பட்டது."
+  },
+  "copyFailed": {
+    "message": "நகலெடுக்க முடியவில்லை: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "பின்னணியிலிருந்து பதில் இல்லை."
+  },
+  "unlinkAllTitle": {
+    "message": "எல்லா மொபைல்களையும் துண்டிக்கவா?"
+  },
+  "unlinkAllText": {
+    "message": "இந்தக் கம்ப்யூட்டருக்குப் புதிய இணைப்புக் குறியீடு கிடைக்கும், இனி எந்த மொபைலும் இதை அணுக முடியாது. இந்த நீட்டிப்பில் சேமிக்கப்பட்ட எல்லா மெசேஜ்களும் அகற்றப்படும். நீங்கள் வைத்திருக்கும் மொபைல்கள் புதிய QR குறியீட்டை ஸ்கேன் செய்ய வேண்டும்."
+  },
+  "unlinkAllAction": {
+    "message": "அனைத்தையும் துண்டி"
+  },
+  "allPhonesUnlinked": {
+    "message": "எல்லா மொபைல்களும் துண்டிக்கப்பட்டு மெசேஜ்கள் அழிக்கப்பட்டன. மீண்டும் இணைக்கப் புதிய QR குறியீட்டை ஸ்கேன் செய்யவும்."
+  },
+  "unlinkFailed": {
+    "message": "துண்டிக்க முடியவில்லை: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "சமீபத்திய மெசேஜ்களை அழிக்கவா?"
+  },
+  "clearText": {
+    "message": "இந்த நீட்டிப்பில் சேமிக்கப்பட்ட எல்லா மெசேஜ்களும் அகற்றப்படும். உங்கள் மொபைலில் உள்ள மெசேஜ்கள் பாதிக்கப்படாது."
+  },
+  "messagesCleared": {
+    "message": "சேமிக்கப்பட்ட எல்லா மெசேஜ்களும் அழிக்கப்பட்டன."
+  },
+  "clearFailed": {
+    "message": "மெசேஜ்களை அழிக்க முடியவில்லை: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "இணைப்புக் குறியீட்டை உருவாக்க முடியவில்லை: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "$SENDER$ இடமிருந்து புதிய மெசேஜ்.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "தெரியாதவர்"
+  },
+  "tagGroup": {
+    "message": "குழு"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "$NAMES$ உடன்",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "OTP ஐ நகலெடு ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "உரையை நகலெடு"
+  },
+  "copyMessage": {
+    "message": "மெசேஜை நகலெடு"
+  },
+  "justNow": {
+    "message": "இப்போது"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "படம்"
+  },
+  "photos_one": {
+    "message": "$COUNT$ படம்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ படங்கள்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "வீடியோ"
+  },
+  "videos_one": {
+    "message": "$COUNT$ வீடியோ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ வீடியோக்கள்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "ஆடியோ"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ ஆடியோ கிளிப்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ ஆடியோ கிளிப்புகள்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "தொடர்பு"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ தொடர்பு",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ தொடர்புகள்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "ஃபைல்"
+  },
+  "files_one": {
+    "message": "$COUNT$ ஃபைல்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ ஃபைல்கள்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$NAMES$ உள்ள குழுவில் $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "$SENDER$ இடமிருந்து புதிய SMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "$SENDER$ இடமிருந்து புதிய MMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "மொபைலிலிருந்து புதிய மெசேஜ் வந்துள்ளது"
+  },
+  "linkVerified": {
+    "message": "$NAME$ உடனான இணைப்பு சரிபார்க்கப்பட்டது! உடனடி SMS விழிப்பூட்டல்கள் செயலில் உள்ளன.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[காலாவதியான OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(துண்டிப்புக்குப் பின் வந்தது) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ துண்டிக்கப்பட்டுள்ளது",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "ஒரு மொபைல்"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ மெசேஜ் புறக்கணிக்கப்பட்டது. அவற்றை நிறுத்த அந்த மொபைலின் SMS ஆப்ஸில் இந்தக் கம்ப்யூட்டரைத் துண்டிக்கவும், அல்லது எல்லா மொபைல்களையும் துண்டிக்க இங்கே கிளிக் செய்யவும்.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ மெசேஜ்கள் புறக்கணிக்கப்பட்டன. அவற்றை நிறுத்த அந்த மொபைலின் SMS ஆப்ஸில் இந்தக் கம்ப்யூட்டரைத் துண்டிக்கவும், அல்லது எல்லா மொபைல்களையும் துண்டிக்க இங்கே கிளிக் செய்யவும்.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "இணைப்புக் குறியீடு மொபைல் படிக்க முடியாத அளவுக்கு நீளமாக உள்ளது."
+  },
+  "noPhoneToUnlink": {
+    "message": "துண்டிக்க மொபைல் எதுவும் இல்லை."
+  },
+  "noPushService": {
+    "message": "இந்த உலாவியால் புஷ் மெசேஜ்களைப் பெற முடியாது."
+  }
+}

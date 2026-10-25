@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Serverloze, end-to-end versleutelde realtime sms- en OTP-meldingen van je Android-telefoon, met kopiëren in 1 klik."
+  },
+  "statusLinked": {
+    "message": "Gekoppeld"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ gekoppeld",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ gekoppeld",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Niet gekoppeld"
+  },
+  "pairButton": {
+    "message": "Koppelen"
+  },
+  "pairButtonTitle": {
+    "message": "QR-code voor koppelen tonen"
+  },
+  "pairAnotherButton": {
+    "message": "Toevoegen"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "QR-code tonen om nog een telefoon te koppelen"
+  },
+  "moreOptions": {
+    "message": "Meer opties"
+  },
+  "unlinkAllPhones": {
+    "message": "Alle telefoons ontkoppelen"
+  },
+  "clearMessages": {
+    "message": "Berichten wissen"
+  },
+  "phoneFallbackName": {
+    "message": "Telefoon"
+  },
+  "bannerLinked": {
+    "message": "(gekoppeld)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ telefoon gekoppeld)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ telefoons gekoppeld)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Actief"
+  },
+  "linkedPhones": {
+    "message": "Gekoppelde telefoons"
+  },
+  "lastActive": {
+    "message": "Laatst actief: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Ontkoppelen"
+  },
+  "unlinkPhone": {
+    "message": "$NAME$ ontkoppelen",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "$NAME$ ontkoppelen?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Berichten van $NAME$ worden hier genegeerd. Ontkoppel ook deze computer in de sms-app op die telefoon om het verzenden te stoppen.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ ontkoppeld.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Koppelen met Android-telefoon"
+  },
+  "pairOpenApp": {
+    "message": "Open de HMJ SMS-app op je telefoon"
+  },
+  "pairAppPath": {
+    "message": "Instellingen → Desktopsynchronisatie → QR-code scannen",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "QR-code voor koppelen"
+  },
+  "copyCode": {
+    "message": "Code kopiëren"
+  },
+  "hide": {
+    "message": "Verbergen"
+  },
+  "pairingWarning": {
+    "message": "Deze code bevat de sleutels van je koppeling. Toon of plak hem alleen op je eigen telefoon en houd hem weg van klembordsynchronisatie en schermdelen."
+  },
+  "pairingChanged": {
+    "message": "Uw koppeling is gewijzigd. Scan de QR-code opnieuw op elke telefoon.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Meldingen zijn uitgeschakeld voor deze extensie in de browser, dus berichten worden opgeslagen maar niet weergegeven.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Klaar voor inkomende sms'jes"
+  },
+  "emptyText": {
+    "message": "Inkomende sms'jes en OTP's verschijnen hier in realtime."
+  },
+  "showPairingQrCode": {
+    "message": "QR-code voor koppelen tonen"
+  },
+  "connectedTo": {
+    "message": "Verbonden met $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Verbonden met $COUNT$ telefoon",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Verbonden met $COUNT$ telefoons",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Wachten op inkomende SMS- en OTP-meldingen van $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Annuleren"
+  },
+  "copied": {
+    "message": "Gekopieerd!"
+  },
+  "pairingCodeCopied": {
+    "message": "Koppelcode gekopieerd."
+  },
+  "otpCopied": {
+    "message": "OTP gekopieerd."
+  },
+  "messageCopied": {
+    "message": "Bericht gekopieerd."
+  },
+  "copyFailed": {
+    "message": "Kopiëren mislukt: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Geen reactie van de achtergrondservice."
+  },
+  "unlinkAllTitle": {
+    "message": "Alle telefoons ontkoppelen?"
+  },
+  "unlinkAllText": {
+    "message": "Deze computer krijgt een nieuwe koppelcode en geen enkele telefoon kan hem nog bereiken. Alle berichten die in deze extensie zijn opgeslagen, worden verwijderd. Telefoons die je wilt houden, moeten de nieuwe QR-code scannen."
+  },
+  "unlinkAllAction": {
+    "message": "Alles ontkoppelen"
+  },
+  "allPhonesUnlinked": {
+    "message": "Alle telefoons ontkoppeld en berichten gewist. Scan de nieuwe QR-code om opnieuw te koppelen."
+  },
+  "unlinkFailed": {
+    "message": "Ontkoppelen mislukt: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Recente berichten wissen?"
+  },
+  "clearText": {
+    "message": "Alle berichten die in deze extensie zijn opgeslagen, worden verwijderd. Berichten op je telefoon blijven ongewijzigd."
+  },
+  "messagesCleared": {
+    "message": "Alle opgeslagen berichten gewist."
+  },
+  "clearFailed": {
+    "message": "Berichten wissen mislukt: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Kan geen koppelcode maken: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Nieuw bericht van $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Onbekend"
+  },
+  "tagGroup": {
+    "message": "Groep"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Met $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "OTP kopiëren ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Tekst kopiëren"
+  },
+  "copyMessage": {
+    "message": "Bericht kopiëren"
+  },
+  "justNow": {
+    "message": "Zojuist"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Foto"
+  },
+  "photos_one": {
+    "message": "$COUNT$ foto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ foto's",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Video"
+  },
+  "videos_one": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ video's",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Audio"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ audiofragment",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ audiofragmenten",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Contact"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ contact",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ contacten",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Bestand"
+  },
+  "files_one": {
+    "message": "$COUNT$ bestand",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ bestanden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ in groep met $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Nieuwe sms van $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Nieuwe mms van $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Nieuw bericht ontvangen van de telefoon"
+  },
+  "linkVerified": {
+    "message": "Verbinding met $NAME$ geverifieerd! Directe SMS-meldingen zijn actief.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP VERLOPEN]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Bezorgd na verbroken verbinding) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ is ontkoppeld",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Een telefoon"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ bericht genegeerd. Ontkoppel deze computer in de sms-app op die telefoon om ze te stoppen, of klik hier om alle telefoons te ontkoppelen.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ berichten genegeerd. Ontkoppel deze computer in de sms-app op die telefoon om ze te stoppen, of klik hier om alle telefoons te ontkoppelen.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "De koppelcode is te lang om door de telefoon te worden gelezen."
+  },
+  "noPhoneToUnlink": {
+    "message": "Geen telefoon om te ontkoppelen."
+  },
+  "noPushService": {
+    "message": "Deze browser kan geen pushberichten ontvangen."
+  }
+}

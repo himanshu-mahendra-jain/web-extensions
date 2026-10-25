@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Notificacions d'SMS i OTP en temps real des del teu Android, xifrades d'extrem a extrem, sense servidor i amb còpia en 1 clic."
+  },
+  "statusLinked": {
+    "message": "Vinculat"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ vinculat",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ vinculats",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "No vinculat"
+  },
+  "pairButton": {
+    "message": "Vincula"
+  },
+  "pairButtonTitle": {
+    "message": "Mostra el codi QR de vinculació"
+  },
+  "pairAnotherButton": {
+    "message": "Afegeix"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Mostra el codi QR per vincular un altre telèfon"
+  },
+  "moreOptions": {
+    "message": "Més opcions"
+  },
+  "unlinkAllPhones": {
+    "message": "Desvincula tots els telèfons"
+  },
+  "clearMessages": {
+    "message": "Esborra els missatges"
+  },
+  "phoneFallbackName": {
+    "message": "Telèfon"
+  },
+  "bannerLinked": {
+    "message": "(vinculat)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ telèfon vinculat)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ telèfons vinculats)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Actiu"
+  },
+  "linkedPhones": {
+    "message": "Telèfons vinculats"
+  },
+  "lastActive": {
+    "message": "Darrera activitat: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Desvincula"
+  },
+  "unlinkPhone": {
+    "message": "Desvincula $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Vols desvincular $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Els missatges de $NAME$ s'ignoraran aquí. Perquè deixi d'enviar-los, desvincula també aquest ordinador a l'app SMS d'aquell telèfon.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ s'ha desvinculat.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Vincula amb un telèfon Android"
+  },
+  "pairOpenApp": {
+    "message": "Obre l'app HMJ SMS al telèfon"
+  },
+  "pairAppPath": {
+    "message": "Configuració → Sincronització amb l'escriptori → Escanejar el codi QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Codi QR de vinculació"
+  },
+  "copyCode": {
+    "message": "Copia el codi"
+  },
+  "hide": {
+    "message": "Amaga"
+  },
+  "pairingWarning": {
+    "message": "Aquest codi conté les claus del teu vincle. Mostra'l o enganxa'l només al teu propi telèfon i mantén-lo lluny de la sincronització del porta-retalls i de la compartició de pantalla."
+  },
+  "pairingChanged": {
+    "message": "La vinculació ha canviat. Torna a escanejar el codi QR a cada telèfon.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Les notificacions d'aquesta extensió estan desactivades al navegador, de manera que els missatges es desen però no es mostren.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "A punt per rebre SMS"
+  },
+  "emptyText": {
+    "message": "Els SMS i OTP entrants apareixeran aquí en temps real."
+  },
+  "showPairingQrCode": {
+    "message": "Mostra el codi QR de vinculació"
+  },
+  "connectedTo": {
+    "message": "Connectat a $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Connectat a $COUNT$ telèfon",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Connectat a $COUNT$ telèfons",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "S'esperen alertes d'SMS i OTP de $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Cancel·la"
+  },
+  "copied": {
+    "message": "Copiat!"
+  },
+  "pairingCodeCopied": {
+    "message": "S'ha copiat el codi de vinculació."
+  },
+  "otpCopied": {
+    "message": "S'ha copiat l'OTP."
+  },
+  "messageCopied": {
+    "message": "S'ha copiat el missatge."
+  },
+  "copyFailed": {
+    "message": "No s'ha pogut copiar: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "No hi ha resposta del procés en segon pla."
+  },
+  "unlinkAllTitle": {
+    "message": "Vols desvincular tots els telèfons?"
+  },
+  "unlinkAllText": {
+    "message": "Aquest ordinador rep un codi de vinculació nou i cap telèfon no hi podrà accedir. S'eliminaran tots els missatges desats en aquesta extensió. Els telèfons que vulguis conservar hauran d'escanejar el codi QR nou."
+  },
+  "unlinkAllAction": {
+    "message": "Desvincula'ls tots"
+  },
+  "allPhonesUnlinked": {
+    "message": "S'han desvinculat tots els telèfons i s'han esborrat els missatges. Escaneja el codi QR nou per tornar a vincular."
+  },
+  "unlinkFailed": {
+    "message": "No s'ha pogut desvincular: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Vols esborrar els missatges recents?"
+  },
+  "clearText": {
+    "message": "S'eliminaran tots els missatges desats en aquesta extensió. Els missatges del telèfon no es veuran afectats."
+  },
+  "messagesCleared": {
+    "message": "S'han esborrat tots els missatges desats."
+  },
+  "clearFailed": {
+    "message": "No s'han pogut esborrar els missatges: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "No s'ha pogut crear un codi de vinculació: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Missatge nou de $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Desconegut"
+  },
+  "tagGroup": {
+    "message": "Grup"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Amb $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Copia l'OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Copia el text"
+  },
+  "copyMessage": {
+    "message": "Copia el missatge"
+  },
+  "justNow": {
+    "message": "Ara mateix"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Foto"
+  },
+  "photos_one": {
+    "message": "$COUNT$ foto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ fotos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Vídeo"
+  },
+  "videos_one": {
+    "message": "$COUNT$ vídeo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ vídeos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Àudio"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ clip d'àudio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ clips d'àudio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Contacte"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ contacte",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ contactes",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Fitxer"
+  },
+  "files_one": {
+    "message": "$COUNT$ fitxer",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ fitxers",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ en un grup amb $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "SMS nou de $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "MMS nou de $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Missatge nou rebut del telèfon"
+  },
+  "linkVerified": {
+    "message": "S'ha verificat el vincle amb $NAME$! Les alertes d'SMS instantànies estan actives.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP CADUCAT]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Lliurat després de la desconnexió) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ està desvinculat",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Un telèfon"
+  },
+  "ignoredMessages_one": {
+    "message": "S'ha ignorat $COUNT$ missatge. Desvincula aquest ordinador a l'app SMS d'aquell telèfon per aturar-los, o fes clic aquí per desvincular tots els telèfons.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "S'han ignorat $COUNT$ missatges. Desvincula aquest ordinador a l'app SMS d'aquell telèfon per aturar-los, o fes clic aquí per desvincular tots els telèfons.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "El codi de vinculació és massa llarg perquè el telèfon el pugui llegir."
+  },
+  "noPhoneToUnlink": {
+    "message": "No hi ha cap telèfon per desvincular."
+  },
+  "noPushService": {
+    "message": "Aquest navegador no pot rebre missatges push."
+  }
+}

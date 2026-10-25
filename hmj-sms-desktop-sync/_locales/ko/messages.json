@@ -1,0 +1,541 @@
+{
+  "extensionDescription": {
+    "message": "서버 없이 종단간 암호화로 Android 휴대전화의 SMS와 OTP 알림을 실시간으로 받고 클릭 한 번으로 복사하세요."
+  },
+  "statusLinked": {
+    "message": "연결됨"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$대 연결됨",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Header badge when several phones are linked."
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$대 연결됨",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "연결 안 됨"
+  },
+  "pairButton": {
+    "message": "페어링"
+  },
+  "pairButtonTitle": {
+    "message": "페어링 QR 코드 표시"
+  },
+  "pairAnotherButton": {
+    "message": "추가"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "다른 휴대전화를 연결할 QR 코드 표시"
+  },
+  "moreOptions": {
+    "message": "옵션 더보기"
+  },
+  "unlinkAllPhones": {
+    "message": "모든 휴대전화 연결 해제"
+  },
+  "clearMessages": {
+    "message": "메시지 지우기"
+  },
+  "phoneFallbackName": {
+    "message": "휴대전화"
+  },
+  "bannerLinked": {
+    "message": "(연결됨)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "(휴대전화 $COUNT$대 연결됨)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "After the phones' names in the banner."
+  },
+  "bannerLinkedCount_other": {
+    "message": "(휴대전화 $COUNT$대 연결됨)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "활성"
+  },
+  "linkedPhones": {
+    "message": "연결된 휴대전화"
+  },
+  "lastActive": {
+    "message": "마지막 활동: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "연결 해제"
+  },
+  "unlinkPhone": {
+    "message": "$NAME$ 연결 해제",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "$NAME$ 연결을 해제할까요?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "$NAME$에서 오는 메시지는 여기서 무시됩니다. 전송을 멈추려면 해당 휴대전화의 SMS 앱에서도 이 컴퓨터의 연결을 해제하세요.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ 연결을 해제했습니다.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Android 휴대전화와 페어링"
+  },
+  "pairOpenApp": {
+    "message": "휴대전화에서 HMJ SMS 앱 열기"
+  },
+  "pairAppPath": {
+    "message": "설정 → 데스크톱 동기화 → QR 코드 스캔",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "페어링 QR 코드"
+  },
+  "copyCode": {
+    "message": "코드 복사"
+  },
+  "hide": {
+    "message": "숨기기"
+  },
+  "pairingWarning": {
+    "message": "이 코드에는 연결의 키가 들어 있습니다. 본인 휴대전화에서만 표시하거나 붙여넣고, 클립보드 동기화와 화면 공유에 노출되지 않게 하세요."
+  },
+  "pairingChanged": {
+    "message": "페어링 정보가 변경되었습니다. 각 스마트폰에서 QR 코드를 다시 스캔해 주세요.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "브라우저에서 이 확장 프로그램의 알림이 꺼져 있어 메시지가 저장되지만 표시되지 않습니다.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "SMS 수신 준비 완료"
+  },
+  "emptyText": {
+    "message": "수신된 SMS와 OTP가 여기에 실시간으로 표시됩니다."
+  },
+  "showPairingQrCode": {
+    "message": "페어링 QR 코드 표시"
+  },
+  "connectedTo": {
+    "message": "$NAME$에 연결됨",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "휴대전화 $COUNT$대에 연결됨",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Title of the empty message list when several phones are linked."
+  },
+  "connectedToCount_other": {
+    "message": "휴대전화 $COUNT$대에 연결됨",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "$NAMES$의 수신 SMS 및 OTP 알림 대기 중.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "취소"
+  },
+  "copied": {
+    "message": "복사됨"
+  },
+  "pairingCodeCopied": {
+    "message": "페어링 코드를 복사했습니다."
+  },
+  "otpCopied": {
+    "message": "OTP를 복사했습니다."
+  },
+  "messageCopied": {
+    "message": "메시지를 복사했습니다."
+  },
+  "copyFailed": {
+    "message": "복사하지 못했습니다: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "백그라운드 서비스에서 응답이 없습니다."
+  },
+  "unlinkAllTitle": {
+    "message": "모든 휴대전화 연결을 해제할까요?"
+  },
+  "unlinkAllText": {
+    "message": "이 컴퓨터는 새 페어링 코드를 받으며, 어떤 휴대전화도 더 이상 이 컴퓨터에 연결할 수 없습니다. 이 확장 프로그램에 저장된 모든 메시지가 삭제됩니다. 계속 사용할 휴대전화는 새 QR 코드를 스캔해야 합니다."
+  },
+  "unlinkAllAction": {
+    "message": "모두 해제"
+  },
+  "allPhonesUnlinked": {
+    "message": "모든 휴대전화 연결을 해제하고 메시지를 지웠습니다. 다시 페어링하려면 새 QR 코드를 스캔하세요."
+  },
+  "unlinkFailed": {
+    "message": "연결을 해제하지 못했습니다: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "최근 메시지를 지울까요?"
+  },
+  "clearText": {
+    "message": "이 확장 프로그램에 저장된 모든 메시지가 삭제됩니다. 휴대전화의 메시지에는 영향이 없습니다."
+  },
+  "messagesCleared": {
+    "message": "저장된 메시지를 모두 지웠습니다."
+  },
+  "clearFailed": {
+    "message": "메시지를 지우지 못했습니다: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "페어링 코드를 만들지 못했습니다: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "$SENDER$의 새 메시지.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "알 수 없음"
+  },
+  "tagGroup": {
+    "message": "그룹"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "참여자: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "OTP 복사($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "텍스트 복사"
+  },
+  "copyMessage": {
+    "message": "메시지 복사"
+  },
+  "justNow": {
+    "message": "방금"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "사진"
+  },
+  "photos_one": {
+    "message": "사진 $COUNT$장",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Photos attached to an MMS."
+  },
+  "photos_other": {
+    "message": "사진 $COUNT$장",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "동영상"
+  },
+  "videos_one": {
+    "message": "동영상 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Videos attached to an MMS."
+  },
+  "videos_other": {
+    "message": "동영상 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "오디오"
+  },
+  "audioClips_one": {
+    "message": "오디오 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Audio clips attached to an MMS."
+  },
+  "audioClips_other": {
+    "message": "오디오 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "연락처"
+  },
+  "contacts_one": {
+    "message": "연락처 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Contacts attached to an MMS."
+  },
+  "contacts_other": {
+    "message": "연락처 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "파일"
+  },
+  "files_one": {
+    "message": "파일 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Files attached to an MMS."
+  },
+  "files_other": {
+    "message": "파일 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ (그룹: $NAMES$)",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "$SENDER$의 새 SMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "$SENDER$의 새 MMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "스마트폰에서 새 메시지를 수신했습니다"
+  },
+  "linkVerified": {
+    "message": "$NAME$ 연결이 확인되었습니다! 실시간 SMS 알림이 활성화되었습니다.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[만료된 OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(연결 해제 후 수신됨) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ 연결이 해제됨",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "휴대전화"
+  },
+  "ignoredMessages_one": {
+    "message": "메시지 $COUNT$개를 무시했습니다. 중단하려면 해당 휴대전화의 SMS 앱에서 이 컴퓨터의 연결을 해제하거나, 여기를 클릭해 모든 휴대전화의 연결을 해제하세요.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Text of the notice about messages from an unlinked phone."
+  },
+  "ignoredMessages_other": {
+    "message": "메시지 $COUNT$개를 무시했습니다. 중단하려면 해당 휴대전화의 SMS 앱에서 이 컴퓨터의 연결을 해제하거나, 여기를 클릭해 모든 휴대전화의 연결을 해제하세요.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "페어링 코드가 너무 길어 스마트폰에서 인식할 수 없습니다."
+  },
+  "noPhoneToUnlink": {
+    "message": "연결을 해제할 휴대전화가 없습니다."
+  },
+  "noPushService": {
+    "message": "이 브라우저는 푸시 메시지를 수신할 수 없습니다."
+  }
+}

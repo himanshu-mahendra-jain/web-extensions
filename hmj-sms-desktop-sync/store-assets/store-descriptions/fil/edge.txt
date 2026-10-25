@@ -1,0 +1,70 @@
+Tingnan ang mga SMS at OTP code mula sa iyong Android phone bilang mga desktop notification, end-to-end encrypted, at kopyahin ang code sa isang click lang.
+
+Ang HMJ SMS Desktop Sync ay isang magaan at open-source na extension na kumokonekta sa HMJ SMS app sa iyong Android phone. Kapag may dumating na mensahe sa iyong telepono, agad itong lalabas sa screen ng iyong computer upang makopya mo ang verification code nang hindi na kailangang hawakan ang telepono.
+
+Direktang ipinapadala ang mga mensahe mula sa iyong telepono patungo sa iyong browser sa pamamagitan ng sariling push service ng browser, na naka-encrypt para sa browser na ito lamang. Walang intermediate server sa pagitan, at hindi mababasa ng push service ang nilalaman ng mensahe.
+
+Tip: Sa menu ng Extensions ng Edge, i-on ang «Show in toolbar» para sa HMJ SMS Desktop Sync upang madali itong ma-access.
+
+PANGUNAHING MGA TAMPOK
+
+• Real-time desktop notifications para sa bawat SMS na natatanggap ng iyong telepono
+• Mga button na «Kopyahin ang OTP» at «Kopyahin ang Mensahe» sa bawat notification; ang pag-click sa notification ay awtomatikong kokopya sa OTP (o sa buong mensahe kung walang code)
+• Tingnan ang mga kamakailang mensahe sa toolbar popup na may 1-click copy feature
+• Ipinapakita kung aling telepono at SIM card ang nakatanggap ng mensahe (halimbawa, SIM 2: Jio)
+• Magpares ng maraming telepono; i-unlink ang isa mula sa popup o lahat nang sabay-sabay gamit ang bagong pairing code
+• Mabilis na pagpapares sa pamamagitan ng pag-scan ng QR code – walang account o pag-sign in na kailangan
+• End-to-end encrypted (E2EE) gamit ang mga pamantayan ng Web Push (RFC 8291 at RFC 8292)
+• Ganap na naa-access gamit ang keyboard at screen readers; sumusuporta sa dark mode at high-contrast na mga kulay
+• Walang server, walang analytics, at walang tracking
+
+PAGPAPAREHA NG IYONG TELEPONO
+
+1. I-click ang icon ng HMJ SMS Desktop Sync sa toolbar upang ipakita ang pairing QR code.
+2. Sa iyong telepono, buksan ang HMJ SMS app, pumunta sa menu, at piliin ang «Desktop Sync».
+3. Pindutin ang «I-scan ang QR Code» at i-scan ang code sa screen ng computer.
+
+May lalabas na test notification sa iyong desktop upang kumpirmahin ang koneksyon. Para magpares ng isa pang telepono, i-click ang «Magpares ng Isa Pa» sa popup.
+
+Naglalaman ang pairing code ng mga cryptographic key para makipag-ugnayan sa browser na ito. Ipakita o i-paste lamang ito sa sarili mong telepono, at iwasan ang clipboard sync at screen sharing.
+
+PAGKOPYA NG CODE
+
+Kapag may dumating na mensaheng may verification code, i-click ang «Kopyahin ang OTP» sa notification o i-click mismo ang notification, at i-paste ang code kung saan mo kailangan. Ang OTP na dumating nang mahigit 10 minuto ang late ay mamarkahan bilang expired, at ang text ng mensahe na lamang ang maaaring makopya.
+
+MGA NAKAKONEKTANG TELEPONO
+
+I-click ang pangalan ng telepono sa ilalim ng toolbar ng popup upang makita ang listahan ng mga nakakonektang telepono, kung kailan sila huling aktibo, at mag-unlink ng alinman sa mga ito. Ang mga mensahe mula rito ay hindi na papansinin dito pagkatapos.
+
+Naglalaman ang menu (⋮) ng popup ng «I-unlink ang Lahat ng Telepono» (gumagawa ng bagong pairing code upang hindi na makakonekta ang mga lumang telepono at binubura ang mga naka-save na mensahe) at «Linisin ang mga Mensahe».
+
+Kung tapusin ng browser ang koneksyon kung saan nagpapadala ang mga telepono, gaya ng pagkatapos ng ilang buwang walang mensahe, sasabihin ito ng popup at magpapakita ng bagong QR code na ii-scan sa bawat telepono.
+
+PRIVACY
+
+• Walang server: Dumidiretso ang mga mensahe mula sa iyong telepono papunta sa browser sa pamamagitan ng push service ng browser, na naka-encrypt upang ang browser lamang na ito ang makabasa
+• Walang analytics o pagsubaybay sa aktibidad ng user
+• Walang remote code o panlabas na mga JavaScript file
+• Ang mga mensahe, pangalan ng telepono, at pairing key ay nakaimbak lamang sa iyong lokal na browser
+• Awtomatikong binubura ang mga mensaheng lampas 24 oras; hanggang 100 pinakabagong mensahe lamang ang itinatago
+• Ang opsyong «Linisin ang mga Mensahe» sa menu ay nag-aalis kaagad ng lahat ng naka-save na mensahe, katulad ng «I-unlink ang Lahat ng Telepono»
+
+MGA PAHINTULOT
+
+• Mga Notification: Nagpapakita ng bawat papasok na mensahe bilang desktop notification
+• Clipboard: Kumukopya ng OTP o mensahe kapag nag-click ka sa notification o copy button
+• Storage: Ligtas na nagtatago ng mga nakakonektang telepono at mensahe nang lokal sa iyong browser
+• Offscreen document: Nagsusulat sa clipboard ng system mula sa background nang ligtas
+
+MGA LIMITASYON
+
+• Kinakailangan ang HMJ SMS app sa isang Android phone.
+• Ang pag-unlink ng telepono sa extension ay magbabalewala sa mga mensahe nito sa computer na ito, ngunit ang telepono lamang ang makakapagpahinto sa pagpapadala: I-unlink din ang computer na ito sa HMJ SMS app sa telepono, o gamitin ang «I-unlink ang Lahat ng Telepono» (pagkatapos nito, ang mga teleponong nais panatilihin ay kailangang mag-scan ng bagong QR code).
+
+OPEN SOURCE
+
+Ang HMJ SMS Desktop Sync ay open source at lisensyado sa ilalim ng MIT License.
+
+Tingnan ang source code, mag-ulat ng mga isyu, o mag-ambag sa GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

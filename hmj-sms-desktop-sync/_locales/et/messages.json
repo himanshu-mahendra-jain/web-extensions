@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Serverita, otspunktkrüpteeritud SMS- ja OTP-teavitused reaalajas Android-telefonist, kopeerimine ühe klõpsuga."
+  },
+  "statusLinked": {
+    "message": "Lingitud"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ lingitud",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ lingitud",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Linkimata"
+  },
+  "pairButton": {
+    "message": "Seo"
+  },
+  "pairButtonTitle": {
+    "message": "Kuva sidumise QR-kood"
+  },
+  "pairAnotherButton": {
+    "message": "Lisa"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Kuva QR-kood veel ühe telefoni linkimiseks"
+  },
+  "moreOptions": {
+    "message": "Rohkem valikuid"
+  },
+  "unlinkAllPhones": {
+    "message": "Eemalda kõigi telefonide link"
+  },
+  "clearMessages": {
+    "message": "Tühjenda sõnumid"
+  },
+  "phoneFallbackName": {
+    "message": "Telefon"
+  },
+  "bannerLinked": {
+    "message": "(lingitud)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ telefon lingitud)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ telefoni lingitud)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Aktiivne"
+  },
+  "linkedPhones": {
+    "message": "Lingitud telefonid"
+  },
+  "lastActive": {
+    "message": "Viimati aktiivne: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Eemalda link"
+  },
+  "unlinkPhone": {
+    "message": "Eemalda link: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Kas eemaldada link: $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Sõnumeid seadmest $NAME$ siin eiratakse. Et see lõpetaks nende saatmise, eemaldage selle arvuti link ka selle telefoni SMS-rakenduses.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "Link eemaldatud: $NAME$.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Sidumine Android-telefoniga"
+  },
+  "pairOpenApp": {
+    "message": "Avage telefonis rakendus HMJ SMS"
+  },
+  "pairAppPath": {
+    "message": "Seaded → Töölauasünkroonimine → Skanni QR-kood",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Sidumise QR-kood"
+  },
+  "copyCode": {
+    "message": "Kopeeri kood"
+  },
+  "hide": {
+    "message": "Peida"
+  },
+  "pairingWarning": {
+    "message": "See kood sisaldab teie lingi võtmeid. Näidake või kleepige seda ainult oma telefonis ning hoidke see eemal lõikelaua sünkroonimisest ja ekraani jagamisest."
+  },
+  "pairingChanged": {
+    "message": "Sidumine on muutunud. Skannige QR-kood igas telefonis uuesti.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Selle laienduse märguanded on brauseris välja lülitatud, seega sõnumid salvestatakse, kuid neid ei kuvata.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Valmis sissetulevateks SMS-ideks"
+  },
+  "emptyText": {
+    "message": "Sissetulevad SMS-id ja OTP-koodid ilmuvad siia reaalajas."
+  },
+  "showPairingQrCode": {
+    "message": "Kuva sidumise QR-kood"
+  },
+  "connectedTo": {
+    "message": "Ühendatud: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Ühendatud $COUNT$ telefoniga",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Ühendatud $COUNT$ telefoniga",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Ootan SMS- ja OTP-teavitusi: $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Tühista"
+  },
+  "copied": {
+    "message": "Kopeeritud!"
+  },
+  "pairingCodeCopied": {
+    "message": "Sidumiskood kopeeriti."
+  },
+  "otpCopied": {
+    "message": "OTP kopeeriti."
+  },
+  "messageCopied": {
+    "message": "Sõnum kopeeriti."
+  },
+  "copyFailed": {
+    "message": "Kopeerimine ebaõnnestus: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Taustaprotsess ei vasta."
+  },
+  "unlinkAllTitle": {
+    "message": "Kas eemaldada kõigi telefonide link?"
+  },
+  "unlinkAllText": {
+    "message": "See arvuti saab uue sidumiskoodi ja ükski telefon ei saa sellega enam ühendust. Kõik selles laienduses salvestatud sõnumid eemaldatakse. Telefonid, mida soovite alles jätta, peavad skannima uue QR-koodi."
+  },
+  "unlinkAllAction": {
+    "message": "Eemalda kõik"
+  },
+  "allPhonesUnlinked": {
+    "message": "Kõigi telefonide link on eemaldatud ja sõnumid tühjendatud. Uuesti sidumiseks skannige uus QR-kood."
+  },
+  "unlinkFailed": {
+    "message": "Lingi eemaldamine ebaõnnestus: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Kas tühjendada hiljutised sõnumid?"
+  },
+  "clearText": {
+    "message": "Kõik selles laienduses salvestatud sõnumid eemaldatakse. Telefonis olevaid sõnumeid see ei mõjuta."
+  },
+  "messagesCleared": {
+    "message": "Kõik salvestatud sõnumid on tühjendatud."
+  },
+  "clearFailed": {
+    "message": "Sõnumite tühjendamine ebaõnnestus: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Sidumiskoodi ei õnnestunud luua: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Uus sõnum saatjalt $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Tundmatu"
+  },
+  "tagGroup": {
+    "message": "Grupp"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Koos: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Kopeeri OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Kopeeri tekst"
+  },
+  "copyMessage": {
+    "message": "Kopeeri sõnum"
+  },
+  "justNow": {
+    "message": "Just praegu"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Foto"
+  },
+  "photos_one": {
+    "message": "$COUNT$ foto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ fotot",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Video"
+  },
+  "videos_one": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ videot",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Heliklipp"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ heliklipp",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ heliklippi",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Kontakt"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ kontakt",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ kontakti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Fail"
+  },
+  "files_one": {
+    "message": "$COUNT$ fail",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ faili",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ grupis: $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Uus SMS saatjalt $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Uus MMS saatjalt $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Telefonist saabus uus sõnum"
+  },
+  "linkVerified": {
+    "message": "Link seadmega $NAME$ on kinnitatud! Kiirteavitused SMS-idest on aktiivsed.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[AEGUNUD OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Edastatud pärast ühenduse katkemist) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ link on eemaldatud",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Telefon"
+  },
+  "ignoredMessages_one": {
+    "message": "Eirati $COUNT$ sõnum. Nende peatamiseks eemaldage selle arvuti link selle telefoni SMS-rakenduses või klõpsake siin, et eemaldada kõigi telefonide link.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "Eirati $COUNT$ sõnumit. Nende peatamiseks eemaldage selle arvuti link selle telefoni SMS-rakenduses või klõpsake siin, et eemaldada kõigi telefonide link.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Sidumiskood on telefoni jaoks liiga pikk."
+  },
+  "noPhoneToUnlink": {
+    "message": "Pole telefoni, mille linki eemaldada."
+  },
+  "noPushService": {
+    "message": "See brauser ei saa tõukesõnumeid vastu võtta."
+  }
+}

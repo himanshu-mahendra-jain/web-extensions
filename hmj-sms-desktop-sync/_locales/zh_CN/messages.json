@@ -1,0 +1,541 @@
+{
+  "extensionDescription": {
+    "message": "无需服务器、端到端加密，实时同步 Android 手机的短信和验证码通知，一键复制。"
+  },
+  "statusLinked": {
+    "message": "已关联"
+  },
+  "statusLinkedCount_one": {
+    "message": "已关联 $COUNT$ 部",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Header badge when several phones are linked."
+  },
+  "statusLinkedCount_other": {
+    "message": "已关联 $COUNT$ 部",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "未关联"
+  },
+  "pairButton": {
+    "message": "配对"
+  },
+  "pairButtonTitle": {
+    "message": "显示配对二维码"
+  },
+  "pairAnotherButton": {
+    "message": "添加"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "显示二维码以关联另一部手机"
+  },
+  "moreOptions": {
+    "message": "更多选项"
+  },
+  "unlinkAllPhones": {
+    "message": "取消关联所有手机"
+  },
+  "clearMessages": {
+    "message": "清除消息"
+  },
+  "phoneFallbackName": {
+    "message": "手机"
+  },
+  "bannerLinked": {
+    "message": "（已关联）"
+  },
+  "bannerLinkedCount_one": {
+    "message": "（已关联 $COUNT$ 部手机）",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "After the phones' names in the banner."
+  },
+  "bannerLinkedCount_other": {
+    "message": "（已关联 $COUNT$ 部手机）",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "活跃"
+  },
+  "linkedPhones": {
+    "message": "已关联的手机"
+  },
+  "lastActive": {
+    "message": "上次活跃：$TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "取消关联"
+  },
+  "unlinkPhone": {
+    "message": "取消关联 $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "要取消关联 $NAME$ 吗？",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "来自 $NAME$ 的消息将在此被忽略。若要彻底停止发送，请在手机端的 SMS 应用中一并解除与这台电脑的绑定。",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "已取消关联 $NAME$。",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "与 Android 手机配对"
+  },
+  "pairOpenApp": {
+    "message": "在手机上打开 HMJ SMS 应用"
+  },
+  "pairAppPath": {
+    "message": "设置 → 桌面同步 → 扫描二维码",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "配对二维码"
+  },
+  "copyCode": {
+    "message": "复制代码"
+  },
+  "hide": {
+    "message": "隐藏"
+  },
+  "pairingWarning": {
+    "message": "此配对代码包含与当前浏览器通信的加密密钥。请仅在您个人的手机上展示或粘贴，切勿通过剪贴板同步或屏幕共享泄露给他人。"
+  },
+  "pairingChanged": {
+    "message": "配对信息已更改。请在每部手机上重新扫描二维码。",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "浏览器中已停用此扩展程序的通知功能，消息将被保存但不会弹出显示。",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "准备接收短信"
+  },
+  "emptyText": {
+    "message": "收到的短信和验证码将实时显示在这里。"
+  },
+  "showPairingQrCode": {
+    "message": "显示配对二维码"
+  },
+  "connectedTo": {
+    "message": "已连接到 $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "已连接到 $COUNT$ 部手机",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Title of the empty message list when several phones are linked."
+  },
+  "connectedToCount_other": {
+    "message": "已连接到 $COUNT$ 部手机",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "正在等待来自 $NAMES$ 的短信和 OTP 验证码通知。",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "copied": {
+    "message": "已复制！"
+  },
+  "pairingCodeCopied": {
+    "message": "已复制配对代码。"
+  },
+  "otpCopied": {
+    "message": "已复制验证码。"
+  },
+  "messageCopied": {
+    "message": "已复制消息。"
+  },
+  "copyFailed": {
+    "message": "复制失败：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "后台服务没有响应。"
+  },
+  "unlinkAllTitle": {
+    "message": "要取消关联所有手机吗？"
+  },
+  "unlinkAllText": {
+    "message": "这台电脑将获得新的配对代码，任何手机都无法再连接到它。此扩展中存储的所有消息都会被删除。要继续使用的手机必须扫描新的二维码。"
+  },
+  "unlinkAllAction": {
+    "message": "全部取消关联"
+  },
+  "allPhonesUnlinked": {
+    "message": "已取消关联所有手机并清除消息。扫描新的二维码即可重新配对。"
+  },
+  "unlinkFailed": {
+    "message": "取消关联失败：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "要清除最近的消息吗？"
+  },
+  "clearText": {
+    "message": "此扩展中存储的所有消息都将被删除。手机上的消息不受影响。"
+  },
+  "messagesCleared": {
+    "message": "已清除所有存储的消息。"
+  },
+  "clearFailed": {
+    "message": "清除消息失败：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "无法生成配对代码：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "来自 $SENDER$ 的新消息。",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "未知"
+  },
+  "tagGroup": {
+    "message": "群组"
+  },
+  "tagMms": {
+    "message": "彩信",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM 卡 $SLOT$：$NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM 卡 $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "与 $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "复制验证码（$OTP$）",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "复制文字"
+  },
+  "copyMessage": {
+    "message": "复制消息"
+  },
+  "justNow": {
+    "message": "刚刚"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "照片"
+  },
+  "photos_one": {
+    "message": "$COUNT$ 张照片",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Photos attached to an MMS."
+  },
+  "photos_other": {
+    "message": "$COUNT$ 张照片",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "视频"
+  },
+  "videos_one": {
+    "message": "$COUNT$ 个视频",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Videos attached to an MMS."
+  },
+  "videos_other": {
+    "message": "$COUNT$ 个视频",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "音频"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ 段音频",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Audio clips attached to an MMS."
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ 段音频",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "联系人"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ 个联系人",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Contacts attached to an MMS."
+  },
+  "contacts_other": {
+    "message": "$COUNT$ 个联系人",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "文件"
+  },
+  "files_one": {
+    "message": "$COUNT$ 个文件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Files attached to an MMS."
+  },
+  "files_other": {
+    "message": "$COUNT$ 个文件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ 在与 $NAMES$ 的群组中",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "来自 $SENDER$ 的新短信",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "来自 $SENDER$ 的新彩信",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "收到来自手机的新消息"
+  },
+  "linkVerified": {
+    "message": "已验证与 $NAME$ 的连接！即时短信通知已启用。",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[验证码已过期]"
+  },
+  "simBadge": {
+    "message": "[SIM 卡 $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "（断开连接后送达）$TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ 已取消关联",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "一部手机"
+  },
+  "ignoredMessages_one": {
+    "message": "已忽略 $COUNT$ 条消息。请在该手机的短信应用中取消关联这台电脑以停止接收，或点击此处取消关联所有手机。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Text of the notice about messages from an unlinked phone."
+  },
+  "ignoredMessages_other": {
+    "message": "已忽略 $COUNT$ 条消息。请在该手机的短信应用中取消关联这台电脑以停止接收，或点击此处取消关联所有手机。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "配对代码过长，手机无法识别读取。"
+  },
+  "noPhoneToUnlink": {
+    "message": "没有可取消关联的手机。"
+  },
+  "noPushService": {
+    "message": "此浏览器无法接收推送通知。"
+  }
+}

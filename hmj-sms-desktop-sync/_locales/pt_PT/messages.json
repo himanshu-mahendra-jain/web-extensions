@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Notificações de SMS e OTP em tempo real do seu Android, encriptadas ponto a ponto, sem servidor e com cópia num clique."
+  },
+  "statusLinked": {
+    "message": "Associado"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ associado",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ associados",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Não associado"
+  },
+  "pairButton": {
+    "message": "Associar"
+  },
+  "pairButtonTitle": {
+    "message": "Mostrar código QR de emparelhamento"
+  },
+  "pairAnotherButton": {
+    "message": "Adicionar"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Mostrar código QR para associar outro telemóvel"
+  },
+  "moreOptions": {
+    "message": "Mais opções"
+  },
+  "unlinkAllPhones": {
+    "message": "Desassociar todos os telemóveis"
+  },
+  "clearMessages": {
+    "message": "Limpar mensagens"
+  },
+  "phoneFallbackName": {
+    "message": "Telemóvel"
+  },
+  "bannerLinked": {
+    "message": "(associado)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ telemóvel associado)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ telemóveis associados)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Ativo"
+  },
+  "linkedPhones": {
+    "message": "Telemóveis associados"
+  },
+  "lastActive": {
+    "message": "Última atividade: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Desassociar"
+  },
+  "unlinkPhone": {
+    "message": "Desassociar $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Desassociar $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "As mensagens de $NAME$ serão ignoradas aqui. Para que deixe de as enviar, desassocie também este computador na app SMS desse telemóvel.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ desassociado.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Emparelhar com telemóvel Android"
+  },
+  "pairOpenApp": {
+    "message": "Abra a app HMJ SMS no telemóvel"
+  },
+  "pairAppPath": {
+    "message": "Definições → Sincronização com o PC → Ler código QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Código QR de emparelhamento"
+  },
+  "copyCode": {
+    "message": "Copiar código"
+  },
+  "hide": {
+    "message": "Ocultar"
+  },
+  "pairingWarning": {
+    "message": "Este código contém as chaves da sua ligação. Mostre-o ou cole-o apenas no seu próprio telemóvel e mantenha-o longe da sincronização da área de transferência e da partilha de ecrã."
+  },
+  "pairingChanged": {
+    "message": "O emparelhamento foi alterado. Leia o código QR novamente em cada telemóvel.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "As notificações desta extensão estão desativadas no navegador; as mensagens são guardadas mas não apresentadas.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Pronto para receber SMS"
+  },
+  "emptyText": {
+    "message": "Os SMS e OTP recebidos aparecem aqui em tempo real."
+  },
+  "showPairingQrCode": {
+    "message": "Mostrar código QR de emparelhamento"
+  },
+  "connectedTo": {
+    "message": "Ligado a $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Ligado a $COUNT$ telemóvel",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Ligado a $COUNT$ telemóveis",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "A aguardar alertas de SMS e OTP de $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "copied": {
+    "message": "Copiado!"
+  },
+  "pairingCodeCopied": {
+    "message": "Código de emparelhamento copiado."
+  },
+  "otpCopied": {
+    "message": "OTP copiado."
+  },
+  "messageCopied": {
+    "message": "Mensagem copiada."
+  },
+  "copyFailed": {
+    "message": "Falha ao copiar: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Sem resposta do serviço em segundo plano."
+  },
+  "unlinkAllTitle": {
+    "message": "Desassociar todos os telemóveis?"
+  },
+  "unlinkAllText": {
+    "message": "Este computador recebe um novo código de emparelhamento e nenhum telemóvel o poderá contactar. Todas as mensagens guardadas nesta extensão são removidas. Os telemóveis que quiser manter têm de ler o novo código QR."
+  },
+  "unlinkAllAction": {
+    "message": "Desassociar todos"
+  },
+  "allPhonesUnlinked": {
+    "message": "Todos os telemóveis foram desassociados e as mensagens limpas. Leia o novo código QR para emparelhar novamente."
+  },
+  "unlinkFailed": {
+    "message": "Falha ao desassociar: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Limpar mensagens recentes?"
+  },
+  "clearText": {
+    "message": "Todas as mensagens guardadas nesta extensão serão removidas. As mensagens no seu telemóvel não são afetadas."
+  },
+  "messagesCleared": {
+    "message": "Todas as mensagens guardadas foram limpas."
+  },
+  "clearFailed": {
+    "message": "Falha ao limpar as mensagens: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Não foi possível criar um código de emparelhamento: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Nova mensagem de $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Desconhecido"
+  },
+  "tagGroup": {
+    "message": "Grupo"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Com $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Copiar OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Copiar texto"
+  },
+  "copyMessage": {
+    "message": "Copiar mensagem"
+  },
+  "justNow": {
+    "message": "Agora mesmo"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Foto"
+  },
+  "photos_one": {
+    "message": "$COUNT$ foto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ fotos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Vídeo"
+  },
+  "videos_one": {
+    "message": "$COUNT$ vídeo",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ vídeos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Áudio"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ clip de áudio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ clips de áudio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Contacto"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ contacto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ contactos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Ficheiro"
+  },
+  "files_one": {
+    "message": "$COUNT$ ficheiro",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ ficheiros",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ num grupo com $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Novo SMS de $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Novo MMS de $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Nova mensagem recebida do telemóvel"
+  },
+  "linkVerified": {
+    "message": "Ligação com $NAME$ confirmada! Os alertas de SMS instantâneos estão ativos.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP EXPIRADO]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Recebido após a desconexão) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ está desassociado",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Um telemóvel"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ mensagem ignorada. Desassocie este computador na app SMS desse telemóvel para as parar, ou clique aqui para desassociar todos os telemóveis.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ mensagens ignoradas. Desassocie este computador na app SMS desse telemóvel para as parar, ou clique aqui para desassociar todos os telemóveis.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "O código de emparelhamento é demasiado longo para ser lido pelo telemóvel."
+  },
+  "noPhoneToUnlink": {
+    "message": "Nenhum telemóvel para desassociar."
+  },
+  "noPushService": {
+    "message": "Este navegador não suporta a receção de notificações push."
+  }
+}

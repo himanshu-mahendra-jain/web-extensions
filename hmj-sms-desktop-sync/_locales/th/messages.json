@@ -1,0 +1,541 @@
+{
+  "extensionDescription": {
+    "message": "แจ้งเตือน SMS และ OTP แบบเรียลไทม์จากโทรศัพท์ Android ไม่ต้องใช้เซิร์ฟเวอร์ เข้ารหัสต้นทางถึงปลายทาง คัดลอกได้ในคลิกเดียว"
+  },
+  "statusLinked": {
+    "message": "ลิงก์แล้ว"
+  },
+  "statusLinkedCount_one": {
+    "message": "ลิงก์แล้ว $COUNT$ เครื่อง",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Header badge when several phones are linked."
+  },
+  "statusLinkedCount_other": {
+    "message": "ลิงก์แล้ว $COUNT$ เครื่อง",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "ยังไม่ลิงก์"
+  },
+  "pairButton": {
+    "message": "จับคู่"
+  },
+  "pairButtonTitle": {
+    "message": "แสดงคิวอาร์โค้ดสำหรับจับคู่"
+  },
+  "pairAnotherButton": {
+    "message": "เพิ่ม"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "แสดงคิวอาร์โค้ดเพื่อลิงก์โทรศัพท์อีกเครื่อง"
+  },
+  "moreOptions": {
+    "message": "ตัวเลือกเพิ่มเติม"
+  },
+  "unlinkAllPhones": {
+    "message": "ยกเลิกการลิงก์โทรศัพท์ทั้งหมด"
+  },
+  "clearMessages": {
+    "message": "ล้างข้อความ"
+  },
+  "phoneFallbackName": {
+    "message": "โทรศัพท์"
+  },
+  "bannerLinked": {
+    "message": "(ลิงก์แล้ว)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "(ลิงก์โทรศัพท์แล้ว $COUNT$ เครื่อง)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "After the phones' names in the banner."
+  },
+  "bannerLinkedCount_other": {
+    "message": "(ลิงก์โทรศัพท์แล้ว $COUNT$ เครื่อง)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "ใช้งานอยู่"
+  },
+  "linkedPhones": {
+    "message": "โทรศัพท์ที่ลิงก์"
+  },
+  "lastActive": {
+    "message": "ใช้งานล่าสุด: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "ยกเลิกการลิงก์"
+  },
+  "unlinkPhone": {
+    "message": "ยกเลิกการลิงก์ $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "ยกเลิกการลิงก์ $NAME$ ใช่ไหม",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "ข้อความจาก $NAME$ จะถูกละเว้นที่นี่ หากต้องการให้หยุดส่ง ให้ยกเลิกการลิงก์คอมพิวเตอร์เครื่องนี้ในแอป SMS บนโทรศัพท์เครื่องนั้นด้วย",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "ยกเลิกการลิงก์ $NAME$ แล้ว",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "จับคู่กับโทรศัพท์ Android"
+  },
+  "pairOpenApp": {
+    "message": "เปิดแอป HMJ SMS บนโทรศัพท์"
+  },
+  "pairAppPath": {
+    "message": "การตั้งค่า → ซิงค์กับเดสก์ท็อป → สแกนรหัส QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "คิวอาร์โค้ดสำหรับจับคู่"
+  },
+  "copyCode": {
+    "message": "คัดลอกรหัส"
+  },
+  "hide": {
+    "message": "ซ่อน"
+  },
+  "pairingWarning": {
+    "message": "รหัสนี้มีคีย์ของการลิงก์ของคุณ แสดงหรือวางเฉพาะบนโทรศัพท์ของคุณเองเท่านั้น และอย่าให้ผ่านการซิงค์คลิปบอร์ดหรือการแชร์หน้าจอ"
+  },
+  "pairingChanged": {
+    "message": "การจับคู่เปลี่ยนไปแล้ว สแกนคิวอาร์โค้ดอีกครั้งในโทรศัพท์แต่ละเครื่อง",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "การแจ้งเตือนของส่วนขยายนี้ปิดอยู่ในเบราว์เซอร์ ข้อความจึงถูกบันทึกไว้แต่ไม่แสดง",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "พร้อมรับ SMS"
+  },
+  "emptyText": {
+    "message": "SMS และ OTP ที่เข้ามาจะแสดงที่นี่แบบเรียลไทม์"
+  },
+  "showPairingQrCode": {
+    "message": "แสดงคิวอาร์โค้ดสำหรับจับคู่"
+  },
+  "connectedTo": {
+    "message": "เชื่อมต่อกับ $NAME$ แล้ว",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "เชื่อมต่อกับโทรศัพท์ $COUNT$ เครื่องแล้ว",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Title of the empty message list when several phones are linked."
+  },
+  "connectedToCount_other": {
+    "message": "เชื่อมต่อกับโทรศัพท์ $COUNT$ เครื่องแล้ว",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "กำลังรอการแจ้งเตือน SMS และ OTP จาก $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "ยกเลิก"
+  },
+  "copied": {
+    "message": "คัดลอกแล้ว"
+  },
+  "pairingCodeCopied": {
+    "message": "คัดลอกรหัสจับคู่แล้ว"
+  },
+  "otpCopied": {
+    "message": "คัดลอก OTP แล้ว"
+  },
+  "messageCopied": {
+    "message": "คัดลอกข้อความแล้ว"
+  },
+  "copyFailed": {
+    "message": "คัดลอกไม่สำเร็จ: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "ไม่มีการตอบกลับจากเบื้องหลัง"
+  },
+  "unlinkAllTitle": {
+    "message": "ยกเลิกการลิงก์โทรศัพท์ทั้งหมดใช่ไหม"
+  },
+  "unlinkAllText": {
+    "message": "คอมพิวเตอร์เครื่องนี้จะได้รับรหัสจับคู่ใหม่ และจะไม่มีโทรศัพท์เครื่องใดเชื่อมต่อถึงได้อีก ข้อความทั้งหมดที่เก็บไว้ในส่วนขยายนี้จะถูกลบ โทรศัพท์ที่คุณต้องการใช้ต่อต้องสแกนคิวอาร์โค้ดใหม่"
+  },
+  "unlinkAllAction": {
+    "message": "ยกเลิกทั้งหมด"
+  },
+  "allPhonesUnlinked": {
+    "message": "ยกเลิกการลิงก์โทรศัพท์ทั้งหมดและล้างข้อความแล้ว สแกนคิวอาร์โค้ดใหม่เพื่อจับคู่อีกครั้ง"
+  },
+  "unlinkFailed": {
+    "message": "ยกเลิกการลิงก์ไม่สำเร็จ: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "ล้างข้อความล่าสุดใช่ไหม"
+  },
+  "clearText": {
+    "message": "ข้อความทั้งหมดที่เก็บไว้ในส่วนขยายนี้จะถูกลบ ข้อความในโทรศัพท์ของคุณจะไม่ได้รับผลกระทบ"
+  },
+  "messagesCleared": {
+    "message": "ล้างข้อความที่เก็บไว้ทั้งหมดแล้ว"
+  },
+  "clearFailed": {
+    "message": "ล้างข้อความไม่สำเร็จ: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "สร้างรหัสจับคู่ไม่ได้: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "ข้อความใหม่จาก $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "ไม่ทราบ"
+  },
+  "tagGroup": {
+    "message": "กลุ่ม"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "กับ $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "คัดลอก OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "คัดลอกเนื้อหา"
+  },
+  "copyMessage": {
+    "message": "คัดลอกข้อความ"
+  },
+  "justNow": {
+    "message": "เมื่อสักครู่"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "รูปภาพ"
+  },
+  "photos_one": {
+    "message": "รูปภาพ $COUNT$ รูป",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Photos attached to an MMS."
+  },
+  "photos_other": {
+    "message": "รูปภาพ $COUNT$ รูป",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "วิดีโอ"
+  },
+  "videos_one": {
+    "message": "วิดีโอ $COUNT$ รายการ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Videos attached to an MMS."
+  },
+  "videos_other": {
+    "message": "วิดีโอ $COUNT$ รายการ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "เสียง"
+  },
+  "audioClips_one": {
+    "message": "คลิปเสียง $COUNT$ รายการ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Audio clips attached to an MMS."
+  },
+  "audioClips_other": {
+    "message": "คลิปเสียง $COUNT$ รายการ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "รายชื่อติดต่อ"
+  },
+  "contacts_one": {
+    "message": "รายชื่อติดต่อ $COUNT$ รายการ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Contacts attached to an MMS."
+  },
+  "contacts_other": {
+    "message": "รายชื่อติดต่อ $COUNT$ รายการ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "ไฟล์"
+  },
+  "files_one": {
+    "message": "ไฟล์ $COUNT$ ไฟล์",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Files attached to an MMS."
+  },
+  "files_other": {
+    "message": "ไฟล์ $COUNT$ ไฟล์",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ ในกลุ่มกับ $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "SMS ใหม่จาก $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "MMS ใหม่จาก $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "ได้รับข้อความใหม่จากโทรศัพท์"
+  },
+  "linkVerified": {
+    "message": "ยืนยันการลิงก์กับ $NAME$ แล้ว! การแจ้งเตือน SMS ทันทีเปิดใช้งานอยู่",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP หมดอายุ]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(ส่งถึงหลังการตัดการเชื่อมต่อ) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "ยกเลิกการลิงก์ $NAME$ แล้ว",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "โทรศัพท์เครื่องหนึ่ง"
+  },
+  "ignoredMessages_one": {
+    "message": "ละเว้น $COUNT$ ข้อความแล้ว ยกเลิกการลิงก์คอมพิวเตอร์เครื่องนี้ในแอป SMS บนโทรศัพท์เครื่องนั้นเพื่อหยุด หรือคลิกที่นี่เพื่อยกเลิกการลิงก์โทรศัพท์ทั้งหมด",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    },
+    "description": "Text of the notice about messages from an unlinked phone."
+  },
+  "ignoredMessages_other": {
+    "message": "ละเว้น $COUNT$ ข้อความแล้ว ยกเลิกการลิงก์คอมพิวเตอร์เครื่องนี้ในแอป SMS บนโทรศัพท์เครื่องนั้นเพื่อหยุด หรือคลิกที่นี่เพื่อยกเลิกการลิงก์โทรศัพท์ทั้งหมด",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "รหัสจับคู่ยาวเกินกว่าที่โทรศัพท์จะอ่านได้"
+  },
+  "noPhoneToUnlink": {
+    "message": "ไม่มีโทรศัพท์ให้ยกเลิกการลิงก์"
+  },
+  "noPushService": {
+    "message": "เบราว์เซอร์นี้รับข้อความพุชไม่ได้"
+  }
+}

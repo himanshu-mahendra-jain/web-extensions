@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Android ఫోన్ నుండి సర్వర్ లేకుండా, ఎన్‌క్రిప్ట్ చేసిన SMS, OTP నోటిఫికేషన్‌లు రియల్-టైమ్‌లో; 1 క్లిక్‌తో కాపీ."
+  },
+  "statusLinked": {
+    "message": "లింక్ అయింది"
+  },
+  "statusLinkedCount_one": {
+    "message": "లింక్ అయినవి: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "లింక్ అయినవి: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "లింక్ కాలేదు"
+  },
+  "pairButton": {
+    "message": "జత చేయి"
+  },
+  "pairButtonTitle": {
+    "message": "జత చేసే QR కోడ్‌ను చూపు"
+  },
+  "pairAnotherButton": {
+    "message": "జోడించు"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "మరో ఫోన్‌ను లింక్ చేయడానికి QR కోడ్‌ను చూపు"
+  },
+  "moreOptions": {
+    "message": "మరిన్ని ఆప్షన్‌లు"
+  },
+  "unlinkAllPhones": {
+    "message": "అన్ని ఫోన్‌లను అన్‌లింక్ చేయి"
+  },
+  "clearMessages": {
+    "message": "మెసేజ్‌లను క్లియర్ చేయి"
+  },
+  "phoneFallbackName": {
+    "message": "ఫోన్"
+  },
+  "bannerLinked": {
+    "message": "(లింక్ అయింది)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ ఫోన్ లింక్ అయింది)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ ఫోన్‌లు లింక్ అయ్యాయి)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "యాక్టివ్"
+  },
+  "linkedPhones": {
+    "message": "లింక్ అయిన ఫోన్‌లు"
+  },
+  "lastActive": {
+    "message": "చివరిగా యాక్టివ్: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "అన్‌లింక్ చేయి"
+  },
+  "unlinkPhone": {
+    "message": "$NAME$ను అన్‌లింక్ చేయి",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "$NAME$ను అన్‌లింక్ చేయాలా?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "$NAME$ నుండి వచ్చే మెసేజ్‌లు ఇక్కడ విస్మరించబడతాయి. అది పంపడం ఆపాలంటే, ఆ ఫోన్‌లోని SMS యాప్‌లో కూడా ఈ కంప్యూటర్‌ను అన్‌లింక్ చేయండి.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ అన్‌లింక్ అయింది.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Android ఫోన్‌తో జత చేయండి"
+  },
+  "pairOpenApp": {
+    "message": "ఫోన్‌లో HMJ SMS యాప్‌ను తెరవండి"
+  },
+  "pairAppPath": {
+    "message": "సెట్టింగ్‌లు → డెస్క్‌టాప్ సింక్ → QR కోడ్‌ని స్కాన్ చేయండి",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "జత చేసే QR కోడ్"
+  },
+  "copyCode": {
+    "message": "కోడ్‌ను కాపీ చేయి"
+  },
+  "hide": {
+    "message": "దాచు"
+  },
+  "pairingWarning": {
+    "message": "ఈ కోడ్‌లో మీ లింక్ కీలు ఉన్నాయి. దీన్ని మీ సొంత ఫోన్‌లో మాత్రమే చూపండి లేదా పేస్ట్ చేయండి, క్లిప్‌బోర్డ్ సింక్, స్క్రీన్ షేరింగ్‌కు దూరంగా ఉంచండి."
+  },
+  "pairingChanged": {
+    "message": "మీ జత మారింది. ప్రతి ఫోన్‌లో QR కోడ్‌ను మళ్లీ స్కాన్ చేయండి.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "బ్రౌజర్‌లో ఈ ఎక్స్‌టెన్షన్ నోటిఫికేషన్‌లు ఆఫ్‌లో ఉన్నాయి, కాబట్టి మెసేజ్‌లు సేవ్ అవుతాయి కానీ చూపబడవు.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "ఇన్‌కమింగ్ SMS కోసం సిద్ధం"
+  },
+  "emptyText": {
+    "message": "ఇన్‌కమింగ్ SMS, OTPలు ఇక్కడ రియల్-టైమ్‌లో కనిపిస్తాయి."
+  },
+  "showPairingQrCode": {
+    "message": "జత చేసే QR కోడ్‌ను చూపు"
+  },
+  "connectedTo": {
+    "message": "$NAME$కు కనెక్ట్ అయింది",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "$COUNT$ ఫోన్‌కు కనెక్ట్ అయింది",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "$COUNT$ ఫోన్‌లకు కనెక్ట్ అయింది",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "$NAMES$ నుండి SMS, OTP అలర్ట్‌ల కోసం వేచి ఉంది.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "రద్దు చేయి"
+  },
+  "copied": {
+    "message": "కాపీ అయింది!"
+  },
+  "pairingCodeCopied": {
+    "message": "జత చేసే కోడ్ కాపీ అయింది."
+  },
+  "otpCopied": {
+    "message": "OTP కాపీ అయింది."
+  },
+  "messageCopied": {
+    "message": "మెసేజ్ కాపీ అయింది."
+  },
+  "copyFailed": {
+    "message": "కాపీ చేయడం విఫలమైంది: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "బ్యాక్‌గ్రౌండ్ నుండి సమాధానం లేదు."
+  },
+  "unlinkAllTitle": {
+    "message": "అన్ని ఫోన్‌లను అన్‌లింక్ చేయాలా?"
+  },
+  "unlinkAllText": {
+    "message": "ఈ కంప్యూటర్‌కు కొత్త జత చేసే కోడ్ వస్తుంది, ఇకపై ఏ ఫోన్ దీన్ని చేరుకోలేదు. ఈ ఎక్స్‌టెన్షన్‌లో స్టోర్ చేసిన అన్ని మెసేజ్‌లు తీసివేయబడతాయి. మీరు ఉంచుకునే ఫోన్‌లు కొత్త QR కోడ్‌ను స్కాన్ చేయాలి."
+  },
+  "unlinkAllAction": {
+    "message": "అన్నీ అన్‌లింక్ చేయి"
+  },
+  "allPhonesUnlinked": {
+    "message": "అన్ని ఫోన్‌లు అన్‌లింక్ అయ్యాయి, మెసేజ్‌లు క్లియర్ అయ్యాయి. మళ్లీ జత చేయడానికి కొత్త QR కోడ్‌ను స్కాన్ చేయండి."
+  },
+  "unlinkFailed": {
+    "message": "అన్‌లింక్ చేయడం విఫలమైంది: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "ఇటీవలి మెసేజ్‌లను క్లియర్ చేయాలా?"
+  },
+  "clearText": {
+    "message": "ఈ ఎక్స్‌టెన్షన్‌లో స్టోర్ చేసిన అన్ని మెసేజ్‌లు తీసివేయబడతాయి. మీ ఫోన్‌లోని మెసేజ్‌లపై ప్రభావం ఉండదు."
+  },
+  "messagesCleared": {
+    "message": "స్టోర్ చేసిన అన్ని మెసేజ్‌లు క్లియర్ అయ్యాయి."
+  },
+  "clearFailed": {
+    "message": "మెసేజ్‌లను క్లియర్ చేయడం విఫలమైంది: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "జత చేసే కోడ్‌ను రూపొందించలేకపోయింది: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "$SENDER$ నుండి కొత్త మెసేజ్.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "తెలియదు"
+  },
+  "tagGroup": {
+    "message": "గ్రూప్"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "$NAMES$తో",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "OTPని కాపీ చేయి ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "టెక్స్ట్‌ను కాపీ చేయి"
+  },
+  "copyMessage": {
+    "message": "మెసేజ్‌ను కాపీ చేయి"
+  },
+  "justNow": {
+    "message": "ఇప్పుడే"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "ఫోటో"
+  },
+  "photos_one": {
+    "message": "$COUNT$ ఫోటో",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ ఫోటోలు",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "వీడియో"
+  },
+  "videos_one": {
+    "message": "$COUNT$ వీడియో",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ వీడియోలు",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "ఆడియో"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ ఆడియో క్లిప్",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ ఆడియో క్లిప్‌లు",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "కాంటాక్ట్"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ కాంటాక్ట్",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ కాంటాక్ట్‌లు",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "ఫైల్"
+  },
+  "files_one": {
+    "message": "$COUNT$ ఫైల్",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ ఫైల్‌లు",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$NAMES$ ఉన్న గ్రూప్‌లో $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "$SENDER$ నుండి కొత్త SMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "$SENDER$ నుండి కొత్త MMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "ఫోన్ నుండి కొత్త మెసేజ్ వచ్చింది"
+  },
+  "linkVerified": {
+    "message": "$NAME$తో లింక్ ధృవీకరించబడింది! తక్షణ SMS అలర్ట్‌లు యాక్టివ్‌గా ఉన్నాయి.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[గడువు ముగిసిన OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(డిస్‌కనెక్ట్ తర్వాత అందింది) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ అన్‌లింక్ అయింది",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "ఒక ఫోన్"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ మెసేజ్ విస్మరించబడింది. వాటిని ఆపడానికి ఆ ఫోన్‌లోని SMS యాప్‌లో ఈ కంప్యూటర్‌ను అన్‌లింక్ చేయండి, లేదా అన్ని ఫోన్‌లను అన్‌లింక్ చేయడానికి ఇక్కడ క్లిక్ చేయండి.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ మెసేజ్‌లు విస్మరించబడ్డాయి. వాటిని ఆపడానికి ఆ ఫోన్‌లోని SMS యాప్‌లో ఈ కంప్యూటర్‌ను అన్‌లింక్ చేయండి, లేదా అన్ని ఫోన్‌లను అన్‌లింక్ చేయడానికి ఇక్కడ క్లిక్ చేయండి.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "జత చేసే కోడ్ ఫోన్ చదవలేనంత పొడవుగా ఉంది."
+  },
+  "noPhoneToUnlink": {
+    "message": "అన్‌లింక్ చేయడానికి ఫోన్ ఏదీ లేదు."
+  },
+  "noPushService": {
+    "message": "ఈ బ్రౌజర్ పుష్ మెసేజ్‌లను స్వీకరించలేదు."
+  }
+}

@@ -1,0 +1,70 @@
+Motta SMS-meldinger og engangskoder (OTP) fra din Android-telefon som skrivebordsvarsler, ende-til-ende-kryptert, og kopier koder med ett klikk.
+
+HMJ SMS Desktop Sync er en lett og åpen kildekode-utvidelse som kobles sammen med HMJ SMS-appen på din Android-telefon. Når en melding tikker inn på telefonen, vises den umiddelbart på skrivebordet ditt, slik at du raskt kan kopiere påloggingskoder uten å plukke opp telefonen.
+
+Meldinger overføres direkte fra telefonen til nettleseren via nettleserens egen push-tjeneste, kryptert utelukkende for denne nettleseren. Det finnes ingen mellomliggende servere, og push-tjenesten kan ikke lese innholdet.
+
+Tips: Fest utvidelsen i Chromes utvidelsesmeny (puslespillikonet) for å holde ikonet synlig på verktøylinjen.
+
+HOVEDFUNKSJONER
+
+• Skrivebordsvarsler for alle SMS-meldinger telefonen din mottar
+• Knappene «Kopier OTP» og «Kopier melding» på hvert varsel; et klikk på varselet kopierer OTP-koden, eller hele meldingen dersom den mangler kode
+• Nylige meldinger i verktøylinjemenyen med ett-klikks kopiering
+• Viser hvilken telefon og hvilket SIM-kort som mottok meldingen (f.eks. SIM 2: Jio)
+• Koble til flere telefoner; koble fra en enkelt telefon fra menyen eller tilbakestill alle med en ny paringskode
+• Rask paring ved å skanne en QR-kode – helt uten konto eller registrering
+• Ende-til-ende-kryptert etter de offisielle Web Push-standardene (RFC 8291 og RFC 8292)
+• Fullt tilgjengelig med tastatur og skjermlesere; støtte for mørk modus og høykontrast
+• Ingen server, ingen analyse, ingen sporing
+
+KOBLE TIL TELEFONEN DIN
+
+1. Klikk på ikonet for HMJ SMS Desktop Sync på verktøylinjen for å vise QR-koden for paring.
+2. Åpne HMJ SMS-appen på telefonen din, åpne menyen og velg «Desktop Sync».
+3. Trykk på «Skann QR-kode» og skann koden på dataskjermen.
+
+Et testvarsel vises på skrivebordet for å bekrefte tilkoblingen. For å koble til en annen telefon, klikker du på «Koble til en annen» i hurtigmenyen.
+
+Paringskoden inneholder krypteringsnøklene for å nå denne nettleseren. Vis eller lim den kun inn på din egen telefon, og hold den unna utklippstavlesynkronisering og skjermdeling.
+
+KOPIER EN KODE
+
+Når en melding med bekreftelseskode ankommer, klikker du på «Kopier OTP» på varselet, eller klikker direkte på varselet, og limer inn koden der du trenger den. En engangskode som leveres mer enn 10 minutter for sent, markeres som utløpt, og kun selve meldingen kan kopieres.
+
+TILKOBLEDE TELEFONER
+
+Klikk på telefonnavnet under verktøylinjen for å vise tilkoblede telefoner, se når de sist var aktive og koble fra en enhet. Meldinger fra denne telefonen vil heretter bli ignorert.
+
+Menyen (⋮) inneholder «Koble fra alle telefoner» (som lager en ny paringskode slik at ingen telefoner lenger kan sende meldinger hit, og sletter lagrede meldinger) samt «Slett meldinger».
+
+Hvis nettleseren avslutter tilkoblingen som telefonene sender til, for eksempel etter flere måneder uten meldinger, varsler hurtigmenyen om dette og viser en ny QR-kode som må skannes på hver telefon.
+
+PERSONVERN
+
+• Ingen servere: Meldinger overføres fra telefonen til nettleseren via nettleserens push-tjeneste, kryptert slik at kun denne nettleseren kan lese dem
+• Ingen analyse eller sporing
+• Ingen ekstern kode eller tredjeparts-JavaScript
+• Meldinger, enhetsnavn og paringsnøkkel lagres utelukkende lokalt i nettleseren
+• Meldinger eldre enn 24 timer slettes automatisk; opptil 100 meldinger lagres
+• «Slett meldinger» i menyen sletter alle lagrede meldinger på én gang, akkurat som «Koble fra alle telefoner»
+
+TILLATELSER
+
+• Varsler: Viser hver innkommende melding som et skrivebordsvarsel
+• Utklippstavle: Kopierer engangskoder eller meldinger når du klikker på et varsel eller en kopieringsknapp
+• Lagring: Oppbevarer tilkoblede telefoner og nylige meldinger lokalt i nettleseren
+• Offscreen-dokument: Skriver til utklippstavlen, noe en bakgrunns-service worker ikke kan gjøre direkte
+
+BEGRENSNINGER
+
+• Krever HMJ SMS-appen på en Android-telefon.
+• Fjerning av en telefon her gjør at meldingene ignoreres på denne datamaskinen, men bare telefonen kan stoppe utsendingene: Koble fra denne datamaskinen i HMJ SMS-appen på telefonen i tillegg, eller velg «Koble fra alle telefoner» (hvorpå telefonene du beholder må skanne den nye QR-koden).
+
+ÅPEN KILDEKODE
+
+HMJ SMS Desktop Sync er åpen kildekode og lisensiert under MIT-lisensen.
+
+Se kildekoden, rapporter problemer eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

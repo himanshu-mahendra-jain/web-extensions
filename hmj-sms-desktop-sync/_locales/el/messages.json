@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Ειδοποιήσεις SMS και OTP σε πραγματικό χρόνο από Android, χωρίς διακομιστή, με κρυπτογράφηση και αντιγραφή με 1 κλικ."
+  },
+  "statusLinked": {
+    "message": "Συνδεδεμένο"
+  },
+  "statusLinkedCount_one": {
+    "message": "Συνδεδεμένα: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "Συνδεδεμένα: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Μη συνδεδεμένο"
+  },
+  "pairButton": {
+    "message": "Σύζευξη"
+  },
+  "pairButtonTitle": {
+    "message": "Εμφάνιση κωδικού QR σύζευξης"
+  },
+  "pairAnotherButton": {
+    "message": "Προσθήκη"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Εμφάνιση κωδικού QR για σύνδεση ακόμη ενός τηλεφώνου"
+  },
+  "moreOptions": {
+    "message": "Περισσότερες επιλογές"
+  },
+  "unlinkAllPhones": {
+    "message": "Αποσύνδεση όλων των τηλεφώνων"
+  },
+  "clearMessages": {
+    "message": "Διαγραφή μηνυμάτων"
+  },
+  "phoneFallbackName": {
+    "message": "Τηλέφωνο"
+  },
+  "bannerLinked": {
+    "message": "(συνδεδεμένο)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ συνδεδεμένο τηλέφωνο)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ συνδεδεμένα τηλέφωνα)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Ενεργό"
+  },
+  "linkedPhones": {
+    "message": "Συνδεδεμένα τηλέφωνα"
+  },
+  "lastActive": {
+    "message": "Τελευταία δραστηριότητα: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Αποσύνδεση"
+  },
+  "unlinkPhone": {
+    "message": "Αποσύνδεση $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Αποσύνδεση $NAME$;",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "Τα μηνύματα από $NAME$ θα αγνοούνται εδώ. Για να σταματήσει να τα στέλνει, αποσυνδέστε και αυτόν τον υπολογιστή στην εφαρμογή SMS εκείνου του τηλεφώνου.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "Το $NAME$ αποσυνδέθηκε.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Σύζευξη με τηλέφωνο Android"
+  },
+  "pairOpenApp": {
+    "message": "Ανοίξτε την εφαρμογή HMJ SMS στο τηλέφωνο"
+  },
+  "pairAppPath": {
+    "message": "Ρυθμίσεις → Συγχρονισμός επιφάνειας εργασίας → Σάρωση κωδικού QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Κωδικός QR σύζευξης"
+  },
+  "copyCode": {
+    "message": "Αντιγραφή κωδικού"
+  },
+  "hide": {
+    "message": "Απόκρυψη"
+  },
+  "pairingWarning": {
+    "message": "Αυτός ο κωδικός περιέχει τα κλειδιά της σύνδεσής σας. Εμφανίστε τον ή επικολλήστε τον μόνο στο δικό σας τηλέφωνο και κρατήστε τον μακριά από συγχρονισμό προχείρου και κοινή χρήση οθόνης."
+  },
+  "pairingChanged": {
+    "message": "Η σύζευξή σας άλλαξε. Σαρώστε ξανά τον κωδικό QR σε κάθε τηλέφωνο.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Οι ειδοποιήσεις για αυτή την επέκταση είναι απενεργοποιημένες στο πρόγραμμα περιήγησης, οπότε τα μηνύματα αποθηκεύονται αλλά δεν εμφανίζονται.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Έτοιμο για εισερχόμενα SMS"
+  },
+  "emptyText": {
+    "message": "Τα εισερχόμενα SMS και OTP θα εμφανίζονται εδώ σε πραγματικό χρόνο."
+  },
+  "showPairingQrCode": {
+    "message": "Εμφάνιση κωδικού QR σύζευξης"
+  },
+  "connectedTo": {
+    "message": "Συνδέθηκε με $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "Συνδέθηκε με $COUNT$ τηλέφωνο",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "Συνδέθηκε με $COUNT$ τηλέφωνα",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "Αναμονή για ειδοποιήσεις SMS και OTP από $NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Ακύρωση"
+  },
+  "copied": {
+    "message": "Αντιγράφηκε!"
+  },
+  "pairingCodeCopied": {
+    "message": "Ο κωδικός σύζευξης αντιγράφηκε."
+  },
+  "otpCopied": {
+    "message": "Ο κωδικός OTP αντιγράφηκε."
+  },
+  "messageCopied": {
+    "message": "Το μήνυμα αντιγράφηκε."
+  },
+  "copyFailed": {
+    "message": "Η αντιγραφή απέτυχε: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Καμία απάντηση από τη διεργασία παρασκηνίου."
+  },
+  "unlinkAllTitle": {
+    "message": "Αποσύνδεση όλων των τηλεφώνων;"
+  },
+  "unlinkAllText": {
+    "message": "Αυτός ο υπολογιστής παίρνει νέο κωδικό σύζευξης και κανένα τηλέφωνο δεν μπορεί πλέον να τον φτάσει. Όλα τα μηνύματα που είναι αποθηκευμένα σε αυτή την επέκταση καταργούνται. Τα τηλέφωνα που κρατάτε πρέπει να σαρώσουν τον νέο κωδικό QR."
+  },
+  "unlinkAllAction": {
+    "message": "Αποσύνδεση όλων"
+  },
+  "allPhonesUnlinked": {
+    "message": "Όλα τα τηλέφωνα αποσυνδέθηκαν και τα μηνύματα διαγράφηκαν. Σαρώστε τον νέο κωδικό QR για νέα σύζευξη."
+  },
+  "unlinkFailed": {
+    "message": "Η αποσύνδεση απέτυχε: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Διαγραφή πρόσφατων μηνυμάτων;"
+  },
+  "clearText": {
+    "message": "Όλα τα μηνύματα που είναι αποθηκευμένα σε αυτή την επέκταση θα καταργηθούν. Τα μηνύματα στο τηλέφωνό σας δεν επηρεάζονται."
+  },
+  "messagesCleared": {
+    "message": "Όλα τα αποθηκευμένα μηνύματα διαγράφηκαν."
+  },
+  "clearFailed": {
+    "message": "Η διαγραφή των μηνυμάτων απέτυχε: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Δεν ήταν δυνατή η δημιουργία κωδικού σύζευξης: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "Νέο μήνυμα από $SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Άγνωστος"
+  },
+  "tagGroup": {
+    "message": "Ομάδα"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Με $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "Αντιγραφή OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Αντιγραφή κειμένου"
+  },
+  "copyMessage": {
+    "message": "Αντιγραφή μηνύματος"
+  },
+  "justNow": {
+    "message": "Μόλις τώρα"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Φωτογραφία"
+  },
+  "photos_one": {
+    "message": "$COUNT$ φωτογραφία",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ φωτογραφίες",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Βίντεο"
+  },
+  "videos_one": {
+    "message": "$COUNT$ βίντεο",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ βίντεο",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Ήχος"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ κλιπ ήχου",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ κλιπ ήχου",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Επαφή"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ επαφή",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ επαφές",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Αρχείο"
+  },
+  "files_one": {
+    "message": "$COUNT$ αρχείο",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ αρχεία",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ σε ομάδα με $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "Νέο SMS από $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "Νέο MMS από $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Νέο μήνυμα από το τηλέφωνο"
+  },
+  "linkVerified": {
+    "message": "Η σύνδεση με $NAME$ επαληθεύτηκε! Οι άμεσες ειδοποιήσεις SMS είναι ενεργές.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[ΛΗΓΜΕΝΟ OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Παραδόθηκε μετά την αποσύνδεση) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "Το $NAME$ αποσυνδέθηκε",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Ένα τηλέφωνο"
+  },
+  "ignoredMessages_one": {
+    "message": "Αγνοήθηκε $COUNT$ μήνυμα. Αποσυνδέστε αυτόν τον υπολογιστή στην εφαρμογή SMS εκείνου του τηλεφώνου για να σταματήσουν ή κάντε κλικ εδώ για να αποσυνδέσετε όλα τα τηλέφωνα.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "Αγνοήθηκαν $COUNT$ μηνύματα. Αποσυνδέστε αυτόν τον υπολογιστή στην εφαρμογή SMS εκείνου του τηλεφώνου για να σταματήσουν ή κάντε κλικ εδώ για να αποσυνδέσετε όλα τα τηλέφωνα.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Ο κωδικός σύζευξης είναι πολύ μεγάλος για να τον διαβάσει το τηλέφωνο."
+  },
+  "noPhoneToUnlink": {
+    "message": "Δεν υπάρχει τηλέφωνο για αποσύνδεση."
+  },
+  "noPushService": {
+    "message": "Αυτό το πρόγραμμα περιήγησης δεν μπορεί να λάβει μηνύματα push."
+  }
+}

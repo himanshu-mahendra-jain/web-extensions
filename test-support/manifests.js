@@ -9,6 +9,7 @@ const SHARED_KEYS = [
   "manifest_version",
   "name",
   "version",
+  "default_locale",
   "description",
   "homepage_url",
   "icons",
@@ -113,15 +114,20 @@ function isExcluded(extensionPath, file) {
 }
 
 
-// Scripts and stylesheets an HTML page loads by relative path.
+// Scripts, stylesheets and images an HTML page loads by relative path.
 function htmlReferences(htmlPath) {
   const html = fs.readFileSync(htmlPath, "utf8");
+  const firstGroup = (pattern) => [...html.matchAll(pattern)].map((match) => match[1]);
 
   return [
-    ...html.matchAll(/<script[^>]*\ssrc="([^"]+)"/g),
-    ...html.matchAll(/<link[^>]*\shref="([^"]+)"/g)
+    ...firstGroup(/<script[^>]*\ssrc="([^"]+)"/g),
+    ...firstGroup(/<link[^>]*\shref="([^"]+)"/g),
+    ...firstGroup(/<img[^>]*\ssrc="([^"]+)"/g),
+    // Each srcset candidate is a URL and its width or density.
+    ...firstGroup(/<img[^>]*\ssrcset="([^"]+)"/g).flatMap((srcset) => {
+      return srcset.split(",").map((candidate) => candidate.trim().split(/\s+/)[0]);
+    })
   ]
-    .map((match) => match[1])
     .filter((reference) => !/^[a-z]+:/i.test(reference))
     .map((reference) => {
       return path.join(path.dirname(htmlPath), reference);
@@ -253,6 +259,101 @@ function sortedPermissions(manifest, leaveOut) {
 }
 
 
+// The locales in _locales/, each a directory with its messages.json.
+function locales(extensionPath) {
+  const directory = path.join(extensionPath, "_locales");
+
+  return fs.existsSync(directory) ? fs.readdirSync(directory) : [];
+}
+
+
+function readMessages(extensionPath, locale) {
+  return JSON.parse(
+    fs.readFileSync(path.join(extensionPath, "_locales", locale, "messages.json"), "utf8")
+  );
+}
+
+
+// The $NAME$ placeholders a message uses, lowercase and sorted.
+function placeholdersOf(entry) {
+  return [...entry.message.matchAll(/\$([\w@]+)\$/g)]
+    .map((match) => match[1].toLowerCase())
+    .sort();
+}
+
+
+/*
+ * Checks an extension's _locales/ against its manifest: a default
+ * locale that exists, every __MSG_name__ the manifest uses defined
+ * there, every placeholder a message uses declared, and no other
+ * locale with a message or placeholder the default locale lacks.
+ * Browsers refuse to load an extension that breaks the first two.
+ */
+function testLocales(extensionPath, manifestFiles) {
+  test("_locales and default_locale go together", () => {
+    for (const file of manifestFiles) {
+      const manifest = readManifest(extensionPath, file);
+
+      expect(Boolean(manifest.default_locale), file).toBe(locales(extensionPath).length > 0);
+
+      if (manifest.default_locale) {
+        expect(locales(extensionPath), file).toContain(manifest.default_locale);
+      }
+    }
+  });
+
+
+  test("every message the manifest names is in the default locale", () => {
+    for (const file of manifestFiles) {
+      const text = fs.readFileSync(path.join(extensionPath, file), "utf8");
+      const names = [...text.matchAll(/__MSG_(\w+)__/g)].map((match) => match[1]);
+
+      if (names.length === 0) {
+        continue;
+      }
+
+      const { default_locale: locale } = JSON.parse(text);
+      const defined = Object.keys(readMessages(extensionPath, locale)).map((name) => name.toLowerCase());
+
+      expect(names.filter((name) => !defined.includes(name.toLowerCase())), file).toEqual([]);
+    }
+  });
+
+
+  test("every message declares the placeholders it uses", () => {
+    for (const locale of locales(extensionPath)) {
+      for (const [name, entry] of Object.entries(readMessages(extensionPath, locale))) {
+        const declared = Object.keys(entry.placeholders ?? {}).map((key) => key.toLowerCase()).sort();
+
+        expect([...new Set(placeholdersOf(entry))], `${locale}: ${name}`).toEqual(declared);
+      }
+    }
+  });
+
+
+  test("other locales translate only the default locale's messages", () => {
+    const [file] = manifestFiles;
+    const { default_locale: defaultLocale } = readManifest(extensionPath, file);
+
+    if (!defaultLocale) {
+      return;
+    }
+
+    const base = readMessages(extensionPath, defaultLocale);
+
+    for (const locale of locales(extensionPath).filter((name) => name !== defaultLocale)) {
+      for (const [name, entry] of Object.entries(readMessages(extensionPath, locale))) {
+        // A language's own plural forms, such as name_few, count from name_other.
+        const original = base[name] ?? base[name.replace(/_(?:zero|one|two|few|many)$/, "_other")];
+
+        expect(original, `${locale}: ${name}`).toBeDefined();
+        expect(placeholdersOf(entry), `${locale}: ${name}`).toEqual(placeholdersOf(original));
+      }
+    }
+  });
+}
+
+
 /*
  * Checks the two manifests of an extension against each other and
  * against the files on disk, so a version bump or a renamed file
@@ -311,6 +412,12 @@ export function testManifests(
       expect(missingFiles(extensionPath, chromium, false))
         .toEqual([]);
     });
+
+
+    testLocales(
+      extensionPath,
+      shipsForFirefox ? ["manifest.json", "manifest-firefox.json"] : ["manifest.json"]
+    );
 
 
     if (!shipsForFirefox) {

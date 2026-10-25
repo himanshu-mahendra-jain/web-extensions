@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Android telefonunuzdan sunucusuz, uçtan uca şifreli, gerçek zamanlı SMS ve OTP bildirimleri; tek tıkla kopyalama."
+  },
+  "statusLinked": {
+    "message": "Bağlı"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ bağlı",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ bağlı",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "Bağlı değil"
+  },
+  "pairButton": {
+    "message": "Eşle"
+  },
+  "pairButtonTitle": {
+    "message": "Eşleme QR kodunu göster"
+  },
+  "pairAnotherButton": {
+    "message": "Ekle"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Başka bir telefonu bağlamak için QR kodunu göster"
+  },
+  "moreOptions": {
+    "message": "Diğer seçenekler"
+  },
+  "unlinkAllPhones": {
+    "message": "Tüm telefonların bağlantısını kaldır"
+  },
+  "clearMessages": {
+    "message": "Mesajları temizle"
+  },
+  "phoneFallbackName": {
+    "message": "Telefon"
+  },
+  "bannerLinked": {
+    "message": "(bağlı)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ telefon bağlı)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ telefon bağlı)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "Etkin"
+  },
+  "linkedPhones": {
+    "message": "Bağlı telefonlar"
+  },
+  "lastActive": {
+    "message": "Son etkinlik: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "Bağlantıyı kaldır"
+  },
+  "unlinkPhone": {
+    "message": "$NAME$ bağlantısını kaldır",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "$NAME$ bağlantısı kaldırılsın mı?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "$NAME$ cihazından gelen mesajlar burada yok sayılacak. Göndermeyi bırakması için bu bilgisayarın bağlantısını o telefondaki SMS uygulamasında da kaldırın.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ bağlantısı kaldırıldı.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Android telefonla eşle"
+  },
+  "pairOpenApp": {
+    "message": "Telefonda HMJ SMS uygulamasını açın"
+  },
+  "pairAppPath": {
+    "message": "Ayarlar → Masaüstü Senkronizasyonu → QR Kodunu Tara",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Eşleme QR kodu"
+  },
+  "copyCode": {
+    "message": "Kodu kopyala"
+  },
+  "hide": {
+    "message": "Gizle"
+  },
+  "pairingWarning": {
+    "message": "Bu kod, bağlantınızın anahtarlarını içerir. Yalnızca kendi telefonunuzda gösterin veya yapıştırın; pano eşitlemesinden ve ekran paylaşımından uzak tutun."
+  },
+  "pairingChanged": {
+    "message": "Eşlemeniz değişti. Lütfen QR kodunu her telefonda yeniden tarayın.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Bu uzantının bildirimleri tarayıcıda kapalı olduğundan mesajlar kaydedilir ancak ekranda gösterilmez.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Gelen SMS'lere hazır"
+  },
+  "emptyText": {
+    "message": "Gelen SMS'ler ve OTP'ler burada gerçek zamanlı olarak görünür."
+  },
+  "showPairingQrCode": {
+    "message": "Eşleme QR kodunu göster"
+  },
+  "connectedTo": {
+    "message": "$NAME$ cihazına bağlı",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "$COUNT$ telefona bağlı",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "$COUNT$ telefona bağlı",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "$NAMES$ cihazından gelen SMS ve OTP bildirimleri bekleniyor.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "copied": {
+    "message": "Kopyalandı!"
+  },
+  "pairingCodeCopied": {
+    "message": "Eşleme kodu kopyalandı."
+  },
+  "otpCopied": {
+    "message": "OTP kopyalandı."
+  },
+  "messageCopied": {
+    "message": "Mesaj kopyalandı."
+  },
+  "copyFailed": {
+    "message": "Kopyalanamadı: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "Arka plan servisinden yanıt alınamadı."
+  },
+  "unlinkAllTitle": {
+    "message": "Tüm telefonların bağlantısı kaldırılsın mı?"
+  },
+  "unlinkAllText": {
+    "message": "Bu bilgisayar yeni bir eşleme kodu alır ve hiçbir telefon artık ona ulaşamaz. Bu uzantıda saklanan tüm mesajlar silinir. Tutmak istediğiniz telefonların yeni QR kodunu taraması gerekir."
+  },
+  "unlinkAllAction": {
+    "message": "Tümünü kaldır"
+  },
+  "allPhonesUnlinked": {
+    "message": "Tüm telefonların bağlantısı kaldırıldı ve mesajlar temizlendi. Yeniden eşlemek için yeni QR kodunu tarayın."
+  },
+  "unlinkFailed": {
+    "message": "Bağlantı kaldırılamadı: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "Son mesajlar temizlensin mi?"
+  },
+  "clearText": {
+    "message": "Bu uzantıda saklanan tüm mesajlar silinecek. Telefonunuzdaki mesajlar etkilenmez."
+  },
+  "messagesCleared": {
+    "message": "Saklanan tüm mesajlar temizlendi."
+  },
+  "clearFailed": {
+    "message": "Mesajlar temizlenemedi: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "Eşleme kodu oluşturulamadı: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "$SENDER$ adlı göndericiden yeni mesaj.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "Bilinmiyor"
+  },
+  "tagGroup": {
+    "message": "Grup"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "Katılımcılar: $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "OTP'yi kopyala ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "Metni kopyala"
+  },
+  "copyMessage": {
+    "message": "Mesajı kopyala"
+  },
+  "justNow": {
+    "message": "Az önce"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "Fotoğraf"
+  },
+  "photos_one": {
+    "message": "$COUNT$ fotoğraf",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ fotoğraf",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "Video"
+  },
+  "videos_one": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ video",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "Ses"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ ses klibi",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ ses klibi",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "Kişi"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ kişi",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ kişi",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "Dosya"
+  },
+  "files_one": {
+    "message": "$COUNT$ dosya",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ dosya",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$, $NAMES$ ile grupta",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "$SENDER$ adlı göndericiden yeni SMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "$SENDER$ adlı göndericiden yeni MMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "Telefondan yeni mesaj alındı"
+  },
+  "linkVerified": {
+    "message": "$NAME$ ile bağlantı doğrulandı! Anlık SMS bildirimleri etkin.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[SÜRESİ DOLMUŞ OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(Bağlantı kesildikten sonra iletildi) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ bağlantısı kaldırıldı",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "Bir telefon"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ mesaj yok sayıldı. Durdurmak için o telefondaki SMS uygulamasında bu bilgisayarın bağlantısını kaldırın veya tüm telefonların bağlantısını kaldırmak için buraya tıklayın.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ mesaj yok sayıldı. Durdurmak için o telefondaki SMS uygulamasında bu bilgisayarın bağlantısını kaldırın veya tüm telefonların bağlantısını kaldırmak için buraya tıklayın.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "Eşleme kodu, telefonun okuyamayacağı kadar uzun."
+  },
+  "noPhoneToUnlink": {
+    "message": "Bağlantısı kaldırılacak telefon yok."
+  },
+  "noPushService": {
+    "message": "Bu tarayıcı anlık bildirim (push) mesajlarını alamaz."
+  }
+}

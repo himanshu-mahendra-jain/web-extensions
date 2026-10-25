@@ -1,0 +1,604 @@
+{
+  "extensionDescription": {
+    "message": "התראות SMS ו-OTP בזמן אמת מטלפון Android, ללא שרת, בהצפנה מקצה לקצה ועם העתקה בלחיצה אחת."
+  },
+  "statusLinked": {
+    "message": "מקושר"
+  },
+  "statusLinkedCount_one": {
+    "message": "מקושרים: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "מקושרים: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "לא מקושר"
+  },
+  "pairButton": {
+    "message": "התאמה"
+  },
+  "pairButtonTitle": {
+    "message": "הצגת קוד QR להתאמה"
+  },
+  "pairAnotherButton": {
+    "message": "הוספה"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "הצגת קוד QR לקישור טלפון נוסף"
+  },
+  "moreOptions": {
+    "message": "אפשרויות נוספות"
+  },
+  "unlinkAllPhones": {
+    "message": "ניתוק כל הטלפונים"
+  },
+  "clearMessages": {
+    "message": "ניקוי ההודעות"
+  },
+  "phoneFallbackName": {
+    "message": "טלפון"
+  },
+  "bannerLinked": {
+    "message": "(מקושר)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ טלפון מקושר)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ טלפונים מקושרים)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "פעיל"
+  },
+  "linkedPhones": {
+    "message": "טלפונים מקושרים"
+  },
+  "lastActive": {
+    "message": "פעילות אחרונה: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "ניתוק"
+  },
+  "unlinkPhone": {
+    "message": "ניתוק $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "לנתק את $NAME$?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "המערכת תתעלם כאן מהודעות מ-$NAME$. כדי שהטלפון יפסיק לשלוח אותן, יש לנתק את המחשב הזה גם באפליקציית ה-SMS שבאותו טלפון.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ נותק.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "התאמה עם טלפון Android"
+  },
+  "pairOpenApp": {
+    "message": "יש לפתוח את אפליקציית HMJ SMS בטלפון"
+  },
+  "pairAppPath": {
+    "message": "הגדרות ← סנכרון למחשב ← סריקת קוד QR",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "קוד QR להתאמה"
+  },
+  "copyCode": {
+    "message": "העתקת הקוד"
+  },
+  "hide": {
+    "message": "הסתרה"
+  },
+  "pairingWarning": {
+    "message": "הקוד הזה מכיל את המפתחות של הקישור שלך. יש להציג או להדביק אותו רק בטלפון שלך, ולהרחיק אותו מסנכרון לוח העריכה ומשיתוף מסך."
+  },
+  "pairingChanged": {
+    "message": "ההתאמה השתנתה. יש לסרוק שוב את קוד ה-QR בכל טלפון.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "ההתראות של התוסף הזה כבויות בדפדפן, לכן ההודעות נשמרות אבל לא מוצגות.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "מוכן לקבלת הודעות SMS"
+  },
+  "emptyText": {
+    "message": "הודעות SMS וקודי OTP נכנסים יופיעו כאן בזמן אמת."
+  },
+  "showPairingQrCode": {
+    "message": "הצגת קוד QR להתאמה"
+  },
+  "connectedTo": {
+    "message": "מחובר אל $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "טלפונים מחוברים: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "טלפונים מחוברים: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "ממתין להתראות SMS ו-OTP מ-$NAMES$.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "ביטול"
+  },
+  "copied": {
+    "message": "הועתק!"
+  },
+  "pairingCodeCopied": {
+    "message": "קוד ההתאמה הועתק."
+  },
+  "otpCopied": {
+    "message": "קוד ה-OTP הועתק."
+  },
+  "messageCopied": {
+    "message": "ההודעה הועתקה."
+  },
+  "copyFailed": {
+    "message": "ההעתקה נכשלה: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "אין תגובה מתהליך הרקע."
+  },
+  "unlinkAllTitle": {
+    "message": "לנתק את כל הטלפונים?"
+  },
+  "unlinkAllText": {
+    "message": "המחשב הזה יקבל קוד התאמה חדש, ואף טלפון לא יוכל להגיע אליו יותר. כל ההודעות השמורות בתוסף הזה יוסרו. טלפונים שברצונך להשאיר יצטרכו לסרוק את קוד ה-QR החדש."
+  },
+  "unlinkAllAction": {
+    "message": "ניתוק הכול"
+  },
+  "allPhonesUnlinked": {
+    "message": "כל הטלפונים נותקו וההודעות נוקו. יש לסרוק את קוד ה-QR החדש כדי להתאים מחדש."
+  },
+  "unlinkFailed": {
+    "message": "הניתוק נכשל: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "לנקות את ההודעות האחרונות?"
+  },
+  "clearText": {
+    "message": "כל ההודעות השמורות בתוסף הזה יוסרו. ההודעות בטלפון שלך לא יושפעו."
+  },
+  "messagesCleared": {
+    "message": "כל ההודעות השמורות נוקו."
+  },
+  "clearFailed": {
+    "message": "ניקוי ההודעות נכשל: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "לא ניתן ליצור קוד התאמה: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "הודעה חדשה מ-$SENDER$.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "לא ידוע"
+  },
+  "tagGroup": {
+    "message": "קבוצה"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "עם $NAMES$",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "העתקת OTP ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "העתקת הטקסט"
+  },
+  "copyMessage": {
+    "message": "העתקת ההודעה"
+  },
+  "justNow": {
+    "message": "עכשיו"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "תמונה"
+  },
+  "photos_one": {
+    "message": "$COUNT$ תמונה",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ תמונות",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "סרטון"
+  },
+  "videos_one": {
+    "message": "$COUNT$ סרטון",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ סרטונים",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "קטע שמע"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ קטע שמע",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ קטעי שמע",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "איש קשר"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ איש קשר",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ אנשי קשר",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "קובץ"
+  },
+  "files_one": {
+    "message": "$COUNT$ קובץ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ קבצים",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ בקבוצה עם $NAMES$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "SMS חדש מ-$SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "MMS חדש מ-$SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "התקבלה הודעה חדשה מהטלפון"
+  },
+  "linkVerified": {
+    "message": "הקישור עם $NAME$ אומת! התראות SMS מיידיות פעילות.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[OTP שפג תוקפו]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(נמסרה אחרי ניתוק) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ נותק",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "טלפון"
+  },
+  "ignoredMessages_one": {
+    "message": "הודעות שהמערכת התעלמה מהן: $COUNT$. כדי לעצור אותן, יש לנתק את המחשב הזה באפליקציית ה-SMS שבאותו טלפון, או ללחוץ כאן כדי לנתק את כל הטלפונים.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "הודעות שהמערכת התעלמה מהן: $COUNT$. כדי לעצור אותן, יש לנתק את המחשב הזה באפליקציית ה-SMS שבאותו טלפון, או ללחוץ כאן כדי לנתק את כל הטלפונים.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "קוד ההתאמה ארוך מדי לקריאה בטלפון."
+  },
+  "noPhoneToUnlink": {
+    "message": "אין טלפון לניתוק."
+  },
+  "noPushService": {
+    "message": "הדפדפן הזה לא יכול לקבל הודעות Push."
+  },
+  "statusLinkedCount_two": {
+    "message": "מקושרים: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_two": {
+    "message": "($COUNT$ טלפונים מקושרים)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_two": {
+    "message": "טלפונים מחוברים: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_two": {
+    "message": "$COUNT$ תמונות",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_two": {
+    "message": "$COUNT$ סרטונים",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_two": {
+    "message": "$COUNT$ קטעי שמע",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_two": {
+    "message": "$COUNT$ אנשי קשר",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_two": {
+    "message": "$COUNT$ קבצים",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_two": {
+    "message": "הודעות שהמערכת התעלמה מהן: $COUNT$. כדי לעצור אותן, יש לנתק את המחשב הזה באפליקציית ה-SMS שבאותו טלפון, או ללחוץ כאן כדי לנתק את כל הטלפונים.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

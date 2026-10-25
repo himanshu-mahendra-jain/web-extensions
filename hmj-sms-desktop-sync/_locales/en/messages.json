@@ -1,0 +1,434 @@
+{
+  "extensionDescription": {
+    "message": "Zero-server, end-to-end encrypted real-time SMS & OTP notifications synced from your Android phone with 1-click clipboard copy.",
+    "description": "The extension's description in the browser's extension list and store."
+  },
+  "statusLinked": {
+    "message": "Linked",
+    "description": "Header badge when one phone is linked."
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ Linked",
+    "description": "Header badge when several phones are linked.",
+    "placeholders": { "count": { "content": "$1", "example": "1" } }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ Linked",
+    "description": "Header badge when several phones are linked.",
+    "placeholders": { "count": { "content": "$1", "example": "2" } }
+  },
+  "statusNotLinked": {
+    "message": "Not Linked",
+    "description": "Header badge when no phone is linked."
+  },
+  "pairButton": {
+    "message": "Pair",
+    "description": "Header button that shows the pairing QR code."
+  },
+  "pairButtonTitle": {
+    "message": "Show Pairing QR Code",
+    "description": "Tooltip of the Pair button."
+  },
+  "pairAnotherButton": {
+    "message": "Pair Another",
+    "description": "Header button that shows the pairing QR code once a phone is linked."
+  },
+  "pairAnotherButtonTitle": {
+    "message": "Show QR code to link an additional phone",
+    "description": "Tooltip of the Pair Another button."
+  },
+  "moreOptions": {
+    "message": "More options",
+    "description": "Name of the menu button in the header."
+  },
+  "unlinkAllPhones": {
+    "message": "Unlink All Phones",
+    "description": "Menu item that unlinks every phone."
+  },
+  "clearMessages": {
+    "message": "Clear Messages",
+    "description": "Menu item, and its dialog's button, that removes the stored messages."
+  },
+  "phoneFallbackName": {
+    "message": "Phone",
+    "description": "Name of a phone that sent none."
+  },
+  "bannerLinked": {
+    "message": "(Linked)",
+    "description": "After the phone's name in the banner, when one phone is linked."
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ Phone Linked)",
+    "description": "After the phones' names in the banner.",
+    "placeholders": { "count": { "content": "$1", "example": "1" } }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ Phones Linked)",
+    "description": "After the phones' names in the banner.",
+    "placeholders": { "count": { "content": "$1", "example": "2" } }
+  },
+  "active": {
+    "message": "Active",
+    "description": "Says a linked phone is active, when its last activity is unknown."
+  },
+  "linkedPhones": {
+    "message": "Linked phones",
+    "description": "Name of the list of linked phones."
+  },
+  "lastActive": {
+    "message": "Last active $TIME$",
+    "description": "When a linked phone last sent something.",
+    "placeholders": { "time": { "content": "$1", "example": "5m ago" } }
+  },
+  "unlink": {
+    "message": "Unlink",
+    "description": "Button that unlinks one phone, and its dialog's button."
+  },
+  "unlinkPhone": {
+    "message": "Unlink $NAME$",
+    "description": "Name of the Unlink button of one phone, for screen readers.",
+    "placeholders": { "name": { "content": "$1", "example": "Pixel 8" } }
+  },
+  "unlinkPhoneTitle": {
+    "message": "Unlink $NAME$?",
+    "description": "Title of the dialog that unlinks one phone.",
+    "placeholders": { "name": { "content": "$1", "example": "Pixel 8" } }
+  },
+  "unlinkPhoneText": {
+    "message": "Messages from $NAME$ will be ignored here. To stop it sending them, also unlink this computer in the SMS app on that phone.",
+    "description": "Text of the dialog that unlinks one phone.",
+    "placeholders": { "name": { "content": "$1", "example": "Pixel 8" } }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ unlinked.",
+    "description": "Status after one phone is unlinked.",
+    "placeholders": { "name": { "content": "$1", "example": "Pixel 8" } }
+  },
+  "pairHeading": {
+    "message": "Pair with Android Phone",
+    "description": "Heading of the pairing QR code card."
+  },
+  "pairOpenApp": {
+    "message": "Open HMJ SMS app on phone",
+    "description": "First step of pairing, before the app's menu path. Keep the app's name, HMJ SMS, in English."
+  },
+  "pairAppPath": {
+    "message": "Settings → Desktop Sync → Scan QR Code",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "Pairing QR code",
+    "description": "Name of the QR code image, for screen readers."
+  },
+  "copyCode": {
+    "message": "Copy Code",
+    "description": "Button that copies the pairing code."
+  },
+  "hide": {
+    "message": "Hide",
+    "description": "Button that hides the pairing QR code."
+  },
+  "pairingWarning": {
+    "message": "This code holds the keys to your link. Show or paste it only on your own phone, and keep it away from clipboard sync and screen sharing.",
+    "description": "Warning under the pairing QR code."
+  },
+  "pairingChanged": {
+    "message": "Your pairing changed. Scan the QR code again on each phone.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "Notifications are turned off for this extension in the browser, so messages are stored but not shown.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "Ready for incoming SMS",
+    "description": "Title of the empty message list when no phone is linked."
+  },
+  "emptyText": {
+    "message": "Incoming SMS and OTPs will appear here in real-time.",
+    "description": "Text of the empty message list when no phone is linked."
+  },
+  "showPairingQrCode": {
+    "message": "Show Pairing QR Code",
+    "description": "Button in the empty message list that shows the pairing QR code."
+  },
+  "connectedTo": {
+    "message": "Connected to $NAME$",
+    "description": "Title of the empty message list when one phone is linked.",
+    "placeholders": { "name": { "content": "$1", "example": "Pixel 8" } }
+  },
+  "connectedToCount_one": {
+    "message": "Connected to $COUNT$ Phone",
+    "description": "Title of the empty message list when several phones are linked.",
+    "placeholders": { "count": { "content": "$1", "example": "1" } }
+  },
+  "connectedToCount_other": {
+    "message": "Connected to $COUNT$ Phones",
+    "description": "Title of the empty message list when several phones are linked.",
+    "placeholders": { "count": { "content": "$1", "example": "2" } }
+  },
+  "waitingFor": {
+    "message": "Waiting for incoming SMS & OTP alerts from $NAMES$.",
+    "description": "Text of the empty message list when phones are linked.",
+    "placeholders": { "names": { "content": "$1", "example": "Pixel 8 and Galaxy S24" } }
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "Dialog button that closes it without doing anything."
+  },
+  "copied": {
+    "message": "Copied!",
+    "description": "A copy button's label for a moment after it copied."
+  },
+  "pairingCodeCopied": {
+    "message": "Pairing code copied.",
+    "description": "Said to screen readers after the pairing code is copied."
+  },
+  "otpCopied": {
+    "message": "OTP copied.",
+    "description": "Said to screen readers after an OTP is copied."
+  },
+  "messageCopied": {
+    "message": "Message copied.",
+    "description": "Said to screen readers after a message is copied."
+  },
+  "copyFailed": {
+    "message": "Failed to copy: $ERROR$",
+    "description": "When copying fails.",
+    "placeholders": { "error": { "content": "$1", "example": "Document is not focused." } }
+  },
+  "noAnswer": {
+    "message": "No answer from the background.",
+    "description": "Error when the extension's background did not answer."
+  },
+  "unlinkAllTitle": {
+    "message": "Unlink all phones?",
+    "description": "Title of the Unlink All Phones dialog."
+  },
+  "unlinkAllText": {
+    "message": "This computer gets a new pairing code, and no phone can reach it any more. Every message stored in this extension is removed. Phones you keep must scan the new QR code.",
+    "description": "Text of the Unlink All Phones dialog."
+  },
+  "unlinkAllAction": {
+    "message": "Unlink All",
+    "description": "Button of the Unlink All Phones dialog."
+  },
+  "allPhonesUnlinked": {
+    "message": "All phones unlinked and messages cleared. Scan the new QR code to pair again.",
+    "description": "Status after Unlink All Phones."
+  },
+  "unlinkFailed": {
+    "message": "Failed to unlink: $ERROR$",
+    "description": "Status when unlinking fails.",
+    "placeholders": { "error": { "content": "$1", "example": "No push service." } }
+  },
+  "clearTitle": {
+    "message": "Clear recent messages?",
+    "description": "Title of the Clear Messages dialog."
+  },
+  "clearText": {
+    "message": "Every message stored in this extension will be removed. Messages on your phone are not affected.",
+    "description": "Text of the Clear Messages dialog."
+  },
+  "messagesCleared": {
+    "message": "All stored messages cleared.",
+    "description": "Status after Clear Messages."
+  },
+  "clearFailed": {
+    "message": "Failed to clear messages: $ERROR$",
+    "description": "Status when clearing the messages fails.",
+    "placeholders": { "error": { "content": "$1", "example": "Storage is full." } }
+  },
+  "pairingCodeFailed": {
+    "message": "Could not make a pairing code: $ERROR$",
+    "description": "When the pairing code cannot be made.",
+    "placeholders": { "error": { "content": "$1", "example": "This browser cannot receive push messages." } }
+  },
+  "newMessageFrom": {
+    "message": "New message from $SENDER$.",
+    "description": "Said to screen readers when a message arrives while the popup is open.",
+    "placeholders": { "sender": { "content": "$1", "example": "BANK" } }
+  },
+  "unknownSender": {
+    "message": "Unknown",
+    "description": "Sender of a message that names none."
+  },
+  "tagGroup": {
+    "message": "Group",
+    "description": "Tag on a group message."
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": { "content": "$1", "example": "1" },
+      "name": { "content": "$2", "example": "Jio" }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": { "slot": { "content": "$1", "example": "1" } }
+  },
+  "groupWith": {
+    "message": "With $NAMES$",
+    "description": "The other members of a group message.",
+    "placeholders": { "names": { "content": "$1", "example": "Bob, Carol" } }
+  },
+  "copyOtp": {
+    "message": "Copy OTP ($OTP$)",
+    "description": "Button, and notification button, that copies a message's OTP.",
+    "placeholders": { "otp": { "content": "$1", "example": "482913" } }
+  },
+  "copyText": {
+    "message": "Copy Text",
+    "description": "Button that copies a message."
+  },
+  "copyMessage": {
+    "message": "Copy Message",
+    "description": "Notification button that copies the message."
+  },
+  "justNow": {
+    "message": "Just now",
+    "description": "How long ago something happened: under a minute."
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": { "content": "$1", "example": "Bob, Carol, Dave" },
+      "count": { "content": "$2", "example": "2" }
+    }
+  },
+  "photo": { "message": "Photo", "description": "One photo attached to an MMS." },
+  "photos_one": {
+    "message": "$COUNT$ photo",
+    "description": "Photos attached to an MMS.",
+    "placeholders": { "count": { "content": "$1", "example": "1" } }
+  },
+  "photos_other": {
+    "message": "$COUNT$ photos",
+    "description": "Photos attached to an MMS.",
+    "placeholders": { "count": { "content": "$1", "example": "2" } }
+  },
+  "video": { "message": "Video", "description": "One video attached to an MMS." },
+  "videos_one": {
+    "message": "$COUNT$ video",
+    "description": "Videos attached to an MMS.",
+    "placeholders": { "count": { "content": "$1", "example": "1" } }
+  },
+  "videos_other": {
+    "message": "$COUNT$ videos",
+    "description": "Videos attached to an MMS.",
+    "placeholders": { "count": { "content": "$1", "example": "2" } }
+  },
+  "audio": { "message": "Audio", "description": "One audio clip attached to an MMS." },
+  "audioClips_one": {
+    "message": "$COUNT$ audio clip",
+    "description": "Audio clips attached to an MMS.",
+    "placeholders": { "count": { "content": "$1", "example": "1" } }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ audio clips",
+    "description": "Audio clips attached to an MMS.",
+    "placeholders": { "count": { "content": "$1", "example": "2" } }
+  },
+  "contact": { "message": "Contact", "description": "One contact attached to an MMS." },
+  "contacts_one": {
+    "message": "$COUNT$ contact",
+    "description": "Contacts attached to an MMS.",
+    "placeholders": { "count": { "content": "$1", "example": "1" } }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ contacts",
+    "description": "Contacts attached to an MMS.",
+    "placeholders": { "count": { "content": "$1", "example": "2" } }
+  },
+  "file": { "message": "File", "description": "One file attached to an MMS." },
+  "files_one": {
+    "message": "$COUNT$ file",
+    "description": "Files attached to an MMS.",
+    "placeholders": { "count": { "content": "$1", "example": "1" } }
+  },
+  "files_other": {
+    "message": "$COUNT$ files",
+    "description": "Files attached to an MMS.",
+    "placeholders": { "count": { "content": "$1", "example": "2" } }
+  },
+  "groupTitle": {
+    "message": "$SENDER$ in group with $NAMES$",
+    "description": "Notification title of a group message.",
+    "placeholders": {
+      "sender": { "content": "$1", "example": "Alice" },
+      "names": { "content": "$2", "example": "Bob, Carol" }
+    }
+  },
+  "newSmsFrom": {
+    "message": "New SMS from $SENDER$",
+    "description": "Notification title of an SMS.",
+    "placeholders": { "sender": { "content": "$1", "example": "BANK" } }
+  },
+  "newMmsFrom": {
+    "message": "New MMS from $SENDER$",
+    "description": "Notification title of an MMS.",
+    "placeholders": { "sender": { "content": "$1", "example": "Alice" } }
+  },
+  "unreadableMessage": {
+    "message": "New message received from phone",
+    "description": "Text of a message the extension could not read."
+  },
+  "linkVerified": {
+    "message": "Link verified with $NAME$! Instant SMS alerts are active.",
+    "description": "Test message when a phone pairs, if the phone sent no text of its own.",
+    "placeholders": { "name": { "content": "$1", "example": "Pixel 8" } }
+  },
+  "expiredOtpBadge": {
+    "message": "[EXPIRED OTP]",
+    "description": "Before the title of a notification whose OTP arrived too late to use."
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": { "slot": { "content": "$1", "example": "1" } }
+  },
+  "deliveredLate": {
+    "message": "(Delivered after disconnect) $TEXT$",
+    "description": "Text of a notification whose OTP arrived too late to use.",
+    "placeholders": { "text": { "content": "$1", "example": "Your code is 482913" } }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ is unlinked",
+    "description": "Title of the notice about messages from an unlinked phone.",
+    "placeholders": { "name": { "content": "$1", "example": "Pixel 8" } }
+  },
+  "aPhone": {
+    "message": "A phone",
+    "description": "An unlinked phone without a name, in the notice about its messages."
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ message ignored. Unlink this computer in the SMS app on that phone to stop them, or click here to unlink all phones.",
+    "description": "Text of the notice about messages from an unlinked phone.",
+    "placeholders": { "count": { "content": "$1", "example": "1" } }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ messages ignored. Unlink this computer in the SMS app on that phone to stop them, or click here to unlink all phones.",
+    "description": "Text of the notice about messages from an unlinked phone.",
+    "placeholders": { "count": { "content": "$1", "example": "2" } }
+  },
+  "pairingCodeTooLong": {
+    "message": "The pairing code is too long for the phone to read.",
+    "description": "Error when the pairing code is longer than the phone accepts."
+  },
+  "noPhoneToUnlink": {
+    "message": "No phone to unlink.",
+    "description": "Error when unlinking names no phone."
+  },
+  "noPushService": {
+    "message": "This browser cannot receive push messages.",
+    "description": "Error when the browser has no push service."
+  }
+}

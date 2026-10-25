@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
   "name": "HMJ SMS Desktop Sync",
-  "version": "1.0.0",
-  "minimum_chrome_version": "116",
-  "description": "Zero-server, end-to-end encrypted real-time SMS & OTP notifications synced from your Android phone with 1-click clipboard copy.",
+  "version": "1.0.1",
+  "minimum_chrome_version": "127",
+  "default_locale": "en",
+  "description": "__MSG_extensionDescription__",
   "homepage_url": "https://github.com/himanshu-mahendra-jain/web-extensions",
   "icons": {
     "16": "icons/icon16.png",
@@ -30,10 +31,6 @@
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     }
-  },
-  "options_ui": {
-    "page": "options/options.html",
-    "open_in_tab": true
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"

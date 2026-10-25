@@ -1,0 +1,532 @@
+{
+  "extensionDescription": {
+    "message": "Android ಫೋನ್‌ನಿಂದ ಸರ್ವರ್ ಇಲ್ಲದೆ, ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ SMS ಮತ್ತು OTP ಅಧಿಸೂಚನೆಗಳು ನೈಜ ಸಮಯದಲ್ಲಿ; 1 ಕ್ಲಿಕ್‌ನಲ್ಲಿ ನಕಲಿಸಿ."
+  },
+  "statusLinked": {
+    "message": "ಲಿಂಕ್ ಆಗಿದೆ"
+  },
+  "statusLinkedCount_one": {
+    "message": "$COUNT$ ಲಿಂಕ್ ಆಗಿದೆ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusLinkedCount_other": {
+    "message": "$COUNT$ ಲಿಂಕ್ ಆಗಿವೆ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusNotLinked": {
+    "message": "ಲಿಂಕ್ ಆಗಿಲ್ಲ"
+  },
+  "pairButton": {
+    "message": "ಜೋಡಿಸಿ"
+  },
+  "pairButtonTitle": {
+    "message": "ಜೋಡಣೆ QR ಕೋಡ್ ತೋರಿಸಿ"
+  },
+  "pairAnotherButton": {
+    "message": "ಸೇರಿಸಿ"
+  },
+  "pairAnotherButtonTitle": {
+    "message": "ಇನ್ನೊಂದು ಫೋನ್ ಲಿಂಕ್ ಮಾಡಲು QR ಕೋಡ್ ತೋರಿಸಿ"
+  },
+  "moreOptions": {
+    "message": "ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು"
+  },
+  "unlinkAllPhones": {
+    "message": "ಎಲ್ಲ ಫೋನ್‌ಗಳನ್ನು ಅನ್‌ಲಿಂಕ್ ಮಾಡಿ"
+  },
+  "clearMessages": {
+    "message": "ಸಂದೇಶಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ"
+  },
+  "phoneFallbackName": {
+    "message": "ಫೋನ್"
+  },
+  "bannerLinked": {
+    "message": "(ಲಿಂಕ್ ಆಗಿದೆ)"
+  },
+  "bannerLinkedCount_one": {
+    "message": "($COUNT$ ಫೋನ್ ಲಿಂಕ್ ಆಗಿದೆ)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "bannerLinkedCount_other": {
+    "message": "($COUNT$ ಫೋನ್‌ಗಳು ಲಿಂಕ್ ಆಗಿವೆ)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "active": {
+    "message": "ಸಕ್ರಿಯ"
+  },
+  "linkedPhones": {
+    "message": "ಲಿಂಕ್ ಆದ ಫೋನ್‌ಗಳು"
+  },
+  "lastActive": {
+    "message": "ಕೊನೆಯದಾಗಿ ಸಕ್ರಿಯ: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlink": {
+    "message": "ಅನ್‌ಲಿಂಕ್"
+  },
+  "unlinkPhone": {
+    "message": "$NAME$ ಅನ್ನು ಅನ್‌ಲಿಂಕ್ ಮಾಡಿ",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneTitle": {
+    "message": "$NAME$ ಅನ್ನು ಅನ್‌ಲಿಂಕ್ ಮಾಡಬೇಕೇ?",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "unlinkPhoneText": {
+    "message": "$NAME$ ನಿಂದ ಬರುವ ಸಂದೇಶಗಳನ್ನು ಇಲ್ಲಿ ನಿರ್ಲಕ್ಷಿಸಲಾಗುತ್ತದೆ. ಅದು ಕಳುಹಿಸುವುದನ್ನು ನಿಲ್ಲಿಸಲು, ಆ ಫೋನ್‌ನ SMS ಆ್ಯಪ್‌ನಲ್ಲೂ ಈ ಕಂಪ್ಯೂಟರ್ ಅನ್ನು ಅನ್‌ಲಿಂಕ್ ಮಾಡಿ.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinked": {
+    "message": "$NAME$ ಅನ್‌ಲಿಂಕ್ ಆಗಿದೆ.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairHeading": {
+    "message": "Android ಫೋನ್‌ನೊಂದಿಗೆ ಜೋಡಿಸಿ"
+  },
+  "pairOpenApp": {
+    "message": "ಫೋನ್‌ನಲ್ಲಿ HMJ SMS ಆ್ಯಪ್ ತೆರೆಯಿರಿ"
+  },
+  "pairAppPath": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು → ಡೆಸ್ಕ್‌ಟಾಪ್ ಸಿಂಕ್ → QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
+    "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
+  },
+  "pairingQrCode": {
+    "message": "ಜೋಡಣೆ QR ಕೋಡ್"
+  },
+  "copyCode": {
+    "message": "ಕೋಡ್ ನಕಲಿಸಿ"
+  },
+  "hide": {
+    "message": "ಮರೆಮಾಡಿ"
+  },
+  "pairingWarning": {
+    "message": "ಈ ಕೋಡ್ ನಿಮ್ಮ ಲಿಂಕ್‌ನ ಕೀಗಳನ್ನು ಹೊಂದಿದೆ. ಇದನ್ನು ನಿಮ್ಮ ಸ್ವಂತ ಫೋನ್‌ನಲ್ಲಿ ಮಾತ್ರ ತೋರಿಸಿ ಅಥವಾ ಅಂಟಿಸಿ, ಮತ್ತು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಸಿಂಕ್ ಮತ್ತು ಸ್ಕ್ರೀನ್ ಹಂಚಿಕೆಯಿಂದ ದೂರವಿಡಿ."
+  },
+  "pairingChanged": {
+    "message": "ನಿಮ್ಮ ಜೋಡಣೆ ಬದಲಾಗಿದೆ. ಪ್ರತಿ ಫೋನ್‌ನಲ್ಲಿ QR ಕೋಡ್ ಅನ್ನು ಮತ್ತೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ.",
+    "description": "Banner when the browser ended the push address the phones send to, so every phone must pair again."
+  },
+  "notificationsOff": {
+    "message": "ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಈ ಎಕ್ಸ್‌ಟೆನ್ಶನ್‌ನ ಅಧಿಸೂಚನೆಗಳು ಆಫ್ ಆಗಿವೆ, ಹಾಗಾಗಿ ಸಂದೇಶಗಳನ್ನು ಉಳಿಸಲಾಗುತ್ತದೆ ಆದರೆ ತೋರಿಸಲಾಗುವುದಿಲ್ಲ.",
+    "description": "Banner when the browser blocks this extension's notifications."
+  },
+  "emptyTitle": {
+    "message": "ಒಳಬರುವ SMS ಗಳಿಗೆ ಸಿದ್ಧ"
+  },
+  "emptyText": {
+    "message": "ಒಳಬರುವ SMS ಮತ್ತು OTP ಗಳು ಇಲ್ಲಿ ನೈಜ ಸಮಯದಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ."
+  },
+  "showPairingQrCode": {
+    "message": "ಜೋಡಣೆ QR ಕೋಡ್ ತೋರಿಸಿ"
+  },
+  "connectedTo": {
+    "message": "$NAME$ ಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_one": {
+    "message": "$COUNT$ ಫೋನ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "connectedToCount_other": {
+    "message": "$COUNT$ ಫೋನ್‌ಗಳಿಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "waitingFor": {
+    "message": "$NAMES$ ನಿಂದ SMS ಮತ್ತು OTP ಎಚ್ಚರಿಕೆಗಳಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ.",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "ರದ್ದುಮಾಡಿ"
+  },
+  "copied": {
+    "message": "ನಕಲಿಸಲಾಗಿದೆ!"
+  },
+  "pairingCodeCopied": {
+    "message": "ಜೋಡಣೆ ಕೋಡ್ ನಕಲಿಸಲಾಗಿದೆ."
+  },
+  "otpCopied": {
+    "message": "OTP ನಕಲಿಸಲಾಗಿದೆ."
+  },
+  "messageCopied": {
+    "message": "ಸಂದೇಶ ನಕಲಿಸಲಾಗಿದೆ."
+  },
+  "copyFailed": {
+    "message": "ನಕಲಿಸಲು ವಿಫಲವಾಗಿದೆ: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "noAnswer": {
+    "message": "ಹಿನ್ನೆಲೆಯಿಂದ ಯಾವುದೇ ಉತ್ತರವಿಲ್ಲ."
+  },
+  "unlinkAllTitle": {
+    "message": "ಎಲ್ಲ ಫೋನ್‌ಗಳನ್ನು ಅನ್‌ಲಿಂಕ್ ಮಾಡಬೇಕೇ?"
+  },
+  "unlinkAllText": {
+    "message": "ಈ ಕಂಪ್ಯೂಟರ್‌ಗೆ ಹೊಸ ಜೋಡಣೆ ಕೋಡ್ ಸಿಗುತ್ತದೆ, ಮತ್ತು ಯಾವುದೇ ಫೋನ್ ಇನ್ನು ಅದನ್ನು ತಲುಪಲು ಸಾಧ್ಯವಿಲ್ಲ. ಈ ವಿಸ್ತರಣೆಯಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾದ ಎಲ್ಲ ಸಂದೇಶಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ. ನೀವು ಉಳಿಸಿಕೊಳ್ಳುವ ಫೋನ್‌ಗಳು ಹೊಸ QR ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಬೇಕು."
+  },
+  "unlinkAllAction": {
+    "message": "ಎಲ್ಲವನ್ನೂ ಅನ್‌ಲಿಂಕ್ ಮಾಡಿ"
+  },
+  "allPhonesUnlinked": {
+    "message": "ಎಲ್ಲ ಫೋನ್‌ಗಳು ಅನ್‌ಲಿಂಕ್ ಆಗಿವೆ ಮತ್ತು ಸಂದೇಶಗಳನ್ನು ತೆರವುಗೊಳಿಸಲಾಗಿದೆ. ಮತ್ತೆ ಜೋಡಿಸಲು ಹೊಸ QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ."
+  },
+  "unlinkFailed": {
+    "message": "ಅನ್‌ಲಿಂಕ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearTitle": {
+    "message": "ಇತ್ತೀಚಿನ ಸಂದೇಶಗಳನ್ನು ತೆರವುಗೊಳಿಸಬೇಕೇ?"
+  },
+  "clearText": {
+    "message": "ಈ ವಿಸ್ತರಣೆಯಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾದ ಎಲ್ಲ ಸಂದೇಶಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ. ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿರುವ ಸಂದೇಶಗಳ ಮೇಲೆ ಪರಿಣಾಮವಿಲ್ಲ."
+  },
+  "messagesCleared": {
+    "message": "ಸಂಗ್ರಹಿಸಲಾದ ಎಲ್ಲ ಸಂದೇಶಗಳನ್ನು ತೆರವುಗೊಳಿಸಲಾಗಿದೆ."
+  },
+  "clearFailed": {
+    "message": "ಸಂದೇಶಗಳನ್ನು ತೆರವುಗೊಳಿಸಲು ವಿಫಲವಾಗಿದೆ: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeFailed": {
+    "message": "ಜೋಡಣೆ ಕೋಡ್ ರಚಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMessageFrom": {
+    "message": "$SENDER$ ನಿಂದ ಹೊಸ ಸಂದೇಶ.",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknownSender": {
+    "message": "ಅಪರಿಚಿತ"
+  },
+  "tagGroup": {
+    "message": "ಗುಂಪು"
+  },
+  "tagMms": {
+    "message": "MMS",
+    "description": "Tag on an MMS."
+  },
+  "simWithName": {
+    "message": "SIM $SLOT$: $NAME$",
+    "description": "Which SIM a message came to, with the SIM's name.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      },
+      "name": {
+        "content": "$2",
+        "example": "Jio"
+      }
+    }
+  },
+  "sim": {
+    "message": "SIM $SLOT$",
+    "description": "Which SIM a message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "groupWith": {
+    "message": "$NAMES$ ಜೊತೆಗೆ",
+    "placeholders": {
+      "names": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyOtp": {
+    "message": "OTP ನಕಲಿಸಿ ($OTP$)",
+    "placeholders": {
+      "otp": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyText": {
+    "message": "ಪಠ್ಯ ನಕಲಿಸಿ"
+  },
+  "copyMessage": {
+    "message": "ಸಂದೇಶ ನಕಲಿಸಿ"
+  },
+  "justNow": {
+    "message": "ಈಗಷ್ಟೇ"
+  },
+  "groupNamesMore": {
+    "message": "$NAMES$ +$COUNT$",
+    "description": "The group members named, and how many more there are.",
+    "placeholders": {
+      "names": {
+        "content": "$1",
+        "example": "Bob, Carol, Dave"
+      },
+      "count": {
+        "content": "$2",
+        "example": "2"
+      }
+    }
+  },
+  "photo": {
+    "message": "ಫೋಟೋ"
+  },
+  "photos_one": {
+    "message": "$COUNT$ ಫೋಟೋ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "photos_other": {
+    "message": "$COUNT$ ಫೋಟೋಗಳು",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "video": {
+    "message": "ವೀಡಿಯೊ"
+  },
+  "videos_one": {
+    "message": "$COUNT$ ವೀಡಿಯೊ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "videos_other": {
+    "message": "$COUNT$ ವೀಡಿಯೊಗಳು",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audio": {
+    "message": "ಆಡಿಯೊ"
+  },
+  "audioClips_one": {
+    "message": "$COUNT$ ಆಡಿಯೊ ಕ್ಲಿಪ್",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "audioClips_other": {
+    "message": "$COUNT$ ಆಡಿಯೊ ಕ್ಲಿಪ್‌ಗಳು",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contact": {
+    "message": "ಸಂಪರ್ಕ"
+  },
+  "contacts_one": {
+    "message": "$COUNT$ ಸಂಪರ್ಕ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "contacts_other": {
+    "message": "$COUNT$ ಸಂಪರ್ಕಗಳು",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "file": {
+    "message": "ಫೈಲ್"
+  },
+  "files_one": {
+    "message": "$COUNT$ ಫೈಲ್",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "files_other": {
+    "message": "$COUNT$ ಫೈಲ್‌ಗಳು",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "groupTitle": {
+    "message": "$NAMES$ ಜೊತೆಗಿನ ಗುಂಪಿನಲ್ಲಿ $SENDER$",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      },
+      "names": {
+        "content": "$2"
+      }
+    }
+  },
+  "newSmsFrom": {
+    "message": "$SENDER$ ನಿಂದ ಹೊಸ SMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "newMmsFrom": {
+    "message": "$SENDER$ ನಿಂದ ಹೊಸ MMS",
+    "placeholders": {
+      "sender": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreadableMessage": {
+    "message": "ಫೋನ್‌ನಿಂದ ಹೊಸ ಸಂದೇಶ ಬಂದಿದೆ"
+  },
+  "linkVerified": {
+    "message": "$NAME$ ಜೊತೆಗಿನ ಲಿಂಕ್ ಪರಿಶೀಲಿಸಲಾಗಿದೆ! ತ್ವರಿತ SMS ಎಚ್ಚರಿಕೆಗಳು ಸಕ್ರಿಯವಾಗಿವೆ.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "expiredOtpBadge": {
+    "message": "[ಅವಧಿ ಮೀರಿದ OTP]"
+  },
+  "simBadge": {
+    "message": "[SIM $SLOT$]",
+    "description": "Before a notification's title: the SIM the message came to.",
+    "placeholders": {
+      "slot": {
+        "content": "$1",
+        "example": "1"
+      }
+    }
+  },
+  "deliveredLate": {
+    "message": "(ಸಂಪರ್ಕ ಕಡಿತದ ನಂತರ ತಲುಪಿದೆ) $TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "phoneUnlinkedTitle": {
+    "message": "$NAME$ ಅನ್‌ಲಿಂಕ್ ಆಗಿದೆ",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "aPhone": {
+    "message": "ಒಂದು ಫೋನ್"
+  },
+  "ignoredMessages_one": {
+    "message": "$COUNT$ ಸಂದೇಶವನ್ನು ನಿರ್ಲಕ್ಷಿಸಲಾಗಿದೆ. ಅವುಗಳನ್ನು ನಿಲ್ಲಿಸಲು ಆ ಫೋನ್‌ನ SMS ಆ್ಯಪ್‌ನಲ್ಲಿ ಈ ಕಂಪ್ಯೂಟರ್ ಅನ್ನು ಅನ್‌ಲಿಂಕ್ ಮಾಡಿ, ಅಥವಾ ಎಲ್ಲ ಫೋನ್‌ಗಳನ್ನು ಅನ್‌ಲಿಂಕ್ ಮಾಡಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "ignoredMessages_other": {
+    "message": "$COUNT$ ಸಂದೇಶಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸಲಾಗಿದೆ. ಅವುಗಳನ್ನು ನಿಲ್ಲಿಸಲು ಆ ಫೋನ್‌ನ SMS ಆ್ಯಪ್‌ನಲ್ಲಿ ಈ ಕಂಪ್ಯೂಟರ್ ಅನ್ನು ಅನ್‌ಲಿಂಕ್ ಮಾಡಿ, ಅಥವಾ ಎಲ್ಲ ಫೋನ್‌ಗಳನ್ನು ಅನ್‌ಲಿಂಕ್ ಮಾಡಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pairingCodeTooLong": {
+    "message": "ಜೋಡಣೆ ಕೋಡ್ ಫೋನ್ ಓದಲು ತುಂಬಾ ಉದ್ದವಾಗಿದೆ."
+  },
+  "noPhoneToUnlink": {
+    "message": "ಅನ್‌ಲಿಂಕ್ ಮಾಡಲು ಯಾವುದೇ ಫೋನ್ ಇಲ್ಲ."
+  },
+  "noPushService": {
+    "message": "ಈ ಬ್ರೌಸರ್ ಪುಶ್ ಸಂದೇಶಗಳನ್ನು ಸ್ವೀಕರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."
+  }
+}
