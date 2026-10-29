@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Włącz kopiowanie, zaznaczanie tekstu i menu prawego przycisku na stronach, które je blokują."
+  },
+  "commandDescription": {
+    "message": "Włącz kopiowanie i prawy przycisk na bieżącej stronie"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: aktywne",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopiowanie i prawy przycisk włączone."
+  },
+  "optionsTitle": {
+    "message": "Witryny automatyczne | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repozytorium GitHub, otwiera się w nowej karcie"
+  },
+  "automaticSitesHeading": {
+    "message": "Witryny automatyczne"
+  },
+  "automaticSitesIntro": {
+    "message": "Automatycznie włączaj kopiowanie, zaznaczanie tekstu i prawy przycisk w dodanych witrynach."
+  },
+  "siteInputLabel": {
+    "message": "Domena witryny"
+  },
+  "addSite": {
+    "message": "Dodaj witrynę"
+  },
+  "noSites": {
+    "message": "Nie dodano jeszcze żadnej witryny automatycznej."
+  },
+  "siteListLabel": {
+    "message": "Witryny automatyczne"
+  },
+  "remove": {
+    "message": "Usuń"
+  },
+  "removeSite": {
+    "message": "Usuń $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (uprawnienie cofnięte)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "Dodano $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "Ponownie włączono $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "Usunięto $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Ta witryna jest już włączona."
+  },
+  "invalidDomain": {
+    "message": "Wpisz prawidłową domenę, np. example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Nie przyznano uprawnienia dla witryny."
+  },
+  "addFailed": {
+    "message": "Nie udało się dodać witryny."
+  },
+  "removeFailed": {
+    "message": "Nie udało się usunąć witryny."
+  },
+  "loadFailed": {
+    "message": "Nie udało się wczytać listy witryn."
+  }
+}

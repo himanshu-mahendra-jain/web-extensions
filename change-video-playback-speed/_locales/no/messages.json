@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Bytt raskt avspillingshastighet for video og lyd mellom 1x, 1,2x, 1,5x og 2x."
+  },
+  "commandDescription": {
+    "message": "Endre avspillingshastighet for video"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Avspillingshastighet $SPEED$ ganger",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Avspillingshastighet: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

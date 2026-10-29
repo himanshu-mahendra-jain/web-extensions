@@ -1,0 +1,80 @@
+Povoľte kopírovanie, výber textu a ponuky pravého tlačidla na webových stránkach, ktoré ich obmedzujú.
+
+Enable Copy and Right Click je odľahčené rozšírenie s otvoreným zdrojovým kódom, ktoré vracia bežné kopírovanie, výber textu a pravé tlačidlo na webové stránky, ktoré tieto akcie obmedzujú.
+
+Kliknite na ikonu rozšírenia na paneli s nástrojmi alebo použite klávesovú skratku a na aktuálnej karte povolíte kopírovanie a pravé tlačidlo.
+
+Dôveryhodné weby môžete pridať aj do zoznamu Automatické weby. Rozšírenie potom pri každej návšteve týchto webov povolí kopírovanie a pravé tlačidlo automaticky.
+
+HLAVNÉ FUNKCIE
+
+• Povoľuje kopírovanie a výber textu na stránkach, ktoré ich obmedzujú
+• Povoľuje kontextové ponuky pravého tlačidla
+• Povoľuje kopírovanie, vystrihnutie, prilepenie, výber textu a presúvanie
+• Zapnutie jedným kliknutím z panela s nástrojmi
+• Klávesová skratka na rýchle zapnutie
+• Automatické zapnutie na weboch, ktoré si vyberiete
+• Funguje v prístupných iframe, ak to povolenia prehliadača dovolia
+• Po ručnom zapnutí zobrazí odznak ON
+• Žiadne kontextové okná s ponukami
+• Žiadna analytika ani sledovanie
+• Žiadny vzdialený kód ani sieťové požiadavky
+
+PREDVOLENÉ KLÁVESOVÉ SKRATKY
+
+• Windows, Linux, ChromeOS, GooglebookOS a Android: Alt+C
+• macOS: Command+Shift+Y
+
+Klávesová skratka robí to isté ako kliknutie na ikonu rozšírenia.
+
+ZMENA KLÁVESOVEJ SKRATKY
+
+1. Otvorte ponuku Firefoxu a vyberte Doplnky a témy vzhľadu.
+2. Na stránke Rozšírenia kliknite na ikonu ozubeného kolieska.
+3. Vyberte Spravovať klávesové skratky rozšírení.
+4. Nájdite Enable Copy and Right Click a zadajte požadovanú skratku.
+
+AUTOMATICKÉ WEBY
+
+Otvorte stránku možností rozšírenia a pridajte doménu, napríklad:
+
+example.com
+
+Rozšírenie požiada o povolenie len pre web, ktorý pridáte. Po udelení povolenia sa na tomto webe kopírovanie, výber textu a pravé tlačidlo povolia automaticky.
+
+Automatický web môžete kedykoľvek odstrániť na stránke možností.
+
+OTVORENIE STRÁNKY MOŽNOSTÍ
+
+1. Otvorte ponuku Firefoxu a vyberte Doplnky a témy vzhľadu.
+2. Nájdite Enable Copy and Right Click a kliknite na ponuku s tromi bodkami vedľa neho.
+3. Vyberte Predvoľby.
+
+OCHRANA SÚKROMIA
+
+• Žiadna analytika ani sledovanie
+• Žiadne zhromažďovanie údajov
+• Žiadne zhromažďovanie histórie prehliadania
+• Žiadne sieťové požiadavky
+• Žiadny vzdialený kód
+• Žiadny externý JavaScript
+• Nastavenia automatických webov sa ukladajú lokálne vo vašom prehliadači
+• O povolenie pre web sa žiada, len keď web sami pridáte
+
+Celé obnovenie kopírovania a pravého tlačidla prebieha lokálne vo vašom prehliadači.
+
+VÝKON
+
+Rozšírenie je odľahčené a riadené udalosťami.
+
+Pri nečinnosti nevykonáva žiadnu priebežnú prácu na pozadí. Ručné zapnutie sa spustí len po kliknutí na ikonu na paneli s nástrojmi alebo po použití klávesovej skratky. Automatické zapnutie sa spúšťa len na weboch, ktoré ste výslovne pridali.
+
+Žiadne dopytovanie, sieťová aktivita na pozadí, analytické SDK, vzdialená konfigurácia ani trvalá slučka sledujúca stránky.
+
+OPEN SOURCE
+
+Enable Copy and Right Click je open-source projekt pod licenciou MIT.
+
+Zdrojový kód, hlásenie chýb a možnosť prispieť nájdete na GitHube:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,91 @@
+Dele le chronologia, le cookies e le datos de sitos al initio del navigator pro omne sito excepte illos que tu guarda.
+
+Firefox pro Android non permitte que extensiones dele le chronologia, dunque illac solmente le cookies e le datos de sitos es delite.
+
+Clear Browsing Data Except Kept Sites es un extension legier e de codice aperte que remove entratas del chronologia, cookies e datos de sitos pro tote le sitos que tu non ha seligite de guardar.
+
+In le parametros, adde le sitos ubi tu vole remaner authenticate e que debe rememorar te, postea active le deletion. Cata vice que le navigator initia, le extension dele le chronologia e le cookies de tote le altere sitos. Tu pote anque deler a omne momento con “Deler ora”.
+
+FUNCTIONES PRINCIPAL
+
+• Un lista de sitos cuje chronologia e cookies nunquam es delite, con importation e exportation como file de texto
+• Dele le chronologia e le cookies de tote le altere sitos al initio del navigator, post que tu lo activa
+• Deletion a omne momento con “Deler ora” in le parametros
+• Guarda automaticamente le subdominios de un sito guardate
+• Guarda le cookies del dominio genitor que un sito guardate require pro que tu remane authenticate
+• Dele le cookies partite (de tertie partes) e le cookies de contentores; le cookies partite de un sito guardate remane solmente sub sitos guardate
+• Dele le immagazinage local, IndexedDB, le service workers e le cache del sitos non guardate
+• Monstra le resultato del ultime deletion in le parametros
+• Avisa quando le accesso al sitos es disactivate e le cookies non pote esser delite
+• Nulle analyse o traciamento
+• Nulle codice remote o requestas de rete
+
+SITOS GUARDATE
+
+Aperi le parametros e adde un dominio, per exemplo:
+
+example.com
+
+Pro adder plure al vice, separa los con commas.
+
+“Exportar” salva le lista como file de texto, un dominio per linea. “Importar” reimplacia le lista con le sitos de un file de texto e avisa primo si assi dispare sitos que tu guarda ora.
+
+Un adresse como mail.example.com/inbox es reducite a su dominio, e un www. initial es removite. localhost e adresses IPv4 como 192.168.1.1 es anque acceptate.
+
+Guardar example.com guarda le chronologia e le cookies de example.com e de tote su subdominios. Guardar mail.example.com guarda anque le cookies de example.com, perque illos sovente contine le authentication del subdominio.
+
+APERIR LE PARAMETROS
+
+Le parametros se aperi automaticamente post le installation, assi que tu pote plenar le lista ante activar le deletion. Plus tarde, clicca sur le icone del extension in le barra de instrumentos. In Firefox pro Android, tocca Clear Browsing Data Except Kept Sites in le menu Extensiones del navigator.
+
+Tu pote anque aperir los ab le gestor de additivos:
+
+1. Aperi le menu de Firefox e selige Additivos e themas.
+2. Trova Clear Browsing Data Except Kept Sites e clicca sur le menu a tres punctos al latere.
+3. Selige Preferentias.
+
+DELETION AL INITIO
+
+Post le installation le deletion es disactivate, dunque nihil es removite usque tu lo demanda. Le parametros monstra le aviso “Le deletion es disactivate” con le button “Activar le deletion”. Activar lo monstra primo un advertimento: cata initio dele le chronologia e le cookies de tote le sitos excepte le guardate e te disconnecte de illos, o de tote le sitos si nulle es guardate.
+
+Un vice activate, le deletion se executa a cata initio del navigator, perque le navigator non permitte que extensiones se executa al clausura. Le deletion al initio remove lo que le session precedente lassava. Disactiva o reactiva lo con “Deler automaticamente quando le navigator initia” in le parametros.
+
+DELER ORA
+
+“Deler ora” in le parametros dele immediatemente. Quando nulle sito es guardate, un advertimento rubie appare primo que toto essera delite. Le parametros monstra quando le ultime deletion occurreva e quante entratas del chronologia e cookies illo deleva.
+
+ACCESSO AL SITOS
+
+Le cookies pote esser removite solmente pro sitos al quales le extension ha accesso, dunque illo demanda accesso a tote le sitos. Si tu disactiva le accesso al sitos, le chronologia es ancora delite, ma le cookies es saltate e le parametros monstra le button “Permitter le accesso al sitos”.
+
+LIMITATIONES
+
+• Schedas restaurate al initio pote definir nove cookies durante que le deletion se executa. Iste cookies remane usque le proxime initio o le proxime “Deler ora”.
+• Firefox non pote deler datos de sitos excepte pro sitos seligite, dunque le extension dele le immagazinage local, IndexedDB e le service workers de cata sito non guardate que illo trova in le chronologia, le cookies e le schedas aperte. Un sito que non appare in alcun de istos guarda su datos. Un sito con un subdominio guardate guarda su service workers, perque Firefox delerea con illos anque illos del subdominio. Le cache es delite pro tote le sitos, perque Firefox non pote deler lo per sito; isto non disconnecte alcuno.
+• Firefox non pote deler per sito le Cache Storage, le files foras de linea que le service workers salva, dunque illo non es delite. Pro remover lo que le extension non attinge, usa Parametros > Confidentialitate e securitate > Cookies e datos de sitos > Gerer le datos.
+• Si le synchronisation del navigator include le chronologia, le entratas removite pote esser removite anque de tu altere apparatos.
+• Le fenestras private es delite solmente quando le extension ha le permission de executar se in illos.
+
+PRIVATESSA
+
+• Nulle analyse o traciamento
+• Nulle collection de datos
+• Nulle requestas de rete
+• Nulle codice remote
+• Nulle JavaScript externe
+• Le chronologia e le cookies es legite solmente pro decider lo que remover, e solmente in tu navigator
+• Le lista e le parametros es immagazinate localmente in tu navigator
+
+PRESTATIONES
+
+Le extension non face nihil durante que tu naviga. Illo se executa un vice al initio del navigator, si le deletion es activate, e quando tu clicca “Deler ora”.
+
+Le prime deletion de un longe chronologia pote durar alcun minutas, perque cata entrata del chronologia es delite separatemente. Tu pote continuar a navigar intertanto. Le deletiones successive remove solmente le entratas del session precedente.
+
+CODICE APERTE
+
+Clear Browsing Data Except Kept Sites es de codice aperte e es distribuite sub le licentia MIT.
+
+Vide le codice fonte, reporta problemas o contribue sur GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

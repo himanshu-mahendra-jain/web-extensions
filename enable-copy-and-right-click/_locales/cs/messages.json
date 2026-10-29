@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Povolte kopírování, výběr textu a nabídky pravého tlačítka na webových stránkách, které je omezují."
+  },
+  "commandDescription": {
+    "message": "Povolit kopírování a pravé tlačítko na aktuální stránce"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: aktivní",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopírování a pravé tlačítko jsou povoleny."
+  },
+  "optionsTitle": {
+    "message": "Automatické weby | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repozitář na GitHubu, otevře se na nové kartě"
+  },
+  "automaticSitesHeading": {
+    "message": "Automatické weby"
+  },
+  "automaticSitesIntro": {
+    "message": "Automaticky povolit kopírování, výběr textu a pravé tlačítko na webech, které přidáte."
+  },
+  "siteInputLabel": {
+    "message": "Doména webu"
+  },
+  "addSite": {
+    "message": "Přidat web"
+  },
+  "noSites": {
+    "message": "Zatím nejsou přidány žádné automatické weby."
+  },
+  "siteListLabel": {
+    "message": "Automatické weby"
+  },
+  "remove": {
+    "message": "Odebrat"
+  },
+  "removeSite": {
+    "message": "Odebrat $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (oprávnění odebráno)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ přidán.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ znovu povolen.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ odebrán.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Tento web je již povolen."
+  },
+  "invalidDomain": {
+    "message": "Zadejte platnou doménu, například example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Oprávnění pro web nebylo uděleno."
+  },
+  "addFailed": {
+    "message": "Web se nepodařilo přidat."
+  },
+  "removeFailed": {
+    "message": "Web se nepodařilo odebrat."
+  },
+  "loadFailed": {
+    "message": "Seznam webů se nepodařilo načíst."
+  }
+}

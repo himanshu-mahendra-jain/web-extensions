@@ -1,0 +1,47 @@
+Palitan ang bilis ng pag-play ng video at audio sa isang click o keyboard shortcut.
+
+Ang Change Video Playback Speed ay isang magaan at open-source na extension na umiikot sa apat na kapaki-pakinabang na bilis ng pag-play:
+
+1x → 1.2x → 1.5x → 2x → 1x
+
+I-click ang icon ng extension o gamitin ang keyboard shortcut para lumipat sa susunod na bilis. Ilalapat ang napiling bilis sa video at audio sa page, kasama ang mga sinusuportahang naka-embed na player.
+
+Tip: Sa menu ng Extensions ng Edge, i-on ang «Show in toolbar» para sa Change Video Playback Speed upang madali itong ma-access.
+
+Saglit na ipinapakita ang kasalukuyang bilis sa page at sa badge sa toolbar.
+
+MGA PANGUNAHING FEATURE
+
+• Kontrol sa isang click at sa keyboard shortcut
+• Suporta sa video at audio
+• Suporta sa mga compatible na naka-embed na player
+• Badge ng bilis sa toolbar at indicator sa page na nakikita rin sa fullscreen
+• Walang popup menu, lumulutang na control, o setting
+
+MGA DEFAULT NA KEYBOARD SHORTCUT
+
+• Windows, Linux, ChromeOS, GooglebookOS, at Android: Alt+S
+• macOS: Command+Shift+Period
+
+PALITAN ANG KEYBOARD SHORTCUT
+
+1. Buksan ang menu ng Mga Extension at piliin ang Pamahalaan ang mga extension.
+2. Piliin ang Mga keyboard shortcut sa sidebar.
+3. Hanapin ang Change Video Playback Speed at ilagay ang gusto mong shortcut.
+
+PRIVACY
+
+• Walang analytics o tracking
+• Walang pangongolekta ng data o kasaysayan ng pag-browse
+• Walang network request
+• Walang permanenteng access sa mga website
+
+Lokal sa iyong browser nangyayari ang lahat ng pagbabago ng bilis.
+
+OPEN SOURCE
+
+Ang Change Video Playback Speed ay open source at lisensyado sa ilalim ng MIT License.
+
+Tingnan ang source code, mag-ulat ng mga isyu, o mag-ambag sa GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

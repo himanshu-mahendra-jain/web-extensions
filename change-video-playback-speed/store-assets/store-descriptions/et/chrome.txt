@@ -1,0 +1,47 @@
+Muutke video ja heli taasesituse kiirust ühe klõpsu või kiirklahviga.
+
+Change Video Playback Speed on kerge avatud lähtekoodiga laiendus, mis vahetab nelja kasuliku taasesituskiiruse vahel:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Järgmisele kiirusele liikumiseks klõpsake laienduse ikooni või kasutage kiirklahvi. Valitud kiirus rakendub lehel olevale videole ja helile, ka toetatud manustatud pleierites.
+
+Soovitus: kinnitage laiendus Chrome'i laienduste menüüs (pusletüki ikoon), et selle ikoon oleks tööriistaribal alati nähtaval.
+
+Praegune kiirus kuvatakse korraks lehel ja tööriistariba märgil.
+
+PEAMISED FUNKTSIOONID
+
+• Juhtimine ühe klõpsu ja kiirklahviga
+• Video ja heli tugi
+• Ühilduvate manustatud pleierite tugi
+• Kiirusemärk tööriistaribal ja lehel kuvatav näidik, mis on nähtav ka täisekraanil
+• Hüpikmenüüsid, hõljuvaid nuppe ega seadeid pole
+
+VAIKIMISI KIIRKLAHVID
+
+• Windows, Linux, ChromeOS, GooglebookOS ja Android: Alt+S
+• macOS: Command+Shift+Period
+
+KIIRKLAHVI MUUTMINE
+
+1. Avage Chrome'i menüü ja valige Laiendused → Laienduste haldamine.
+2. Valige külgribal Klaviatuuri otseteed.
+3. Leidke Change Video Playback Speed ja sisestage soovitud kiirklahv.
+
+PRIVAATSUS
+
+• Analüütikat ega jälgimist pole
+• Andmeid ega sirvimisajalugu ei koguta
+• Võrgupäringuid pole
+• Püsivat juurdepääsu veebisaitidele pole
+
+Kõik kiirusemuudatused toimuvad kohalikult teie brauseris.
+
+AVATUD LÄHTEKOOD
+
+Change Video Playback Speed on avatud lähtekoodiga tarkvara MIT litsentsi all.
+
+Vaadake lähtekoodi, teatage vigadest või panustage GitHubis:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,47 @@
+Módosítsa a videó és a hang lejátszási sebességét egy kattintással vagy billentyűparanccsal.
+
+A Change Video Playback Speed egy könnyű, nyílt forráskódú bővítmény, amely négy hasznos lejátszási sebesség között vált:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Kattintson a bővítmény ikonjára vagy használja a billentyűparancsot a következő sebességre lépéshez. A kiválasztott sebesség az oldalon lévő videókra és hangokra vonatkozik, a támogatott beágyazott lejátszókat is beleértve.
+
+Tipp: Az Edge Bővítmények menüjében kapcsolja be a «Megjelenítés az eszköztáron» lehetőséget a Change Video Playback Speed számára a gyors eléréshez.
+
+Az aktuális sebesség rövid ideig megjelenik az oldalon és az eszköztár jelvényén.
+
+FŐ FUNKCIÓK
+
+• Vezérlés egy kattintással és billentyűparanccsal
+• Videó- és hangtámogatás
+• Kompatibilis beágyazott lejátszók támogatása
+• Sebességjelvény az eszköztáron és az oldalon megjelenő jelző, teljes képernyőn is
+• Nincsenek felugró menük, lebegő vezérlők és beállítások
+
+ALAPÉRTELMEZETT BILLENTYŰPARANCSOK
+
+• Windows, Linux, ChromeOS, GooglebookOS és Android: Alt+S
+• macOS: Command+Shift+Period
+
+A BILLENTYŰPARANCS MÓDOSÍTÁSA
+
+1. Nyissa meg a Bővítmények menüt, és válassza a Bővítmények kezelése lehetőséget.
+2. Az oldalsávon válassza a Billentyűparancsok lehetőséget.
+3. Keresse meg a Change Video Playback Speed bővítményt, és adja meg a kívánt billentyűparancsot.
+
+ADATVÉDELEM
+
+• Nincs analitika vagy követés
+• Nem gyűjt adatokat vagy böngészési előzményeket
+• Nincsenek hálózati kérések
+• Nincs állandó hozzáférés a webhelyekhez
+
+A sebesség minden módosítása helyben, a böngészőjében történik.
+
+NYÍLT FORRÁSKÓD
+
+A Change Video Playback Speed egy nyílt forráskódú projekt MIT licenc alatt.
+
+Forráskód megtekintése, hibajelentés vagy hozzájárulás a GitHubon:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

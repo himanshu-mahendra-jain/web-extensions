@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Ryd historik, cookies og webstedsdata, når browseren starter, for alle websites undtagen dem, du beholder."
+  },
+  "optionsTitle": {
+    "message": "Beholdte websites | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-repository, åbnes i en ny fane"
+  },
+  "accessHeading": {
+    "message": "Adgang til websites er slået fra"
+  },
+  "allowSiteAccess": {
+    "message": "Tillad adgang til websites"
+  },
+  "accessHistorySiteData": {
+    "message": "Uden adgang til websites kan udvidelsen ikke slette cookies. Historik og webstedsdata ryddes stadig."
+  },
+  "accessHistory": {
+    "message": "Uden adgang til websites kan udvidelsen ikke slette cookies. Historikken ryddes stadig."
+  },
+  "accessSiteData": {
+    "message": "Uden adgang til websites kan udvidelsen ikke slette cookies. Webstedsdata ryddes stadig."
+  },
+  "accessNothing": {
+    "message": "Uden adgang til websites kan udvidelsen ikke slette cookies, så intet ryddes."
+  },
+  "clearingOffHeading": {
+    "message": "Rydning er slået fra"
+  },
+  "clearingOffText": {
+    "message": "Intet er slettet endnu. Tilføj de websites, du vil forblive logget ind på, og slå derefter rydning til. Fra da af slettes alle andre websites' $DATA$, hver gang browseren starter.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Slå rydning til"
+  },
+  "keptSitesHeading": {
+    "message": "Beholdte websites"
+  },
+  "intro": {
+    "message": "Disse websites og deres underdomæner beholder deres $DATA$, så du forbliver logget ind. Mens rydning er slået til, mister alle andre websites dem, hver gang browseren starter.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Websitedomæner"
+  },
+  "keep": {
+    "message": "Behold"
+  },
+  "siteHint": {
+    "message": "Adskil flere websites med kommaer."
+  },
+  "noSites": {
+    "message": "Der er endnu ingen beholdte websites, så en rydning sletter alle websites' $DATA$.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Beholdte websites"
+  },
+  "clearingHeading": {
+    "message": "Rydning"
+  },
+  "clearOnStartupLabel": {
+    "message": "Ryd automatisk, når browseren starter"
+  },
+  "clearNow": {
+    "message": "Ryd nu"
+  },
+  "firstClearHint": {
+    "message": "Den første rydning kan tage flere minutter, hvis browseren har mange browserdata. Du kan browse videre imens."
+  },
+  "leftoversHeading": {
+    "message": "Resterende webstedsdata"
+  },
+  "leftoversIntro": {
+    "message": "Når et websites historik og cookies er slettet, finder udvidelsen det ikke længere, så dets lokale lager, databaser og cache bliver liggende. Ryd rester sletter webstedsdata for alle websites, du ikke beholder, fundet eller ej, efter en rydning som Ryd nu."
+  },
+  "clearLeftovers": {
+    "message": "Ryd rester"
+  },
+  "transferHeading": {
+    "message": "Import og eksport"
+  },
+  "transferIntro": {
+    "message": "Gem dine beholdte websites i en tekstfil, eller erstat dem med websites fra en fil. En fil kan have ét website pr. linje eller adskille dem med kommaer."
+  },
+  "export": {
+    "message": "Eksportér"
+  },
+  "import": {
+    "message": "Importér"
+  },
+  "cancel": {
+    "message": "Annuller"
+  },
+  "dataAll": {
+    "message": "historik, cookies og webstedsdata"
+  },
+  "dataNoHistory": {
+    "message": "cookies og webstedsdata"
+  },
+  "dataNoSiteData": {
+    "message": "historik og cookies"
+  },
+  "dataCookies": {
+    "message": "cookies"
+  },
+  "remove": {
+    "message": "Fjern"
+  },
+  "removeSite": {
+    "message": "Fjern $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ er fjernet. Dets $DATA$ slettes ved næste rydning.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Websitet kunne ikke fjernes."
+  },
+  "siteKept": {
+    "message": "$SITE$ beholdes.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ website beholdes.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ websites beholdes.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ beholdes allerede.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ website beholdes allerede.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ websites beholdes allerede.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ er ikke et gyldigt domæne.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Disse er ikke gyldige domæner: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Indtast et gyldigt domæne, f.eks. example.com."
+  },
+  "addSiteFailed": {
+    "message": "Websitet kunne ikke tilføjes."
+  },
+  "addSitesFailed": {
+    "message": "Websitene kunne ikke tilføjes."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ er større end 1 MB, så de beholdte websites er ikke ændret.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ har ingen gyldige domæner, så de beholdte websites er ikke ændret.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Vil du erstatte de beholdte websites?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ website",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ websites",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "De $CURRENT$, du beholder nu, erstattes med de $NEW$ i $FILE$.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ website beholdes ikke længere, og dets $DATA$ slettes ved næste rydning.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ websites beholdes ikke længere, og deres $DATA$ slettes ved næste rydning.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Erstat beholdte websites"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ website importeret fra $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ websites importeret fra $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "De beholdte websites kunne ikke eksporteres."
+  },
+  "importFailed": {
+    "message": "De beholdte websites kunne ikke importeres fra $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Vil du slå rydning til?"
+  },
+  "turnOnKept": {
+    "message": "Hver gang browseren starter, slettes $DATA$ for alle websites undtagen dem, du har valgt at beholde. Du bliver logget ud af alle andre websites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Du har ikke valgt nogen websites at beholde. Hver gang browseren starter, slettes alle data ($DATA$), og du bliver logget ud af alle websites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Slettede data ($DATA$) kan ikke gendannes.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Vil du rydde alt nu?"
+  },
+  "clearEverythingText": {
+    "message": "Du har ikke valgt nogen websites at beholde, så alle websites' $DATA$ slettes nu, og du bliver logget ud af alle websites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Ryd alt"
+  },
+  "leftoversTitle": {
+    "message": "Vil du rydde resterende webstedsdata?"
+  },
+  "leftoversKept": {
+    "message": "Alle data ($DATA$) for de websites, du ikke beholder, slettes nu, også webstedsdata for websites, som udvidelsen ikke længere finder.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Et beholdt website beholder kun sine webstedsdata på de adresser, udvidelsen finder i historik, cookies og åbne faner. Alle andre underdomæner eller porte på et beholdt website, f.eks. et, du ikke har besøgt i måneder, eller en lokal server på en anden port, mister deres webstedsdata, og du kan blive logget ud af dem."
+  },
+  "clearing": {
+    "message": "Rydder… Det kan tage et par minutter."
+  },
+  "leftoversFailed": {
+    "message": "Rydning af resterende webstedsdata mislykkedes."
+  },
+  "leftoversCleared": {
+    "message": "Resterende webstedsdata er ryddet."
+  },
+  "nothingClearedYet": {
+    "message": "Intet er ryddet endnu."
+  },
+  "clearFailed": {
+    "message": "Rydningen $WHEN$ mislykkedes.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ historikpost",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ historikposter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "intet"
+  },
+  "lastCleared": {
+    "message": "Sidst ryddet $WHEN$: $WHAT$ slettet.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Sidst ryddet $WHEN$: $WHAT$ slettet sammen med webstedsdata og cache.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Sidst ryddet $WHEN$: $WHAT$ slettet sammen med webstedsdata og cache for alle websites, der ikke beholdes.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Historik og webstedsdata blev sprunget over, fordi denne browser ikke lader udvidelser rydde dem."
+  },
+  "skippedHistory": {
+    "message": "Historikken blev sprunget over, fordi denne browser ikke lader udvidelser rydde den."
+  },
+  "skippedSiteData": {
+    "message": "Webstedsdata blev sprunget over, fordi denne browser ikke lader udvidelser rydde dem."
+  },
+  "cookiesSkipped": {
+    "message": "Cookies blev sprunget over, fordi adgang til websites er slået fra."
+  },
+  "loadFailed": {
+    "message": "Indstillingerne kunne ikke indlæses."
+  }
+}

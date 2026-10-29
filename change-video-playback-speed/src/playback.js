@@ -1,4 +1,5 @@
 import "./extension-api.js";
+import { speedLabels, t } from "./i18n.js";
 import {
   getMediaState,
   applyPlaybackSpeed
@@ -61,9 +62,12 @@ export async function changePlaybackSpeed(tabId) {
       SPEEDS.find((speed) => speed > currentSpeed) ??
       SPEEDS[0];
 
+    const labels = speedLabels(nextSpeed);
+
     /*
      * Pass 2: apply one synchronized speed to media in every
-     * accessible frame. The top frame also shows the indicator.
+     * accessible frame. The top frame also shows the indicator, in
+     * the browser's language: page scripts cannot read its messages.
      */
     await extensionApi.scripting.executeScript({
       target: {
@@ -71,7 +75,7 @@ export async function changePlaybackSpeed(tabId) {
         allFrames: true
       },
       func: applyPlaybackSpeed,
-      args: [nextSpeed]
+      args: [nextSpeed, labels]
     });
 
     await extensionApi.action.setBadgeText({
@@ -91,7 +95,7 @@ export async function changePlaybackSpeed(tabId) {
 
     await extensionApi.action.setTitle({
       tabId,
-      title: `Playback speed: ${nextSpeed}x - Change Video Playback Speed`
+      title: t("actionTitle", labels.shown, extensionApi.runtime.getManifest().name)
     });
   } catch (error) {
     console.error(

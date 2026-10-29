@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Slå på kopiering, tekstmarkering og høyreklikkmenyer på nettsider som begrenser dem."
+  },
+  "commandDescription": {
+    "message": "Slå på kopiering og høyreklikk på gjeldende side"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Aktiv",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopiering og høyreklikk er slått på."
+  },
+  "optionsTitle": {
+    "message": "Automatiske nettsteder | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-repository, åpnes i en ny fane"
+  },
+  "automaticSitesHeading": {
+    "message": "Automatiske nettsteder"
+  },
+  "automaticSitesIntro": {
+    "message": "Slå automatisk på kopiering, tekstmarkering og høyreklikk på nettstedene du legger til."
+  },
+  "siteInputLabel": {
+    "message": "Nettstedets domene"
+  },
+  "addSite": {
+    "message": "Legg til nettsted"
+  },
+  "noSites": {
+    "message": "Ingen automatiske nettsteder er lagt til ennå."
+  },
+  "siteListLabel": {
+    "message": "Automatiske nettsteder"
+  },
+  "remove": {
+    "message": "Fjern"
+  },
+  "removeSite": {
+    "message": "Fjern $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (tillatelse fjernet)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ er lagt til.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ er slått på igjen.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ er fjernet.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Dette nettstedet er allerede slått på."
+  },
+  "invalidDomain": {
+    "message": "Skriv inn et gyldig domene, for eksempel example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Tillatelsen for nettstedet ble ikke gitt."
+  },
+  "addFailed": {
+    "message": "Kunne ikke legge til nettstedet."
+  },
+  "removeFailed": {
+    "message": "Kunne ikke fjerne nettstedet."
+  },
+  "loadFailed": {
+    "message": "Kunne ikke laste inn listen over nettsteder."
+  }
+}

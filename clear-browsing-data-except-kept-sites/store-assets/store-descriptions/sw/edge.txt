@@ -1,0 +1,90 @@
+Hufuta historia, vidakuzi na data ya tovuti kivinjari kinapoanza kwa tovuti zote isipokuwa zile unazohifadhi.
+
+Clear Browsing Data Except Kept Sites ni kiendelezi chepesi cha programu huria kinachoondoa rekodi za historia, vidakuzi na data ya tovuti kwa tovuti zote ambazo hukuchagua kuzihifadhi.
+
+Katika mipangilio, ongeza tovuti ambazo ungependa kubaki umeingia na zikukumbuke, kisha washa ufutaji. Kila kivinjari kinapoanza, kiendelezi hufuta historia, vidakuzi na data ya tovuti ya tovuti nyingine zote. Unaweza pia kufuta wakati wowote kwa "Futa Sasa".
+
+Kidokezo: Kwenye menyu ya Viendelezi ya Edge, washa «Onyesha kwenye upau wa zana» kwa ajili ya Clear Browsing Data Except Kept Sites kwa ufikiaji wa haraka.
+
+VIPENGELE VIKUU
+
+• Orodha ya tovuti ambazo historia na vidakuzi vyake havifutwi kamwe, pamoja na kuingiza na kuhamisha kama faili ya maandishi
+• Hufuta historia na vidakuzi vya tovuti nyingine zote kivinjari kinapoanza, baada ya kukiwasha
+• Futa wakati wowote kwa "Futa Sasa", na futa data iliyobaki ya tovuti ambazo hazipatikani tena kwa "Futa Mabaki"
+• Huhifadhi kiotomatiki vikoa vidogo vya tovuti iliyohifadhiwa
+• Huhifadhi vidakuzi vya kikoa kikuu ambavyo tovuti iliyohifadhiwa inahitaji ili ubaki umeingia
+• Hufuta vidakuzi vilivyogawanywa (vya wahusika wengine); vidakuzi vilivyogawanywa vya tovuti iliyohifadhiwa hubaki tu chini ya tovuti zilizohifadhiwa
+• Hufuta hifadhi ya ndani, IndexedDB, service worker na akiba ya tovuti zisizohifadhiwa
+• Huonyesha matokeo ya ufutaji wa mwisho katika mipangilio
+• Huonya wakati ufikiaji wa tovuti umezimwa na vidakuzi haviwezi kufutwa
+• Hakuna takwimu wala ufuatiliaji
+• Hakuna msimbo wa mbali wala maombi ya mtandao
+
+TOVUTI ZILIZOHIFADHIWA
+
+Fungua mipangilio na uongeze kikoa, kwa mfano:
+
+example.com
+
+Ili kuongeza kadhaa kwa pamoja, zitenganishe kwa koma.
+
+"Hamisha" huhifadhi orodha kama faili ya maandishi, kikoa kimoja kwa kila mstari. "Ingiza" hubadilisha orodha kwa tovuti za faili ya maandishi, na huonya kwanza ikiwa tovuti unazohifadhi sasa zitapotea.
+
+Anwani kama mail.example.com/inbox hufupishwa hadi kikoa chake, na www. ya mwanzo huondolewa. localhost na anwani za IPv4 kama 192.168.1.1 pia hukubaliwa.
+
+Kuhifadhi example.com huhifadhi historia, vidakuzi na data ya tovuti ya example.com na vikoa vyake vidogo vyote. Kuhifadhi mail.example.com pia huhifadhi vidakuzi vya example.com, kwa sababu mara nyingi huwa na kuingia kwa kikoa kidogo.
+
+KUFUNGUA MIPANGILIO
+
+Mipangilio hufunguka kiotomatiki baada ya kusakinisha, ili uweze kujaza orodha kabla ya kuwasha ufutaji. Baadaye, bofya aikoni ya kiendelezi kwenye upau wa zana, au:
+
+1. Bofya kulia aikoni ya kiendelezi kwenye upau wa zana.
+2. Chagua Chaguo za kiendelezi.
+
+KUFUTA KIVINJARI KINAPOANZA
+
+Baada ya kusakinisha, ufutaji umezimwa, kwa hivyo hakuna kinachoondolewa hadi uombe. Mipangilio huonyesha ilani ya "Ufutaji umezimwa" yenye kitufe cha "Washa Ufutaji". Kuuwasha huonyesha onyo kwanza: kila kuanza hufuta historia na vidakuzi vya tovuti zote isipokuwa zilizohifadhiwa na hukutoa kwenye akaunti zake, au kwenye tovuti zote ikiwa hakuna iliyohifadhiwa.
+
+Ukiwa umewashwa, ufutaji hufanyika kila kivinjari kinapoanza, kwa sababu kivinjari hakiruhusu viendelezi kufanya kazi wakati wa kufunga. Kufuta wakati wa kuanza huondoa kile ambacho kipindi kilichopita kiliacha. Uzime au uwashe tena kwa "Futa kiotomatiki kivinjari kinapoanza" katika mipangilio.
+
+FUTA SASA NA FUTA MABAKI
+
+"Futa Sasa" katika mipangilio hufuta mara moja. Ikiwa hakuna tovuti iliyohifadhiwa, onyo jekundu huonekana kwanza kwamba kila kitu kitafutwa. Mipangilio huonyesha ufutaji wa mwisho ulifanyika lini na ulifuta rekodi ngapi za historia na vidakuzi vingapi.
+
+Baada ya ufutaji kuondoa historia na vidakuzi vya tovuti, ufutaji unaofuata hauipati tena tovuti hiyo, kwa hivyo hifadhi yake ya ndani, hifadhidata na akiba hubaki. "Futa Mabaki" huendesha ufutaji kisha hufuta data ya tovuti zote usizohifadhi, zikipatikana au la. Hapa kivinjari kinaweza kuacha tu tovuti zinazolingana kabisa, kwa hivyo tovuti iliyohifadhiwa huhifadhi data kwa ajili yake tu na kwa tovuti zilizohifadhiwa ambazo ufutaji unazipata katika historia, vidakuzi na vichupo vilivyo wazi; onyo jekundu husema hili kwanza.
+
+UFIKIAJI WA TOVUTI
+
+Vidakuzi vinaweza kuondolewa tu kwa tovuti ambazo kiendelezi kina ufikiaji wake, kwa hivyo huomba ufikiaji wa tovuti zote. Ukiweka kikomo kwa ufikiaji wa tovuti, kwa mfano kuwa "Ukibofya", historia bado hufutwa, lakini vidakuzi huachwa, na mipangilio huonyesha kitufe cha "Ruhusu Ufikiaji wa Tovuti".
+
+VIKWAZO
+
+• Vichupo vilivyorejeshwa wakati wa kuanza vinaweza kuweka vidakuzi vipya ufutaji ukiendelea. Vidakuzi hivyo hubaki hadi kuanza kunakofuata au "Futa Sasa" inayofuata.
+• Data nyingine ya tovuti, kama hifadhi ya kipindi, ruhusa za tovuti na faili zilizohifadhiwa kupitia File System API, haifutwi.
+• Ikiwa usawazishaji wa kivinjari unajumuisha historia, rekodi za historia zilizoondolewa zinaweza pia kuondolewa kwenye vifaa vyako vingine.
+• Madirisha ya InPrivate hufutwa tu kiendelezi kikiruhusiwa katika InPrivate. Hata hivyo Edge hutupa data yake yanapofungwa.
+• Anwani za IPv6 haziwezi kuongezwa kwenye orodha.
+
+FARAGHA
+
+• Hakuna takwimu wala ufuatiliaji
+• Hakuna ukusanyaji wa data
+• Hakuna maombi ya mtandao
+• Hakuna msimbo wa mbali
+• Hakuna JavaScript ya nje
+• Historia na vidakuzi husomwa tu ili kuamua nini cha kuondoa, na ndani ya kivinjari chako tu
+• Orodha na mipangilio huhifadhiwa ndani ya kivinjari chako
+
+UTENDAJI
+
+Kiendelezi hakifanyi chochote unapovinjari. Hufanya kazi mara moja kivinjari kinapoanza, ikiwa ufutaji umewashwa, na unapobofya "Futa Sasa" au "Futa Mabaki".
+
+Ufutaji wa kwanza wa historia ndefu unaweza kuchukua dakika chache, kwa sababu kila rekodi ya historia hufutwa peke yake. Unaweza kuendelea kuvinjari wakati huo. Ufutaji unaofuata huondoa tu rekodi za kipindi kilichopita.
+
+PROGRAMU HURIA
+
+Clear Browsing Data Except Kept Sites ni mradi wa programu huria chini ya Leseni ya MIT.
+
+Tazama msimbo chanzo, ripoti matatizo au changia kwenye GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

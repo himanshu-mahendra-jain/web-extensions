@@ -1,0 +1,80 @@
+Aktivizoni kopjimin, përzgjedhjen e tekstit dhe menutë e klikimit të djathtë në faqet web që i kufizojnë.
+
+Enable Copy and Right Click është një zgjerim i lehtë me burim të hapur që rikthen kopjimin, përzgjedhjen e tekstit dhe klikimin e djathtë normal në faqet web që i kufizojnë këto veprime.
+
+Klikoni ikonën e zgjerimit te shiriti i mjeteve ose përdorni shkurtoren e tastierës për të aktivizuar kopjimin dhe klikimin e djathtë në skedën e tanishme.
+
+Mund të shtoni edhe sajte të besuar te lista e sajteve automatikë. Atëherë zgjerimi do të aktivizojë vetvetiu kopjimin dhe klikimin e djathtë sa herë që i vizitoni ata sajte.
+
+VEÇORITË KRYESORE
+
+• Aktivizon kopjimin dhe përzgjedhjen e tekstit në faqe web të kufizuara
+• Aktivizon menutë kontekstuale të klikimit të djathtë
+• Aktivizon kopjimin, prerjen, ngjitjen, përzgjedhjen e tekstit dhe tërheqjen
+• Aktivizim me një klikim nga shiriti i mjeteve
+• Shkurtore tastiere për aktivizim të shpejtë
+• Aktivizim automatik në sajtet që zgjidhni
+• Punon në iframe të përdorshme, kur e lejojnë lejet e shfletuesit
+• Shfaq një stemë ON pas aktivizimit dorazi
+• Pa menu flluska
+• Pa analiza dhe pa gjurmim
+• Pa kod të largët dhe pa kërkesa rrjeti
+
+SHKURTORE PARAZGJEDHJE TASTIERE
+
+• Windows, Linux, ChromeOS, GooglebookOS dhe Android: Alt+C
+• macOS: Command+Shift+Y
+
+Shkurtorja e tastierës bën të njëjtën gjë si klikimi i ikonës së zgjerimit.
+
+NDRYSHONI SHKURTOREN E TASTIERËS
+
+1. Hapni menunë e Firefox-it dhe zgjidhni Shtesa dhe tema.
+2. Klikoni ikonën e ingranazhit te faqja Zgjerime.
+3. Zgjidhni Administroni Shkurtore Zgjerimesh.
+4. Gjeni Enable Copy and Right Click dhe jepni shkurtoren që parapëlqeni.
+
+SAJTE AUTOMATIKË
+
+Hapni faqen e mundësive të zgjerimit dhe shtoni një përkatësi, si:
+
+example.com
+
+Zgjerimi do të kërkojë leje vetëm për sajtin që shtoni. Pasi të jepet leja, kopjimi, përzgjedhja e tekstit dhe klikimi i djathtë do të aktivizohen vetvetiu në atë sajt.
+
+Mund ta hiqni një sajt automatik kurdo nga faqja e mundësive.
+
+HAPJA E FAQES SË MUNDËSIVE
+
+1. Hapni menunë e Firefox-it dhe zgjidhni Shtesa dhe tema.
+2. Gjeni Enable Copy and Right Click dhe klikoni menunë me tri pika në krah të tij.
+3. Përzgjidhni Parapëlqime.
+
+PRIVATËSIA
+
+• Pa analiza dhe pa gjurmim
+• Nuk mbledh të dhëna
+• Nuk mbledh historik shfletimi
+• Pa kërkesa rrjeti
+• Pa kod të largët
+• Pa JavaScript të jashtëm
+• Parapëlqimet për sajtet automatikë ruhen lokalisht në shfletuesin tuaj
+• Lejet për sajte kërkohen vetëm kur shtoni vetë një sajt
+
+I gjithë rikthimi i kopjimit dhe i klikimit të djathtë ndodh lokalisht në shfletuesin tuaj.
+
+FUNKSIONIMI
+
+Zgjerimi është i lehtë dhe punon sipas veprimtarish.
+
+Kur s'është në punë, nuk kryen asnjë punë të vazhdueshme në prapaskenë. Aktivizimi dorazi xhiron vetëm kur klikoni ikonën te shiriti i mjeteve ose përdorni shkurtoren e tastierës. Aktivizimi automatik xhiron vetëm në sajtet që keni shtuar vetë.
+
+Nuk ka kontrolle periodike, veprimtari rrjeti në prapaskenë, SDK analizash, formësim së largëti apo cikël që mbikëqyr faqet vazhdimisht.
+
+BURIM I HAPUR
+
+Enable Copy and Right Click është me burim të hapur dhe licencohet sipas Licencës MIT.
+
+Shihni kodin burim, raportoni probleme ose kontribuoni në GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

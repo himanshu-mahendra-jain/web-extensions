@@ -1,0 +1,42 @@
+Cierra la pestaña actual con un toque de tres dedos, un clic central o un clic en la barra de herramientas.
+
+Three Finger Tap to Close Tab es una extensión ligera y de código abierto que ofrece una forma rápida y sencilla de cerrar la pestaña actual del navegador.
+
+Toca con tres dedos o haz clic central en cualquier parte de una página web fuera de enlaces y campos editables para cerrar la pestaña actual. También puedes hacer clic en el icono de la extensión en la barra de herramientas.
+
+En Firefox para Android, toca Three Finger Tap to Close Tab en el menú Extensiones del navegador para cerrar la pestaña actual. Un toque en la pantalla no es un clic central, así que tocar una página web nunca cierra la pestaña.
+
+El clic central en enlaces y tarjetas de feeds mantiene el comportamiento normal del navegador, así que puedes seguir abriendo enlaces y publicaciones en pestañas nuevas como siempre. Un margen de seguridad integrado evita cerrar la pestaña por accidente si tocas justo al lado de un enlace o un control.
+
+FUNCIONES PRINCIPALES
+
+• Cierra la pestaña actual con un toque de tres dedos
+• Cierra la pestaña actual con un clic central
+• Cierra la pestaña actual con un clic en la barra de herramientas
+• Mantiene el clic central normal en enlaces, botones y tarjetas de feeds
+• Un margen de seguridad evita cierres accidentales cerca de elementos interactivos
+• No cierra pestañas mientras usas formularios y campos editables
+• Sin menús emergentes ni ajustes
+
+CONFIGURACIÓN DEL PANEL TÁCTIL
+
+El panel táctil y el sistema operativo deben estar configurados para que un toque de tres dedos genere un clic central.
+
+Una vez configurado, toca con tres dedos una página web fuera de enlaces y contenido interactivo para cerrar la pestaña actual.
+
+PRIVACIDAD
+
+• Sin analíticas ni seguimiento
+• No recopila datos ni historial de navegación
+• Sin solicitudes de red
+• No guarda actividad de navegación ni preferencias
+
+Todas las pestañas se cierran localmente en tu navegador.
+
+CÓDIGO ABIERTO
+
+Three Finger Tap to Close Tab es un proyecto de código abierto publicado bajo la licencia MIT.
+
+Consulta el código fuente, informa de incidencias o colabora en GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

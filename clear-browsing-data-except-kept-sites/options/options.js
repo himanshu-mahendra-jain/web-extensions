@@ -1,5 +1,13 @@
 import "../src/extension-api.js";
 import {
+  andList,
+  listOf,
+  localizePage,
+  plural,
+  t,
+  uiLanguage
+} from "../src/i18n.js";
+import {
   SITE_ORIGINS,
   parseSites,
   sanitizeSites
@@ -91,31 +99,34 @@ const leftoversStatus =
 
 
 /*
- * What a clear deletes, as the page names it. Firefox for Android
- * has no history API, and browsingData is missing when its
- * permission was not granted.
+ * What a clear deletes. Firefox for Android has no history API, and
+ * browsingData is missing when its permission was not granted.
  */
-const CLEARABLE = [
-  ...(extensionApi.history ? ["history"] : []),
-  "cookies",
-  ...(extensionApi.browsingData ? ["site data"] : [])
-];
+const CAN_CLEAR_HISTORY =
+  Boolean(extensionApi.history);
+
+const CAN_CLEAR_SITE_DATA =
+  Boolean(extensionApi.browsingData);
 
 
-function joinList(items) {
-  return items.length > 1
-    ? `${items.slice(0, -1).join(", ")} and ${items.at(-1)}`
-    : items[0];
-}
+// What a clear deletes, as the page names it in other messages.
+function clearedData() {
+  if (CAN_CLEAR_HISTORY && CAN_CLEAR_SITE_DATA) {
+    return t("dataAll");
+  }
 
+  if (CAN_CLEAR_SITE_DATA) {
+    return t("dataNoHistory");
+  }
 
-function capitalize(text) {
-  return `${text[0].toUpperCase()}${text.slice(1)}`;
+  return CAN_CLEAR_HISTORY
+    ? t("dataNoSiteData")
+    : t("dataCookies");
 }
 
 
 const CLEARED_DATA =
-  joinList(CLEARABLE);
+  clearedData();
 
 
 // Firefox can clear site data only of the sites it names.
@@ -125,7 +136,7 @@ const CAN_CLEAR_LEFTOVERS =
 
 
 const dateFormat =
-  new Intl.DateTimeFormat(undefined, {
+  new Intl.DateTimeFormat(uiLanguage(), {
     dateStyle: "medium",
     timeStyle: "short"
   });
@@ -207,12 +218,12 @@ async function renderSites() {
     label.textContent = site;
 
     removeButton.type = "button";
-    removeButton.textContent = "Remove";
+    removeButton.textContent = t("remove");
     removeButton.disabled = operationInProgress;
 
     removeButton.setAttribute(
       "aria-label",
-      `Remove ${site}`
+      t("removeSite", site)
     );
 
     removeButton.addEventListener(
@@ -231,7 +242,7 @@ async function renderSites() {
           console.error(error);
 
           setMessage(
-            "The site could not be removed.",
+            t("removeFailed"),
             "error"
           );
 
@@ -257,25 +268,20 @@ async function renderSites() {
 }
 
 
-function countSites(count) {
-  return countText(count, "site", "sites");
-}
-
-
 // Says what happened to each site entered, in one message.
 function describeEntries({ added, kept, invalid }) {
   const parts = [];
 
   if (added.length === 1) {
-    parts.push(`${added[0]} kept.`);
+    parts.push(t("siteKept", added[0]));
   } else if (added.length > 1) {
-    parts.push(`${countSites(added.length)} kept.`);
+    parts.push(plural("sitesKept", added.length));
   }
 
   if (kept.length === 1) {
-    parts.push(`${kept[0]} is already kept.`);
+    parts.push(t("siteAlreadyKept", kept[0]));
   } else if (kept.length > 1) {
-    parts.push(`${countSites(kept.length)} are already kept.`);
+    parts.push(plural("sitesAlreadyKept", kept.length));
   }
 
   if (invalid.length > 0) {
@@ -288,8 +294,8 @@ function describeEntries({ added, kept, invalid }) {
 
 function describeInvalid(invalid) {
   return invalid.length === 1
-    ? `${invalid[0]} is not a valid domain.`
-    : `These are not valid domains: ${invalid.join(", ")}.`;
+    ? t("invalidDomain", invalid[0])
+    : t("invalidDomains", listOf(invalid));
 }
 
 
@@ -344,7 +350,7 @@ async function removeSite(site) {
   });
 
   setMessage(
-    `${site} removed. Its ${CLEARED_DATA} will be deleted at the next clear.`,
+    t("siteRemoved", site, CLEARED_DATA),
     "success"
   );
 
@@ -411,7 +417,7 @@ const MAX_IMPORT_BYTES = 1024 * 1024;
 async function importSites(file) {
   if (file.size > MAX_IMPORT_BYTES) {
     setTransferStatus(
-      `${file.name} is larger than 1 MB, so the kept sites were not changed.`,
+      t("fileTooLarge", file.name),
       "error"
     );
 
@@ -423,7 +429,7 @@ async function importSites(file) {
 
   if (sites.length === 0) {
     setTransferStatus(
-      `${file.name} has no valid domains, so the kept sites were not changed.`,
+      t("fileNoDomains", file.name),
       "error"
     );
 
@@ -440,12 +446,17 @@ async function importSites(file) {
   if (
     dropped.length > 0 &&
     !(await confirmDanger({
-      title: "Replace kept sites?",
+      title: t("replaceTitle"),
       lines: [
-        `The ${countSites(current.length)} you keep now will be replaced with the ${countSites(sites.length)} in ${file.name}.`,
-        `${countSites(dropped.length)} will no longer be kept, and ${dropped.length === 1 ? "its" : "their"} ${CLEARED_DATA} will be deleted at the next clear.`
+        t(
+          "replaceText",
+          plural("siteCount", current.length),
+          plural("siteCount", sites.length),
+          file.name
+        ),
+        plural("importDropped", dropped.length, CLEARED_DATA)
       ],
-      action: "Replace Kept Sites"
+      action: t("replaceAction")
     }))
   ) {
     return;
@@ -459,7 +470,7 @@ async function importSites(file) {
 
   setTransferStatus(
     [
-      `${countSites(sites.length)} imported from ${file.name}.`,
+      plural("sitesImported", sites.length, file.name),
       ...(invalid.length > 0 ? [describeInvalid(invalid)] : [])
     ].join(" "),
     invalid.length > 0 ? "error" : "success"
@@ -468,22 +479,34 @@ async function importSites(file) {
 
 
 // What is cleared without site access, which only cookies need.
-const CLEARED_WITHOUT_ACCESS =
-  CLEARABLE.filter((item) => item !== "cookies");
+function accessWarningText() {
+  if (CAN_CLEAR_HISTORY && CAN_CLEAR_SITE_DATA) {
+    return t("accessHistorySiteData");
+  }
+
+  if (CAN_CLEAR_HISTORY) {
+    return t("accessHistory");
+  }
+
+  return CAN_CLEAR_SITE_DATA
+    ? t("accessSiteData")
+    : t("accessNothing");
+}
+
+
+localizePage();
 
 accessText.textContent =
-  CLEARED_WITHOUT_ACCESS.length > 0
-    ? `Without access to websites, the extension cannot delete cookies. ${capitalize(joinList(CLEARED_WITHOUT_ACCESS))} ${CLEARED_WITHOUT_ACCESS.length > 1 ? "are" : "is"} still cleared.`
-    : "Without access to websites, the extension cannot delete cookies, so nothing is cleared.";
+  accessWarningText();
 
 clearingOffText.textContent =
-  `Nothing is deleted yet. Add the sites you want to stay signed in to, then turn clearing on. From then on, each time the browser starts, the ${CLEARED_DATA} of every other site are deleted.`;
+  t("clearingOffText", CLEARED_DATA);
 
 intro.textContent =
-  `These sites and their subdomains keep their ${CLEARED_DATA}, so you stay signed in. While clearing is on, every other site loses them each time the browser starts.`;
+  t("intro", CLEARED_DATA);
 
 emptyState.textContent =
-  `No sites are kept yet, so a clear deletes the ${CLEARED_DATA} of every site.`;
+  t("noSites", CLEARED_DATA);
 
 leftoversSection.hidden = !CAN_CLEAR_LEFTOVERS;
 
@@ -498,8 +521,19 @@ async function renderAccess() {
 }
 
 
-function countText(count, singular, plural) {
-  return `${count} ${count === 1 ? singular : plural}`;
+// Says what the browser did not let the extension clear.
+function unsupportedText({ historySkipped, siteDataSkipped }) {
+  if (historySkipped && siteDataSkipped) {
+    return t("skippedHistorySiteData");
+  }
+
+  if (historySkipped) {
+    return t("skippedHistory");
+  }
+
+  return siteDataSkipped
+    ? t("skippedSiteData")
+    : "";
 }
 
 
@@ -508,7 +542,7 @@ function renderLastClear(lastClear) {
 
   if (!lastClear) {
     lastClearStatus.textContent =
-      "Nothing has been cleared yet.";
+      t("nothingClearedYet");
 
     return;
   }
@@ -520,58 +554,50 @@ function renderLastClear(lastClear) {
     lastClearStatus.classList.add("error");
 
     lastClearStatus.textContent =
-      `Clearing on ${when} failed.`;
+      t("clearFailed", when);
 
     return;
   }
 
   const removed = [];
-  const skipped = [];
 
   // Firefox for Android lets extensions clear neither of these.
-  const unsupported = [
-    ...(lastClear.historySkipped ? ["history"] : []),
-    ...(lastClear.siteDataSkipped ? ["site data"] : [])
+  const skipped = [
+    unsupportedText(lastClear)
   ];
 
-  if (unsupported.length > 0) {
-    const several = unsupported.length > 1;
-
-    skipped.push(
-      `${capitalize(joinList(unsupported))} ${several ? "were" : "was"} skipped because this browser does not let extensions clear ${several ? "them" : "it"}.`
-    );
-  }
-
   if (!lastClear.historySkipped) {
-    removed.push(countText(
-      lastClear.historyRemoved,
-      "history entry",
-      "history entries"
+    removed.push(plural(
+      "historyEntries",
+      lastClear.historyRemoved
     ));
   }
 
   if (lastClear.cookiesSkipped) {
     skipped.push(
-      "Cookies were skipped because site access is off."
+      t("cookiesSkipped")
     );
   } else {
-    removed.push(countText(
-      lastClear.cookiesRemoved,
-      "cookie",
-      "cookies"
+    removed.push(plural(
+      "cookieCount",
+      lastClear.cookiesRemoved
     ));
   }
 
-  const alsoCleared = lastClear.leftoversCleared
-    ? ", along with the site data and cache of every site not kept"
+  const what = removed.length > 0
+    ? andList(removed)
+    : t("nothing");
+
+  const summary = lastClear.leftoversCleared
+    ? t("lastClearedLeftovers", when, what)
     : lastClear.siteDataCleared
-      ? ", along with site data and cache"
-      : "";
+      ? t("lastClearedSiteData", when, what)
+      : t("lastCleared", when, what);
 
   lastClearStatus.textContent = [
-    `Last cleared ${when}: ${removed.join(" and ") || "nothing"} deleted${alsoCleared}.`,
+    summary,
     ...skipped
-  ].join(" ");
+  ].filter(Boolean).join(" ");
 }
 
 
@@ -649,14 +675,14 @@ function confirmDanger({ title, lines, action }) {
 
 function confirmTurnOn(hasKeptSites) {
   return confirmDanger({
-    title: "Turn on clearing?",
+    title: t("turnOnTitle"),
     lines: [
       hasKeptSites
-        ? `Each time the browser starts, ${CLEARED_DATA} will be deleted for every site except the ones you selected to keep. You will be signed out of all other sites.`
-        : `You have not selected any sites to keep. Each time the browser starts, all ${CLEARED_DATA} will be deleted, and you will be signed out of every site.`,
-      `Deleted ${CLEARED_DATA} cannot be recovered.`
+        ? t("turnOnKept", CLEARED_DATA)
+        : t("turnOnNone", CLEARED_DATA),
+      t("cannotRecover", CLEARED_DATA)
     ],
-    action: "Turn On Clearing"
+    action: t("turnOnClearing")
   });
 }
 
@@ -724,7 +750,7 @@ form.addEventListener(
       setMessage(
         invalid.length > 1
           ? describeInvalid(invalid)
-          : "Enter a valid domain, such as example.com.",
+          : t("enterValidDomain"),
         "error"
       );
 
@@ -744,8 +770,8 @@ form.addEventListener(
 
       setMessage(
         sites.length > 1
-          ? "The sites could not be added."
-          : "The site could not be added.",
+          ? t("addSitesFailed")
+          : t("addSiteFailed"),
         "error"
       );
     } finally {
@@ -789,7 +815,7 @@ exportButton.addEventListener("click", () => {
     console.error(error);
 
     setTransferStatus(
-      "The kept sites could not be exported.",
+      t("exportFailed"),
       "error"
     );
   });
@@ -817,7 +843,7 @@ importFile.addEventListener("change", () => {
     console.error(error);
 
     setTransferStatus(
-      `The kept sites could not be imported from ${file.name}.`,
+      t("importFailed", file.name),
       "error"
     );
   });
@@ -831,12 +857,12 @@ clearButton.addEventListener("click", async () => {
   if (
     sites.length === 0 &&
     !(await confirmDanger({
-      title: "Clear everything now?",
+      title: t("clearEverythingTitle"),
       lines: [
-        `You have not selected any sites to keep, so the ${CLEARED_DATA} of every site will be deleted now, and you will be signed out of every site.`,
-        `Deleted ${CLEARED_DATA} cannot be recovered.`
+        t("clearEverythingText", CLEARED_DATA),
+        t("cannotRecover", CLEARED_DATA)
       ],
-      action: "Clear Everything"
+      action: t("clearEverything")
     }))
   ) {
     return;
@@ -852,17 +878,17 @@ leftoversButton.addEventListener("click", async () => {
 
   if (
     !(await confirmDanger({
-      title: "Clear leftover site data?",
+      title: t("leftoversTitle"),
       lines: [
         hasKeptSites
-          ? `The ${CLEARED_DATA} of every site you do not keep will be deleted now, including the site data of sites the extension no longer finds.`
-          : `You have not selected any sites to keep, so the ${CLEARED_DATA} of every site will be deleted now, and you will be signed out of every site.`,
+          ? t("leftoversKept", CLEARED_DATA)
+          : t("clearEverythingText", CLEARED_DATA),
         ...(hasKeptSites
-          ? ["A kept site keeps its site data only at the addresses the extension finds in history, cookies and open tabs. Any other subdomain or port of a kept site, such as one you have not visited for months or a local server on another port, loses its site data, and you may be signed out of it."]
+          ? [t("leftoversSubdomains")]
           : []),
-        `Deleted ${CLEARED_DATA} cannot be recovered.`
+        t("cannotRecover", CLEARED_DATA)
       ],
-      action: "Clear Leftovers"
+      action: t("clearLeftovers")
     }))
   ) {
     return;
@@ -870,15 +896,15 @@ leftoversButton.addEventListener("click", async () => {
 
   leftoversStatus.classList.remove("error");
   leftoversStatus.textContent =
-    "Clearing… This can take a few minutes.";
+    t("clearing");
 
   const result =
     await requestClear("clear-leftovers");
 
   leftoversStatus.classList.toggle("error", Boolean(result.failed));
   leftoversStatus.textContent = result.failed
-    ? "Clearing leftover site data failed."
-    : "Leftover site data cleared.";
+    ? t("leftoversFailed")
+    : t("leftoversCleared");
 });
 
 
@@ -888,7 +914,7 @@ async function requestClear(type) {
   leftoversButton.disabled = true;
   lastClearStatus.classList.remove("error");
   lastClearStatus.textContent =
-    "Clearing… This can take a few minutes.";
+    t("clearing");
 
   let result;
 
@@ -960,7 +986,7 @@ Promise.all([
   console.error(error);
 
   setMessage(
-    "The settings could not be loaded.",
+    t("loadFailed"),
     "error"
   );
 });

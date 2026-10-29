@@ -1,0 +1,80 @@
+Zmóžńće kopěrowanje, wuběranje teksta a menije praweho kliknjenja na webstronach, kotrež je wobmjezuja.
+
+Enable Copy and Right Click je lochke rozšěrjenje z wotewrjenym žórłowym kodom, kotrež normalne kopěrowanje, wuběranje teksta a prawe kliknjenje na webstronach wobnowja, kotrež tute akcije wobmjezuja.
+
+Klikńće na symbol rozšěrjenja w symbolowej lajsće abo wužiwajće tastowy skrótšenk, zo byšće kopěrowanje a prawe kliknjenje w aktualnym rajtarku zmóžnił.
+
+Móžeće tež dowěry hódne websydła lisćinje Awtomatiske sydła přidać. Rozšěrjenje potom kopěrowanje a prawe kliknjenje awtomatisce zmóžni, hdyž tute sydła wopytujeće.
+
+HŁOWNE FUNKCIJE
+
+• Zmóžnja kopěrowanje a wuběranje teksta na wobmjezowanych webstronach
+• Zmóžnja kontekstowe menije praweho kliknjenja
+• Zmóžnja kopěrowanje, wutřihanje, zasadźenje, wuběranje teksta a ćahnjenje
+• Aktiwizowanje z jednym kliknjenjom w symbolowej lajsće
+• Tastowy skrótšenk za spěšne aktiwizowanje
+• Awtomatiske aktiwizowanje na wubranych sydłach
+• Funguje w přistupnych iframe, hdźež prawa wobhladowaka to dowoleja
+• Pokazuje znamjo ON po manuelnym aktiwizowanju
+• Žane wuskakowace menije
+• Žana analyza a žane slědowanje
+• Žadyn zdaleny kod a žane syćowe naprašowanja
+
+STANDARDNE TASTOWE SKRÓTŠENKI
+
+• Windows, Linux, ChromeOS, GooglebookOS a Android: Alt+C
+• macOS: Command+Shift+Y
+
+Tastowy skrótšenk čini samsne kaž kliknjenje na symbol rozšěrjenja.
+
+TASTOWY SKRÓTŠENK ZMĚNIĆ
+
+1. Wočińće meni Firefox a wubjerće Přidatki a drasty.
+2. Klikńće na zubate kolesko na stronje Rozšěrjenja.
+3. Wubjerće Tastowe skrótšenki rozšěrjenjow rjadować.
+4. Pytajće Enable Copy and Right Click a zapodajće požadany tastowy skrótšenk.
+
+AWTOMATISKE SYDŁA
+
+Wočińće stronu nastajenjow rozšěrjenja a přidajće domenu kaž:
+
+example.com
+
+Rozšěrjenje prosy jenož wo prawo za websydło, kotrež přidawaće. Po tym, zo sće prawo dał, so kopěrowanje, wuběranje teksta a prawe kliknjenje na tym sydle awtomatisce zmóžni.
+
+Awtomatiske sydło móžeće kóždy čas na stronje nastajenjow wotstronić.
+
+STRONU NASTAJENJOW WOTEWRĚĆ
+
+1. Wočińće meni Firefox a wubjerće Přidatki a drasty.
+2. Pytajće Enable Copy and Right Click a klikńće na meni z třomi dypkami pódla njeje.
+3. Wubjerće Nastajenja.
+
+PRIWATNOSĆ
+
+• Žana analyza a žane slědowanje
+• Žane zběranje datow
+• Žane zběranje historije přehladowanja
+• Žane syćowe naprašowanja
+• Žadyn zdaleny kod
+• Žadyn eksterny JavaScript
+• Nastajenja awtomatiskich sydłow so lokalnje we wašim wobhladowaku składuja
+• Wo prawo za sydło so jenož prosy, hdyž sami sydło přidawaće
+
+Cyłe wobnowjenje kopěrowanja a praweho kliknjenja so lokalnje we wašim wobhladowaku stawa.
+
+WUKON
+
+Rozšěrjenje je lochke a so přez podawki wodźi.
+
+Hdyž je njeaktiwne, njewukonja žane stajne dźěło w pozadku. Manuelne aktiwizowanje běži jenož, hdyž na symbol w symbolowej lajsće kliknjeće abo tastowy skrótšenk wužiwaće. Awtomatiske aktiwizowanje běži jenož na websydłach, kotrež sće wuraznje přidał.
+
+Njeje žane prašenje w interwalach, žana syćowa aktiwita w pozadku, žadyn analyzowy SDK, žana zdalena konfiguracija a žana wjerćel, kotraž strony stajnje wobkedźbuje.
+
+WOTEWRJENY ŽÓRŁOWY KOD
+
+Enable Copy and Right Click ma wotewrjeny žórłowy kod a je licencowany pod licencu MIT.
+
+Wobhladajće sej žórłowy kod, zdźělće problemy abo přinošujće na GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

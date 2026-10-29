@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Activa la copia, la selección de texto y los menús del clic derecho en páginas web que los restringen."
+  },
+  "commandDescription": {
+    "message": "Activar copia y clic derecho en la página actual"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: activa",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Copia y clic derecho activados."
+  },
+  "optionsTitle": {
+    "message": "Sitios automáticos | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repositorio de GitHub, se abre en una pestaña nueva"
+  },
+  "automaticSitesHeading": {
+    "message": "Sitios automáticos"
+  },
+  "automaticSitesIntro": {
+    "message": "Activa automáticamente la copia, la selección de texto y el clic derecho en los sitios web que agregues."
+  },
+  "siteInputLabel": {
+    "message": "Dominio del sitio web"
+  },
+  "addSite": {
+    "message": "Agregar sitio"
+  },
+  "noSites": {
+    "message": "Aún no agregaste ningún sitio automático."
+  },
+  "siteListLabel": {
+    "message": "Sitios automáticos"
+  },
+  "remove": {
+    "message": "Quitar"
+  },
+  "removeSite": {
+    "message": "Quitar $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (permiso retirado)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "Se agregó $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "Se volvió a activar $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "Se quitó $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Este sitio ya está activado."
+  },
+  "invalidDomain": {
+    "message": "Ingresa un dominio válido, como example.com."
+  },
+  "permissionNotGranted": {
+    "message": "No se otorgó el permiso para el sitio."
+  },
+  "addFailed": {
+    "message": "No se pudo agregar el sitio."
+  },
+  "removeFailed": {
+    "message": "No se pudo quitar el sitio."
+  },
+  "loadFailed": {
+    "message": "No se pudo cargar la lista de sitios."
+  }
+}

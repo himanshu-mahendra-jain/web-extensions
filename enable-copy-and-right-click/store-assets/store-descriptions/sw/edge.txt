@@ -1,0 +1,80 @@
+Washa kunakili, kuchagua maandishi na menyu za kubofya kulia kwenye kurasa za wavuti zinazovizuia.
+
+Enable Copy and Right Click ni kiendelezi chepesi cha chanzo huria kinachorejesha kunakili, kuchagua maandishi na kubofya kulia kwa kawaida kwenye kurasa za wavuti zinazozuia vitendo hivi.
+
+Bofya aikoni ya kiendelezi kwenye upau wa zana au tumia njia ya mkato ya kibodi ili kuwasha kunakili na kubofya kulia kwenye kichupo cha sasa.
+
+Kidokezo: Kwenye menyu ya Viendelezi ya Edge, washa «Onyesha kwenye upau wa zana» kwa ajili ya Enable Copy and Right Click kwa ufikiaji wa haraka.
+
+Unaweza pia kuongeza tovuti unazoziamini kwenye orodha ya Tovuti za Kiotomatiki. Kisha kiendelezi kitawasha kunakili na kubofya kulia kiotomatiki kila unapotembelea tovuti hizo.
+
+VIPENGELE VIKUU
+
+• Huwasha kunakili na kuchagua maandishi kwenye kurasa za wavuti zenye vizuizi
+• Huwasha menyu za muktadha za kubofya kulia
+• Huwasha kunakili, kukata, kubandika, kuchagua maandishi na kuburuta
+• Kuwasha kwa mbofyo mmoja kutoka kwenye upau wa zana
+• Njia ya mkato ya kibodi ya kuwasha haraka
+• Kuwasha kiotomatiki kwenye tovuti unazochagua
+• Hufanya kazi kwenye iframe zinazofikika pale ruhusa za kivinjari zinaporuhusu
+• Huonyesha beji ya ON baada ya kuwasha mwenyewe
+• Hakuna menyu ibukizi
+• Hakuna takwimu wala ufuatiliaji
+• Hakuna msimbo wa mbali wala maombi ya mtandao
+
+NJIA ZA MKATO ZA KIBODI CHAGUOMSINGI
+
+• Windows, Linux, ChromeOS, GooglebookOS na Android: Alt+C
+• macOS: Command+Shift+Y
+
+Njia ya mkato ya kibodi hufanya kitendo kilekile kama kubofya aikoni ya kiendelezi.
+
+BADILISHA NJIA YA MKATO YA KIBODI
+
+1. Fungua menyu ya Viendelezi na uchague Dhibiti viendelezi.
+2. Chagua Njia za mkato za kibodi kwenye upau wa kando.
+3. Tafuta Enable Copy and Right Click na uweke njia ya mkato unayopendelea.
+
+TOVUTI ZA KIOTOMATIKI
+
+Fungua ukurasa wa chaguo za kiendelezi na uongeze kikoa kama:
+
+example.com
+
+Kiendelezi kitaomba ruhusa kwa ajili ya tovuti unayoongeza pekee. Ruhusa ikishatolewa, kunakili, kuchagua maandishi na kubofya kulia kutawashwa kiotomatiki kwenye tovuti hiyo.
+
+Unaweza kuondoa tovuti ya kiotomatiki wakati wowote kutoka kwenye ukurasa wa chaguo.
+
+FUNGUA UKURASA WA CHAGUO
+
+1. Bofya kulia aikoni ya kiendelezi kwenye upau wa zana.
+2. Chagua Chaguo za kiendelezi.
+
+FARAGHA
+
+• Hakuna takwimu wala ufuatiliaji
+• Hakuna ukusanyaji wa data
+• Hakuna ukusanyaji wa historia ya kuvinjari
+• Hakuna maombi ya mtandao
+• Hakuna msimbo wa mbali
+• Hakuna JavaScript ya nje
+• Mapendeleo ya tovuti za kiotomatiki huhifadhiwa ndani ya kivinjari chako
+• Ruhusa za tovuti huombwa tu unapoongeza tovuti wewe mwenyewe
+
+Urejeshaji wote wa kunakili na kubofya kulia hufanyika ndani ya kivinjari chako.
+
+UTENDAJI
+
+Kiendelezi ni chepesi na hufanya kazi kulingana na matukio.
+
+Hakifanyi kazi yoyote endelevu chinichini kikiwa hakitumiki. Kuwasha mwenyewe huendeshwa tu unapobofya aikoni ya upau wa zana au kutumia njia ya mkato ya kibodi. Kuwasha kiotomatiki huendeshwa tu kwenye tovuti ulizoongeza wewe mwenyewe.
+
+Hakuna kuuliza mara kwa mara, shughuli za mtandao chinichini, SDK ya takwimu, usanidi wa mbali wala mzunguko unaofuatilia kurasa mfululizo.
+
+PROGRAMU HURIA
+
+Enable Copy and Right Click ni mradi wa programu huria chini ya Leseni ya MIT.
+
+Tazama msimbo chanzo, ripoti matatizo au changia kwenye GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

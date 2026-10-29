@@ -442,7 +442,7 @@ test.describe("with site access granted", () => {
     extensionPath: async ({}, use, testInfo) => {
       const copy = testInfo.outputPath("extension");
 
-      for (const entry of ["manifest.json", "icons", "options", "src"]) {
+      for (const entry of ["manifest.json", "_locales", "icons", "options", "src"]) {
         fs.cpSync(
           path.join(EXTENSION_PATH, entry),
           path.join(copy, entry),

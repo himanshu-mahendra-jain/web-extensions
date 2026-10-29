@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Mengosongkan sejarah, kuki dan data tapak apabila penyemak imbas bermula bagi semua tapak kecuali yang anda simpan."
+  },
+  "optionsTitle": {
+    "message": "Tapak Disimpan | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repositori GitHub, dibuka dalam tab baharu"
+  },
+  "accessHeading": {
+    "message": "Akses tapak dimatikan"
+  },
+  "allowSiteAccess": {
+    "message": "Benarkan Akses Tapak"
+  },
+  "accessHistorySiteData": {
+    "message": "Tanpa akses kepada tapak web, sambungan tidak dapat memadamkan kuki. Sejarah dan data tapak masih dikosongkan."
+  },
+  "accessHistory": {
+    "message": "Tanpa akses kepada tapak web, sambungan tidak dapat memadamkan kuki. Sejarah masih dikosongkan."
+  },
+  "accessSiteData": {
+    "message": "Tanpa akses kepada tapak web, sambungan tidak dapat memadamkan kuki. Data tapak masih dikosongkan."
+  },
+  "accessNothing": {
+    "message": "Tanpa akses kepada tapak web, sambungan tidak dapat memadamkan kuki, jadi tiada apa-apa yang dikosongkan."
+  },
+  "clearingOffHeading": {
+    "message": "Pengosongan dimatikan"
+  },
+  "clearingOffText": {
+    "message": "Belum ada apa-apa yang dipadamkan. Tambahkan tapak yang anda mahu kekal log masuk, kemudian hidupkan pengosongan. Sejak itu, setiap kali penyemak imbas bermula, data ($DATA$) semua tapak lain akan dipadamkan.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Hidupkan Pengosongan"
+  },
+  "keptSitesHeading": {
+    "message": "Tapak Disimpan"
+  },
+  "intro": {
+    "message": "Tapak ini dan subdomainnya menyimpan data mereka ($DATA$), jadi anda kekal log masuk. Selagi pengosongan dihidupkan, semua tapak lain kehilangannya setiap kali penyemak imbas bermula.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Domain tapak web"
+  },
+  "keep": {
+    "message": "Simpan"
+  },
+  "siteHint": {
+    "message": "Pisahkan beberapa tapak dengan koma."
+  },
+  "noSites": {
+    "message": "Belum ada tapak yang disimpan, jadi pengosongan memadamkan data ($DATA$) setiap tapak.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Tapak disimpan"
+  },
+  "clearingHeading": {
+    "message": "Pengosongan"
+  },
+  "clearOnStartupLabel": {
+    "message": "Kosongkan secara automatik apabila penyemak imbas bermula"
+  },
+  "clearNow": {
+    "message": "Kosongkan Sekarang"
+  },
+  "firstClearHint": {
+    "message": "Pengosongan pertama boleh mengambil masa beberapa minit jika penyemak imbas menyimpan banyak data penyemakan imbas. Anda boleh terus menyemak imbas sementara itu."
+  },
+  "leftoversHeading": {
+    "message": "Baki Data Tapak"
+  },
+  "leftoversIntro": {
+    "message": "Setelah sejarah dan kuki sesebuah tapak dipadamkan, sambungan tidak lagi menemuinya, jadi storan setempat, pangkalan data dan cachenya kekal. Kosongkan Baki memadamkan data tapak bagi setiap tapak yang tidak anda simpan, ditemui atau tidak, selepas pengosongan seperti Kosongkan Sekarang."
+  },
+  "clearLeftovers": {
+    "message": "Kosongkan Baki"
+  },
+  "transferHeading": {
+    "message": "Import dan Eksport"
+  },
+  "transferIntro": {
+    "message": "Simpan tapak yang anda simpan ke fail teks, atau gantikannya dengan tapak dalam fail. Fail boleh menyenaraikan satu tapak setiap baris atau memisahkannya dengan koma."
+  },
+  "export": {
+    "message": "Eksport"
+  },
+  "import": {
+    "message": "Import"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "dataAll": {
+    "message": "sejarah, kuki dan data tapak"
+  },
+  "dataNoHistory": {
+    "message": "kuki dan data tapak"
+  },
+  "dataNoSiteData": {
+    "message": "sejarah dan kuki"
+  },
+  "dataCookies": {
+    "message": "kuki"
+  },
+  "remove": {
+    "message": "Alih keluar"
+  },
+  "removeSite": {
+    "message": "Alih keluar $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ dialih keluar. Datanya ($DATA$) akan dipadamkan pada pengosongan seterusnya.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Tapak tidak dapat dialih keluar."
+  },
+  "siteKept": {
+    "message": "$SITE$ disimpan.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ tapak disimpan.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ tapak disimpan.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ sudah disimpan.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ tapak sudah disimpan.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ tapak sudah disimpan.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ bukan domain yang sah.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Ini bukan domain yang sah: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Masukkan domain yang sah, seperti example.com."
+  },
+  "addSiteFailed": {
+    "message": "Tapak tidak dapat ditambahkan."
+  },
+  "addSitesFailed": {
+    "message": "Tapak-tapak tidak dapat ditambahkan."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ lebih besar daripada 1 MB, jadi tapak disimpan tidak berubah.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ tiada domain yang sah, jadi tapak disimpan tidak berubah.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Gantikan tapak disimpan?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ tapak",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ tapak",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Tapak yang anda simpan sekarang ($CURRENT$) akan digantikan dengan tapak dalam $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ tapak tidak lagi disimpan, dan datanya ($DATA$) akan dipadamkan pada pengosongan seterusnya.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ tapak tidak lagi disimpan, dan data mereka ($DATA$) akan dipadamkan pada pengosongan seterusnya.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Gantikan Tapak Disimpan"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ tapak diimport daripada $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ tapak diimport daripada $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Tapak disimpan tidak dapat dieksport."
+  },
+  "importFailed": {
+    "message": "Tapak disimpan tidak dapat diimport daripada $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Hidupkan pengosongan?"
+  },
+  "turnOnKept": {
+    "message": "Setiap kali penyemak imbas bermula, data ($DATA$) setiap tapak akan dipadamkan kecuali tapak yang anda pilih untuk disimpan. Anda akan dilog keluar daripada semua tapak lain.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Anda belum memilih tapak untuk disimpan. Setiap kali penyemak imbas bermula, semua data ($DATA$) akan dipadamkan, dan anda akan dilog keluar daripada setiap tapak.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Data yang dipadamkan ($DATA$) tidak dapat dipulihkan.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Kosongkan semua sekarang?"
+  },
+  "clearEverythingText": {
+    "message": "Anda belum memilih tapak untuk disimpan, jadi data ($DATA$) setiap tapak akan dipadamkan sekarang, dan anda akan dilog keluar daripada setiap tapak.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Kosongkan Semua"
+  },
+  "leftoversTitle": {
+    "message": "Kosongkan baki data tapak?"
+  },
+  "leftoversKept": {
+    "message": "Data ($DATA$) setiap tapak yang tidak anda simpan akan dipadamkan sekarang, termasuk data tapak bagi tapak yang tidak lagi ditemui oleh sambungan.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Tapak yang disimpan hanya mengekalkan data tapaknya pada alamat yang ditemui oleh sambungan dalam sejarah, kuki dan tab yang terbuka. Mana-mana subdomain atau port lain bagi tapak yang disimpan, seperti subdomain yang sudah berbulan-bulan tidak anda lawati atau pelayan setempat pada port lain, kehilangan data tapaknya, dan anda mungkin dilog keluar daripadanya."
+  },
+  "clearing": {
+    "message": "Mengosongkan… Ini mungkin mengambil masa beberapa minit."
+  },
+  "leftoversFailed": {
+    "message": "Gagal mengosongkan baki data tapak."
+  },
+  "leftoversCleared": {
+    "message": "Baki data tapak dikosongkan."
+  },
+  "nothingClearedYet": {
+    "message": "Belum ada apa-apa yang dikosongkan."
+  },
+  "clearFailed": {
+    "message": "Pengosongan pada $WHEN$ gagal.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ entri sejarah",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ entri sejarah",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ kuki",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ kuki",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "tiada apa-apa"
+  },
+  "lastCleared": {
+    "message": "Kali terakhir dikosongkan: $WHEN$. Dipadamkan: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Kali terakhir dikosongkan: $WHEN$. Dipadamkan: $WHAT$, berserta data tapak dan cache.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Kali terakhir dikosongkan: $WHEN$. Dipadamkan: $WHAT$, berserta data tapak dan cache setiap tapak yang tidak disimpan.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Sejarah dan data tapak dilangkau kerana penyemak imbas ini tidak membenarkan sambungan mengosongkannya."
+  },
+  "skippedHistory": {
+    "message": "Sejarah dilangkau kerana penyemak imbas ini tidak membenarkan sambungan mengosongkannya."
+  },
+  "skippedSiteData": {
+    "message": "Data tapak dilangkau kerana penyemak imbas ini tidak membenarkan sambungan mengosongkannya."
+  },
+  "cookiesSkipped": {
+    "message": "Kuki dilangkau kerana akses tapak dimatikan."
+  },
+  "loadFailed": {
+    "message": "Tetapan tidak dapat dimuatkan."
+  }
+}

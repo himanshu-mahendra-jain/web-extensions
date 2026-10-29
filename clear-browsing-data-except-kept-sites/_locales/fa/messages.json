@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "هنگام شروع مرورگر، سابقه، کوکی‌ها و داده‌های سایت همه سایت‌ها را پاک می‌کند، جز سایت‌هایی که نگه می‌دارید."
+  },
+  "optionsTitle": {
+    "message": "سایت‌های نگه‌داشته | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "مخزن GitHub، در برگه جدید باز می‌شود"
+  },
+  "accessHeading": {
+    "message": "دسترسی به سایت‌ها خاموش است"
+  },
+  "allowSiteAccess": {
+    "message": "اجازه دسترسی به سایت‌ها"
+  },
+  "accessHistorySiteData": {
+    "message": "بدون دسترسی به وب‌سایت‌ها، افزونه نمی‌تواند کوکی‌ها را حذف کند. سابقه و داده‌های سایت همچنان پاک می‌شوند."
+  },
+  "accessHistory": {
+    "message": "بدون دسترسی به وب‌سایت‌ها، افزونه نمی‌تواند کوکی‌ها را حذف کند. سابقه همچنان پاک می‌شود."
+  },
+  "accessSiteData": {
+    "message": "بدون دسترسی به وب‌سایت‌ها، افزونه نمی‌تواند کوکی‌ها را حذف کند. داده‌های سایت همچنان پاک می‌شوند."
+  },
+  "accessNothing": {
+    "message": "بدون دسترسی به وب‌سایت‌ها، افزونه نمی‌تواند کوکی‌ها را حذف کند، پس چیزی پاک نمی‌شود."
+  },
+  "clearingOffHeading": {
+    "message": "پاک‌سازی خاموش است"
+  },
+  "clearingOffText": {
+    "message": "هنوز چیزی حذف نمی‌شود. سایت‌هایی را که می‌خواهید در آن‌ها وارد بمانید اضافه کنید و سپس پاک‌سازی را روشن کنید. از آن پس، هر بار که مرورگر شروع به کار کند، داده‌های همه سایت‌های دیگر ($DATA$) حذف می‌شوند.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "روشن کردن پاک‌سازی"
+  },
+  "keptSitesHeading": {
+    "message": "سایت‌های نگه‌داشته"
+  },
+  "intro": {
+    "message": "این سایت‌ها و زیردامنه‌هایشان داده‌های خود ($DATA$) را نگه می‌دارند، پس شما وارد می‌مانید. تا وقتی پاک‌سازی روشن است، همه سایت‌های دیگر هر بار که مرورگر شروع به کار کند آن‌ها را از دست می‌دهند.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "دامنه‌های وب‌سایت"
+  },
+  "keep": {
+    "message": "نگه داشتن"
+  },
+  "siteHint": {
+    "message": "چند سایت را با ویرگول از هم جدا کنید."
+  },
+  "noSites": {
+    "message": "هنوز هیچ سایتی نگه داشته نشده است، پس پاک‌سازی داده‌های همه سایت‌ها ($DATA$) را حذف می‌کند.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "سایت‌های نگه‌داشته"
+  },
+  "clearingHeading": {
+    "message": "پاک‌سازی"
+  },
+  "clearOnStartupLabel": {
+    "message": "پاک‌سازی خودکار هنگام شروع مرورگر"
+  },
+  "clearNow": {
+    "message": "اکنون پاک شود"
+  },
+  "firstClearHint": {
+    "message": "اگر مرورگر داده‌های مرور زیادی داشته باشد، نخستین پاک‌سازی ممکن است چند دقیقه طول بکشد. در این مدت می‌توانید به مرور ادامه دهید."
+  },
+  "leftoversHeading": {
+    "message": "داده‌های باقی‌مانده سایت‌ها"
+  },
+  "leftoversIntro": {
+    "message": "وقتی سابقه و کوکی‌های یک سایت حذف شوند، افزونه دیگر آن را پیدا نمی‌کند، پس فضای ذخیره‌سازی محلی، پایگاه‌های داده و حافظه پنهان آن می‌ماند. «پاک کردن باقی‌مانده‌ها» پس از پاک‌سازی‌ای مانند «اکنون پاک شود»، داده‌های همه سایت‌هایی را که نگه نمی‌دارید، پیدا شده یا نه، حذف می‌کند."
+  },
+  "clearLeftovers": {
+    "message": "پاک کردن باقی‌مانده‌ها"
+  },
+  "transferHeading": {
+    "message": "وارد کردن و صادر کردن"
+  },
+  "transferIntro": {
+    "message": "سایت‌های نگه‌داشته خود را در یک فایل متنی ذخیره کنید یا آن‌ها را با سایت‌های یک فایل جایگزین کنید. فایل می‌تواند در هر خط یک سایت داشته باشد یا آن‌ها را با ویرگول جدا کند."
+  },
+  "export": {
+    "message": "صادر کردن"
+  },
+  "import": {
+    "message": "وارد کردن"
+  },
+  "cancel": {
+    "message": "لغو"
+  },
+  "dataAll": {
+    "message": "سابقه، کوکی‌ها و داده‌های سایت"
+  },
+  "dataNoHistory": {
+    "message": "کوکی‌ها و داده‌های سایت"
+  },
+  "dataNoSiteData": {
+    "message": "سابقه و کوکی‌ها"
+  },
+  "dataCookies": {
+    "message": "کوکی‌ها"
+  },
+  "remove": {
+    "message": "حذف"
+  },
+  "removeSite": {
+    "message": "حذف $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ حذف شد. داده‌های آن ($DATA$) در پاک‌سازی بعدی حذف می‌شوند.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "حذف سایت ممکن نشد."
+  },
+  "siteKept": {
+    "message": "$SITE$ نگه داشته شد.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ سایت نگه داشته شد.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ سایت نگه داشته شدند.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ از قبل نگه داشته شده است.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ سایت از قبل نگه داشته شده است.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ سایت از قبل نگه داشته شده‌اند.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ دامنه معتبری نیست.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "این‌ها دامنه معتبر نیستند: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "یک دامنه معتبر وارد کنید، مانند example.com."
+  },
+  "addSiteFailed": {
+    "message": "افزودن سایت ممکن نشد."
+  },
+  "addSitesFailed": {
+    "message": "افزودن سایت‌ها ممکن نشد."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ بزرگ‌تر از ۱ مگابایت است، پس سایت‌های نگه‌داشته تغییری نکردند.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ هیچ دامنه معتبری ندارد، پس سایت‌های نگه‌داشته تغییری نکردند.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "سایت‌های نگه‌داشته جایگزین شوند؟"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ سایت",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ سایت",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "سایت‌هایی که اکنون نگه می‌دارید ($CURRENT$) با سایت‌های $FILE$ ($NEW$) جایگزین می‌شوند.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ سایت دیگر نگه داشته نمی‌شود و داده‌های آن ($DATA$) در پاک‌سازی بعدی حذف می‌شوند.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ سایت دیگر نگه داشته نمی‌شوند و داده‌های آن‌ها ($DATA$) در پاک‌سازی بعدی حذف می‌شوند.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "جایگزینی سایت‌های نگه‌داشته"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ سایت از $FILE$ وارد شد.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ سایت از $FILE$ وارد شدند.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "صادر کردن سایت‌های نگه‌داشته ممکن نشد."
+  },
+  "importFailed": {
+    "message": "وارد کردن سایت‌های نگه‌داشته از $FILE$ ممکن نشد.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "پاک‌سازی روشن شود؟"
+  },
+  "turnOnKept": {
+    "message": "هر بار که مرورگر شروع به کار کند، داده‌های همه سایت‌ها ($DATA$) جز سایت‌هایی که برای نگه‌داشتن انتخاب کرده‌اید حذف می‌شوند. از همه سایت‌های دیگر خارج می‌شوید.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "هیچ سایتی را برای نگه‌داشتن انتخاب نکرده‌اید. هر بار که مرورگر شروع به کار کند، همه داده‌ها ($DATA$) حذف می‌شوند و از همه سایت‌ها خارج می‌شوید.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "داده‌های حذف‌شده ($DATA$) قابل بازیابی نیستند.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "اکنون همه چیز پاک شود؟"
+  },
+  "clearEverythingText": {
+    "message": "هیچ سایتی را برای نگه‌داشتن انتخاب نکرده‌اید، پس اکنون داده‌های همه سایت‌ها ($DATA$) حذف می‌شوند و از همه سایت‌ها خارج می‌شوید.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "پاک کردن همه چیز"
+  },
+  "leftoversTitle": {
+    "message": "داده‌های باقی‌مانده سایت‌ها پاک شوند؟"
+  },
+  "leftoversKept": {
+    "message": "اکنون داده‌های همه سایت‌هایی که نگه نمی‌دارید ($DATA$) حذف می‌شوند، از جمله داده‌های سایت‌هایی که افزونه دیگر پیدا نمی‌کند.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "سایت نگه‌داشته فقط در نشانی‌هایی که افزونه در سابقه، کوکی‌ها و برگه‌های باز پیدا می‌کند داده‌های خود را نگه می‌دارد. هر زیردامنه یا درگاه دیگری از سایت نگه‌داشته، مانند زیردامنه‌ای که ماه‌ها به آن سر نزده‌اید یا سرور محلی روی درگاهی دیگر، داده‌های خود را از دست می‌دهد و ممکن است از آن خارج شوید."
+  },
+  "clearing": {
+    "message": "در حال پاک‌سازی… ممکن است چند دقیقه طول بکشد."
+  },
+  "leftoversFailed": {
+    "message": "پاک کردن داده‌های باقی‌مانده سایت‌ها ناموفق بود."
+  },
+  "leftoversCleared": {
+    "message": "داده‌های باقی‌مانده سایت‌ها پاک شدند."
+  },
+  "nothingClearedYet": {
+    "message": "هنوز چیزی پاک نشده است."
+  },
+  "clearFailed": {
+    "message": "پاک‌سازی $WHEN$ ناموفق بود.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ مورد سابقه",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ مورد سابقه",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ کوکی",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ کوکی",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "هیچ"
+  },
+  "lastCleared": {
+    "message": "آخرین پاک‌سازی: $WHEN$. حذف‌شده: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "آخرین پاک‌سازی: $WHEN$. حذف‌شده: $WHAT$، به‌همراه داده‌های سایت و حافظه پنهان.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "آخرین پاک‌سازی: $WHEN$. حذف‌شده: $WHAT$، به‌همراه داده‌ها و حافظه پنهان همه سایت‌های نگه‌داشته‌نشده.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "سابقه و داده‌های سایت نادیده گرفته شدند، چون این مرورگر به افزونه‌ها اجازه پاک کردن آن‌ها را نمی‌دهد."
+  },
+  "skippedHistory": {
+    "message": "سابقه نادیده گرفته شد، چون این مرورگر به افزونه‌ها اجازه پاک کردن آن را نمی‌دهد."
+  },
+  "skippedSiteData": {
+    "message": "داده‌های سایت نادیده گرفته شدند، چون این مرورگر به افزونه‌ها اجازه پاک کردن آن‌ها را نمی‌دهد."
+  },
+  "cookiesSkipped": {
+    "message": "کوکی‌ها نادیده گرفته شدند، چون دسترسی به سایت‌ها خاموش است."
+  },
+  "loadFailed": {
+    "message": "بارگیری تنظیمات ممکن نشد."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "在 1 倍、1.2 倍、1.5 倍和 2 倍之間快速切換影片和音訊的播放速度。"
+  },
+  "commandDescription": {
+    "message": "變更影片播放速度"
+  },
+  "speedShown": {
+    "message": "$SPEED$倍",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "播放速度 $SPEED$ 倍",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "播放速度：$SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

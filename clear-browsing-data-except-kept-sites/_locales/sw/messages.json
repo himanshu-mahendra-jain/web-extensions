@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Hufuta historia, vidakuzi na data ya tovuti kivinjari kinapoanza kwa tovuti zote isipokuwa zile unazohifadhi."
+  },
+  "optionsTitle": {
+    "message": "Tovuti Zilizohifadhiwa | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Hazina ya GitHub, hufunguka katika kichupo kipya"
+  },
+  "accessHeading": {
+    "message": "Ufikiaji wa tovuti umezimwa"
+  },
+  "allowSiteAccess": {
+    "message": "Ruhusu Ufikiaji wa Tovuti"
+  },
+  "accessHistorySiteData": {
+    "message": "Bila ufikiaji wa tovuti, kiendelezi hakiwezi kufuta vidakuzi. Historia na data ya tovuti bado hufutwa."
+  },
+  "accessHistory": {
+    "message": "Bila ufikiaji wa tovuti, kiendelezi hakiwezi kufuta vidakuzi. Historia bado hufutwa."
+  },
+  "accessSiteData": {
+    "message": "Bila ufikiaji wa tovuti, kiendelezi hakiwezi kufuta vidakuzi. Data ya tovuti bado hufutwa."
+  },
+  "accessNothing": {
+    "message": "Bila ufikiaji wa tovuti, kiendelezi hakiwezi kufuta vidakuzi, kwa hivyo hakuna kinachofutwa."
+  },
+  "clearingOffHeading": {
+    "message": "Ufutaji umezimwa"
+  },
+  "clearingOffText": {
+    "message": "Bado hakuna kinachofutwa. Ongeza tovuti unazotaka kubaki umeingia, kisha uwashe ufutaji. Kuanzia hapo, kila kivinjari kinapoanza, data ($DATA$) ya tovuti nyingine zote itafutwa.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Washa Ufutaji"
+  },
+  "keptSitesHeading": {
+    "message": "Tovuti Zilizohifadhiwa"
+  },
+  "intro": {
+    "message": "Tovuti hizi na vikoa vyake vidogo huhifadhi data yao ($DATA$), kwa hivyo unabaki umeingia. Ufutaji ukiwa umewashwa, tovuti nyingine zote huipoteza kila kivinjari kinapoanza.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Vikoa vya tovuti"
+  },
+  "keep": {
+    "message": "Hifadhi"
+  },
+  "siteHint": {
+    "message": "Tenganisha tovuti kadhaa kwa koma."
+  },
+  "noSites": {
+    "message": "Bado hakuna tovuti zilizohifadhiwa, kwa hivyo ufutaji hufuta data ($DATA$) ya kila tovuti.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Tovuti zilizohifadhiwa"
+  },
+  "clearingHeading": {
+    "message": "Ufutaji"
+  },
+  "clearOnStartupLabel": {
+    "message": "Futa kiotomatiki kivinjari kinapoanza"
+  },
+  "clearNow": {
+    "message": "Futa Sasa"
+  },
+  "firstClearHint": {
+    "message": "Ufutaji wa kwanza unaweza kuchukua dakika kadhaa ikiwa kivinjari kina data nyingi ya kuvinjari. Unaweza kuendelea kuvinjari wakati huo."
+  },
+  "leftoversHeading": {
+    "message": "Data ya Tovuti Iliyobaki"
+  },
+  "leftoversIntro": {
+    "message": "Historia na vidakuzi vya tovuti vikishafutwa, kiendelezi hakiipati tena, kwa hivyo hifadhi yake ya ndani, hifadhidata na akiba hubaki. Futa Mabaki hufuta data ya kila tovuti usiyoihifadhi, iwe imepatikana au la, baada ya ufutaji kama Futa Sasa."
+  },
+  "clearLeftovers": {
+    "message": "Futa Mabaki"
+  },
+  "transferHeading": {
+    "message": "Kuingiza na Kuhamisha"
+  },
+  "transferIntro": {
+    "message": "Hifadhi tovuti zako zilizohifadhiwa kwenye faili ya maandishi, au uzibadilishe kwa tovuti zilizo kwenye faili. Faili inaweza kuorodhesha tovuti moja kwa kila mstari au kuzitenganisha kwa koma."
+  },
+  "export": {
+    "message": "Hamisha"
+  },
+  "import": {
+    "message": "Ingiza"
+  },
+  "cancel": {
+    "message": "Ghairi"
+  },
+  "dataAll": {
+    "message": "historia, vidakuzi na data ya tovuti"
+  },
+  "dataNoHistory": {
+    "message": "vidakuzi na data ya tovuti"
+  },
+  "dataNoSiteData": {
+    "message": "historia na vidakuzi"
+  },
+  "dataCookies": {
+    "message": "vidakuzi"
+  },
+  "remove": {
+    "message": "Ondoa"
+  },
+  "removeSite": {
+    "message": "Ondoa $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ imeondolewa. Data yake ($DATA$) itafutwa katika ufutaji unaofuata.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Imeshindwa kuondoa tovuti."
+  },
+  "siteKept": {
+    "message": "$SITE$ imehifadhiwa.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Tovuti $COUNT$ imehifadhiwa.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Tovuti $COUNT$ zimehifadhiwa.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ tayari imehifadhiwa.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "Tovuti $COUNT$ tayari imehifadhiwa.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "Tovuti $COUNT$ tayari zimehifadhiwa.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ si kikoa sahihi.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Hivi si vikoa sahihi: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Weka kikoa sahihi, kama example.com."
+  },
+  "addSiteFailed": {
+    "message": "Imeshindwa kuongeza tovuti."
+  },
+  "addSitesFailed": {
+    "message": "Imeshindwa kuongeza tovuti."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ ni kubwa kuliko MB 1, kwa hivyo tovuti zilizohifadhiwa hazijabadilika.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ haina vikoa sahihi, kwa hivyo tovuti zilizohifadhiwa hazijabadilika.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Ungependa kubadilisha tovuti zilizohifadhiwa?"
+  },
+  "siteCount_one": {
+    "message": "tovuti $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "tovuti $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Tovuti unazohifadhi sasa ($CURRENT$) zitabadilishwa kwa tovuti zilizo katika $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "Tovuti $COUNT$ haitahifadhiwa tena, na data yake ($DATA$) itafutwa katika ufutaji unaofuata.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "Tovuti $COUNT$ hazitahifadhiwa tena, na data yao ($DATA$) itafutwa katika ufutaji unaofuata.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Badilisha Tovuti Zilizohifadhiwa"
+  },
+  "sitesImported_one": {
+    "message": "Tovuti $COUNT$ imeingizwa kutoka $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Tovuti $COUNT$ zimeingizwa kutoka $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Imeshindwa kuhamisha tovuti zilizohifadhiwa."
+  },
+  "importFailed": {
+    "message": "Imeshindwa kuingiza tovuti zilizohifadhiwa kutoka $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Ungependa kuwasha ufutaji?"
+  },
+  "turnOnKept": {
+    "message": "Kila kivinjari kinapoanza, data ($DATA$) ya kila tovuti itafutwa isipokuwa zile ulizochagua kuhifadhi. Utaondolewa kwenye tovuti nyingine zote.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Hujachagua tovuti yoyote ya kuhifadhi. Kila kivinjari kinapoanza, data yote ($DATA$) itafutwa, na utaondolewa kwenye kila tovuti.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Data iliyofutwa ($DATA$) haiwezi kurejeshwa.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Ungependa kufuta kila kitu sasa?"
+  },
+  "clearEverythingText": {
+    "message": "Hujachagua tovuti yoyote ya kuhifadhi, kwa hivyo data ($DATA$) ya kila tovuti itafutwa sasa, na utaondolewa kwenye kila tovuti.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Futa Kila Kitu"
+  },
+  "leftoversTitle": {
+    "message": "Ungependa kufuta data ya tovuti iliyobaki?"
+  },
+  "leftoversKept": {
+    "message": "Data ($DATA$) ya kila tovuti usiyoihifadhi itafutwa sasa, ikiwemo data ya tovuti ambazo kiendelezi hakizipati tena.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Tovuti iliyohifadhiwa huhifadhi data yake tu kwenye anwani ambazo kiendelezi hupata katika historia, vidakuzi na vichupo vilivyo wazi. Kikoa kidogo au mlango mwingine wowote wa tovuti iliyohifadhiwa, kama ule ambao hujautembelea kwa miezi au seva ya ndani kwenye mlango mwingine, hupoteza data yake, na unaweza kuondolewa humo."
+  },
+  "clearing": {
+    "message": "Inafuta… Inaweza kuchukua dakika chache."
+  },
+  "leftoversFailed": {
+    "message": "Imeshindwa kufuta data ya tovuti iliyobaki."
+  },
+  "leftoversCleared": {
+    "message": "Data ya tovuti iliyobaki imefutwa."
+  },
+  "nothingClearedYet": {
+    "message": "Bado hakuna kilichofutwa."
+  },
+  "clearFailed": {
+    "message": "Ufutaji wa $WHEN$ umeshindwa.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "kipengee $COUNT$ cha historia",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "vipengee $COUNT$ vya historia",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "kidakuzi $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "vidakuzi $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "hakuna kitu"
+  },
+  "lastCleared": {
+    "message": "Ilifutwa mwisho: $WHEN$. Vilivyofutwa: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Ilifutwa mwisho: $WHEN$. Vilivyofutwa: $WHAT$, pamoja na data ya tovuti na akiba.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Ilifutwa mwisho: $WHEN$. Vilivyofutwa: $WHAT$, pamoja na data na akiba ya kila tovuti isiyohifadhiwa.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Historia na data ya tovuti zimerukwa kwa sababu kivinjari hiki hakiruhusu viendelezi kuzifuta."
+  },
+  "skippedHistory": {
+    "message": "Historia imerukwa kwa sababu kivinjari hiki hakiruhusu viendelezi kuifuta."
+  },
+  "skippedSiteData": {
+    "message": "Data ya tovuti imerukwa kwa sababu kivinjari hiki hakiruhusu viendelezi kuifuta."
+  },
+  "cookiesSkipped": {
+    "message": "Vidakuzi vimerukwa kwa sababu ufikiaji wa tovuti umezimwa."
+  },
+  "loadFailed": {
+    "message": "Imeshindwa kupakia mipangilio."
+  }
+}

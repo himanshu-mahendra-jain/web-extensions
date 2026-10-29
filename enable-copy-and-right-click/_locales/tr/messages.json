@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Kısıtlayan web sayfalarında kopyalamayı, metin seçmeyi ve sağ tık menülerini etkinleştirin."
+  },
+  "commandDescription": {
+    "message": "Geçerli sayfada kopyalamayı ve sağ tıklamayı etkinleştir"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Etkin",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopyalama ve sağ tıklama etkinleştirildi."
+  },
+  "optionsTitle": {
+    "message": "Otomatik Siteler | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub deposu, yeni sekmede açılır"
+  },
+  "automaticSitesHeading": {
+    "message": "Otomatik Siteler"
+  },
+  "automaticSitesIntro": {
+    "message": "Eklediğiniz web sitelerinde kopyalamayı, metin seçmeyi ve sağ tıklamayı otomatik olarak etkinleştirin."
+  },
+  "siteInputLabel": {
+    "message": "Web sitesi alan adı"
+  },
+  "addSite": {
+    "message": "Site Ekle"
+  },
+  "noSites": {
+    "message": "Henüz otomatik site eklenmedi."
+  },
+  "siteListLabel": {
+    "message": "Otomatik siteler"
+  },
+  "remove": {
+    "message": "Kaldır"
+  },
+  "removeSite": {
+    "message": "$SITE$ sitesini kaldır",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (izin kaldırıldı)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ eklendi.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ yeniden etkinleştirildi.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ kaldırıldı.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Bu site zaten etkin."
+  },
+  "invalidDomain": {
+    "message": "example.com gibi geçerli bir alan adı girin."
+  },
+  "permissionNotGranted": {
+    "message": "Site izni verilmedi."
+  },
+  "addFailed": {
+    "message": "Site eklenemedi."
+  },
+  "removeFailed": {
+    "message": "Site kaldırılamadı."
+  },
+  "loadFailed": {
+    "message": "Site listesi yüklenemedi."
+  }
+}

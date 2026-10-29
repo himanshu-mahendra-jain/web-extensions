@@ -1,0 +1,80 @@
+Skeakelje kopiearjen, tekst selektearje en rjochtsklikmenu's yn op websiden dy't se beheine.
+
+Enable Copy and Right Click is in lichte iepenboarne-útwreiding dy't normaal kopiearjen, tekst selektearjen en rjochtsklikken wersetet op websiden dy't dizze aksjes beheine.
+
+Klik op it piktogram fan de útwreiding yn de arkbalke of brûk de fluchtoets om kopiearjen en rjochtsklikken op it aktuele ljepblêd yn te skeakeljen.
+
+Jo kinne ek fertroude websites tafoegje oan de list mei automatyske websites. De útwreiding skeakelet dan kopiearjen en rjochtsklikken automatysk yn wannear't jo dy websites besykje.
+
+WICHTICHSTE FUNKSJES
+
+• Skeakelet kopiearjen en tekst selektearjen yn op websiden mei beheiningen
+• Skeakelet rjochtsklikmenu's yn
+• Skeakelet kopiearjen, knippe, plakke, tekst selektearje en slepe yn
+• Ynskeakelje mei ien klik fanút de arkbalke
+• Fluchtoets om fluch yn te skeakeljen
+• Automatysk ynskeakelje op websites dy't jo kieze
+• Wurket yn tagonklike iframes foar safier't de tastimmingen fan de browser dat tastean
+• Toant in ON-badge nei hânmjittich ynskeakeljen
+• Gjin pop-upmenu's
+• Gjin analyze of folgjen
+• Gjin eksterne koade of netwurkfersiken
+
+STANDERT FLUCHTOETSEN
+
+• Windows, Linux, ChromeOS, GooglebookOS en Android: Alt+C
+• macOS: Command+Shift+Y
+
+De fluchtoets docht itselde as klikke op it piktogram fan de útwreiding.
+
+DE FLUCHTOETS WIZIGJE
+
+1. Iepenje it Firefox-menu en kies Add-ons en tema's.
+2. Klik op it tandrêdpiktogram op de side Utwreidingen.
+3. Kies Fluchtoetsen foar útwreidingen beheare.
+4. Sykje Enable Copy and Right Click en fier de winske fluchtoets yn.
+
+AUTOMATYSKE WEBSITES
+
+Iepenje de opsjesside fan de útwreiding en foegje in domein ta, lykas:
+
+example.com
+
+De útwreiding freget allinnich tastimming foar de website dy't jo tafoegje. As de tastimming jûn is, wurde kopiearjen, tekst selektearjen en rjochtsklikken op dy website automatysk ynskeakele.
+
+Jo kinne in automatyske website op elk momint fuortsmite fia de opsjesside.
+
+DE OPSJESSIDE IEPENJE
+
+1. Iepenje it Firefox-menu en kies Add-ons en tema's.
+2. Sykje Enable Copy and Right Click en klik op it menu mei trije puntsjes dêrneist.
+3. Selektearje Foarkarren.
+
+PRIVACY
+
+• Gjin analyze of folgjen
+• Gjin sammeljen fan gegevens
+• Gjin sammeljen fan navigaasjeskiednis
+• Gjin netwurkfersiken
+• Gjin eksterne koade
+• Gjin eksterne JavaScript
+• Foarkarren foar automatyske websites wurde lokaal yn jo browser bewarre
+• Tastimming foar in website wurdt allinnich frege as jo sels in website tafoegje
+
+It werstellen fan kopiearjen en rjochtsklikken bart folslein lokaal yn jo browser.
+
+PRESTAASJES
+
+De útwreiding is licht en wurket op basis fan barrens.
+
+Yn rêst docht se gjin trochrinnend wurk op de eftergrûn. Hânmjittich ynskeakeljen bart allinnich as jo op it arkbalkepiktogram klikke of de fluchtoets brûke. Automatysk ynskeakeljen bart allinnich op websites dy't jo sels tafoege hawwe.
+
+Der is gjin polling, netwurkaktiviteit op de eftergrûn, analyze-SDK, eksterne konfiguraasje of trochrinnende loop dy't siden yn de gaten hâldt.
+
+IEPEN BOARNE
+
+Enable Copy and Right Click is iepen boarne en wurdt útjûn ûnder de MIT-lisinsje.
+
+Besjoch de boarnekoade, meld problemen of draach by op GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

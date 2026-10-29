@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "שינוי מהיר של מהירות ההפעלה של וידאו ושמע בין 1x, 1.2x, 1.5x ו־2x."
+  },
+  "commandDescription": {
+    "message": "שינוי מהירות ההפעלה של הסרטון"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "מהירות הפעלה פי $SPEED$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "מהירות הפעלה: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

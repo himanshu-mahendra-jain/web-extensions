@@ -1,0 +1,91 @@
+Xóa lịch sử, cookie và dữ liệu trang web khi trình duyệt khởi động, cho mọi trang web trừ những trang bạn giữ lại.
+
+Firefox cho Android không cho phép tiện ích xóa lịch sử, nên ở đó chỉ cookie và dữ liệu trang web được xóa.
+
+Clear Browsing Data Except Kept Sites là một tiện ích nhẹ, mã nguồn mở, giúp xóa mục lịch sử, cookie và dữ liệu trang web của mọi trang web mà bạn không chọn giữ lại.
+
+Trong phần cài đặt, hãy thêm các trang web bạn muốn luôn đăng nhập và muốn được ghi nhớ, rồi bật tính năng xóa. Mỗi lần trình duyệt khởi động, tiện ích sẽ xóa lịch sử và cookie của tất cả các trang web khác. Bạn cũng có thể xóa bất cứ lúc nào bằng "Xóa ngay".
+
+TÍNH NĂNG CHÍNH
+
+• Danh sách các trang web có lịch sử và cookie không bao giờ bị xóa, có thể nhập và xuất dưới dạng tệp văn bản
+• Xóa lịch sử và cookie của tất cả các trang web khác khi trình duyệt khởi động, sau khi bạn bật tính năng này
+• Xóa bất cứ lúc nào bằng "Xóa ngay" trong phần cài đặt
+• Tự động giữ các tên miền phụ của trang web được giữ
+• Giữ cookie của tên miền mẹ mà trang web được giữ cần để bạn luôn đăng nhập
+• Xóa cookie được phân vùng (bên thứ ba) và cookie ngăn chứa; cookie được phân vùng của trang web được giữ chỉ còn lại dưới các trang web được giữ
+• Xóa bộ nhớ cục bộ, IndexedDB, service worker và bộ nhớ đệm của các trang web không được giữ
+• Hiển thị kết quả của lần xóa gần nhất trong phần cài đặt
+• Cảnh báo khi quyền truy cập trang web bị tắt và không thể xóa cookie
+• Không phân tích hay theo dõi
+• Không mã từ xa hay yêu cầu mạng
+
+TRANG WEB ĐƯỢC GIỮ
+
+Mở phần cài đặt và thêm một tên miền, ví dụ:
+
+example.com
+
+Để thêm nhiều tên miền cùng lúc, hãy phân tách bằng dấu phẩy.
+
+"Xuất" lưu danh sách vào tệp văn bản, mỗi dòng một tên miền. "Nhập" thay danh sách bằng các trang web trong tệp văn bản và sẽ cảnh báo trước nếu việc này làm mất các trang web bạn đang giữ.
+
+Một địa chỉ như mail.example.com/inbox được rút gọn thành tên miền của nó, và www. ở đầu sẽ bị bỏ. localhost và địa chỉ IPv4 như 192.168.1.1 cũng được chấp nhận.
+
+Giữ example.com sẽ giữ lịch sử và cookie của example.com và tất cả tên miền phụ của nó. Giữ mail.example.com cũng giữ cookie của example.com, vì chúng thường chứa thông tin đăng nhập của tên miền phụ.
+
+MỞ PHẦN CÀI ĐẶT
+
+Phần cài đặt tự động mở sau khi cài đặt để bạn có thể điền danh sách trước khi bật tính năng xóa. Sau này, hãy nhấp vào biểu tượng tiện ích trên thanh công cụ. Trên Firefox cho Android, hãy chạm vào Clear Browsing Data Except Kept Sites trong menu Tiện ích của trình duyệt.
+
+Bạn cũng có thể mở phần cài đặt từ trình quản lý tiện ích:
+
+1. Mở menu Firefox rồi chọn Tiện ích và chủ đề.
+2. Tìm Clear Browsing Data Except Kept Sites và nhấp vào menu ba chấm bên cạnh.
+3. Chọn Tùy chỉnh.
+
+XÓA KHI KHỞI ĐỘNG
+
+Sau khi cài đặt, tính năng xóa đang tắt, nên không có gì bị xóa cho đến khi bạn yêu cầu. Phần cài đặt hiển thị thông báo "Tính năng xóa đang tắt" kèm nút "Bật tính năng xóa". Khi bật, một cảnh báo sẽ hiện trước: mỗi lần khởi động sẽ xóa lịch sử và cookie của mọi trang web trừ các trang được giữ và đăng xuất bạn khỏi chúng, hoặc khỏi mọi trang web nếu không giữ trang nào.
+
+Khi bật, tính năng xóa chạy mỗi lần trình duyệt khởi động, vì trình duyệt không cho phép tiện ích chạy khi đóng. Xóa khi khởi động sẽ xóa những gì phiên trước để lại. Tắt hoặc bật lại bằng "Tự động xóa khi trình duyệt khởi động" trong phần cài đặt.
+
+XÓA NGAY
+
+"Xóa ngay" trong phần cài đặt sẽ xóa ngay lập tức. Nếu không giữ trang web nào, một cảnh báo màu đỏ sẽ hiện trước rằng mọi thứ sẽ bị xóa. Phần cài đặt hiển thị thời điểm của lần xóa gần nhất và số mục lịch sử cùng số cookie đã bị xóa.
+
+QUYỀN TRUY CẬP TRANG WEB
+
+Chỉ có thể xóa cookie của những trang web mà tiện ích có quyền truy cập, nên tiện ích yêu cầu quyền truy cập mọi trang web. Nếu bạn tắt quyền truy cập trang web, lịch sử vẫn được xóa nhưng cookie sẽ bị bỏ qua, và phần cài đặt hiển thị nút "Cho phép truy cập trang web".
+
+HẠN CHẾ
+
+• Các thẻ được khôi phục khi khởi động có thể đặt cookie mới trong lúc đang xóa. Những cookie đó sẽ còn lại đến lần khởi động sau hoặc lần "Xóa ngay" tiếp theo.
+• Firefox không thể xóa dữ liệu trang web trừ các trang được chọn, nên tiện ích xóa bộ nhớ cục bộ, IndexedDB và service worker của từng trang web không được giữ mà nó tìm thấy trong lịch sử, cookie và các thẻ đang mở. Trang web không xuất hiện ở nơi nào trong số đó sẽ giữ được dữ liệu. Trang web có tên miền phụ được giữ sẽ giữ service worker của mình, vì Firefox sẽ xóa luôn service worker của tên miền phụ đó. Bộ nhớ đệm được xóa cho mọi trang web, vì Firefox không thể xóa theo từng trang; việc này không đăng xuất ai.
+• Firefox không thể xóa Cache Storage, tức các tệp ngoại tuyến do service worker lưu, theo từng trang web, nên nó không bị xóa. Để xóa những gì tiện ích không với tới, hãy dùng Cài đặt > Riêng tư & Bảo mật > Cookie và dữ liệu trang > Quản lý dữ liệu.
+• Nếu tính năng đồng bộ hóa của trình duyệt bao gồm lịch sử, các mục lịch sử bị gỡ cũng có thể bị gỡ trên các thiết bị khác của bạn.
+• Cửa sổ riêng tư chỉ được xóa khi tiện ích được phép chạy trong đó.
+
+QUYỀN RIÊNG TƯ
+
+• Không phân tích hay theo dõi
+• Không thu thập dữ liệu
+• Không yêu cầu mạng
+• Không mã từ xa
+• Không JavaScript bên ngoài
+• Lịch sử và cookie chỉ được đọc để quyết định cần xóa gì, và chỉ trong trình duyệt của bạn
+• Danh sách và cài đặt được lưu cục bộ trong trình duyệt của bạn
+
+HIỆU SUẤT
+
+Tiện ích không làm gì khi bạn duyệt web. Tiện ích chạy một lần khi trình duyệt khởi động, nếu tính năng xóa đang bật, và khi bạn nhấp vào "Xóa ngay".
+
+Lần xóa đầu tiên của một lịch sử dài có thể mất vài phút, vì từng mục lịch sử được xóa riêng. Trong lúc đó bạn vẫn có thể tiếp tục duyệt web. Các lần xóa sau chỉ gỡ các mục của phiên trước.
+
+MÃ NGUỒN MỞ
+
+Clear Browsing Data Except Kept Sites là dự án mã nguồn mở phát hành theo giấy phép MIT.
+
+Xem mã nguồn, báo cáo sự cố hoặc đóng góp trên GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

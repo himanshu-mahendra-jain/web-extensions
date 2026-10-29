@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "動画と音声の再生速度を 1 倍、1.2 倍、1.5 倍、2 倍にすばやく切り替えます。"
+  },
+  "commandDescription": {
+    "message": "動画の再生速度を変更"
+  },
+  "speedShown": {
+    "message": "$SPEED$倍",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "再生速度 $SPEED$ 倍",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "再生速度: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

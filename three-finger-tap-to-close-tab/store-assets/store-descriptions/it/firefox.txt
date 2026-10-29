@@ -1,0 +1,42 @@
+Chiudi la scheda attuale con un tocco a tre dita, un clic centrale o un clic sulla barra degli strumenti.
+
+Three Finger Tap to Close Tab è un'estensione leggera e open source che offre un modo semplice e veloce per chiudere la scheda attuale del browser.
+
+Tocca con tre dita o fai clic centrale in un punto qualsiasi di una pagina web fuori da link e campi modificabili per chiudere la scheda attuale. Puoi anche fare clic sull'icona dell'estensione nella barra degli strumenti.
+
+In Firefox per Android, tocca Three Finger Tap to Close Tab nel menu Estensioni del browser per chiudere la scheda attuale. Un tocco sullo schermo non è un clic centrale, quindi toccare una pagina web non chiude mai la scheda.
+
+Il clic centrale su link e schede dei feed mantiene il comportamento normale del browser, così puoi continuare ad aprire link e post in nuove schede come sempre. Un margine di sicurezza integrato evita di chiudere la scheda per errore se tocchi appena accanto a un link o a un controllo.
+
+FUNZIONI PRINCIPALI
+
+• Chiudi la scheda attuale con un tocco a tre dita
+• Chiudi la scheda attuale con un clic centrale
+• Chiudi la scheda attuale con un clic sulla barra degli strumenti
+• Mantiene il normale clic centrale su link, pulsanti e schede dei feed
+• Un margine di sicurezza evita chiusure accidentali vicino agli elementi interattivi
+• Non chiude schede mentre usi moduli e campi modificabili
+• Nessun menu a comparsa né impostazioni
+
+CONFIGURAZIONE DEL TOUCHPAD
+
+Il touchpad e il sistema operativo devono essere configurati in modo che un tocco a tre dita generi un clic centrale.
+
+Una volta configurato, tocca con tre dita una pagina web fuori da link e contenuti interattivi per chiudere la scheda attuale.
+
+PRIVACY
+
+• Nessuna analisi né tracciamento
+• Nessuna raccolta di dati o cronologia di navigazione
+• Nessuna richiesta di rete
+• Nessuna attività di navigazione o preferenza salvata
+
+Tutte le schede vengono chiuse localmente nel tuo browser.
+
+OPEN SOURCE
+
+Three Finger Tap to Close Tab è open source con licenza MIT.
+
+Visualizza il codice sorgente, segnala problemi o contribuisci su GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

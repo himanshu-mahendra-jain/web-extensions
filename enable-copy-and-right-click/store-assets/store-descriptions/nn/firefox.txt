@@ -1,0 +1,80 @@
+Slå på kopiering, tekstmerking og høgreklikkmenyar på nettsider som avgrensar dei.
+
+Enable Copy and Right Click er ei lett utviding med open kjeldekode som gjev tilbake vanleg kopiering, tekstmerking og høgreklikk på nettsider som avgrensar desse handlingane.
+
+Klikk på ikonet til utvidinga på verktøylinja eller bruk snarvegen for å slå på kopiering og høgreklikk i gjeldande fane.
+
+Du kan òg leggje til nettstadar du stolar på, i lista Automatiske nettstadar. Då slår utvidinga automatisk på kopiering og høgreklikk kvar gong du besøkjer dei.
+
+VIKTIGASTE FUNKSJONAR
+
+• Slår på kopiering og tekstmerking på nettsider med avgrensingar
+• Slår på høgreklikkmenyar
+• Slår på kopiering, klipp ut, lim inn, tekstmerking og dra
+• Slå på med eitt klikk frå verktøylinja
+• Snarveg for rask aktivering
+• Slår seg på automatisk på nettstadar du vel
+• Verkar i tilgjengelege iframes der løyva til nettlesaren gjev rom for det
+• Viser eit ON-merke etter manuell aktivering
+• Ingen sprettoppmenyar
+• Ingen analyse eller sporing
+• Ingen fjernkode eller nettverksførespurnader
+
+STANDARD SNARVEGAR
+
+• Windows, Linux, ChromeOS, GooglebookOS og Android: Alt+C
+• macOS: Command+Shift+Y
+
+Snarvegen gjer det same som eit klikk på ikonet til utvidinga.
+
+ENDRA SNARVEGEN
+
+1. Opne Firefox-menyen og vel Tillegg og tema.
+2. Klikk på tannhjulikonet på sida Utvidingar.
+3. Vel Handsam snarvegar for utvidingar.
+4. Finn Enable Copy and Right Click og skriv inn snarvegen du vil ha.
+
+AUTOMATISKE NETTSTADAR
+
+Opne innstillingssida til utvidinga og legg til eit domene, til dømes:
+
+example.com
+
+Utvidinga ber berre om løyve for nettstaden du legg til. Når løyvet er gjeve, blir kopiering, tekstmerking og høgreklikk slått på automatisk på den nettstaden.
+
+Du kan når som helst fjerne ein automatisk nettstad på innstillingssida.
+
+OPNE INNSTILLINGSSIDA
+
+1. Opne Firefox-menyen og vel Tillegg og tema.
+2. Finn Enable Copy and Right Click og klikk på menyen med tre prikkar ved sida av.
+3. Vel Innstillingar.
+
+PERSONVERN
+
+• Ingen analyse eller sporing
+• Ingen datainnsamling
+• Ingen innsamling av nettlesarlogg
+• Ingen nettverksførespurnader
+• Ingen fjernkode
+• Ingen ekstern JavaScript
+• Innstillingane for automatiske nettstadar blir lagra lokalt i nettlesaren din
+• Løyve for ein nettstad blir berre spurt om når du sjølv legg han til
+
+All attoppretting av kopiering og høgreklikk skjer lokalt i nettlesaren din.
+
+YTING
+
+Utvidinga er lett og hendingsstyrt.
+
+Ho gjer ikkje noko løpande arbeid i bakgrunnen når ho er inaktiv. Manuell aktivering køyrer berre når du klikkar på ikonet på verktøylinja eller brukar snarvegen. Automatisk aktivering køyrer berre på nettstadar du sjølv har lagt til.
+
+Det er ingen polling, nettverksaktivitet i bakgrunnen, analyse-SDK, fjernkonfigurasjon eller løkke som overvaker sidene heile tida.
+
+OPEN KJELDEKODE
+
+Enable Copy and Right Click har open kjeldekode og er lisensiert under MIT-lisensen.
+
+Sjå kjeldekoden, rapporter problem eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

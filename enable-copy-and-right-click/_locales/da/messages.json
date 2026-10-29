@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Tillad kopiering, tekstmarkering og højrekliksmenuer på websider, der begrænser dem."
+  },
+  "commandDescription": {
+    "message": "Tillad kopiering og højreklik på den aktuelle side"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Aktiv",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopiering og højreklik er slået til."
+  },
+  "optionsTitle": {
+    "message": "Automatiske websites | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-repository, åbnes i en ny fane"
+  },
+  "automaticSitesHeading": {
+    "message": "Automatiske websites"
+  },
+  "automaticSitesIntro": {
+    "message": "Tillad automatisk kopiering, tekstmarkering og højreklik på de websites, du tilføjer."
+  },
+  "siteInputLabel": {
+    "message": "Websitets domæne"
+  },
+  "addSite": {
+    "message": "Tilføj website"
+  },
+  "noSites": {
+    "message": "Der er endnu ikke tilføjet nogen automatiske websites."
+  },
+  "siteListLabel": {
+    "message": "Automatiske websites"
+  },
+  "remove": {
+    "message": "Fjern"
+  },
+  "removeSite": {
+    "message": "Fjern $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (tilladelse fjernet)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ er tilføjet.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ er slået til igen.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ er fjernet.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Dette website er allerede slået til."
+  },
+  "invalidDomain": {
+    "message": "Indtast et gyldigt domæne, f.eks. example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Tilladelsen til websitet blev ikke givet."
+  },
+  "addFailed": {
+    "message": "Websitet kunne ikke tilføjes."
+  },
+  "removeFailed": {
+    "message": "Websitet kunne ikke fjernes."
+  },
+  "loadFailed": {
+    "message": "Listen over websites kunne ikke indlæses."
+  }
+}

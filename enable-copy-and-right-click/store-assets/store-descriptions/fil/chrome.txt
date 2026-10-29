@@ -1,0 +1,80 @@
+I-enable ang pagkopya, pagpili ng text, at mga right-click menu sa mga webpage na naghihigpit dito.
+
+Ang Enable Copy and Right Click ay isang magaan at open-source na extension na nagbabalik ng normal na pagkopya, pagpili ng text, at right click sa mga webpage na naghihigpit sa mga ito.
+
+I-click ang icon ng extension sa toolbar o gamitin ang keyboard shortcut para i-enable ang pagkopya at right click sa kasalukuyang tab.
+
+Tip: I-pin ang extension sa menu ng Extensions ng Chrome (icon ng puzzle piece) para laging nakikita ang icon nito sa toolbar.
+
+Puwede ka ring magdagdag ng mga pinagkakatiwalaang website sa listahan ng Mga Awtomatikong Site. Pagkatapos, awtomatikong ie-enable ng extension ang pagkopya at right click tuwing bibisitahin mo ang mga site na iyon.
+
+MGA PANGUNAHING FEATURE
+
+• I-enable ang pagkopya at pagpili ng text sa mga webpage na may paghihigpit
+• I-enable ang mga right-click na context menu
+• I-enable ang copy, cut, paste, pagpili ng text, at pag-drag
+• Pag-activate sa isang click mula sa toolbar
+• Keyboard shortcut para sa mabilis na pag-activate
+• Awtomatikong pag-activate sa mga site na pinili mo
+• Gumagana sa mga naa-access na iframe kung saan pinapayagan ng mga pahintulot ng browser
+• Nagpapakita ng ON na badge pagkatapos ng manual na pag-activate
+• Walang popup menu
+• Walang analytics o pagsubaybay
+• Walang remote code o network request
+
+MGA DEFAULT NA KEYBOARD SHORTCUT
+
+• Windows, Linux, ChromeOS, GooglebookOS, at Android: Alt+C
+• macOS: Command+Shift+Y
+
+Pareho ang ginagawa ng keyboard shortcut at ng pag-click sa icon ng extension.
+
+PALITAN ANG KEYBOARD SHORTCUT
+
+1. Buksan ang menu ng Chrome at piliin ang Mga Extension → Pamahalaan ang Mga Extension.
+2. Piliin ang Mga keyboard shortcut sa sidebar.
+3. Hanapin ang Enable Copy and Right Click at ilagay ang gusto mong shortcut.
+
+MGA AWTOMATIKONG SITE
+
+Buksan ang options page ng extension at magdagdag ng domain gaya ng:
+
+example.com
+
+Hihingi lang ng pahintulot ang extension para sa website na idinagdag mo. Kapag naibigay na ang pahintulot, awtomatikong mae-enable ang pagkopya, pagpili ng text, at right click sa site na iyon.
+
+Puwede mong alisin ang isang awtomatikong site anumang oras mula sa options page.
+
+BUKSAN ANG OPTIONS PAGE
+
+1. I-right click ang icon ng extension sa toolbar.
+2. Piliin ang Mga Opsyon.
+
+PRIVACY
+
+• Walang analytics o pagsubaybay
+• Walang pangongolekta ng data
+• Walang pangongolekta ng history ng pag-browse
+• Walang network request
+• Walang remote code
+• Walang external na JavaScript
+• Lokal na naka-store sa browser mo ang mga kagustuhan sa awtomatikong site
+• Hinihingi lang ang pahintulot sa site kapag ikaw mismo ang nagdagdag ng site
+
+Lahat ng pagbabalik ng pagkopya at right click ay nangyayari nang lokal sa browser mo.
+
+PERFORMANCE
+
+Magaan ang extension at gumagana ayon sa mga event.
+
+Wala itong tuloy-tuloy na trabaho sa background habang idle. Tumatakbo lang ang manual na pag-activate kapag na-click mo ang icon sa toolbar o ginamit ang keyboard shortcut. Tumatakbo lang ang awtomatikong pag-activate sa mga website na ikaw mismo ang nagdagdag.
+
+Walang polling, aktibidad sa network sa background, analytics SDK, remote configuration, o tuloy-tuloy na loop na nagbabantay sa page.
+
+OPEN SOURCE
+
+Ang Enable Copy and Right Click ay open source at lisensyado sa ilalim ng MIT License.
+
+Tingnan ang source code, mag-ulat ng mga isyu, o mag-ambag sa GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

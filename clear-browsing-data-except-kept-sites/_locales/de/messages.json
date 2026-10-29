@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Löscht beim Browserstart Verlauf, Cookies und Websitedaten aller Websites außer denen, die Sie behalten."
+  },
+  "optionsTitle": {
+    "message": "Behaltene Websites | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-Repository, öffnet in neuem Tab"
+  },
+  "accessHeading": {
+    "message": "Websitezugriff ist aus"
+  },
+  "allowSiteAccess": {
+    "message": "Websitezugriff erlauben"
+  },
+  "accessHistorySiteData": {
+    "message": "Ohne Zugriff auf Websites kann die Erweiterung keine Cookies löschen. Verlauf und Websitedaten werden weiterhin gelöscht."
+  },
+  "accessHistory": {
+    "message": "Ohne Zugriff auf Websites kann die Erweiterung keine Cookies löschen. Der Verlauf wird weiterhin gelöscht."
+  },
+  "accessSiteData": {
+    "message": "Ohne Zugriff auf Websites kann die Erweiterung keine Cookies löschen. Websitedaten werden weiterhin gelöscht."
+  },
+  "accessNothing": {
+    "message": "Ohne Zugriff auf Websites kann die Erweiterung keine Cookies löschen, daher wird nichts gelöscht."
+  },
+  "clearingOffHeading": {
+    "message": "Löschen ist aus"
+  },
+  "clearingOffText": {
+    "message": "Noch wird nichts gelöscht. Fügen Sie die Websites hinzu, bei denen Sie angemeldet bleiben möchten, und schalten Sie dann das Löschen ein. Ab dann werden bei jedem Browserstart $DATA$ aller anderen Websites gelöscht.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Löschen einschalten"
+  },
+  "keptSitesHeading": {
+    "message": "Behaltene Websites"
+  },
+  "intro": {
+    "message": "Diese Websites und ihre Subdomains behalten $DATA$, sodass Sie angemeldet bleiben. Solange das Löschen eingeschaltet ist, verlieren alle anderen Websites sie bei jedem Browserstart.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Domains von Websites"
+  },
+  "keep": {
+    "message": "Behalten"
+  },
+  "siteHint": {
+    "message": "Trennen Sie mehrere Websites mit Kommas."
+  },
+  "noSites": {
+    "message": "Noch werden keine Websites behalten, daher löscht ein Löschvorgang $DATA$ aller Websites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Behaltene Websites"
+  },
+  "clearingHeading": {
+    "message": "Löschen"
+  },
+  "clearOnStartupLabel": {
+    "message": "Beim Browserstart automatisch löschen"
+  },
+  "clearNow": {
+    "message": "Jetzt löschen"
+  },
+  "firstClearHint": {
+    "message": "Der erste Löschvorgang kann einige Minuten dauern, wenn der Browser viele Browserdaten enthält. Sie können währenddessen weitersurfen."
+  },
+  "leftoversHeading": {
+    "message": "Übrige Websitedaten"
+  },
+  "leftoversIntro": {
+    "message": "Sind Verlauf und Cookies einer Website gelöscht, findet die Erweiterung sie nicht mehr, daher bleiben ihr lokaler Speicher, ihre Datenbanken und ihr Cache erhalten. „Reste löschen“ löscht nach einem Löschvorgang wie „Jetzt löschen“ die Websitedaten aller Websites, die Sie nicht behalten, ob gefunden oder nicht."
+  },
+  "clearLeftovers": {
+    "message": "Reste löschen"
+  },
+  "transferHeading": {
+    "message": "Import und Export"
+  },
+  "transferIntro": {
+    "message": "Speichern Sie Ihre behaltenen Websites in einer Textdatei oder ersetzen Sie sie durch die Websites aus einer Datei. Eine Datei kann eine Website pro Zeile auflisten oder sie mit Kommas trennen."
+  },
+  "export": {
+    "message": "Exportieren"
+  },
+  "import": {
+    "message": "Importieren"
+  },
+  "cancel": {
+    "message": "Abbrechen"
+  },
+  "dataAll": {
+    "message": "Verlauf, Cookies und Websitedaten"
+  },
+  "dataNoHistory": {
+    "message": "Cookies und Websitedaten"
+  },
+  "dataNoSiteData": {
+    "message": "Verlauf und Cookies"
+  },
+  "dataCookies": {
+    "message": "Cookies"
+  },
+  "remove": {
+    "message": "Entfernen"
+  },
+  "removeSite": {
+    "message": "$SITE$ entfernen",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ entfernt. $DATA$ dieser Website werden beim nächsten Löschvorgang gelöscht.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Die Website konnte nicht entfernt werden."
+  },
+  "siteKept": {
+    "message": "$SITE$ wird behalten.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ Website wird behalten.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ Websites werden behalten.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ wird bereits behalten.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ Website wird bereits behalten.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ Websites werden bereits behalten.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ ist keine gültige Domain.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Dies sind keine gültigen Domains: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Geben Sie eine gültige Domain ein, z. B. example.com."
+  },
+  "addSiteFailed": {
+    "message": "Die Website konnte nicht hinzugefügt werden."
+  },
+  "addSitesFailed": {
+    "message": "Die Websites konnten nicht hinzugefügt werden."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ ist größer als 1 MB, daher wurden die behaltenen Websites nicht geändert.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ enthält keine gültigen Domains, daher wurden die behaltenen Websites nicht geändert.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Behaltene Websites ersetzen?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ Website",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ Websites",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Die Websites, die Sie jetzt behalten ($CURRENT$), werden durch die Websites in $FILE$ ($NEW$) ersetzt.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ Website wird nicht mehr behalten, und ihre Daten ($DATA$) werden beim nächsten Löschvorgang gelöscht.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ Websites werden nicht mehr behalten, und ihre Daten ($DATA$) werden beim nächsten Löschvorgang gelöscht.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Behaltene Websites ersetzen"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ Website aus $FILE$ importiert.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ Websites aus $FILE$ importiert.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Die behaltenen Websites konnten nicht exportiert werden."
+  },
+  "importFailed": {
+    "message": "Die behaltenen Websites konnten nicht aus $FILE$ importiert werden.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Löschen einschalten?"
+  },
+  "turnOnKept": {
+    "message": "Bei jedem Browserstart werden $DATA$ aller Websites gelöscht, außer denen, die Sie behalten. Bei allen anderen Websites werden Sie abgemeldet.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Sie haben keine Websites zum Behalten ausgewählt. Bei jedem Browserstart werden alle Daten ($DATA$) gelöscht, und Sie werden bei allen Websites abgemeldet.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Gelöschte Daten ($DATA$) können nicht wiederhergestellt werden.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Jetzt alles löschen?"
+  },
+  "clearEverythingText": {
+    "message": "Sie haben keine Websites zum Behalten ausgewählt, daher werden jetzt $DATA$ aller Websites gelöscht, und Sie werden bei allen Websites abgemeldet.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Alles löschen"
+  },
+  "leftoversTitle": {
+    "message": "Übrige Websitedaten löschen?"
+  },
+  "leftoversKept": {
+    "message": "$DATA$ aller Websites, die Sie nicht behalten, werden jetzt gelöscht, auch die Websitedaten von Websites, die die Erweiterung nicht mehr findet.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Eine behaltene Website behält ihre Websitedaten nur unter den Adressen, die die Erweiterung in Verlauf, Cookies und offenen Tabs findet. Jede andere Subdomain oder jeder andere Port einer behaltenen Website, etwa eine seit Monaten nicht besuchte Subdomain oder ein lokaler Server auf einem anderen Port, verliert seine Websitedaten, und Sie werden dort möglicherweise abgemeldet."
+  },
+  "clearing": {
+    "message": "Wird gelöscht… Das kann einige Minuten dauern."
+  },
+  "leftoversFailed": {
+    "message": "Das Löschen der übrigen Websitedaten ist fehlgeschlagen."
+  },
+  "leftoversCleared": {
+    "message": "Übrige Websitedaten gelöscht."
+  },
+  "nothingClearedYet": {
+    "message": "Bisher wurde nichts gelöscht."
+  },
+  "clearFailed": {
+    "message": "Der Löschvorgang am $WHEN$ ist fehlgeschlagen.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ Verlaufseintrag",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ Verlaufseinträge",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ Cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ Cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "nichts"
+  },
+  "lastCleared": {
+    "message": "Zuletzt gelöscht am $WHEN$: $WHAT$ gelöscht.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Zuletzt gelöscht am $WHEN$: $WHAT$ gelöscht, dazu Websitedaten und Cache.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Zuletzt gelöscht am $WHEN$: $WHAT$ gelöscht, dazu Websitedaten und Cache aller nicht behaltenen Websites.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Verlauf und Websitedaten wurden übersprungen, da dieser Browser Erweiterungen nicht erlaubt, sie zu löschen."
+  },
+  "skippedHistory": {
+    "message": "Der Verlauf wurde übersprungen, da dieser Browser Erweiterungen nicht erlaubt, ihn zu löschen."
+  },
+  "skippedSiteData": {
+    "message": "Websitedaten wurden übersprungen, da dieser Browser Erweiterungen nicht erlaubt, sie zu löschen."
+  },
+  "cookiesSkipped": {
+    "message": "Cookies wurden übersprungen, da der Websitezugriff aus ist."
+  },
+  "loadFailed": {
+    "message": "Die Einstellungen konnten nicht geladen werden."
+  }
+}

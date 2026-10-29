@@ -1,0 +1,47 @@
+Zmieniaj szybkość odtwarzania wideo i dźwięku jednym kliknięciem lub skrótem klawiszowym.
+
+Change Video Playback Speed to lekkie rozszerzenie typu open source, które przełącza między czterema przydatnymi szybkościami odtwarzania:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Kliknij ikonę rozszerzenia lub użyj skrótu klawiszowego, aby przejść do następnej szybkości. Wybrana szybkość dotyczy wideo i dźwięku na stronie, także w obsługiwanych osadzonych odtwarzaczach.
+
+Wskazówka: w menu Rozszerzenia przeglądarki Edge włącz opcję «Pokaż na pasku narzędzi» dla Change Video Playback Speed, aby mieć do niego szybki dostęp.
+
+Bieżąca szybkość pojawia się na chwilę na stronie i na plakietce na pasku narzędzi.
+
+GŁÓWNE FUNKCJE
+
+• Sterowanie jednym kliknięciem i skrótem klawiszowym
+• Obsługa wideo i dźwięku
+• Obsługa zgodnych osadzonych odtwarzaczy
+• Plakietka szybkości na pasku narzędzi i wskaźnik na stronie, widoczny także na pełnym ekranie
+• Bez wyskakujących menu, pływających kontrolek i ustawień
+
+DOMYŚLNE SKRÓTY KLAWISZOWE
+
+• Windows, Linux, ChromeOS, GooglebookOS i Android: Alt+S
+• macOS: Command+Shift+Period
+
+ZMIANA SKRÓTU KLAWISZOWEGO
+
+1. Otwórz menu Rozszerzenia i wybierz Zarządzaj rozszerzeniami.
+2. Na pasku bocznym wybierz Skróty klawiaturowe.
+3. Znajdź Change Video Playback Speed i wpisz wybrany skrót.
+
+PRYWATNOŚĆ
+
+• Bez analityki i śledzenia
+• Bez zbierania danych i historii przeglądania
+• Bez żądań sieciowych
+• Bez stałego dostępu do stron internetowych
+
+Wszystkie zmiany szybkości zachodzą lokalnie w Twojej przeglądarce.
+
+OPEN SOURCE
+
+Change Video Playback Speed to projekt otwartoźródłowy udostępniany na licencji MIT.
+
+Zobacz kod źródłowy, zgłaszaj uwagi lub wesprzyj rozwój projektu w serwisie GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

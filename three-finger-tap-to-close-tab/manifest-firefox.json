@@ -1,8 +1,9 @@
 {
     "manifest_version": 3,
     "name": "Three Finger Tap to Close Tab",
-    "version": "1.0.3",
-    "description": "Close the current tab with a three-finger tap or middle click outside links and editable fields.",
+    "version": "1.0.4",
+    "default_locale": "en",
+    "description": "__MSG_extensionDescription__",
     "homepage_url": "https://github.com/himanshu-mahendra-jain/web-extensions",
     "developer": {
         "name": "Himanshu Mahendra Jain",

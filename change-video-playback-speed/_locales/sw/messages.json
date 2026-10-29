@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Badilisha kasi ya kucheza video na sauti kwa haraka kati ya 1x, 1.2x, 1.5x na 2x."
+  },
+  "commandDescription": {
+    "message": "Badilisha kasi ya kucheza video"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Kasi ya kucheza mara $SPEED$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Kasi ya kucheza: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "غيّر سرعة تشغيل الفيديو والصوت بسرعة بين 1x و1.2x و1.5x و2x."
+  },
+  "commandDescription": {
+    "message": "تغيير سرعة تشغيل الفيديو"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "سرعة التشغيل $SPEED$ ضعف",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "سرعة التشغيل: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

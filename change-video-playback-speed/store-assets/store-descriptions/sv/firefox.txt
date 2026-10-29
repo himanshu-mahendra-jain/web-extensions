@@ -1,0 +1,46 @@
+Ändra uppspelningshastigheten för video och ljud med ett klick eller ett kortkommando.
+
+Change Video Playback Speed är ett lätt tillägg med öppen källkod som växlar mellan fyra användbara uppspelningshastigheter:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klicka på tilläggets ikon eller använd kortkommandot för att gå till nästa hastighet. Den valda hastigheten gäller video och ljud på sidan, även i spelare som bäddats in och stöds.
+
+Den aktuella hastigheten visas en kort stund på sidan och på märket i verktygsfältet.
+
+VIKTIGASTE FUNKTIONER
+
+• Styrning med ett klick och med kortkommando
+• Stöd för video och ljud
+• Stöd för kompatibla inbäddade spelare
+• Hastighetsmärke i verktygsfältet och en indikator på sidan som syns även i helskärm
+• Inga popup-menyer, flytande kontroller eller inställningar
+
+STANDARDKORTKOMMANDON
+
+• Windows, Linux, ChromeOS, GooglebookOS och Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+ÄNDRA KORTKOMMANDOT
+
+1. Öppna Firefox-menyn och välj Tillägg och teman.
+2. Klicka på kugghjulsikonen på sidan Tillägg.
+3. Välj Hantera kortkommandon för tillägg.
+4. Leta upp Change Video Playback Speed och ange det kortkommando du vill ha.
+
+INTEGRITET
+
+• Ingen analys eller spårning
+• Ingen insamling av data eller webbhistorik
+• Inga nätverksförfrågningar
+• Ingen permanent åtkomst till webbplatser
+
+Alla hastighetsändringar sker lokalt i din webbläsare.
+
+ÖPPEN KÄLLKOD
+
+Change Video Playback Speed är öppen källkod och licensierad under MIT-licensen.
+
+Granska källkoden, rapportera problem eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

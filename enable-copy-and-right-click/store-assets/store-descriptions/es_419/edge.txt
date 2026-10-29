@@ -1,0 +1,80 @@
+Activa la copia, la selección de texto y los menús del clic derecho en páginas web que los restringen.
+
+Enable Copy and Right Click es una extensión ligera y de código abierto que devuelve la copia, la selección de texto y el clic derecho normales a las páginas web que restringen estas acciones.
+
+Haz clic en el ícono de la extensión en la barra de herramientas o usa el atajo de teclado para activar la copia y el clic derecho en la pestaña actual.
+
+Consejo: en el menú de Extensiones de Edge, activa «Mostrar en la barra de herramientas» para Enable Copy and Right Click para tenerla siempre a mano.
+
+También puedes agregar sitios web de confianza a la lista de sitios automáticos. Así, la extensión activará la copia y el clic derecho automáticamente cada vez que visites esos sitios.
+
+FUNCIONES PRINCIPALES
+
+• Activa la copia y la selección de texto en páginas web restringidas
+• Activa los menús contextuales del clic derecho
+• Activa copiar, cortar, pegar, seleccionar texto y arrastrar
+• Activación con un clic desde la barra de herramientas
+• Atajo de teclado para activarla rápidamente
+• Activación automática en los sitios que elijas
+• Funciona en iframes accesibles cuando los permisos del navegador lo permiten
+• Muestra una insignia ON tras la activación manual
+• Sin menús emergentes
+• Sin análisis ni seguimiento
+• Sin código remoto ni solicitudes de red
+
+ATAJOS DE TECLADO PREDETERMINADOS
+
+• Windows, Linux, ChromeOS, GooglebookOS y Android: Alt+C
+• macOS: Command+Shift+Y
+
+El atajo de teclado hace lo mismo que hacer clic en el ícono de la extensión.
+
+CAMBIAR EL ATAJO DE TECLADO
+
+1. Abre el menú Extensiones y selecciona Administrar extensiones.
+2. Selecciona Métodos abreviados de teclado en la barra lateral.
+3. Busca Enable Copy and Right Click e ingresa el atajo que prefieras.
+
+SITIOS AUTOMÁTICOS
+
+Abre la página de opciones de la extensión y agrega un dominio como:
+
+example.com
+
+La extensión solo pedirá permiso para el sitio web que agregues. Una vez otorgado, la copia, la selección de texto y el clic derecho se activarán automáticamente en ese sitio.
+
+Puedes quitar un sitio automático en cualquier momento desde la página de opciones.
+
+ABRIR LA PÁGINA DE OPCIONES
+
+1. Haz clic derecho en el ícono de la extensión en la barra de herramientas.
+2. Selecciona Opciones de extensión.
+
+PRIVACIDAD
+
+• Sin análisis ni seguimiento
+• Sin recopilación de datos
+• Sin recopilación del historial de navegación
+• Sin solicitudes de red
+• Sin código remoto
+• Sin JavaScript externo
+• Las preferencias de los sitios automáticos se guardan localmente en tu navegador
+• Los permisos de los sitios solo se piden cuando agregas un sitio de forma explícita
+
+Toda la recuperación de la copia y el clic derecho ocurre localmente en tu navegador.
+
+RENDIMIENTO
+
+La extensión es ligera y funciona por eventos.
+
+No realiza ningún trabajo continuo en segundo plano mientras está inactiva. La activación manual solo se ejecuta cuando haces clic en el ícono de la barra de herramientas o usas el atajo de teclado. La activación automática solo se ejecuta en los sitios web que hayas agregado de forma explícita.
+
+No hay sondeos, actividad de red en segundo plano, SDK de análisis, configuración remota ni ningún bucle que vigile las páginas de forma continua.
+
+CÓDIGO ABIERTO
+
+Enable Copy and Right Click es un proyecto de código abierto bajo la Licencia MIT.
+
+Revisa el código fuente, reporta problemas o colabora en GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Changez rapidement la vitesse de lecture des vidéos et de l'audio entre 1x, 1,2x, 1,5x et 2x."
+  },
+  "commandDescription": {
+    "message": "Changer la vitesse de lecture de la vidéo"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Vitesse de lecture $SPEED$ fois",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Vitesse de lecture : $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

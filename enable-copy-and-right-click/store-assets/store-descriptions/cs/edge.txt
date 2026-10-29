@@ -1,0 +1,80 @@
+Povolte kopírování, výběr textu a nabídky pravého tlačítka na webových stránkách, které je omezují.
+
+Enable Copy and Right Click je odlehčené rozšíření s otevřeným zdrojovým kódem, které vrací normální kopírování, výběr textu a pravé tlačítko na webové stránky, které tyto akce omezují.
+
+Klikněte na ikonu rozšíření na panelu nástrojů nebo použijte klávesovou zkratku a na aktuální kartě povolíte kopírování a pravé tlačítko.
+
+Tip: V nabídce Rozšíření v prohlížeči Edge zapněte volbu «Zobrazit na panelu nástrojů» pro Enable Copy and Right Click pro rychlý přístup.
+
+Důvěryhodné weby můžete také přidat do seznamu Automatické weby. Rozšíření pak při každé návštěvě těchto webů povolí kopírování a pravé tlačítko automaticky.
+
+HLAVNÍ FUNKCE
+
+• Povoluje kopírování a výběr textu na stránkách, které je omezují
+• Povoluje kontextové nabídky pravého tlačítka
+• Povoluje kopírování, vyjmutí, vložení, výběr textu a přetahování
+• Zapnutí jedním kliknutím z panelu nástrojů
+• Klávesová zkratka pro rychlé zapnutí
+• Automatické zapnutí na webech, které si vyberete
+• Funguje v přístupných iframech, pokud to oprávnění prohlížeče dovolí
+• Po ručním zapnutí zobrazí odznak ON
+• Žádné vyskakovací nabídky
+• Žádná analytika ani sledování
+• Žádný vzdálený kód ani síťové požadavky
+
+VÝCHOZÍ KLÁVESOVÉ ZKRATKY
+
+• Windows, Linux, ChromeOS, GooglebookOS a Android: Alt+C
+• macOS: Command+Shift+Y
+
+Klávesová zkratka dělá totéž co kliknutí na ikonu rozšíření.
+
+ZMĚNA KLÁVESOVÉ ZKRATKY
+
+1. Otevřete nabídku Rozšíření a vyberte Spravovat rozšíření.
+2. Na postranním panelu vyberte Klávesové zkratky.
+3. Najděte Enable Copy and Right Click a zadejte požadovanou zkratku.
+
+AUTOMATICKÉ WEBY
+
+Otevřete stránku možností rozšíření a přidejte doménu, například:
+
+example.com
+
+Rozšíření požádá o oprávnění jen pro web, který přidáte. Po udělení oprávnění se na tomto webu kopírování, výběr textu a pravé tlačítko povolí automaticky.
+
+Automatický web můžete kdykoli odebrat na stránce možností.
+
+OTEVŘENÍ STRÁNKY MOŽNOSTÍ
+
+1. Klikněte pravým tlačítkem na ikonu rozšíření na panelu nástrojů.
+2. Vyberte Možnosti rozšíření.
+
+SOUKROMÍ
+
+• Žádná analytika ani sledování
+• Žádný sběr dat
+• Žádný sběr historie prohlížení
+• Žádné síťové požadavky
+• Žádný vzdálený kód
+• Žádný externí JavaScript
+• Nastavení automatických webů se ukládá místně ve vašem prohlížeči
+• O oprávnění pro web se žádá, jen když web sami přidáte
+
+Veškeré obnovení kopírování a pravého tlačítka probíhá místně ve vašem prohlížeči.
+
+VÝKON
+
+Rozšíření je odlehčené a řízené událostmi.
+
+Při nečinnosti nevykonává žádnou průběžnou práci na pozadí. Ruční zapnutí běží jen po kliknutí na ikonu na panelu nástrojů nebo po použití klávesové zkratky. Automatické zapnutí běží jen na webech, které jste výslovně přidali.
+
+Žádné dotazování, síťová aktivita na pozadí, analytické SDK, vzdálená konfigurace ani trvalá smyčka sledující stránky.
+
+OPEN SOURCE
+
+Enable Copy and Right Click je open-source projekt pod licencí MIT.
+
+Zdrojový kód, hlášení chyb a možnost zapojení najdete na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

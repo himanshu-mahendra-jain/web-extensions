@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "ವೀಡಿಯೊ ಮತ್ತು ಆಡಿಯೊ ಪ್ಲೇಬ್ಯಾಕ್ ವೇಗವನ್ನು 1x, 1.2x, 1.5x ಮತ್ತು 2x ನಡುವೆ ತ್ವರಿತವಾಗಿ ಬದಲಿಸಿ."
+  },
+  "commandDescription": {
+    "message": "ವೀಡಿಯೊ ಪ್ಲೇಬ್ಯಾಕ್ ವೇಗ ಬದಲಿಸಿ"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "ಪ್ಲೇಬ್ಯಾಕ್ ವೇಗ $SPEED$ ಪಟ್ಟು",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "ಪ್ಲೇಬ್ಯಾಕ್ ವೇಗ: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

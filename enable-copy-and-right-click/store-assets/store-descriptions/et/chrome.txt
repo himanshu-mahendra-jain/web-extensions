@@ -1,0 +1,80 @@
+Lubage kopeerimine, teksti valimine ja paremklõpsu menüüd veebilehtedel, mis neid piiravad.
+
+Enable Copy and Right Click on kerge avatud lähtekoodiga laiendus, mis taastab tavapärase kopeerimise, teksti valimise ja paremklõpsu veebilehtedel, mis neid toiminguid piiravad.
+
+Klõpsake tööriistaribal laienduse ikooni või kasutage kiirklahvi, et lubada praegusel vahelehel kopeerimine ja paremklõps.
+
+Soovitus: kinnitage laiendus Chrome'i laienduste menüüs (pusletüki ikoon), et selle ikoon oleks tööriistaribal alati nähtaval.
+
+Usaldusväärseid veebisaite saate lisada ka automaatsete saitide loendisse. Siis lubab laiendus nendel saitidel käies kopeerimise ja paremklõpsu automaatselt.
+
+PEAMISED FUNKTSIOONID
+
+• Lubab piiratud veebilehtedel kopeerimise ja teksti valimise
+• Lubab paremklõpsu kontekstimenüüd
+• Lubab kopeerimise, lõikamise, kleepimise, teksti valimise ja lohistamise
+• Sisselülitamine ühe klõpsuga tööriistaribalt
+• Kiirklahv kiireks sisselülitamiseks
+• Automaatne sisselülitamine teie valitud saitidel
+• Töötab ligipääsetavates iframe'ides, kui brauseri load seda võimaldavad
+• Näitab pärast käsitsi sisselülitamist märki ON
+• Hüpikmenüüsid pole
+• Analüütikat ega jälgimist pole
+• Kaugkoodi ega võrgupäringuid pole
+
+VAIKIMISI KIIRKLAHVID
+
+• Windows, Linux, ChromeOS, GooglebookOS ja Android: Alt+C
+• macOS: Command+Shift+Y
+
+Kiirklahv teeb sama, mis laienduse ikoonil klõpsamine.
+
+KIIRKLAHVI MUUTMINE
+
+1. Avage Chrome'i menüü ja valige Laiendused → Laienduste haldamine.
+2. Valige külgribal Klaviatuuri otseteed.
+3. Leidke Enable Copy and Right Click ja sisestage soovitud kiirklahv.
+
+AUTOMAATSED SAIDID
+
+Avage laienduse valikute leht ja lisage domeen, näiteks:
+
+example.com
+
+Laiendus küsib luba ainult teie lisatud veebisaidi jaoks. Kui luba on antud, lubatakse sellel saidil kopeerimine, teksti valimine ja paremklõps automaatselt.
+
+Automaatse saidi saate valikute lehelt igal ajal eemaldada.
+
+VALIKUTE LEHE AVAMINE
+
+1. Paremklõpsake tööriistaribal laienduse ikooni.
+2. Valige Valikud.
+
+PRIVAATSUS
+
+• Analüütikat ega jälgimist pole
+• Andmeid ei koguta
+• Sirvimisajalugu ei koguta
+• Võrgupäringuid pole
+• Kaugkoodi pole
+• Välist JavaScripti pole
+• Automaatsete saitide eelistused salvestatakse kohalikult teie brauserisse
+• Saidi luba küsitakse ainult siis, kui lisate saidi ise
+
+Kogu kopeerimise ja paremklõpsu taastamine toimub kohalikult teie brauseris.
+
+JÕUDLUS
+
+Laiendus on kerge ja sündmuspõhine.
+
+Jõude olles ei tee see taustal pidevat tööd. Käsitsi sisselülitamine käivitub ainult siis, kui klõpsate tööriistariba ikooni või kasutate kiirklahvi. Automaatne sisselülitamine käivitub ainult veebisaitidel, mille olete ise lisanud.
+
+Puudub perioodiline päringute tegemine, taustal toimuv võrgutegevus, analüütika SDK, kaugseadistus ja lehti pidevalt jälgiv tsükkel.
+
+AVATUD LÄHTEKOOD
+
+Enable Copy and Right Click on avatud lähtekoodiga tarkvara MIT litsentsi all.
+
+Vaadake lähtekoodi, teatage vigadest või panustage GitHubis:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

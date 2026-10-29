@@ -1,0 +1,46 @@
+Cambia le velocitate de reproduction de video e audio con un clic o un via breve de claviero.
+
+Change Video Playback Speed es un extension legier e de codice aperte que alterna inter quatro utile velocitates de reproduction:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Clicca sur le icone del extension o usa le via breve de claviero pro passar al velocitate sequente. Le velocitate seligite se applica al video e al audio del pagina, incluse le lectores incorporate supportate.
+
+Le velocitate actual se monstra brevemente sur le pagina e in le insignia del barra de instrumentos.
+
+FUNCTIONES PRINCIPAL
+
+• Controlo con un clic e con via breve de claviero
+• Supporto de video e audio
+• Supporto de lectores incorporate compatibile
+• Insignia de velocitate in le barra de instrumentos e un indicator sur le pagina, visibile anque in schermo plen
+• Nulle menus emergente, controlos flottante o configurationes
+
+VIAS BREVE DE CLAVIERO PREDEFINITE
+
+• Windows, Linux, ChromeOS, GooglebookOS e Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+CAMBIAR LE VIA BREVE DE CLAVIERO
+
+1. Aperi le menu de Firefox e selige Additivos e themas.
+2. Clicca sur le icone de rota dentate in le pagina Extensiones.
+3. Selige Gerer le vias breve del extensiones.
+4. Trova Change Video Playback Speed e entra le via breve que tu prefere.
+
+PRIVATESSA
+
+• Nulle analyse o traciamento
+• Nulle collection de datos o de chronologia de navigation
+• Nulle requestas de rete
+• Nulle accesso permanente al sitos web
+
+Tote le cambios de velocitate se face localmente in tu navigator.
+
+CODICE APERTE
+
+Change Video Playback Speed es de codice aperte e es distribuite sub le licentia MIT.
+
+Vide le codice fonte, reporta problemas o contribue sur GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

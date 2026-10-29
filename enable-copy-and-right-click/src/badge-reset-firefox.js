@@ -1,4 +1,5 @@
 import "./extension-api.js";
+import { extensionName } from "./i18n.js";
 
 
 /*
@@ -46,7 +47,7 @@ async function resetIfEnabled(tabId) {
 
   await extensionApi.action.setTitle({
     tabId,
-    title: "Enable Copy and Right Click"
+    title: extensionName()
   });
 }
 

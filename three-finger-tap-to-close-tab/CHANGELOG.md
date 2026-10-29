@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.4] - 2026-10-29
+
+### New Features
+
+* The extension's description now appears in your browser's language, in every language the Chrome Web Store supports, with English for any other. The name itself stays in English.
+
 ## [1.0.3] - 2026-10-17
 
 ### Changes

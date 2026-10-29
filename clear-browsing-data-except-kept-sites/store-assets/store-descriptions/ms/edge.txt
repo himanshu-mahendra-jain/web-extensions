@@ -1,0 +1,90 @@
+Mengosongkan sejarah, kuki dan data tapak apabila penyemak imbas bermula bagi semua tapak kecuali yang anda simpan.
+
+Clear Browsing Data Except Kept Sites ialah sambungan sumber terbuka yang ringan yang mengalih keluar entri sejarah, kuki dan data tapak bagi semua tapak yang anda tidak pilih untuk disimpan.
+
+Dalam tetapan, tambahkan tapak yang anda mahu kekal log masuk dan mahu diingati, kemudian hidupkan pengosongan. Setiap kali penyemak imbas bermula, sambungan memadamkan sejarah, kuki dan data tapak bagi semua tapak lain. Anda juga boleh mengosongkan pada bila-bila masa dengan "Kosongkan Sekarang".
+
+Petua: Dalam menu Sambungan Edge, hidupkan «Tunjukkan dalam bar alat» untuk Clear Browsing Data Except Kept Sites untuk capaian pantas.
+
+CIRI UTAMA
+
+• Senarai tapak yang sejarah dan kukinya tidak pernah dikosongkan, dengan import dan eksport sebagai fail teks
+• Mengosongkan sejarah dan kuki semua tapak lain apabila penyemak imbas bermula, selepas anda menghidupkannya
+• Kosongkan pada bila-bila masa dengan "Kosongkan Sekarang", dan kosongkan baki data daripada tapak yang tidak lagi ditemui dengan "Kosongkan Baki"
+• Menyimpan subdomain tapak yang disimpan secara automatik
+• Menyimpan kuki domain induk yang diperlukan oleh tapak yang disimpan supaya anda kekal log masuk
+• Mengosongkan kuki berpartisi (pihak ketiga); kuki berpartisi tapak yang disimpan hanya kekal di bawah tapak yang disimpan
+• Mengosongkan storan setempat, IndexedDB, service worker dan cache bagi tapak yang tidak disimpan
+• Menunjukkan hasil pengosongan terakhir dalam tetapan
+• Memberi amaran apabila akses tapak dimatikan dan kuki tidak dapat dipadamkan
+• Tiada analitik atau penjejakan
+• Tiada kod jauh atau permintaan rangkaian
+
+TAPAK YANG DISIMPAN
+
+Buka tetapan dan tambahkan domain, contohnya:
+
+example.com
+
+Untuk menambah beberapa sekali gus, pisahkan dengan koma.
+
+"Eksport" menyimpan senarai sebagai fail teks, satu domain bagi setiap baris. "Import" menggantikan senarai dengan tapak daripada fail teks, dan memberi amaran dahulu jika tapak yang anda simpan sekarang akan hilang.
+
+Alamat seperti mail.example.com/inbox dipendekkan kepada domainnya, dan www. di permulaan dibuang. localhost dan alamat IPv4 seperti 192.168.1.1 juga diterima.
+
+Menyimpan example.com menyimpan sejarah, kuki dan data tapak example.com serta semua subdomainnya. Menyimpan mail.example.com juga menyimpan kuki example.com, kerana kuki itu sering mengandungi log masuk subdomain.
+
+MEMBUKA TETAPAN
+
+Tetapan dibuka secara automatik selepas pemasangan, supaya anda boleh mengisi senarai sebelum menghidupkan pengosongan. Kemudian, klik ikon sambungan pada bar alat, atau:
+
+1. Klik kanan ikon sambungan dalam bar alat.
+2. Pilih Pilihan sambungan.
+
+PENGOSONGAN SEMASA MULA
+
+Selepas pemasangan, pengosongan dimatikan, jadi tiada apa-apa yang dialih keluar sehingga anda memintanya. Tetapan menunjukkan notis "Pengosongan dimatikan" dengan butang "Hidupkan Pengosongan". Menghidupkannya akan menunjukkan amaran dahulu: setiap permulaan memadamkan sejarah dan kuki semua tapak kecuali yang disimpan dan melog keluar anda daripadanya, atau daripada semua tapak jika tiada yang disimpan.
+
+Apabila dihidupkan, pengosongan berjalan setiap kali penyemak imbas bermula, kerana penyemak imbas tidak membenarkan sambungan berjalan semasa ditutup. Pengosongan semasa mula mengalih keluar apa yang ditinggalkan oleh sesi sebelumnya. Matikan atau hidupkan semula dengan "Kosongkan secara automatik apabila penyemak imbas bermula" dalam tetapan.
+
+KOSONGKAN SEKARANG DAN KOSONGKAN BAKI
+
+"Kosongkan Sekarang" dalam tetapan mengosongkan serta-merta. Jika tiada tapak yang disimpan, amaran merah dipaparkan dahulu bahawa semuanya akan dipadamkan. Tetapan menunjukkan bila pengosongan terakhir dibuat dan berapa banyak entri sejarah dan kuki yang dipadamkannya.
+
+Selepas pengosongan mengalih keluar sejarah dan kuki sesebuah tapak, pengosongan seterusnya tidak lagi menemui tapak itu, jadi storan setempat, pangkalan data dan cachenya kekal. "Kosongkan Baki" menjalankan pengosongan kemudian memadamkan data semua tapak yang anda tidak simpan, ditemui atau tidak. Di sini penyemak imbas hanya boleh mengecualikan tapak yang tepat, jadi tapak yang disimpan hanya menyimpan data untuk dirinya sendiri dan untuk tapak disimpan yang ditemui pengosongan dalam sejarah, kuki dan tab yang terbuka; amaran merah menyatakannya dahulu.
+
+AKSES TAPAK
+
+Kuki hanya boleh dialih keluar bagi tapak yang boleh diakses oleh sambungan, jadi sambungan meminta akses kepada semua tapak. Jika anda mengehadkan akses tapak, contohnya kepada "Apabila diklik", sejarah masih dikosongkan, tetapi kuki dilangkau dan tetapan menunjukkan butang "Benarkan Akses Tapak".
+
+HAD
+
+• Tab yang dipulihkan semasa mula mungkin menetapkan kuki baharu semasa pengosongan berjalan. Kuki itu kekal sehingga permulaan seterusnya atau "Kosongkan Sekarang" seterusnya.
+• Data tapak lain, seperti storan sesi, kebenaran tapak dan fail yang disimpan melalui File System API, tidak dikosongkan.
+• Jika penyegerakan penyemak imbas termasuk sejarah, entri sejarah yang dialih keluar mungkin turut dialih keluar pada peranti anda yang lain.
+• Tetingkap InPrivate hanya dikosongkan apabila sambungan dibenarkan dalam InPrivate. Lagipun Edge membuang datanya apabila ditutup.
+• Alamat IPv6 tidak boleh ditambahkan pada senarai.
+
+PRIVASI
+
+• Tiada analitik atau penjejakan
+• Tiada pengumpulan data
+• Tiada permintaan rangkaian
+• Tiada kod jauh
+• Tiada JavaScript luaran
+• Sejarah dan kuki dibaca hanya untuk menentukan apa yang perlu dialih keluar, dan hanya dalam penyemak imbas anda
+• Senarai dan tetapan disimpan secara setempat dalam penyemak imbas anda
+
+PRESTASI
+
+Sambungan tidak melakukan apa-apa semasa anda menyemak imbas. Ia berjalan sekali apabila penyemak imbas bermula, jika pengosongan dihidupkan, dan apabila anda mengklik "Kosongkan Sekarang" atau "Kosongkan Baki".
+
+Pengosongan pertama sejarah yang panjang mungkin mengambil masa beberapa minit, kerana setiap entri sejarah dipadamkan secara berasingan. Anda boleh terus menyemak imbas sementara itu. Pengosongan seterusnya hanya mengalih keluar entri daripada sesi sebelumnya.
+
+SUMBER TERBUKA
+
+Clear Browsing Data Except Kept Sites ialah projek sumber terbuka di bawah Lesen MIT.
+
+Lihat kod sumber, laporkan isu atau sumbangkan kod di GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

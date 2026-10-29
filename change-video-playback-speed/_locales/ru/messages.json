@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Быстро переключайте скорость воспроизведения видео и аудио: 1x, 1,2x, 1,5x и 2x."
+  },
+  "commandDescription": {
+    "message": "Изменить скорость воспроизведения видео"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Скорость воспроизведения $SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Скорость воспроизведения: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "سرعت پخش ویدیو و صدا را به‌سرعت بین 1x، 1.2x، 1.5x و 2x تغییر دهید."
+  },
+  "commandDescription": {
+    "message": "تغییر سرعت پخش ویدیو"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "سرعت پخش $SPEED$ برابر",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "سرعت پخش: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

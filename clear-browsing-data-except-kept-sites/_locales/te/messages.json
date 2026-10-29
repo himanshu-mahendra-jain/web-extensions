@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "బ్రౌజర్ ప్రారంభమైనప్పుడు, మీరు ఉంచుకునే సైట్‌లు తప్ప అన్ని సైట్‌ల చరిత్ర, కుకీలు, సైట్ డేటాను క్లియర్ చేస్తుంది."
+  },
+  "optionsTitle": {
+    "message": "ఉంచుకున్న సైట్‌లు | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub రిపోజిటరీ, కొత్త ట్యాబ్‌లో తెరుచుకుంటుంది"
+  },
+  "accessHeading": {
+    "message": "సైట్ యాక్సెస్ ఆఫ్‌లో ఉంది"
+  },
+  "allowSiteAccess": {
+    "message": "సైట్ యాక్సెస్‌ను అనుమతించండి"
+  },
+  "accessHistorySiteData": {
+    "message": "వెబ్‌సైట్‌లకు యాక్సెస్ లేకుండా, ఎక్స్‌టెన్షన్ కుకీలను తొలగించలేదు. చరిత్ర, సైట్ డేటా ఇప్పటికీ క్లియర్ అవుతాయి."
+  },
+  "accessHistory": {
+    "message": "వెబ్‌సైట్‌లకు యాక్సెస్ లేకుండా, ఎక్స్‌టెన్షన్ కుకీలను తొలగించలేదు. చరిత్ర ఇప్పటికీ క్లియర్ అవుతుంది."
+  },
+  "accessSiteData": {
+    "message": "వెబ్‌సైట్‌లకు యాక్సెస్ లేకుండా, ఎక్స్‌టెన్షన్ కుకీలను తొలగించలేదు. సైట్ డేటా ఇప్పటికీ క్లియర్ అవుతుంది."
+  },
+  "accessNothing": {
+    "message": "వెబ్‌సైట్‌లకు యాక్సెస్ లేకుండా, ఎక్స్‌టెన్షన్ కుకీలను తొలగించలేదు, కాబట్టి ఏదీ క్లియర్ కాదు."
+  },
+  "clearingOffHeading": {
+    "message": "క్లియర్ చేయడం ఆఫ్‌లో ఉంది"
+  },
+  "clearingOffText": {
+    "message": "ఇంకా ఏదీ తొలగించబడదు. మీరు సైన్ ఇన్ అయి ఉండాలనుకునే సైట్‌లను జోడించి, ఆపై క్లియర్ చేయడాన్ని ఆన్ చేయండి. అప్పటి నుండి, బ్రౌజర్ ప్రారంభమైన ప్రతిసారీ మిగతా అన్ని సైట్‌ల డేటా ($DATA$) తొలగించబడుతుంది.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "క్లియర్ చేయడం ఆన్ చేయండి"
+  },
+  "keptSitesHeading": {
+    "message": "ఉంచుకున్న సైట్‌లు"
+  },
+  "intro": {
+    "message": "ఈ సైట్‌లు, వాటి సబ్‌డొమైన్‌లు తమ డేటాను ($DATA$) ఉంచుకుంటాయి, కాబట్టి మీరు సైన్ ఇన్ అయి ఉంటారు. క్లియర్ చేయడం ఆన్‌లో ఉన్నంత కాలం, మిగతా అన్ని సైట్‌లు బ్రౌజర్ ప్రారంభమైన ప్రతిసారీ దాన్ని కోల్పోతాయి.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "వెబ్‌సైట్ డొమైన్‌లు"
+  },
+  "keep": {
+    "message": "ఉంచు"
+  },
+  "siteHint": {
+    "message": "పలు సైట్‌లను కామాలతో వేరు చేయండి."
+  },
+  "noSites": {
+    "message": "ఇంకా ఏ సైట్‌నూ ఉంచుకోలేదు, కాబట్టి క్లియర్ చేస్తే ప్రతి సైట్ డేటా ($DATA$) తొలగించబడుతుంది.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "ఉంచుకున్న సైట్‌లు"
+  },
+  "clearingHeading": {
+    "message": "క్లియర్ చేయడం"
+  },
+  "clearOnStartupLabel": {
+    "message": "బ్రౌజర్ ప్రారంభమైనప్పుడు ఆటోమేటిక్‌గా క్లియర్ చేయి"
+  },
+  "clearNow": {
+    "message": "ఇప్పుడే క్లియర్ చేయి"
+  },
+  "firstClearHint": {
+    "message": "బ్రౌజర్‌లో చాలా బ్రౌజింగ్ డేటా ఉంటే, మొదటి క్లియర్‌కు కొన్ని నిమిషాలు పట్టవచ్చు. ఈలోగా మీరు బ్రౌజ్ చేస్తూనే ఉండవచ్చు."
+  },
+  "leftoversHeading": {
+    "message": "మిగిలిన సైట్ డేటా"
+  },
+  "leftoversIntro": {
+    "message": "ఒక సైట్ చరిత్ర, కుకీలు తొలగించబడిన తర్వాత, ఎక్స్‌టెన్షన్ దాన్ని కనుగొనలేదు, కాబట్టి దాని లోకల్ స్టోరేజ్, డేటాబేస్‌లు, కాష్ మిగిలిపోతాయి. ‘మిగిలినవి క్లియర్ చేయి’, ‘ఇప్పుడే క్లియర్ చేయి’ వంటి క్లియర్ తర్వాత, మీరు ఉంచుకోని ప్రతి సైట్ సైట్ డేటాను, కనుగొన్నా కనుగొనకపోయినా, తొలగిస్తుంది."
+  },
+  "clearLeftovers": {
+    "message": "మిగిలినవి క్లియర్ చేయి"
+  },
+  "transferHeading": {
+    "message": "దిగుమతి, ఎగుమతి"
+  },
+  "transferIntro": {
+    "message": "మీరు ఉంచుకున్న సైట్‌లను టెక్స్ట్ ఫైల్‌లో సేవ్ చేయండి, లేదా వాటిని ఒక ఫైల్‌లోని సైట్‌లతో భర్తీ చేయండి. ఫైల్‌లో ఒక్కో లైన్‌కు ఒక సైట్ ఉండవచ్చు లేదా సైట్‌లు కామాలతో వేరు చేయబడి ఉండవచ్చు."
+  },
+  "export": {
+    "message": "ఎగుమతి చేయి"
+  },
+  "import": {
+    "message": "దిగుమతి చేయి"
+  },
+  "cancel": {
+    "message": "రద్దు చేయి"
+  },
+  "dataAll": {
+    "message": "చరిత్ర, కుకీలు, సైట్ డేటా"
+  },
+  "dataNoHistory": {
+    "message": "కుకీలు, సైట్ డేటా"
+  },
+  "dataNoSiteData": {
+    "message": "చరిత్ర, కుకీలు"
+  },
+  "dataCookies": {
+    "message": "కుకీలు"
+  },
+  "remove": {
+    "message": "తీసివేయి"
+  },
+  "removeSite": {
+    "message": "$SITE$ను తీసివేయి",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ తీసివేయబడింది. దాని డేటా ($DATA$) తదుపరి క్లియర్‌లో తొలగించబడుతుంది.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "సైట్‌ను తీసివేయడం సాధ్యం కాలేదు."
+  },
+  "siteKept": {
+    "message": "$SITE$ ఉంచుకోబడింది.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ సైట్ ఉంచుకోబడింది.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ సైట్‌లు ఉంచుకోబడ్డాయి.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ ఇప్పటికే ఉంచుకోబడింది.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ సైట్ ఇప్పటికే ఉంచుకోబడింది.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ సైట్‌లు ఇప్పటికే ఉంచుకోబడ్డాయి.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ చెల్లుబాటు అయ్యే డొమైన్ కాదు.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "ఇవి చెల్లుబాటు అయ్యే డొమైన్‌లు కావు: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "example.com వంటి చెల్లుబాటు అయ్యే డొమైన్‌ను నమోదు చేయండి."
+  },
+  "addSiteFailed": {
+    "message": "సైట్‌ను జోడించడం సాధ్యం కాలేదు."
+  },
+  "addSitesFailed": {
+    "message": "సైట్‌లను జోడించడం సాధ్యం కాలేదు."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ 1 MB కంటే పెద్దది, కాబట్టి ఉంచుకున్న సైట్‌లు మారలేదు.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$లో చెల్లుబాటు అయ్యే డొమైన్‌లు లేవు, కాబట్టి ఉంచుకున్న సైట్‌లు మారలేదు.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "ఉంచుకున్న సైట్‌లను భర్తీ చేయాలా?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ సైట్",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ సైట్‌లు",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "మీరు ఇప్పుడు ఉంచుకున్న సైట్‌లు ($CURRENT$) $FILE$లోని సైట్‌లతో ($NEW$) భర్తీ చేయబడతాయి.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ సైట్ ఇకపై ఉంచుకోబడదు, దాని డేటా ($DATA$) తదుపరి క్లియర్‌లో తొలగించబడుతుంది.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ సైట్‌లు ఇకపై ఉంచుకోబడవు, వాటి డేటా ($DATA$) తదుపరి క్లియర్‌లో తొలగించబడుతుంది.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "ఉంచుకున్న సైట్‌లను భర్తీ చేయి"
+  },
+  "sitesImported_one": {
+    "message": "$FILE$ నుండి $COUNT$ సైట్ దిగుమతి చేయబడింది.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$FILE$ నుండి $COUNT$ సైట్‌లు దిగుమతి చేయబడ్డాయి.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "ఉంచుకున్న సైట్‌లను ఎగుమతి చేయడం సాధ్యం కాలేదు."
+  },
+  "importFailed": {
+    "message": "$FILE$ నుండి ఉంచుకున్న సైట్‌లను దిగుమతి చేయడం సాధ్యం కాలేదు.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "క్లియర్ చేయడం ఆన్ చేయాలా?"
+  },
+  "turnOnKept": {
+    "message": "బ్రౌజర్ ప్రారంభమైన ప్రతిసారీ, మీరు ఉంచుకోవడానికి ఎంచుకున్నవి తప్ప ప్రతి సైట్ డేటా ($DATA$) తొలగించబడుతుంది. మిగతా అన్ని సైట్‌ల నుండి మీరు సైన్ అవుట్ అవుతారు.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "ఉంచుకోవడానికి మీరు ఏ సైట్‌నూ ఎంచుకోలేదు. బ్రౌజర్ ప్రారంభమైన ప్రతిసారీ, మొత్తం డేటా ($DATA$) తొలగించబడుతుంది, మీరు ప్రతి సైట్ నుండి సైన్ అవుట్ అవుతారు.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "తొలగించిన డేటాను ($DATA$) తిరిగి పొందలేరు.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "ఇప్పుడే అన్నీ క్లియర్ చేయాలా?"
+  },
+  "clearEverythingText": {
+    "message": "ఉంచుకోవడానికి మీరు ఏ సైట్‌నూ ఎంచుకోలేదు, కాబట్టి ఇప్పుడు ప్రతి సైట్ డేటా ($DATA$) తొలగించబడుతుంది, మీరు ప్రతి సైట్ నుండి సైన్ అవుట్ అవుతారు.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "అన్నీ క్లియర్ చేయి"
+  },
+  "leftoversTitle": {
+    "message": "మిగిలిన సైట్ డేటాను క్లియర్ చేయాలా?"
+  },
+  "leftoversKept": {
+    "message": "మీరు ఉంచుకోని ప్రతి సైట్ డేటా ($DATA$) ఇప్పుడు తొలగించబడుతుంది, ఎక్స్‌టెన్షన్ ఇకపై కనుగొనలేని సైట్‌ల సైట్ డేటాతో సహా.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "ఉంచుకున్న సైట్, ఎక్స్‌టెన్షన్ చరిత్ర, కుకీలు, తెరిచి ఉన్న ట్యాబ్‌లలో కనుగొనే చిరునామాలలో మాత్రమే తన సైట్ డేటాను ఉంచుకుంటుంది. ఉంచుకున్న సైట్ యొక్క ఏదైనా ఇతర సబ్‌డొమైన్ లేదా పోర్ట్, ఉదాహరణకు మీరు నెలల తరబడి సందర్శించనిది లేదా వేరే పోర్ట్‌లోని లోకల్ సర్వర్, తన సైట్ డేటాను కోల్పోతుంది, మీరు అక్కడి నుండి సైన్ అవుట్ కావచ్చు."
+  },
+  "clearing": {
+    "message": "క్లియర్ చేస్తోంది… దీనికి కొన్ని నిమిషాలు పట్టవచ్చు."
+  },
+  "leftoversFailed": {
+    "message": "మిగిలిన సైట్ డేటాను క్లియర్ చేయడం విఫలమైంది."
+  },
+  "leftoversCleared": {
+    "message": "మిగిలిన సైట్ డేటా క్లియర్ చేయబడింది."
+  },
+  "nothingClearedYet": {
+    "message": "ఇంకా ఏదీ క్లియర్ చేయబడలేదు."
+  },
+  "clearFailed": {
+    "message": "$WHEN$ నాటి క్లియర్ విఫలమైంది.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ చరిత్ర ఎంట్రీ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ చరిత్ర ఎంట్రీలు",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ కుకీ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ కుకీలు",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "ఏదీ లేదు"
+  },
+  "lastCleared": {
+    "message": "చివరిగా క్లియర్ చేసింది: $WHEN$. తొలగించినవి: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "చివరిగా క్లియర్ చేసింది: $WHEN$. తొలగించినవి: $WHAT$, దానితో పాటు సైట్ డేటా, కాష్.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "చివరిగా క్లియర్ చేసింది: $WHEN$. తొలగించినవి: $WHAT$, దానితో పాటు ఉంచుకోని ప్రతి సైట్ సైట్ డేటా, కాష్.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "ఈ బ్రౌజర్ ఎక్స్‌టెన్షన్‌లను చరిత్ర, సైట్ డేటాను క్లియర్ చేయనివ్వనందున, అవి దాటవేయబడ్డాయి."
+  },
+  "skippedHistory": {
+    "message": "ఈ బ్రౌజర్ ఎక్స్‌టెన్షన్‌లను చరిత్రను క్లియర్ చేయనివ్వనందున, అది దాటవేయబడింది."
+  },
+  "skippedSiteData": {
+    "message": "ఈ బ్రౌజర్ ఎక్స్‌టెన్షన్‌లను సైట్ డేటాను క్లియర్ చేయనివ్వనందున, అది దాటవేయబడింది."
+  },
+  "cookiesSkipped": {
+    "message": "సైట్ యాక్సెస్ ఆఫ్‌లో ఉన్నందున కుకీలు దాటవేయబడ్డాయి."
+  },
+  "loadFailed": {
+    "message": "సెట్టింగ్‌లను లోడ్ చేయడం సాధ్యం కాలేదు."
+  }
+}

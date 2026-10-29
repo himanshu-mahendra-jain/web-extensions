@@ -1,0 +1,42 @@
+Mdel iccer amiran s usiti s tlata iḍudan, s usiti alemmas neɣ s usiti deg ufeggag n yifecka.
+
+Three Finger Tap to Close Tab d asiɣzef afessas, n uɣbalu yeldin, i d-yettmuddun abrid arurad d ufessas i usekkeṛ n yiccer amiran n yiminig.
+
+Sit s tlata iḍudan neɣ sit s tqeffalt talemmast anda tebɣiḍ deg usebter web, beṛṛa n yiseɣwan d yiḥricen yettwaẓrigen, akken ad tmedleḍ iccer amiran. Tzemreḍ daɣen ad tsiteḍ ɣef tignit n usiɣzef deg ufeggag n yifecka.
+
+Deg Firefox i Android, sit ɣef Three Finger Tap to Close Tab deg wumuɣ Isiɣzaf n yiminig akken ad tmedleḍ iccer amiran. Asiti ɣef ugdil mačči d asiti alemmas, ihi asiti ɣef usebter web ur yettmdal ara akk iccer.
+
+Asiti alemmas ɣef yiseɣwan d tkarḍiwin n yisuddam yeṭṭef tikli tamagnut n yiminig, ihi tzemreḍ ad tkemmleḍ ad teldiḍ iseɣwan d yizen deg yiccaren imaynuten am wakken iwata. Talast n tɣellist i yellan deg-s tessewḥal amdal n yiccer s tuccḍa ma tsiteḍ ɣer tama n useɣwen neɣ n usenqed.
+
+TIMAḌMIWIN TIGEJDANIN
+
+• Mdel iccer amiran s usiti s tlata iḍudan
+• Mdel iccer amiran s usiti alemmas
+• Mdel iccer amiran s usiti deg ufeggag n yifecka
+• Yeṭṭef asiti alemmas amagnu ɣef yiseɣwan, tqeffalin d tkarḍiwin n yisuddam
+• Talast n tɣellist tessewḥal amdal s tuccḍa ɣer tama n yiferdisen imyigawen
+• Ur yettmdal ara iccaren mi ara tesqedceḍ tiferkiwin d yiḥricen yettwaẓrigen
+• Ulac umuɣen udhimen neɣ iɣewwaren
+
+ASBADU N TFELWIT N USENNED
+
+Tafelwit-ik n usenned d unagraw-ik n wammud ilaq ad ttwasbadun akken asiti s tlata iḍudan ad yefk asiti alemmas.
+
+Ticki yettwasbadu, sit s tlata iḍudan ɣef usebter web beṛṛa n yiseɣwan d ugbur amyigaw akken ad tmedleḍ iccer amiran.
+
+TABAḌNIT
+
+• Ulac tasleḍt neɣ aḍfar
+• Ur yettlqaḍ ara isefka neɣ amazray n tunigin
+• Ulac tuttriwin n uẓeṭṭa
+• Ur yettsekles ara armud n tunigin neɣ ismenyaf
+
+Iccaren mdelen yal tikkelt s wudem adigan deg yiminig-ik.
+
+AƔBALU YELDIN
+
+Three Finger Tap to Close Tab d aɣbalu yeldin, yettwaḍmen s turagt MIT.
+
+Wali tangalt taɣbalut, mmel-d uguren neɣ ttekki deg GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

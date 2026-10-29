@@ -1,0 +1,552 @@
+{
+  "extensionDescription": {
+    "message": "La pornirea browserului, șterge istoricul, cookie-urile și datele site-urilor, cu excepția site-urilor pe care le păstrați."
+  },
+  "optionsTitle": {
+    "message": "Site-uri păstrate | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Depozit GitHub, se deschide într-o filă nouă"
+  },
+  "accessHeading": {
+    "message": "Accesul la site-uri este dezactivat"
+  },
+  "allowSiteAccess": {
+    "message": "Permiteți accesul la site-uri"
+  },
+  "accessHistorySiteData": {
+    "message": "Fără acces la site-uri, extensia nu poate șterge cookie-uri. Istoricul și datele site-urilor sunt în continuare șterse."
+  },
+  "accessHistory": {
+    "message": "Fără acces la site-uri, extensia nu poate șterge cookie-uri. Istoricul este în continuare șters."
+  },
+  "accessSiteData": {
+    "message": "Fără acces la site-uri, extensia nu poate șterge cookie-uri. Datele site-urilor sunt în continuare șterse."
+  },
+  "accessNothing": {
+    "message": "Fără acces la site-uri, extensia nu poate șterge cookie-uri, deci nu se șterge nimic."
+  },
+  "clearingOffHeading": {
+    "message": "Ștergerea este dezactivată"
+  },
+  "clearingOffText": {
+    "message": "Încă nu se șterge nimic. Adăugați site-urile pe care vreți să rămâneți conectat, apoi activați ștergerea. De atunci, la fiecare pornire a browserului, se vor șterge datele ($DATA$) tuturor celorlalte site-uri.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Activați ștergerea"
+  },
+  "keptSitesHeading": {
+    "message": "Site-uri păstrate"
+  },
+  "intro": {
+    "message": "Aceste site-uri și subdomeniile lor își păstrează datele ($DATA$), așa că rămâneți conectat. Cât timp ștergerea este activată, toate celelalte site-uri le pierd la fiecare pornire a browserului.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Domenii de site-uri"
+  },
+  "keep": {
+    "message": "Păstrați"
+  },
+  "siteHint": {
+    "message": "Separați mai multe site-uri prin virgule."
+  },
+  "noSites": {
+    "message": "Încă nu păstrați niciun site, deci o ștergere elimină datele ($DATA$) tuturor site-urilor.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Site-uri păstrate"
+  },
+  "clearingHeading": {
+    "message": "Ștergere"
+  },
+  "clearOnStartupLabel": {
+    "message": "Ștergeți automat la pornirea browserului"
+  },
+  "clearNow": {
+    "message": "Ștergeți acum"
+  },
+  "firstClearHint": {
+    "message": "Prima ștergere poate dura câteva minute dacă browserul are multe date de navigare. Între timp puteți continua să navigați."
+  },
+  "leftoversHeading": {
+    "message": "Date rămase ale site-urilor"
+  },
+  "leftoversIntro": {
+    "message": "După ce istoricul și cookie-urile unui site sunt șterse, extensia nu îl mai găsește, deci stocarea locală, bazele de date și memoria cache ale acestuia rămân. „Ștergeți resturile” șterge, după o ștergere ca „Ștergeți acum”, datele tuturor site-urilor pe care nu le păstrați, găsite sau nu."
+  },
+  "clearLeftovers": {
+    "message": "Ștergeți resturile"
+  },
+  "transferHeading": {
+    "message": "Import și export"
+  },
+  "transferIntro": {
+    "message": "Salvați site-urile păstrate într-un fișier text sau înlocuiți-le cu site-urile dintr-un fișier. Un fișier poate avea câte un site pe rând sau le poate separa prin virgule."
+  },
+  "export": {
+    "message": "Exportați"
+  },
+  "import": {
+    "message": "Importați"
+  },
+  "cancel": {
+    "message": "Anulați"
+  },
+  "dataAll": {
+    "message": "istoric, cookie-uri și date ale site-urilor"
+  },
+  "dataNoHistory": {
+    "message": "cookie-uri și date ale site-urilor"
+  },
+  "dataNoSiteData": {
+    "message": "istoric și cookie-uri"
+  },
+  "dataCookies": {
+    "message": "cookie-uri"
+  },
+  "remove": {
+    "message": "Eliminați"
+  },
+  "removeSite": {
+    "message": "Eliminați $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ a fost eliminat. Datele lui ($DATA$) vor fi șterse la următoarea ștergere.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Site-ul nu a putut fi eliminat."
+  },
+  "siteKept": {
+    "message": "$SITE$ este păstrat.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ site este păstrat.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_few": {
+    "message": "$COUNT$ site-uri sunt păstrate.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ de site-uri sunt păstrate.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ este deja păstrat.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ site este deja păstrat.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_few": {
+    "message": "$COUNT$ site-uri sunt deja păstrate.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ de site-uri sunt deja păstrate.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ nu este un domeniu valid.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Acestea nu sunt domenii valide: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Introduceți un domeniu valid, de exemplu example.com."
+  },
+  "addSiteFailed": {
+    "message": "Site-ul nu a putut fi adăugat."
+  },
+  "addSitesFailed": {
+    "message": "Site-urile nu au putut fi adăugate."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ are peste 1 MB, deci site-urile păstrate nu s-au schimbat.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ nu conține domenii valide, deci site-urile păstrate nu s-au schimbat.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Înlocuiți site-urile păstrate?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_few": {
+    "message": "$COUNT$ site-uri",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ de site-uri",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Site-urile pe care le păstrați acum ($CURRENT$) vor fi înlocuite cu site-urile din $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ site nu va mai fi păstrat, iar datele lui ($DATA$) vor fi șterse la următoarea ștergere.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_few": {
+    "message": "$COUNT$ site-uri nu vor mai fi păstrate, iar datele lor ($DATA$) vor fi șterse la următoarea ștergere.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ de site-uri nu vor mai fi păstrate, iar datele lor ($DATA$) vor fi șterse la următoarea ștergere.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Înlocuiți site-urile păstrate"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ site importat din $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_few": {
+    "message": "$COUNT$ site-uri importate din $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ de site-uri importate din $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Site-urile păstrate nu au putut fi exportate."
+  },
+  "importFailed": {
+    "message": "Site-urile păstrate nu au putut fi importate din $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Activați ștergerea?"
+  },
+  "turnOnKept": {
+    "message": "La fiecare pornire a browserului se vor șterge datele ($DATA$) tuturor site-urilor, cu excepția celor pe care ați ales să le păstrați. Veți fi deconectat de pe toate celelalte site-uri.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Nu ați ales niciun site de păstrat. La fiecare pornire a browserului se vor șterge toate datele ($DATA$) și veți fi deconectat de pe toate site-urile.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Datele șterse ($DATA$) nu pot fi recuperate.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Ștergeți totul acum?"
+  },
+  "clearEverythingText": {
+    "message": "Nu ați ales niciun site de păstrat, deci acum se vor șterge datele ($DATA$) tuturor site-urilor și veți fi deconectat de pe toate site-urile.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Ștergeți tot"
+  },
+  "leftoversTitle": {
+    "message": "Ștergeți datele rămase ale site-urilor?"
+  },
+  "leftoversKept": {
+    "message": "Acum se vor șterge datele ($DATA$) tuturor site-urilor pe care nu le păstrați, inclusiv datele site-urilor pe care extensia nu le mai găsește.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Un site păstrat își păstrează datele doar la adresele pe care extensia le găsește în istoric, cookie-uri și filele deschise. Orice alt subdomeniu sau port al unui site păstrat, de exemplu unul pe care nu l-ați vizitat de luni de zile sau un server local pe alt port, își pierde datele și puteți fi deconectat de pe el."
+  },
+  "clearing": {
+    "message": "Se șterge… Poate dura câteva minute."
+  },
+  "leftoversFailed": {
+    "message": "Ștergerea datelor rămase ale site-urilor a eșuat."
+  },
+  "leftoversCleared": {
+    "message": "Datele rămase ale site-urilor au fost șterse."
+  },
+  "nothingClearedYet": {
+    "message": "Încă nu s-a șters nimic."
+  },
+  "clearFailed": {
+    "message": "Ștergerea din $WHEN$ a eșuat.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ intrare din istoric",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_few": {
+    "message": "$COUNT$ intrări din istoric",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ de intrări din istoric",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_few": {
+    "message": "$COUNT$ cookie-uri",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ de cookie-uri",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "nimic"
+  },
+  "lastCleared": {
+    "message": "Ultima ștergere: $WHEN$. Șters: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Ultima ștergere: $WHEN$. Șters: $WHAT$, plus datele site-urilor și memoria cache.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Ultima ștergere: $WHEN$. Șters: $WHAT$, plus datele și memoria cache ale tuturor site-urilor nepăstrate.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Istoricul și datele site-urilor au fost omise, deoarece acest browser nu permite extensiilor să le șteargă."
+  },
+  "skippedHistory": {
+    "message": "Istoricul a fost omis, deoarece acest browser nu permite extensiilor să îl șteargă."
+  },
+  "skippedSiteData": {
+    "message": "Datele site-urilor au fost omise, deoarece acest browser nu permite extensiilor să le șteargă."
+  },
+  "cookiesSkipped": {
+    "message": "Cookie-urile au fost omise, deoarece accesul la site-uri este dezactivat."
+  },
+  "loadFailed": {
+    "message": "Setările nu au putut fi încărcate."
+  }
+}

@@ -1,0 +1,738 @@
+{
+  "extensionDescription": {
+    "message": "امسح السجل وملفات تعريف الارتباط وبيانات المواقع عند بدء المتصفح لكل المواقع باستثناء المواقع التي تحتفظ بها."
+  },
+  "optionsTitle": {
+    "message": "المواقع المحفوظة | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "مستودع GitHub، يُفتح في علامة تبويب جديدة"
+  },
+  "accessHeading": {
+    "message": "الوصول إلى المواقع متوقف"
+  },
+  "allowSiteAccess": {
+    "message": "السماح بالوصول إلى المواقع"
+  },
+  "accessHistorySiteData": {
+    "message": "دون الوصول إلى مواقع الويب، لا تستطيع الإضافة حذف ملفات تعريف الارتباط. ولا يزال السجل وبيانات المواقع يُمسحان."
+  },
+  "accessHistory": {
+    "message": "دون الوصول إلى مواقع الويب، لا تستطيع الإضافة حذف ملفات تعريف الارتباط. ولا يزال السجل يُمسح."
+  },
+  "accessSiteData": {
+    "message": "دون الوصول إلى مواقع الويب، لا تستطيع الإضافة حذف ملفات تعريف الارتباط. ولا تزال بيانات المواقع تُمسح."
+  },
+  "accessNothing": {
+    "message": "دون الوصول إلى مواقع الويب، لا تستطيع الإضافة حذف ملفات تعريف الارتباط، لذا لا يُمسح شيء."
+  },
+  "clearingOffHeading": {
+    "message": "المسح متوقف"
+  },
+  "clearingOffText": {
+    "message": "لم يُحذف شيء بعد. أضف المواقع التي تريد البقاء مسجّلًا الدخول إليها، ثم شغّل المسح. ومن ذلك الحين، في كل مرة يبدأ فيها المتصفح، تُحذف بيانات كل المواقع الأخرى ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "تشغيل المسح"
+  },
+  "keptSitesHeading": {
+    "message": "المواقع المحفوظة"
+  },
+  "intro": {
+    "message": "تحتفظ هذه المواقع ونطاقاتها الفرعية ببياناتها ($DATA$)، فتبقى مسجّلًا الدخول. وما دام المسح مشغّلًا، تفقد كل المواقع الأخرى هذه البيانات في كل مرة يبدأ فيها المتصفح.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "نطاقات مواقع الويب"
+  },
+  "keep": {
+    "message": "احتفظ"
+  },
+  "siteHint": {
+    "message": "افصل بين المواقع بفواصل."
+  },
+  "noSites": {
+    "message": "لا توجد مواقع محفوظة بعد، لذا يحذف المسح بيانات كل المواقع ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "المواقع المحفوظة"
+  },
+  "clearingHeading": {
+    "message": "المسح"
+  },
+  "clearOnStartupLabel": {
+    "message": "المسح تلقائيًا عند بدء المتصفح"
+  },
+  "clearNow": {
+    "message": "المسح الآن"
+  },
+  "firstClearHint": {
+    "message": "قد يستغرق المسح الأول عدة دقائق إذا كان المتصفح يحتفظ بالكثير من بيانات التصفح. ويمكنك مواصلة التصفح في هذه الأثناء."
+  },
+  "leftoversHeading": {
+    "message": "بيانات المواقع المتبقية"
+  },
+  "leftoversIntro": {
+    "message": "بعد حذف سجل موقع وملفات تعريف الارتباط الخاصة به، لا تعود الإضافة تعثر عليه، فيبقى تخزينه المحلي وقواعد بياناته وذاكرته المؤقتة. يحذف «مسح المتبقي» بيانات كل موقع لا تحتفظ به، سواء عُثر عليه أم لا، بعد مسح مثل «المسح الآن»."
+  },
+  "clearLeftovers": {
+    "message": "مسح المتبقي"
+  },
+  "transferHeading": {
+    "message": "الاستيراد والتصدير"
+  },
+  "transferIntro": {
+    "message": "احفظ مواقعك المحفوظة في ملف نصي، أو استبدل بها المواقع الموجودة في ملف. يمكن أن يسرد الملف موقعًا واحدًا في كل سطر أو يفصل بين المواقع بفواصل."
+  },
+  "export": {
+    "message": "تصدير"
+  },
+  "import": {
+    "message": "استيراد"
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "dataAll": {
+    "message": "السجل وملفات تعريف الارتباط وبيانات المواقع"
+  },
+  "dataNoHistory": {
+    "message": "ملفات تعريف الارتباط وبيانات المواقع"
+  },
+  "dataNoSiteData": {
+    "message": "السجل وملفات تعريف الارتباط"
+  },
+  "dataCookies": {
+    "message": "ملفات تعريف الارتباط"
+  },
+  "remove": {
+    "message": "إزالة"
+  },
+  "removeSite": {
+    "message": "إزالة $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "تمت إزالة $SITE$. ستُحذف بياناته ($DATA$) في المسح التالي.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "تعذّرت إزالة الموقع."
+  },
+  "siteKept": {
+    "message": "تم الاحتفاظ بـ $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_zero": {
+    "message": "تم الاحتفاظ بـ $COUNT$ موقع.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "تم الاحتفاظ بـ $COUNT$ موقع.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_two": {
+    "message": "تم الاحتفاظ بـ $COUNT$ موقع.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_few": {
+    "message": "تم الاحتفاظ بـ $COUNT$ مواقع.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_many": {
+    "message": "تم الاحتفاظ بـ $COUNT$ موقعًا.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "تم الاحتفاظ بـ $COUNT$ موقع.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ محفوظ بالفعل.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_zero": {
+    "message": "$COUNT$ موقع محفوظ بالفعل.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ موقع محفوظ بالفعل.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_two": {
+    "message": "$COUNT$ موقع محفوظ بالفعل.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_few": {
+    "message": "$COUNT$ مواقع محفوظة بالفعل.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_many": {
+    "message": "$COUNT$ موقعًا محفوظًا بالفعل.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ موقع محفوظ بالفعل.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ ليس نطاقًا صالحًا.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "هذه ليست نطاقات صالحة: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "أدخل نطاقًا صالحًا، مثل example.com."
+  },
+  "addSiteFailed": {
+    "message": "تعذّرت إضافة الموقع."
+  },
+  "addSitesFailed": {
+    "message": "تعذّرت إضافة المواقع."
+  },
+  "fileTooLarge": {
+    "message": "حجم $FILE$ أكبر من 1 MB، لذا لم تتغير المواقع المحفوظة.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "لا يحتوي $FILE$ على نطاقات صالحة، لذا لم تتغير المواقع المحفوظة.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "استبدال المواقع المحفوظة؟"
+  },
+  "siteCount_zero": {
+    "message": "$COUNT$ موقع",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ موقع",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_two": {
+    "message": "$COUNT$ موقع",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_few": {
+    "message": "$COUNT$ مواقع",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_many": {
+    "message": "$COUNT$ موقعًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ موقع",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "ستُستبدل المواقع التي تحتفظ بها الآن ($CURRENT$) بالمواقع الموجودة في $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_zero": {
+    "message": "لن يُحتفظ بـ $COUNT$ موقع بعد الآن، وستُحذف بياناتها ($DATA$) في المسح التالي.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "لن يُحتفظ بـ $COUNT$ موقع بعد الآن، وستُحذف بياناته ($DATA$) في المسح التالي.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_two": {
+    "message": "لن يُحتفظ بـ $COUNT$ موقع بعد الآن، وستُحذف بياناتهما ($DATA$) في المسح التالي.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_few": {
+    "message": "لن يُحتفظ بـ $COUNT$ مواقع بعد الآن، وستُحذف بياناتها ($DATA$) في المسح التالي.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_many": {
+    "message": "لن يُحتفظ بـ $COUNT$ موقعًا بعد الآن، وستُحذف بياناتها ($DATA$) في المسح التالي.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "لن يُحتفظ بـ $COUNT$ موقع بعد الآن، وستُحذف بياناتها ($DATA$) في المسح التالي.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "استبدال المواقع المحفوظة"
+  },
+  "sitesImported_zero": {
+    "message": "تم استيراد $COUNT$ موقع من $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_one": {
+    "message": "تم استيراد $COUNT$ موقع من $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_two": {
+    "message": "تم استيراد $COUNT$ موقع من $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_few": {
+    "message": "تم استيراد $COUNT$ مواقع من $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_many": {
+    "message": "تم استيراد $COUNT$ موقعًا من $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "تم استيراد $COUNT$ موقع من $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "تعذّر تصدير المواقع المحفوظة."
+  },
+  "importFailed": {
+    "message": "تعذّر استيراد المواقع المحفوظة من $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "تشغيل المسح؟"
+  },
+  "turnOnKept": {
+    "message": "في كل مرة يبدأ فيها المتصفح، ستُحذف بيانات كل المواقع ($DATA$) باستثناء المواقع التي اخترت الاحتفاظ بها. وسيُسجَّل خروجك من كل المواقع الأخرى.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "لم تختر أي مواقع للاحتفاظ بها. في كل مرة يبدأ فيها المتصفح، ستُحذف كل البيانات ($DATA$)، وسيُسجَّل خروجك من كل المواقع.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "لا يمكن استعادة البيانات المحذوفة ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "مسح كل شيء الآن؟"
+  },
+  "clearEverythingText": {
+    "message": "لم تختر أي مواقع للاحتفاظ بها، لذا ستُحذف بيانات كل المواقع ($DATA$) الآن، وسيُسجَّل خروجك من كل المواقع.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "مسح كل شيء"
+  },
+  "leftoversTitle": {
+    "message": "مسح بيانات المواقع المتبقية؟"
+  },
+  "leftoversKept": {
+    "message": "ستُحذف الآن بيانات كل موقع لا تحتفظ به ($DATA$)، بما في ذلك بيانات المواقع التي لم تعد الإضافة تعثر عليها.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "لا يحتفظ الموقع المحفوظ ببياناته إلا في العناوين التي تعثر عليها الإضافة في السجل وملفات تعريف الارتباط وعلامات التبويب المفتوحة. أما أي نطاق فرعي أو منفذ آخر للموقع المحفوظ، مثل نطاق لم تزره منذ أشهر أو خادم محلي على منفذ آخر، فيفقد بياناته، وقد يُسجَّل خروجك منه."
+  },
+  "clearing": {
+    "message": "جارٍ المسح… قد يستغرق هذا بضع دقائق."
+  },
+  "leftoversFailed": {
+    "message": "فشل مسح بيانات المواقع المتبقية."
+  },
+  "leftoversCleared": {
+    "message": "تم مسح بيانات المواقع المتبقية."
+  },
+  "nothingClearedYet": {
+    "message": "لم يُمسح شيء بعد."
+  },
+  "clearFailed": {
+    "message": "فشل المسح في $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_zero": {
+    "message": "$COUNT$ إدخال سجل",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ إدخال سجل",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_two": {
+    "message": "$COUNT$ إدخال سجل",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_few": {
+    "message": "$COUNT$ إدخالات سجل",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_many": {
+    "message": "$COUNT$ إدخالًا من السجل",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ إدخال سجل",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_zero": {
+    "message": "$COUNT$ ملف تعريف ارتباط",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ ملف تعريف ارتباط",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_two": {
+    "message": "$COUNT$ ملف تعريف ارتباط",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_few": {
+    "message": "$COUNT$ ملفات تعريف ارتباط",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_many": {
+    "message": "$COUNT$ ملف تعريف ارتباط",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ ملف تعريف ارتباط",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "لا شيء"
+  },
+  "lastCleared": {
+    "message": "آخر مسح: $WHEN$. المحذوف: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "آخر مسح: $WHEN$. المحذوف: $WHAT$، إلى جانب بيانات المواقع وذاكرة التخزين المؤقت.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "آخر مسح: $WHEN$. المحذوف: $WHAT$، إلى جانب بيانات وذاكرة التخزين المؤقت لكل موقع غير محفوظ.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "تم تخطي السجل وبيانات المواقع لأن هذا المتصفح لا يسمح للإضافات بمسحهما."
+  },
+  "skippedHistory": {
+    "message": "تم تخطي السجل لأن هذا المتصفح لا يسمح للإضافات بمسحه."
+  },
+  "skippedSiteData": {
+    "message": "تم تخطي بيانات المواقع لأن هذا المتصفح لا يسمح للإضافات بمسحها."
+  },
+  "cookiesSkipped": {
+    "message": "تم تخطي ملفات تعريف الارتباط لأن الوصول إلى المواقع متوقف."
+  },
+  "loadFailed": {
+    "message": "تعذّر تحميل الإعدادات."
+  }
+}

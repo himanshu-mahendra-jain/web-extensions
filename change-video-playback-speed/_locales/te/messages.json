@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "వీడియో, ఆడియో ప్లేబ్యాక్ వేగాన్ని 1x, 1.2x, 1.5x, 2x మధ్య త్వరగా మార్చండి."
+  },
+  "commandDescription": {
+    "message": "వీడియో ప్లేబ్యాక్ వేగాన్ని మార్చు"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "ప్లేబ్యాక్ వేగం $SPEED$ రెట్లు",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "ప్లేబ్యాక్ వేగం: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

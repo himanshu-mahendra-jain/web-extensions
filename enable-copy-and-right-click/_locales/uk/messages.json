@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Вмикає копіювання, виділення тексту й контекстне меню на сайтах, які їх забороняють."
+  },
+  "commandDescription": {
+    "message": "Увімкнути копіювання й правий клік на поточній сторінці"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: увімкнено",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Копіювання й правий клік увімкнено."
+  },
+  "optionsTitle": {
+    "message": "Автоматичні сайти | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Репозиторій на GitHub, відкриється в новій вкладці"
+  },
+  "automaticSitesHeading": {
+    "message": "Автоматичні сайти"
+  },
+  "automaticSitesIntro": {
+    "message": "Автоматично вмикати копіювання, виділення тексту й правий клік на доданих сайтах."
+  },
+  "siteInputLabel": {
+    "message": "Домен сайту"
+  },
+  "addSite": {
+    "message": "Додати сайт"
+  },
+  "noSites": {
+    "message": "Автоматичних сайтів ще не додано."
+  },
+  "siteListLabel": {
+    "message": "Автоматичні сайти"
+  },
+  "remove": {
+    "message": "Вилучити"
+  },
+  "removeSite": {
+    "message": "Вилучити $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (дозвіл відкликано)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "Сайт $SITE$ додано.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "Сайт $SITE$ знову увімкнено.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "Сайт $SITE$ вилучено.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Цей сайт уже увімкнено."
+  },
+  "invalidDomain": {
+    "message": "Введіть правильний домен, наприклад example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Дозвіл для сайту не надано."
+  },
+  "addFailed": {
+    "message": "Не вдалося додати сайт."
+  },
+  "removeFailed": {
+    "message": "Не вдалося вилучити сайт."
+  },
+  "loadFailed": {
+    "message": "Не вдалося завантажити список сайтів."
+  }
+}

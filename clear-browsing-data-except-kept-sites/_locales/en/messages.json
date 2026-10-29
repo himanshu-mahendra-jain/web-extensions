@@ -1,0 +1,487 @@
+{
+  "extensionDescription": {
+    "message": "Clear history, cookies and site data on browser startup for every site except the ones you keep.",
+    "description": "The extension's description in the browser's extension list and the stores. At most 132 characters."
+  },
+  "optionsTitle": {
+    "message": "Kept Sites | $NAME$",
+    "description": "The settings page's title in the browser tab.",
+    "placeholders": {
+      "name": { "content": "$1", "example": "Clear Browsing Data Except Kept Sites" }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub repository, opens in a new tab",
+    "description": "What screen readers say for the GitHub link in the page header."
+  },
+  "accessHeading": {
+    "message": "Site access is off",
+    "description": "Heading of the warning shown when the extension may not access websites."
+  },
+  "allowSiteAccess": {
+    "message": "Allow Site Access",
+    "description": "Button that asks the browser for access to websites."
+  },
+  "accessHistorySiteData": {
+    "message": "Without access to websites, the extension cannot delete cookies. History and site data are still cleared.",
+    "description": "Text of the site access warning, where the browser lets the extension clear history and site data."
+  },
+  "accessHistory": {
+    "message": "Without access to websites, the extension cannot delete cookies. History is still cleared.",
+    "description": "Text of the site access warning, where the browser lets the extension clear history but not site data."
+  },
+  "accessSiteData": {
+    "message": "Without access to websites, the extension cannot delete cookies. Site data is still cleared.",
+    "description": "Text of the site access warning, where the browser lets the extension clear site data but not history."
+  },
+  "accessNothing": {
+    "message": "Without access to websites, the extension cannot delete cookies, so nothing is cleared.",
+    "description": "Text of the site access warning, where cookies are the only data the extension can clear."
+  },
+  "clearingOffHeading": {
+    "message": "Clearing is off",
+    "description": "Heading of the notice shown until clearing on browser startup is turned on."
+  },
+  "clearingOffText": {
+    "message": "Nothing is deleted yet. Add the sites you want to stay signed in to, then turn clearing on. From then on, each time the browser starts, the $DATA$ of every other site are deleted.",
+    "description": "Text of the notice shown until clearing is turned on.",
+    "placeholders": {
+      "data": { "content": "$1", "example": "history, cookies and site data" }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Turn On Clearing",
+    "description": "Button that turns on clearing on browser startup, in the notice and in the confirmation dialog."
+  },
+  "keptSitesHeading": {
+    "message": "Kept Sites",
+    "description": "Main heading of the settings page: the sites whose data is kept."
+  },
+  "intro": {
+    "message": "These sites and their subdomains keep their $DATA$, so you stay signed in. While clearing is on, every other site loses them each time the browser starts.",
+    "description": "Introduction under the Kept Sites heading.",
+    "placeholders": {
+      "data": { "content": "$1", "example": "history, cookies and site data" }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Website domains",
+    "description": "Label of the field where sites to keep are entered, read by screen readers."
+  },
+  "keep": {
+    "message": "Keep",
+    "description": "Button that adds the entered sites to the kept sites."
+  },
+  "siteHint": {
+    "message": "Separate several sites with commas.",
+    "description": "Hint under the field for sites to keep."
+  },
+  "noSites": {
+    "message": "No sites are kept yet, so a clear deletes the $DATA$ of every site.",
+    "description": "Shown instead of the list while no site is kept.",
+    "placeholders": {
+      "data": { "content": "$1", "example": "history, cookies and site data" }
+    }
+  },
+  "siteListLabel": {
+    "message": "Kept sites",
+    "description": "Name of the list of kept sites, read by screen readers."
+  },
+  "clearingHeading": {
+    "message": "Clearing",
+    "description": "Heading of the section about when and how data is cleared."
+  },
+  "clearOnStartupLabel": {
+    "message": "Clear automatically when the browser starts",
+    "description": "Label of the checkbox that turns clearing on browser startup on and off."
+  },
+  "clearNow": {
+    "message": "Clear Now",
+    "description": "Button that clears the data of every site not kept right away."
+  },
+  "firstClearHint": {
+    "message": "The first clear can take several minutes when the browser holds a lot of browsing data. You can keep browsing in the meantime.",
+    "description": "Hint under the Clear Now button."
+  },
+  "leftoversHeading": {
+    "message": "Leftover Site Data",
+    "description": "Heading of the section about site data left behind by sites the extension no longer finds."
+  },
+  "leftoversIntro": {
+    "message": "Once the history and cookies of a site are deleted, the extension no longer finds it, so its local storage, databases and cache stay. Clear Leftovers deletes the site data of every site you do not keep, found or not, after a clear like Clear Now.",
+    "description": "Introduction of the Leftover Site Data section. Clear Leftovers and Clear Now are the buttons' names."
+  },
+  "clearLeftovers": {
+    "message": "Clear Leftovers",
+    "description": "Button that deletes the site data of every site not kept, in the section and in its confirmation dialog."
+  },
+  "transferHeading": {
+    "message": "Import and Export",
+    "description": "Heading of the section for saving the kept sites to a file and loading them from one."
+  },
+  "transferIntro": {
+    "message": "Save your kept sites to a text file, or replace them with the sites in one. A file can list one site per line or separate them with commas.",
+    "description": "Introduction of the Import and Export section."
+  },
+  "export": {
+    "message": "Export",
+    "description": "Button that saves the kept sites to a text file."
+  },
+  "import": {
+    "message": "Import",
+    "description": "Button that replaces the kept sites with the ones in a text file."
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "Button that closes a confirmation dialog without doing anything."
+  },
+  "dataAll": {
+    "message": "history, cookies and site data",
+    "description": "What a clear deletes, put into other messages as $DATA$. Write it so it fits them all, starting lowercase where the language allows."
+  },
+  "dataNoHistory": {
+    "message": "cookies and site data",
+    "description": "What a clear deletes where the browser has no history to clear, as in Firefox for Android; put into other messages as $DATA$."
+  },
+  "dataNoSiteData": {
+    "message": "history and cookies",
+    "description": "What a clear deletes where the extension may not clear site data; put into other messages as $DATA$."
+  },
+  "dataCookies": {
+    "message": "cookies",
+    "description": "What a clear deletes where only cookies can be cleared; put into other messages as $DATA$."
+  },
+  "remove": {
+    "message": "Remove",
+    "description": "Button next to each kept site that stops keeping it."
+  },
+  "removeSite": {
+    "message": "Remove $SITE$",
+    "description": "What screen readers say for the Remove button of one kept site.",
+    "placeholders": {
+      "site": { "content": "$1", "example": "example.com" }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ removed. Its $DATA$ will be deleted at the next clear.",
+    "description": "Shown after a site is no longer kept.",
+    "placeholders": {
+      "site": { "content": "$1", "example": "example.com" },
+      "data": { "content": "$2", "example": "history, cookies and site data" }
+    }
+  },
+  "removeFailed": {
+    "message": "The site could not be removed.",
+    "description": "Shown when removing a kept site failed."
+  },
+  "siteKept": {
+    "message": "$SITE$ kept.",
+    "description": "Shown after one site is added to the kept sites.",
+    "placeholders": {
+      "site": { "content": "$1", "example": "example.com" }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ site kept.",
+    "description": "Shown after several sites are added to the kept sites, with their number.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "3" }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ sites kept.",
+    "description": "Shown after several sites are added to the kept sites, with their number.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "3" }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ is already kept.",
+    "description": "Shown when an entered site is kept already.",
+    "placeholders": {
+      "site": { "content": "$1", "example": "example.com" }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ site is already kept.",
+    "description": "Shown when several entered sites are kept already, with their number.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "2" }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ sites are already kept.",
+    "description": "Shown when several entered sites are kept already, with their number.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "2" }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ is not a valid domain.",
+    "description": "Shown when one entry is not a domain.",
+    "placeholders": {
+      "site": { "content": "$1", "example": "intranet" }
+    }
+  },
+  "invalidDomains": {
+    "message": "These are not valid domains: $SITES$.",
+    "description": "Shown when several entries are not domains.",
+    "placeholders": {
+      "sites": { "content": "$1", "example": "intranet, nope" }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Enter a valid domain, such as example.com.",
+    "description": "Shown when nothing valid was entered. Keep example.com as it is."
+  },
+  "addSiteFailed": {
+    "message": "The site could not be added.",
+    "description": "Shown when adding one site failed."
+  },
+  "addSitesFailed": {
+    "message": "The sites could not be added.",
+    "description": "Shown when adding several sites failed."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ is larger than 1 MB, so the kept sites were not changed.",
+    "description": "Shown when the file chosen for import is too large.",
+    "placeholders": {
+      "file": { "content": "$1", "example": "kept-sites.txt" }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ has no valid domains, so the kept sites were not changed.",
+    "description": "Shown when the file chosen for import lists no domain.",
+    "placeholders": {
+      "file": { "content": "$1", "example": "kept-sites.txt" }
+    }
+  },
+  "replaceTitle": {
+    "message": "Replace kept sites?",
+    "description": "Heading of the dialog that confirms an import that drops kept sites."
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ site",
+    "description": "A number of sites, put into replaceText as $CURRENT$ and $NEW$.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "2" }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ sites",
+    "description": "A number of sites, put into replaceText as $CURRENT$ and $NEW$.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "2" }
+    }
+  },
+  "replaceText": {
+    "message": "The $CURRENT$ you keep now will be replaced with the $NEW$ in $FILE$.",
+    "description": "First paragraph of the dialog that confirms an import.",
+    "placeholders": {
+      "current": { "content": "$1", "example": "2 sites" },
+      "new": { "content": "$2", "example": "3 sites" },
+      "file": { "content": "$3", "example": "more.txt" }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ site will no longer be kept, and its $DATA$ will be deleted at the next clear.",
+    "description": "Second paragraph of the dialog that confirms an import: how many kept sites the file leaves out.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "1" },
+      "data": { "content": "$2", "example": "history, cookies and site data" }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ sites will no longer be kept, and their $DATA$ will be deleted at the next clear.",
+    "description": "Second paragraph of the dialog that confirms an import: how many kept sites the file leaves out.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "2" },
+      "data": { "content": "$2", "example": "history, cookies and site data" }
+    }
+  },
+  "replaceAction": {
+    "message": "Replace Kept Sites",
+    "description": "Button in the dialog that confirms an import."
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ site imported from $FILE$.",
+    "description": "Shown after an import.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "3" },
+      "file": { "content": "$2", "example": "more.txt" }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ sites imported from $FILE$.",
+    "description": "Shown after an import.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "3" },
+      "file": { "content": "$2", "example": "more.txt" }
+    }
+  },
+  "exportFailed": {
+    "message": "The kept sites could not be exported.",
+    "description": "Shown when saving the kept sites to a file failed."
+  },
+  "importFailed": {
+    "message": "The kept sites could not be imported from $FILE$.",
+    "description": "Shown when an import failed.",
+    "placeholders": {
+      "file": { "content": "$1", "example": "kept-sites.txt" }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Turn on clearing?",
+    "description": "Heading of the dialog that confirms turning on clearing on browser startup."
+  },
+  "turnOnKept": {
+    "message": "Each time the browser starts, $DATA$ will be deleted for every site except the ones you selected to keep. You will be signed out of all other sites.",
+    "description": "Text of the dialog that confirms turning on clearing, when some sites are kept.",
+    "placeholders": {
+      "data": { "content": "$1", "example": "history, cookies and site data" }
+    }
+  },
+  "turnOnNone": {
+    "message": "You have not selected any sites to keep. Each time the browser starts, all $DATA$ will be deleted, and you will be signed out of every site.",
+    "description": "Text of the dialog that confirms turning on clearing, when no site is kept.",
+    "placeholders": {
+      "data": { "content": "$1", "example": "history, cookies and site data" }
+    }
+  },
+  "cannotRecover": {
+    "message": "Deleted $DATA$ cannot be recovered.",
+    "description": "Last, bold line of each dialog that confirms deleting data.",
+    "placeholders": {
+      "data": { "content": "$1", "example": "history, cookies and site data" }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Clear everything now?",
+    "description": "Heading of the dialog that confirms Clear Now while no site is kept."
+  },
+  "clearEverythingText": {
+    "message": "You have not selected any sites to keep, so the $DATA$ of every site will be deleted now, and you will be signed out of every site.",
+    "description": "Text of the dialogs that confirm clearing now while no site is kept.",
+    "placeholders": {
+      "data": { "content": "$1", "example": "history, cookies and site data" }
+    }
+  },
+  "clearEverything": {
+    "message": "Clear Everything",
+    "description": "Button in the dialog that confirms Clear Now while no site is kept."
+  },
+  "leftoversTitle": {
+    "message": "Clear leftover site data?",
+    "description": "Heading of the dialog that confirms Clear Leftovers."
+  },
+  "leftoversKept": {
+    "message": "The $DATA$ of every site you do not keep will be deleted now, including the site data of sites the extension no longer finds.",
+    "description": "First paragraph of the dialog that confirms Clear Leftovers.",
+    "placeholders": {
+      "data": { "content": "$1", "example": "history, cookies and site data" }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "A kept site keeps its site data only at the addresses the extension finds in history, cookies and open tabs. Any other subdomain or port of a kept site, such as one you have not visited for months or a local server on another port, loses its site data, and you may be signed out of it.",
+    "description": "Second paragraph of the dialog that confirms Clear Leftovers."
+  },
+  "clearing": {
+    "message": "Clearing… This can take a few minutes.",
+    "description": "Shown while a clear runs."
+  },
+  "leftoversFailed": {
+    "message": "Clearing leftover site data failed.",
+    "description": "Shown when Clear Leftovers failed."
+  },
+  "leftoversCleared": {
+    "message": "Leftover site data cleared.",
+    "description": "Shown when Clear Leftovers succeeded."
+  },
+  "nothingClearedYet": {
+    "message": "Nothing has been cleared yet.",
+    "description": "Shown next to Clear Now before the first clear."
+  },
+  "clearFailed": {
+    "message": "Clearing on $WHEN$ failed.",
+    "description": "Shown next to Clear Now when the last clear failed.",
+    "placeholders": {
+      "when": { "content": "$1", "example": "Oct 28, 2026, 9:30 AM" }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ history entry",
+    "description": "A number of history entries, put into the last clear's message as $WHAT$.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "128" }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ history entries",
+    "description": "A number of history entries, put into the last clear's message as $WHAT$.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "128" }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "description": "A number of cookies, put into the last clear's message as $WHAT$.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "5" }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ cookies",
+    "description": "A number of cookies, put into the last clear's message as $WHAT$.",
+    "placeholders": {
+      "count": { "content": "$1", "example": "5" }
+    }
+  },
+  "nothing": {
+    "message": "nothing",
+    "description": "Put into the last clear's message as $WHAT$ when no history entry or cookie was deleted."
+  },
+  "lastCleared": {
+    "message": "Last cleared $WHEN$: $WHAT$ deleted.",
+    "description": "When the last clear ran and what it deleted.",
+    "placeholders": {
+      "when": { "content": "$1", "example": "Oct 28, 2026, 9:30 AM" },
+      "what": { "content": "$2", "example": "4 history entries and 5 cookies" }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Last cleared $WHEN$: $WHAT$ deleted, along with site data and cache.",
+    "description": "When the last clear ran and what it deleted, when it also cleared site data and cache.",
+    "placeholders": {
+      "when": { "content": "$1", "example": "Oct 28, 2026, 9:30 AM" },
+      "what": { "content": "$2", "example": "4 history entries and 5 cookies" }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Last cleared $WHEN$: $WHAT$ deleted, along with the site data and cache of every site not kept.",
+    "description": "When the last clear ran and what it deleted, when it was Clear Leftovers.",
+    "placeholders": {
+      "when": { "content": "$1", "example": "Oct 28, 2026, 9:30 AM" },
+      "what": { "content": "$2", "example": "4 history entries and 5 cookies" }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "History and site data were skipped because this browser does not let extensions clear them.",
+    "description": "Added to the last clear's message where the browser lets extensions clear neither."
+  },
+  "skippedHistory": {
+    "message": "History was skipped because this browser does not let extensions clear it.",
+    "description": "Added to the last clear's message where the browser does not let extensions clear history."
+  },
+  "skippedSiteData": {
+    "message": "Site data was skipped because this browser does not let extensions clear it.",
+    "description": "Added to the last clear's message where the browser does not let extensions clear site data."
+  },
+  "cookiesSkipped": {
+    "message": "Cookies were skipped because site access is off.",
+    "description": "Added to the last clear's message when site access is off."
+  },
+  "loadFailed": {
+    "message": "The settings could not be loaded.",
+    "description": "Shown when the settings page could not read the settings."
+  }
+}

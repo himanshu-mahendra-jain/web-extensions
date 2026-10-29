@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "A böngésző indulásakor törli az előzményeket, a sütiket és a webhelyadatokat minden webhelyről, kivéve a megtartottakat."
+  },
+  "optionsTitle": {
+    "message": "Megtartott webhelyek | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-tárház, új lapon nyílik meg"
+  },
+  "accessHeading": {
+    "message": "A webhely-hozzáférés ki van kapcsolva"
+  },
+  "allowSiteAccess": {
+    "message": "Webhely-hozzáférés engedélyezése"
+  },
+  "accessHistorySiteData": {
+    "message": "Webhely-hozzáférés nélkül a bővítmény nem tud sütiket törölni. Az előzmények és a webhelyadatok továbbra is törlődnek."
+  },
+  "accessHistory": {
+    "message": "Webhely-hozzáférés nélkül a bővítmény nem tud sütiket törölni. Az előzmények továbbra is törlődnek."
+  },
+  "accessSiteData": {
+    "message": "Webhely-hozzáférés nélkül a bővítmény nem tud sütiket törölni. A webhelyadatok továbbra is törlődnek."
+  },
+  "accessNothing": {
+    "message": "Webhely-hozzáférés nélkül a bővítmény nem tud sütiket törölni, így semmi sem törlődik."
+  },
+  "clearingOffHeading": {
+    "message": "A törlés ki van kapcsolva"
+  },
+  "clearingOffText": {
+    "message": "Még semmi sem törlődik. Adja hozzá azokat a webhelyeket, amelyeken bejelentkezve szeretne maradni, majd kapcsolja be a törlést. Ettől kezdve a böngésző minden indulásakor törlődnek az összes többi webhely adatai ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Törlés bekapcsolása"
+  },
+  "keptSitesHeading": {
+    "message": "Megtartott webhelyek"
+  },
+  "intro": {
+    "message": "Ezek a webhelyek és aldomainjeik megtartják adataikat ($DATA$), így bejelentkezve marad. Amíg a törlés be van kapcsolva, az összes többi webhely a böngésző minden indulásakor elveszíti ezeket.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Webhelyek domainjei"
+  },
+  "keep": {
+    "message": "Megtartás"
+  },
+  "siteHint": {
+    "message": "Több webhelyet vesszővel válasszon el."
+  },
+  "noSites": {
+    "message": "Még nincs megtartott webhely, így a törlés minden webhely adatait ($DATA$) törli.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Megtartott webhelyek"
+  },
+  "clearingHeading": {
+    "message": "Törlés"
+  },
+  "clearOnStartupLabel": {
+    "message": "Automatikus törlés a böngésző indulásakor"
+  },
+  "clearNow": {
+    "message": "Törlés most"
+  },
+  "firstClearHint": {
+    "message": "Az első törlés több percig is tarthat, ha a böngésző sok böngészési adatot tárol. Közben nyugodtan böngészhet tovább."
+  },
+  "leftoversHeading": {
+    "message": "Visszamaradt webhelyadatok"
+  },
+  "leftoversIntro": {
+    "message": "Ha egy webhely előzményei és sütijei törlődtek, a bővítmény már nem találja meg, így a helyi tárhelye, adatbázisai és gyorsítótára megmaradnak. A Maradékok törlése egy olyan törlés után, mint a Törlés most, minden nem megtartott webhely adatait törli, akár megtalálta, akár nem."
+  },
+  "clearLeftovers": {
+    "message": "Maradékok törlése"
+  },
+  "transferHeading": {
+    "message": "Importálás és exportálás"
+  },
+  "transferIntro": {
+    "message": "Mentse a megtartott webhelyeket szövegfájlba, vagy cserélje le őket egy fájl webhelyeire. A fájl soronként egy webhelyet tartalmazhat, vagy vesszővel választhatja el őket."
+  },
+  "export": {
+    "message": "Exportálás"
+  },
+  "import": {
+    "message": "Importálás"
+  },
+  "cancel": {
+    "message": "Mégse"
+  },
+  "dataAll": {
+    "message": "előzmények, sütik és webhelyadatok"
+  },
+  "dataNoHistory": {
+    "message": "sütik és webhelyadatok"
+  },
+  "dataNoSiteData": {
+    "message": "előzmények és sütik"
+  },
+  "dataCookies": {
+    "message": "sütik"
+  },
+  "remove": {
+    "message": "Eltávolítás"
+  },
+  "removeSite": {
+    "message": "$SITE$ eltávolítása",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ eltávolítva. Adatai ($DATA$) a következő törléskor törlődnek.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "A webhelyet nem sikerült eltávolítani."
+  },
+  "siteKept": {
+    "message": "$SITE$ megtartva.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ webhely megtartva.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ webhely megtartva.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ már meg van tartva.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ webhely már meg van tartva.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ webhely már meg van tartva.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "A(z) $SITE$ nem érvényes domain.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Ezek nem érvényes domainek: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Adjon meg egy érvényes domaint, például: example.com."
+  },
+  "addSiteFailed": {
+    "message": "A webhelyet nem sikerült hozzáadni."
+  },
+  "addSitesFailed": {
+    "message": "A webhelyeket nem sikerült hozzáadni."
+  },
+  "fileTooLarge": {
+    "message": "A(z) $FILE$ nagyobb 1 MB-nál, így a megtartott webhelyek nem változtak.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "A(z) $FILE$ nem tartalmaz érvényes domaint, így a megtartott webhelyek nem változtak.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Lecseréli a megtartott webhelyeket?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ webhely",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ webhely",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "A most megtartott webhelyek ($CURRENT$) helyére a(z) $FILE$ webhelyei ($NEW$) kerülnek.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ webhely többé nem lesz megtartva, és adatai ($DATA$) a következő törléskor törlődnek.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ webhely többé nem lesz megtartva, és adataik ($DATA$) a következő törléskor törlődnek.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Megtartott webhelyek cseréje"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ webhely importálva innen: $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ webhely importálva innen: $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "A megtartott webhelyeket nem sikerült exportálni."
+  },
+  "importFailed": {
+    "message": "A megtartott webhelyeket nem sikerült importálni innen: $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Bekapcsolja a törlést?"
+  },
+  "turnOnKept": {
+    "message": "A böngésző minden indulásakor törlődnek minden webhely adatai ($DATA$), kivéve azokét, amelyeket megtartásra kiválasztott. Minden más webhelyről ki lesz jelentkeztetve.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Nem választott ki megtartandó webhelyet. A böngésző minden indulásakor minden adat ($DATA$) törlődik, és minden webhelyről kijelentkezik.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "A törölt adatok ($DATA$) nem állíthatók vissza.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Most mindent töröl?"
+  },
+  "clearEverythingText": {
+    "message": "Nem választott ki megtartandó webhelyet, így most minden webhely adatai ($DATA$) törlődnek, és minden webhelyről kijelentkezik.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Minden törlése"
+  },
+  "leftoversTitle": {
+    "message": "Törli a visszamaradt webhelyadatokat?"
+  },
+  "leftoversKept": {
+    "message": "Most törlődnek minden nem megtartott webhely adatai ($DATA$), azoknak a webhelyeknek az adataival együtt, amelyeket a bővítmény már nem talál.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Egy megtartott webhely csak azokon a címeken tartja meg az adatait, amelyeket a bővítmény az előzményekben, a sütikben és a megnyitott lapokon talál. A megtartott webhely minden más aldomainje vagy portja, például egy hónapok óta nem látogatott aldomain vagy egy másik porton futó helyi szerver, elveszíti az adatait, és onnan kijelentkezhet."
+  },
+  "clearing": {
+    "message": "Törlés… Ez eltarthat néhány percig."
+  },
+  "leftoversFailed": {
+    "message": "A visszamaradt webhelyadatok törlése nem sikerült."
+  },
+  "leftoversCleared": {
+    "message": "A visszamaradt webhelyadatok törölve."
+  },
+  "nothingClearedYet": {
+    "message": "Még semmi sem lett törölve."
+  },
+  "clearFailed": {
+    "message": "A törlés ($WHEN$) nem sikerült.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ előzménybejegyzés",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ előzménybejegyzés",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ süti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ süti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "semmi"
+  },
+  "lastCleared": {
+    "message": "Utolsó törlés: $WHEN$. Törölve: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Utolsó törlés: $WHEN$. Törölve: $WHAT$, valamint a webhelyadatok és a gyorsítótár.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Utolsó törlés: $WHEN$. Törölve: $WHAT$, valamint minden nem megtartott webhely adatai és gyorsítótára.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Az előzmények és a webhelyadatok kimaradtak, mert ez a böngésző nem engedi, hogy bővítmények töröljék őket."
+  },
+  "skippedHistory": {
+    "message": "Az előzmények kimaradtak, mert ez a böngésző nem engedi, hogy bővítmények töröljék őket."
+  },
+  "skippedSiteData": {
+    "message": "A webhelyadatok kimaradtak, mert ez a böngésző nem engedi, hogy bővítmények töröljék őket."
+  },
+  "cookiesSkipped": {
+    "message": "A sütik kimaradtak, mert a webhely-hozzáférés ki van kapcsolva."
+  },
+  "loadFailed": {
+    "message": "A beállításokat nem sikerült betölteni."
+  }
+}

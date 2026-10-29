@@ -1,0 +1,47 @@
+Cambia la velocità di riproduzione di video e audio con un clic o una scorciatoia da tastiera.
+
+Change Video Playback Speed è un'estensione leggera e open source che alterna quattro utili velocità di riproduzione:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Fai clic sull'icona dell'estensione o usa la scorciatoia da tastiera per passare alla velocità successiva. La velocità scelta si applica a video e audio della pagina, compresi i player incorporati supportati.
+
+Suggerimento: blocca l'estensione nel menu Estensioni di Chrome (l'icona del pezzo di puzzle) per mantenere la sua icona sempre visibile sulla barra degli strumenti.
+
+La velocità attuale viene mostrata brevemente sulla pagina e nel badge della barra degli strumenti.
+
+FUNZIONI PRINCIPALI
+
+• Controllo con un clic e con scorciatoia da tastiera
+• Supporto per video e audio
+• Supporto per i player incorporati compatibili
+• Badge della velocità nella barra degli strumenti e indicatore sulla pagina visibile anche a schermo intero
+• Nessun menu a comparsa, controllo fluttuante o impostazione
+
+SCORCIATOIE DA TASTIERA PREDEFINITE
+
+• Windows, Linux, ChromeOS, GooglebookOS e Android: Alt+S
+• macOS: Command+Shift+Period
+
+CAMBIARE LA SCORCIATOIA DA TASTIERA
+
+1. Apri il menu di Chrome e seleziona Estensioni → Gestisci estensioni.
+2. Seleziona Scorciatoie da tastiera nella barra laterale.
+3. Trova Change Video Playback Speed e inserisci la scorciatoia che preferisci.
+
+PRIVACY
+
+• Nessuna analisi né tracciamento
+• Nessuna raccolta di dati o cronologia di navigazione
+• Nessuna richiesta di rete
+• Nessun accesso permanente ai siti web
+
+Tutte le modifiche di velocità avvengono localmente nel tuo browser.
+
+OPEN SOURCE
+
+Change Video Playback Speed è open source con licenza MIT.
+
+Visualizza il codice sorgente, segnala problemi o contribuisci su GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

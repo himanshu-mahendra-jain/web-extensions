@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Ative cópia, seleção de texto e menus do botão direito em páginas que os bloqueiam."
+  },
+  "commandDescription": {
+    "message": "Ativar cópia e botão direito na página atual"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: ativa",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Cópia e botão direito ativados."
+  },
+  "optionsTitle": {
+    "message": "Sites automáticos | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repositório do GitHub, abre em uma nova guia"
+  },
+  "automaticSitesHeading": {
+    "message": "Sites automáticos"
+  },
+  "automaticSitesIntro": {
+    "message": "Ative automaticamente cópia, seleção de texto e botão direito nos sites que você adicionar."
+  },
+  "siteInputLabel": {
+    "message": "Domínio do site"
+  },
+  "addSite": {
+    "message": "Adicionar site"
+  },
+  "noSites": {
+    "message": "Nenhum site automático adicionado ainda."
+  },
+  "siteListLabel": {
+    "message": "Sites automáticos"
+  },
+  "remove": {
+    "message": "Remover"
+  },
+  "removeSite": {
+    "message": "Remover $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (permissão removida)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ adicionado.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ ativado novamente.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ removido.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Este site já está ativado."
+  },
+  "invalidDomain": {
+    "message": "Digite um domínio válido, como example.com."
+  },
+  "permissionNotGranted": {
+    "message": "A permissão para o site não foi concedida."
+  },
+  "addFailed": {
+    "message": "Não foi possível adicionar o site."
+  },
+  "removeFailed": {
+    "message": "Não foi possível remover o site."
+  },
+  "loadFailed": {
+    "message": "Não foi possível carregar a lista de sites."
+  }
+}

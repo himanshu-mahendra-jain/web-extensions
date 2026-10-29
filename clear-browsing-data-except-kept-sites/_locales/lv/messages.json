@@ -1,0 +1,552 @@
+{
+  "extensionDescription": {
+    "message": "Pārlūka palaišanā notīra vēsturi, sīkfailus un vietņu datus visās vietnēs, izņemot tās, kuras paturat."
+  },
+  "optionsTitle": {
+    "message": "Paturētās vietnes | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub repozitorijs, tiek atvērts jaunā cilnē"
+  },
+  "accessHeading": {
+    "message": "Piekļuve vietnēm ir izslēgta"
+  },
+  "allowSiteAccess": {
+    "message": "Atļaut piekļuvi vietnēm"
+  },
+  "accessHistorySiteData": {
+    "message": "Bez piekļuves tīmekļa vietnēm paplašinājums nevar dzēst sīkfailus. Vēsture un vietņu dati joprojām tiek notīrīti."
+  },
+  "accessHistory": {
+    "message": "Bez piekļuves tīmekļa vietnēm paplašinājums nevar dzēst sīkfailus. Vēsture joprojām tiek notīrīta."
+  },
+  "accessSiteData": {
+    "message": "Bez piekļuves tīmekļa vietnēm paplašinājums nevar dzēst sīkfailus. Vietņu dati joprojām tiek notīrīti."
+  },
+  "accessNothing": {
+    "message": "Bez piekļuves tīmekļa vietnēm paplašinājums nevar dzēst sīkfailus, tāpēc nekas netiek notīrīts."
+  },
+  "clearingOffHeading": {
+    "message": "Notīrīšana ir izslēgta"
+  },
+  "clearingOffText": {
+    "message": "Pagaidām nekas netiek dzēsts. Pievienojiet vietnes, kurās vēlaties palikt pierakstījies, un pēc tam ieslēdziet notīrīšanu. No tā brīža katrā pārlūka palaišanā tiks dzēsti visu pārējo vietņu dati ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Ieslēgt notīrīšanu"
+  },
+  "keptSitesHeading": {
+    "message": "Paturētās vietnes"
+  },
+  "intro": {
+    "message": "Šīs vietnes un to apakšdomēni patur savus datus ($DATA$), tāpēc jūs paliekat pierakstījies. Kamēr notīrīšana ir ieslēgta, visas pārējās vietnes tos zaudē katrā pārlūka palaišanā.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Vietņu domēni"
+  },
+  "keep": {
+    "message": "Paturēt"
+  },
+  "siteHint": {
+    "message": "Vairākas vietnes atdaliet ar komatiem."
+  },
+  "noSites": {
+    "message": "Vēl netiek paturēta neviena vietne, tāpēc notīrīšana dzēš visu vietņu datus ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Paturētās vietnes"
+  },
+  "clearingHeading": {
+    "message": "Notīrīšana"
+  },
+  "clearOnStartupLabel": {
+    "message": "Automātiski notīrīt pārlūka palaišanā"
+  },
+  "clearNow": {
+    "message": "Notīrīt tūlīt"
+  },
+  "firstClearHint": {
+    "message": "Pirmā notīrīšana var ilgt vairākas minūtes, ja pārlūkā ir daudz pārlūkošanas datu. Tikmēr varat turpināt pārlūkot."
+  },
+  "leftoversHeading": {
+    "message": "Atlikušie vietņu dati"
+  },
+  "leftoversIntro": {
+    "message": "Kad vietnes vēsture un sīkfaili ir izdzēsti, paplašinājums to vairs neatrod, tāpēc tās lokālā krātuve, datu bāzes un kešatmiņa paliek. “Notīrīt atlikumus” pēc tādas notīrīšanas kā “Notīrīt tūlīt” dzēš visu nepaturēto vietņu datus, atrastu vai ne."
+  },
+  "clearLeftovers": {
+    "message": "Notīrīt atlikumus"
+  },
+  "transferHeading": {
+    "message": "Importēšana un eksportēšana"
+  },
+  "transferIntro": {
+    "message": "Saglabājiet paturētās vietnes teksta failā vai aizstājiet tās ar faila vietnēm. Failā var būt viena vietne katrā rindā vai vietnes, kas atdalītas ar komatiem."
+  },
+  "export": {
+    "message": "Eksportēt"
+  },
+  "import": {
+    "message": "Importēt"
+  },
+  "cancel": {
+    "message": "Atcelt"
+  },
+  "dataAll": {
+    "message": "vēsture, sīkfaili un vietņu dati"
+  },
+  "dataNoHistory": {
+    "message": "sīkfaili un vietņu dati"
+  },
+  "dataNoSiteData": {
+    "message": "vēsture un sīkfaili"
+  },
+  "dataCookies": {
+    "message": "sīkfaili"
+  },
+  "remove": {
+    "message": "Noņemt"
+  },
+  "removeSite": {
+    "message": "Noņemt $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ noņemta. Tās dati ($DATA$) tiks dzēsti nākamajā notīrīšanā.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Vietni nevarēja noņemt."
+  },
+  "siteKept": {
+    "message": "$SITE$ tiek paturēta.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_zero": {
+    "message": "Tiek paturētas $COUNT$ vietnes.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Tiek paturēta $COUNT$ vietne.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Tiek paturētas $COUNT$ vietnes.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ jau tiek paturēta.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_zero": {
+    "message": "$COUNT$ vietnes jau tiek paturētas.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ vietne jau tiek paturēta.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ vietnes jau tiek paturētas.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ nav derīgs domēns.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Šie nav derīgi domēni: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Ievadiet derīgu domēnu, piemēram, example.com."
+  },
+  "addSiteFailed": {
+    "message": "Vietni nevarēja pievienot."
+  },
+  "addSitesFailed": {
+    "message": "Vietnes nevarēja pievienot."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ ir lielāks par 1 MB, tāpēc paturētās vietnes nav mainītas.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "Failā $FILE$ nav derīgu domēnu, tāpēc paturētās vietnes nav mainītas.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Vai aizstāt paturētās vietnes?"
+  },
+  "siteCount_zero": {
+    "message": "$COUNT$ vietnes",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ vietne",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ vietnes",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Pašlaik paturētās vietnes ($CURRENT$) tiks aizstātas ar faila $FILE$ vietnēm ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_zero": {
+    "message": "$COUNT$ vietnes vairs netiks paturētas, un to dati ($DATA$) tiks dzēsti nākamajā notīrīšanā.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ vietne vairs netiks paturēta, un tās dati ($DATA$) tiks dzēsti nākamajā notīrīšanā.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ vietnes vairs netiks paturētas, un to dati ($DATA$) tiks dzēsti nākamajā notīrīšanā.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Aizstāt paturētās vietnes"
+  },
+  "sitesImported_zero": {
+    "message": "No $FILE$ importētas $COUNT$ vietnes.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_one": {
+    "message": "No $FILE$ importēta $COUNT$ vietne.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "No $FILE$ importētas $COUNT$ vietnes.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Paturētās vietnes nevarēja eksportēt."
+  },
+  "importFailed": {
+    "message": "Paturētās vietnes nevarēja importēt no $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Vai ieslēgt notīrīšanu?"
+  },
+  "turnOnKept": {
+    "message": "Katrā pārlūka palaišanā tiks dzēsti visu vietņu dati ($DATA$), izņemot tās, kuras izvēlējāties paturēt. Jūs tiksit izrakstīts no visām pārējām vietnēm.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Neesat izvēlējies nevienu paturamo vietni. Katrā pārlūka palaišanā tiks dzēsti visi dati ($DATA$), un jūs tiksit izrakstīts no visām vietnēm.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Dzēstos datus ($DATA$) nevar atgūt.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Vai notīrīt visu tūlīt?"
+  },
+  "clearEverythingText": {
+    "message": "Neesat izvēlējies nevienu paturamo vietni, tāpēc tūlīt tiks dzēsti visu vietņu dati ($DATA$), un jūs tiksit izrakstīts no visām vietnēm.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Notīrīt visu"
+  },
+  "leftoversTitle": {
+    "message": "Vai notīrīt atlikušos vietņu datus?"
+  },
+  "leftoversKept": {
+    "message": "Tūlīt tiks dzēsti visu nepaturēto vietņu dati ($DATA$), tostarp to vietņu dati, kuras paplašinājums vairs neatrod.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Paturēta vietne patur savus datus tikai tajās adresēs, kuras paplašinājums atrod vēsturē, sīkfailos un atvērtajās cilnēs. Jebkurš cits paturētas vietnes apakšdomēns vai ports, piemēram, apakšdomēns, kuru neesat apmeklējis mēnešiem ilgi, vai lokāls serveris citā portā, zaudē savus datus, un jūs varat tikt no tā izrakstīts."
+  },
+  "clearing": {
+    "message": "Notīra… Tas var ilgt dažas minūtes."
+  },
+  "leftoversFailed": {
+    "message": "Atlikušo vietņu datu notīrīšana neizdevās."
+  },
+  "leftoversCleared": {
+    "message": "Atlikušie vietņu dati notīrīti."
+  },
+  "nothingClearedYet": {
+    "message": "Vēl nekas nav notīrīts."
+  },
+  "clearFailed": {
+    "message": "Notīrīšana ($WHEN$) neizdevās.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_zero": {
+    "message": "$COUNT$ vēstures ieraksti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ vēstures ieraksts",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ vēstures ieraksti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_zero": {
+    "message": "$COUNT$ sīkfaili",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ sīkfails",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ sīkfaili",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "nekas"
+  },
+  "lastCleared": {
+    "message": "Pēdējo reizi notīrīts: $WHEN$. Dzēsts: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Pēdējo reizi notīrīts: $WHEN$. Dzēsts: $WHAT$, kā arī vietņu dati un kešatmiņa.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Pēdējo reizi notīrīts: $WHEN$. Dzēsts: $WHAT$, kā arī visu nepaturēto vietņu dati un kešatmiņa.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Vēsture un vietņu dati tika izlaisti, jo šis pārlūks neļauj paplašinājumiem tos notīrīt."
+  },
+  "skippedHistory": {
+    "message": "Vēsture tika izlaista, jo šis pārlūks neļauj paplašinājumiem to notīrīt."
+  },
+  "skippedSiteData": {
+    "message": "Vietņu dati tika izlaisti, jo šis pārlūks neļauj paplašinājumiem tos notīrīt."
+  },
+  "cookiesSkipped": {
+    "message": "Sīkfaili tika izlaisti, jo piekļuve vietnēm ir izslēgta."
+  },
+  "loadFailed": {
+    "message": "Iestatījumus nevarēja ielādēt."
+  }
+}

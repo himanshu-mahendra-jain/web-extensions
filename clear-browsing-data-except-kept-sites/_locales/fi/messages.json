@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Tyhjentää selaimen käynnistyessä historian, evästeet ja sivustotiedot kaikilta sivustoilta paitsi säilyttämiltäsi."
+  },
+  "optionsTitle": {
+    "message": "Säilytetyt sivustot | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-tietovarasto, avautuu uuteen välilehteen"
+  },
+  "accessHeading": {
+    "message": "Sivustojen käyttöoikeus on pois päältä"
+  },
+  "allowSiteAccess": {
+    "message": "Salli sivustojen käyttö"
+  },
+  "accessHistorySiteData": {
+    "message": "Ilman verkkosivustojen käyttöoikeutta laajennus ei voi poistaa evästeitä. Historia ja sivustotiedot tyhjennetään edelleen."
+  },
+  "accessHistory": {
+    "message": "Ilman verkkosivustojen käyttöoikeutta laajennus ei voi poistaa evästeitä. Historia tyhjennetään edelleen."
+  },
+  "accessSiteData": {
+    "message": "Ilman verkkosivustojen käyttöoikeutta laajennus ei voi poistaa evästeitä. Sivustotiedot tyhjennetään edelleen."
+  },
+  "accessNothing": {
+    "message": "Ilman verkkosivustojen käyttöoikeutta laajennus ei voi poistaa evästeitä, joten mitään ei tyhjennetä."
+  },
+  "clearingOffHeading": {
+    "message": "Tyhjennys on pois päältä"
+  },
+  "clearingOffText": {
+    "message": "Mitään ei vielä poisteta. Lisää sivustot, joilla haluat pysyä kirjautuneena, ja ota sitten tyhjennys käyttöön. Siitä lähtien kaikkien muiden sivustojen tiedot ($DATA$) poistetaan aina, kun selain käynnistyy.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Ota tyhjennys käyttöön"
+  },
+  "keptSitesHeading": {
+    "message": "Säilytetyt sivustot"
+  },
+  "intro": {
+    "message": "Nämä sivustot ja niiden aliverkkotunnukset säilyttävät tietonsa ($DATA$), joten pysyt kirjautuneena. Kun tyhjennys on käytössä, kaikki muut sivustot menettävät ne aina, kun selain käynnistyy.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Verkkosivustojen verkkotunnukset"
+  },
+  "keep": {
+    "message": "Säilytä"
+  },
+  "siteHint": {
+    "message": "Erota useat sivustot pilkuilla."
+  },
+  "noSites": {
+    "message": "Yhtään sivustoa ei vielä säilytetä, joten tyhjennys poistaa kaikkien sivustojen tiedot ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Säilytetyt sivustot"
+  },
+  "clearingHeading": {
+    "message": "Tyhjennys"
+  },
+  "clearOnStartupLabel": {
+    "message": "Tyhjennä automaattisesti selaimen käynnistyessä"
+  },
+  "clearNow": {
+    "message": "Tyhjennä nyt"
+  },
+  "firstClearHint": {
+    "message": "Ensimmäinen tyhjennys voi kestää useita minuutteja, jos selaimessa on paljon selaustietoja. Voit jatkaa selaamista sillä välin."
+  },
+  "leftoversHeading": {
+    "message": "Jäljelle jääneet sivustotiedot"
+  },
+  "leftoversIntro": {
+    "message": "Kun sivuston historia ja evästeet on poistettu, laajennus ei enää löydä sitä, joten sen paikallinen tallennustila, tietokannat ja välimuisti jäävät. Tyhjennä jäänteet poistaa kaikkien säilyttämättömien sivustojen sivustotiedot, löydettyjen tai ei, Tyhjennä nyt -toiminnon kaltaisen tyhjennyksen jälkeen."
+  },
+  "clearLeftovers": {
+    "message": "Tyhjennä jäänteet"
+  },
+  "transferHeading": {
+    "message": "Tuonti ja vienti"
+  },
+  "transferIntro": {
+    "message": "Tallenna säilytetyt sivustosi tekstitiedostoon tai korvaa ne tiedoston sivustoilla. Tiedostossa voi olla yksi sivusto riviä kohden tai sivustot pilkuilla erotettuina."
+  },
+  "export": {
+    "message": "Vie"
+  },
+  "import": {
+    "message": "Tuo"
+  },
+  "cancel": {
+    "message": "Peruuta"
+  },
+  "dataAll": {
+    "message": "historia, evästeet ja sivustotiedot"
+  },
+  "dataNoHistory": {
+    "message": "evästeet ja sivustotiedot"
+  },
+  "dataNoSiteData": {
+    "message": "historia ja evästeet"
+  },
+  "dataCookies": {
+    "message": "evästeet"
+  },
+  "remove": {
+    "message": "Poista"
+  },
+  "removeSite": {
+    "message": "Poista $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ poistettiin. Sen tiedot ($DATA$) poistetaan seuraavassa tyhjennyksessä.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Sivustoa ei voitu poistaa."
+  },
+  "siteKept": {
+    "message": "$SITE$ säilytetään.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ sivusto säilytetään.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ sivustoa säilytetään.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ säilytetään jo.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ sivusto säilytetään jo.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ sivustoa säilytetään jo.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ ei ole kelvollinen verkkotunnus.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Nämä eivät ole kelvollisia verkkotunnuksia: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Anna kelvollinen verkkotunnus, esimerkiksi example.com."
+  },
+  "addSiteFailed": {
+    "message": "Sivustoa ei voitu lisätä."
+  },
+  "addSitesFailed": {
+    "message": "Sivustoja ei voitu lisätä."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ on yli 1 Mt, joten säilytettyjä sivustoja ei muutettu.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "Tiedostossa $FILE$ ei ole kelvollisia verkkotunnuksia, joten säilytettyjä sivustoja ei muutettu.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Korvataanko säilytetyt sivustot?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ sivusto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ sivustoa",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Nyt säilyttämäsi sivustot ($CURRENT$) korvataan tiedoston $FILE$ sivustoilla ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ sivustoa ei enää säilytetä, ja sen tiedot ($DATA$) poistetaan seuraavassa tyhjennyksessä.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ sivustoa ei enää säilytetä, ja niiden tiedot ($DATA$) poistetaan seuraavassa tyhjennyksessä.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Korvaa säilytetyt sivustot"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ sivusto tuotiin tiedostosta $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ sivustoa tuotiin tiedostosta $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Säilytettyjä sivustoja ei voitu viedä."
+  },
+  "importFailed": {
+    "message": "Säilytettyjä sivustoja ei voitu tuoda tiedostosta $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Otetaanko tyhjennys käyttöön?"
+  },
+  "turnOnKept": {
+    "message": "Aina kun selain käynnistyy, kaikkien sivustojen tiedot ($DATA$) poistetaan paitsi niiden, jotka olet valinnut säilytettäviksi. Sinut kirjataan ulos kaikilta muilta sivustoilta.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Et ole valinnut säilytettäviä sivustoja. Aina kun selain käynnistyy, kaikki tiedot ($DATA$) poistetaan ja sinut kirjataan ulos kaikilta sivustoilta.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Poistettuja tietoja ($DATA$) ei voi palauttaa.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Tyhjennetäänkö kaikki nyt?"
+  },
+  "clearEverythingText": {
+    "message": "Et ole valinnut säilytettäviä sivustoja, joten kaikkien sivustojen tiedot ($DATA$) poistetaan nyt ja sinut kirjataan ulos kaikilta sivustoilta.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Tyhjennä kaikki"
+  },
+  "leftoversTitle": {
+    "message": "Tyhjennetäänkö jäljelle jääneet sivustotiedot?"
+  },
+  "leftoversKept": {
+    "message": "Kaikkien säilyttämättömien sivustojen tiedot ($DATA$) poistetaan nyt, myös niiden sivustojen tiedot, joita laajennus ei enää löydä.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Säilytetty sivusto säilyttää sivustotietonsa vain osoitteissa, jotka laajennus löytää historiasta, evästeistä ja avoimista välilehdistä. Säilytetyn sivuston muut aliverkkotunnukset tai portit, kuten sellainen, jolla et ole käynyt kuukausiin, tai paikallinen palvelin toisessa portissa, menettävät sivustotietonsa, ja sinut voidaan kirjata niistä ulos."
+  },
+  "clearing": {
+    "message": "Tyhjennetään… Tämä voi kestää muutaman minuutin."
+  },
+  "leftoversFailed": {
+    "message": "Jäljelle jääneiden sivustotietojen tyhjennys epäonnistui."
+  },
+  "leftoversCleared": {
+    "message": "Jäljelle jääneet sivustotiedot tyhjennettiin."
+  },
+  "nothingClearedYet": {
+    "message": "Mitään ei ole vielä tyhjennetty."
+  },
+  "clearFailed": {
+    "message": "Tyhjennys ($WHEN$) epäonnistui.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ historiamerkintä",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ historiamerkintää",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ eväste",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ evästettä",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "ei mitään"
+  },
+  "lastCleared": {
+    "message": "Viimeksi tyhjennetty: $WHEN$. Poistettu: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Viimeksi tyhjennetty: $WHEN$. Poistettu: $WHAT$ sekä sivustotiedot ja välimuisti.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Viimeksi tyhjennetty: $WHEN$. Poistettu: $WHAT$ sekä kaikkien säilyttämättömien sivustojen tiedot ja välimuisti.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Historia ja sivustotiedot ohitettiin, koska tämä selain ei anna laajennusten tyhjentää niitä."
+  },
+  "skippedHistory": {
+    "message": "Historia ohitettiin, koska tämä selain ei anna laajennusten tyhjentää sitä."
+  },
+  "skippedSiteData": {
+    "message": "Sivustotiedot ohitettiin, koska tämä selain ei anna laajennusten tyhjentää niitä."
+  },
+  "cookiesSkipped": {
+    "message": "Evästeet ohitettiin, koska sivustojen käyttöoikeus on pois päältä."
+  },
+  "loadFailed": {
+    "message": "Asetuksia ei voitu ladata."
+  }
+}

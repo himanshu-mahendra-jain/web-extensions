@@ -1,0 +1,47 @@
+Video ve ses oynatma hızını tek tıklamayla veya bir klavye kısayoluyla değiştirin.
+
+Change Video Playback Speed, dört kullanışlı oynatma hızı arasında geçiş yapan hafif, açık kaynaklı bir uzantıdır:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Sonraki hıza geçmek için uzantı simgesine tıklayın veya klavye kısayolunu kullanın. Seçilen hız, desteklenen gömülü oynatıcılar da dahil olmak üzere sayfadaki video ve seslere uygulanır.
+
+İpucu: Edge Uzantılar menüsünde Change Video Playback Speed için «Araç çubuğunda göster» seçeneğini açarak hızlı erişim sağlayın.
+
+Geçerli hız kısa süreliğine sayfada ve araç çubuğundaki rozette gösterilir.
+
+TEMEL ÖZELLİKLER
+
+• Tek tıklama ve klavye kısayoluyla kontrol
+• Video ve ses desteği
+• Uyumlu gömülü oynatıcı desteği
+• Araç çubuğunda hız rozeti ve tam ekranda da görünen sayfa göstergesi
+• Açılır menü, kayan kontrol veya ayar yok
+
+VARSAYILAN KLAVYE KISAYOLLARI
+
+• Windows, Linux, ChromeOS, GooglebookOS ve Android: Alt+S
+• macOS: Command+Shift+Period
+
+KLAVYE KISAYOLUNU DEĞİŞTİRME
+
+1. Uzantılar menüsünü açın ve Uzantıları yönet'i seçin.
+2. Kenar çubuğunda Klavye kısayolları'nı seçin.
+3. Change Video Playback Speed'i bulun ve tercih ettiğiniz kısayolu girin.
+
+GİZLİLİK
+
+• Analiz veya izleme yok
+• Veri veya tarama geçmişi toplanmaz
+• Ağ isteği yok
+• Web sitelerine kalıcı erişim yok
+
+Tüm hız değişiklikleri yerel olarak tarayıcınızda gerçekleşir.
+
+AÇIK KAYNAK
+
+Change Video Playback Speed, MIT Lisansı altında sunulan açık kaynaklı bir projedir.
+
+Kaynak kodunu incelemek, sorun bildirmek veya katkıda bulunmak için GitHub'ı ziyaret edin:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

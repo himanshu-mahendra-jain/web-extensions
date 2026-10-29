@@ -1,0 +1,47 @@
+Mijenjajte brzinu reprodukcije videa i zvuka jednim klikom ili tipkovničkim prečacem.
+
+Change Video Playback Speed lagano je proširenje otvorenog koda koje izmjenjuje četiri korisne brzine reprodukcije:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Kliknite ikonu proširenja ili upotrijebite tipkovnički prečac za prelazak na sljedeću brzinu. Odabrana brzina primjenjuje se na video i zvuk na stranici, uključujući podržane ugrađene playere.
+
+Savjet: Prikvačite proširenje u Chromeovom izborniku proširenja (ikona slagalice) kako bi ikona bila uvijek dostupna na alatnoj traci.
+
+Trenutačna brzina nakratko se prikazuje na stranici i na značci na alatnoj traci.
+
+GLAVNE ZNAČAJKE
+
+• Upravljanje jednim klikom i tipkovničkim prečacem
+• Podrška za video i zvuk
+• Podrška za kompatibilne ugrađene playere
+• Značka brzine na alatnoj traci i pokazatelj na stranici koji se vidi i na cijelom zaslonu
+• Bez skočnih izbornika, plutajućih kontrola i postavki
+
+ZADANI TIPKOVNIČKI PREČACI
+
+• Windows, Linux, ChromeOS, GooglebookOS i Android: Alt+S
+• macOS: Command+Shift+Period
+
+PROMJENA TIPKOVNIČKOG PREČACA
+
+1. Otvorite izbornik Chromea i odaberite Proširenja → Upravljanje proširenjima.
+2. Na bočnoj traci odaberite Tipkovni prečaci.
+3. Pronađite Change Video Playback Speed i unesite željeni prečac.
+
+PRIVATNOST
+
+• Bez analitike i praćenja
+• Bez prikupljanja podataka ili povijesti pregledavanja
+• Bez mrežnih zahtjeva
+• Bez trajnog pristupa web-stranicama
+
+Sve promjene brzine odvijaju se lokalno u vašem pregledniku.
+
+OTVORENI KOD
+
+Change Video Playback Speed je projekt otvorenog koda pod licencom MIT.
+
+Pregledajte izvorni kod, prijavite probleme ili doprinesite na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

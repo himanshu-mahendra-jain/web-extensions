@@ -27,6 +27,7 @@ Google Chrome, Microsoft Edge, and Mozilla Firefox, each on Windows, macOS, Linu
 * No storage or browsing-history collection
 * No network requests
 * No analytics or tracking
+* In the browser's language: every Chrome Web Store language, with English as the fallback
 
 ## Playback Speed Cycle
 
@@ -55,17 +56,20 @@ Users can change the shortcut at any time through their browser's extension keyb
 
 ```text
 change-video-playback-speed/
+├── _locales/        <language>/messages.json: the extension's text, one per Chrome Web Store language
 ├── icons/           icon16.png, icon32.png, icon48.png, icon128.png
 ├── options/
 │   └── placeholder
 ├── src/
 │   ├── background.js
+│   ├── i18n.js
 │   ├── playback.js
 │   └── page.js
 ├── store-assets/
 │   ├── chrome/      chrome.txt and Chrome Web Store images
 │   ├── edge/        edge.txt and Edge Add-ons images
-│   └── firefox/     firefox.txt and the Firefox screenshot
+│   ├── firefox/     firefox.txt and the Firefox screenshot
+│   └── store-descriptions/<language>/  the listings translated
 ├── tests/
 │   ├── android/
 │   │   ├── playback.spec.js
@@ -73,6 +77,7 @@ change-video-playback-speed/
 │   │   └── visual.spec.js-snapshots/
 │   ├── command.spec.js
 │   ├── fake-chrome.js
+│   ├── locales.spec.js
 │   ├── manifest.spec.js
 │   ├── media.js
 │   ├── page.spec.js
@@ -89,8 +94,9 @@ change-video-playback-speed/
 * `src/background.js`: handles toolbar clicks, keyboard shortcut commands, active-tab lookup for keyboard commands, and per-tab operation queues. The queue processes rapid actions sequentially within a tab while different tabs operate independently.
 * `src/playback.js`: coordinates the two-pass playback-speed workflow, first inspecting accessible frames, then applying one synchronized speed to media across them.
 * `src/page.js`: self-contained functions executed in webpage contexts to inspect media state and apply playback speed.
+* `src/i18n.js`: the text in the browser's language, from `_locales/`; `speedLabels()` writes the indicator's text with the speed as the language writes numbers, such as `1,5x` in German, and the background passes it to `page.js`, which cannot read the extension's messages.
 * `options/placeholder`: only keeps the required directory present. The extension does not provide an options page.
-* `store-assets/`: browser-store listing text and promotional images. They are not included in the distribution packages.
+* `store-assets/`: browser-store listing text and promotional images, not packaged, with [translated listings](../README.md#store-listings) in `store-descriptions/`.
 * `tests/`: Playwright tests. The `*-snapshots/` folders hold baseline screenshots of the on-page indicator in Chromium, Firefox, and Firefox for Android; see [Screenshots](../README.md#screenshots) in the monorepo README.
 
 Generated distribution packages are written to `dist/`, which is not tracked in Git.
@@ -103,7 +109,7 @@ Some embedded frames may not be accessible because of browser security restricti
 
 ## Toolbar Badge and Speed Indicator
 
-After changing playback speed, the extension displays the selected value (`1`, `1.2`, `1.5`, or `2`) in the toolbar badge. The badge is tab-specific.
+After changing playback speed, the extension displays the selected value (`1`, `1.2`, `1.5`, or `2`) in the toolbar badge, in these digits in every language. The badge is tab-specific.
 
 Every successful playback-speed change also displays a temporary indicator in the center of the page. It appears only in the top frame, shows over fullscreen players, does not intercept pointer events, cannot be selected, uses a very high stacking order, and automatically disappears after one and a half seconds.
 

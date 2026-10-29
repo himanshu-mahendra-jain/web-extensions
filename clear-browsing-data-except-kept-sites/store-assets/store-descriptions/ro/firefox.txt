@@ -1,0 +1,91 @@
+La pornirea browserului, șterge istoricul, cookie-urile și datele site-urilor, cu excepția site-urilor pe care le păstrați.
+
+Firefox pentru Android nu permite extensiilor să șteargă istoricul, așa că acolo se șterg doar cookie-urile și datele site-urilor.
+
+Clear Browsing Data Except Kept Sites este o extensie ușoară și open source care elimină intrările din istoric, cookie-urile și datele site-urilor pentru toate site-urile pe care nu ați ales să le păstrați.
+
+Adăugați în setări site-urile pe care vreți să rămâneți conectat și pe care vreți să le rețineți, apoi activați ștergerea. La fiecare pornire a browserului, extensia șterge istoricul și cookie-urile tuturor celorlalte site-uri. Puteți șterge și oricând cu „Ștergeți acum”.
+
+FUNCȚII PRINCIPALE
+
+• O listă de site-uri al căror istoric și ale căror cookie-uri nu sunt șterse niciodată, cu import și export ca fișier text
+• Șterge istoricul și cookie-urile tuturor celorlalte site-uri la pornirea browserului, după ce o activați
+• Ștergere oricând cu „Ștergeți acum” în setări
+• Păstrează automat subdomeniile unui site păstrat
+• Păstrează cookie-urile domeniului părinte de care un site păstrat are nevoie ca să rămâneți conectat
+• Șterge cookie-urile partiționate (terță parte) și cookie-urile containerelor; cookie-urile partiționate ale unui site păstrat rămân doar sub site-uri păstrate
+• Șterge stocarea locală, IndexedDB, service workers și memoria cache a site-urilor nepăstrate
+• Afișează rezultatul ultimei ștergeri în setări
+• Avertizează când accesul la site-uri este dezactivat și cookie-urile nu pot fi șterse
+• Fără analize sau urmărire
+• Fără cod la distanță sau solicitări de rețea
+
+SITE-URI PĂSTRATE
+
+Deschideți setările și adăugați un domeniu, de exemplu:
+
+example.com
+
+Pentru a adăuga mai multe deodată, separați-le prin virgule.
+
+„Exportați” salvează lista într-un fișier text, câte un domeniu pe rând. „Importați” înlocuiește lista cu site-urile dintr-un fișier text și avertizează mai întâi dacă astfel dispar site-uri pe care le păstrați acum.
+
+O adresă precum mail.example.com/inbox este redusă la domeniul ei, iar un www. inițial este eliminat. Sunt acceptate și localhost și adrese IPv4 precum 192.168.1.1.
+
+Păstrarea example.com păstrează istoricul și cookie-urile example.com și ale tuturor subdomeniilor sale. Păstrarea mail.example.com păstrează și cookie-urile example.com, deoarece acestea conțin adesea conectarea subdomeniului.
+
+DESCHIDEREA SETĂRILOR
+
+Setările se deschid automat după instalare, ca să puteți completa lista înainte de a activa ștergerea. Ulterior, faceți clic pe pictograma extensiei din bara de instrumente. În Firefox pentru Android, atingeți Clear Browsing Data Except Kept Sites în meniul Extensii al browserului.
+
+Le puteți deschide și din managerul de suplimente:
+
+1. Deschideți meniul Firefox și selectați Suplimente și teme.
+2. Găsiți Clear Browsing Data Except Kept Sites și faceți clic pe meniul cu trei puncte de lângă el.
+3. Selectați Preferințe.
+
+ȘTERGERE LA PORNIRE
+
+După instalare ștergerea este dezactivată, deci nu se elimină nimic până nu cereți. Setările afișează anunțul „Ștergerea este dezactivată” cu butonul „Activați ștergerea”. Activarea afișează mai întâi un avertisment: fiecare pornire șterge istoricul și cookie-urile tuturor site-urilor, cu excepția celor păstrate, și vă deconectează de pe ele, sau de pe toate site-urile când nu este păstrat niciunul.
+
+Odată activată, ștergerea rulează la fiecare pornire a browserului, deoarece browserul nu lasă extensiile să ruleze la închidere. Ștergerea la pornire elimină ce a lăsat sesiunea anterioară. Dezactivați-o sau activați-o din nou cu „Ștergeți automat la pornirea browserului” în setări.
+
+ȘTERGEȚI ACUM
+
+„Ștergeți acum” din setări șterge imediat. Când nu este păstrat niciun site, apare mai întâi un avertisment roșu că totul va fi șters. Setările arată când a avut loc ultima ștergere și câte intrări din istoric și cookie-uri a șters.
+
+ACCES LA SITE-URI
+
+Cookie-urile pot fi eliminate doar pentru site-urile la care extensia are acces, așa că cere acces la toate site-urile. Dacă dezactivați accesul la site-uri, istoricul este în continuare șters, dar cookie-urile sunt omise, iar setările afișează butonul „Permiteți accesul la site-uri”.
+
+LIMITĂRI
+
+• Filele restaurate la pornire pot seta cookie-uri noi în timp ce rulează ștergerea. Acele cookie-uri rămân până la următoarea pornire sau până la „Ștergeți acum”.
+• Firefox nu poate șterge datele site-urilor cu excepția site-urilor alese, așa că extensia șterge stocarea locală, IndexedDB și service workers ale fiecărui site nepăstrat pe care îl găsește în istoric, cookie-uri și filele deschise. Un site care nu apare în niciunul dintre acestea își păstrează datele. Un site cu un subdomeniu păstrat își păstrează service workers, deoarece Firefox i-ar șterge odată cu ei pe cei ai subdomeniului. Memoria cache este ștearsă pentru toate site-urile, deoarece Firefox nu o poate șterge pe site; asta nu deconectează pe nimeni.
+• Firefox nu poate șterge pe site Cache Storage, adică fișierele offline salvate de service workers, așa că nu este șters. Pentru a elimina ce nu poate atinge extensia, folosiți Setări > Confidențialitate și securitate > Cookie-uri și date ale site-urilor > Gestionează datele.
+• Dacă sincronizarea browserului include istoricul, intrările eliminate pot fi eliminate și pe celelalte dispozitive ale dvs.
+• Ferestrele private sunt șterse doar când extensia are voie să ruleze în ele.
+
+CONFIDENȚIALITATE
+
+• Fără analize sau urmărire
+• Fără colectare de date
+• Fără solicitări de rețea
+• Fără cod la distanță
+• Fără JavaScript extern
+• Istoricul și cookie-urile sunt citite doar pentru a decide ce să fie eliminat, și doar în browserul dvs.
+• Lista și setările sunt stocate local în browserul dvs.
+
+PERFORMANȚĂ
+
+Extensia nu face nimic cât timp navigați. Rulează o dată la pornirea browserului, dacă ștergerea este activată, și când faceți clic pe „Ștergeți acum”.
+
+Prima ștergere a unui istoric lung poate dura câteva minute, deoarece fiecare intrare din istoric este ștearsă separat. Între timp puteți continua să navigați. Ștergerile următoare elimină doar intrările sesiunii anterioare.
+
+SURSA DESCHISĂ (OPEN SOURCE)
+
+Clear Browsing Data Except Kept Sites este un proiect open source distribuit sub Licența MIT.
+
+Vizualizați codul sursă, raportați probleme sau contribuiți pe GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

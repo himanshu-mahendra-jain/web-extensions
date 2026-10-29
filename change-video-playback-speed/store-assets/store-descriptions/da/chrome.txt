@@ -1,0 +1,47 @@
+Skift afspilningshastigheden for video og lyd med ét klik eller en tastaturgenvej.
+
+Change Video Playback Speed er en let udvidelse med åben kildekode, der skifter mellem fire nyttige afspilningshastigheder:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klik på udvidelsens ikon, eller brug tastaturgenvejen for at gå til næste hastighed. Den valgte hastighed bruges på video og lyd på siden, også i understøttede indlejrede afspillere.
+
+Tip: Fastgør udvidelsen i Chromes udvidelsesmenu (puslespilsikonet) for at have ikonet let tilgængeligt på værktøjslinjen.
+
+Den aktuelle hastighed vises kort på siden og på mærket på værktøjslinjen.
+
+VIGTIGSTE FUNKTIONER
+
+• Styring med ét klik og med tastaturgenvej
+• Understøtter video og lyd
+• Understøtter kompatible indlejrede afspillere
+• Hastighedsmærke på værktøjslinjen og en indikator på siden, der også ses i fuld skærm
+• Ingen pop op-menuer, flydende knapper eller indstillinger
+
+STANDARDTASTATURGENVEJE
+
+• Windows, Linux, ChromeOS, GooglebookOS og Android: Alt+S
+• macOS: Command+Shift+Period
+
+SKIFT TASTATURGENVEJEN
+
+1. Åbn Chrome-menuen, og vælg Udvidelser → Administrer udvidelser.
+2. Vælg Tastaturgenveje i sidepanelet.
+3. Find Change Video Playback Speed, og indtast den genvej, du foretrækker.
+
+PRIVATLIV
+
+• Ingen analyse eller sporing
+• Ingen indsamling af data eller browserhistorik
+• Ingen netværksanmodninger
+• Ingen permanent adgang til websites
+
+Alle ændringer af hastigheden sker lokalt i din browser.
+
+OPEN SOURCE
+
+Change Video Playback Speed er open source og udgivet under MIT-licensen.
+
+Se kildekoden, rapportér problemer eller bidrag på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

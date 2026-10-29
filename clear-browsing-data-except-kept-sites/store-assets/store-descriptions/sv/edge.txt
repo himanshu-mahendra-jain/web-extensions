@@ -1,0 +1,90 @@
+Rensar historik, cookies och webbplatsdata när webbläsaren startar för alla webbplatser utom dem du behåller.
+
+Clear Browsing Data Except Kept Sites är ett lättviktigt tillägg med öppen källkod som tar bort historikposter, cookies och webbplatsdata för alla webbplatser du inte har valt att behålla.
+
+Lägg i inställningarna till de webbplatser där du vill förbli inloggad och som du vill komma ihåg, och slå sedan på rensning. Varje gång webbläsaren startar tar tillägget bort historik, cookies och webbplatsdata för alla andra webbplatser. Du kan också rensa när som helst med ”Rensa nu”.
+
+Tips: I Edges tilläggsmeny slår du på «Visa i verktygsfältet» för Clear Browsing Data Except Kept Sites för enkel åtkomst.
+
+VIKTIGASTE FUNKTIONER
+
+• En lista med webbplatser vars historik och cookies aldrig rensas, med import och export som textfil
+• Rensar historik och cookies för alla andra webbplatser när webbläsaren startar, efter att du har slagit på det
+• Rensa när som helst med ”Rensa nu”, och rensa kvarvarande data från webbplatser som inte längre hittas med ”Rensa rester”
+• Behåller automatiskt underdomänerna till en behållen webbplats
+• Behåller överordnade domänens cookies som en behållen webbplats behöver för att du ska förbli inloggad
+• Rensar partitionerade cookies (från tredje part); en behållen webbplats partitionerade cookies stannar bara under behållna webbplatser
+• Rensar lokal lagring, IndexedDB, service workers och cache för webbplatser som inte behålls
+• Visar resultatet av den senaste rensningen i inställningarna
+• Varnar när webbplatsåtkomst är avstängd och cookies inte kan tas bort
+• Ingen analys eller spårning
+• Ingen fjärrkod eller nätverksförfrågningar
+
+BEHÅLLNA WEBBPLATSER
+
+Öppna inställningarna och lägg till en domän, till exempel:
+
+example.com
+
+Om du vill lägga till flera på en gång separerar du dem med kommatecken.
+
+”Exportera” sparar listan som en textfil, en domän per rad. ”Importera” ersätter listan med webbplatserna i en textfil och varnar först om webbplatser du behåller nu försvinner.
+
+En adress som mail.example.com/inbox kortas till sin domän, och ett inledande www. tas bort. localhost och IPv4-adresser som 192.168.1.1 godtas också.
+
+Att behålla example.com behåller historik, cookies och webbplatsdata för example.com och alla dess underdomäner. Att behålla mail.example.com behåller också cookies för example.com, eftersom de ofta innehåller underdomänens inloggning.
+
+ÖPPNA INSTÄLLNINGARNA
+
+Inställningarna öppnas automatiskt efter installationen, så att du kan fylla i listan innan du slår på rensning. Senare klickar du på tilläggets ikon i verktygsfältet, eller:
+
+1. Högerklicka på tilläggets ikon i verktygsfältet.
+2. Välj Tilläggsalternativ.
+
+RENSNING VID START
+
+Efter installationen är rensning avstängd, så inget tas bort förrän du ber om det. Inställningarna visar meddelandet ”Rensning är avstängd” med knappen ”Slå på rensning”. När du slår på det visas först en varning: varje start tar bort historik och cookies för alla webbplatser utom de behållna och loggar ut dig från dem, eller från alla webbplatser om ingen behålls.
+
+När den är på körs rensningen varje gång webbläsaren startar, eftersom webbläsaren inte låter tillägg köras när den stängs. Rensning vid start tar bort det som förra sessionen lämnade kvar. Stäng av eller slå på den igen med ”Rensa automatiskt när webbläsaren startar” i inställningarna.
+
+RENSA NU OCH RENSA RESTER
+
+”Rensa nu” i inställningarna rensar direkt. Om ingen webbplats behålls visas först en röd varning om att allt kommer att tas bort. Inställningarna visar när den senaste rensningen gjordes och hur många historikposter och cookies den tog bort.
+
+När en rensning har tagit bort en webbplats historik och cookies hittar senare rensningar inte längre den webbplatsen, så dess lokala lagring, databaser och cache finns kvar. ”Rensa rester” kör en rensning och tar sedan bort data för alla webbplatser du inte behåller, hittade eller inte. Webbläsaren kan här bara skona exakta webbplatser, så en behållen webbplats behåller data bara för sig själv och för de behållna webbplatser som rensningen hittar i historik, cookies och öppna flikar; en röd varning säger det först.
+
+WEBBPLATSÅTKOMST
+
+Cookies kan bara tas bort för webbplatser som tillägget har åtkomst till, så det ber om åtkomst till alla webbplatser. Om du begränsar webbplatsåtkomsten, till exempel till ”Vid klick”, rensas historiken fortfarande, men cookies hoppas över och inställningarna visar knappen ”Tillåt webbplatsåtkomst”.
+
+BEGRÄNSNINGAR
+
+• Flikar som återställs vid start kan sätta nya cookies medan rensningen pågår. De cookies finns kvar till nästa start eller nästa ”Rensa nu”.
+• Annan webbplatsdata, som sessionslagring, webbplatsbehörigheter och filer som sparats via File System API, rensas inte.
+• Om webbläsarens synkronisering omfattar historik kan borttagna historikposter tas bort även på dina andra enheter.
+• InPrivate-fönster rensas bara när tillägget är tillåtet i InPrivate. Edge slänger ändå deras data när de stängs.
+• IPv6-adresser kan inte läggas till i listan.
+
+INTEGRITET
+
+• Ingen analys eller spårning
+• Ingen datainsamling
+• Inga nätverksförfrågningar
+• Ingen fjärrkod
+• Ingen extern JavaScript
+• Historik och cookies läses bara för att avgöra vad som ska tas bort, och bara i din webbläsare
+• Listan och inställningarna lagras lokalt i din webbläsare
+
+PRESTANDA
+
+Tillägget gör ingenting medan du surfar. Det körs en gång när webbläsaren startar, om rensning är på, och när du klickar på ”Rensa nu” eller ”Rensa rester”.
+
+Den första rensningen av en lång historik kan ta några minuter, eftersom varje historikpost tas bort separat. Du kan fortsätta surfa under tiden. Senare rensningar tar bara bort förra sessionens poster.
+
+ÖPPEN KÄLLKOD
+
+Clear Browsing Data Except Kept Sites är öppen källkod och licensierad under MIT-licensen.
+
+Granska källkoden, rapportera problem eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

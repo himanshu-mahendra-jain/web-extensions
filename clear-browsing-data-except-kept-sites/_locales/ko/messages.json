@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "브라우저가 시작될 때 보관하는 사이트를 제외한 모든 사이트의 방문 기록, 쿠키, 사이트 데이터를 삭제합니다."
+  },
+  "optionsTitle": {
+    "message": "보관할 사이트 | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub 저장소, 새 탭에서 열림"
+  },
+  "accessHeading": {
+    "message": "사이트 액세스가 꺼져 있음"
+  },
+  "allowSiteAccess": {
+    "message": "사이트 액세스 허용"
+  },
+  "accessHistorySiteData": {
+    "message": "웹사이트에 액세스할 수 없으면 확장 프로그램이 쿠키를 삭제할 수 없습니다. 방문 기록과 사이트 데이터는 계속 삭제됩니다."
+  },
+  "accessHistory": {
+    "message": "웹사이트에 액세스할 수 없으면 확장 프로그램이 쿠키를 삭제할 수 없습니다. 방문 기록은 계속 삭제됩니다."
+  },
+  "accessSiteData": {
+    "message": "웹사이트에 액세스할 수 없으면 확장 프로그램이 쿠키를 삭제할 수 없습니다. 사이트 데이터는 계속 삭제됩니다."
+  },
+  "accessNothing": {
+    "message": "웹사이트에 액세스할 수 없으면 확장 프로그램이 쿠키를 삭제할 수 없으므로 아무것도 삭제되지 않습니다."
+  },
+  "clearingOffHeading": {
+    "message": "삭제가 꺼져 있음"
+  },
+  "clearingOffText": {
+    "message": "아직 아무것도 삭제되지 않습니다. 로그인 상태를 유지할 사이트를 추가한 다음 삭제를 켜세요. 그 후로는 브라우저가 시작될 때마다 다른 모든 사이트의 데이터($DATA$)가 삭제됩니다.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "삭제 켜기"
+  },
+  "keptSitesHeading": {
+    "message": "보관할 사이트"
+  },
+  "intro": {
+    "message": "이 사이트와 하위 도메인은 데이터($DATA$)를 유지하므로 로그인 상태가 유지됩니다. 삭제가 켜져 있는 동안 다른 모든 사이트는 브라우저가 시작될 때마다 이를 잃습니다.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "웹사이트 도메인"
+  },
+  "keep": {
+    "message": "보관"
+  },
+  "siteHint": {
+    "message": "여러 사이트는 쉼표로 구분하세요."
+  },
+  "noSites": {
+    "message": "아직 보관하는 사이트가 없으므로 삭제하면 모든 사이트의 데이터($DATA$)가 삭제됩니다.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "보관할 사이트"
+  },
+  "clearingHeading": {
+    "message": "삭제"
+  },
+  "clearOnStartupLabel": {
+    "message": "브라우저가 시작될 때 자동으로 삭제"
+  },
+  "clearNow": {
+    "message": "지금 삭제"
+  },
+  "firstClearHint": {
+    "message": "브라우저에 인터넷 사용 기록 데이터가 많으면 첫 삭제는 몇 분 정도 걸릴 수 있습니다. 그동안 계속 탐색할 수 있습니다."
+  },
+  "leftoversHeading": {
+    "message": "남은 사이트 데이터"
+  },
+  "leftoversIntro": {
+    "message": "사이트의 방문 기록과 쿠키가 삭제되면 확장 프로그램이 더 이상 해당 사이트를 찾지 못하므로 로컬 저장소, 데이터베이스, 캐시가 남습니다. '남은 데이터 삭제'는 '지금 삭제' 같은 삭제 후에, 찾았는지와 관계없이 보관하지 않는 모든 사이트의 사이트 데이터를 삭제합니다."
+  },
+  "clearLeftovers": {
+    "message": "남은 데이터 삭제"
+  },
+  "transferHeading": {
+    "message": "가져오기 및 내보내기"
+  },
+  "transferIntro": {
+    "message": "보관할 사이트를 텍스트 파일로 저장하거나 파일의 사이트로 바꿉니다. 파일에는 한 줄에 사이트 하나씩 쓰거나 쉼표로 구분해 쓸 수 있습니다."
+  },
+  "export": {
+    "message": "내보내기"
+  },
+  "import": {
+    "message": "가져오기"
+  },
+  "cancel": {
+    "message": "취소"
+  },
+  "dataAll": {
+    "message": "방문 기록, 쿠키, 사이트 데이터"
+  },
+  "dataNoHistory": {
+    "message": "쿠키, 사이트 데이터"
+  },
+  "dataNoSiteData": {
+    "message": "방문 기록, 쿠키"
+  },
+  "dataCookies": {
+    "message": "쿠키"
+  },
+  "remove": {
+    "message": "삭제"
+  },
+  "removeSite": {
+    "message": "$SITE$ 삭제",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$을(를) 목록에서 삭제했습니다. 이 사이트의 데이터($DATA$)는 다음 삭제 때 삭제됩니다.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "사이트를 목록에서 삭제할 수 없습니다."
+  },
+  "siteKept": {
+    "message": "$SITE$을(를) 보관합니다.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "사이트 $COUNT$개를 보관합니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "사이트 $COUNT$개를 보관합니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$은(는) 이미 보관 중입니다.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "사이트 $COUNT$개는 이미 보관 중입니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "사이트 $COUNT$개는 이미 보관 중입니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$은(는) 올바른 도메인이 아닙니다.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "올바른 도메인이 아닙니다: $SITES$",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "example.com과 같은 올바른 도메인을 입력하세요."
+  },
+  "addSiteFailed": {
+    "message": "사이트를 추가할 수 없습니다."
+  },
+  "addSitesFailed": {
+    "message": "사이트를 추가할 수 없습니다."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$이(가) 1MB보다 커서 보관할 사이트가 변경되지 않았습니다.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$에 올바른 도메인이 없어 보관할 사이트가 변경되지 않았습니다.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "보관할 사이트를 바꿀까요?"
+  },
+  "siteCount_one": {
+    "message": "사이트 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "사이트 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "지금 보관 중인 사이트($CURRENT$)가 $FILE$의 사이트($NEW$)로 바뀝니다.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "사이트 $COUNT$개는 더 이상 보관되지 않으며, 해당 데이터($DATA$)는 다음 삭제 때 삭제됩니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "사이트 $COUNT$개는 더 이상 보관되지 않으며, 해당 데이터($DATA$)는 다음 삭제 때 삭제됩니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "보관할 사이트 바꾸기"
+  },
+  "sitesImported_one": {
+    "message": "$FILE$에서 사이트 $COUNT$개를 가져왔습니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$FILE$에서 사이트 $COUNT$개를 가져왔습니다.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "보관할 사이트를 내보낼 수 없습니다."
+  },
+  "importFailed": {
+    "message": "$FILE$에서 보관할 사이트를 가져올 수 없습니다.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "삭제를 켤까요?"
+  },
+  "turnOnKept": {
+    "message": "브라우저가 시작될 때마다 보관하도록 선택한 사이트를 제외한 모든 사이트의 데이터($DATA$)가 삭제됩니다. 다른 모든 사이트에서 로그아웃됩니다.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "보관할 사이트를 선택하지 않았습니다. 브라우저가 시작될 때마다 모든 데이터($DATA$)가 삭제되고 모든 사이트에서 로그아웃됩니다.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "삭제된 데이터($DATA$)는 복구할 수 없습니다.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "지금 모두 삭제할까요?"
+  },
+  "clearEverythingText": {
+    "message": "보관할 사이트를 선택하지 않았으므로 지금 모든 사이트의 데이터($DATA$)가 삭제되고 모든 사이트에서 로그아웃됩니다.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "모두 삭제"
+  },
+  "leftoversTitle": {
+    "message": "남은 사이트 데이터를 삭제할까요?"
+  },
+  "leftoversKept": {
+    "message": "보관하지 않는 모든 사이트의 데이터($DATA$)가 지금 삭제됩니다. 확장 프로그램이 더 이상 찾지 못하는 사이트의 사이트 데이터도 포함됩니다.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "보관할 사이트는 확장 프로그램이 방문 기록, 쿠키, 열린 탭에서 찾은 주소에서만 사이트 데이터를 유지합니다. 보관할 사이트의 다른 하위 도메인이나 포트(몇 달째 방문하지 않은 하위 도메인이나 다른 포트의 로컬 서버 등)는 사이트 데이터를 잃으며, 해당 위치에서 로그아웃될 수 있습니다."
+  },
+  "clearing": {
+    "message": "삭제하는 중… 몇 분 정도 걸릴 수 있습니다."
+  },
+  "leftoversFailed": {
+    "message": "남은 사이트 데이터를 삭제하지 못했습니다."
+  },
+  "leftoversCleared": {
+    "message": "남은 사이트 데이터를 삭제했습니다."
+  },
+  "nothingClearedYet": {
+    "message": "아직 삭제된 항목이 없습니다."
+  },
+  "clearFailed": {
+    "message": "$WHEN$ 삭제에 실패했습니다.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "방문 기록 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "방문 기록 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "쿠키 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "쿠키 $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "없음"
+  },
+  "lastCleared": {
+    "message": "마지막 삭제: $WHEN$. 삭제된 항목: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "마지막 삭제: $WHEN$. 삭제된 항목: $WHAT$, 사이트 데이터 및 캐시.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "마지막 삭제: $WHEN$. 삭제된 항목: $WHAT$, 보관하지 않는 모든 사이트의 사이트 데이터 및 캐시.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "이 브라우저는 확장 프로그램이 방문 기록과 사이트 데이터를 삭제하도록 허용하지 않아 건너뛰었습니다."
+  },
+  "skippedHistory": {
+    "message": "이 브라우저는 확장 프로그램이 방문 기록을 삭제하도록 허용하지 않아 건너뛰었습니다."
+  },
+  "skippedSiteData": {
+    "message": "이 브라우저는 확장 프로그램이 사이트 데이터를 삭제하도록 허용하지 않아 건너뛰었습니다."
+  },
+  "cookiesSkipped": {
+    "message": "사이트 액세스가 꺼져 있어 쿠키를 건너뛰었습니다."
+  },
+  "loadFailed": {
+    "message": "설정을 불러올 수 없습니다."
+  }
+}

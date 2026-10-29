@@ -1,0 +1,42 @@
+Tutup tab semasa dengan ketikan tiga jari, klik tengah atau klik pada bar alat.
+
+Three Finger Tap to Close Tab ialah sambungan sumber terbuka yang ringan untuk menutup tab pelayar semasa dengan cepat dan mudah.
+
+Ketik dengan tiga jari atau klik tengah di mana-mana pada halaman web di luar pautan dan medan yang boleh diedit untuk menutup tab semasa. Anda juga boleh mengklik ikon sambungan pada bar alat untuk menutup tab.
+
+Petua: Sematkan sambungan dalam menu Sambungan Chrome (ikon kepingan teka-teki) untuk mengekalkan ikonnya pada bar alat.
+
+Klik tengah pada pautan dan kad suapan mengekalkan tingkah laku biasa pelayar, jadi anda masih boleh membuka pautan dan siaran dalam tab baharu seperti biasa. Zon keselamatan terbina dalam menghalang tab tertutup secara tidak sengaja jika anda mengetik betul-betul di sebelah pautan atau kawalan.
+
+CIRI UTAMA
+
+• Tutup tab semasa dengan ketikan tiga jari
+• Tutup tab semasa dengan klik tengah
+• Tutup tab semasa dengan klik pada bar alat
+• Mengekalkan klik tengah biasa pada pautan, butang dan kad suapan
+• Zon keselamatan menghalang tab tertutup secara tidak sengaja berhampiran elemen interaktif
+• Tidak menutup tab semasa anda menggunakan borang dan medan yang boleh diedit
+• Tiada menu timbul atau tetapan
+
+PERSEDIAAN PAD SENTUH
+
+Pad sentuh dan sistem pengendalian anda mesti ditetapkan supaya ketikan tiga jari menghasilkan klik tengah.
+
+Selepas ditetapkan, ketik dengan tiga jari pada halaman web di luar pautan dan kandungan interaktif untuk menutup tab semasa.
+
+PRIVASI
+
+• Tiada analitik atau penjejakan
+• Tidak mengumpul data atau sejarah penyemakan imbas
+• Tiada permintaan rangkaian
+• Tidak menyimpan aktiviti penyemakan imbas atau pilihan
+
+Semua penutupan tab berlaku secara setempat dalam pelayar anda.
+
+SUMBER TERBUKA
+
+Three Finger Tap to Close Tab ialah projek sumber terbuka di bawah Lesen MIT.
+
+Lihat kod sumber, laporkan isu atau sumbangkan kod di GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

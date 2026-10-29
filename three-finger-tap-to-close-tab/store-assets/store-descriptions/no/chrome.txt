@@ -1,0 +1,42 @@
+Lukk gjeldende fane med et trefingertrykk, et midtklikk eller et klikk på verktøylinjen.
+
+Three Finger Tap to Close Tab er en lett utvidelse med åpen kildekode som gir en rask og enkel måte å lukke gjeldende nettleserfane på.
+
+Trykk med tre fingre eller midtklikk hvor som helst på en nettside utenfor lenker og redigerbare felt for å lukke gjeldende fane. Du kan også klikke på utvidelsens ikon på verktøylinjen.
+
+Tips: Fest utvidelsen i Chromes utvidelsesmeny (puslespillikonet) for å holde ikonet synlig på verktøylinjen.
+
+Midtklikk på lenker og feedkort beholder nettleserens vanlige oppførsel, så du kan fortsatt åpne lenker og innlegg i nye faner som før. En innebygd sikkerhetsavstand hindrer at fanen lukkes ved et uhell hvis du trykker like ved en lenke eller kontroll.
+
+VIKTIGSTE FUNKSJONER
+
+• Lukk gjeldende fane med et trefingertrykk
+• Lukk gjeldende fane med et midtklikk
+• Lukk gjeldende fane med et klikk på verktøylinjen
+• Beholder vanlig midtklikk på lenker, knapper og feedkort
+• Sikkerhetsavstand hindrer utilsiktet lukking nær interaktive elementer
+• Lukker ikke faner mens du bruker skjemaer og redigerbare felt
+• Ingen hurtigmenyer eller innstillinger
+
+OPPSETT AV STYREFLATE
+
+Styreflaten og operativsystemet må være satt opp slik at et trefingertrykk gir et midtklikk.
+
+Deretter trykker du med tre fingre på en nettside utenfor lenker og interaktivt innhold for å lukke gjeldende fane.
+
+PERSONVERN
+
+• Ingen analyse eller sporing
+• Ingen innsamling av data eller nettleserlogg
+• Ingen nettverksforespørsler
+• Ingen lagret nettleseraktivitet eller innstillinger
+
+All lukking av faner skjer lokalt i nettleseren din.
+
+ÅPEN KILDEKODE
+
+Three Finger Tap to Close Tab er åpen kildekode og lisensiert under MIT-lisensen.
+
+Se kildekoden, rapporter problemer eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

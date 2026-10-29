@@ -29,6 +29,7 @@ JavaScript source code is shared across all supported browsers.
 -   Support event detection through Shadow DOM event paths
 -   No popup, settings page, storage, or browsing-history collection
 -   No network requests, analytics, or tracking
+-   Description in the browser's language, for every Chrome Web Store one
 
 ## Usage
 
@@ -43,14 +44,14 @@ JavaScript source code is shared across all supported browsers.
     and Edge, pin it in the Extensions menu to keep it on the toolbar;
     Firefox puts it on the toolbar when the extension is installed.
 -   **In Firefox for Android**, tap the extension in the browser's
-    Extensions menu to close the current tab.
-
-All of these perform the same tab-closing operation.
+    Extensions menu to close the current tab. All of these close it
+    the same way.
 
 ## Project Structure
 
 ``` text
 three-finger-tap-to-close-tab/
+├── _locales/        <language>/messages.json: the description, one per Chrome Web Store language
 ├── icons/           icon16.png, icon32.png, icon48.png, icon128.png
 ├── options/
 │   └── placeholder
@@ -60,11 +61,13 @@ three-finger-tap-to-close-tab/
 ├── store-assets/
 │   ├── chrome/      chrome.txt and Chrome Web Store images
 │   ├── edge/        edge.txt and Edge Add-ons images
-│   └── firefox/     firefox.txt and the Firefox screenshots
+│   ├── firefox/     firefox.txt and the Firefox screenshots
+│   └── store-descriptions/<language>/  the listings translated
 ├── tests/
 │   ├── android/
 │   │   └── close-tab.spec.js
 │   ├── close-tab.spec.js
+│   ├── locales.spec.js
 │   └── manifest.spec.js
 ├── manifest.json
 ├── manifest-firefox.json
@@ -84,9 +87,9 @@ three-finger-tap-to-close-tab/
     buttons other than the middle mouse button, prevents a handled
     event from continuing, and asks the background script to close the
     tab.
--   `options/placeholder`: only keeps the required directory present.
-    The extension does not provide an options page.
--   `store-assets/`: store listing texts and images, not packaged.
+-   `options/placeholder`: keeps the required directory; no options page.
+-   `store-assets/`: store listing texts and images, not packaged, with
+    [translated listings](../README.md#store-listings) in `store-descriptions/`.
 -   `tests/`: Playwright tests, with the Firefox for Android ones in `tests/android/`.
 
 ## Interactive Elements

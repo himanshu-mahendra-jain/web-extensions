@@ -1,0 +1,80 @@
+Activați copierea, selectarea textului și meniurile de clic dreapta pe paginile web care le blochează.
+
+Enable Copy and Right Click este o extensie ușoară, open source, care readuce copierea, selectarea textului și clicul dreapta normale pe paginile web care restricționează aceste acțiuni.
+
+Faceți clic pe pictograma extensiei din bara de instrumente sau folosiți comanda rapidă de la tastatură pentru a activa copierea și clicul dreapta în fila curentă.
+
+Sfat: fixați extensia în meniul Extensii din Chrome (pictograma piesă de puzzle) pentru a-i păstra pictograma pe bara de instrumente.
+
+Puteți adăuga și site-uri de încredere în lista de site-uri automate. Extensia va activa apoi automat copierea și clicul dreapta de fiecare dată când vizitați acele site-uri.
+
+FUNCȚII PRINCIPALE
+
+• Activează copierea și selectarea textului pe paginile web restricționate
+• Activează meniurile contextuale de clic dreapta
+• Activează copierea, decuparea, lipirea, selectarea textului și tragerea
+• Activare cu un clic din bara de instrumente
+• Comandă rapidă de la tastatură pentru activare rapidă
+• Activare automată pe site-urile pe care le alegeți
+• Funcționează în iframe-urile accesibile, acolo unde permisiunile browserului o permit
+• Afișează o insignă ON după activarea manuală
+• Fără meniuri pop-up
+• Fără analize sau urmărire
+• Fără cod la distanță sau solicitări de rețea
+
+COMENZI RAPIDE IMPLICITE
+
+• Windows, Linux, ChromeOS, GooglebookOS și Android: Alt+C
+• macOS: Command+Shift+Y
+
+Comanda rapidă de la tastatură face același lucru ca un clic pe pictograma extensiei.
+
+SCHIMBAREA COMENZII RAPIDE
+
+1. Deschideți meniul Chrome și selectați Extensii → Gestionează extensiile.
+2. Selectați Comenzi rapide de la tastatură în bara laterală.
+3. Găsiți Enable Copy and Right Click și introduceți comanda rapidă preferată.
+
+SITE-URI AUTOMATE
+
+Deschideți pagina de opțiuni a extensiei și adăugați un domeniu, de exemplu:
+
+example.com
+
+Extensia va cere permisiunea doar pentru site-ul pe care îl adăugați. După ce permisiunea este acordată, copierea, selectarea textului și clicul dreapta vor fi activate automat pe acel site.
+
+Puteți elimina oricând un site automat din pagina de opțiuni.
+
+DESCHIDEREA PAGINII DE OPȚIUNI
+
+1. Faceți clic dreapta pe pictograma extensiei din bara de instrumente.
+2. Selectați Opțiuni.
+
+CONFIDENȚIALITATE
+
+• Fără analize sau urmărire
+• Fără colectare de date
+• Fără colectarea istoricului de navigare
+• Fără solicitări de rețea
+• Fără cod la distanță
+• Fără JavaScript extern
+• Preferințele pentru site-urile automate sunt stocate local în browser
+• Permisiunile pentru site-uri sunt cerute doar când adăugați explicit un site
+
+Toată restabilirea copierii și a clicului dreapta are loc local, în browser.
+
+PERFORMANȚĂ
+
+Extensia este ușoară și funcționează pe bază de evenimente.
+
+Nu face nicio activitate continuă în fundal cât timp este inactivă. Activarea manuală rulează doar când faceți clic pe pictograma din bara de instrumente sau folosiți comanda rapidă de la tastatură. Activarea automată rulează doar pe site-urile pe care le-ați adăugat explicit.
+
+Nu există interogări periodice, activitate de rețea în fundal, SDK de analiză, configurare la distanță sau buclă de monitorizare permanentă a paginilor.
+
+SURSA DESCHISĂ (OPEN SOURCE)
+
+Enable Copy and Right Click este un proiect open source distribuit sub Licența MIT.
+
+Vizualizați codul sursă, raportați probleme sau contribuiți pe GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

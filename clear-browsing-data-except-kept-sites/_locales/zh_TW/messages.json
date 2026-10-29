@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "瀏覽器啟動時，清除你保留的網站以外所有網站的瀏覽記錄、Cookie 和網站資料。"
+  },
+  "optionsTitle": {
+    "message": "保留的網站 | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub 存放區，在新分頁中開啟"
+  },
+  "accessHeading": {
+    "message": "網站存取權已關閉"
+  },
+  "allowSiteAccess": {
+    "message": "允許存取網站"
+  },
+  "accessHistorySiteData": {
+    "message": "沒有網站存取權，擴充功能就無法刪除 Cookie。瀏覽記錄和網站資料仍會清除。"
+  },
+  "accessHistory": {
+    "message": "沒有網站存取權，擴充功能就無法刪除 Cookie。瀏覽記錄仍會清除。"
+  },
+  "accessSiteData": {
+    "message": "沒有網站存取權，擴充功能就無法刪除 Cookie。網站資料仍會清除。"
+  },
+  "accessNothing": {
+    "message": "沒有網站存取權，擴充功能就無法刪除 Cookie，因此不會清除任何內容。"
+  },
+  "clearingOffHeading": {
+    "message": "清除功能已關閉"
+  },
+  "clearingOffText": {
+    "message": "目前還不會刪除任何內容。請新增你想保持登入的網站，然後開啟清除功能。此後每次瀏覽器啟動時，其他所有網站的資料（$DATA$）都會遭到刪除。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "開啟清除功能"
+  },
+  "keptSitesHeading": {
+    "message": "保留的網站"
+  },
+  "intro": {
+    "message": "這些網站及其子網域會保留自己的資料（$DATA$），因此你會保持登入。清除功能開啟期間，其他所有網站會在每次瀏覽器啟動時失去這些資料。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "網站網域"
+  },
+  "keep": {
+    "message": "保留"
+  },
+  "siteHint": {
+    "message": "以逗號分隔多個網站。"
+  },
+  "noSites": {
+    "message": "目前沒有保留任何網站，因此清除時會刪除所有網站的資料（$DATA$）。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "保留的網站"
+  },
+  "clearingHeading": {
+    "message": "清除"
+  },
+  "clearOnStartupLabel": {
+    "message": "瀏覽器啟動時自動清除"
+  },
+  "clearNow": {
+    "message": "立即清除"
+  },
+  "firstClearHint": {
+    "message": "如果瀏覽器中有大量瀏覽資料，第一次清除可能需要幾分鐘。這段期間你可以繼續瀏覽。"
+  },
+  "leftoversHeading": {
+    "message": "殘留的網站資料"
+  },
+  "leftoversIntro": {
+    "message": "網站的瀏覽記錄和 Cookie 遭到刪除後，擴充功能就再也找不到該網站，因此它的本機儲存空間、資料庫和快取會留下來。在執行「立即清除」等清除之後，「清除殘留」會刪除所有未保留網站的網站資料，無論是否找到。"
+  },
+  "clearLeftovers": {
+    "message": "清除殘留"
+  },
+  "transferHeading": {
+    "message": "匯入和匯出"
+  },
+  "transferIntro": {
+    "message": "將保留的網站儲存到文字檔，或改用某個檔案中的網站取代。檔案可以每行列出一個網站，也可以用逗號分隔。"
+  },
+  "export": {
+    "message": "匯出"
+  },
+  "import": {
+    "message": "匯入"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "dataAll": {
+    "message": "瀏覽記錄、Cookie 和網站資料"
+  },
+  "dataNoHistory": {
+    "message": "Cookie 和網站資料"
+  },
+  "dataNoSiteData": {
+    "message": "瀏覽記錄和 Cookie"
+  },
+  "dataCookies": {
+    "message": "Cookie"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "removeSite": {
+    "message": "移除 $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "已移除 $SITE$。它的資料（$DATA$）會在下次清除時刪除。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "無法移除網站。"
+  },
+  "siteKept": {
+    "message": "已保留 $SITE$。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "已保留 $COUNT$ 個網站。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "已保留 $COUNT$ 個網站。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ 已在保留清單中。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ 個網站已在保留清單中。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ 個網站已在保留清單中。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ 不是有效的網域。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "以下不是有效的網域：$SITES$。",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "請輸入有效的網域，例如 example.com。"
+  },
+  "addSiteFailed": {
+    "message": "無法新增網站。"
+  },
+  "addSitesFailed": {
+    "message": "無法新增這些網站。"
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ 超過 1 MB，因此保留的網站沒有變更。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ 中沒有有效的網域，因此保留的網站沒有變更。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "要取代保留的網站嗎？"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ 個網站",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ 個網站",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "你目前保留的網站（$CURRENT$）將由 $FILE$ 中的網站（$NEW$）取代。",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ 個網站將不再保留，其資料（$DATA$）會在下次清除時刪除。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ 個網站將不再保留，其資料（$DATA$）會在下次清除時刪除。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "取代保留的網站"
+  },
+  "sitesImported_one": {
+    "message": "已從 $FILE$ 匯入 $COUNT$ 個網站。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "已從 $FILE$ 匯入 $COUNT$ 個網站。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "無法匯出保留的網站。"
+  },
+  "importFailed": {
+    "message": "無法從 $FILE$ 匯入保留的網站。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "要開啟清除功能嗎？"
+  },
+  "turnOnKept": {
+    "message": "每次瀏覽器啟動時，除了你選擇保留的網站之外，所有網站的資料（$DATA$）都會遭到刪除。你會登出其他所有網站。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "你沒有選擇要保留的網站。每次瀏覽器啟動時，所有資料（$DATA$）都會遭到刪除，你會登出所有網站。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "刪除的資料（$DATA$）無法復原。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "要立即清除所有內容嗎？"
+  },
+  "clearEverythingText": {
+    "message": "你沒有選擇要保留的網站，因此現在會刪除所有網站的資料（$DATA$），你會登出所有網站。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "全部清除"
+  },
+  "leftoversTitle": {
+    "message": "要清除殘留的網站資料嗎？"
+  },
+  "leftoversKept": {
+    "message": "現在會刪除所有未保留網站的資料（$DATA$），包括擴充功能已找不到的網站的資料。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "保留的網站只會在擴充功能從瀏覽記錄、Cookie 和開啟的分頁中找到的位址上保留網站資料。保留網站的其他任何子網域或連接埠（例如幾個月沒造訪的子網域，或其他連接埠上的本機伺服器）都會失去網站資料，你可能會在那裡被登出。"
+  },
+  "clearing": {
+    "message": "正在清除… 可能需要幾分鐘。"
+  },
+  "leftoversFailed": {
+    "message": "無法清除殘留的網站資料。"
+  },
+  "leftoversCleared": {
+    "message": "已清除殘留的網站資料。"
+  },
+  "nothingClearedYet": {
+    "message": "尚未清除任何內容。"
+  },
+  "clearFailed": {
+    "message": "$WHEN$ 的清除失敗。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ 筆瀏覽記錄",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ 筆瀏覽記錄",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ 個 Cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ 個 Cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "無"
+  },
+  "lastCleared": {
+    "message": "上次清除：$WHEN$。已刪除：$WHAT$。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "上次清除：$WHEN$。已刪除：$WHAT$，以及網站資料和快取。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "上次清除：$WHEN$。已刪除：$WHAT$，以及所有未保留網站的網站資料和快取。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "已略過瀏覽記錄和網站資料，因為這個瀏覽器不允許擴充功能清除這些資料。"
+  },
+  "skippedHistory": {
+    "message": "已略過瀏覽記錄，因為這個瀏覽器不允許擴充功能清除瀏覽記錄。"
+  },
+  "skippedSiteData": {
+    "message": "已略過網站資料，因為這個瀏覽器不允許擴充功能清除網站資料。"
+  },
+  "cookiesSkipped": {
+    "message": "已略過 Cookie，因為網站存取權已關閉。"
+  },
+  "loadFailed": {
+    "message": "無法載入設定。"
+  }
+}

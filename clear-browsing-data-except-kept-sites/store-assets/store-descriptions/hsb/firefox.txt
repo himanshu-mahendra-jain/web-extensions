@@ -1,0 +1,91 @@
+Zhašće historiju, placki a sydłowe daty při startowanju wobhladowaka za kóžde sydło nimo tych, kotrež wobchowujeće.
+
+Firefox za Android rozšěrjenjam njedowola historiju zhašeć, tohodla so tam jenož placki a sydłowe daty zhašeja.
+
+Clear Browsing Data Except Kept Sites je lochke rozšěrjenje z wotewrjenym žórłowym kodom, kotrež zapiski historije, placki a sydłowe daty wšěch sydłow wotstronja, kotrež njejsće za wobchowanje wubrał.
+
+Přidajće w nastajenjach sydła, na kotrychž chceće přizjewjeny wostać a kotrež maja was sej spomjatkować, a zmóžńće potom zhašenje. Při kóždym startowanju wobhladowaka rozšěrjenje historiju a placki wšěch druhich sydłow zhaša. Móžeće tež kóždy čas z „Nětko zhašeć“ zhašeć.
+
+HŁOWNE FUNKCIJE
+
+• Lisćina sydłow, kotrychž historija a placki so ženje njezhašeja, z importom a eksportom jako tekstowa dataja
+• Zhaša historiju a placki wšěch druhich sydłow při startowanju wobhladowaka, po tym zo sće to zmóžnił
+• Zhašenje kóždy čas z „Nětko zhašeć“ w nastajenjach
+• Wobchowuje awtomatisce poddomeny wobchowaneho sydła
+• Wobchowuje placki nadrjadowaneje domeny, kotrež wobchowane sydło trjeba, zo byšće přizjewjeny wostał
+• Zhaša partitioněrowane placki (třećich) a placki kontejnerow; partitioněrowane placki wobchowaneho sydła wostanu jenož pod wobchowanymi sydłami
+• Zhaša lokalny składowak, IndexedDB, service workers a pufrowak sydłow, kotrež so njewobchowuja
+• Pokazuje wuslědk posledneho zhašenja w nastajenjach
+• Warnuje, hdyž je přistup k sydłam znjemóžnjeny a placki njedadźa so zhašeć
+• Žana analyza a žane slědowanje
+• Žadyn zdaleny kod a žane syćowe naprašowanja
+
+WOBCHOWANE SYDŁA
+
+Wočińće nastajenja a přidajće domenu, na přikład:
+
+example.com
+
+Zo byšće wjacore naraz přidał, dźělće je z komami.
+
+„Eksportować“ lisćinu jako tekstowu dataju składuje, jednu domenu na linku. „Importować“ lisćinu přez sydła z tekstoweje dataje narunuje a warnuje najprjedy, jeli so tak sydła zhubja, kotrež nětko wobchowujeće.
+
+Adresa kaž mail.example.com/inbox so na swoju domenu skrótši, a spočatny www. so wotstroni. localhost a adresy IPv4 kaž 192.168.1.1 so tež akceptuja.
+
+Wobchowanje example.com historiju a placki example.com a wšěch jeho poddomenow wobchowuje. Wobchowanje mail.example.com tež placki example.com wobchowuje, dokelž často přizjewjenje poddomeny wobsahuja.
+
+NASTAJENJA WOČINIĆ
+
+Nastajenja so po instalaciji awtomatisce wočinja, zo byšće móhł lisćinu wupjelnić, prjedy hač zhašenje zmóžnjeće. Pozdźišo klikńće na symbol rozšěrjenja w symbolowej lajsće. We Firefox za Android podótkńće so Clear Browsing Data Except Kept Sites w meniju Rozšěrjenja wobhladowaka.
+
+Móžeće je tež z zrjadowaka přidatkow wočinić:
+
+1. Wočińće meni Firefox a wubjerće Přidatki a drasty.
+2. Pytajće Clear Browsing Data Except Kept Sites a klikńće na meni z třomi dypkami pódla njeje.
+3. Wubjerće Nastajenja.
+
+ZHAŠENJE PŘI STARTOWANJU
+
+Po instalaciji je zhašenje znjemóžnjene, tak zo so ničo njewotstroni, doniž wo to njeprošeće. Nastajenja pokazuja zdźělenku „Zhašenje je znjemóžnjene“ z tłóčatkom „Zhašenje zmóžnić“. Zmóžnjenje najprjedy warnowanje pokazuje: kóžde startowanje historiju a placki wšěch sydłow nimo wobchowanych zhaša a was z nich wotzjewi, abo ze wšěch sydłow, jeli so žane njewobchowuje.
+
+Hdyž je zmóžnjene, so zhašenje při kóždym startowanju wobhladowaka wuwjedźe, dokelž wobhladowak rozšěrjenjam njedowoli při začinjenju běžeć. Zhašenje při startowanju wotstroni, štož je předchadne posedźenje zawostajiło. Znjemóžńće abo zmóžńće je znowa z „Awtomatisce zhašeć, hdyž so wobhladowak startuje“ w nastajenjach.
+
+NĚTKO ZHAŠEĆ
+
+„Nětko zhašeć“ w nastajenjach hnydom zhaša. Jeli so žane sydło njewobchowuje, so najprjedy čerwjene warnowanje pokaza, zo so wšitko zhaša. Nastajenja pokazuja, hdy je poslednje zhašenje było a kelko zapiskow historije a plackow je zhašało.
+
+PŘISTUP K SYDŁAM
+
+Placki dadźa so jenož za sydła wotstronić, ke kotrymž rozšěrjenje přistup ma, tohodla wo přistup ke wšěm sydłam prosy. Jeli přistup k sydłam znjemóžnjeće, so historija dale zhaša, ale placki so přeskakuja, a nastajenja tłóčatko „Přistup k sydłam dowolić“ pokazuja.
+
+WOBMJEZOWANJA
+
+• Rajtarki, kotrež so při startowanju wobnowjeja, móža nowe placki stajić, mjeztym zo zhašenje běži. Te placki wostanu hač do přichodneho startowanja abo přichodneho „Nětko zhašeć“.
+• Firefox njemóže sydłowe daty zhašeć a při tym wubrane sydła wuwzać, tohodla rozšěrjenje lokalny składowak, IndexedDB a service workers kóždeho njewobchowaneho sydła zhaša, kotrež w historiji, plackach a wočinjenych rajtarkach namaka. Sydło, kotrež so w ničim z toho njejewi, swoje daty wobchowa. Sydło z wobchowanej poddomenu swoje service workers wobchowa, dokelž Firefox by z nimi tež te poddomeny zhašał. Pufrowak so za wšě sydła zhaša, dokelž Firefox njemóže jón po sydłach zhašeć; to nikoho njewotzjewi.
+• Firefox njemóže Cache Storage, offline-dataje, kotrež service workers składuja, po sydłach zhašeć, tohodla so njezhaša. Zo byšće wotstronił, štož rozšěrjenje njedosahnje, wužiwajće Nastajenja > Priwatnosć a wěstota > Placki a sydłowe daty > Daty rjadować.
+• Jeli synchronizacija wobhladowaka historiju wopřijima, móža so wotstronjene zapiski historije tež na wašich druhich gratach wotstronić.
+• Priwatne wokna so jenož zhašeja, hdyž rozšěrjenje směće w nich běžeć.
+
+PRIWATNOSĆ
+
+• Žana analyza a žane slědowanje
+• Žane zběranje datow
+• Žane syćowe naprašowanja
+• Žadyn zdaleny kod
+• Žadyn eksterny JavaScript
+• Historija a placki so jenož čitaja, zo by so rozsudźiło, štož ma so wotstronić, a jenož w wašim wobhladowaku
+• Lisćina a nastajenja so lokalnje w wašim wobhladowaku składuja
+
+WUKON
+
+Rozšěrjenje ničo nječini, mjeztym zo přehladujeće. Běži jónu při startowanju wobhladowaka, jeli je zhašenje zmóžnjene, a hdyž na „Nětko zhašeć“ kliknjeće.
+
+Prěnje zhašenje dołheje historije móže někotre mjeńšiny trać, dokelž so kóždy zapisk historije jednotliwje zhaša. Mjeztym móžeće dale přehladować. Pozdźiše zhašenja jenož zapiski předchadneho posedźenja wotstronjeja.
+
+WOTEWRJENY ŽÓRŁOWY KOD
+
+Clear Browsing Data Except Kept Sites ma wotewrjeny žórłowy kod a je licencowany pod licencu MIT.
+
+Wobhladajće sej žórłowy kod, zdźělće problemy abo přinošujće na GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

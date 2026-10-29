@@ -1,0 +1,90 @@
+Pri pokretanju preglednika briše povijest, kolačiće i podatke web-mjesta svih web-mjesta osim onih koje zadržavate.
+
+Clear Browsing Data Except Kept Sites lagano je proširenje otvorenog koda koje uklanja stavke povijesti, kolačiće i podatke web-mjesta svih web-mjesta koja niste odlučili zadržati.
+
+U postavkama dodajte web-mjesta na kojima želite ostati prijavljeni i koja želite pamtiti, a zatim uključite brisanje. Pri svakom pokretanju preglednika proširenje briše povijest, kolačiće i podatke web-mjesta svih ostalih web-mjesta. Možete brisati i bilo kada gumbom „Izbriši sada”.
+
+Savjet: U izborniku proširenja preglednika Edge uključite «Prikaži na alatnoj traci» za Clear Browsing Data Except Kept Sites za brz pristup.
+
+GLAVNE ZNAČAJKE
+
+• Popis web-mjesta čija se povijest i kolačići nikad ne brišu, s uvozom i izvozom u tekstnu datoteku
+• Brisanje povijesti i kolačića svih ostalih web-mjesta pri pokretanju preglednika, nakon što ga uključite
+• Brisanje bilo kada gumbom „Izbriši sada” i brisanje preostalih podataka web-mjesta koja se više ne pronalaze gumbom „Izbriši ostatke”
+• Automatsko zadržavanje poddomena zadržanog web-mjesta
+• Zadržavanje kolačića nadređene domene koji su zadržanom web-mjestu potrebni da ostanete prijavljeni
+• Brisanje particioniranih kolačića (trećih strana); particionirani kolačići zadržanog web-mjesta ostaju samo pod zadržanim web-mjestima
+• Brisanje lokalne pohrane, IndexedDB-a, service workera i predmemorije web-mjesta koja nisu zadržana
+• Rezultat zadnjeg brisanja u postavkama
+• Upozorenje kad je pristup web-mjestima isključen i kolačići se ne mogu brisati
+• Bez analitike i praćenja
+• Bez udaljenog koda i mrežnih zahtjeva
+
+ZADRŽANA WEB-MJESTA
+
+Otvorite postavke i dodajte domenu, na primjer:
+
+example.com
+
+Da biste dodali više odjednom, odvojite ih zarezima.
+
+„Izvezi” sprema popis u tekstnu datoteku, jednu domenu po retku. „Uvezi” zamjenjuje popis web-mjestima iz tekstne datoteke i prvo upozorava ako time nestaju web-mjesta koja sada zadržavate.
+
+Adresa poput mail.example.com/inbox skraćuje se na domenu, a početni www. se izostavlja. Prihvaćaju se i localhost te IPv4 adrese poput 192.168.1.1.
+
+Zadržavanje example.com zadržava povijest, kolačiće i podatke web-mjesta example.com i svih njegovih poddomena. Zadržavanje mail.example.com zadržava i kolačiće example.com jer oni često sadrže prijavu poddomene.
+
+OTVARANJE POSTAVKI
+
+Postavke se nakon instalacije otvaraju automatski, pa popis možete ispuniti prije uključivanja brisanja. Kasnije kliknite ikonu proširenja na alatnoj traci ili:
+
+1. Desnom tipkom miša kliknite ikonu proširenja na alatnoj traci.
+2. Odaberite Mogućnosti proširenja.
+
+BRISANJE PRI POKRETANJU
+
+Nakon instalacije brisanje je isključeno, pa se ništa ne uklanja dok to ne zatražite. Postavke prikazuju obavijest „Brisanje je isključeno” s gumbom „Uključi brisanje”. Uključivanje najprije prikazuje upozorenje: svako pokretanje briše povijest i kolačiće svih web-mjesta osim zadržanih i odjavljuje vas s njih, ili sa svih web-mjesta ako nijedno nije zadržano.
+
+Kad je uključeno, brisanje se pokreće pri svakom pokretanju preglednika jer preglednik ne dopušta proširenjima da rade pri zatvaranju. Brisanje pri pokretanju uklanja ono što je ostavila prethodna sesija. Isključite ga ili ponovno uključite opcijom „Automatski briši pri pokretanju preglednika” u postavkama.
+
+IZBRIŠI SADA I IZBRIŠI OSTATKE
+
+„Izbriši sada” u postavkama briše odmah. Ako nijedno web-mjesto nije zadržano, prvo se prikazuje crveno upozorenje da će se sve izbrisati. Postavke prikazuju kad je bilo zadnje brisanje i koliko je stavki povijesti i kolačića izbrisalo.
+
+Kad brisanje ukloni povijest i kolačiće web-mjesta, kasnija brisanja to web-mjesto više ne pronalaze, pa njegova lokalna pohrana, baze podataka i predmemorija ostaju. „Izbriši ostatke” pokreće brisanje i zatim briše podatke svih web-mjesta koja ne zadržavate, pronađenih ili ne. Preglednik ovdje može poštedjeti samo točna web-mjesta, pa zadržano web-mjesto zadržava podatke samo za sebe i za zadržana web-mjesta koja brisanje pronađe u povijesti, kolačićima i otvorenim karticama; crveno upozorenje to najprije kaže.
+
+PRISTUP WEB-MJESTIMA
+
+Kolačići se mogu ukloniti samo za web-mjesta kojima proširenje ima pristup, pa traži pristup svim web-mjestima. Ako ograničite pristup web-mjestima, na primjer na „Pri kliku”, povijest se i dalje briše, ali se kolačići preskaču, a postavke prikazuju gumb „Dopusti pristup web-mjestima”.
+
+OGRANIČENJA
+
+• Kartice vraćene pri pokretanju mogu postaviti nove kolačiće dok brisanje traje. Ti kolačići ostaju do sljedećeg pokretanja ili do „Izbriši sada”.
+• Ostali podaci web-mjesta, poput pohrane sesije, dopuštenja web-mjesta i datoteka spremljenih putem File System API-ja, ne brišu se.
+• Ako sinkronizacija preglednika uključuje povijest, uklonjene stavke povijesti mogu se ukloniti i na vašim drugim uređajima.
+• Prozori InPrivate brišu se samo ako je proširenje dopušteno u načinu InPrivate. Edge ionako odbacuje njihove podatke pri zatvaranju.
+• IPv6 adrese ne mogu se dodati na popis.
+
+PRIVATNOST
+
+• Bez analitike i praćenja
+• Bez prikupljanja podataka
+• Bez mrežnih zahtjeva
+• Bez udaljenog koda
+• Bez vanjskog JavaScripta
+• Povijest i kolačići čitaju se samo radi odluke što ukloniti, i samo u vašem pregledniku
+• Popis i postavke spremaju se lokalno u vašem pregledniku
+
+PERFORMANSE
+
+Proširenje ne radi ništa dok pregledavate. Pokreće se jednom pri pokretanju preglednika, ako je brisanje uključeno, i kad kliknete „Izbriši sada” ili „Izbriši ostatke”.
+
+Prvo brisanje duge povijesti može potrajati nekoliko minuta jer se svaka stavka povijesti briše zasebno. U međuvremenu možete nastaviti pregledavati. Kasnija brisanja uklanjaju samo stavke prethodne sesije.
+
+OTVORENI KOD
+
+Clear Browsing Data Except Kept Sites je projekt otvorenog koda pod licencom MIT.
+
+Pregledajte izvorni kod, prijavite probleme ili doprinesite na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

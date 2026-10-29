@@ -1,0 +1,47 @@
+Ubah kecepatan pemutaran video dan audio dengan sekali klik atau pintasan keyboard.
+
+Change Video Playback Speed adalah ekstensi open source yang ringan untuk berganti di antara empat kecepatan pemutaran yang berguna:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klik ikon ekstensi atau gunakan pintasan keyboard untuk beralih ke kecepatan berikutnya. Kecepatan yang dipilih diterapkan ke video dan audio di halaman, termasuk pemutar tersemat yang didukung.
+
+Tips: Di menu Ekstensi Edge, aktifkan opsi «Tampilkan di bilah alat» untuk Change Video Playback Speed agar mudah diakses.
+
+Kecepatan saat ini ditampilkan sebentar di halaman dan di badge toolbar.
+
+FITUR UTAMA
+
+• Kontrol dengan sekali klik dan pintasan keyboard
+• Mendukung video dan audio
+• Mendukung pemutar tersemat yang kompatibel
+• Badge kecepatan di toolbar dan indikator di halaman yang juga terlihat saat layar penuh
+• Tanpa menu popup, kontrol mengambang, atau pengaturan
+
+PINTASAN KEYBOARD DEFAULT
+
+• Windows, Linux, ChromeOS, GooglebookOS, dan Android: Alt+S
+• macOS: Command+Shift+Period
+
+MENGUBAH PINTASAN KEYBOARD
+
+1. Buka menu Ekstensi, lalu pilih Kelola ekstensi.
+2. Pilih Pintasan keyboard di sidebar.
+3. Cari Change Video Playback Speed, lalu masukkan pintasan pilihan Anda.
+
+PRIVASI
+
+• Tanpa analitik atau pelacakan
+• Tidak mengumpulkan data atau riwayat penjelajahan
+• Tanpa permintaan jaringan
+• Tanpa akses permanen ke situs web
+
+Semua perubahan kecepatan terjadi secara lokal di browser Anda.
+
+SUMBER TERBUKA (OPEN SOURCE)
+
+Change Video Playback Speed adalah perangkat lunak sumber terbuka di bawah Lisensi MIT.
+
+Lihat kode sumber, laporkan masalah, atau berkontribusi di GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

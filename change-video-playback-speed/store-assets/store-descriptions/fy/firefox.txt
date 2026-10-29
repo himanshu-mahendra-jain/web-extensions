@@ -1,0 +1,46 @@
+Wizigje de ôfspielsnelheid fan fideo en audio mei ien klik of in fluchtoets.
+
+Change Video Playback Speed is in lichte iepenboarne-útwreiding dy't wikselet tusken fjouwer handige ôfspielsnelheden:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klik op it piktogram fan de útwreiding of brûk de fluchtoets om nei de folgjende snelheid te gean. De keazen snelheid jildt foar fideo en audio op de side, ek yn stipe ynsletten spilers.
+
+De aktuele snelheid wurdt efkes op de side toand en stiet yn it badge op de arkbalke.
+
+WICHTICHSTE FUNKSJES
+
+• Betsjinning mei ien klik en mei in fluchtoets
+• Stipe foar fideo en audio
+• Stipe foar kompatibele ynsletten spilers
+• Snelheidsbadge op de arkbalke en in yndikator op de side, ek op folslein skerm
+• Gjin pop-upmenu's, sweevjende knoppen of ynstellingen
+
+STANDERT FLUCHTOETSEN
+
+• Windows, Linux, ChromeOS, GooglebookOS en Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+DE FLUCHTOETS WIZIGJE
+
+1. Iepenje it Firefox-menu en kies Add-ons en tema's.
+2. Klik op it tandrêdpiktogram op de side Utwreidingen.
+3. Kies Fluchtoetsen foar útwreidingen beheare.
+4. Sykje Change Video Playback Speed en fier de winske fluchtoets yn.
+
+PRIVACY
+
+• Gjin analyze of folgjen
+• Gjin sammeljen fan gegevens of navigaasjeskiednis
+• Gjin netwurkfersiken
+• Gjin permaninte tagong ta websites
+
+Alle snelheidswizigingen barre lokaal yn jo browser.
+
+IEPEN BOARNE
+
+Change Video Playback Speed is iepen boarne en wurdt útjûn ûnder de MIT-lisinsje.
+
+Besjoch de boarnekoade, meld problemen of draach by op GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,91 @@
+Slett historikk, informasjonskapslar og nettstaddata ved oppstart av nettlesaren for alle nettstader utanom dei du held på.
+
+Firefox for Android lèt ikkje utvidingar slette historikk, så der vert berre informasjonskapslar og nettstaddata sletta.
+
+Clear Browsing Data Except Kept Sites er ei lett utviding med open kjeldekode som fjernar historikkoppføringar, informasjonskapslar og nettstaddata for alle nettstader du ikkje har valt å halde på.
+
+I innstillingane legg du til nettstadene der du vil halde fram å vere innlogga og bli hugsa, og slår deretter på sletting. Kvar gong nettlesaren startar, slettar utvidinga historikk og informasjonskapslar for alle andre nettstader. Du kan òg slette når som helst med «Slett no».
+
+VIKTIGASTE FUNKSJONAR
+
+• Ei liste over nettstader der historikk og informasjonskapslar aldri vert sletta, med import og eksport som tekstfil
+• Slettar historikk og informasjonskapslar for alle andre nettstader når nettlesaren startar, etter at du har slått det på
+• Slett når som helst med «Slett no» i innstillingane
+• Held automatisk på underdomena til ein nettstad du held på
+• Held på informasjonskapslane til overordna domene som ein nettstad du held på, treng for at du skal halde fram å vere innlogga
+• Slettar partisjonerte informasjonskapslar (frå tredjepartar) og behaldarinformasjonskapslar; partisjonerte informasjonskapslar frå ein nettstad du held på, vert berre verande under nettstader du held på
+• Slettar lokal lagring, IndexedDB, service workers og hurtigbuffer for nettstader du ikkje held på
+• Viser resultatet av siste sletting i innstillingane
+• Åtvarar når nettstadtilgang er slått av og informasjonskapslar ikkje kan slettast
+• Inga analyse eller sporing
+• Ingen ekstern kode eller nettverksførespurnader
+
+NETTSTADER DU HELD PÅ
+
+Opne innstillingane og legg til eit domene, til dømes:
+
+example.com
+
+Skil dei med komma for å leggje til fleire samstundes.
+
+«Eksporter» lagrar lista som ei tekstfil, eitt domene per linje. «Importer» byter ut lista med nettstadene i ei tekstfil og åtvarar først dersom nettstader du held på no, forsvinn.
+
+Ei adresse som mail.example.com/inbox vert korta ned til domenet, og ein innleiande www. vert fjerna. localhost og IPv4-adresser som 192.168.1.1 vert òg godtekne.
+
+Å halde på example.com held på historikk og informasjonskapslar for example.com og alle underdomena. Å halde på mail.example.com held òg på informasjonskapslane for example.com, fordi dei ofte inneheld innlogginga til underdomenet.
+
+OPNE INNSTILLINGANE
+
+Innstillingane vert opna automatisk etter installasjonen, så du kan fylle ut lista før du slår på sletting. Seinare klikkar du på ikonet til utvidinga på verktøylinja. I Firefox for Android trykkjer du på Clear Browsing Data Except Kept Sites i Utvidingar-menyen i nettlesaren.
+
+Du kan òg opne dei frå tilleggshandsamaren:
+
+1. Opne Firefox-menyen og vel Tillegg og tema.
+2. Finn Clear Browsing Data Except Kept Sites og klikk på menyen med tre prikkar ved sida av.
+3. Vel Innstillingar.
+
+SLETTING VED OPPSTART
+
+Etter installasjonen er sletting av, så ingenting vert fjerna før du ber om det. Innstillingane viser meldinga «Sletting er av» med knappen «Slå på sletting». Når du slår det på, vert det først vist ei åtvaring: kvar oppstart slettar historikk og informasjonskapslar for alle nettstader utanom dei du held på, og loggar deg ut av dei, eller av alle nettstader om du ikkje held på nokon.
+
+Når ho er på, køyrer slettinga kvar gong nettlesaren startar, fordi nettlesaren ikkje lèt utvidingar køyre når han vert lukka. Sletting ved oppstart fjernar det førre økt la att. Slå ho av eller på att med «Slett automatisk når nettlesaren startar» i innstillingane.
+
+SLETT NO
+
+«Slett no» i innstillingane slettar med ein gong. Om du ikkje held på nokon nettstad, vert det først vist ei raud åtvaring om at alt vert sletta. Innstillingane viser når siste sletting skjedde, og kor mange historikkoppføringar og informasjonskapslar ho sletta.
+
+NETTSTADTILGANG
+
+Informasjonskapslar kan berre fjernast for nettstader utvidinga har tilgang til, så ho ber om tilgang til alle nettstader. Om du slår av nettstadtilgangen, vert historikken framleis sletta, men informasjonskapslar vert hoppa over, og innstillingane viser knappen «Gje tilgang til nettstader».
+
+AVGRENSINGAR
+
+• Faner som vert gjenoppretta ved oppstart, kan setje nye informasjonskapslar medan slettinga går føre seg. Desse informasjonskapslane vert verande til neste oppstart eller neste «Slett no».
+• Firefox kan ikkje slette nettstaddata utanom for valde nettstader, så utvidinga slettar lokal lagring, IndexedDB og service workers for kvar nettstad du ikkje held på, som ho finn i historikk, informasjonskapslar og opne faner. Ein nettstad som ikkje dukkar opp i noko av dette, held på dataa sine. Ein nettstad med eit underdomene du held på, held på sine service workers, fordi Firefox elles ville sletta underdomenet sine òg. Hurtigbufferen vert sletta for alle nettstader, fordi Firefox ikkje kan slette han per nettstad; det loggar ingen ut.
+• Firefox kan ikkje slette Cache Storage, fråkopla filer som service workers lagrar, per nettstad, så han vert ikkje sletta. For å fjerne det utvidinga ikkje når, bruk Innstillingar > Personvern og tryggleik > Infokapslar og nettstaddata > Handsam data.
+• Om synkroniseringa i nettlesaren omfattar historikk, kan historikkoppføringar som vert fjerna, òg bli fjerna på dei andre einingane dine.
+• Private vindauge vert berre sletta når utvidinga får køyre i dei.
+
+PERSONVERN
+
+• Inga analyse eller sporing
+• Inga datainnsamling
+• Ingen nettverksførespurnader
+• Ingen ekstern kode
+• Ingen ekstern JavaScript
+• Historikk og informasjonskapslar vert berre lesne for å avgjere kva som skal fjernast, og berre i nettlesaren din
+• Lista og innstillingane vert lagra lokalt i nettlesaren din
+
+YTING
+
+Utvidinga gjer ingenting medan du surfar. Ho køyrer éin gong når nettlesaren startar, om sletting er på, og når du klikkar på «Slett no».
+
+Den første slettinga av ein lang historikk kan ta nokre minutt, fordi kvar historikkoppføring vert sletta for seg. Du kan surfe vidare i mellomtida. Seinare slettingar fjernar berre oppføringane frå førre økt.
+
+OPEN KJELDEKODE
+
+Clear Browsing Data Except Kept Sites har open kjeldekode og er lisensiert under MIT-lisensen.
+
+Sjå kjeldekoden, rapporter problem eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

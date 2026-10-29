@@ -1,0 +1,90 @@
+All'avvio del browser cancella cronologia, cookie e dati dei siti di tutti i siti, tranne quelli che conservi.
+
+Clear Browsing Data Except Kept Sites è un'estensione leggera e open source che elimina le voci della cronologia, i cookie e i dati dei siti di tutti i siti che non hai scelto di conservare.
+
+Aggiungi nelle impostazioni i siti in cui vuoi restare connesso e che vuoi ricordare, poi attiva la cancellazione. A ogni avvio del browser, l'estensione cancella cronologia, cookie e dati dei siti di tutti gli altri siti. Puoi anche cancellare quando vuoi con "Cancella ora".
+
+Suggerimento: nel menu Estensioni di Edge, attiva «Mostra nella barra degli strumenti» per Clear Browsing Data Except Kept Sites per tenere l'icona a portata di mano.
+
+FUNZIONI PRINCIPALI
+
+• Un elenco di siti la cui cronologia e i cui cookie non vengono mai cancellati, da importare o esportare come file di testo
+• Cancella cronologia e cookie di tutti gli altri siti all'avvio del browser, una volta attivata
+• Cancella quando vuoi con "Cancella ora" e cancella i dati rimasti dei siti non più trovati con "Cancella residui"
+• Conserva automaticamente i sottodomini di un sito conservato
+• Conserva i cookie del dominio principale di cui un sito conservato ha bisogno per restare connesso
+• Cancella i cookie partizionati (di terze parti); i cookie partizionati di un sito conservato restano solo sotto siti conservati
+• Cancella archiviazione locale, IndexedDB, service worker e cache dei siti non conservati
+• Mostra il risultato dell'ultima cancellazione nelle impostazioni
+• Avvisa quando l'accesso ai siti è disattivato e i cookie non possono essere cancellati
+• Nessuna analisi o tracciamento
+• Nessun codice remoto né richiesta di rete
+
+SITI CONSERVATI
+
+Apri le impostazioni e aggiungi un dominio, ad esempio:
+
+example.com
+
+Per aggiungerne più di uno alla volta, separali con virgole.
+
+"Esporta" salva l'elenco in un file di testo, un dominio per riga. "Importa" sostituisce l'elenco con i siti di un file di testo e avvisa prima se così vengono rimossi siti che conservi ora.
+
+Un indirizzo come mail.example.com/inbox viene ridotto al suo dominio, e un www. iniziale viene rimosso. Sono accettati anche localhost e indirizzi IPv4 come 192.168.1.1.
+
+Conservare example.com conserva cronologia, cookie e dati del sito di example.com e di tutti i suoi sottodomini. Conservare mail.example.com conserva anche i cookie di example.com, perché spesso contengono l'accesso del sottodominio.
+
+APRIRE LE IMPOSTAZIONI
+
+Le impostazioni si aprono automaticamente dopo l'installazione, così puoi compilare l'elenco prima di attivare la cancellazione. In seguito, fai clic sull'icona dell'estensione nella barra degli strumenti, oppure:
+
+1. Fai clic destro sull'icona dell'estensione nella barra degli strumenti.
+2. Seleziona Opzioni estensione.
+
+CANCELLAZIONE ALL'AVVIO
+
+Dopo l'installazione la cancellazione è disattivata, quindi non viene rimosso nulla finché non lo chiedi. Le impostazioni mostrano l'avviso "La cancellazione è disattivata" con il pulsante "Attiva la cancellazione". Attivarla mostra prima un avviso: ogni avvio elimina cronologia e cookie di tutti i siti tranne quelli conservati e ti disconnette da essi, oppure da tutti i siti se non ne conservi nessuno.
+
+Una volta attivata, la cancellazione viene eseguita a ogni avvio del browser, perché il browser non consente alle estensioni di essere eseguite alla chiusura. Cancellare all'avvio rimuove ciò che la sessione precedente ha lasciato. Disattivala o riattivala con "Cancella automaticamente all'avvio del browser" nelle impostazioni.
+
+CANCELLA ORA E CANCELLA RESIDUI
+
+"Cancella ora" nelle impostazioni cancella subito. Se non conservi alcun sito, mostra prima un avviso rosso che verrà eliminato tutto. Le impostazioni mostrano quando è avvenuta l'ultima cancellazione e quante voci della cronologia e quanti cookie ha eliminato.
+
+Dopo che una cancellazione ha rimosso cronologia e cookie di un sito, le cancellazioni successive non trovano più quel sito, quindi il suo spazio di archiviazione locale, i database e la cache restano. "Cancella residui" esegue una cancellazione e poi elimina i dati di tutti i siti che non conservi, trovati o meno. Qui il browser può risparmiare solo siti esatti, quindi un sito conservato mantiene i propri dati solo per sé stesso e per i siti conservati che la cancellazione trova nella cronologia, nei cookie e nelle schede aperte; un avviso rosso lo segnala prima.
+
+ACCESSO AI SITI
+
+I cookie si possono rimuovere solo per i siti a cui l'estensione ha accesso, quindi chiede l'accesso a tutti i siti web. Se limiti l'accesso ai siti, ad esempio a "Al clic", la cronologia viene comunque cancellata ma i cookie vengono saltati, e le impostazioni mostrano il pulsante "Consenti accesso ai siti".
+
+LIMITAZIONI
+
+• Le schede ripristinate all'avvio possono creare nuovi cookie mentre la cancellazione è in corso. Quei cookie restano fino all'avvio successivo o fino a "Cancella ora".
+• Altri dati dei siti, come l'archiviazione di sessione, le autorizzazioni dei siti e i file salvati tramite l'API File System, non vengono cancellati.
+• Se la sincronizzazione del browser include la cronologia, le voci rimosse potrebbero essere rimosse anche sugli altri tuoi dispositivi.
+• Le finestre InPrivate vengono cancellate solo se l'estensione è consentita in InPrivate. In ogni caso Edge ne elimina i dati alla chiusura.
+• Gli indirizzi IPv6 non possono essere aggiunti all'elenco.
+
+PRIVACY
+
+• Nessuna analisi o tracciamento
+• Nessuna raccolta di dati
+• Nessuna richiesta di rete
+• Nessun codice remoto
+• Nessun JavaScript esterno
+• Cronologia e cookie vengono letti solo per decidere cosa rimuovere, e solo nel tuo browser
+• L'elenco e le impostazioni sono salvati localmente nel tuo browser
+
+PRESTAZIONI
+
+L'estensione non lavora mentre navighi. Viene eseguita una volta all'avvio del browser, se la cancellazione è attiva, e quando fai clic su "Cancella ora" o "Cancella residui".
+
+La prima cancellazione di una cronologia lunga può richiedere diversi minuti, perché ogni voce della cronologia viene eliminata singolarmente. Nel frattempo puoi continuare a navigare. Le cancellazioni successive rimuovono solo le voci della sessione precedente.
+
+OPEN SOURCE
+
+Clear Browsing Data Except Kept Sites è open source con licenza MIT.
+
+Visualizza il codice sorgente, segnala problemi o contribuisci su GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

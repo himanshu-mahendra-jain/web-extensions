@@ -1,0 +1,46 @@
+Měňte rychlost přehrávání videa a zvuku jedním kliknutím nebo klávesovou zkratkou.
+
+Change Video Playback Speed je lehké rozšíření s otevřeným zdrojovým kódem, které přepíná mezi čtyřmi užitečnými rychlostmi přehrávání:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klikněte na ikonu rozšíření nebo použijte klávesovou zkratku a přejděte na další rychlost. Zvolená rychlost se použije pro video a zvuk na stránce včetně podporovaných vložených přehrávačů.
+
+Aktuální rychlost se krátce zobrazí na stránce a na odznaku na panelu nástrojů.
+
+HLAVNÍ FUNKCE
+
+• Ovládání jedním kliknutím a klávesovou zkratkou
+• Podpora videa i zvuku
+• Podpora kompatibilních vložených přehrávačů
+• Odznak s rychlostí na panelu nástrojů a ukazatel na stránce, viditelný i na celé obrazovce
+• Žádné vyskakovací nabídky, plovoucí ovladače ani nastavení
+
+VÝCHOZÍ KLÁVESOVÉ ZKRATKY
+
+• Windows, Linux, ChromeOS, GooglebookOS a Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+ZMĚNA KLÁVESOVÉ ZKRATKY
+
+1. Otevřete nabídku Firefoxu a vyberte Doplňky a vzhledy.
+2. Na stránce Rozšíření klikněte na ikonu ozubeného kolečka.
+3. Vyberte Správa klávesových zkratek rozšíření.
+4. Najděte Change Video Playback Speed a zadejte požadovanou zkratku.
+
+SOUKROMÍ
+
+• Žádná analytika ani sledování
+• Žádný sběr dat ani historie prohlížení
+• Žádné síťové požadavky
+• Žádný trvalý přístup k webům
+
+Všechny změny rychlosti probíhají místně ve vašem prohlížeči.
+
+OPEN SOURCE
+
+Change Video Playback Speed je open-source projekt pod licencí MIT.
+
+Zdrojový kód, hlášení chyb a možnost zapojení najdete na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

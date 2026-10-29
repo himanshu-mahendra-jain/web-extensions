@@ -1,0 +1,47 @@
+Wijzig de afspeelsnelheid van video en audio met één klik of een sneltoets.
+
+Change Video Playback Speed is een lichte opensource-extensie die wisselt tussen vier handige afspeelsnelheden:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klik op het pictogram van de extensie of gebruik de sneltoets om naar de volgende snelheid te gaan. De gekozen snelheid geldt voor video en audio op de pagina, ook in ondersteunde ingesloten spelers.
+
+Tip: zet de extensie vast in het extensiemenu van Chrome (het puzzelstuk-icoon) om het pictogram zichtbaar op de werkbalk te houden.
+
+De huidige snelheid wordt even op de pagina getoond en staat in de badge op de werkbalk.
+
+BELANGRIJKSTE FUNCTIES
+
+• Bediening met één klik en met een sneltoets
+• Ondersteunt video en audio
+• Ondersteunt compatibele ingesloten spelers
+• Snelheidsbadge op de werkbalk en een indicator op de pagina, ook op volledig scherm
+• Geen pop-upmenu's, zwevende knoppen of instellingen
+
+STANDAARDSNELTOETSEN
+
+• Windows, Linux, ChromeOS, GooglebookOS en Android: Alt+S
+• macOS: Command+Shift+Period
+
+DE SNELTOETS WIJZIGEN
+
+1. Open het Chrome-menu en kies Extensies → Extensies beheren.
+2. Kies Sneltoetsen in de zijbalk.
+3. Zoek Change Video Playback Speed en voer de gewenste sneltoets in.
+
+PRIVACY
+
+• Geen analyse of tracking
+• Geen verzameling van gegevens of browsegeschiedenis
+• Geen netwerkverzoeken
+• Geen permanente toegang tot websites
+
+Alle snelheidswijzigingen gebeuren lokaal in uw browser.
+
+OPEN SOURCE
+
+Change Video Playback Speed is open source en gelicentieerd onder de MIT-licentie.
+
+Bekijk de broncode, meld problemen of draag bij op GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

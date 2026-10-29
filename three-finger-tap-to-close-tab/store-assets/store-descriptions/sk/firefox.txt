@@ -1,0 +1,42 @@
+Zatvorte aktuálnu kartu ťuknutím tromi prstami, stredným kliknutím alebo kliknutím na paneli nástrojov.
+
+Three Finger Tap to Close Tab je ľahké rozšírenie s otvoreným zdrojovým kódom, ktoré ponúka rýchly a jednoduchý spôsob, ako zatvoriť aktuálnu kartu prehliadača.
+
+Ťuknite tromi prstami alebo kliknite stredným tlačidlom kdekoľvek na webovej stránke mimo odkazov a upraviteľných polí a aktuálna karta sa zatvorí. Kartu môžete zatvoriť aj kliknutím na ikonu rozšírenia na paneli nástrojov.
+
+Vo Firefoxe pre Android ťuknite v ponuke Rozšírenia prehliadača na Three Finger Tap to Close Tab a aktuálna karta sa zatvorí. Ťuknutie na obrazovku nie je stredné kliknutie, takže ťuknutím na webovú stránku sa karta nikdy nezatvorí.
+
+Stredné kliknutie na odkazy a karty v informačných kanáloch zachováva bežné správanie prehliadača, takže odkazy a príspevky naďalej otvárate na nových kartách ako zvyčajne. Vstavaná bezpečnostná zóna zabraňuje nechcenému zatvoreniu, ak ťuknete tesne vedľa odkazu alebo ovládacieho prvku.
+
+HLAVNÉ FUNKCIE
+
+• Zatvorenie aktuálnej karty ťuknutím tromi prstami
+• Zatvorenie aktuálnej karty stredným kliknutím
+• Zatvorenie aktuálnej karty kliknutím na paneli nástrojov
+• Zachováva bežné stredné kliknutie na odkazy, tlačidlá a karty v kanáloch
+• Bezpečnostná zóna bráni nechcenému zatvoreniu pri interaktívnych prvkoch
+• Nezatvára karty počas práce s formulármi a upraviteľnými poľami
+• Žiadne kontextové ponuky ani nastavenia
+
+NASTAVENIE TOUCHPADU
+
+Touchpad a operačný systém musia byť nastavené tak, aby ťuknutie tromi prstami vyvolalo stredné kliknutie.
+
+Potom ťuknite tromi prstami na webovú stránku mimo odkazov a interaktívneho obsahu a aktuálna karta sa zatvorí.
+
+OCHRANA SÚKROMIA
+
+• Žiadna analytika ani sledovanie
+• Žiadny zber údajov ani histórie prehliadania
+• Žiadne sieťové požiadavky
+• Žiadna uložená aktivita prehliadania ani predvoľby
+
+Všetky karty sa zatvárajú lokálne vo vašom prehliadači.
+
+OPEN SOURCE
+
+Three Finger Tap to Close Tab je open-source projekt pod licenciou MIT.
+
+Zdrojový kód, hlásenie chýb a možnosť prispieť nájdete na GitHube:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -29,9 +29,10 @@ const LAST_CLEAR = {
 };
 
 
-function openSettings(page, { storage = {}, siteAccess = true } = {}) {
+function openSettings(page, { storage = {}, siteAccess = true, direction } = {}) {
   return openExtensionPage(page, EXTENSION_PATH, "options/options.html", {
     storage,
+    direction,
     origins: siteAccess ? SITE_ORIGINS : [],
     // In Firefox, which does not offer Clear Leftovers, the page gets moz-extension: URLs.
     namespaces: ["history", "browsingData"]
@@ -99,6 +100,21 @@ for (const browserName of ["chromium", "firefox"]) {
       await expect(page.locator("#site-list li")).toHaveCount(3);
 
       await expect(page).toHaveScreenshot(`clear-failed-${browserName}.png`, { fullPage: true });
+    });
+
+
+    test("laid out right to left, as Arabic, Hebrew and Persian are", async ({ page }) => {
+      await openSettings(page, {
+        storage: { keptSites: KEPT_SITES, lastClear: LAST_CLEAR },
+        siteAccess: false,
+        direction: "rtl"
+      });
+
+      await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
+      await expect(page.locator("#access-warning")).toBeVisible();
+      await expect(page.locator("#clearing-off")).toBeVisible();
+
+      await expect(page).toHaveScreenshot(`rtl-${browserName}.png`, { fullPage: true });
     });
 
 

@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Đổi nhanh tốc độ phát video và âm thanh giữa 1x, 1,2x, 1,5x và 2x."
+  },
+  "commandDescription": {
+    "message": "Đổi tốc độ phát video"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Tốc độ phát $SPEED$ lần",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Tốc độ phát: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

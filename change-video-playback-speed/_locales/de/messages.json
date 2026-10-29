@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Wechselt die Wiedergabegeschwindigkeit von Video und Audio schnell zwischen 1x, 1,2x, 1,5x und 2x."
+  },
+  "commandDescription": {
+    "message": "Wiedergabegeschwindigkeit des Videos ändern"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Wiedergabegeschwindigkeit $SPEED$-fach",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Wiedergabegeschwindigkeit: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

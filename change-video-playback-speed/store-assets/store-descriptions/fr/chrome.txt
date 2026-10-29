@@ -1,0 +1,47 @@
+Changez la vitesse de lecture des vidéos et de l'audio d'un clic ou d'un raccourci clavier.
+
+Change Video Playback Speed est une extension légère et open source qui alterne entre quatre vitesses de lecture utiles :
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Cliquez sur l'icône de l'extension ou utilisez le raccourci clavier pour passer à la vitesse suivante. La vitesse choisie s'applique aux vidéos et à l'audio de la page, y compris dans les lecteurs intégrés compatibles.
+
+Astuce : épinglez l'extension dans le menu Extensions de Chrome (l'icône de pièce de puzzle) pour garder son icône visible dans la barre d'outils.
+
+La vitesse actuelle s'affiche brièvement sur la page et dans le badge de la barre d'outils.
+
+FONCTIONNALITÉS PRINCIPALES
+
+• Contrôle d'un clic et par raccourci clavier
+• Prise en charge de la vidéo et de l'audio
+• Prise en charge des lecteurs intégrés compatibles
+• Badge de vitesse dans la barre d'outils et indicateur sur la page, visible aussi en plein écran
+• Aucun menu contextuel, contrôle flottant ni réglage
+
+RACCOURCIS CLAVIER PAR DÉFAUT
+
+• Windows, Linux, ChromeOS, GooglebookOS et Android : Alt+S
+• macOS : Command+Shift+Period
+
+CHANGER LE RACCOURCI CLAVIER
+
+1. Ouvrez le menu de Chrome et sélectionnez Extensions → Gérer les extensions.
+2. Sélectionnez Raccourcis clavier dans la barre latérale.
+3. Recherchez Change Video Playback Speed et saisissez le raccourci de votre choix.
+
+CONFIDENTIALITÉ
+
+• Aucune analyse ni aucun pistage
+• Aucune collecte de données ni d'historique de navigation
+• Aucune requête réseau
+• Aucun accès permanent aux sites web
+
+Tous les changements de vitesse se font localement, dans votre navigateur.
+
+OPEN SOURCE
+
+Change Video Playback Speed est un projet open source sous licence MIT.
+
+Consultez le code source, signalez des anomalies ou contribuez sur GitHub :
+
+https://github.com/himanshu-mahendra-jain/web-extensions

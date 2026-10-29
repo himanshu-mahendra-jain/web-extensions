@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Greitai keiskite vaizdo ir garso atkūrimo spartą: 1x, 1,2x, 1,5x ir 2x."
+  },
+  "commandDescription": {
+    "message": "Keisti vaizdo įrašo atkūrimo spartą"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Atkūrimo sparta $SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Atkūrimo sparta: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

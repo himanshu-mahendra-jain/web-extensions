@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Erlaubt Kopieren, Textauswahl und Rechtsklickmenüs auf Webseiten, die sie einschränken."
+  },
+  "commandDescription": {
+    "message": "Kopieren und Rechtsklick auf der aktuellen Seite erlauben"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Aktiv",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopieren und Rechtsklick sind erlaubt."
+  },
+  "optionsTitle": {
+    "message": "Automatische Websites | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-Repository, öffnet in neuem Tab"
+  },
+  "automaticSitesHeading": {
+    "message": "Automatische Websites"
+  },
+  "automaticSitesIntro": {
+    "message": "Kopieren, Textauswahl und Rechtsklick auf den Websites, die Sie hinzufügen, automatisch erlauben."
+  },
+  "siteInputLabel": {
+    "message": "Domain der Website"
+  },
+  "addSite": {
+    "message": "Website hinzufügen"
+  },
+  "noSites": {
+    "message": "Noch keine automatischen Websites hinzugefügt."
+  },
+  "siteListLabel": {
+    "message": "Automatische Websites"
+  },
+  "remove": {
+    "message": "Entfernen"
+  },
+  "removeSite": {
+    "message": "$SITE$ entfernen",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (Berechtigung entzogen)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ hinzugefügt.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ wieder aktiviert.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ entfernt.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Diese Website ist bereits aktiviert."
+  },
+  "invalidDomain": {
+    "message": "Geben Sie eine gültige Domain ein, z. B. example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Die Berechtigung für die Website wurde nicht erteilt."
+  },
+  "addFailed": {
+    "message": "Die Website konnte nicht hinzugefügt werden."
+  },
+  "removeFailed": {
+    "message": "Die Website konnte nicht entfernt werden."
+  },
+  "loadFailed": {
+    "message": "Die Liste der Websites konnte nicht geladen werden."
+  }
+}

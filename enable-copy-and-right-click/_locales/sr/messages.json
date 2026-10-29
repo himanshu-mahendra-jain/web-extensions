@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Омогућите копирање, бирање текста и мени десног клика на веб-страницама које их ограничавају."
+  },
+  "commandDescription": {
+    "message": "Омогући копирање и десни клик на тренутној страници"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: активно",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Копирање и десни клик су омогућени."
+  },
+  "optionsTitle": {
+    "message": "Аутоматски сајтови | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub спремиште, отвара се у новој картици"
+  },
+  "automaticSitesHeading": {
+    "message": "Аутоматски сајтови"
+  },
+  "automaticSitesIntro": {
+    "message": "Аутоматски омогућите копирање, бирање текста и десни клик на сајтовима које додате."
+  },
+  "siteInputLabel": {
+    "message": "Домен сајта"
+  },
+  "addSite": {
+    "message": "Додај сајт"
+  },
+  "noSites": {
+    "message": "Још није додат ниједан аутоматски сајт."
+  },
+  "siteListLabel": {
+    "message": "Аутоматски сајтови"
+  },
+  "remove": {
+    "message": "Уклони"
+  },
+  "removeSite": {
+    "message": "Уклони $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (дозвола је опозвана)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ је додат.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ је поново омогућен.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ је уклоњен.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Овај сајт је већ омогућен."
+  },
+  "invalidDomain": {
+    "message": "Унесите исправан домен, на пример example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Дозвола за сајт није дата."
+  },
+  "addFailed": {
+    "message": "Додавање сајта није успело."
+  },
+  "removeFailed": {
+    "message": "Уклањање сајта није успело."
+  },
+  "loadFailed": {
+    "message": "Учитавање листе сајтова није успело."
+  }
+}

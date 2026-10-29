@@ -1,0 +1,42 @@
+Schließen Sie den aktuellen Tab mit einem Drei-Finger-Tippen, einem Mittelklick oder einem Klick in der Symbolleiste.
+
+Three Finger Tap to Close Tab ist eine schlanke Open-Source-Erweiterung, mit der Sie den aktuellen Browser-Tab schnell und einfach schließen.
+
+Tippen Sie mit drei Fingern oder klicken Sie mit der mittleren Maustaste irgendwo auf eine Webseite außerhalb von Links und Eingabefeldern, um den aktuellen Tab zu schließen. Sie können auch auf das Symbol der Erweiterung in der Symbolleiste klicken.
+
+Tipp: Aktivieren Sie im Edge-Erweiterungsmenü die Option «In Symbolleiste anzeigen» für Three Finger Tap to Close Tab, um schnellen Zugriff zu haben.
+
+Ein Mittelklick auf Links und Feed-Karten behält das gewohnte Verhalten des Browsers bei, sodass Sie Links und Beiträge weiterhin wie gewohnt in neuen Tabs öffnen. Ein eingebauter Sicherheitsabstand verhindert, dass der Tab versehentlich geschlossen wird, wenn Sie knapp neben einen Link oder ein Bedienelement tippen.
+
+WICHTIGSTE FUNKTIONEN
+
+• Aktuellen Tab mit einem Drei-Finger-Tippen schließen
+• Aktuellen Tab mit einem Mittelklick schließen
+• Aktuellen Tab mit einem Klick in der Symbolleiste schließen
+• Gewohnter Mittelklick auf Links, Schaltflächen und Feed-Karten bleibt erhalten
+• Sicherheitsabstand verhindert versehentliches Schließen neben interaktiven Elementen
+• Schließt keine Tabs, während Sie Formulare und Eingabefelder bedienen
+• Keine Pop-up-Menüs, keine Einstellungen
+
+TOUCHPAD EINRICHTEN
+
+Touchpad und Betriebssystem müssen so eingestellt sein, dass ein Drei-Finger-Tippen einen Mittelklick auslöst.
+
+Danach tippen Sie mit drei Fingern auf eine Webseite außerhalb von Links und interaktiven Inhalten, um den aktuellen Tab zu schließen.
+
+DATENSCHUTZ
+
+• Keine Analyse, kein Tracking
+• Keine Erfassung von Daten oder Browserverlauf
+• Keine Netzwerkanfragen
+• Keine gespeicherten Browseraktivitäten oder Einstellungen
+
+Tabs werden ausschließlich lokal in Ihrem Browser geschlossen.
+
+OPEN SOURCE
+
+Three Finger Tap to Close Tab ist Open Source und unter der MIT-Lizenz lizenziert.
+
+Quellcode einsehen, Probleme melden oder beitragen auf GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,42 @@
+Feche a guia atual com um toque de três dedos, um clique do meio ou um clique na barra de ferramentas.
+
+Three Finger Tap to Close Tab é uma extensão leve e de código aberto que oferece uma forma rápida e simples de fechar a guia atual do navegador.
+
+Toque com três dedos ou clique com o botão do meio em qualquer lugar de uma página fora de links e campos editáveis para fechar a guia atual. Você também pode clicar no ícone da extensão na barra de ferramentas.
+
+Dica: fixe a extensão no menu de Extensões do Chrome (o ícone de peça de quebra-cabeça) para manter o ícone visível na barra de ferramentas.
+
+O clique do meio em links e cards de feed mantém o comportamento normal do navegador, então você continua abrindo links e posts em novas guias como sempre. Uma margem de segurança integrada evita fechar a guia por engano se você tocar logo ao lado de um link ou controle.
+
+PRINCIPAIS RECURSOS
+
+• Feche a guia atual com um toque de três dedos
+• Feche a guia atual com um clique do meio
+• Feche a guia atual com um clique na barra de ferramentas
+• Mantém o clique do meio normal em links, botões e cards de feed
+• Margem de segurança evita fechamentos acidentais perto de elementos interativos
+• Não fecha guias enquanto você usa formulários e campos editáveis
+• Sem menus pop-up nem configurações
+
+CONFIGURAÇÃO DO TOUCHPAD
+
+O touchpad e o sistema operacional precisam estar configurados para que um toque de três dedos gere um clique do meio.
+
+Depois disso, toque com três dedos em uma página fora de links e conteúdo interativo para fechar a guia atual.
+
+PRIVACIDADE
+
+• Sem análises nem rastreamento
+• Não coleta dados nem histórico de navegação
+• Sem solicitações de rede
+• Não salva atividade de navegação nem preferências
+
+Todas as guias são fechadas localmente no seu navegador.
+
+CÓDIGO ABERTO
+
+O Three Finger Tap to Close Tab é um projeto de código aberto sob a licença MIT.
+
+Acesse o código-fonte, reporte problemas ou contribua no GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

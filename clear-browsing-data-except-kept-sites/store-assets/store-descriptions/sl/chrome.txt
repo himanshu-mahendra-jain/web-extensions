@@ -1,0 +1,90 @@
+Ob zagonu brskalnika počisti zgodovino, piškotke in podatke spletnih mest vseh mest razen tistih, ki jih obdržite.
+
+Clear Browsing Data Except Kept Sites je lahka razširitev odprte kode, ki odstrani vnose zgodovine, piškotke in podatke spletnih mest vseh spletnih mest, ki jih niste izbrali za obdržanje.
+
+V nastavitvah dodajte spletna mesta, na katerih želite ostati prijavljeni in ki si jih želite zapomniti, nato vklopite čiščenje. Ob vsakem zagonu brskalnika razširitev počisti zgodovino, piškotke in podatke spletnih mest vseh drugih spletnih mest. Počistite lahko tudi kadar koli z gumbom »Počisti zdaj«.
+
+Nasvet: Pripnite razširitev v Chromovem meniju za razširitve (ikona sestavljanke), da bo ikona vedno vidna v orodni vrstici.
+
+GLAVNE FUNKCIJE
+
+• Seznam spletnih mest, katerih zgodovina in piškotki se nikoli ne počistijo, z uvozom in izvozom v besedilno datoteko
+• Čiščenje zgodovine in piškotkov vseh drugih spletnih mest ob zagonu brskalnika, ko ga vklopite
+• Čiščenje kadar koli z gumbom »Počisti zdaj« in čiščenje preostalih podatkov spletnih mest, ki jih ni več mogoče najti, z gumbom »Počisti ostanke«
+• Samodejno obdržanje poddomen obdržanega spletnega mesta
+• Obdržanje piškotkov nadrejene domene, ki jih obdržano spletno mesto potrebuje, da ostanete prijavljeni
+• Čiščenje particioniranih piškotkov (tretjih oseb); particionirani piškotki obdržanega spletnega mesta ostanejo le pod obdržanimi spletnimi mesti
+• Čiščenje lokalne shrambe, IndexedDB, service workerjev in predpomnilnika spletnih mest, ki niso obdržana
+• Rezultat zadnjega čiščenja v nastavitvah
+• Opozorilo, ko je dostop do spletnih mest izklopljen in piškotkov ni mogoče počistiti
+• Brez analitike in sledenja
+• Brez oddaljene kode in omrežnih zahtev
+
+OBDRŽANA SPLETNA MESTA
+
+Odprite nastavitve in dodajte domeno, na primer:
+
+example.com
+
+Če želite dodati več hkrati, jih ločite z vejicami.
+
+»Izvozi« shrani seznam v besedilno datoteko, eno domeno na vrstico. »Uvozi« zamenja seznam s spletnimi mesti iz besedilne datoteke in prej opozori, če s tem izginejo spletna mesta, ki jih zdaj obdržite.
+
+Naslov, kot je mail.example.com/inbox, se skrajša na domeno, začetni www. pa se izpusti. Sprejeti so tudi localhost in naslovi IPv4, kot je 192.168.1.1.
+
+Obdržanje example.com obdrži zgodovino, piškotke in podatke spletnega mesta example.com in vseh njegovih poddomen. Obdržanje mail.example.com obdrži tudi piškotke example.com, ker pogosto vsebujejo prijavo poddomene.
+
+ODPIRANJE NASTAVITEV
+
+Nastavitve se po namestitvi odprejo samodejno, da lahko seznam izpolnite, preden vklopite čiščenje. Pozneje kliknite ikono razširitve v orodni vrstici ali:
+
+1. Z desno tipko miške kliknite ikono razširitve v orodni vrstici.
+2. Izberite Možnosti.
+
+ČIŠČENJE OB ZAGONU
+
+Po namestitvi je čiščenje izklopljeno, zato se nič ne odstrani, dokler tega ne zahtevate. Nastavitve prikažejo obvestilo »Čiščenje je izklopljeno« z gumbom »Vklopi čiščenje«. Vklop najprej prikaže opozorilo: vsak zagon izbriše zgodovino in piškotke vseh spletnih mest razen obdržanih in vas z njih odjavi, oziroma z vseh spletnih mest, če ni obdržano nobeno.
+
+Ko je vklopljeno, čiščenje poteka ob vsakem zagonu brskalnika, ker brskalnik razširitvam ne dovoli delovanja ob zapiranju. Čiščenje ob zagonu odstrani, kar je pustila prejšnja seja. Izklopite ali znova vklopite ga z možnostjo »Samodejno počisti ob zagonu brskalnika« v nastavitvah.
+
+POČISTI ZDAJ IN POČISTI OSTANKE
+
+»Počisti zdaj« v nastavitvah počisti takoj. Če ni obdržano nobeno spletno mesto, se najprej prikaže rdeče opozorilo, da bo vse izbrisano. Nastavitve prikazujejo, kdaj je bilo zadnje čiščenje in koliko vnosov zgodovine in piškotkov je izbrisalo.
+
+Ko čiščenje odstrani zgodovino in piškotke spletnega mesta, ga poznejša čiščenja ne najdejo več, zato njegova lokalna shramba, zbirke podatkov in predpomnilnik ostanejo. »Počisti ostanke« izvede čiščenje in nato izbriše podatke vseh spletnih mest, ki jih ne obdržite, najdenih ali ne. Brskalnik lahko tu prizanese le natančnim spletnim mestom, zato obdržano spletno mesto obdrži podatke le zase in za obdržana spletna mesta, ki jih čiščenje najde v zgodovini, piškotkih in odprtih zavihkih; rdeče opozorilo to pove vnaprej.
+
+DOSTOP DO SPLETNIH MEST
+
+Piškotke je mogoče odstraniti le za spletna mesta, do katerih ima razširitev dostop, zato prosi za dostop do vseh spletnih mest. Če dostop do spletnih mest omejite, na primer na »Ob kliku«, se zgodovina še vedno počisti, piškotki pa se preskočijo, nastavitve pa prikažejo gumb »Dovoli dostop do spletnih mest«.
+
+OMEJITVE
+
+• Zavihki, obnovljeni ob zagonu, lahko med čiščenjem nastavijo nove piškotke. Ti piškotki ostanejo do naslednjega zagona ali do »Počisti zdaj«.
+• Drugi podatki spletnih mest, kot so shramba seje, dovoljenja spletnih mest in datoteke, shranjene prek File System API, se ne počistijo.
+• Če sinhronizacija brskalnika vključuje zgodovino, se odstranjeni vnosi zgodovine lahko odstranijo tudi na vaših drugih napravah.
+• Okna brez beleženja zgodovine se počistijo le, če je razširitev dovoljena v načinu brez beleženja zgodovine. Chrome njihove podatke ob zaprtju tako ali tako zavrže.
+• Naslovov IPv6 ni mogoče dodati na seznam.
+
+ZASEBNOST
+
+• Brez analitike in sledenja
+• Brez zbiranja podatkov
+• Brez omrežnih zahtev
+• Brez oddaljene kode
+• Brez zunanjega JavaScripta
+• Zgodovina in piškotki se berejo le za odločitev, kaj odstraniti, in le v vašem brskalniku
+• Seznam in nastavitve so shranjeni lokalno v vašem brskalniku
+
+ZMOGLJIVOST
+
+Razširitev med brskanjem ne dela ničesar. Zažene se enkrat ob zagonu brskalnika, če je čiščenje vklopljeno, in ko kliknete »Počisti zdaj« ali »Počisti ostanke«.
+
+Prvo čiščenje dolge zgodovine lahko traja nekaj minut, ker se vsak vnos zgodovine izbriše posebej. Medtem lahko brskate naprej. Poznejša čiščenja odstranijo le vnose prejšnje seje.
+
+ODPRTA KODA
+
+Clear Browsing Data Except Kept Sites je odprtokodni projekt pod licenco MIT.
+
+Oglejte si izvorno kodo, prijavite težave ali prispevajte na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

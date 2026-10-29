@@ -1,0 +1,90 @@
+Efface l'historique, les cookies et les données de sites au démarrage du navigateur, sauf pour les sites que vous conservez.
+
+Clear Browsing Data Except Kept Sites est une extension légère et open source qui supprime les entrées d'historique, les cookies et les données de sites de tous les sites que vous n'avez pas choisi de conserver.
+
+Ajoutez dans les paramètres les sites sur lesquels vous voulez rester connecté et dont vous voulez garder la trace, puis activez l'effacement. À chaque démarrage du navigateur, l'extension efface l'historique, les cookies et les données de sites de tous les autres sites. Vous pouvez aussi effacer à la demande avec « Effacer maintenant ».
+
+Astuce : dans le menu Extensions d'Edge, activez « Afficher dans la barre d'outils » pour Clear Browsing Data Except Kept Sites afin de garder son icône visible.
+
+FONCTIONNALITÉS PRINCIPALES
+
+• Une liste de sites dont l'historique et les cookies ne sont jamais effacés, à importer ou exporter sous forme de fichier texte
+• Effacement de l'historique et des cookies de tous les autres sites au démarrage du navigateur, une fois activé
+• Effacement à la demande avec « Effacer maintenant », et effacement des données restantes des sites qui ne sont plus trouvés avec « Effacer les restes »
+• Conservation automatique des sous-domaines d'un site conservé
+• Conservation des cookies du domaine parent dont un site conservé a besoin pour rester connecté
+• Effacement des cookies partitionnés (tiers) ; les cookies partitionnés d'un site conservé ne sont gardés que sous des sites conservés
+• Effacement du stockage local, d'IndexedDB, des service workers et du cache des sites non conservés
+• Affichage du résultat du dernier effacement dans les paramètres
+• Avertissement quand l'accès aux sites est désactivé et que les cookies ne peuvent pas être effacés
+• Aucune analyse ni aucun suivi
+• Aucun code distant ni aucune requête réseau
+
+SITES CONSERVÉS
+
+Ouvrez les paramètres et ajoutez un domaine, par exemple :
+
+example.com
+
+Pour en ajouter plusieurs à la fois, séparez-les par des virgules.
+
+« Exporter » enregistre la liste dans un fichier texte, un domaine par ligne. « Importer » remplace la liste par les sites d'un fichier texte, et avertit d'abord si cela retire des sites que vous conservez actuellement.
+
+Une adresse comme mail.example.com/inbox est réduite à son domaine, et un www. initial est retiré. localhost et les adresses IPv4 comme 192.168.1.1 sont aussi acceptés.
+
+Conserver example.com conserve l'historique, les cookies et les données de site d'example.com et de tous ses sous-domaines. Conserver mail.example.com conserve aussi les cookies d'example.com, car ils contiennent souvent la connexion du sous-domaine.
+
+OUVRIR LES PARAMÈTRES
+
+Les paramètres s'ouvrent automatiquement après l'installation, pour que vous puissiez remplir la liste avant d'activer l'effacement. Ensuite, cliquez sur l'icône de l'extension dans la barre d'outils, ou :
+
+1. Faites un clic droit sur l'icône de l'extension dans la barre d'outils.
+2. Sélectionnez Options de l'extension.
+
+EFFACEMENT AU DÉMARRAGE
+
+L'effacement est désactivé après l'installation, donc rien n'est supprimé tant que vous ne le demandez pas. Les paramètres affichent l'avis « L'effacement est désactivé » avec un bouton « Activer l'effacement ». L'activer affiche d'abord un avertissement : chaque démarrage supprime l'historique et les cookies de tous les sites sauf ceux conservés et vous en déconnecte, ou de tous les sites si aucun n'est conservé.
+
+Une fois activé, l'effacement a lieu à chaque démarrage du navigateur, car le navigateur ne laisse pas les extensions s'exécuter à sa fermeture. L'effacement au démarrage supprime ce que la session précédente a laissé. Désactivez-le ou réactivez-le avec « Effacer automatiquement au démarrage du navigateur » dans les paramètres.
+
+EFFACER MAINTENANT ET EFFACER LES RESTES
+
+« Effacer maintenant » dans les paramètres efface immédiatement. Si aucun site n'est conservé, un avertissement rouge indique d'abord que tout sera supprimé. Les paramètres indiquent quand le dernier effacement a eu lieu et combien d'entrées d'historique et de cookies il a supprimés.
+
+Une fois l'historique et les cookies d'un site supprimés, les effacements suivants ne trouvent plus ce site, donc son stockage local, ses bases de données et son cache restent. « Effacer les restes » lance un effacement puis supprime les données de site de tous les sites que vous ne conservez pas, trouvés ou non. Le navigateur ne peut épargner ici que des sites exacts, donc un site conservé ne garde ses données que pour lui-même et pour les sites conservés que l'effacement trouve dans l'historique, les cookies et les onglets ouverts ; un avertissement rouge le signale d'abord.
+
+ACCÈS AUX SITES
+
+Les cookies ne peuvent être supprimés que pour les sites auxquels l'extension a accès, elle demande donc l'accès à tous les sites web. Si vous limitez l'accès aux sites, par exemple à « Au clic », l'historique est toujours effacé mais les cookies sont ignorés, et les paramètres affichent un bouton « Autoriser l'accès aux sites ».
+
+LIMITES
+
+• Les onglets restaurés au démarrage peuvent créer de nouveaux cookies pendant l'effacement. Ces cookies restent jusqu'au prochain démarrage ou jusqu'à « Effacer maintenant ».
+• Les autres données de site, comme le stockage de session, les autorisations des sites et les fichiers enregistrés via l'API File System, ne sont pas effacées.
+• Si la synchronisation du navigateur inclut l'historique, les entrées d'historique supprimées peuvent aussi l'être sur vos autres appareils.
+• Les fenêtres InPrivate ne sont effacées que si l'extension est autorisée en mode InPrivate. Edge supprime de toute façon leurs données à leur fermeture.
+• Les adresses IPv6 ne peuvent pas être ajoutées à la liste.
+
+CONFIDENTIALITÉ
+
+• Aucune analyse ni aucun suivi
+• Aucune collecte de données
+• Aucune requête réseau
+• Aucun code distant
+• Aucun JavaScript externe
+• L'historique et les cookies ne sont lus que pour décider quoi supprimer, et uniquement dans votre navigateur
+• La liste et les paramètres sont stockés localement dans votre navigateur
+
+PERFORMANCES
+
+L'extension ne fait rien pendant que vous naviguez. Elle s'exécute une fois au démarrage du navigateur, si l'effacement est activé, et quand vous cliquez sur « Effacer maintenant » ou « Effacer les restes ».
+
+Le premier effacement d'un long historique peut prendre plusieurs minutes, car chaque entrée d'historique est supprimée une par une. Vous pouvez continuer à naviguer pendant ce temps. Les effacements suivants ne suppriment que les entrées de la session précédente.
+
+OPEN SOURCE
+
+Clear Browsing Data Except Kept Sites est un projet open source sous licence MIT.
+
+Consultez le code source, signalez des anomalies ou contribuez sur GitHub :
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,46 @@
+Cambie la velocitât di riproduzion di video e audio cuntun clic o une scurte de tastiere.
+
+Change Video Playback Speed e je une estension lizere e a sorzint vierte che e passe ator par cuatri velocitâts di riproduzion utilis:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Fâs clic su la icone de estension o dopre la scurte de tastiere par passâ ae velocitât sucessive. La velocitât sielte e vâl pai video e pal audio de pagjine, ancje tai riprodutôrs incorporâts supuartâts.
+
+La velocitât atuâl e ven mostrade par un moment su la pagjine e te insegne de sbare dai imprescj.
+
+FUNZIONS PRINCIPÂLS
+
+• Control cuntun clic e cuntune scurte de tastiere
+• Supuart pai video e pal audio
+• Supuart pai riprodutôrs incorporâts compatibii
+• Insegne de velocitât te sbare dai imprescj e un indicadôr su la pagjine che si viôt ancje a plen schermi
+• Nissun menù a comparse, control flutuant o impostazion
+
+SCURTIS DE TASTIERE PREDEFINIDIS
+
+• Windows, Linux, ChromeOS, GooglebookOS e Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+CAMBIÂ LA SCURTE DE TASTIERE
+
+1. Vierç il menù di Firefox e selezione Components adizionâi e temis.
+2. Fâs clic su la icone de ruede dentade te pagjine Estensions.
+3. Selezione Gjestìs lis scurtis des estensions.
+4. Cjate Change Video Playback Speed e scrîf la scurte che tu preferissis.
+
+RISERVATECE
+
+• Nissune analisi e nissun tracjament
+• Nissune racuelte di dâts o di cronologjie di navigazion
+• Nissune richieste di rêt
+• Nissun acès permanent ai sîts web
+
+Ducj i cambiaments di velocitât a vegnin fats in locâl, tal to navigadôr.
+
+SORZINT VIERTE
+
+Change Video Playback Speed al è a sorzint vierte e al è distribuît cu la licence MIT.
+
+Viôt il codiç sorzint, segnale problemis o contribuìs su GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

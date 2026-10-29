@@ -1,0 +1,42 @@
+Slút it aktuele ljepblêd mei in tik mei trije fingers, in middelklik of in klik op de arkbalke.
+
+Three Finger Tap to Close Tab is in lichte iepenboarne-útwreiding dy't in flugge en ienfâldige manier biedt om it aktuele ljepblêd fan de browser te sluten.
+
+Tik mei trije fingers of klik mei de middelste knop earne op in webside bûten keppelingen en bewurkbere fjilden om it aktuele ljepblêd te sluten. Jo kinne ek op it piktogram fan de útwreiding yn de arkbalke klikke.
+
+Tik yn Firefox foar Android op Three Finger Tap to Close Tab yn it menu Utwreidingen fan de browser om it aktuele ljepblêd te sluten. In tik op it skerm is gjin middelklik, dus in tik op in webside slút it ljepblêd nea.
+
+In middelklik op keppelingen en feedkaarten hâldt it gewoane gedrach fan de browser, sadat jo keppelingen en berjochten lykas altyd yn nije ljepblêden iepenje. In ynboude feilichheidsmarzje foarkomt dat it ljepblêd by fersin sluten wurdt as jo krekt neist in keppeling of betjeningseleminten tikke.
+
+WICHTICHSTE FUNKSJES
+
+• Slút it aktuele ljepblêd mei in tik mei trije fingers
+• Slút it aktuele ljepblêd mei in middelklik
+• Slút it aktuele ljepblêd mei in klik op de arkbalke
+• Hâldt de gewoane middelklik op keppelingen, knoppen en feedkaarten
+• In feilichheidsmarzje foarkomt sluten by fersin neist ynteraktive eleminten
+• Slút gjin ljepblêden wylst jo formulieren en bewurkbere fjilden brûke
+• Gjin pop-upmenu's of ynstellingen
+
+TOUCHPAD YNSTELLE
+
+Jo touchpad en bestjoeringssysteem moatte sa ynsteld wêze dat in tik mei trije fingers in middelklik jout.
+
+Tik dêrnei mei trije fingers op in webside bûten keppelingen en ynteraktive ynhâld om it aktuele ljepblêd te sluten.
+
+PRIVACY
+
+• Gjin analyze of folgjen
+• Gjin sammeljen fan gegevens of navigaasjeskiednis
+• Gjin netwurkfersiken
+• Gjin bewarre navigaasjeaktiviteit of foarkarren
+
+Ljepblêden wurde altyd lokaal yn jo browser sluten.
+
+IEPEN BOARNE
+
+Three Finger Tap to Close Tab is iepen boarne en wurdt útjûn ûnder de MIT-lisinsje.
+
+Besjoch de boarnekoade, meld problemen of draach by op GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

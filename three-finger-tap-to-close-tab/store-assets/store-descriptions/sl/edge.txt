@@ -1,0 +1,42 @@
+Zaprite trenutni zavihek s tapom s tremi prsti, srednjim klikom ali klikom v orodni vrstici.
+
+Three Finger Tap to Close Tab je lahka razširitev odprte kode, ki ponuja hiter in preprost način za zapiranje trenutnega zavihka brskalnika.
+
+Tapnite s tremi prsti ali kliknite s srednjim gumbom kjer koli na spletni strani zunaj povezav in polj za urejanje, da zaprete trenutni zavihek. Zavihek lahko zaprete tudi s klikom ikone razširitve v orodni vrstici.
+
+Nasvet: V meniju za razširitve brskalnika Edge vklopite «Pokaži v orodni vrstici» za Three Finger Tap to Close Tab za hiter dostop.
+
+Srednji klik na povezave in kartice virov ohrani običajno delovanje brskalnika, zato lahko povezave in objave še naprej odpirate v novih zavihkih kot običajno. Vgrajeno varnostno območje prepreči nenamerno zapiranje, če tapnete tik ob povezavi ali kontrolniku.
+
+GLAVNE FUNKCIJE
+
+• Zapiranje trenutnega zavihka s tapom s tremi prsti
+• Zapiranje trenutnega zavihka s srednjim klikom
+• Zapiranje trenutnega zavihka s klikom v orodni vrstici
+• Ohrani običajni srednji klik na povezavah, gumbih in karticah virov
+• Varnostno območje prepreči nenamerno zapiranje ob interaktivnih elementih
+• Ne zapira zavihkov, medtem ko uporabljate obrazce in polja za urejanje
+• Brez pojavnih menijev in nastavitev
+
+NASTAVITEV SLEDILNE PLOŠČICE
+
+Sledilna ploščica in operacijski sistem morata biti nastavljena tako, da tap s tremi prsti ustvari srednji klik.
+
+Nato tapnite s tremi prsti spletno stran zunaj povezav in interaktivne vsebine, da zaprete trenutni zavihek.
+
+ZASEBNOST
+
+• Brez analitike in sledenja
+• Brez zbiranja podatkov ali zgodovine brskanja
+• Brez omrežnih zahtev
+• Brez shranjene dejavnosti brskanja ali nastavitev
+
+Vsi zavihki se zapirajo lokalno v vašem brskalniku.
+
+ODPRTA KODA
+
+Three Finger Tap to Close Tab je odprtokodni projekt pod licenco MIT.
+
+Oglejte si izvorno kodo, prijavite težave ali prispevajte na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

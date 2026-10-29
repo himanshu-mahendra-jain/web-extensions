@@ -1,0 +1,42 @@
+Aizveriet pašreizējo cilni ar trīs pirkstu pieskārienu, vidējo klikšķi vai klikšķi rīkjoslā.
+
+Three Finger Tap to Close Tab ir viegls atvērtā pirmkoda paplašinājums, kas piedāvā ātru un vienkāršu veidu, kā aizvērt pārlūka pašreizējo cilni.
+
+Pieskarieties ar trim pirkstiem vai noklikšķiniet ar vidējo pogu jebkurā tīmekļa lapas vietā ārpus saitēm un rediģējamiem laukiem, lai aizvērtu pašreizējo cilni. Cilni var aizvērt arī, noklikšķinot uz paplašinājuma ikonas rīkjoslā.
+
+Padoms: piespraudiet paplašinājumu Chrome paplašinājumu izvēlnē (puzles ikona), lai ikona vienmēr būtu redzama rīkjoslā.
+
+Vidējais klikšķis uz saitēm un plūsmas kartītēm saglabā pārlūka ierasto darbību, tāpēc saites un ierakstus joprojām varat atvērt jaunās cilnēs kā parasti. Iebūvēta drošības zona novērš nejaušu cilnes aizvēršanu, ja pieskaraties tieši blakus saitei vai vadīklai.
+
+GALVENĀS FUNKCIJAS
+
+• Pašreizējās cilnes aizvēršana ar trīs pirkstu pieskārienu
+• Pašreizējās cilnes aizvēršana ar vidējo klikšķi
+• Pašreizējās cilnes aizvēršana ar klikšķi rīkjoslā
+• Saglabā ierasto vidējo klikšķi uz saitēm, pogām un plūsmas kartītēm
+• Drošības zona novērš nejaušu aizvēršanu pie interaktīviem elementiem
+• Neaizver cilnes, kamēr lietojat veidlapas un rediģējamus laukus
+• Nav uznirstošo izvēlņu vai iestatījumu
+
+SKĀRIENPALIKTŅA IESTATĪŠANA
+
+Skārienpaliktnim un operētājsistēmai jābūt iestatītiem tā, lai trīs pirkstu pieskāriens radītu vidējo klikšķi.
+
+Pēc tam pieskarieties ar trim pirkstiem tīmekļa lapai ārpus saitēm un interaktīva satura, lai aizvērtu pašreizējo cilni.
+
+PRIVĀTUMS
+
+• Nav analītikas vai izsekošanas
+• Nevāc datus vai pārlūkošanas vēsturi
+• Nav tīkla pieprasījumu
+• Nesaglabā pārlūkošanas darbības vai preferences
+
+Visas cilnes tiek aizvērtas lokāli jūsu pārlūkā.
+
+ATVĒRTAIS PIRMKODS
+
+Three Finger Tap to Close Tab ir atvērtā koda programmatūra saskaņā ar MIT licenci.
+
+Apskatiet pirmkodu, ziņojiet par kļūdām vai piedalieties izstrādē GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,46 @@
+只需点击一下或按下键盘快捷键，即可更改视频和音频的播放速度。
+
+Change Video Playback Speed 是一款轻量级开源扩展，可在四种实用的播放速度之间循环切换：
+
+1 倍 → 1.2 倍 → 1.5 倍 → 2 倍 → 1 倍
+
+点击扩展图标或使用键盘快捷键即可切换到下一个速度。所选速度会应用到页面上的视频和音频，包括受支持的嵌入式播放器。
+
+当前速度会在页面上短暂显示，并显示在工具栏徽标上。
+
+主要功能
+
+• 一键点击和键盘快捷键控制
+• 支持视频和音频
+• 支持兼容的嵌入式播放器
+• 工具栏速度徽标，以及全屏时也可见的页面提示
+• 没有弹出菜单、悬浮控件或设置
+
+默认键盘快捷键
+
+• Windows、Linux、ChromeOS、GooglebookOS 和 Android：Ctrl+Shift+Period
+• macOS：Command+Shift+Period
+
+更改键盘快捷键
+
+1. 打开 Firefox 菜单，选择“扩展和主题”。
+2. 在“扩展”页面点击齿轮图标。
+3. 选择“管理扩展快捷键”。
+4. 找到 Change Video Playback Speed，输入你想用的快捷键。
+
+隐私
+
+• 无分析，无跟踪
+• 不收集数据或浏览记录
+• 不发出网络请求
+• 不长期访问网站
+
+所有速度更改都在你的浏览器本地完成。
+
+开源许可
+
+Change Video Playback Speed 是一款自由开源软件，遵循 MIT 开源许可证。
+
+欢迎在 GitHub 上查看源码、提交反馈或参与贡献：
+
+https://github.com/himanshu-mahendra-jain/web-extensions

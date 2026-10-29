@@ -1,0 +1,90 @@
+Esborra l'historial, les galetes i les dades dels llocs en iniciar el navegador, per a tots els llocs excepte els que conserveu.
+
+Clear Browsing Data Except Kept Sites és una extensió lleugera i de codi obert que elimina les entrades de l'historial, les galetes i les dades de lloc de tots els llocs que no heu triat conservar.
+
+A la configuració, afegiu els llocs on voleu mantenir la sessió iniciada i que voleu que us recordin, i després activeu l'esborrat. Cada cop que s'inicia el navegador, l'extensió suprimeix l'historial, les galetes i les dades de lloc de tots els altres llocs. També podeu esborrar en qualsevol moment amb «Esborra ara».
+
+Consell: al menú d'extensions d'Edge, activeu «Mostra a la barra d'eines» per a Clear Browsing Data Except Kept Sites per tenir la icona a mà.
+
+CARACTERÍSTIQUES PRINCIPALS
+
+• Una llista de llocs l'historial i les galetes dels quals no s'esborren mai, amb importació i exportació com a fitxer de text
+• Esborra l'historial i les galetes de tots els altres llocs quan s'inicia el navegador, un cop l'activeu
+• Esborra en qualsevol moment amb «Esborra ara», i esborra les dades que queden de llocs que ja no es troben amb «Esborra les restes»
+• Conserva automàticament els subdominis d'un lloc conservat
+• Conserva les galetes del domini pare que un lloc conservat necessita perquè mantingueu la sessió iniciada
+• Esborra les galetes particionades (de tercers); les galetes particionades d'un lloc conservat només es queden sota llocs conservats
+• Esborra l'emmagatzematge local, IndexedDB, els service workers i la memòria cau dels llocs no conservats
+• Mostra el resultat de l'últim esborrat a la configuració
+• Avisa quan l'accés als llocs està desactivat i les galetes no es poden suprimir
+• Sense analítiques ni seguiment
+• Sense codi remot ni sol·licituds de xarxa
+
+LLOCS CONSERVATS
+
+Obriu la configuració i afegiu un domini, per exemple:
+
+example.com
+
+Per afegir-ne diversos alhora, separeu-los amb comes.
+
+«Exporta» desa la llista en un fitxer de text, un domini per línia. «Importa» substitueix la llista pels llocs d'un fitxer de text i avisa primer si així desapareixen llocs que ara conserveu.
+
+Una adreça com mail.example.com/inbox es redueix al seu domini, i s'elimina el www. inicial. També s'accepten localhost i adreces IPv4 com 192.168.1.1.
+
+Conservar example.com conserva l'historial, les galetes i les dades de lloc d'example.com i de tots els seus subdominis. Conservar mail.example.com també conserva les galetes d'example.com, perquè sovint contenen l'inici de sessió del subdomini.
+
+OBRIR LA CONFIGURACIÓ
+
+La configuració s'obre automàticament després de la instal·lació, perquè pugueu omplir la llista abans d'activar l'esborrat. Més endavant, feu clic a la icona de l'extensió a la barra d'eines, o bé:
+
+1. Feu clic dret a la icona de l'extensió a la barra d'eines.
+2. Seleccioneu Opcions de l'extensió.
+
+ESBORRAT EN INICIAR
+
+Després de la instal·lació l'esborrat està desactivat, així que no s'elimina res fins que ho demaneu. La configuració mostra l'avís «L'esborrat està desactivat» amb el botó «Activa l'esborrat». En activar-lo es mostra primer un avís: cada inici suprimeix l'historial i les galetes de tots els llocs excepte els conservats i us en tanca la sessió, o de tots els llocs si no se'n conserva cap.
+
+Un cop activat, l'esborrat s'executa cada cop que s'inicia el navegador, perquè el navegador no deixa que les extensions s'executin en tancar-lo. L'esborrat en iniciar elimina el que va deixar la sessió anterior. Desactiveu-lo o torneu-lo a activar amb «Esborra automàticament quan s'iniciï el navegador» a la configuració.
+
+ESBORRA ARA I ESBORRA LES RESTES
+
+«Esborra ara» a la configuració esborra immediatament. Si no es conserva cap lloc, primer apareix un avís vermell que tot se suprimirà. La configuració mostra quan es va fer l'últim esborrat i quantes entrades de l'historial i galetes va suprimir.
+
+Quan un esborrat ha eliminat l'historial i les galetes d'un lloc, els esborrats posteriors ja no troben aquell lloc, així que el seu emmagatzematge local, les bases de dades i la memòria cau es queden. «Esborra les restes» executa un esborrat i després suprimeix les dades de tots els llocs que no conserveu, trobats o no. Aquí el navegador només pot respectar llocs exactes, així que un lloc conservat conserva dades només per a si mateix i per als llocs conservats que l'esborrat troba a l'historial, a les galetes i a les pestanyes obertes; un avís vermell ho diu primer.
+
+ACCÉS ALS LLOCS
+
+Les galetes només es poden eliminar dels llocs als quals l'extensió té accés, per això demana accés a tots els llocs. Si limiteu l'accés als llocs, per exemple a «En fer clic», l'historial es continua esborrant, però les galetes s'ometen i la configuració mostra el botó «Permet l'accés als llocs».
+
+LIMITACIONS
+
+• Les pestanyes restaurades en iniciar poden definir galetes noves mentre s'executa l'esborrat. Aquestes galetes es queden fins al proper inici o el proper «Esborra ara».
+• Altres dades de lloc, com l'emmagatzematge de sessió, els permisos dels llocs i els fitxers desats mitjançant la File System API, no s'esborren.
+• Si la sincronització del navegador inclou l'historial, les entrades eliminades també es poden eliminar dels altres dispositius.
+• Les finestres InPrivate només s'esborren quan l'extensió està permesa a InPrivate. De totes maneres, Edge en descarta les dades en tancar-les.
+• Les adreces IPv6 no es poden afegir a la llista.
+
+PRIVADESA
+
+• Sense analítiques ni seguiment
+• Sense recollida de dades
+• Sense sol·licituds de xarxa
+• Sense codi remot
+• Sense JavaScript extern
+• L'historial i les galetes només es llegeixen per decidir què cal eliminar, i només al vostre navegador
+• La llista i la configuració es desen localment al vostre navegador
+
+RENDIMENT
+
+L'extensió no fa res mentre navegueu. S'executa un cop quan s'inicia el navegador, si l'esborrat està activat, i quan feu clic a «Esborra ara» o «Esborra les restes».
+
+El primer esborrat d'un historial llarg pot trigar uns minuts, perquè cada entrada de l'historial se suprimeix per separat. Mentrestant podeu continuar navegant. Els esborrats posteriors només eliminen les entrades de la sessió anterior.
+
+CODI OBERT
+
+Clear Browsing Data Except Kept Sites és un projecte de codi obert sota llicència MIT.
+
+Consulteu el codi font, informeu d'errors o col·laboreu a GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

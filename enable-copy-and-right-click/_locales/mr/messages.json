@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "प्रतिबंधित वेबपेजवर कॉपी करणे, मजकूर निवडणे आणि राइट-क्लिक मेनू सुरू करा."
+  },
+  "commandDescription": {
+    "message": "सध्याच्या पेजवर कॉपी आणि राइट क्लिक सुरू करा"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: सुरू",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "कॉपी आणि राइट क्लिक सुरू झाले."
+  },
+  "optionsTitle": {
+    "message": "आपोआप सुरू होणाऱ्या साइट | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub रिपॉझिटरी, नवीन टॅबमध्ये उघडते"
+  },
+  "automaticSitesHeading": {
+    "message": "आपोआप सुरू होणाऱ्या साइट"
+  },
+  "automaticSitesIntro": {
+    "message": "तुम्ही जोडलेल्या वेबसाइटवर कॉपी करणे, मजकूर निवडणे आणि राइट क्लिक आपोआप सुरू करा."
+  },
+  "siteInputLabel": {
+    "message": "वेबसाइटचे डोमेन"
+  },
+  "addSite": {
+    "message": "साइट जोडा"
+  },
+  "noSites": {
+    "message": "अजून कोणतीही आपोआप सुरू होणारी साइट जोडलेली नाही."
+  },
+  "siteListLabel": {
+    "message": "आपोआप सुरू होणाऱ्या साइट"
+  },
+  "remove": {
+    "message": "काढा"
+  },
+  "removeSite": {
+    "message": "$SITE$ काढा",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (परवानगी काढली)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ जोडली.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ पुन्हा सुरू केली.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ काढली.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "ही साइट आधीच सुरू आहे."
+  },
+  "invalidDomain": {
+    "message": "योग्य डोमेन टाका, उदा. example.com."
+  },
+  "permissionNotGranted": {
+    "message": "साइटची परवानगी दिली नाही."
+  },
+  "addFailed": {
+    "message": "साइट जोडता आली नाही."
+  },
+  "removeFailed": {
+    "message": "साइट काढता आली नाही."
+  },
+  "loadFailed": {
+    "message": "साइटची सूची लोड करता आली नाही."
+  }
+}

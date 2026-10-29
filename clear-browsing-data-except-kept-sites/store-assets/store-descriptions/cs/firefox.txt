@@ -1,0 +1,91 @@
+Při spuštění prohlížeče vymaže historii, soubory cookie a data webů u všech webů kromě těch, které si ponecháte.
+
+Firefox pro Android rozšířením nedovoluje mazat historii, proto se tam mažou jen soubory cookie a data webů.
+
+Clear Browsing Data Except Kept Sites je lehké rozšíření s otevřeným zdrojovým kódem, které odstraňuje záznamy historie, soubory cookie a data webů u všech webů, které jste si nevybrali ponechat.
+
+V nastavení přidejte weby, na kterých chcete zůstat přihlášeni a které si chcete pamatovat, a pak zapněte mazání. Při každém spuštění prohlížeče rozšíření vymaže historii a soubory cookie všech ostatních webů. Mazat můžete i kdykoli tlačítkem „Smazat nyní“.
+
+HLAVNÍ FUNKCE
+
+• Seznam webů, jejichž historie a soubory cookie se nikdy nemažou, s importem a exportem do textového souboru
+• Mazání historie a souborů cookie všech ostatních webů při spuštění prohlížeče, jakmile ho zapnete
+• Mazání kdykoli tlačítkem „Smazat nyní“ v nastavení
+• Automatické ponechání subdomén ponechaného webu
+• Ponechání souborů cookie nadřazené domény, které ponechaný web potřebuje, abyste zůstali přihlášeni
+• Mazání dělených souborů cookie (třetích stran) a souborů cookie kontejnerů; dělené soubory cookie ponechaného webu zůstávají jen pod ponechanými weby
+• Mazání místního úložiště, IndexedDB, service workerů a mezipaměti webů, které nejsou ponechány
+• Výsledek posledního mazání v nastavení
+• Upozornění, když je přístup k webům vypnutý a soubory cookie nelze mazat
+• Žádná analytika ani sledování
+• Žádný vzdálený kód ani síťové požadavky
+
+PONECHANÉ WEBY
+
+Otevřete nastavení a přidejte doménu, například:
+
+example.com
+
+Chcete-li přidat několik najednou, oddělte je čárkami.
+
+„Exportovat“ uloží seznam do textového souboru, jednu doménu na řádek. „Importovat“ nahradí seznam weby z textového souboru a předem upozorní, pokud tím zmizí weby, které teď ponecháváte.
+
+Adresa jako mail.example.com/inbox se zkrátí na doménu a úvodní www. se vynechá. Přijímají se také localhost a adresy IPv4 jako 192.168.1.1.
+
+Ponechání example.com ponechá historii a soubory cookie example.com a všech jeho subdomén. Ponechání mail.example.com ponechá i soubory cookie example.com, protože často obsahují přihlášení subdomény.
+
+OTEVŘENÍ NASTAVENÍ
+
+Nastavení se po instalaci otevře automaticky, abyste mohli vyplnit seznam ještě před zapnutím mazání. Později klikněte na ikonu rozšíření na panelu nástrojů. Ve Firefoxu pro Android klepněte na Clear Browsing Data Except Kept Sites v nabídce Rozšíření prohlížeče.
+
+Otevřít ho můžete také ze správce doplňků:
+
+1. Otevřete nabídku Firefoxu a vyberte Doplňky a vzhledy.
+2. Najděte Clear Browsing Data Except Kept Sites a klikněte na nabídku se třemi tečkami vedle něj.
+3. Vyberte Předvolby.
+
+MAZÁNÍ PŘI SPUŠTĚNÍ
+
+Po instalaci je mazání vypnuté, takže se nic neodstraní, dokud o to nepožádáte. Nastavení zobrazí upozornění „Mazání je vypnuté“ s tlačítkem „Zapnout mazání“. Zapnutí nejprve zobrazí varování: každé spuštění smaže historii a soubory cookie všech webů kromě ponechaných a odhlásí vás z nich, nebo ze všech webů, když není ponechán žádný.
+
+Po zapnutí probíhá mazání při každém spuštění prohlížeče, protože prohlížeč nenechá rozšíření běžet při zavírání. Mazání při spuštění odstraní, co zanechala předchozí relace. Vypnout nebo znovu zapnout ho můžete volbou „Mazat automaticky při spuštění prohlížeče“ v nastavení.
+
+VYMAZAT NYNÍ
+
+„Smazat nyní“ v nastavení maže okamžitě. Když není ponechán žádný web, nejprve se zobrazí červené varování, že bude smazáno vše. Nastavení ukazuje, kdy proběhlo poslední mazání a kolik záznamů historie a souborů cookie smazalo.
+
+PŘÍSTUP K WEBŮM
+
+Soubory cookie lze odstranit jen u webů, ke kterým má rozšíření přístup, proto žádá o přístup ke všem webům. Pokud přístup k webům vypnete, historie se dál maže, ale soubory cookie se přeskočí a nastavení zobrazí tlačítko „Povolit přístup k webům“.
+
+OMEZENÍ
+
+• Karty obnovené při spuštění mohou během mazání vytvořit nové soubory cookie. Ty zůstanou do dalšího spuštění nebo do použití „Smazat nyní“.
+• Firefox neumí mazat data webů s výjimkou vybraných webů, proto rozšíření maže místní úložiště, IndexedDB a service workery každého neponechaného webu, který najde v historii, souborech cookie a otevřených kartách. Web, který se v ničem z toho nevyskytuje, si svá data ponechá. Web s ponechanou subdoménou si ponechá své service workery, protože Firefox by s nimi smazal i ty subdomény. Mezipaměť se maže pro všechny weby, protože ji Firefox neumí mazat po webech; nikoho to neodhlásí.
+• Firefox neumí mazat po webech Cache Storage, tedy offline soubory, které ukládají service workery, proto se nemaže. Chcete-li odstranit, na co rozšíření nedosáhne, použijte Nastavení > Soukromí a zabezpečení > Cookies a data stránek > Spravovat data.
+• Pokud synchronizace prohlížeče zahrnuje historii, odstraněné záznamy historie se mohou odstranit i na vašich dalších zařízeních.
+• Anonymní okna se mažou jen tehdy, když rozšíření v nich smí běžet.
+
+SOUKROMÍ
+
+• Žádná analytika ani sledování
+• Žádný sběr dat
+• Žádné síťové požadavky
+• Žádný vzdálený kód
+• Žádný externí JavaScript
+• Historie a soubory cookie se čtou jen kvůli rozhodnutí, co odstranit, a jen ve vašem prohlížeči
+• Seznam a nastavení se ukládají místně ve vašem prohlížeči
+
+VÝKON
+
+Rozšíření během prohlížení nic nedělá. Spustí se jednou při startu prohlížeče, je-li mazání zapnuté, a když kliknete na „Smazat nyní“.
+
+První mazání dlouhé historie může trvat několik minut, protože se každý záznam historie maže zvlášť. Mezitím můžete dál prohlížet. Další mazání odstraní jen záznamy předchozí relace.
+
+OPEN SOURCE
+
+Clear Browsing Data Except Kept Sites je open-source projekt pod licencí MIT.
+
+Zdrojový kód, hlášení chyb a možnost zapojení najdete na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

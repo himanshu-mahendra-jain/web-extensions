@@ -1,0 +1,90 @@
+Menghapus histori, cookie, dan data situs saat browser dimulai untuk semua situs kecuali yang Anda simpan.
+
+Clear Browsing Data Except Kept Sites adalah ekstensi ringan dan open source yang menghapus entri histori, cookie, dan data situs dari semua situs yang tidak Anda pilih untuk disimpan.
+
+Di setelan, tambahkan situs tempat Anda ingin tetap login dan yang ingin mengingat Anda, lalu aktifkan penghapusan. Setiap kali browser dimulai, ekstensi menghapus histori, cookie, dan data situs dari semua situs lainnya. Anda juga dapat menghapus kapan saja dengan "Hapus Sekarang".
+
+Tips: Di menu Ekstensi Edge, aktifkan opsi «Tampilkan di bilah alat» untuk Clear Browsing Data Except Kept Sites agar mudah diakses.
+
+FITUR UTAMA
+
+• Daftar situs yang histori dan cookie-nya tidak pernah dihapus, dengan impor dan ekspor sebagai file teks
+• Menghapus histori dan cookie semua situs lain saat browser dimulai, setelah Anda mengaktifkannya
+• Hapus kapan saja dengan "Hapus Sekarang", dan hapus sisa data dari situs yang tidak lagi ditemukan dengan "Hapus Sisa"
+• Otomatis menyimpan subdomain dari situs yang disimpan
+• Menyimpan cookie domain induk yang dibutuhkan situs yang disimpan agar Anda tetap login
+• Menghapus cookie terpartisi (pihak ketiga); cookie terpartisi dari situs yang disimpan hanya tetap ada di bawah situs yang disimpan
+• Menghapus penyimpanan lokal, IndexedDB, service worker, dan cache dari situs yang tidak disimpan
+• Menampilkan hasil penghapusan terakhir di setelan
+• Memperingatkan saat akses situs dinonaktifkan dan cookie tidak dapat dihapus
+• Tanpa analitik atau pelacakan
+• Tanpa kode jarak jauh atau permintaan jaringan
+
+SITUS YANG DISIMPAN
+
+Buka setelan dan tambahkan domain, misalnya:
+
+example.com
+
+Untuk menambahkan beberapa sekaligus, pisahkan dengan koma.
+
+"Ekspor" menyimpan daftar sebagai file teks, satu domain per baris. "Impor" mengganti daftar dengan situs dari file teks, dan memperingatkan lebih dulu jika situs yang kini Anda simpan akan hilang.
+
+Alamat seperti mail.example.com/inbox dipersingkat menjadi domainnya, dan www. di awal dihilangkan. localhost dan alamat IPv4 seperti 192.168.1.1 juga diterima.
+
+Menyimpan example.com akan menyimpan histori, cookie, dan data situs example.com beserta semua subdomainnya. Menyimpan mail.example.com juga menyimpan cookie example.com, karena cookie itu sering berisi login subdomain.
+
+MEMBUKA SETELAN
+
+Setelan terbuka otomatis setelah pemasangan, sehingga Anda dapat mengisi daftar sebelum mengaktifkan penghapusan. Selanjutnya, klik ikon ekstensi di toolbar, atau:
+
+1. Klik kanan ikon ekstensi di toolbar.
+2. Pilih Opsi ekstensi.
+
+HAPUS SAAT MULAI
+
+Setelah pemasangan, penghapusan nonaktif, jadi tidak ada yang dihapus sampai Anda memintanya. Setelan menampilkan pemberitahuan "Penghapusan nonaktif" dengan tombol "Aktifkan Penghapusan". Mengaktifkannya akan menampilkan peringatan lebih dulu: setiap kali browser dimulai, histori dan cookie semua situs kecuali yang disimpan akan dihapus dan Anda akan logout dari situs tersebut, atau dari semua situs jika tidak ada yang disimpan.
+
+Jika aktif, penghapusan berjalan setiap kali browser dimulai, karena browser tidak mengizinkan ekstensi berjalan saat ditutup. Penghapusan saat mulai menghapus apa yang ditinggalkan sesi sebelumnya. Nonaktifkan atau aktifkan lagi dengan "Hapus otomatis saat browser dimulai" di setelan.
+
+HAPUS SEKARANG DAN HAPUS SISA
+
+"Hapus Sekarang" di setelan langsung menghapus. Jika tidak ada situs yang disimpan, peringatan merah muncul lebih dulu bahwa semuanya akan dihapus. Setelan menampilkan kapan penghapusan terakhir dilakukan dan berapa entri histori dan cookie yang dihapusnya.
+
+Setelah penghapusan menghilangkan histori dan cookie sebuah situs, penghapusan berikutnya tidak lagi menemukan situs itu, sehingga penyimpanan lokal, database, dan cache-nya tetap ada. "Hapus Sisa" menjalankan penghapusan lalu menghapus data semua situs yang tidak Anda simpan, ditemukan atau tidak. Di sini browser hanya dapat mengecualikan situs yang persis sama, jadi situs yang disimpan hanya mempertahankan data untuk dirinya sendiri dan untuk situs yang disimpan yang ditemukan penghapusan di histori, cookie, dan tab yang terbuka; peringatan merah menyampaikan hal ini lebih dulu.
+
+AKSES SITUS
+
+Cookie hanya dapat dihapus dari situs yang dapat diakses ekstensi, jadi ekstensi meminta akses ke semua situs. Jika Anda membatasi akses situs, misalnya menjadi "Saat diklik", histori tetap dihapus, tetapi cookie dilewati, dan setelan menampilkan tombol "Izinkan Akses Situs".
+
+BATASAN
+
+• Tab yang dipulihkan saat mulai dapat menyetel cookie baru selama penghapusan berjalan. Cookie tersebut tetap ada sampai mulai berikutnya atau "Hapus Sekarang" berikutnya.
+• Data situs lainnya, seperti penyimpanan sesi, izin situs, dan file yang disimpan melalui File System API, tidak dihapus.
+• Jika sinkronisasi browser mencakup histori, entri histori yang dihapus juga dapat terhapus di perangkat Anda yang lain.
+• Jendela InPrivate hanya dihapus jika ekstensi diizinkan dalam InPrivate. Bagaimanapun, Edge membuang datanya saat jendela ditutup.
+• Alamat IPv6 tidak dapat ditambahkan ke daftar.
+
+PRIVASI
+
+• Tanpa analitik atau pelacakan
+• Tanpa pengumpulan data
+• Tanpa permintaan jaringan
+• Tanpa kode jarak jauh
+• Tanpa JavaScript eksternal
+• Histori dan cookie hanya dibaca untuk menentukan apa yang perlu dihapus, dan hanya di browser Anda
+• Daftar dan setelan disimpan secara lokal di browser Anda
+
+PERFORMA
+
+Ekstensi tidak melakukan apa pun saat Anda menjelajah. Ekstensi berjalan sekali saat browser dimulai, jika penghapusan aktif, dan saat Anda mengklik "Hapus Sekarang" atau "Hapus Sisa".
+
+Penghapusan pertama histori yang panjang dapat memakan waktu beberapa menit, karena setiap entri histori dihapus satu per satu. Anda dapat terus menjelajah sementara itu. Penghapusan berikutnya hanya menghapus entri dari sesi sebelumnya.
+
+SUMBER TERBUKA (OPEN SOURCE)
+
+Clear Browsing Data Except Kept Sites adalah perangkat lunak sumber terbuka di bawah Lisensi MIT.
+
+Lihat kode sumber, laporkan masalah, atau berkontribusi di GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

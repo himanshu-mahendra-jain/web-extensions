@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Kustutab brauseri käivitumisel ajaloo, küpsised ja saidiandmed kõigil saitidel peale nende, mille alles jätate."
+  },
+  "optionsTitle": {
+    "message": "Allesjäetud saidid | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHubi hoidla, avaneb uuel vahelehel"
+  },
+  "accessHeading": {
+    "message": "Juurdepääs saitidele on välja lülitatud"
+  },
+  "allowSiteAccess": {
+    "message": "Luba juurdepääs saitidele"
+  },
+  "accessHistorySiteData": {
+    "message": "Ilma juurdepääsuta veebisaitidele ei saa laiendus küpsiseid kustutada. Ajalugu ja saidiandmed kustutatakse endiselt."
+  },
+  "accessHistory": {
+    "message": "Ilma juurdepääsuta veebisaitidele ei saa laiendus küpsiseid kustutada. Ajalugu kustutatakse endiselt."
+  },
+  "accessSiteData": {
+    "message": "Ilma juurdepääsuta veebisaitidele ei saa laiendus küpsiseid kustutada. Saidiandmed kustutatakse endiselt."
+  },
+  "accessNothing": {
+    "message": "Ilma juurdepääsuta veebisaitidele ei saa laiendus küpsiseid kustutada, seega ei kustutata midagi."
+  },
+  "clearingOffHeading": {
+    "message": "Kustutamine on välja lülitatud"
+  },
+  "clearingOffText": {
+    "message": "Veel ei kustutata midagi. Lisage saidid, kuhu soovite sisselogituks jääda, ja lülitage siis kustutamine sisse. Edaspidi kustutatakse iga kord brauseri käivitumisel kõigi teiste saitide andmed ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Lülita kustutamine sisse"
+  },
+  "keptSitesHeading": {
+    "message": "Allesjäetud saidid"
+  },
+  "intro": {
+    "message": "Need saidid ja nende alamdomeenid jätavad oma andmed ($DATA$) alles, nii et jääte sisselogituks. Kui kustutamine on sisse lülitatud, kaotavad kõik teised saidid need iga kord brauseri käivitumisel.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Veebisaitide domeenid"
+  },
+  "keep": {
+    "message": "Jäta alles"
+  },
+  "siteHint": {
+    "message": "Eraldage mitu saiti komadega."
+  },
+  "noSites": {
+    "message": "Ühtegi saiti pole veel alles jäetud, seega kustutab kustutamine kõigi saitide andmed ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Allesjäetud saidid"
+  },
+  "clearingHeading": {
+    "message": "Kustutamine"
+  },
+  "clearOnStartupLabel": {
+    "message": "Kustuta automaatselt brauseri käivitumisel"
+  },
+  "clearNow": {
+    "message": "Kustuta kohe"
+  },
+  "firstClearHint": {
+    "message": "Esimene kustutamine võib võtta mitu minutit, kui brauseris on palju sirvimisandmeid. Saate samal ajal edasi sirvida."
+  },
+  "leftoversHeading": {
+    "message": "Ülejäänud saidiandmed"
+  },
+  "leftoversIntro": {
+    "message": "Kui saidi ajalugu ja küpsised on kustutatud, ei leia laiendus seda enam, seega jäävad selle kohalik salvestusruum, andmebaasid ja vahemälu alles. „Kustuta jäägid” kustutab pärast kustutamist, nagu „Kustuta kohe”, kõigi saitide andmed, mida te alles ei jäta, leitud või mitte."
+  },
+  "clearLeftovers": {
+    "message": "Kustuta jäägid"
+  },
+  "transferHeading": {
+    "message": "Import ja eksport"
+  },
+  "transferIntro": {
+    "message": "Salvestage allesjäetud saidid tekstifaili või asendage need failis olevate saitidega. Failis võib olla üks sait rea kohta või saidid komadega eraldatud."
+  },
+  "export": {
+    "message": "Ekspordi"
+  },
+  "import": {
+    "message": "Impordi"
+  },
+  "cancel": {
+    "message": "Tühista"
+  },
+  "dataAll": {
+    "message": "ajalugu, küpsised ja saidiandmed"
+  },
+  "dataNoHistory": {
+    "message": "küpsised ja saidiandmed"
+  },
+  "dataNoSiteData": {
+    "message": "ajalugu ja küpsised"
+  },
+  "dataCookies": {
+    "message": "küpsised"
+  },
+  "remove": {
+    "message": "Eemalda"
+  },
+  "removeSite": {
+    "message": "Eemalda $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ eemaldati. Selle andmed ($DATA$) kustutatakse järgmisel kustutamisel.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Saiti ei õnnestunud eemaldada."
+  },
+  "siteKept": {
+    "message": "$SITE$ jäeti alles.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ sait jäeti alles.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ saiti jäeti alles.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ on juba alles jäetud.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ sait on juba alles jäetud.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ saiti on juba alles jäetud.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ pole kehtiv domeen.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Need pole kehtivad domeenid: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Sisestage kehtiv domeen, näiteks example.com."
+  },
+  "addSiteFailed": {
+    "message": "Saiti ei õnnestunud lisada."
+  },
+  "addSitesFailed": {
+    "message": "Saite ei õnnestunud lisada."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ on suurem kui 1 MB, seega allesjäetud saite ei muudetud.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "Failis $FILE$ pole ühtegi kehtivat domeeni, seega allesjäetud saite ei muudetud.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Kas asendada allesjäetud saidid?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ sait",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ saiti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Praegu allesjäetud saidid ($CURRENT$) asendatakse failis $FILE$ olevate saitidega ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ sait ei jäeta enam alles ja selle andmed ($DATA$) kustutatakse järgmisel kustutamisel.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ saiti ei jäeta enam alles ja nende andmed ($DATA$) kustutatakse järgmisel kustutamisel.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Asenda allesjäetud saidid"
+  },
+  "sitesImported_one": {
+    "message": "Failist $FILE$ imporditi $COUNT$ sait.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Failist $FILE$ imporditi $COUNT$ saiti.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Allesjäetud saite ei õnnestunud eksportida."
+  },
+  "importFailed": {
+    "message": "Allesjäetud saite ei õnnestunud failist $FILE$ importida.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Kas lülitada kustutamine sisse?"
+  },
+  "turnOnKept": {
+    "message": "Iga kord brauseri käivitumisel kustutatakse kõigi saitide andmed ($DATA$) peale nende, mille valisite alles jätta. Teid logitakse kõigilt teistelt saitidelt välja.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Te pole valinud ühtegi saiti alles jätmiseks. Iga kord brauseri käivitumisel kustutatakse kõik andmed ($DATA$) ja teid logitakse kõigilt saitidelt välja.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Kustutatud andmeid ($DATA$) ei saa taastada.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Kas kustutada kohe kõik?"
+  },
+  "clearEverythingText": {
+    "message": "Te pole valinud ühtegi saiti alles jätmiseks, seega kustutatakse kohe kõigi saitide andmed ($DATA$) ja teid logitakse kõigilt saitidelt välja.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Kustuta kõik"
+  },
+  "leftoversTitle": {
+    "message": "Kas kustutada ülejäänud saidiandmed?"
+  },
+  "leftoversKept": {
+    "message": "Kõigi saitide andmed ($DATA$), mida te alles ei jäta, kustutatakse kohe, sealhulgas nende saitide andmed, mida laiendus enam ei leia.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Allesjäetud sait säilitab oma andmed ainult aadressidel, mille laiendus leiab ajaloost, küpsistest ja avatud vahelehtedelt. Iga muu allesjäetud saidi alamdomeen või port, näiteks selline, mida te pole kuude kaupa külastanud, või kohalik server teisel pordil, kaotab oma andmed ja teid võidakse sealt välja logida."
+  },
+  "clearing": {
+    "message": "Kustutamine… See võib võtta mõne minuti."
+  },
+  "leftoversFailed": {
+    "message": "Ülejäänud saidiandmete kustutamine ebaõnnestus."
+  },
+  "leftoversCleared": {
+    "message": "Ülejäänud saidiandmed kustutati."
+  },
+  "nothingClearedYet": {
+    "message": "Midagi pole veel kustutatud."
+  },
+  "clearFailed": {
+    "message": "Kustutamine ($WHEN$) ebaõnnestus.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ ajalookirje",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ ajalookirjet",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ küpsis",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ küpsist",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "mitte midagi"
+  },
+  "lastCleared": {
+    "message": "Viimati kustutatud: $WHEN$. Kustutati: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Viimati kustutatud: $WHEN$. Kustutati: $WHAT$, lisaks saidiandmed ja vahemälu.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Viimati kustutatud: $WHEN$. Kustutati: $WHAT$, lisaks kõigi allesjätmata saitide andmed ja vahemälu.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Ajalugu ja saidiandmed jäeti vahele, sest see brauser ei luba laiendustel neid kustutada."
+  },
+  "skippedHistory": {
+    "message": "Ajalugu jäeti vahele, sest see brauser ei luba laiendustel seda kustutada."
+  },
+  "skippedSiteData": {
+    "message": "Saidiandmed jäeti vahele, sest see brauser ei luba laiendustel neid kustutada."
+  },
+  "cookiesSkipped": {
+    "message": "Küpsised jäeti vahele, sest juurdepääs saitidele on välja lülitatud."
+  },
+  "loadFailed": {
+    "message": "Seadeid ei õnnestunud laadida."
+  }
+}

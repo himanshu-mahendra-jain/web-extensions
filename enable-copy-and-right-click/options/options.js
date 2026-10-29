@@ -1,4 +1,5 @@
 import "../src/extension-api.js";
+import { localizePage, t } from "../src/i18n.js";
 import {
   getSiteOrigins,
   normalizeSite,
@@ -221,15 +222,15 @@ async function renderSites() {
 
       label.textContent = hasPermission
         ? site
-        : `${site} (permission removed)`;
+        : t("permissionRemoved", site);
 
 
       removeButton.type = "button";
-      removeButton.textContent = "Remove";
+      removeButton.textContent = t("remove");
 
       removeButton.setAttribute(
         "aria-label",
-        `Remove ${site}`
+        t("removeSite", site)
       );
 
 
@@ -249,7 +250,7 @@ async function renderSites() {
             console.error(error);
 
             setMessage(
-              "The site could not be removed.",
+              t("removeFailed"),
               "error"
             );
 
@@ -285,7 +286,7 @@ async function addSite(
 ) {
   if (!granted) {
     setMessage(
-      "Site permission was not granted.",
+      t("permissionNotGranted"),
       "error"
     );
 
@@ -300,7 +301,7 @@ async function addSite(
   if (sites.includes(site)) {
     if (hadPermission) {
       setMessage(
-        "This site is already enabled.",
+        t("siteAlreadyEnabled"),
         "status"
       );
 
@@ -319,7 +320,7 @@ async function addSite(
     input.removeAttribute("aria-invalid");
 
     setMessage(
-      `${site} re-enabled.`,
+      t("siteReEnabled", site),
       "success"
     );
 
@@ -366,7 +367,7 @@ async function addSite(
   input.removeAttribute("aria-invalid");
 
   setMessage(
-    `${site} added.`,
+    t("siteAdded", site),
     "success"
   );
 
@@ -423,7 +424,7 @@ async function removeSite(site) {
 
 
   setMessage(
-    `${site} removed.`,
+    t("siteRemoved", site),
     "success"
   );
 
@@ -483,7 +484,7 @@ form.addEventListener(
       );
 
       setMessage(
-        "Enter a valid domain, such as example.com.",
+        t("invalidDomain"),
         "error"
       );
 
@@ -539,7 +540,7 @@ form.addEventListener(
       console.error(error);
 
       setMessage(
-        "The site could not be added.",
+        t("addFailed"),
         "error"
       );
     } finally {
@@ -549,11 +550,13 @@ form.addEventListener(
 );
 
 
+localizePage();
+
 renderSites().catch((error) => {
   console.error(error);
 
   setMessage(
-    "The site list could not be loaded.",
+    t("loadFailed"),
     "error"
   );
 });

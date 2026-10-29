@@ -1,0 +1,552 @@
+{
+  "extensionDescription": {
+    "message": "При покретању прегледача брише историју, колачиће и податке сајтова за све сајтове осим оних које задржавате."
+  },
+  "optionsTitle": {
+    "message": "Задржани сајтови | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub спремиште, отвара се на новој картици"
+  },
+  "accessHeading": {
+    "message": "Приступ сајтовима је искључен"
+  },
+  "allowSiteAccess": {
+    "message": "Дозволи приступ сајтовима"
+  },
+  "accessHistorySiteData": {
+    "message": "Без приступа веб-сајтовима, додатак не може да брише колачиће. Историја и подаци сајтова се и даље бришу."
+  },
+  "accessHistory": {
+    "message": "Без приступа веб-сајтовима, додатак не може да брише колачиће. Историја се и даље брише."
+  },
+  "accessSiteData": {
+    "message": "Без приступа веб-сајтовима, додатак не може да брише колачиће. Подаци сајтова се и даље бришу."
+  },
+  "accessNothing": {
+    "message": "Без приступа веб-сајтовима, додатак не може да брише колачиће, па се ништа не брише."
+  },
+  "clearingOffHeading": {
+    "message": "Брисање је искључено"
+  },
+  "clearingOffText": {
+    "message": "Још се ништа не брише. Додајте сајтове на којима желите да останете пријављени, а затим укључите брисање. Од тада ће се при сваком покретању прегледача брисати подаци ($DATA$) свих осталих сајтова.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Укључи брисање"
+  },
+  "keptSitesHeading": {
+    "message": "Задржани сајтови"
+  },
+  "intro": {
+    "message": "Ови сајтови и њихови поддомени задржавају своје податке ($DATA$), па остајете пријављени. Док је брисање укључено, сви остали сајтови их губе при сваком покретању прегледача.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Домени веб-сајтова"
+  },
+  "keep": {
+    "message": "Задржи"
+  },
+  "siteHint": {
+    "message": "Више сајтова одвојите зарезима."
+  },
+  "noSites": {
+    "message": "Још није задржан ниједан сајт, па брисање уклања податке ($DATA$) свих сајтова.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Задржани сајтови"
+  },
+  "clearingHeading": {
+    "message": "Брисање"
+  },
+  "clearOnStartupLabel": {
+    "message": "Аутоматски бриши при покретању прегледача"
+  },
+  "clearNow": {
+    "message": "Обриши сада"
+  },
+  "firstClearHint": {
+    "message": "Прво брисање може да потраје неколико минута ако прегледач има много података прегледања. У међувремену можете да наставите да прегледате."
+  },
+  "leftoversHeading": {
+    "message": "Преостали подаци сајтова"
+  },
+  "leftoversIntro": {
+    "message": "Када се историја и колачићи сајта обришу, додатак га више не проналази, па његова локална меморија, базе података и кеш остају. „Обриши остатке” након брисања као што је „Обриши сада” брише податке свих сајтова које не задржавате, пронађених или не."
+  },
+  "clearLeftovers": {
+    "message": "Обриши остатке"
+  },
+  "transferHeading": {
+    "message": "Увоз и извоз"
+  },
+  "transferIntro": {
+    "message": "Сачувајте задржане сајтове у текстуалну датотеку или их замените сајтовима из датотеке. Датотека може имати један сајт по реду или их раздвајати зарезима."
+  },
+  "export": {
+    "message": "Извези"
+  },
+  "import": {
+    "message": "Увези"
+  },
+  "cancel": {
+    "message": "Откажи"
+  },
+  "dataAll": {
+    "message": "историја, колачићи и подаци сајтова"
+  },
+  "dataNoHistory": {
+    "message": "колачићи и подаци сајтова"
+  },
+  "dataNoSiteData": {
+    "message": "историја и колачићи"
+  },
+  "dataCookies": {
+    "message": "колачићи"
+  },
+  "remove": {
+    "message": "Уклони"
+  },
+  "removeSite": {
+    "message": "Уклони $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ је уклоњен. Његови подаци ($DATA$) биће обрисани при следећем брисању.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Уклањање сајта није успело."
+  },
+  "siteKept": {
+    "message": "$SITE$ је задржан.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Задржан је $COUNT$ сајт.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_few": {
+    "message": "Задржана су $COUNT$ сајта.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Задржано је $COUNT$ сајтова.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ је већ задржан.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ сајт је већ задржан.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_few": {
+    "message": "$COUNT$ сајта су већ задржана.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ сајтова је већ задржано.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ није важећи домен.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Ово нису важећи домени: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Унесите важећи домен, на пример example.com."
+  },
+  "addSiteFailed": {
+    "message": "Додавање сајта није успело."
+  },
+  "addSitesFailed": {
+    "message": "Додавање сајтова није успело."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ је већа од 1 MB, па задржани сајтови нису промењени.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ нема важећих домена, па задржани сајтови нису промењени.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Заменити задржане сајтове?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ сајт",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_few": {
+    "message": "$COUNT$ сајта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ сајтова",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Сајтови које сада задржавате ($CURRENT$) биће замењени сајтовима из датотеке $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ сајт више неће бити задржан, а његови подаци ($DATA$) биће обрисани при следећем брисању.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_few": {
+    "message": "$COUNT$ сајта више неће бити задржана, а њихови подаци ($DATA$) биће обрисани при следећем брисању.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ сајтова више неће бити задржано, а њихови подаци ($DATA$) биће обрисани при следећем брисању.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Замени задржане сајтове"
+  },
+  "sitesImported_one": {
+    "message": "Из датотеке $FILE$ увезен је $COUNT$ сајт.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_few": {
+    "message": "Из датотеке $FILE$ увезена су $COUNT$ сајта.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Из датотеке $FILE$ увезено је $COUNT$ сајтова.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Извоз задржаних сајтова није успео."
+  },
+  "importFailed": {
+    "message": "Увоз задржаних сајтова из датотеке $FILE$ није успео.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Укључити брисање?"
+  },
+  "turnOnKept": {
+    "message": "При сваком покретању прегледача брисаће се подаци ($DATA$) свих сајтова осим оних које сте одлучили да задржите. Бићете одјављени са свих осталих сајтова.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Нисте изабрали ниједан сајт за задржавање. При сваком покретању прегледача брисаће се сви подаци ($DATA$) и бићете одјављени са свих сајтова.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Обрисани подаци ($DATA$) не могу да се врате.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Обрисати све сада?"
+  },
+  "clearEverythingText": {
+    "message": "Нисте изабрали ниједан сајт за задржавање, па ће сада бити обрисани подаци ($DATA$) свих сајтова и бићете одјављени са свих сајтова.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Обриши све"
+  },
+  "leftoversTitle": {
+    "message": "Обрисати преостале податке сајтова?"
+  },
+  "leftoversKept": {
+    "message": "Сада ће бити обрисани подаци ($DATA$) свих сајтова које не задржавате, укључујући податке сајтова које додатак више не проналази.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Задржани сајт задржава своје податке само на адресама које додатак пронађе у историји, колачићима и отвореним картицама. Сваки други поддомен или порт задржаног сајта, на пример поддомен који месецима нисте посетили или локални сервер на другом порту, губи своје податке и можда ћете бити одјављени са њега."
+  },
+  "clearing": {
+    "message": "Брисање… Ово може да потраје неколико минута."
+  },
+  "leftoversFailed": {
+    "message": "Брисање преосталих података сајтова није успело."
+  },
+  "leftoversCleared": {
+    "message": "Преостали подаци сајтова су обрисани."
+  },
+  "nothingClearedYet": {
+    "message": "Још ништа није обрисано."
+  },
+  "clearFailed": {
+    "message": "Брисање ($WHEN$) није успело.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ ставка историје",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_few": {
+    "message": "$COUNT$ ставке историје",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ ставки историје",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ колачић",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_few": {
+    "message": "$COUNT$ колачића",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ колачића",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "ништа"
+  },
+  "lastCleared": {
+    "message": "Последње брисање: $WHEN$. Обрисано: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Последње брисање: $WHEN$. Обрисано: $WHAT$, као и подаци сајтова и кеш.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Последње брисање: $WHEN$. Обрисано: $WHAT$, као и подаци и кеш свих незадржаних сајтова.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Историја и подаци сајтова су прескочени јер овај прегледач не дозвољава додацима да их бришу."
+  },
+  "skippedHistory": {
+    "message": "Историја је прескочена јер овај прегледач не дозвољава додацима да је бришу."
+  },
+  "skippedSiteData": {
+    "message": "Подаци сајтова су прескочени јер овај прегледач не дозвољава додацима да их бришу."
+  },
+  "cookiesSkipped": {
+    "message": "Колачићи су прескочени јер је приступ сајтовима искључен."
+  },
+  "loadFailed": {
+    "message": "Учитавање подешавања није успело."
+  }
+}

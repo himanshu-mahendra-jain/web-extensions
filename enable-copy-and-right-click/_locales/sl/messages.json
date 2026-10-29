@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Omogočite kopiranje, izbiranje besedila in menije desnega klika na spletnih straneh, ki jih omejujejo."
+  },
+  "commandDescription": {
+    "message": "Omogoči kopiranje in desni klik na trenutni strani"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: aktivno",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopiranje in desni klik sta omogočena."
+  },
+  "optionsTitle": {
+    "message": "Samodejna spletna mesta | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repozitorij GitHub, odpre se v novem zavihku"
+  },
+  "automaticSitesHeading": {
+    "message": "Samodejna spletna mesta"
+  },
+  "automaticSitesIntro": {
+    "message": "Samodejno omogočite kopiranje, izbiranje besedila in desni klik na spletnih mestih, ki jih dodate."
+  },
+  "siteInputLabel": {
+    "message": "Domena spletnega mesta"
+  },
+  "addSite": {
+    "message": "Dodaj spletno mesto"
+  },
+  "noSites": {
+    "message": "Dodano ni še nobeno samodejno spletno mesto."
+  },
+  "siteListLabel": {
+    "message": "Samodejna spletna mesta"
+  },
+  "remove": {
+    "message": "Odstrani"
+  },
+  "removeSite": {
+    "message": "Odstrani $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (dovoljenje odvzeto)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ je dodano.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ je znova omogočeno.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ je odstranjeno.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "To spletno mesto je že omogočeno."
+  },
+  "invalidDomain": {
+    "message": "Vnesite veljavno domeno, na primer example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Dovoljenje za spletno mesto ni bilo dano."
+  },
+  "addFailed": {
+    "message": "Spletnega mesta ni bilo mogoče dodati."
+  },
+  "removeFailed": {
+    "message": "Spletnega mesta ni bilo mogoče odstraniti."
+  },
+  "loadFailed": {
+    "message": "Seznama spletnih mest ni bilo mogoče naložiti."
+  }
+}

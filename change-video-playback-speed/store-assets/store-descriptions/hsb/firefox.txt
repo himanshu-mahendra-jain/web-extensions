@@ -1,0 +1,46 @@
+Změńće spěšnosć wothraća wideo a awdio z jednym kliknjenjom abo tastowym skrótšenkom.
+
+Change Video Playback Speed je lochke rozšěrjenje z wotewrjenym žórłowym kodom, kotrež mjez štyrjomi wužitnymi spěšnosćemi wothraća wuměnja:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klikńće na symbol rozšěrjenja abo wužiwajće tastowy skrótšenk, zo byšće k přichodnej spěšnosći přešoł. Wubrana spěšnosć płaći za wideo a awdio na stronje, tež w podpěranych zasadźenych wothrawakach.
+
+Aktualna spěšnosć so krótko na stronje a na znamjenju w symbolowej lajsće pokazuje.
+
+HŁOWNE FUNKCIJE
+
+• Wodźenje z jednym kliknjenjom a z tastowym skrótšenkom
+• Podpěra za wideo a awdio
+• Podpěra za kompatibelne zasadźene wothrawaki
+• Znamjo spěšnosće w symbolowej lajsće a pokazowak na stronje, kotryž je tež na cyłej wobrazowce widźomny
+• Žane wuskakowace menije, pławace wodźenske elementy abo nastajenja
+
+STANDARDNE TASTOWE SKRÓTŠENKI
+
+• Windows, Linux, ChromeOS, GooglebookOS a Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+TASTOWY SKRÓTŠENK ZMĚNIĆ
+
+1. Wočińće meni Firefox a wubjerće Přidatki a drasty.
+2. Klikńće na zubate kolesko na stronje Rozšěrjenja.
+3. Wubjerće Tastowe skrótšenki rozšěrjenjow rjadować.
+4. Pytajće Change Video Playback Speed a zapodajće požadany tastowy skrótšenk.
+
+PRIWATNOSĆ
+
+• Žana analyza a žane slědowanje
+• Žane zběranje datow abo historije přehladowanja
+• Žane syćowe naprašowanja
+• Žadyn stajny přistup k websydłam
+
+Wšě změny spěšnosće so lokalnje we wašim wobhladowaku stawaja.
+
+WOTEWRJENY ŽÓRŁOWY KOD
+
+Change Video Playback Speed ma wotewrjeny žórłowy kod a je licencowany pod licencu MIT.
+
+Wobhladajće sej žórłowy kod, zdźělće problemy abo přinošujće na GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

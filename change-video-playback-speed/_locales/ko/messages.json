@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "동영상과 오디오의 재생 속도를 1배, 1.2배, 1.5배, 2배로 빠르게 바꿉니다."
+  },
+  "commandDescription": {
+    "message": "동영상 재생 속도 변경"
+  },
+  "speedShown": {
+    "message": "$SPEED$배",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "재생 속도 $SPEED$배",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "재생 속도: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

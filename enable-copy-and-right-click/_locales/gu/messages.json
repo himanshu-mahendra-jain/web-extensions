@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "પ્રતિબંધિત વેબપેજ પર કૉપિ કરવું, ટેક્સ્ટ પસંદ કરવું અને રાઇટ-ક્લિક મેનૂ ચાલુ કરો."
+  },
+  "commandDescription": {
+    "message": "વર્તમાન પેજ પર કૉપિ અને રાઇટ ક્લિક ચાલુ કરો"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: સક્રિય",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "કૉપિ અને રાઇટ ક્લિક ચાલુ થયા."
+  },
+  "optionsTitle": {
+    "message": "સ્વચાલિત સાઇટ | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub રિપોઝિટરી, નવા ટૅબમાં ખૂલે છે"
+  },
+  "automaticSitesHeading": {
+    "message": "સ્વચાલિત સાઇટ"
+  },
+  "automaticSitesIntro": {
+    "message": "તમે ઉમેરો તે વેબસાઇટ પર કૉપિ કરવું, ટેક્સ્ટ પસંદ કરવું અને રાઇટ ક્લિક આપમેળે ચાલુ કરો."
+  },
+  "siteInputLabel": {
+    "message": "વેબસાઇટનું ડોમેન"
+  },
+  "addSite": {
+    "message": "સાઇટ ઉમેરો"
+  },
+  "noSites": {
+    "message": "હજુ સુધી કોઈ સ્વચાલિત સાઇટ ઉમેરી નથી."
+  },
+  "siteListLabel": {
+    "message": "સ્વચાલિત સાઇટ"
+  },
+  "remove": {
+    "message": "દૂર કરો"
+  },
+  "removeSite": {
+    "message": "$SITE$ દૂર કરો",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (પરવાનગી દૂર કરી)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ ઉમેરી.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ ફરી ચાલુ કરી.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ દૂર કરી.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "આ સાઇટ પહેલેથી ચાલુ છે."
+  },
+  "invalidDomain": {
+    "message": "માન્ય ડોમેન દાખલ કરો, જેમ કે example.com."
+  },
+  "permissionNotGranted": {
+    "message": "સાઇટની પરવાનગી આપવામાં આવી નથી."
+  },
+  "addFailed": {
+    "message": "સાઇટ ઉમેરી શકાઈ નહીં."
+  },
+  "removeFailed": {
+    "message": "સાઇટ દૂર કરી શકાઈ નહીં."
+  },
+  "loadFailed": {
+    "message": "સાઇટની સૂચિ લોડ થઈ શકી નહીં."
+  }
+}

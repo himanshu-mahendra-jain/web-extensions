@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Washa kunakili, kuchagua maandishi na menyu za kubofya kulia kwenye kurasa za wavuti zinazovizuia."
+  },
+  "commandDescription": {
+    "message": "Washa kunakili na kubofya kulia kwenye ukurasa wa sasa"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Imewashwa",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kunakili na kubofya kulia kumewashwa."
+  },
+  "optionsTitle": {
+    "message": "Tovuti za Kiotomatiki | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Hazina ya GitHub, hufunguka kwenye kichupo kipya"
+  },
+  "automaticSitesHeading": {
+    "message": "Tovuti za Kiotomatiki"
+  },
+  "automaticSitesIntro": {
+    "message": "Washa kiotomatiki kunakili, kuchagua maandishi na kubofya kulia kwenye tovuti unazoongeza."
+  },
+  "siteInputLabel": {
+    "message": "Kikoa cha tovuti"
+  },
+  "addSite": {
+    "message": "Ongeza Tovuti"
+  },
+  "noSites": {
+    "message": "Bado hujaongeza tovuti zozote za kiotomatiki."
+  },
+  "siteListLabel": {
+    "message": "Tovuti za kiotomatiki"
+  },
+  "remove": {
+    "message": "Ondoa"
+  },
+  "removeSite": {
+    "message": "Ondoa $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (ruhusa imeondolewa)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ imeongezwa.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ imewashwa tena.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ imeondolewa.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Tovuti hii tayari imewashwa."
+  },
+  "invalidDomain": {
+    "message": "Weka kikoa sahihi, kama example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Ruhusa ya tovuti haikutolewa."
+  },
+  "addFailed": {
+    "message": "Imeshindwa kuongeza tovuti."
+  },
+  "removeFailed": {
+    "message": "Imeshindwa kuondoa tovuti."
+  },
+  "loadFailed": {
+    "message": "Imeshindwa kupakia orodha ya tovuti."
+  }
+}

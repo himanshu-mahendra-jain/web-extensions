@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Aktivera kopiering, textmarkering och högerklicksmenyer på webbsidor som spärrar dem."
+  },
+  "commandDescription": {
+    "message": "Aktivera kopiering och högerklick på den aktuella sidan"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: aktiv",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopiering och högerklick är aktiverade."
+  },
+  "optionsTitle": {
+    "message": "Automatiska webbplatser | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-repository, öppnas i en ny flik"
+  },
+  "automaticSitesHeading": {
+    "message": "Automatiska webbplatser"
+  },
+  "automaticSitesIntro": {
+    "message": "Aktivera kopiering, textmarkering och högerklick automatiskt på webbplatserna du lägger till."
+  },
+  "siteInputLabel": {
+    "message": "Webbplatsens domän"
+  },
+  "addSite": {
+    "message": "Lägg till webbplats"
+  },
+  "noSites": {
+    "message": "Inga automatiska webbplatser har lagts till än."
+  },
+  "siteListLabel": {
+    "message": "Automatiska webbplatser"
+  },
+  "remove": {
+    "message": "Ta bort"
+  },
+  "removeSite": {
+    "message": "Ta bort $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (behörighet borttagen)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ har lagts till.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ har aktiverats igen.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ har tagits bort.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Den här webbplatsen är redan aktiverad."
+  },
+  "invalidDomain": {
+    "message": "Ange en giltig domän, till exempel example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Behörigheten för webbplatsen gavs inte."
+  },
+  "addFailed": {
+    "message": "Det gick inte att lägga till webbplatsen."
+  },
+  "removeFailed": {
+    "message": "Det gick inte att ta bort webbplatsen."
+  },
+  "loadFailed": {
+    "message": "Det gick inte att läsa in listan över webbplatser."
+  }
+}

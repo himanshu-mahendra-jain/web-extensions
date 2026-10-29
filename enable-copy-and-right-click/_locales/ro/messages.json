@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Activați copierea, selectarea textului și meniurile de clic dreapta pe paginile web care le blochează."
+  },
+  "commandDescription": {
+    "message": "Activează copierea și clicul dreapta pe pagina curentă"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: activă",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Copierea și clicul dreapta sunt activate."
+  },
+  "optionsTitle": {
+    "message": "Site-uri automate | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Depozit GitHub, se deschide într-o filă nouă"
+  },
+  "automaticSitesHeading": {
+    "message": "Site-uri automate"
+  },
+  "automaticSitesIntro": {
+    "message": "Activați automat copierea, selectarea textului și clicul dreapta pe site-urile pe care le adăugați."
+  },
+  "siteInputLabel": {
+    "message": "Domeniul site-ului"
+  },
+  "addSite": {
+    "message": "Adăugați site-ul"
+  },
+  "noSites": {
+    "message": "Încă nu ați adăugat niciun site automat."
+  },
+  "siteListLabel": {
+    "message": "Site-uri automate"
+  },
+  "remove": {
+    "message": "Eliminați"
+  },
+  "removeSite": {
+    "message": "Eliminați $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (permisiune retrasă)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ a fost adăugat.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ a fost reactivat.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ a fost eliminat.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Acest site este deja activat."
+  },
+  "invalidDomain": {
+    "message": "Introduceți un domeniu valid, de exemplu example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Permisiunea pentru site nu a fost acordată."
+  },
+  "addFailed": {
+    "message": "Site-ul nu a putut fi adăugat."
+  },
+  "removeFailed": {
+    "message": "Site-ul nu a putut fi eliminat."
+  },
+  "loadFailed": {
+    "message": "Lista de site-uri nu a putut fi încărcată."
+  }
+}

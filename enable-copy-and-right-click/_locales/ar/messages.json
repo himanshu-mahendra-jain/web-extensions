@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "فعّل النسخ وتحديد النص وقوائم النقر بزر الماوس الأيمن في صفحات الويب المقيّدة."
+  },
+  "commandDescription": {
+    "message": "تفعيل النسخ والنقر الأيمن في الصفحة الحالية"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: مفعّلة",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "تم تفعيل النسخ والنقر الأيمن."
+  },
+  "optionsTitle": {
+    "message": "المواقع التلقائية | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "مستودع GitHub، يُفتح في علامة تبويب جديدة"
+  },
+  "automaticSitesHeading": {
+    "message": "المواقع التلقائية"
+  },
+  "automaticSitesIntro": {
+    "message": "فعّل النسخ وتحديد النص والنقر الأيمن تلقائيًا في المواقع التي تضيفها."
+  },
+  "siteInputLabel": {
+    "message": "نطاق الموقع"
+  },
+  "addSite": {
+    "message": "إضافة موقع"
+  },
+  "noSites": {
+    "message": "لم تُضف أي مواقع تلقائية بعد."
+  },
+  "siteListLabel": {
+    "message": "المواقع التلقائية"
+  },
+  "remove": {
+    "message": "إزالة"
+  },
+  "removeSite": {
+    "message": "إزالة $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (أُزيل الإذن)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "تمت إضافة $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "تمت إعادة تفعيل $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "تمت إزالة $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "هذا الموقع مفعّل بالفعل."
+  },
+  "invalidDomain": {
+    "message": "أدخل نطاقًا صالحًا، مثل example.com."
+  },
+  "permissionNotGranted": {
+    "message": "لم يُمنح إذن الموقع."
+  },
+  "addFailed": {
+    "message": "تعذّرت إضافة الموقع."
+  },
+  "removeFailed": {
+    "message": "تعذّرت إزالة الموقع."
+  },
+  "loadFailed": {
+    "message": "تعذّر تحميل قائمة المواقع."
+  }
+}

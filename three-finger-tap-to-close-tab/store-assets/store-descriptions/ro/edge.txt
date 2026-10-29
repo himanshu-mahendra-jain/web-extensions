@@ -1,0 +1,42 @@
+Închideți fila curentă cu o atingere cu trei degete, un clic din mijloc sau un clic în bara de instrumente.
+
+Three Finger Tap to Close Tab este o extensie ușoară, open source, care oferă o modalitate rapidă și simplă de a închide fila curentă a browserului.
+
+Atingeți cu trei degete sau faceți clic cu butonul din mijloc oriunde pe o pagină web, în afara linkurilor și câmpurilor editabile, pentru a închide fila curentă. Puteți și să faceți clic pe pictograma extensiei din bara de instrumente.
+
+Sfat: în meniul Extensii din Edge, activați «Afișare în bara de instrumente» pentru Three Finger Tap to Close Tab pentru a avea acces rapid.
+
+Clicul din mijloc pe linkuri și carduri din fluxuri păstrează comportamentul obișnuit al browserului, așa că puteți deschide în continuare linkuri și postări în file noi ca de obicei. O zonă de siguranță integrată împiedică închiderea accidentală dacă atingeți chiar lângă un link sau un control.
+
+FUNCȚII PRINCIPALE
+
+• Închideți fila curentă cu o atingere cu trei degete
+• Închideți fila curentă cu un clic din mijloc
+• Închideți fila curentă cu un clic în bara de instrumente
+• Păstrează clicul din mijloc obișnuit pe linkuri, butoane și carduri din fluxuri
+• Zona de siguranță împiedică închiderea accidentală lângă elementele interactive
+• Nu închide file cât timp folosiți formulare și câmpuri editabile
+• Fără meniuri pop-up sau setări
+
+CONFIGURAREA TOUCHPADULUI
+
+Touchpadul și sistemul de operare trebuie configurate astfel încât o atingere cu trei degete să genereze un clic din mijloc.
+
+După configurare, atingeți cu trei degete o pagină web, în afara linkurilor și conținutului interactiv, pentru a închide fila curentă.
+
+CONFIDENȚIALITATE
+
+• Fără analize sau urmărire
+• Nu colectează date sau istoric de navigare
+• Fără solicitări de rețea
+• Nu salvează activitatea de navigare sau preferințele
+
+Toate filele se închid local, în browserul dvs.
+
+SURSA DESCHISĂ (OPEN SOURCE)
+
+Three Finger Tap to Close Tab este un proiect open source distribuit sub Licența MIT.
+
+Vizualizați codul sursă, raportați probleme sau contribuiți pe GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

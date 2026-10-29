@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "वीडियो और ऑडियो की प्लेबैक स्पीड को 1x, 1.2x, 1.5x और 2x के बीच तुरंत बदलें।"
+  },
+  "commandDescription": {
+    "message": "वीडियो की प्लेबैक स्पीड बदलें"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "प्लेबैक स्पीड $SPEED$ गुना",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "प्लेबैक स्पीड: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

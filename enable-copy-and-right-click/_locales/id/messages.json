@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Aktifkan penyalinan, pemilihan teks, dan menu klik kanan di halaman web yang membatasinya."
+  },
+  "commandDescription": {
+    "message": "Aktifkan salin dan klik kanan di halaman saat ini"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Aktif",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Salin dan klik kanan diaktifkan."
+  },
+  "optionsTitle": {
+    "message": "Situs Otomatis | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repositori GitHub, terbuka di tab baru"
+  },
+  "automaticSitesHeading": {
+    "message": "Situs Otomatis"
+  },
+  "automaticSitesIntro": {
+    "message": "Aktifkan penyalinan, pemilihan teks, dan klik kanan secara otomatis di situs web yang Anda tambahkan."
+  },
+  "siteInputLabel": {
+    "message": "Domain situs web"
+  },
+  "addSite": {
+    "message": "Tambahkan Situs"
+  },
+  "noSites": {
+    "message": "Belum ada situs otomatis yang ditambahkan."
+  },
+  "siteListLabel": {
+    "message": "Situs otomatis"
+  },
+  "remove": {
+    "message": "Hapus"
+  },
+  "removeSite": {
+    "message": "Hapus $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (izin dicabut)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ ditambahkan.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ diaktifkan kembali.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ dihapus.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Situs ini sudah diaktifkan."
+  },
+  "invalidDomain": {
+    "message": "Masukkan domain yang valid, misalnya example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Izin situs tidak diberikan."
+  },
+  "addFailed": {
+    "message": "Situs tidak dapat ditambahkan."
+  },
+  "removeFailed": {
+    "message": "Situs tidak dapat dihapus."
+  },
+  "loadFailed": {
+    "message": "Daftar situs tidak dapat dimuat."
+  }
+}

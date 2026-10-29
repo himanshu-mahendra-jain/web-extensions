@@ -1,0 +1,42 @@
+Zatvorite trenutačnu karticu dodirom s tri prsta, srednjim klikom ili klikom na alatnoj traci.
+
+Three Finger Tap to Close Tab lagano je proširenje otvorenog koda koje nudi brz i jednostavan način zatvaranja trenutačne kartice preglednika.
+
+Dodirnite s tri prsta ili kliknite srednjom tipkom bilo gdje na web-stranici izvan poveznica i polja za uređivanje da biste zatvorili trenutačnu karticu. Karticu možete zatvoriti i klikom na ikonu proširenja na alatnoj traci.
+
+Savjet: U izborniku proširenja preglednika Edge uključite «Prikaži na alatnoj traci» za Three Finger Tap to Close Tab za brz pristup.
+
+Srednji klik na poveznice i kartice feedova zadržava uobičajeno ponašanje preglednika, pa poveznice i objave i dalje otvarate u novim karticama kao i obično. Ugrađena sigurnosna zona sprječava slučajno zatvaranje ako dodirnete tik uz poveznicu ili kontrolu.
+
+GLAVNE ZNAČAJKE
+
+• Zatvaranje trenutačne kartice dodirom s tri prsta
+• Zatvaranje trenutačne kartice srednjim klikom
+• Zatvaranje trenutačne kartice klikom na alatnoj traci
+• Zadržava uobičajeni srednji klik na poveznicama, gumbima i karticama feedova
+• Sigurnosna zona sprječava slučajno zatvaranje uz interaktivne elemente
+• Ne zatvara kartice dok koristite obrasce i polja za uređivanje
+• Bez skočnih izbornika i postavki
+
+POSTAVLJANJE DODIRNE PLOČICE
+
+Dodirna pločica i operacijski sustav moraju biti postavljeni tako da dodir s tri prsta daje srednji klik.
+
+Nakon toga dodirnite s tri prsta web-stranicu izvan poveznica i interaktivnog sadržaja da biste zatvorili trenutačnu karticu.
+
+PRIVATNOST
+
+• Bez analitike i praćenja
+• Bez prikupljanja podataka ili povijesti pregledavanja
+• Bez mrežnih zahtjeva
+• Bez spremljene aktivnosti pregledavanja ili postavki
+
+Kartice se uvijek zatvaraju lokalno u vašem pregledniku.
+
+OTVORENI KOD
+
+Three Finger Tap to Close Tab je projekt otvorenog koda pod licencom MIT.
+
+Pregledajte izvorni kod, prijavite probleme ili doprinesite na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

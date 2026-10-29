@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Schakel kopiëren, tekst selecteren en rechtsklikmenu's in op webpagina's die ze blokkeren."
+  },
+  "commandDescription": {
+    "message": "Kopiëren en rechtsklikken op de huidige pagina inschakelen"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: actief",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopiëren en rechtsklikken ingeschakeld."
+  },
+  "optionsTitle": {
+    "message": "Automatische websites | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-repository, opent in een nieuw tabblad"
+  },
+  "automaticSitesHeading": {
+    "message": "Automatische websites"
+  },
+  "automaticSitesIntro": {
+    "message": "Schakel kopiëren, tekst selecteren en rechtsklikken automatisch in op de websites die u toevoegt."
+  },
+  "siteInputLabel": {
+    "message": "Domein van de website"
+  },
+  "addSite": {
+    "message": "Website toevoegen"
+  },
+  "noSites": {
+    "message": "Nog geen automatische websites toegevoegd."
+  },
+  "siteListLabel": {
+    "message": "Automatische websites"
+  },
+  "remove": {
+    "message": "Verwijderen"
+  },
+  "removeSite": {
+    "message": "$SITE$ verwijderen",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (toestemming ingetrokken)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ toegevoegd.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ opnieuw ingeschakeld.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ verwijderd.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Deze website is al ingeschakeld."
+  },
+  "invalidDomain": {
+    "message": "Voer een geldig domein in, zoals example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Toestemming voor de website is niet gegeven."
+  },
+  "addFailed": {
+    "message": "De website kon niet worden toegevoegd."
+  },
+  "removeFailed": {
+    "message": "De website kon niet worden verwijderd."
+  },
+  "loadFailed": {
+    "message": "De lijst met websites kon niet worden geladen."
+  }
+}

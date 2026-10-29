@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Lubage kopeerimine, teksti valimine ja paremklõpsu menüüd veebilehtedel, mis neid piiravad."
+  },
+  "commandDescription": {
+    "message": "Luba praegusel lehel kopeerimine ja paremklõps"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: aktiivne",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopeerimine ja paremklõps on lubatud."
+  },
+  "optionsTitle": {
+    "message": "Automaatsed saidid | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHubi hoidla, avaneb uuel vahelehel"
+  },
+  "automaticSitesHeading": {
+    "message": "Automaatsed saidid"
+  },
+  "automaticSitesIntro": {
+    "message": "Luba lisatud veebisaitidel automaatselt kopeerimine, teksti valimine ja paremklõps."
+  },
+  "siteInputLabel": {
+    "message": "Veebisaidi domeen"
+  },
+  "addSite": {
+    "message": "Lisa sait"
+  },
+  "noSites": {
+    "message": "Automaatseid saite pole veel lisatud."
+  },
+  "siteListLabel": {
+    "message": "Automaatsed saidid"
+  },
+  "remove": {
+    "message": "Eemalda"
+  },
+  "removeSite": {
+    "message": "Eemalda $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (luba eemaldatud)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ lisati.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ lubati uuesti.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ eemaldati.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "See sait on juba lubatud."
+  },
+  "invalidDomain": {
+    "message": "Sisestage kehtiv domeen, näiteks example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Saidi luba ei antud."
+  },
+  "addFailed": {
+    "message": "Saiti ei õnnestunud lisada."
+  },
+  "removeFailed": {
+    "message": "Saiti ei õnnestunud eemaldada."
+  },
+  "loadFailed": {
+    "message": "Saitide loendit ei õnnestunud laadida."
+  }
+}

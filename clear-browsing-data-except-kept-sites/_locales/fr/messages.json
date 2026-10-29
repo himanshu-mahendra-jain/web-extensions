@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Efface l'historique, les cookies et les données de sites au démarrage du navigateur, sauf pour les sites que vous conservez."
+  },
+  "optionsTitle": {
+    "message": "Sites conservés | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Dépôt GitHub, s'ouvre dans un nouvel onglet"
+  },
+  "accessHeading": {
+    "message": "L'accès aux sites est désactivé"
+  },
+  "allowSiteAccess": {
+    "message": "Autoriser l'accès aux sites"
+  },
+  "accessHistorySiteData": {
+    "message": "Sans accès aux sites web, l'extension ne peut pas supprimer les cookies. L'historique et les données de sites sont toujours effacés."
+  },
+  "accessHistory": {
+    "message": "Sans accès aux sites web, l'extension ne peut pas supprimer les cookies. L'historique est toujours effacé."
+  },
+  "accessSiteData": {
+    "message": "Sans accès aux sites web, l'extension ne peut pas supprimer les cookies. Les données de sites sont toujours effacées."
+  },
+  "accessNothing": {
+    "message": "Sans accès aux sites web, l'extension ne peut pas supprimer les cookies, donc rien n'est effacé."
+  },
+  "clearingOffHeading": {
+    "message": "L'effacement est désactivé"
+  },
+  "clearingOffText": {
+    "message": "Rien n'est encore supprimé. Ajoutez les sites sur lesquels vous voulez rester connecté, puis activez l'effacement. Dès lors, à chaque démarrage du navigateur, les données ($DATA$) de tous les autres sites seront supprimées.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Activer l'effacement"
+  },
+  "keptSitesHeading": {
+    "message": "Sites conservés"
+  },
+  "intro": {
+    "message": "Ces sites et leurs sous-domaines conservent leurs données ($DATA$), vous restez donc connecté. Tant que l'effacement est activé, tous les autres sites les perdent à chaque démarrage du navigateur.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Domaines de sites web"
+  },
+  "keep": {
+    "message": "Conserver"
+  },
+  "siteHint": {
+    "message": "Séparez plusieurs sites par des virgules."
+  },
+  "noSites": {
+    "message": "Aucun site n'est encore conservé, donc un effacement supprime les données ($DATA$) de tous les sites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Sites conservés"
+  },
+  "clearingHeading": {
+    "message": "Effacement"
+  },
+  "clearOnStartupLabel": {
+    "message": "Effacer automatiquement au démarrage du navigateur"
+  },
+  "clearNow": {
+    "message": "Effacer maintenant"
+  },
+  "firstClearHint": {
+    "message": "Le premier effacement peut prendre plusieurs minutes si le navigateur contient beaucoup de données de navigation. Vous pouvez continuer à naviguer pendant ce temps."
+  },
+  "leftoversHeading": {
+    "message": "Données de sites restantes"
+  },
+  "leftoversIntro": {
+    "message": "Une fois l'historique et les cookies d'un site supprimés, l'extension ne le trouve plus, donc son stockage local, ses bases de données et son cache restent. « Effacer les restes » supprime les données de sites de tous les sites que vous ne conservez pas, trouvés ou non, après un effacement comme « Effacer maintenant »."
+  },
+  "clearLeftovers": {
+    "message": "Effacer les restes"
+  },
+  "transferHeading": {
+    "message": "Importer et exporter"
+  },
+  "transferIntro": {
+    "message": "Enregistrez vos sites conservés dans un fichier texte, ou remplacez-les par les sites d'un fichier. Un fichier peut lister un site par ligne ou les séparer par des virgules."
+  },
+  "export": {
+    "message": "Exporter"
+  },
+  "import": {
+    "message": "Importer"
+  },
+  "cancel": {
+    "message": "Annuler"
+  },
+  "dataAll": {
+    "message": "historique, cookies et données de sites"
+  },
+  "dataNoHistory": {
+    "message": "cookies et données de sites"
+  },
+  "dataNoSiteData": {
+    "message": "historique et cookies"
+  },
+  "dataCookies": {
+    "message": "cookies"
+  },
+  "remove": {
+    "message": "Retirer"
+  },
+  "removeSite": {
+    "message": "Retirer $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ retiré. Ses données ($DATA$) seront supprimées au prochain effacement.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Impossible de retirer le site."
+  },
+  "siteKept": {
+    "message": "$SITE$ est conservé.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ site est conservé.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ sites sont conservés.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ est déjà conservé.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ site est déjà conservé.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ sites sont déjà conservés.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ n'est pas un domaine valide.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Ces domaines ne sont pas valides : $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Saisissez un domaine valide, par exemple example.com."
+  },
+  "addSiteFailed": {
+    "message": "Impossible d'ajouter le site."
+  },
+  "addSitesFailed": {
+    "message": "Impossible d'ajouter les sites."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ dépasse 1 Mo, les sites conservés n'ont donc pas changé.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ ne contient aucun domaine valide, les sites conservés n'ont donc pas changé.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Remplacer les sites conservés ?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ sites",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Les sites que vous conservez actuellement ($CURRENT$) seront remplacés par ceux de $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ site ne sera plus conservé, et ses données ($DATA$) seront supprimées au prochain effacement.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ sites ne seront plus conservés, et leurs données ($DATA$) seront supprimées au prochain effacement.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Remplacer les sites conservés"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ site importé depuis $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ sites importés depuis $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Impossible d'exporter les sites conservés."
+  },
+  "importFailed": {
+    "message": "Impossible d'importer les sites conservés depuis $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Activer l'effacement ?"
+  },
+  "turnOnKept": {
+    "message": "À chaque démarrage du navigateur, les données ($DATA$) de tous les sites seront supprimées, sauf ceux que vous avez choisi de conserver. Vous serez déconnecté de tous les autres sites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Vous n'avez choisi aucun site à conserver. À chaque démarrage du navigateur, toutes les données ($DATA$) seront supprimées et vous serez déconnecté de tous les sites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Les données supprimées ($DATA$) ne peuvent pas être récupérées.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Tout effacer maintenant ?"
+  },
+  "clearEverythingText": {
+    "message": "Vous n'avez choisi aucun site à conserver, donc les données ($DATA$) de tous les sites vont être supprimées et vous serez déconnecté de tous les sites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Tout effacer"
+  },
+  "leftoversTitle": {
+    "message": "Effacer les données de sites restantes ?"
+  },
+  "leftoversKept": {
+    "message": "Les données ($DATA$) de tous les sites que vous ne conservez pas vont être supprimées, y compris les données des sites que l'extension ne trouve plus.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Un site conservé ne garde ses données de site qu'aux adresses que l'extension trouve dans l'historique, les cookies et les onglets ouverts. Tout autre sous-domaine ou port d'un site conservé, par exemple un sous-domaine que vous n'avez pas visité depuis des mois ou un serveur local sur un autre port, perd ses données de site, et vous pouvez en être déconnecté."
+  },
+  "clearing": {
+    "message": "Effacement… Cela peut prendre quelques minutes."
+  },
+  "leftoversFailed": {
+    "message": "L'effacement des données de sites restantes a échoué."
+  },
+  "leftoversCleared": {
+    "message": "Données de sites restantes effacées."
+  },
+  "nothingClearedYet": {
+    "message": "Rien n'a encore été effacé."
+  },
+  "clearFailed": {
+    "message": "L'effacement du $WHEN$ a échoué.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ entrée d'historique",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ entrées d'historique",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "rien"
+  },
+  "lastCleared": {
+    "message": "Dernier effacement : $WHEN$. Supprimé : $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Dernier effacement : $WHEN$. Supprimé : $WHAT$, ainsi que les données de sites et le cache.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Dernier effacement : $WHEN$. Supprimé : $WHAT$, ainsi que les données et le cache de tous les sites non conservés.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "L'historique et les données de sites ont été ignorés, car ce navigateur ne permet pas aux extensions de les effacer."
+  },
+  "skippedHistory": {
+    "message": "L'historique a été ignoré, car ce navigateur ne permet pas aux extensions de l'effacer."
+  },
+  "skippedSiteData": {
+    "message": "Les données de sites ont été ignorées, car ce navigateur ne permet pas aux extensions de les effacer."
+  },
+  "cookiesSkipped": {
+    "message": "Les cookies ont été ignorés, car l'accès aux sites est désactivé."
+  },
+  "loadFailed": {
+    "message": "Impossible de charger les paramètres."
+  }
+}

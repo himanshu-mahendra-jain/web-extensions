@@ -48,12 +48,34 @@ for (const [namespace, firefox] of [["chrome", false], ["browser", true]]) {
       [7, "getMediaState"],
       [7, "applyPlaybackSpeed"]
     ]);
-    expect(scripts[1].args).toEqual([1.2]);
+    expect(scripts[1].args).toEqual([
+      1.2,
+      { shown: "1.2x", spoken: "Playback speed 1.2 times", lang: "en-US", dir: "ltr" }
+    ]);
     expect(badges).toEqual([{ tabId: 7, text: "1.2" }]);
-    expect(titles).toHaveLength(1);
-    expect(titles[0].tabId).toBe(7);
+    expect(titles).toEqual([
+      { tabId: 7, title: "Playback speed: 1.2x - Change Video Playback Speed" }
+    ]);
   });
 }
+
+
+test.describe("in German", () => {
+  test.use({ locale: "de-DE" });
+
+
+  test("the indicator and the tooltip write the speed as the language does", async ({ page }) => {
+    await loadBackground(page, { activeTabs: [{ id: 7 }], playbackRate: 1 });
+    await fireCommand(page, "change-playback-speed");
+
+    const { scripts, badges, titles } = await fake(page);
+
+    expect(scripts[1].args[1]).toMatchObject({ shown: "1,2x", spoken: "Playback speed 1,2 times", lang: "de-DE" });
+    expect(titles[0].title).toBe("Playback speed: 1,2x - Change Video Playback Speed");
+    // The badge has room for digits only, as every language reads them.
+    expect(badges).toEqual([{ tabId: 7, text: "1.2" }]);
+  });
+});
 
 
 test("the shortcut continues from the speed the tab has", async ({ page }) => {

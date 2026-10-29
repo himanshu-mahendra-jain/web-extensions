@@ -1,0 +1,80 @@
+Salli kopiointi, tekstin valinta ja hiiren oikean painikkeen valikot verkkosivuilla, jotka estävät ne.
+
+Enable Copy and Right Click on kevyt avoimen lähdekoodin laajennus, joka palauttaa tavallisen kopioinnin, tekstin valinnan ja hiiren oikean painikkeen verkkosivuille, jotka rajoittavat niitä.
+
+Napsauta laajennuksen kuvaketta työkalupalkissa tai käytä pikanäppäintä, niin kopiointi ja oikea painike sallitaan nykyisellä välilehdellä.
+
+Vinkki: Kiinnitä laajennus Chromen Laajennukset-valikosta (palapelikuvake), jotta sen kuvake pysyy aina näkyvissä työkalurivillä.
+
+Voit myös lisätä luotettuja sivustoja Automaattiset sivustot -luetteloon. Silloin laajennus sallii kopioinnin ja oikean painikkeen automaattisesti aina, kun vierailet niillä.
+
+TÄRKEIMMÄT OMINAISUUDET
+
+• Sallii kopioinnin ja tekstin valinnan rajoitetuilla verkkosivuilla
+• Sallii oikean painikkeen pikavalikot
+• Sallii kopioinnin, leikkaamisen, liittämisen, tekstin valinnan ja vetämisen
+• Käyttöönotto yhdellä napsautuksella työkalupalkista
+• Pikanäppäin nopeaan käyttöönottoon
+• Automaattinen käyttöönotto valitsemillasi sivustoilla
+• Toimii saavutettavissa iframe-kehyksissä, kun selaimen käyttöoikeudet sen sallivat
+• Näyttää ON-merkin käsin käyttöönoton jälkeen
+• Ei ponnahdusvalikoita
+• Ei analytiikkaa eikä seurantaa
+• Ei etäkoodia eikä verkkopyyntöjä
+
+OLETUSPIKANÄPPÄIMET
+
+• Windows, Linux, ChromeOS, GooglebookOS ja Android: Alt+C
+• macOS: Command+Shift+Y
+
+Pikanäppäin tekee saman kuin laajennuksen kuvakkeen napsauttaminen.
+
+PIKANÄPPÄIMEN VAIHTAMINEN
+
+1. Avaa Chromen valikko ja valitse Laajennukset → Hallinnoi laajennuksia.
+2. Valitse sivupalkista Pikanäppäimet.
+3. Etsi Enable Copy and Right Click ja kirjoita haluamasi pikanäppäin.
+
+AUTOMAATTISET SIVUSTOT
+
+Avaa laajennuksen asetussivu ja lisää verkkotunnus, esimerkiksi:
+
+example.com
+
+Laajennus pyytää lupaa vain lisäämällesi sivustolle. Kun lupa on myönnetty, kopiointi, tekstin valinta ja oikea painike sallitaan sillä sivustolla automaattisesti.
+
+Voit poistaa automaattisen sivuston asetussivulta milloin tahansa.
+
+ASETUSSIVUN AVAAMINEN
+
+1. Napsauta laajennuksen kuvaketta työkalupalkissa hiiren oikealla painikkeella.
+2. Valitse Asetukset.
+
+YKSITYISYYS
+
+• Ei analytiikkaa eikä seurantaa
+• Ei tietojen keräämistä
+• Ei selaushistorian keräämistä
+• Ei verkkopyyntöjä
+• Ei etäkoodia
+• Ei ulkoista JavaScriptiä
+• Automaattisten sivustojen asetukset tallennetaan paikallisesti selaimeesi
+• Sivuston lupaa pyydetään vain, kun lisäät sivuston itse
+
+Kopioinnin ja oikean painikkeen palauttaminen tapahtuu kokonaan paikallisesti selaimessasi.
+
+SUORITUSKYKY
+
+Laajennus on kevyt ja tapahtumapohjainen.
+
+Se ei tee jatkuvaa taustatyötä ollessaan jouten. Käsin käyttöönotto suoritetaan vain, kun napsautat työkalupalkin kuvaketta tai käytät pikanäppäintä. Automaattinen käyttöönotto suoritetaan vain sivustoilla, jotka olet itse lisännyt.
+
+Ei kyselysilmukoita, taustalla tapahtuvaa verkkoliikennettä, analytiikka-SDK:ta, etämäärityksiä eikä sivuja jatkuvasti valvovaa silmukkaa.
+
+AVOIN LÄHDEKOODI
+
+Enable Copy and Right Click on avoimen lähdekoodin ohjelmisto MIT-lisenssillä.
+
+Lähdekoodi, vikailmoitukset ja kehitystyö GitHubissa:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

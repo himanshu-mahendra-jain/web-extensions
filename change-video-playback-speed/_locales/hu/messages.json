@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Gyorsan válthat a videó és a hang lejátszási sebességei között: 1x, 1,2x, 1,5x és 2x."
+  },
+  "commandDescription": {
+    "message": "Videó lejátszási sebességének módosítása"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Lejátszási sebesség $SPEED$-szoros",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Lejátszási sebesség: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

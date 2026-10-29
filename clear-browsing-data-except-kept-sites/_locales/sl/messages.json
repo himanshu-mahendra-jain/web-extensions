@@ -1,0 +1,614 @@
+{
+  "extensionDescription": {
+    "message": "Ob zagonu brskalnika počisti zgodovino, piškotke in podatke spletnih mest vseh mest razen tistih, ki jih obdržite."
+  },
+  "optionsTitle": {
+    "message": "Obdržana spletna mesta | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repozitorij GitHub, odpre se v novem zavihku"
+  },
+  "accessHeading": {
+    "message": "Dostop do spletnih mest je izklopljen"
+  },
+  "allowSiteAccess": {
+    "message": "Dovoli dostop do spletnih mest"
+  },
+  "accessHistorySiteData": {
+    "message": "Brez dostopa do spletnih mest razširitev ne more brisati piškotkov. Zgodovina in podatki spletnih mest se še vedno počistijo."
+  },
+  "accessHistory": {
+    "message": "Brez dostopa do spletnih mest razširitev ne more brisati piškotkov. Zgodovina se še vedno počisti."
+  },
+  "accessSiteData": {
+    "message": "Brez dostopa do spletnih mest razširitev ne more brisati piškotkov. Podatki spletnih mest se še vedno počistijo."
+  },
+  "accessNothing": {
+    "message": "Brez dostopa do spletnih mest razširitev ne more brisati piškotkov, zato se nič ne počisti."
+  },
+  "clearingOffHeading": {
+    "message": "Čiščenje je izklopljeno"
+  },
+  "clearingOffText": {
+    "message": "Zaenkrat se nič ne briše. Dodajte spletna mesta, na katerih želite ostati prijavljeni, nato vklopite čiščenje. Od takrat se bodo ob vsakem zagonu brskalnika izbrisali podatki ($DATA$) vseh drugih spletnih mest.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Vklopi čiščenje"
+  },
+  "keptSitesHeading": {
+    "message": "Obdržana spletna mesta"
+  },
+  "intro": {
+    "message": "Ta spletna mesta in njihove poddomene obdržijo svoje podatke ($DATA$), zato ostanete prijavljeni. Dokler je čiščenje vklopljeno, jih vsa druga spletna mesta izgubijo ob vsakem zagonu brskalnika.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Domene spletnih mest"
+  },
+  "keep": {
+    "message": "Obdrži"
+  },
+  "siteHint": {
+    "message": "Več spletnih mest ločite z vejicami."
+  },
+  "noSites": {
+    "message": "Zaenkrat ni obdržano nobeno spletno mesto, zato čiščenje izbriše podatke ($DATA$) vseh spletnih mest.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Obdržana spletna mesta"
+  },
+  "clearingHeading": {
+    "message": "Čiščenje"
+  },
+  "clearOnStartupLabel": {
+    "message": "Samodejno počisti ob zagonu brskalnika"
+  },
+  "clearNow": {
+    "message": "Počisti zdaj"
+  },
+  "firstClearHint": {
+    "message": "Prvo čiščenje lahko traja nekaj minut, če ima brskalnik veliko podatkov brskanja. Medtem lahko brskate naprej."
+  },
+  "leftoversHeading": {
+    "message": "Preostali podatki spletnih mest"
+  },
+  "leftoversIntro": {
+    "message": "Ko sta zgodovina in piškotki spletnega mesta izbrisani, ga razširitev ne najde več, zato njegova lokalna shramba, zbirke podatkov in predpomnilnik ostanejo. »Počisti ostanke« po čiščenju, kot je »Počisti zdaj«, izbriše podatke vseh spletnih mest, ki jih ne obdržite, najdenih ali ne."
+  },
+  "clearLeftovers": {
+    "message": "Počisti ostanke"
+  },
+  "transferHeading": {
+    "message": "Uvoz in izvoz"
+  },
+  "transferIntro": {
+    "message": "Shranite obdržana spletna mesta v besedilno datoteko ali jih zamenjajte s spletnimi mesti iz datoteke. Datoteka ima lahko eno spletno mesto na vrstico ali pa jih loči z vejicami."
+  },
+  "export": {
+    "message": "Izvozi"
+  },
+  "import": {
+    "message": "Uvozi"
+  },
+  "cancel": {
+    "message": "Prekliči"
+  },
+  "dataAll": {
+    "message": "zgodovina, piškotki in podatki spletnih mest"
+  },
+  "dataNoHistory": {
+    "message": "piškotki in podatki spletnih mest"
+  },
+  "dataNoSiteData": {
+    "message": "zgodovina in piškotki"
+  },
+  "dataCookies": {
+    "message": "piškotki"
+  },
+  "remove": {
+    "message": "Odstrani"
+  },
+  "removeSite": {
+    "message": "Odstrani $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ je odstranjeno. Njegovi podatki ($DATA$) bodo izbrisani ob naslednjem čiščenju.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Spletnega mesta ni bilo mogoče odstraniti."
+  },
+  "siteKept": {
+    "message": "$SITE$ je obdržano.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Obdržano je $COUNT$ spletno mesto.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_two": {
+    "message": "Obdržani sta $COUNT$ spletni mesti.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_few": {
+    "message": "Obdržana so $COUNT$ spletna mesta.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Obdržanih je $COUNT$ spletnih mest.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ je že obdržano.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ spletno mesto je že obdržano.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_two": {
+    "message": "$COUNT$ spletni mesti sta že obdržani.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_few": {
+    "message": "$COUNT$ spletna mesta so že obdržana.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ spletnih mest je že obdržanih.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ ni veljavna domena.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "To niso veljavne domene: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Vnesite veljavno domeno, na primer example.com."
+  },
+  "addSiteFailed": {
+    "message": "Spletnega mesta ni bilo mogoče dodati."
+  },
+  "addSitesFailed": {
+    "message": "Spletnih mest ni bilo mogoče dodati."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ je večja od 1 MB, zato se obdržana spletna mesta niso spremenila.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ nima veljavnih domen, zato se obdržana spletna mesta niso spremenila.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Želite zamenjati obdržana spletna mesta?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ spletno mesto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_two": {
+    "message": "$COUNT$ spletni mesti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_few": {
+    "message": "$COUNT$ spletna mesta",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ spletnih mest",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Spletna mesta, ki jih obdržite zdaj ($CURRENT$), bodo zamenjana s spletnimi mesti iz datoteke $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ spletno mesto ne bo več obdržano, njegovi podatki ($DATA$) pa bodo izbrisani ob naslednjem čiščenju.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_two": {
+    "message": "$COUNT$ spletni mesti ne bosta več obdržani, njuni podatki ($DATA$) pa bodo izbrisani ob naslednjem čiščenju.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_few": {
+    "message": "$COUNT$ spletna mesta ne bodo več obdržana, njihovi podatki ($DATA$) pa bodo izbrisani ob naslednjem čiščenju.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ spletnih mest ne bo več obdržanih, njihovi podatki ($DATA$) pa bodo izbrisani ob naslednjem čiščenju.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Zamenjaj obdržana spletna mesta"
+  },
+  "sitesImported_one": {
+    "message": "Iz datoteke $FILE$ je uvoženo $COUNT$ spletno mesto.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_two": {
+    "message": "Iz datoteke $FILE$ sta uvoženi $COUNT$ spletni mesti.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_few": {
+    "message": "Iz datoteke $FILE$ so uvožena $COUNT$ spletna mesta.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Iz datoteke $FILE$ je uvoženih $COUNT$ spletnih mest.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Obdržanih spletnih mest ni bilo mogoče izvoziti."
+  },
+  "importFailed": {
+    "message": "Obdržanih spletnih mest ni bilo mogoče uvoziti iz datoteke $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Želite vklopiti čiščenje?"
+  },
+  "turnOnKept": {
+    "message": "Ob vsakem zagonu brskalnika bodo izbrisani podatki ($DATA$) vseh spletnih mest razen tistih, ki ste jih izbrali za obdržanje. Odjavljeni boste z vseh drugih spletnih mest.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Niste izbrali nobenega spletnega mesta za obdržanje. Ob vsakem zagonu brskalnika bodo izbrisani vsi podatki ($DATA$) in odjavljeni boste z vseh spletnih mest.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Izbrisanih podatkov ($DATA$) ni mogoče obnoviti.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Želite zdaj počistiti vse?"
+  },
+  "clearEverythingText": {
+    "message": "Niste izbrali nobenega spletnega mesta za obdržanje, zato bodo zdaj izbrisani podatki ($DATA$) vseh spletnih mest in odjavljeni boste z vseh spletnih mest.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Počisti vse"
+  },
+  "leftoversTitle": {
+    "message": "Želite počistiti preostale podatke spletnih mest?"
+  },
+  "leftoversKept": {
+    "message": "Zdaj bodo izbrisani podatki ($DATA$) vseh spletnih mest, ki jih ne obdržite, vključno s podatki spletnih mest, ki jih razširitev ne najde več.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Obdržano spletno mesto obdrži svoje podatke le na naslovih, ki jih razširitev najde v zgodovini, piškotkih in odprtih zavihkih. Vsaka druga poddomena ali vrata obdržanega spletnega mesta, na primer poddomena, ki je niste obiskali več mesecev, ali lokalni strežnik na drugih vratih, izgubijo svoje podatke in morda boste tam odjavljeni."
+  },
+  "clearing": {
+    "message": "Čiščenje… To lahko traja nekaj minut."
+  },
+  "leftoversFailed": {
+    "message": "Preostalih podatkov spletnih mest ni bilo mogoče počistiti."
+  },
+  "leftoversCleared": {
+    "message": "Preostali podatki spletnih mest so počiščeni."
+  },
+  "nothingClearedYet": {
+    "message": "Zaenkrat še ni nič počiščeno."
+  },
+  "clearFailed": {
+    "message": "Čiščenje ($WHEN$) ni uspelo.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ vnos zgodovine",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_two": {
+    "message": "$COUNT$ vnosa zgodovine",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_few": {
+    "message": "$COUNT$ vnosi zgodovine",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ vnosov zgodovine",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ piškotek",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_two": {
+    "message": "$COUNT$ piškotka",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_few": {
+    "message": "$COUNT$ piškotki",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ piškotkov",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "nič"
+  },
+  "lastCleared": {
+    "message": "Nazadnje počiščeno: $WHEN$. Izbrisano: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Nazadnje počiščeno: $WHEN$. Izbrisano: $WHAT$ ter podatki spletnih mest in predpomnilnik.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Nazadnje počiščeno: $WHEN$. Izbrisano: $WHAT$ ter podatki in predpomnilnik vseh neobdržanih spletnih mest.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Zgodovina in podatki spletnih mest so bili preskočeni, ker ta brskalnik razširitvam ne dovoli, da jih počistijo."
+  },
+  "skippedHistory": {
+    "message": "Zgodovina je bila preskočena, ker ta brskalnik razširitvam ne dovoli, da jo počistijo."
+  },
+  "skippedSiteData": {
+    "message": "Podatki spletnih mest so bili preskočeni, ker ta brskalnik razširitvam ne dovoli, da jih počistijo."
+  },
+  "cookiesSkipped": {
+    "message": "Piškotki so bili preskočeni, ker je dostop do spletnih mest izklopljen."
+  },
+  "loadFailed": {
+    "message": "Nastavitev ni bilo mogoče naložiti."
+  }
+}

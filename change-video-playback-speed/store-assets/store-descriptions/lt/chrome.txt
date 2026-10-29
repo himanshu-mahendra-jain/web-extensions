@@ -1,0 +1,47 @@
+Keiskite vaizdo ir garso atkūrimo spartą vienu spustelėjimu arba spartiuoju klavišu.
+
+Change Video Playback Speed – lengvas atvirojo kodo plėtinys, perjungiantis keturias naudingas atkūrimo spartas:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Spustelėkite plėtinio piktogramą arba naudokite spartųjį klavišą, kad pereitumėte prie kitos spartos. Pasirinkta sparta taikoma puslapio vaizdo ir garso įrašams, taip pat palaikomiems įterptiems grotuvams.
+
+Patarimas: prisekite plėtinį „Chrome“ plėtinių meniu (dėlionės detalės piktograma), kad jis visada būtų po ranka įrankių juostoje.
+
+Dabartinė sparta trumpam parodoma puslapyje ir įrankių juostos ženklelyje.
+
+PAGRINDINĖS FUNKCIJOS
+
+• Valdymas vienu spustelėjimu ir sparčiuoju klavišu
+• Vaizdo ir garso palaikymas
+• Suderinamų įterptų grotuvų palaikymas
+• Spartos ženklelis įrankių juostoje ir indikatorius puslapyje, matomas ir per visą ekraną
+• Jokių iškylančiųjų meniu, slankiųjų valdiklių ar nustatymų
+
+NUMATYTIEJI SPARTIEJI KLAVIŠAI
+
+• Windows, Linux, ChromeOS, GooglebookOS ir Android: Alt+S
+• macOS: Command+Shift+Period
+
+SPARČIOJO KLAVIŠO KEITIMAS
+
+1. Atidarykite „Chrome“ meniu ir pasirinkite Plėtiniai → Tvarkyti plėtinius.
+2. Šoninėje juostoje pasirinkite Spartieji klavišai.
+3. Raskite Change Video Playback Speed ir įveskite norimą spartųjį klavišą.
+
+PRIVATUMAS
+
+• Jokios analitikos ar sekimo
+• Nerenka duomenų ar naršymo istorijos
+• Jokių tinklo užklausų
+• Jokios nuolatinės prieigos prie svetainių
+
+Visi spartos pakeitimai vyksta vietoje, jūsų naršyklėje.
+
+ATVIRASIS KODAS
+
+„Change Video Playback Speed“ yra atvirojo kodo projektas pagal MIT licenciją.
+
+Peržiūrėkite šaltinio kodą, praneškite apie klaidas ar prisidėkite „GitHub“:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

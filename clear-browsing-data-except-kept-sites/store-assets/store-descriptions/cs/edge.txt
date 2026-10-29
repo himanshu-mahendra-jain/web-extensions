@@ -1,0 +1,90 @@
+Při spuštění prohlížeče vymaže historii, soubory cookie a data webů u všech webů kromě těch, které si ponecháte.
+
+Clear Browsing Data Except Kept Sites je lehké rozšíření s otevřeným zdrojovým kódem, které odstraňuje záznamy historie, soubory cookie a data webů u všech webů, které jste si nevybrali ponechat.
+
+V nastavení přidejte weby, na kterých chcete zůstat přihlášeni a které si chcete pamatovat, a pak zapněte mazání. Při každém spuštění prohlížeče rozšíření vymaže historii, soubory cookie a data webů všech ostatních webů. Mazat můžete i kdykoli tlačítkem „Smazat nyní“.
+
+Tip: V nabídce Rozšíření v prohlížeči Edge zapněte volbu «Zobrazit na panelu nástrojů» pro Clear Browsing Data Except Kept Sites pro rychlý přístup.
+
+HLAVNÍ FUNKCE
+
+• Seznam webů, jejichž historie a soubory cookie se nikdy nemažou, s importem a exportem do textového souboru
+• Mazání historie a souborů cookie všech ostatních webů při spuštění prohlížeče, jakmile ho zapnete
+• Mazání kdykoli tlačítkem „Smazat nyní“ a mazání zbylých dat webů, které už nejsou nalezeny, tlačítkem „Smazat zbytky“
+• Automatické ponechání subdomén ponechaného webu
+• Ponechání souborů cookie nadřazené domény, které ponechaný web potřebuje, abyste zůstali přihlášeni
+• Mazání dělených souborů cookie (třetích stran); dělené soubory cookie ponechaného webu zůstávají jen pod ponechanými weby
+• Mazání místního úložiště, IndexedDB, service workerů a mezipaměti webů, které nejsou ponechány
+• Výsledek posledního mazání v nastavení
+• Upozornění, když je přístup k webům vypnutý a soubory cookie nelze mazat
+• Žádná analytika ani sledování
+• Žádný vzdálený kód ani síťové požadavky
+
+PONECHANÉ WEBY
+
+Otevřete nastavení a přidejte doménu, například:
+
+example.com
+
+Chcete-li přidat několik najednou, oddělte je čárkami.
+
+„Exportovat“ uloží seznam do textového souboru, jednu doménu na řádek. „Importovat“ nahradí seznam weby z textového souboru a předem upozorní, pokud tím zmizí weby, které teď ponecháváte.
+
+Adresa jako mail.example.com/inbox se zkrátí na doménu a úvodní www. se vynechá. Přijímají se také localhost a adresy IPv4 jako 192.168.1.1.
+
+Ponechání example.com ponechá historii, soubory cookie a data webu example.com a všech jeho subdomén. Ponechání mail.example.com ponechá i soubory cookie example.com, protože často obsahují přihlášení subdomény.
+
+OTEVŘENÍ NASTAVENÍ
+
+Nastavení se po instalaci otevře automaticky, abyste mohli vyplnit seznam ještě před zapnutím mazání. Později klikněte na ikonu rozšíření na panelu nástrojů, nebo:
+
+1. Klikněte pravým tlačítkem na ikonu rozšíření na panelu nástrojů.
+2. Vyberte Možnosti rozšíření.
+
+MAZÁNÍ PŘI SPUŠTĚNÍ
+
+Po instalaci je mazání vypnuté, takže se nic neodstraní, dokud o to nepožádáte. Nastavení zobrazí upozornění „Mazání je vypnuté“ s tlačítkem „Zapnout mazání“. Zapnutí nejprve zobrazí varování: každé spuštění smaže historii a soubory cookie všech webů kromě ponechaných a odhlásí vás z nich, nebo ze všech webů, když není ponechán žádný.
+
+Po zapnutí probíhá mazání při každém spuštění prohlížeče, protože prohlížeč nenechá rozšíření běžet při zavírání. Mazání při spuštění odstraní, co zanechala předchozí relace. Vypnout nebo znovu zapnout ho můžete volbou „Mazat automaticky při spuštění prohlížeče“ v nastavení.
+
+VYMAZAT NYNÍ A VYMAZAT ZBYTKY
+
+„Smazat nyní“ v nastavení maže okamžitě. Když není ponechán žádný web, nejprve se zobrazí červené varování, že bude smazáno vše. Nastavení ukazuje, kdy proběhlo poslední mazání a kolik záznamů historie a souborů cookie smazalo.
+
+Jakmile mazání odstraní historii a soubory cookie webu, další mazání už tento web nenajdou, takže jeho místní úložiště, databáze a mezipaměť zůstanou. „Smazat zbytky“ provede mazání a pak smaže data všech webů, které neponecháváte, nalezených i nenalezených. Prohlížeč zde umí ušetřit jen přesné weby, takže ponechaný web si data ponechá jen pro sebe a pro ponechané weby, které mazání najde v historii, souborech cookie a otevřených kartách; předem na to upozorní červené varování.
+
+PŘÍSTUP K WEBŮM
+
+Soubory cookie lze odstranit jen u webů, ke kterým má rozšíření přístup, proto žádá o přístup ke všem webům. Pokud přístup k webům omezíte, například na „Po kliknutí“, historie se dál maže, ale soubory cookie se přeskočí a nastavení zobrazí tlačítko „Povolit přístup k webům“.
+
+OMEZENÍ
+
+• Karty obnovené při spuštění mohou během mazání vytvořit nové soubory cookie. Ty zůstanou do dalšího spuštění nebo do použití „Smazat nyní“.
+• Jiná data webů, například úložiště relace, oprávnění webů a soubory uložené přes File System API, se nemažou.
+• Pokud synchronizace prohlížeče zahrnuje historii, odstraněné záznamy historie se mohou odstranit i na vašich dalších zařízeních.
+• Okna InPrivate se mažou jen tehdy, když je rozšíření v režimu InPrivate povoleno. Edge jejich data při zavření stejně zahodí.
+• Adresy IPv6 nelze přidat do seznamu.
+
+SOUKROMÍ
+
+• Žádná analytika ani sledování
+• Žádný sběr dat
+• Žádné síťové požadavky
+• Žádný vzdálený kód
+• Žádný externí JavaScript
+• Historie a soubory cookie se čtou jen kvůli rozhodnutí, co odstranit, a jen ve vašem prohlížeči
+• Seznam a nastavení se ukládají místně ve vašem prohlížeči
+
+VÝKON
+
+Rozšíření během prohlížení nic nedělá. Spustí se jednou při startu prohlížeče, je-li mazání zapnuté, a když kliknete na „Smazat nyní“ nebo „Smazat zbytky“.
+
+První mazání dlouhé historie může trvat několik minut, protože se každý záznam historie maže zvlášť. Mezitím můžete dál prohlížet. Další mazání odstraní jen záznamy předchozí relace.
+
+OPEN SOURCE
+
+Clear Browsing Data Except Kept Sites je open-source projekt pod licencí MIT.
+
+Zdrojový kód, hlášení chyb a možnost zapojení najdete na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

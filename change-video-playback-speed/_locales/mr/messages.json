@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "व्हिडिओ आणि ऑडिओचा प्लेबॅक वेग 1x, 1.2x, 1.5x आणि 2x दरम्यान पटकन बदला."
+  },
+  "commandDescription": {
+    "message": "व्हिडिओचा प्लेबॅक वेग बदला"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "प्लेबॅक वेग $SPEED$ पट",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "प्लेबॅक वेग: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

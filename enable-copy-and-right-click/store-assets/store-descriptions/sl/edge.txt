@@ -1,0 +1,80 @@
+Omogočite kopiranje, izbiranje besedila in menije desnega klika na spletnih straneh, ki jih omejujejo.
+
+Enable Copy and Right Click je lahka razširitev odprte kode, ki vrne običajno kopiranje, izbiranje besedila in desni klik na spletne strani, ki ta dejanja omejujejo.
+
+Kliknite ikono razširitve v orodni vrstici ali uporabite bližnjico na tipkovnici, da v trenutnem zavihku omogočite kopiranje in desni klik.
+
+Nasvet: V meniju za razširitve brskalnika Edge vklopite «Pokaži v orodni vrstici» za Enable Copy and Right Click za hiter dostop.
+
+Zaupanja vredna spletna mesta lahko dodate tudi na seznam samodejnih spletnih mest. Razširitev bo nato ob vsakem obisku teh mest samodejno omogočila kopiranje in desni klik.
+
+GLAVNE FUNKCIJE
+
+• Omogoči kopiranje in izbiranje besedila na omejenih spletnih straneh
+• Omogoči kontekstne menije desnega klika
+• Omogoči kopiranje, izrezovanje, lepljenje, izbiranje besedila in vlečenje
+• Vklop z enim klikom v orodni vrstici
+• Bližnjica na tipkovnici za hiter vklop
+• Samodejni vklop na spletnih mestih, ki jih izberete
+• Deluje v dostopnih okvirjih iframe, kjer to dovolijo dovoljenja brskalnika
+• Po ročnem vklopu prikaže značko ON
+• Brez pojavnih menijev
+• Brez analitike in sledenja
+• Brez oddaljene kode in omrežnih zahtev
+
+PRIVZETE BLIŽNJICE NA TIPKOVNICI
+
+• Windows, Linux, ChromeOS, GooglebookOS in Android: Alt+C
+• macOS: Command+Shift+Y
+
+Bližnjica na tipkovnici naredi isto kot klik na ikono razširitve.
+
+SPREMEMBA BLIŽNJICE NA TIPKOVNICI
+
+1. Odprite meni Razširitve in izberite Upravljanje razširitev.
+2. V stranski vrstici izberite Bližnjice na tipkovnici.
+3. Poiščite Enable Copy and Right Click in vnesite želeno bližnjico.
+
+SAMODEJNA SPLETNA MESTA
+
+Odprite stran z možnostmi razširitve in dodajte domeno, na primer:
+
+example.com
+
+Razširitev bo zaprosila za dovoljenje le za spletno mesto, ki ga dodate. Ko je dovoljenje dano, se bodo na tem mestu samodejno omogočili kopiranje, izbiranje besedila in desni klik.
+
+Samodejno spletno mesto lahko kadar koli odstranite na strani z možnostmi.
+
+ODPIRANJE STRANI Z MOŽNOSTMI
+
+1. Z desno tipko miške kliknite ikono razširitve v orodni vrstici.
+2. Izberite Možnosti razširitve.
+
+ZASEBNOST
+
+• Brez analitike in sledenja
+• Brez zbiranja podatkov
+• Brez zbiranja zgodovine brskanja
+• Brez omrežnih zahtev
+• Brez oddaljene kode
+• Brez zunanjega JavaScripta
+• Nastavitve samodejnih spletnih mest so shranjene lokalno v vašem brskalniku
+• Za dovoljenje za spletno mesto zaprosi le, ko sami dodate spletno mesto
+
+Vsa obnova kopiranja in desnega klika poteka lokalno v vašem brskalniku.
+
+ZMOGLJIVOST
+
+Razširitev je lahka in jo poganjajo dogodki.
+
+Ko miruje, v ozadju ne opravlja nobenega stalnega dela. Ročni vklop se izvede le, ko kliknete ikono v orodni vrstici ali uporabite bližnjico na tipkovnici. Samodejni vklop se izvede le na spletnih mestih, ki ste jih izrecno dodali.
+
+Ni periodičnega poizvedovanja, omrežne dejavnosti v ozadju, analitičnega SDK, oddaljene konfiguracije ali stalne zanke, ki nadzira strani.
+
+ODPRTA KODA
+
+Enable Copy and Right Click je odprtokodni projekt pod licenco MIT.
+
+Oglejte si izvorno kodo, prijavite težave ali prispevajte na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

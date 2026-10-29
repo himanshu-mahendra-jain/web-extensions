@@ -1,0 +1,46 @@
+Wijzig de afspeelsnelheid van video en audio met één klik of een sneltoets.
+
+Change Video Playback Speed is een lichte opensource-extensie die wisselt tussen vier handige afspeelsnelheden:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klik op het pictogram van de extensie of gebruik de sneltoets om naar de volgende snelheid te gaan. De gekozen snelheid geldt voor video en audio op de pagina, ook in ondersteunde ingesloten spelers.
+
+De huidige snelheid wordt even op de pagina getoond en staat in de badge op de werkbalk.
+
+BELANGRIJKSTE FUNCTIES
+
+• Bediening met één klik en met een sneltoets
+• Ondersteunt video en audio
+• Ondersteunt compatibele ingesloten spelers
+• Snelheidsbadge op de werkbalk en een indicator op de pagina, ook op volledig scherm
+• Geen pop-upmenu's, zwevende knoppen of instellingen
+
+STANDAARDSNELTOETSEN
+
+• Windows, Linux, ChromeOS, GooglebookOS en Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+DE SNELTOETS WIJZIGEN
+
+1. Open het Firefox-menu en kies Add-ons en thema's.
+2. Klik op het tandwielpictogram op de pagina Extensies.
+3. Kies Sneltoetsen voor extensies beheren.
+4. Zoek Change Video Playback Speed en voer de gewenste sneltoets in.
+
+PRIVACY
+
+• Geen analyse of tracking
+• Geen verzameling van gegevens of browsegeschiedenis
+• Geen netwerkverzoeken
+• Geen permanente toegang tot websites
+
+Alle snelheidswijzigingen gebeuren lokaal in uw browser.
+
+OPEN SOURCE
+
+Change Video Playback Speed is open source en gelicentieerd onder de MIT-licentie.
+
+Bekijk de broncode, meld problemen of draag bij op GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

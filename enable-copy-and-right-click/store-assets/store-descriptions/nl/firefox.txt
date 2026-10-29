@@ -1,0 +1,80 @@
+Schakel kopiëren, tekst selecteren en rechtsklikmenu's in op webpagina's die ze blokkeren.
+
+Enable Copy and Right Click is een lichte opensource-extensie die normaal kopiëren, tekst selecteren en rechtsklikken herstelt op webpagina's die deze acties beperken.
+
+Klik op het pictogram van de extensie in de werkbalk of gebruik de sneltoets om kopiëren en rechtsklikken op het huidige tabblad in te schakelen.
+
+U kunt ook vertrouwde websites toevoegen aan de lijst met automatische websites. De extensie schakelt kopiëren en rechtsklikken dan automatisch in wanneer u die websites bezoekt.
+
+BELANGRIJKSTE FUNCTIES
+
+• Schakelt kopiëren en tekst selecteren in op webpagina's met beperkingen
+• Schakelt rechtsklikmenu's in
+• Schakelt kopiëren, knippen, plakken, tekst selecteren en slepen in
+• Inschakelen met één klik vanuit de werkbalk
+• Sneltoets om snel in te schakelen
+• Automatisch inschakelen op websites die u kiest
+• Werkt in toegankelijke iframes voor zover de machtigingen van de browser dat toestaan
+• Toont een ON-badge na handmatig inschakelen
+• Geen pop-upmenu's
+• Geen analyse of tracking
+• Geen externe code of netwerkverzoeken
+
+STANDAARDSNELTOETSEN
+
+• Windows, Linux, ChromeOS, GooglebookOS en Android: Alt+C
+• macOS: Command+Shift+Y
+
+De sneltoets doet hetzelfde als klikken op het pictogram van de extensie.
+
+DE SNELTOETS WIJZIGEN
+
+1. Open het Firefox-menu en kies Add-ons en thema's.
+2. Klik op het tandwielpictogram op de pagina Extensies.
+3. Kies Sneltoetsen voor extensies beheren.
+4. Zoek Enable Copy and Right Click en voer de gewenste sneltoets in.
+
+AUTOMATISCHE WEBSITES
+
+Open de optiepagina van de extensie en voeg een domein toe, zoals:
+
+example.com
+
+De extensie vraagt alleen toestemming voor de website die u toevoegt. Zodra u toestemming hebt gegeven, worden kopiëren, tekst selecteren en rechtsklikken op die website automatisch ingeschakeld.
+
+U kunt een automatische website op elk moment verwijderen via de optiepagina.
+
+DE OPTIEPAGINA OPENEN
+
+1. Open het Firefox-menu en kies Add-ons en thema's.
+2. Zoek Enable Copy and Right Click en klik op het menu met drie puntjes ernaast.
+3. Selecteer Voorkeuren.
+
+PRIVACY
+
+• Geen analyse of tracking
+• Geen gegevensverzameling
+• Geen verzameling van de browsegeschiedenis
+• Geen netwerkverzoeken
+• Geen externe code
+• Geen externe JavaScript
+• Voorkeuren voor automatische websites worden lokaal in uw browser opgeslagen
+• Toestemming voor een website wordt alleen gevraagd wanneer u zelf een website toevoegt
+
+Het herstellen van kopiëren en rechtsklikken gebeurt volledig lokaal in uw browser.
+
+PRESTATIES
+
+De extensie is licht en werkt op basis van gebeurtenissen.
+
+In rust doet ze geen doorlopend werk op de achtergrond. Handmatig inschakelen gebeurt alleen wanneer u op het werkbalkpictogram klikt of de sneltoets gebruikt. Automatisch inschakelen gebeurt alleen op websites die u zelf hebt toegevoegd.
+
+Er is geen polling, netwerkactiviteit op de achtergrond, analyse-SDK, externe configuratie of doorlopende lus die pagina's bewaakt.
+
+OPEN SOURCE
+
+Enable Copy and Right Click is open source en gelicentieerd onder de MIT-licentie.
+
+Bekijk de broncode, meld problemen of draag bij op GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

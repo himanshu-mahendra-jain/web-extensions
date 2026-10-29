@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Schimbați rapid viteza de redare a videoclipurilor și a sunetului între 1x, 1,2x, 1,5x și 2x."
+  },
+  "commandDescription": {
+    "message": "Schimbă viteza de redare a videoclipului"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Viteză de redare $SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Viteză de redare: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

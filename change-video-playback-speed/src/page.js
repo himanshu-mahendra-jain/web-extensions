@@ -41,7 +41,11 @@ export function getMediaState() {
 }
 
 
-export function applyPlaybackSpeed(speed) {
+/*
+ * labels is what the indicator says, from speedLabels() in i18n.js:
+ * shown and spoken text, and their lang and dir.
+ */
+export function applyPlaybackSpeed(speed, labels) {
   const ALLOWED_SPEEDS = Object.freeze([
     1,
     1.2,
@@ -88,10 +92,12 @@ export function applyPlaybackSpeed(speed) {
   indicator.setAttribute("role", "status");
   indicator.setAttribute("aria-live", "polite");
   indicator.setAttribute("aria-atomic", "true");
+  indicator.lang = labels.lang;
+  indicator.dir = labels.dir;
 
   const visualText = document.createElement("span");
   visualText.setAttribute("aria-hidden", "true");
-  visualText.textContent = `${speed}x`;
+  visualText.textContent = labels.shown;
 
   const srText = document.createElement("span");
   Object.assign(srText.style, {
@@ -143,7 +149,7 @@ export function applyPlaybackSpeed(speed) {
    * know, not one that arrives with its text, so the text comes after.
    */
   setTimeout(() => {
-    srText.textContent = `Playback speed ${speed} times`;
+    srText.textContent = labels.spoken;
   }, ANNOUNCE_DELAY_MS);
 
   setTimeout(() => {

@@ -1,0 +1,42 @@
+Sulgege praegune vaheleht kolme sõrme puudutuse, keskmise klõpsu või tööriistaribal klõpsuga.
+
+Three Finger Tap to Close Tab on kerge avatud lähtekoodiga laiendus, mis pakub kiiret ja lihtsat viisi brauseri praeguse vahelehe sulgemiseks.
+
+Praeguse vahelehe sulgemiseks puudutage kolme sõrmega või klõpsake keskmise nupuga ükskõik kus veebilehel väljaspool linke ja muudetavaid välju. Vahelehe saate sulgeda ka tööriistaribal laienduse ikoonil klõpsates.
+
+Soovitus: kinnitage laiendus Chrome'i laienduste menüüs (pusletüki ikoon), et selle ikoon oleks tööriistaribal alati nähtaval.
+
+Keskmine klõps linkidel ja voo kaartidel säilitab brauseri tavapärase käitumise, nii et saate linke ja postitusi endiselt uutel vahelehtedel avada. Sisseehitatud ohutusvahe hoiab ära vahelehe kogemata sulgemise, kui puudutate lingi või juhtelemendi lähedal.
+
+PEAMISED FUNKTSIOONID
+
+• Praeguse vahelehe sulgemine kolme sõrme puudutusega
+• Praeguse vahelehe sulgemine keskmise klõpsuga
+• Praeguse vahelehe sulgemine tööriistaribal klõpsuga
+• Säilitab tavapärase keskmise klõpsu linkidel, nuppudel ja voo kaartidel
+• Ohutusvahe hoiab ära kogemata sulgemise interaktiivsete elementide lähedal
+• Ei sulge vahelehti, kui kasutate vorme ja muudetavaid välju
+• Hüpikmenüüsid ega seadeid pole
+
+PUUTEPLAADI SEADISTAMINE
+
+Puuteplaat ja operatsioonisüsteem peavad olema seadistatud nii, et kolme sõrme puudutus annab keskmise klõpsu.
+
+Seejärel puudutage kolme sõrmega veebilehte väljaspool linke ja interaktiivset sisu, et praegune vaheleht sulgeda.
+
+PRIVAATSUS
+
+• Analüütikat ega jälgimist pole
+• Andmeid ega sirvimisajalugu ei koguta
+• Võrgupäringuid pole
+• Sirvimistegevust ega eelistusi ei salvestata
+
+Kõik vahelehtede sulgemised toimuvad kohalikult teie brauseris.
+
+AVATUD LÄHTEKOOD
+
+Three Finger Tap to Close Tab on avatud lähtekoodiga tarkvara MIT litsentsi all.
+
+Vaadake lähtekoodi, teatage vigadest või panustage GitHubis:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

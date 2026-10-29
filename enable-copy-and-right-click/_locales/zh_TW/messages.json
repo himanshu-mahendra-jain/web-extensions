@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "在限制複製的網頁上重新啟用複製、選取文字和右鍵選單。"
+  },
+  "commandDescription": {
+    "message": "在目前頁面啟用複製和右鍵"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$：已啟用",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "已啟用複製和右鍵。"
+  },
+  "optionsTitle": {
+    "message": "自動啟用的網站 | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub 存放區，在新分頁中開啟"
+  },
+  "automaticSitesHeading": {
+    "message": "自動啟用的網站"
+  },
+  "automaticSitesIntro": {
+    "message": "在你新增的網站上自動啟用複製、選取文字和右鍵。"
+  },
+  "siteInputLabel": {
+    "message": "網站網域"
+  },
+  "addSite": {
+    "message": "新增網站"
+  },
+  "noSites": {
+    "message": "尚未新增自動啟用的網站。"
+  },
+  "siteListLabel": {
+    "message": "自動啟用的網站"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "removeSite": {
+    "message": "移除 $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$（權限已撤銷）",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "已新增 $SITE$。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "已重新啟用 $SITE$。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "已移除 $SITE$。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "此網站已啟用。"
+  },
+  "invalidDomain": {
+    "message": "請輸入有效的網域，例如 example.com。"
+  },
+  "permissionNotGranted": {
+    "message": "未授予網站權限。"
+  },
+  "addFailed": {
+    "message": "無法新增網站。"
+  },
+  "removeFailed": {
+    "message": "無法移除網站。"
+  },
+  "loadFailed": {
+    "message": "無法載入網站清單。"
+  }
+}

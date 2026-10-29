@@ -1,0 +1,46 @@
+Endra avspelingsfarten for video og lyd med eitt klikk eller ein snarveg.
+
+Change Video Playback Speed er ei lett utviding med open kjeldekode som vekslar mellom fire nyttige avspelingsfartar:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klikk på ikonet til utvidinga eller bruk snarvegen for å gå til neste fart. Den valde farten gjeld video og lyd på sida, òg i støtta innebygde avspelarar.
+
+Gjeldande fart vert vist kort på sida og på merket på verktøylinja.
+
+VIKTIGASTE FUNKSJONAR
+
+• Styring med eitt klikk og med snarveg
+• Støtte for video og lyd
+• Støtte for kompatible innebygde avspelarar
+• Fartsmerke på verktøylinja og ein indikator på sida som òg viser i fullskjerm
+• Ingen sprettoppmenyar, flytande kontrollar eller innstillingar
+
+STANDARD SNARVEGAR
+
+• Windows, Linux, ChromeOS, GooglebookOS og Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+ENDRA SNARVEGEN
+
+1. Opne Firefox-menyen og vel Tillegg og tema.
+2. Klikk på tannhjulikonet på sida Utvidingar.
+3. Vel Handsam snarvegar for utvidingar.
+4. Finn Change Video Playback Speed og skriv inn snarvegen du vil ha.
+
+PERSONVERN
+
+• Ingen analyse eller sporing
+• Ingen innsamling av data eller nettlesarlogg
+• Ingen nettverksførespurnader
+• Ingen permanent tilgang til nettstadar
+
+Alle fartsendringar skjer lokalt i nettlesaren din.
+
+OPEN KJELDEKODE
+
+Change Video Playback Speed har open kjeldekode og er lisensiert under MIT-lisensen.
+
+Sjå kjeldekoden, rapporter problem eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

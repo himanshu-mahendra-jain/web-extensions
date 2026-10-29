@@ -1,0 +1,42 @@
+Isara ang kasalukuyang tab sa three-finger tap, middle click, o pag-click sa toolbar.
+
+Ang Three Finger Tap to Close Tab ay isang magaan at open-source na extension na nagbibigay ng mabilis at simpleng paraan para isara ang kasalukuyang tab ng browser.
+
+Mag-three-finger tap o mag-middle click kahit saan sa isang webpage sa labas ng mga link at nae-edit na field para isara ang kasalukuyang tab. Puwede mo ring i-click ang icon ng extension sa toolbar para isara ang tab.
+
+Tip: Sa menu ng Extensions ng Edge, i-on ang «Show in toolbar» para sa Three Finger Tap to Close Tab upang madali itong ma-access.
+
+Ang pag-middle click sa mga link at feed card ay nananatili sa karaniwang gawi ng browser, kaya puwede ka pa ring magbukas ng mga link at post sa mga bagong tab gaya ng dati. May nakapaloob na safety buffer na pumipigil sa aksidenteng pagsasara ng tab kapag napa-tap ka malapit sa isang link o control.
+
+MGA PANGUNAHING FEATURE
+
+• Isara ang kasalukuyang tab sa three-finger tap
+• Isara ang kasalukuyang tab sa middle click
+• Isara ang kasalukuyang tab sa pag-click sa toolbar
+• Nananatili ang karaniwang middle click sa mga link, button, at feed card
+• Pinipigilan ng safety buffer ang aksidenteng pagsasara malapit sa mga interactive na elemento
+• Hindi nagsasara ng tab habang gumagamit ka ng mga form at nae-edit na field
+• Walang popup menu o setting
+
+PAG-SET UP NG TOUCHPAD
+
+Dapat naka-configure ang iyong touchpad at operating system para gumawa ng middle click ang three-finger tap.
+
+Kapag naka-configure na, mag-three-finger tap sa webpage sa labas ng mga link at interactive na content para isara ang kasalukuyang tab.
+
+PRIVACY
+
+• Walang analytics o tracking
+• Walang pangongolekta ng data o kasaysayan ng pag-browse
+• Walang network request
+• Walang naka-save na aktibidad sa pag-browse o preference
+
+Lokal sa iyong browser nangyayari ang lahat ng pagsasara ng tab.
+
+OPEN SOURCE
+
+Ang Three Finger Tap to Close Tab ay open source at lisensyado sa ilalim ng MIT License.
+
+Tingnan ang source code, mag-ulat ng mga isyu, o mag-ambag sa GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

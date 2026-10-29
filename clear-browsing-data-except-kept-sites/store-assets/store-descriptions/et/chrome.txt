@@ -1,0 +1,90 @@
+Kustutab brauseri käivitumisel ajaloo, küpsised ja saidiandmed kõigil saitidel peale nende, mille alles jätate.
+
+Clear Browsing Data Except Kept Sites on kerge avatud lähtekoodiga laiendus, mis eemaldab ajaloo kirjed, küpsised ja saidiandmed kõigilt saitidelt, mida te pole valinud alles hoida.
+
+Lisage seadetes saidid, kuhu soovite sisselogituks jääda ja mis peaksid teid meeles pidama, ning lülitage kustutamine sisse. Iga kord, kui brauser käivitub, kustutab laiendus kõigi teiste saitide ajaloo, küpsised ja saidiandmed. Kustutada saab ka igal ajal nupuga „Kustuta kohe”.
+
+Soovitus: kinnitage laiendus Chrome'i laienduste menüüs (pusletüki ikoon), et selle ikoon oleks tööriistaribal alati nähtaval.
+
+PEAMISED FUNKTSIOONID
+
+• Saitide loend, mille ajalugu ja küpsiseid ei kustutata kunagi, koos tekstifailina importimise ja eksportimisega
+• Kõigi teiste saitide ajaloo ja küpsiste kustutamine brauseri käivitumisel, kui olete selle sisse lülitanud
+• Kustutamine igal ajal nupuga „Kustuta kohe” ja enam mitte leitavate saitide järelejäänud andmete kustutamine nupuga „Kustuta jäägid”
+• Alles hoitud saidi alamdomeenid hoitakse automaatselt alles
+• Alles hoitakse ülemdomeeni küpsised, mida alles hoitud sait vajab, et jääksite sisselogituks
+• Partitsioneeritud (kolmanda osapoole) küpsiste kustutamine; alles hoitud saidi partitsioneeritud küpsised jäävad ainult alles hoitud saitide alla
+• Alles hoidmata saitide kohaliku salvestusruumi, IndexedDB, service workerite ja vahemälu kustutamine
+• Viimase kustutamise tulemus seadetes
+• Hoiatus, kui juurdepääs saitidele on välja lülitatud ja küpsiseid ei saa kustutada
+• Ei mingit analüütikat ega jälgimist
+• Ei mingit kaugkoodi ega võrgupäringuid
+
+ALLES HOITUD SAIDID
+
+Avage seaded ja lisage domeen, näiteks:
+
+example.com
+
+Mitme korraga lisamiseks eraldage need komadega.
+
+„Ekspordi” salvestab loendi tekstifaili, üks domeen rea kohta. „Impordi” asendab loendi tekstifaili saitidega ja hoiatab enne, kui sel moel kaovad saidid, mida praegu alles hoiate.
+
+Aadress nagu mail.example.com/inbox lühendatakse domeeniks ja alguses olev www. jäetakse ära. Aktsepteeritakse ka localhost ja IPv4-aadresse nagu 192.168.1.1.
+
+example.com alles hoidmine hoiab alles example.com ja kõigi selle alamdomeenide ajaloo, küpsised ja saidiandmed. mail.example.com alles hoidmine hoiab alles ka example.com küpsised, sest need sisaldavad sageli alamdomeeni sisselogimist.
+
+SEADETE AVAMINE
+
+Seaded avanevad pärast installimist automaatselt, et saaksite loendi täita enne kustutamise sisselülitamist. Hiljem klõpsake tööriistaribal laienduse ikooni või:
+
+1. Paremklõpsake tööriistaribal laienduse ikooni.
+2. Valige Valikud.
+
+KUSTUTAMINE KÄIVITUMISEL
+
+Pärast installimist on kustutamine välja lülitatud, nii et midagi ei eemaldata enne, kui seda palute. Seadetes kuvatakse teade „Kustutamine on välja lülitatud” ja nupp „Lülita kustutamine sisse”. Sisselülitamisel kuvatakse kõigepealt hoiatus: iga käivitumine kustutab kõigi saitide ajaloo ja küpsised, välja arvatud alles hoitud saitide omad, ja logib teid neist välja, või kõigist saitidest, kui ühtegi ei hoita alles.
+
+Sisselülitatuna käivitub kustutamine iga kord, kui brauser käivitub, sest brauser ei lase laiendustel sulgemisel töötada. Käivitumisel kustutamine eemaldab selle, mis eelmisest seansist järele jäi. Lülitage see välja või uuesti sisse seadetes valikuga „Kustuta automaatselt brauseri käivitumisel”.
+
+KUSTUTA KOHE JA KUSTUTA JÄÄGID
+
+Seadete nupp „Kustuta kohe” kustutab kohe. Kui ühtegi saiti ei hoita alles, kuvatakse kõigepealt punane hoiatus, et kõik kustutatakse. Seadetes on näha, millal viimati kustutati ja mitu ajaloo kirjet ja küpsist kustutati.
+
+Kui kustutamine on saidi ajaloo ja küpsised eemaldanud, ei leia hilisemad kustutamised seda saiti enam, nii et selle kohalik salvestusruum, andmebaasid ja vahemälu jäävad alles. „Kustuta jäägid” käivitab kustutamise ja kustutab seejärel kõigi alles hoidmata saitide andmed, leitud või mitte. Siin saab brauser säästa ainult täpseid saite, nii et alles hoitud sait säilitab andmed ainult endale ja nendele alles hoitud saitidele, mille kustutamine leiab ajaloost, küpsistest ja avatud vahekaartidelt; punane hoiatus ütleb seda enne.
+
+JUURDEPÄÄS SAITIDELE
+
+Küpsiseid saab eemaldada ainult saitidelt, millele laiendusel on juurdepääs, seega küsib see juurdepääsu kõigile saitidele. Kui piirate juurdepääsu saitidele, näiteks valikuga „Klõpsamisel”, kustutatakse ajalugu ikka, kuid küpsised jäetakse vahele ja seadetes kuvatakse nupp „Luba juurdepääs saitidele”.
+
+PIIRANGUD
+
+• Käivitumisel taastatud vahekaardid võivad kustutamise ajal seada uusi küpsiseid. Need küpsised jäävad alles järgmise käivitumise või järgmise „Kustuta kohe” kasutamiseni.
+• Muid saidiandmeid, nagu seansi salvestusruum, saitide load ja File System API kaudu salvestatud failid, ei kustutata.
+• Kui brauseri sünkroonimine hõlmab ajalugu, võidakse eemaldatud ajaloo kirjed eemaldada ka teie teistest seadmetest.
+• Inkognito aknad kustutatakse ainult siis, kui laiendus on inkognito režiimis lubatud. Chrome viskab nende andmed sulgemisel nagunii minema.
+• IPv6-aadresse ei saa loendisse lisada.
+
+PRIVAATSUS
+
+• Ei mingit analüütikat ega jälgimist
+• Ei mingit andmete kogumist
+• Ei mingeid võrgupäringuid
+• Ei mingit kaugkoodi
+• Ei mingit välist JavaScripti
+• Ajalugu ja küpsiseid loetakse ainult selleks, et otsustada, mida eemaldada, ja ainult teie brauseris
+• Loend ja seaded salvestatakse kohalikult teie brauserisse
+
+JÕUDLUS
+
+Laiendus ei tee sirvimise ajal midagi. See käivitub üks kord brauseri käivitumisel, kui kustutamine on sisse lülitatud, ja siis, kui klõpsate nuppu „Kustuta kohe” või „Kustuta jäägid”.
+
+Pika ajaloo esimene kustutamine võib võtta mõne minuti, sest iga ajaloo kirje kustutatakse eraldi. Vahepeal saate sirvimist jätkata. Hilisemad kustutamised eemaldavad ainult eelmise seansi kirjed.
+
+AVATUD LÄHTEKOOD
+
+Clear Browsing Data Except Kept Sites on avatud lähtekoodiga tarkvara MIT litsentsi all.
+
+Vaadake lähtekoodi, teatage vigadest või panustage GitHubis:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

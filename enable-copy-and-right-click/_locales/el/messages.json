@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Ενεργοποιήστε την αντιγραφή, την επιλογή κειμένου και τα μενού δεξιού κλικ σε ιστοσελίδες που τα περιορίζουν."
+  },
+  "commandDescription": {
+    "message": "Ενεργοποίηση αντιγραφής και δεξιού κλικ στην τρέχουσα σελίδα"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Ενεργό",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Η αντιγραφή και το δεξί κλικ ενεργοποιήθηκαν."
+  },
+  "optionsTitle": {
+    "message": "Αυτόματοι ιστότοποι | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Αποθετήριο GitHub, ανοίγει σε νέα καρτέλα"
+  },
+  "automaticSitesHeading": {
+    "message": "Αυτόματοι ιστότοποι"
+  },
+  "automaticSitesIntro": {
+    "message": "Αυτόματη ενεργοποίηση αντιγραφής, επιλογής κειμένου και δεξιού κλικ στους ιστότοπους που προσθέτετε."
+  },
+  "siteInputLabel": {
+    "message": "Τομέας ιστότοπου"
+  },
+  "addSite": {
+    "message": "Προσθήκη ιστότοπου"
+  },
+  "noSites": {
+    "message": "Δεν έχουν προστεθεί ακόμη αυτόματοι ιστότοποι."
+  },
+  "siteListLabel": {
+    "message": "Αυτόματοι ιστότοποι"
+  },
+  "remove": {
+    "message": "Αφαίρεση"
+  },
+  "removeSite": {
+    "message": "Αφαίρεση $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (η άδεια αφαιρέθηκε)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "Ο ιστότοπος $SITE$ προστέθηκε.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "Ο ιστότοπος $SITE$ ενεργοποιήθηκε ξανά.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "Ο ιστότοπος $SITE$ αφαιρέθηκε.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Αυτός ο ιστότοπος είναι ήδη ενεργοποιημένος."
+  },
+  "invalidDomain": {
+    "message": "Εισαγάγετε έναν έγκυρο τομέα, όπως example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Δεν δόθηκε άδεια για τον ιστότοπο."
+  },
+  "addFailed": {
+    "message": "Δεν ήταν δυνατή η προσθήκη του ιστότοπου."
+  },
+  "removeFailed": {
+    "message": "Δεν ήταν δυνατή η αφαίρεση του ιστότοπου."
+  },
+  "loadFailed": {
+    "message": "Δεν ήταν δυνατή η φόρτωση της λίστας ιστότοπων."
+  }
+}

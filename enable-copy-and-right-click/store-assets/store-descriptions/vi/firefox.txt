@@ -1,0 +1,80 @@
+Bật sao chép, chọn văn bản và menu chuột phải trên các trang web chặn chúng.
+
+Enable Copy and Right Click là tiện ích nhẹ, mã nguồn mở, khôi phục việc sao chép, chọn văn bản và nhấp chuột phải bình thường trên các trang web hạn chế những thao tác này.
+
+Nhấp vào biểu tượng tiện ích trên thanh công cụ hoặc dùng phím tắt để bật sao chép và chuột phải trên thẻ hiện tại.
+
+Bạn cũng có thể thêm các trang web đáng tin cậy vào danh sách Trang web tự động. Khi đó, tiện ích sẽ tự động bật sao chép và chuột phải mỗi lần bạn truy cập các trang này.
+
+TÍNH NĂNG CHÍNH
+
+• Bật sao chép và chọn văn bản trên các trang web bị hạn chế
+• Bật menu ngữ cảnh khi nhấp chuột phải
+• Bật sao chép, cắt, dán, chọn văn bản và kéo thả
+• Kích hoạt bằng một lần nhấp từ thanh công cụ
+• Phím tắt để kích hoạt nhanh
+• Tự động kích hoạt trên các trang web bạn chọn
+• Hoạt động trong các iframe có thể truy cập khi quyền của trình duyệt cho phép
+• Hiển thị huy hiệu ON sau khi kích hoạt thủ công
+• Không có menu bật lên
+• Không phân tích hay theo dõi
+• Không có mã từ xa hay yêu cầu mạng
+
+PHÍM TẮT MẶC ĐỊNH
+
+• Windows, Linux, ChromeOS, GooglebookOS và Android: Alt+C
+• macOS: Command+Shift+Y
+
+Phím tắt làm điều tương tự như nhấp vào biểu tượng tiện ích.
+
+ĐỔI PHÍM TẮT
+
+1. Mở menu Firefox rồi chọn Tiện ích và chủ đề.
+2. Nhấp vào biểu tượng bánh răng trên trang Tiện ích mở rộng.
+3. Chọn Quản lý phím tắt tiện ích mở rộng.
+4. Tìm Enable Copy and Right Click rồi nhập phím tắt bạn muốn.
+
+TRANG WEB TỰ ĐỘNG
+
+Mở trang tùy chọn của tiện ích và thêm một tên miền, chẳng hạn:
+
+example.com
+
+Tiện ích chỉ xin quyền cho trang web bạn thêm. Sau khi bạn cấp quyền, sao chép, chọn văn bản và chuột phải sẽ được tự động bật trên trang đó.
+
+Bạn có thể xóa trang web tự động bất cứ lúc nào từ trang tùy chọn.
+
+MỞ TRANG TÙY CHỌN
+
+1. Mở menu Firefox rồi chọn Tiện ích và chủ đề.
+2. Tìm Enable Copy and Right Click và nhấp vào menu ba chấm bên cạnh.
+3. Chọn Tùy chỉnh.
+
+QUYỀN RIÊNG TƯ
+
+• Không phân tích hay theo dõi
+• Không thu thập dữ liệu
+• Không thu thập lịch sử duyệt web
+• Không có yêu cầu mạng
+• Không có mã từ xa
+• Không có JavaScript bên ngoài
+• Tùy chọn trang web tự động được lưu cục bộ trong trình duyệt của bạn
+• Chỉ xin quyền trang web khi bạn tự thêm một trang
+
+Mọi việc khôi phục sao chép và chuột phải đều diễn ra cục bộ trong trình duyệt của bạn.
+
+HIỆU SUẤT
+
+Tiện ích nhẹ và hoạt động theo sự kiện.
+
+Tiện ích không chạy công việc nền liên tục khi không dùng đến. Kích hoạt thủ công chỉ chạy khi bạn nhấp vào biểu tượng trên thanh công cụ hoặc dùng phím tắt. Kích hoạt tự động chỉ chạy trên những trang web bạn đã tự thêm.
+
+Không thăm dò định kỳ, không hoạt động mạng nền, không SDK phân tích, không cấu hình từ xa và không vòng lặp theo dõi trang liên tục.
+
+MÃ NGUỒN MỞ
+
+Enable Copy and Right Click là dự án mã nguồn mở phát hành theo giấy phép MIT.
+
+Xem mã nguồn, báo cáo sự cố hoặc đóng góp trên GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

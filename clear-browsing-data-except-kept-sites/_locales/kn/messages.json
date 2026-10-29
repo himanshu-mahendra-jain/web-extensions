@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "ಬ್ರೌಸರ್ ಪ್ರಾರಂಭವಾದಾಗ, ನೀವು ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ಗಳನ್ನು ಹೊರತುಪಡಿಸಿ ಎಲ್ಲಾ ಸೈಟ್‌ಗಳ ಇತಿಹಾಸ, ಕುಕೀಗಳು ಮತ್ತು ಸೈಟ್ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸುತ್ತದೆ."
+  },
+  "optionsTitle": {
+    "message": "ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ಗಳು | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub ರೆಪೊಸಿಟರಿ, ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ"
+  },
+  "accessHeading": {
+    "message": "ಸೈಟ್ ಪ್ರವೇಶ ಆಫ್ ಆಗಿದೆ"
+  },
+  "allowSiteAccess": {
+    "message": "ಸೈಟ್ ಪ್ರವೇಶ ಅನುಮತಿಸಿ"
+  },
+  "accessHistorySiteData": {
+    "message": "ವೆಬ್‌ಸೈಟ್‌ಗಳ ಪ್ರವೇಶವಿಲ್ಲದೆ, ಎಕ್ಸ್‌ಟೆನ್ಶನ್ ಕುಕೀಗಳನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಇತಿಹಾಸ ಮತ್ತು ಸೈಟ್ ಡೇಟಾ ಈಗಲೂ ತೆರವಾಗುತ್ತವೆ."
+  },
+  "accessHistory": {
+    "message": "ವೆಬ್‌ಸೈಟ್‌ಗಳ ಪ್ರವೇಶವಿಲ್ಲದೆ, ಎಕ್ಸ್‌ಟೆನ್ಶನ್ ಕುಕೀಗಳನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಇತಿಹಾಸ ಈಗಲೂ ತೆರವಾಗುತ್ತದೆ."
+  },
+  "accessSiteData": {
+    "message": "ವೆಬ್‌ಸೈಟ್‌ಗಳ ಪ್ರವೇಶವಿಲ್ಲದೆ, ಎಕ್ಸ್‌ಟೆನ್ಶನ್ ಕುಕೀಗಳನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಸೈಟ್ ಡೇಟಾ ಈಗಲೂ ತೆರವಾಗುತ್ತದೆ."
+  },
+  "accessNothing": {
+    "message": "ವೆಬ್‌ಸೈಟ್‌ಗಳ ಪ್ರವೇಶವಿಲ್ಲದೆ, ಎಕ್ಸ್‌ಟೆನ್ಶನ್ ಕುಕೀಗಳನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಆದ್ದರಿಂದ ಏನೂ ತೆರವಾಗುವುದಿಲ್ಲ."
+  },
+  "clearingOffHeading": {
+    "message": "ತೆರವುಗೊಳಿಸುವಿಕೆ ಆಫ್ ಆಗಿದೆ"
+  },
+  "clearingOffText": {
+    "message": "ಇನ್ನೂ ಏನನ್ನೂ ಅಳಿಸಲಾಗುತ್ತಿಲ್ಲ. ನೀವು ಸೈನ್ ಇನ್ ಆಗಿಯೇ ಇರಲು ಬಯಸುವ ಸೈಟ್‌ಗಳನ್ನು ಸೇರಿಸಿ, ನಂತರ ತೆರವುಗೊಳಿಸುವಿಕೆಯನ್ನು ಆನ್ ಮಾಡಿ. ಅಂದಿನಿಂದ, ಬ್ರೌಸರ್ ಪ್ರತಿ ಬಾರಿ ಪ್ರಾರಂಭವಾದಾಗ, ಉಳಿದ ಎಲ್ಲಾ ಸೈಟ್‌ಗಳ ಡೇಟಾವನ್ನು ($DATA$) ಅಳಿಸಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "ತೆರವುಗೊಳಿಸುವಿಕೆ ಆನ್ ಮಾಡಿ"
+  },
+  "keptSitesHeading": {
+    "message": "ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ಗಳು"
+  },
+  "intro": {
+    "message": "ಈ ಸೈಟ್‌ಗಳು ಮತ್ತು ಅವುಗಳ ಸಬ್‌ಡೊಮೇನ್‌ಗಳು ತಮ್ಮ ಡೇಟಾವನ್ನು ($DATA$) ಉಳಿಸಿಕೊಳ್ಳುತ್ತವೆ, ಆದ್ದರಿಂದ ನೀವು ಸೈನ್ ಇನ್ ಆಗಿಯೇ ಇರುತ್ತೀರಿ. ತೆರವುಗೊಳಿಸುವಿಕೆ ಆನ್ ಆಗಿರುವವರೆಗೆ, ಉಳಿದ ಎಲ್ಲಾ ಸೈಟ್‌ಗಳು ಬ್ರೌಸರ್ ಪ್ರತಿ ಬಾರಿ ಪ್ರಾರಂಭವಾದಾಗ ಅದನ್ನು ಕಳೆದುಕೊಳ್ಳುತ್ತವೆ.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "ವೆಬ್‌ಸೈಟ್ ಡೊಮೇನ್‌ಗಳು"
+  },
+  "keep": {
+    "message": "ಇರಿಸಿಕೊಳ್ಳಿ"
+  },
+  "siteHint": {
+    "message": "ಹಲವು ಸೈಟ್‌ಗಳನ್ನು ಅಲ್ಪವಿರಾಮಗಳಿಂದ ಬೇರ್ಪಡಿಸಿ."
+  },
+  "noSites": {
+    "message": "ಇನ್ನೂ ಯಾವುದೇ ಸೈಟ್ ಇರಿಸಿಕೊಂಡಿಲ್ಲ, ಆದ್ದರಿಂದ ತೆರವುಗೊಳಿಸಿದರೆ ಪ್ರತಿ ಸೈಟ್‌ನ ಡೇಟಾ ($DATA$) ಅಳಿಸಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ಗಳು"
+  },
+  "clearingHeading": {
+    "message": "ತೆರವುಗೊಳಿಸುವಿಕೆ"
+  },
+  "clearOnStartupLabel": {
+    "message": "ಬ್ರೌಸರ್ ಪ್ರಾರಂಭವಾದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ತೆರವುಗೊಳಿಸಿ"
+  },
+  "clearNow": {
+    "message": "ಈಗ ತೆರವುಗೊಳಿಸಿ"
+  },
+  "firstClearHint": {
+    "message": "ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಹೆಚ್ಚು ಬ್ರೌಸಿಂಗ್ ಡೇಟಾ ಇದ್ದರೆ, ಮೊದಲ ತೆರವುಗೊಳಿಸುವಿಕೆಗೆ ಹಲವು ನಿಮಿಷಗಳು ಬೇಕಾಗಬಹುದು. ಅಷ್ಟರಲ್ಲಿ ನೀವು ಬ್ರೌಸ್ ಮಾಡುತ್ತಲೇ ಇರಬಹುದು."
+  },
+  "leftoversHeading": {
+    "message": "ಉಳಿದಿರುವ ಸೈಟ್ ಡೇಟಾ"
+  },
+  "leftoversIntro": {
+    "message": "ಒಂದು ಸೈಟ್‌ನ ಇತಿಹಾಸ ಮತ್ತು ಕುಕೀಗಳು ಅಳಿಸಲ್ಪಟ್ಟ ನಂತರ, ಎಕ್ಸ್‌ಟೆನ್ಶನ್‌ಗೆ ಅದು ಸಿಗುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಅದರ ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆ, ಡೇಟಾಬೇಸ್‌ಗಳು ಮತ್ತು ಕ್ಯಾಶ್ ಉಳಿಯುತ್ತವೆ. ‘ಉಳಿದದ್ದನ್ನು ತೆರವುಗೊಳಿಸಿ’, ‘ಈಗ ತೆರವುಗೊಳಿಸಿ’ ರೀತಿಯ ತೆರವುಗೊಳಿಸುವಿಕೆಯ ನಂತರ, ನೀವು ಇರಿಸಿಕೊಳ್ಳದ ಪ್ರತಿ ಸೈಟ್‌ನ ಸೈಟ್ ಡೇಟಾವನ್ನು, ಸಿಕ್ಕಿರಲಿ ಇಲ್ಲದಿರಲಿ, ಅಳಿಸುತ್ತದೆ."
+  },
+  "clearLeftovers": {
+    "message": "ಉಳಿದದ್ದನ್ನು ತೆರವುಗೊಳಿಸಿ"
+  },
+  "transferHeading": {
+    "message": "ಆಮದು ಮತ್ತು ರಫ್ತು"
+  },
+  "transferIntro": {
+    "message": "ನೀವು ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ಗಳನ್ನು ಪಠ್ಯ ಫೈಲ್‌ಗೆ ಉಳಿಸಿ, ಅಥವಾ ಅವುಗಳನ್ನು ಫೈಲ್‌ನ ಸೈಟ್‌ಗಳೊಂದಿಗೆ ಬದಲಾಯಿಸಿ. ಫೈಲ್‌ನಲ್ಲಿ ಪ್ರತಿ ಸಾಲಿಗೆ ಒಂದು ಸೈಟ್ ಇರಬಹುದು ಅಥವಾ ಅವುಗಳನ್ನು ಅಲ್ಪವಿರಾಮಗಳಿಂದ ಬೇರ್ಪಡಿಸಬಹುದು."
+  },
+  "export": {
+    "message": "ರಫ್ತು ಮಾಡಿ"
+  },
+  "import": {
+    "message": "ಆಮದು ಮಾಡಿ"
+  },
+  "cancel": {
+    "message": "ರದ್ದುಮಾಡಿ"
+  },
+  "dataAll": {
+    "message": "ಇತಿಹಾಸ, ಕುಕೀಗಳು ಮತ್ತು ಸೈಟ್ ಡೇಟಾ"
+  },
+  "dataNoHistory": {
+    "message": "ಕುಕೀಗಳು ಮತ್ತು ಸೈಟ್ ಡೇಟಾ"
+  },
+  "dataNoSiteData": {
+    "message": "ಇತಿಹಾಸ ಮತ್ತು ಕುಕೀಗಳು"
+  },
+  "dataCookies": {
+    "message": "ಕುಕೀಗಳು"
+  },
+  "remove": {
+    "message": "ತೆಗೆದುಹಾಕಿ"
+  },
+  "removeSite": {
+    "message": "$SITE$ ತೆಗೆದುಹಾಕಿ",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ ತೆಗೆದುಹಾಕಲಾಗಿದೆ. ಅದರ ಡೇಟಾವನ್ನು ($DATA$) ಮುಂದಿನ ತೆರವುಗೊಳಿಸುವಿಕೆಯಲ್ಲಿ ಅಳಿಸಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "ಸೈಟ್ ತೆಗೆದುಹಾಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  },
+  "siteKept": {
+    "message": "$SITE$ ಇರಿಸಿಕೊಳ್ಳಲಾಗಿದೆ.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ ಸೈಟ್ ಇರಿಸಿಕೊಳ್ಳಲಾಗಿದೆ.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ ಸೈಟ್‌ಗಳನ್ನು ಇರಿಸಿಕೊಳ್ಳಲಾಗಿದೆ.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ ಈಗಾಗಲೇ ಇರಿಸಿಕೊಳ್ಳಲಾಗಿದೆ.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ ಸೈಟ್ ಈಗಾಗಲೇ ಇರಿಸಿಕೊಳ್ಳಲಾಗಿದೆ.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ ಸೈಟ್‌ಗಳನ್ನು ಈಗಾಗಲೇ ಇರಿಸಿಕೊಳ್ಳಲಾಗಿದೆ.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ ಮಾನ್ಯ ಡೊಮೇನ್ ಅಲ್ಲ.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "ಇವು ಮಾನ್ಯ ಡೊಮೇನ್‌ಗಳಲ್ಲ: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "example.com ನಂತಹ ಮಾನ್ಯ ಡೊಮೇನ್ ನಮೂದಿಸಿ."
+  },
+  "addSiteFailed": {
+    "message": "ಸೈಟ್ ಸೇರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  },
+  "addSitesFailed": {
+    "message": "ಸೈಟ್‌ಗಳನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ 1 MB ಗಿಂತ ದೊಡ್ಡದಾಗಿದೆ, ಆದ್ದರಿಂದ ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ಗಳು ಬದಲಾಗಿಲ್ಲ.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ ನಲ್ಲಿ ಯಾವುದೇ ಮಾನ್ಯ ಡೊಮೇನ್ ಇಲ್ಲ, ಆದ್ದರಿಂದ ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ಗಳು ಬದಲಾಗಿಲ್ಲ.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಬೇಕೇ?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ ಸೈಟ್",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ ಸೈಟ್‌ಗಳು",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "ನೀವು ಈಗ ಇರಿಸಿಕೊಂಡಿರುವ ಸೈಟ್‌ಗಳನ್ನು ($CURRENT$) $FILE$ ನಲ್ಲಿರುವ ಸೈಟ್‌ಗಳಿಂದ ($NEW$) ಬದಲಾಯಿಸಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ ಸೈಟ್ ಇನ್ನು ಮುಂದೆ ಇರಿಸಿಕೊಳ್ಳಲಾಗುವುದಿಲ್ಲ, ಮತ್ತು ಅದರ ಡೇಟಾವನ್ನು ($DATA$) ಮುಂದಿನ ತೆರವುಗೊಳಿಸುವಿಕೆಯಲ್ಲಿ ಅಳಿಸಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ ಸೈಟ್‌ಗಳನ್ನು ಇನ್ನು ಮುಂದೆ ಇರಿಸಿಕೊಳ್ಳಲಾಗುವುದಿಲ್ಲ, ಮತ್ತು ಅವುಗಳ ಡೇಟಾವನ್ನು ($DATA$) ಮುಂದಿನ ತೆರವುಗೊಳಿಸುವಿಕೆಯಲ್ಲಿ ಅಳಿಸಲಾಗುತ್ತದೆ.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿ"
+  },
+  "sitesImported_one": {
+    "message": "$FILE$ ನಿಂದ $COUNT$ ಸೈಟ್ ಆಮದು ಮಾಡಲಾಗಿದೆ.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$FILE$ ನಿಂದ $COUNT$ ಸೈಟ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಲಾಗಿದೆ.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ಗಳನ್ನು ರಫ್ತು ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  },
+  "importFailed": {
+    "message": "$FILE$ ನಿಂದ ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ಗಳನ್ನು ಆಮದು ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "ತೆರವುಗೊಳಿಸುವಿಕೆ ಆನ್ ಮಾಡಬೇಕೇ?"
+  },
+  "turnOnKept": {
+    "message": "ಬ್ರೌಸರ್ ಪ್ರತಿ ಬಾರಿ ಪ್ರಾರಂಭವಾದಾಗ, ನೀವು ಇರಿಸಿಕೊಳ್ಳಲು ಆರಿಸಿದ ಸೈಟ್‌ಗಳನ್ನು ಹೊರತುಪಡಿಸಿ ಪ್ರತಿ ಸೈಟ್‌ನ ಡೇಟಾವನ್ನು ($DATA$) ಅಳಿಸಲಾಗುತ್ತದೆ. ಉಳಿದ ಎಲ್ಲಾ ಸೈಟ್‌ಗಳಿಂದ ನೀವು ಸೈನ್ ಔಟ್ ಆಗುತ್ತೀರಿ.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "ಇರಿಸಿಕೊಳ್ಳಲು ನೀವು ಯಾವುದೇ ಸೈಟ್ ಆರಿಸಿಲ್ಲ. ಬ್ರೌಸರ್ ಪ್ರತಿ ಬಾರಿ ಪ್ರಾರಂಭವಾದಾಗ, ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ($DATA$) ಅಳಿಸಲಾಗುತ್ತದೆ, ಮತ್ತು ನೀವು ಪ್ರತಿ ಸೈಟ್‌ನಿಂದ ಸೈನ್ ಔಟ್ ಆಗುತ್ತೀರಿ.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "ಅಳಿಸಿದ ಡೇಟಾವನ್ನು ($DATA$) ಮರುಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "ಈಗ ಎಲ್ಲವನ್ನೂ ತೆರವುಗೊಳಿಸಬೇಕೇ?"
+  },
+  "clearEverythingText": {
+    "message": "ಇರಿಸಿಕೊಳ್ಳಲು ನೀವು ಯಾವುದೇ ಸೈಟ್ ಆರಿಸಿಲ್ಲ, ಆದ್ದರಿಂದ ಈಗ ಪ್ರತಿ ಸೈಟ್‌ನ ಡೇಟಾವನ್ನು ($DATA$) ಅಳಿಸಲಾಗುತ್ತದೆ, ಮತ್ತು ನೀವು ಪ್ರತಿ ಸೈಟ್‌ನಿಂದ ಸೈನ್ ಔಟ್ ಆಗುತ್ತೀರಿ.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "ಎಲ್ಲವನ್ನೂ ತೆರವುಗೊಳಿಸಿ"
+  },
+  "leftoversTitle": {
+    "message": "ಉಳಿದಿರುವ ಸೈಟ್ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಬೇಕೇ?"
+  },
+  "leftoversKept": {
+    "message": "ನೀವು ಇರಿಸಿಕೊಳ್ಳದ ಪ್ರತಿ ಸೈಟ್‌ನ ಡೇಟಾವನ್ನು ($DATA$) ಈಗ ಅಳಿಸಲಾಗುತ್ತದೆ, ಎಕ್ಸ್‌ಟೆನ್ಶನ್‌ಗೆ ಇನ್ನು ಸಿಗದ ಸೈಟ್‌ಗಳ ಸೈಟ್ ಡೇಟಾ ಸೇರಿದಂತೆ.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "ಇರಿಸಿಕೊಂಡ ಸೈಟ್ ತನ್ನ ಸೈಟ್ ಡೇಟಾವನ್ನು ಎಕ್ಸ್‌ಟೆನ್ಶನ್ ಇತಿಹಾಸ, ಕುಕೀಗಳು ಮತ್ತು ತೆರೆದ ಟ್ಯಾಬ್‌ಗಳಲ್ಲಿ ಕಂಡುಕೊಳ್ಳುವ ವಿಳಾಸಗಳಲ್ಲಿ ಮಾತ್ರ ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ. ಇರಿಸಿಕೊಂಡ ಸೈಟ್‌ನ ಬೇರೆ ಯಾವುದೇ ಸಬ್‌ಡೊಮೇನ್ ಅಥವಾ ಪೋರ್ಟ್, ಉದಾಹರಣೆಗೆ ನೀವು ತಿಂಗಳುಗಳಿಂದ ಭೇಟಿ ನೀಡದ ಸಬ್‌ಡೊಮೇನ್ ಅಥವಾ ಬೇರೆ ಪೋರ್ಟ್‌ನಲ್ಲಿರುವ ಸ್ಥಳೀಯ ಸರ್ವರ್, ತನ್ನ ಸೈಟ್ ಡೇಟಾವನ್ನು ಕಳೆದುಕೊಳ್ಳುತ್ತದೆ, ಮತ್ತು ನೀವು ಅಲ್ಲಿಂದ ಸೈನ್ ಔಟ್ ಆಗಬಹುದು."
+  },
+  "clearing": {
+    "message": "ತೆರವುಗೊಳಿಸಲಾಗುತ್ತಿದೆ… ಇದಕ್ಕೆ ಕೆಲವು ನಿಮಿಷಗಳು ಬೇಕಾಗಬಹುದು."
+  },
+  "leftoversFailed": {
+    "message": "ಉಳಿದಿರುವ ಸೈಟ್ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಲು ವಿಫಲವಾಗಿದೆ."
+  },
+  "leftoversCleared": {
+    "message": "ಉಳಿದಿರುವ ಸೈಟ್ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಲಾಗಿದೆ."
+  },
+  "nothingClearedYet": {
+    "message": "ಇನ್ನೂ ಏನನ್ನೂ ತೆರವುಗೊಳಿಸಲಾಗಿಲ್ಲ."
+  },
+  "clearFailed": {
+    "message": "$WHEN$ ರ ತೆರವುಗೊಳಿಸುವಿಕೆ ವಿಫಲವಾಗಿದೆ.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ ಇತಿಹಾಸ ನಮೂದು",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ ಇತಿಹಾಸ ನಮೂದುಗಳು",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ ಕುಕೀ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ ಕುಕೀಗಳು",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "ಏನೂ ಇಲ್ಲ"
+  },
+  "lastCleared": {
+    "message": "ಕೊನೆಯ ತೆರವುಗೊಳಿಸುವಿಕೆ: $WHEN$. ಅಳಿಸಲಾಗಿದೆ: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "ಕೊನೆಯ ತೆರವುಗೊಳಿಸುವಿಕೆ: $WHEN$. ಅಳಿಸಲಾಗಿದೆ: $WHAT$, ಜೊತೆಗೆ ಸೈಟ್ ಡೇಟಾ ಮತ್ತು ಕ್ಯಾಶ್.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "ಕೊನೆಯ ತೆರವುಗೊಳಿಸುವಿಕೆ: $WHEN$. ಅಳಿಸಲಾಗಿದೆ: $WHAT$, ಜೊತೆಗೆ ಇರಿಸಿಕೊಳ್ಳದ ಪ್ರತಿ ಸೈಟ್‌ನ ಸೈಟ್ ಡೇಟಾ ಮತ್ತು ಕ್ಯಾಶ್.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "ಈ ಬ್ರೌಸರ್ ಎಕ್ಸ್‌ಟೆನ್ಶನ್‌ಗಳಿಗೆ ಇತಿಹಾಸ ಮತ್ತು ಸೈಟ್ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಲು ಬಿಡದ ಕಾರಣ, ಅವುಗಳನ್ನು ಬಿಟ್ಟುಬಿಡಲಾಗಿದೆ."
+  },
+  "skippedHistory": {
+    "message": "ಈ ಬ್ರೌಸರ್ ಎಕ್ಸ್‌ಟೆನ್ಶನ್‌ಗಳಿಗೆ ಇತಿಹಾಸವನ್ನು ತೆರವುಗೊಳಿಸಲು ಬಿಡದ ಕಾರಣ, ಅದನ್ನು ಬಿಟ್ಟುಬಿಡಲಾಗಿದೆ."
+  },
+  "skippedSiteData": {
+    "message": "ಈ ಬ್ರೌಸರ್ ಎಕ್ಸ್‌ಟೆನ್ಶನ್‌ಗಳಿಗೆ ಸೈಟ್ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಲು ಬಿಡದ ಕಾರಣ, ಅದನ್ನು ಬಿಟ್ಟುಬಿಡಲಾಗಿದೆ."
+  },
+  "cookiesSkipped": {
+    "message": "ಸೈಟ್ ಪ್ರವೇಶ ಆಫ್ ಆಗಿರುವುದರಿಂದ ಕುಕೀಗಳನ್ನು ಬಿಟ್ಟುಬಿಡಲಾಗಿದೆ."
+  },
+  "loadFailed": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "הפעלת העתקה, בחירת טקסט ותפריטי לחיצה ימנית בדפי אינטרנט שמגבילים אותם."
+  },
+  "commandDescription": {
+    "message": "הפעלת העתקה ולחיצה ימנית בדף הנוכחי"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: פעילה",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "העתקה ולחיצה ימנית הופעלו."
+  },
+  "optionsTitle": {
+    "message": "אתרים אוטומטיים | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "מאגר GitHub, נפתח בכרטיסייה חדשה"
+  },
+  "automaticSitesHeading": {
+    "message": "אתרים אוטומטיים"
+  },
+  "automaticSitesIntro": {
+    "message": "הפעלה אוטומטית של העתקה, בחירת טקסט ולחיצה ימנית באתרים שתוסיפו."
+  },
+  "siteInputLabel": {
+    "message": "דומיין האתר"
+  },
+  "addSite": {
+    "message": "הוספת אתר"
+  },
+  "noSites": {
+    "message": "עדיין לא נוספו אתרים אוטומטיים."
+  },
+  "siteListLabel": {
+    "message": "אתרים אוטומטיים"
+  },
+  "remove": {
+    "message": "הסרה"
+  },
+  "removeSite": {
+    "message": "הסרת $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (ההרשאה הוסרה)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ נוסף.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ הופעל מחדש.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ הוסר.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "האתר הזה כבר מופעל."
+  },
+  "invalidDomain": {
+    "message": "יש להזין דומיין תקין, למשל example.com."
+  },
+  "permissionNotGranted": {
+    "message": "ההרשאה לאתר לא ניתנה."
+  },
+  "addFailed": {
+    "message": "לא ניתן היה להוסיף את האתר."
+  },
+  "removeFailed": {
+    "message": "לא ניתן היה להסיר את האתר."
+  },
+  "loadFailed": {
+    "message": "לא ניתן היה לטעון את רשימת האתרים."
+  }
+}

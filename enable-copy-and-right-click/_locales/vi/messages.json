@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Bật sao chép, chọn văn bản và menu chuột phải trên các trang web chặn chúng."
+  },
+  "commandDescription": {
+    "message": "Bật sao chép và chuột phải trên trang hiện tại"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Đang bật",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Đã bật sao chép và chuột phải."
+  },
+  "optionsTitle": {
+    "message": "Trang web tự động | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Kho GitHub, mở trong thẻ mới"
+  },
+  "automaticSitesHeading": {
+    "message": "Trang web tự động"
+  },
+  "automaticSitesIntro": {
+    "message": "Tự động bật sao chép, chọn văn bản và chuột phải trên các trang web bạn thêm."
+  },
+  "siteInputLabel": {
+    "message": "Tên miền trang web"
+  },
+  "addSite": {
+    "message": "Thêm trang web"
+  },
+  "noSites": {
+    "message": "Chưa thêm trang web tự động nào."
+  },
+  "siteListLabel": {
+    "message": "Trang web tự động"
+  },
+  "remove": {
+    "message": "Xóa"
+  },
+  "removeSite": {
+    "message": "Xóa $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (đã thu hồi quyền)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "Đã thêm $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "Đã bật lại $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "Đã xóa $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Trang web này đã được bật."
+  },
+  "invalidDomain": {
+    "message": "Nhập tên miền hợp lệ, chẳng hạn example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Quyền truy cập trang web chưa được cấp."
+  },
+  "addFailed": {
+    "message": "Không thể thêm trang web."
+  },
+  "removeFailed": {
+    "message": "Không thể xóa trang web."
+  },
+  "loadFailed": {
+    "message": "Không thể tải danh sách trang web."
+  }
+}

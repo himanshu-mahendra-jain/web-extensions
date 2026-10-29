@@ -1,0 +1,90 @@
+Ryd historik, cookies og webstedsdata, når browseren starter, for alle websites undtagen dem, du beholder.
+
+Clear Browsing Data Except Kept Sites er en let udvidelse med åben kildekode, der fjerner historikposter, cookies og webstedsdata for alle websites, du ikke har valgt at beholde.
+
+Tilføj i indstillingerne de websites, hvor du vil forblive logget ind og blive husket, og slå derefter rydning til. Hver gang browseren starter, sletter udvidelsen historik, cookies og webstedsdata for alle andre websites. Du kan også rydde når som helst med "Ryd nu".
+
+Tip: I Edges udvidelsesmenu kan du slå «Vis på værktøjslinje» til for Clear Browsing Data Except Kept Sites for altid at have hurtig adgang.
+
+VIGTIGSTE FUNKTIONER
+
+• En liste over websites, hvis historik og cookies aldrig ryddes, med import og eksport som tekstfil
+• Rydder historik og cookies for alle andre websites, når browseren starter, efter du har slået det til
+• Ryd når som helst med "Ryd nu", og ryd resterende data fra websites, der ikke længere findes, med "Ryd rester"
+• Beholder automatisk underdomænerne til et beholdt website
+• Beholder de cookies fra det overordnede domæne, som et beholdt website har brug for, for at du forbliver logget ind
+• Rydder partitionerede cookies (fra tredjeparter); et beholdt websites partitionerede cookies bliver kun under beholdte websites
+• Rydder lokal lagring, IndexedDB, service workers og cache for websites, der ikke beholdes
+• Viser resultatet af den seneste rydning i indstillingerne
+• Advarer, når adgang til websites er slået fra, og cookies ikke kan slettes
+• Ingen analyse eller sporing
+• Ingen fjernkode eller netværksanmodninger
+
+BEHOLDTE WEBSITES
+
+Åbn indstillingerne, og tilføj et domæne, for eksempel:
+
+example.com
+
+Adskil dem med kommaer for at tilføje flere på én gang.
+
+"Eksportér" gemmer listen som en tekstfil med ét domæne pr. linje. "Importér" erstatter listen med websites fra en tekstfil og advarer først, hvis websites, du beholder nu, forsvinder.
+
+En adresse som mail.example.com/inbox forkortes til sit domæne, og et indledende www. fjernes. localhost og IPv4-adresser som 192.168.1.1 accepteres også.
+
+At beholde example.com beholder historik, cookies og webstedsdata for example.com og alle dets underdomæner. At beholde mail.example.com beholder også cookies for example.com, fordi de ofte indeholder underdomænets login.
+
+ÅBN INDSTILLINGERNE
+
+Indstillingerne åbnes automatisk efter installationen, så du kan udfylde listen, før du slår rydning til. Senere klikker du på udvidelsens ikon på værktøjslinjen, eller:
+
+1. Højreklik på udvidelsens ikon på værktøjslinjen.
+2. Vælg Udvidelsesindstillinger.
+
+RYDNING VED START
+
+Efter installationen er rydning slået fra, så intet fjernes, før du beder om det. Indstillingerne viser meddelelsen "Rydning er slået fra" med knappen "Slå rydning til". Når du slår det til, vises først en advarsel: hver start sletter historik og cookies for alle websites undtagen de beholdte og logger dig ud af dem, eller af alle websites, hvis ingen beholdes.
+
+Når den er slået til, kører rydningen, hver gang browseren starter, fordi browseren ikke lader udvidelser køre ved lukning. Rydning ved start fjerner det, den forrige session efterlod. Slå den fra eller til igen med "Ryd automatisk, når browseren starter" i indstillingerne.
+
+RYD NU OG RYD RESTER
+
+"Ryd nu" i indstillingerne rydder med det samme. Hvis intet website beholdes, vises først en rød advarsel om, at alt bliver slettet. Indstillingerne viser, hvornår den seneste rydning fandt sted, og hvor mange historikposter og cookies den slettede.
+
+Når en rydning har fjernet et websites historik og cookies, finder senere rydninger ikke længere det website, så dets lokale lagring, databaser og cache bliver liggende. "Ryd rester" kører en rydning og sletter derefter data for alle websites, du ikke beholder, fundet eller ej. Browseren kan her kun skåne præcise websites, så et beholdt website beholder kun data for sig selv og for de beholdte websites, som rydningen finder i historik, cookies og åbne faner; en rød advarsel siger det først.
+
+ADGANG TIL WEBSITES
+
+Cookies kan kun fjernes for websites, som udvidelsen har adgang til, så den beder om adgang til alle websites. Hvis du begrænser adgangen til websites, for eksempel til "Ved klik", ryddes historikken stadig, men cookies springes over, og indstillingerne viser knappen "Tillad adgang til websites".
+
+BEGRÆNSNINGER
+
+• Faner, der gendannes ved start, kan sætte nye cookies, mens rydningen kører. De cookies bliver til næste start eller næste "Ryd nu".
+• Andre webstedsdata, som sessionslagring, webstedstilladelser og filer gemt via File System API, ryddes ikke.
+• Hvis browserens synkronisering omfatter historik, kan fjernede historikposter også blive fjernet på dine andre enheder.
+• InPrivate-vinduer ryddes kun, når udvidelsen er tilladt i InPrivate. Edge kasserer alligevel deres data, når de lukkes.
+• IPv6-adresser kan ikke føjes til listen.
+
+PRIVATLIV
+
+• Ingen analyse eller sporing
+• Ingen dataindsamling
+• Ingen netværksanmodninger
+• Ingen fjernkode
+• Ingen ekstern JavaScript
+• Historik og cookies læses kun for at afgøre, hvad der skal fjernes, og kun i din browser
+• Listen og indstillingerne gemmes lokalt i din browser
+
+YDEEVNE
+
+Udvidelsen gør intet, mens du browser. Den kører én gang, når browseren starter, hvis rydning er slået til, og når du klikker på "Ryd nu" eller "Ryd rester".
+
+Den første rydning af en lang historik kan tage et par minutter, fordi hver historikpost slettes for sig. Du kan browse videre imens. Senere rydninger fjerner kun posterne fra den forrige session.
+
+OPEN SOURCE
+
+Clear Browsing Data Except Kept Sites er open source og udgivet under MIT-licensen.
+
+Se kildekoden, rapportér problemer eller bidrag på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

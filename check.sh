@@ -5,8 +5,9 @@ set -euo pipefail
 # Builds the extensions, checks their changelogs, lints their Firefox
 # packages and runs their tests, for the commit that is checked out.
 # Without arguments, every directory next to this script that contains
-# manifest.json is checked. Set FIREFOX_ANDROID_DEVICE to also run the
-# Firefox for Android tests.
+# manifest.json is checked. The Firefox for Android tests run on the
+# device FIREFOX_ANDROID_DEVICE names, or on arc:5555 when it is
+# connected; see test-support/android-device.js.
 
 REPO_ROOT=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 CHROMIUM_MANIFEST="manifest.json"
@@ -116,6 +117,12 @@ echo
 
 echo "== Tests"
 echo
+# Resolve the device once, so the tests and the closing line agree.
+FIREFOX_ANDROID_DEVICE=$(node --input-type=module -e '
+    import { androidDevice } from "./test-support/android-device.js";
+    process.stdout.write(androidDevice());
+')
+export FIREFOX_ANDROID_DEVICE
 if [ "$#" -gt 0 ]; then
     npx playwright test "${extensions[@]}"
 else
@@ -130,6 +137,8 @@ if [ "$(git rev-parse HEAD)" != "$commit" ] || [ -n "$(git status --porcelain)" 
 fi
 
 echo "Checked $(git log -1 --format='%h %s' "$commit")"
-if [ -z "${FIREFOX_ANDROID_DEVICE:-}" ]; then
-    echo "Firefox for Android was not tested: FIREFOX_ANDROID_DEVICE is not set."
+if [ -n "$FIREFOX_ANDROID_DEVICE" ]; then
+    echo "Firefox for Android was tested on $FIREFOX_ANDROID_DEVICE."
+else
+    echo "Firefox for Android was not tested: FIREFOX_ANDROID_DEVICE is not set and arc:5555 is not connected."
 fi

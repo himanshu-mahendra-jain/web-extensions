@@ -1,0 +1,80 @@
+Slå på kopiering, tekstmarkering og høyreklikkmenyer på nettsider som begrenser dem.
+
+Enable Copy and Right Click er en lett utvidelse med åpen kildekode som gir tilbake vanlig kopiering, tekstmarkering og høyreklikk på nettsider som begrenser disse handlingene.
+
+Klikk på utvidelsens ikon på verktøylinjen eller bruk hurtigtasten for å slå på kopiering og høyreklikk i gjeldende fane.
+
+Tips: Fest utvidelsen i Chromes utvidelsesmeny (puslespillikonet) for å holde ikonet synlig på verktøylinjen.
+
+Du kan også legge til nettsteder du stoler på, i listen Automatiske nettsteder. Da slår utvidelsen automatisk på kopiering og høyreklikk hver gang du besøker dem.
+
+VIKTIGSTE FUNKSJONER
+
+• Slår på kopiering og tekstmarkering på nettsider med begrensninger
+• Slår på høyreklikkmenyer
+• Slår på kopiering, klipp ut, lim inn, tekstmarkering og dra
+• Slå på med ett klikk fra verktøylinjen
+• Hurtigtast for rask aktivering
+• Slår seg på automatisk på nettsteder du velger
+• Virker i tilgjengelige iframes der nettleserens tillatelser gir rom for det
+• Viser et ON-merke etter manuell aktivering
+• Ingen popup-menyer
+• Ingen analyse eller sporing
+• Ingen fjernkode eller nettverksforespørsler
+
+STANDARD HURTIGTASTER
+
+• Windows, Linux, ChromeOS, GooglebookOS og Android: Alt+C
+• macOS: Command+Shift+Y
+
+Hurtigtasten gjør det samme som et klikk på utvidelsens ikon.
+
+ENDRE HURTIGTASTEN
+
+1. Åpne Chrome-menyen og velg Utvidelser → Administrer utvidelser.
+2. Velg Hurtigtaster i sidepanelet.
+3. Finn Enable Copy and Right Click og skriv inn hurtigtasten du foretrekker.
+
+AUTOMATISKE NETTSTEDER
+
+Åpne innstillingssiden til utvidelsen og legg til et domene, for eksempel:
+
+example.com
+
+Utvidelsen ber bare om tillatelse for nettstedet du legger til. Når tillatelsen er gitt, slås kopiering, tekstmarkering og høyreklikk på automatisk på det nettstedet.
+
+Du kan når som helst fjerne et automatisk nettsted på innstillingssiden.
+
+ÅPNE INNSTILLINGSSIDEN
+
+1. Høyreklikk på utvidelsens ikon på verktøylinjen.
+2. Velg Alternativer.
+
+PERSONVERN
+
+• Ingen analyse eller sporing
+• Ingen datainnsamling
+• Ingen innsamling av nettleserhistorikk
+• Ingen nettverksforespørsler
+• Ingen fjernkode
+• Ingen ekstern JavaScript
+• Innstillingene for automatiske nettsteder lagres lokalt i nettleseren din
+• Tillatelse for et nettsted bes bare om når du selv legger det til
+
+All gjenoppretting av kopiering og høyreklikk skjer lokalt i nettleseren din.
+
+YTELSE
+
+Utvidelsen er lett og hendelsesstyrt.
+
+Den gjør ikke noe løpende arbeid i bakgrunnen når den er inaktiv. Manuell aktivering kjører bare når du klikker på ikonet på verktøylinjen eller bruker hurtigtasten. Automatisk aktivering kjører bare på nettsteder du selv har lagt til.
+
+Det er ingen polling, nettverksaktivitet i bakgrunnen, analyse-SDK, fjernkonfigurasjon eller løkke som overvåker sidene hele tiden.
+
+ÅPEN KILDEKODE
+
+Enable Copy and Right Click er åpen kildekode og lisensiert under MIT-lisensen.
+
+Se kildekoden, rapporter problemer eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

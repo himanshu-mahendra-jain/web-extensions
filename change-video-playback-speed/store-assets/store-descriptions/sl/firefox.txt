@@ -1,0 +1,46 @@
+Spremenite hitrost predvajanja videa in zvoka z enim klikom ali bližnjico na tipkovnici.
+
+Change Video Playback Speed je lahka razširitev odprte kode, ki menjava štiri uporabne hitrosti predvajanja:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Kliknite ikono razširitve ali uporabite bližnjico na tipkovnici, da preklopite na naslednjo hitrost. Izbrana hitrost velja za video in zvok na strani, tudi v podprtih vdelanih predvajalnikih.
+
+Trenutna hitrost se za hip prikaže na strani in na znački v orodni vrstici.
+
+GLAVNE FUNKCIJE
+
+• Upravljanje z enim klikom in z bližnjico na tipkovnici
+• Podpora za video in zvok
+• Podpora za združljive vdelane predvajalnike
+• Značka hitrosti v orodni vrstici in kazalnik na strani, ki je viden tudi v celozaslonskem načinu
+• Brez pojavnih menijev, lebdečih kontrolnikov in nastavitev
+
+PRIVZETE BLIŽNJICE NA TIPKOVNICI
+
+• Windows, Linux, ChromeOS, GooglebookOS in Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+SPREMEMBA BLIŽNJICE NA TIPKOVNICI
+
+1. Odprite meni Firefoxa in izberite Dodatki in teme.
+2. Na strani Razširitve kliknite ikono zobnika.
+3. Izberite Upravljanje bližnjic razširitev.
+4. Poiščite Change Video Playback Speed in vnesite želeno bližnjico.
+
+ZASEBNOST
+
+• Brez analitike in sledenja
+• Brez zbiranja podatkov ali zgodovine brskanja
+• Brez omrežnih zahtev
+• Brez trajnega dostopa do spletnih mest
+
+Vse spremembe hitrosti potekajo lokalno v vašem brskalniku.
+
+ODPRTA KODA
+
+Change Video Playback Speed je odprtokodni projekt pod licenco MIT.
+
+Oglejte si izvorno kodo, prijavite težave ali prispevajte na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

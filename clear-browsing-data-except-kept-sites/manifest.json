@@ -1,9 +1,10 @@
 {
     "manifest_version": 3,
     "name": "Clear Browsing Data Except Kept Sites",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minimum_chrome_version": "119",
-    "description": "Clear history, cookies and site data on browser startup for every site except the ones you keep.",
+    "default_locale": "en",
+    "description": "__MSG_extensionDescription__",
     "homepage_url": "https://github.com/himanshu-mahendra-jain/web-extensions",
     "icons": {
         "16": "icons/icon16.png",
