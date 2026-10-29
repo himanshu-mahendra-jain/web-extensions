@@ -1,0 +1,42 @@
+Začińće aktualny rajtark z podótknjenjom z třomi porstami, srjedźnym kliknjenjom abo kliknjenjom w symbolowej lajsće.
+
+Three Finger Tap to Close Tab je lochke rozšěrjenje z wotewrjenym žórłowym kodom, kotrež zmóžnja aktualny rajtark wobhladowaka spěšnje a jednorje začinić.
+
+Podótkńće so z třomi porstami abo klikńće ze srjedźnej tastu někajkuli na webstronje zwonka wotkazow a wobdźěłujomnych polow, zo byšće aktualny rajtark začinił. Móžeće tež na symbol rozšěrjenja w symbolowej lajsće kliknyć.
+
+We Firefox za Android podótkńće so w meniju Rozšěrjenja wobhladowaka Three Finger Tap to Close Tab, zo byšće aktualny rajtark začinił. Podótknjenje wobrazowki srjedźne kliknjenje njeje, tohodla podótknjenje webstrony rajtark ženje njezačinja.
+
+Srjedźne kliknjenje na wotkazy a karty kanalow wobchowa wšědne zadźerženje wobhladowaka, tak zo móžeće wotkazy a přinoški dale kaž přeco w nowych rajtarkach wočinić. Zatwarjena wěstotna cona zadźěwa njewotpohladanemu začinjenju, jeli so direktnje pódla wotkaza abo wodźenskeho elementa podótkniće.
+
+HŁOWNE FUNKCIJE
+
+• Aktualny rajtark z podótknjenjom z třomi porstami začinić
+• Aktualny rajtark ze srjedźnym kliknjenjom začinić
+• Aktualny rajtark z kliknjenjom w symbolowej lajsće začinić
+• Wobchowa wšědne srjedźne kliknjenje na wotkazach, tłóčatkach a kartach kanalow
+• Wěstotna cona zadźěwa njewotpohladanemu začinjenju pódla interaktiwnych elementow
+• Njezačinja rajtarki, mjeztym zo formulary a wobdźěłujomne pola wužiwaće
+• Žane wuskakowace menije a žane nastajenja
+
+NASTAJENJE DOTYKOWEJE PŁONY
+
+Waša dotykowa płona a waš dźěłowy system dyrbitej tak nastajenej być, zo podótknjenje z třomi porstami srjedźne kliknjenje wuwoła.
+
+Potom podótkńće so z třomi porstami webstrony zwonka wotkazow a interaktiwneho wobsaha, zo byšće aktualny rajtark začinił.
+
+PRIWATNOSĆ
+
+• Žana analyza a žane slědowanje
+• Žane zběranje datow abo historije přehladowanja
+• Žane syćowe naprašowanja
+• Žana składowana aktiwita přehladowanja abo nastajenja
+
+Rajtarki so přeco lokalnje we wašim wobhladowaku začinjeja.
+
+WOTEWRJENY ŽÓRŁOWY KOD
+
+Three Finger Tap to Close Tab ma wotewrjeny žórłowy kod a je licencowany pod licencu MIT.
+
+Wobhladajće sej žórłowy kod, zdźělće problemy abo přinošujće na GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

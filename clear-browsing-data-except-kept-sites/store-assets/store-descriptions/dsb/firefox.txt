@@ -1,0 +1,91 @@
+Wulašujśo historiju, cookieje a sedłowe daty pśi startowanju wobglědowaka za kužde sedło mimo tych, kótarež wobchowujośo.
+
+Firefox za Android rozšyrjenjam njedowólijo historiju wulašowaś, togodla se tam jano cookieje a sedłowe daty wulašuju.
+
+Clear Browsing Data Except Kept Sites jo lažke rozšyrjenje z wótwórjonym žrědłowym kodom, kótarež zapiski historije, cookieje a sedłowe daty wšych sedłow wótwónoźujo, kótarež njejsćo za wobchowanje wubrał.
+
+Pśidajśo w nastajenjach sedła, na kótarychž cośo pśizjawjony wóstaś a kótarež maju se was spomnjeś, a zmóžniśo pótom wulašowanje. Pśi kuždem startowanju wobglědowaka rozšyrjenje historiju a cookieje wšych drugich sedłow wulašujo. Móžośo teke kuždy cas z „Něnto wulašowaś“ wulašowaś.
+
+HŁOWNE FUNKCIJE
+
+• Lisćina sedłow, kótarychž historija a cookieje se nigdy njewulašuju, z importom a eksportom ako tekstowa dataja
+• Wulašujo historiju a cookieje wšych drugich sedłow pśi startowanju wobglědowaka, za tym až sćo to zmóžnił
+• Wulašowanje kuždy cas z „Něnto wulašowaś“ w nastajenjach
+• Wobchowujo awtomatiski poddomeny wobchowanego sedła
+• Wobchowujo cookieje nadrědowaneje domeny, kótarež wobchowane sedło trjeba, aby wy pśizjawjony wóstał
+• Wulašujo partiśoněrowane cookieje (tśeśich) a cookieje kontejnerow; partiśoněrowane cookieje wobchowanego sedła wóstanu jano pód wobchowanymi sedłami
+• Wulašujo lokalny składowak, IndexedDB, service workers a pufrowak sedłow, kótarež se njewobchowuju
+• Pokazujo wuslědk slědnego wulašowanja w nastajenjach
+• Warnujo, gaž pśistup k sedłam jo znjemóžnjony a cookieje njedaju se wulašowaś
+• Žedna analyza a žedno slědowanje
+• Žeden zdalony kod a žedne seśowe napšašowanja
+
+WOBCHOWANE SEDŁA
+
+Wócyńśo nastajenja a pśidajśo domenu, na pśikład:
+
+example.com
+
+Aby někotare naraz pśidał, źělśo je z komami.
+
+„Eksportěrowaś“ lisćinu ako tekstowu dataju składujo, jadnu domenu na smužku. „Importěrowaś“ lisćinu pśez sedła z tekstoweje dataje wuměnja a warnujo nejpjerwjej, jolic se tak sedła zgubiju, kótarež něnto wobchowujośo.
+
+Adresa ako mail.example.com/inbox se na swóju domenu skrotšyjo, a zachopny www. se wótwónoźijo. localhost a adrese IPv4 ako 192.168.1.1 se teke akceptěruju.
+
+Wobchowanje example.com historiju a cookieje example.com a wšych jogo poddomenow wobchowujo. Wobchowanje mail.example.com teke cookieje example.com wobchowujo, dokulaž cesto pśizjawjenje poddomeny wopśimuju.
+
+NASTAJENJA WÓCYNIŚ
+
+Nastajenja se pó instalaciji awtomatiski wócynjaju, aby mógł lisćinu wupołniś, nježli až wulašowanje zmóžnijośo. Pózdźej klikniśo na symbol rozšyrjenja w symbolowej rědce. We Firefox za Android pótusniśo Clear Browsing Data Except Kept Sites w meniju Rozšyrjenja wobglědowaka.
+
+Móžośo je teke ze zastojnika dodankow wócyniś:
+
+1. Wócyńśo meni Firefox a wubjeŕśo Dodanki a drastwy.
+2. Pytajśo Clear Browsing Data Except Kept Sites a klikniśo na meni z tśimi dypkami pódla njeje.
+3. Wubjeŕśo Nastajenja.
+
+WULAŠOWANJE PŚI STARTOWANJU
+
+Pó instalaciji jo wulašowanje znjemóžnjone, tak až se nic njewótwónoźijo, daniž wó to njepšosyśo. Nastajenja pokazuju powěźeńku „Wulašowanje jo znjemóžnjone“ z tłocaškom „Wulašowanje zmóžniś“. Zmóžnjenje nejpjerwjej warnowanje pokazujo: kužde startowanje historiju a cookieje wšych sedłow mimo wobchowanych wulašujo a was z nich wótzjawijo, abo ze wšych sedłow, jolic se žedne njewobchowujo.
+
+Gaž jo zmóžnjone, se wulašowanje pśi kuždem startowanju wobglědowaka wuwjeźo, dokulaž wobglědowak rozšyrjenjam njedowólijo pśi zacynjanju běžaś. Wulašowanje pśi startowanju wótwónoźijo, což jo pjerwjejšne pósejźenje zawóstajiło. Znjemóžniśo abo zmóžniśo jo znowego z „Awtomatiski wulašowaś, gaž se wobglědowak startujo“ w nastajenjach.
+
+NĚNTO WULAŠOWAŚ
+
+„Něnto wulašowaś“ w nastajenjach ned wulašujo. Jolic se žedno sedło njewobchowujo, se nejpjerwjej cerwjene warnowanje pokazujo, až se wšykno wulašujo. Nastajenja pokazuju, gdy jo slědne wulašowanje było a wjele zapiskow historije a cookiejow jo wulašowało.
+
+PŚISTUP K SEDŁAM
+
+Cookieje daju se jano za sedła wótwónoźeś, ku kótarymž rozšyrjenje pśistup ma, togodla wó pśistup ku wšym sedłam pšosy. Jolic pśistup k sedłam znjemóžnijośo, se historija dalej wulašujo, ale cookieje se pśeskakuju, a nastajenja tłocašk „Pśistup k sedłam dowóliś“ pokazuju.
+
+WOBGRANICOWANJA
+
+• Rejtariki, kótarež se pśi startowanju wótnowiju, mógu nowe cookieje stajiś, mjaztym až wulašowanje běžy. Te cookieje wóstanu až do pśiducego startowanja abo pśiducego „Něnto wulašowaś“.
+• Firefox njamóžo sedłowe daty wulašowaś a pśi tom wubrane sedła wuwześ, togodla rozšyrjenje lokalny składowak, IndexedDB a service workers kuždego njewobchowanego sedła wulašujo, kótarež w historiji, cookiejach a wócynjonych rejtarikach namakajo. Sedło, kótarež se w nicem z togo njejawijo, swóje daty wobchowa. Sedło z wobchowaneju poddomenu swóje service workers wobchowa, dokulaž Firefox by z nimi teke te poddomeny wulašował. Pufrowak se za wšykne sedła wulašujo, dokulaž Firefox njamóžo jen pó sedłach wulašowaś; to nikogo njewótzjawijo.
+• Firefox njamóžo Cache Storage, offline-dataje, kótarež service workers składuju, pó sedłach wulašowaś, togodla se njewulašujo. Aby wótwónoźeł, což rozšyrjenje njedostanjo, wužywajśo Nastajenja > Priwatnosć a wěstota > Cookieje a sedłowe daty > Daty zastojaś.
+• Jolic synchronizacija wobglědowaka historiju wopśimujo, mógu se wótwónoźone zapiski historije teke na wašych drugich rědach wótwónoźeś.
+• Priwatne wokna se jano wulašuju, gaž rozšyrjenje smějo w nich běžaś.
+
+PRIWATNOSĆ
+
+• Žedna analyza a žedno slědowanje
+• Žedno zběranje datow
+• Žedne seśowe napšašowanja
+• Žeden zdalony kod
+• Žeden eksterny JavaScript
+• Historija a cookieje se jano cytaju, aby se rozsuźiło, což ma se wótwónoźeś, a jano w wašom wobglědowaku
+• Lisćina a nastajenja se lokalnje w wašom wobglědowaku składuju
+
+WUKON
+
+Rozšyrjenje nic njecyni, mjaztym až pśeglědujośo. Běžy jaden raz pśi startowanju wobglědowaka, jolic wulašowanje jo zmóžnjone, a gaž na „Něnto wulašowaś“ kliknjośo.
+
+Prědne wulašowanje dłujkeje historije móžo někotare minuty traś, dokulaž se kuždy zapisk historije jadnotliwje wulašujo. Mjaztym móžośo dalej pśeglědowaś. Pózdźejšne wulašowanja jano zapiski pjerwjejšnego pósejźenja wótwónoźuju.
+
+WÓTWÓRJONY ŽRĚDŁOWY KOD
+
+Clear Browsing Data Except Kept Sites ma wótwórjony žrědłowy kod a jo licencěrowany pód licencu MIT.
+
+Woglědajśo se žrědłowy kod, wózjawśo problemy abo pśinosujśo na GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

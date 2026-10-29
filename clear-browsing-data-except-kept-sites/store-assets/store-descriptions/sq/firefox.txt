@@ -1,0 +1,91 @@
+Pastroni historikun, cookie-t dhe të dhënat e sajteve kur niset shfletuesi, për çdo sajt përveç atyre që mbani.
+
+Firefox-i për Android nuk i lejon zgjerimet të fshijnë historikun, ndaj atje pastrohen vetëm cookie-t dhe të dhënat e sajteve.
+
+Clear Browsing Data Except Kept Sites është një zgjerim i lehtë me burim të hapur që heq zërat e historikut, cookie-t dhe të dhënat e sajteve për të gjithë sajtet që nuk keni zgjedhur t'i mbani.
+
+Te rregullimet, shtoni sajtet ku doni të mbeteni të futur dhe që doni t'ju mbajnë mend, pastaj aktivizoni pastrimin. Sa herë që niset shfletuesi, zgjerimi fshin historikun dhe cookie-t e të gjithë sajteve të tjerë. Mund të pastroni edhe në çdo kohë me “Pastroje tani”.
+
+VEÇORITË KRYESORE
+
+• Një listë sajtesh historiku dhe cookie-t e të cilëve nuk pastrohen kurrë, me importim dhe eksportim si kartelë tekst
+• Pastron historikun dhe cookie-t e të gjithë sajteve të tjerë kur niset shfletuesi, pasi ta aktivizoni
+• Pastrim në çdo kohë me “Pastroje tani” te rregullimet
+• Mban vetvetiu nënpërkatësitë e një sajti të mbajtur
+• Mban cookie-t e përkatësisë mëmë që i duhen një sajti të mbajtur që të mbeteni të futur
+• Pastron cookie-t e ndara (të palëve të treta) dhe cookie-t e kontejnerëve; cookie-t e ndara të një sajti të mbajtur mbeten vetëm nën sajte të mbajtur
+• Pastron depozitën vendore, IndexedDB, service workers dhe fshehtinën e sajteve që nuk mbahen
+• Shfaq përfundimin e pastrimit të fundit te rregullimet
+• Paralajmëron kur hyrja në sajte është e çaktivizuar dhe cookie-t s'mund të fshihen
+• Pa analiza dhe pa gjurmim
+• Pa kod të largët dhe pa kërkesa rrjeti
+
+SAJTE TË MBAJTUR
+
+Hapni rregullimet dhe shtoni një përkatësi, për shembull:
+
+example.com
+
+Që të shtoni disa njëherësh, ndajini me presje.
+
+“Eksporto” e ruan listën si kartelë tekst, një përkatësi për rresht. “Importo” e zëvendëson listën me sajtet nga një kartelë tekst dhe paralajmëron së pari, nëse kështu humbin sajte që i mbani tani.
+
+Një adresë si mail.example.com/inbox shkurtohet në përkatësinë e saj, dhe www. në fillim hiqet. Pranohen edhe localhost dhe adresa IPv4 si 192.168.1.1.
+
+Mbajtja e example.com mban historikun dhe cookie-t e example.com dhe të të gjitha nënpërkatësive të saj. Mbajtja e mail.example.com mban edhe cookie-t e example.com, sepse shpesh ato përmbajnë hyrjen e nënpërkatësisë.
+
+HAPJA E RREGULLIMEVE
+
+Rregullimet hapen vetvetiu pas instalimit, që të mund ta plotësoni listën para se të aktivizoni pastrimin. Më vonë, klikoni ikonën e zgjerimit te shiriti i mjeteve. Në Firefox për Android, prekni Clear Browsing Data Except Kept Sites te menuja Zgjerime e shfletuesit.
+
+Mund t'i hapni edhe nga përgjegjësi i shtesave:
+
+1. Hapni menunë e Firefox-it dhe zgjidhni Shtesa dhe tema.
+2. Gjeni Clear Browsing Data Except Kept Sites dhe klikoni menunë me tri pika në krah të tij.
+3. Përzgjidhni Parapëlqime.
+
+PASTRIM GJATË NISJES
+
+Pas instalimit pastrimi është i çaktivizuar, ndaj s'hiqet gjë pa e kërkuar ju. Rregullimet shfaqin njoftimin “Pastrimi është i çaktivizuar” me butonin “Aktivizo pastrimin”. Aktivizimi shfaq së pari një paralajmërim: çdo nisje fshin historikun dhe cookie-t e të gjithë sajteve, përveç të mbajturve, dhe ju nxjerr prej tyre, ose prej të gjithë sajteve kur s'mbahet asnjë.
+
+Kur është aktiv, pastrimi xhiron sa herë niset shfletuesi, sepse shfletuesi nuk i lë zgjerimet të xhirojnë gjatë mbylljes. Pastrimi gjatë nisjes heq ç'la pas sesioni i mëparshëm. Çaktivizojeni ose riaktivizojeni me “Pastro vetvetiu kur niset shfletuesi” te rregullimet.
+
+PASTROJE TANI
+
+“Pastroje tani” te rregullimet pastron menjëherë. Kur s'mbahet asnjë sajt, shfaqet së pari një paralajmërim i kuq se do të fshihet gjithçka. Rregullimet shfaqin kur u bë pastrimi i fundit dhe sa zëra historiku dhe cookie fshiu.
+
+HYRJE NË SAJTE
+
+Cookie-t mund të hiqen vetëm për sajte ku zgjerimi ka hyrje, ndaj ai kërkon hyrje në të gjithë sajtet. Nëse e çaktivizoni hyrjen në sajte, historiku prapë pastrohet, por cookie-t anashkalohen dhe rregullimet shfaqin butonin “Lejo hyrjen në sajte”.
+
+KUFIZIME
+
+• Skedat e rikthyera gjatë nisjes mund të vënë cookie të reja ndërkohë që xhiron pastrimi. Ato cookie mbeten deri në nisjen pasuese ose “Pastroje tani” pasues.
+• Firefox-i s'mund të fshijë të dhëna sajtesh duke përjashtuar sajte të zgjedhur, ndaj zgjerimi fshin depozitën vendore, IndexedDB dhe service workers të çdo sajti të pambajtur që gjen në historik, cookie dhe skeda të hapura. Një sajt që s'shfaqet në asnjë prej tyre i mban të dhënat e veta. Një sajt me një nënpërkatësi të mbajtur i mban service workers e vet, sepse Firefox-i do të fshinte bashkë me ta edhe ata të nënpërkatësisë. Fshehtina pastrohet për të gjithë sajtet, sepse Firefox-i s'mund ta pastrojë për sajt; kjo s'nxjerr askënd.
+• Firefox-i s'mund të pastrojë për sajt Cache Storage, kartelat jashtë linje që ruajnë service workers, ndaj ajo s'pastrohet. Që të hiqni ç'nuk arrin zgjerimi, përdorni Rregullime > Privatësi & Siguri > Cookies dhe të Dhëna Sajtesh > Administroni të Dhëna.
+• Nëse njëkohësimi i shfletuesit përfshin historikun, zërat e hequr të historikut mund të hiqen edhe nga pajisjet tuaja të tjera.
+• Dritaret private pastrohen vetëm kur zgjerimit i lejohet të xhirojë në to.
+
+PRIVATËSIA
+
+• Pa analiza dhe pa gjurmim
+• Pa grumbullim të dhënash
+• Pa kërkesa rrjeti
+• Pa kod të largët
+• Pa JavaScript të jashtëm
+• Historiku dhe cookie-t lexohen vetëm për të vendosur se ç'duhet hequr, dhe vetëm në shfletuesin tuaj
+• Lista dhe rregullimet depozitohen lokalisht në shfletuesin tuaj
+
+FUNKSIONIMI
+
+Zgjerimi s'bën asgjë teksa shfletoni. Xhiron një herë kur niset shfletuesi, nëse pastrimi është aktiv, dhe kur klikoni “Pastroje tani”.
+
+Pastrimi i parë i një historiku të gjatë mund të zgjasë disa minuta, sepse çdo zë historiku fshihet veçmas. Ndërkohë mund të vazhdoni të shfletoni. Pastrimet pasuese heqin vetëm zërat e sesionit të mëparshëm.
+
+BURIM I HAPUR
+
+Clear Browsing Data Except Kept Sites është me burim të hapur dhe licencohet sipas Licencës MIT.
+
+Shihni kodin burim, raportoni probleme ose kontribuoni në GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

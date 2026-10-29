@@ -1,0 +1,90 @@
+Borra el historial, las cookies y los datos de sitios al iniciar el navegador en todos los sitios salvo los que conservas.
+
+Clear Browsing Data Except Kept Sites es una extensión ligera y de código abierto que elimina las entradas del historial, las cookies y los datos de sitios de todos los sitios que no has elegido conservar.
+
+Añade en la configuración los sitios en los que quieres mantener la sesión iniciada y que quieres recordar, y después activa el borrado. Cada vez que se inicia el navegador, la extensión borra el historial, las cookies y los datos de sitios de todos los demás sitios. También puedes borrar cuando quieras con «Borrar ahora».
+
+Consejo: fija la extensión en el menú de extensiones de Chrome (el icono con forma de pieza de puzle) para mantener su icono visible en la barra de herramientas.
+
+FUNCIONES PRINCIPALES
+
+• Una lista de sitios cuyo historial y cookies nunca se borran, que puedes importar o exportar como archivo de texto
+• Borra el historial y las cookies de todos los demás sitios al iniciar el navegador, una vez que lo activas
+• Borra cuando quieras con «Borrar ahora», y borra los datos restantes de los sitios que ya no se encuentran con «Borrar restos»
+• Conserva automáticamente los subdominios de un sitio conservado
+• Conserva las cookies del dominio principal que un sitio conservado necesita para mantener la sesión
+• Borra las cookies particionadas (de terceros); las cookies particionadas de un sitio conservado solo se conservan bajo sitios conservados
+• Borra el almacenamiento local, IndexedDB, los service workers y la caché de los sitios no conservados
+• Muestra el resultado del último borrado en la configuración
+• Avisa cuando el acceso a los sitios está desactivado y no se pueden borrar las cookies
+• Sin analíticas ni seguimiento
+• Sin código remoto ni solicitudes de red
+
+SITIOS CONSERVADOS
+
+Abre la configuración y añade un dominio, por ejemplo:
+
+example.com
+
+Para añadir varios a la vez, sepáralos con comas.
+
+«Exportar» guarda la lista en un archivo de texto, un dominio por línea. «Importar» sustituye la lista por los sitios de un archivo de texto, y avisa antes si con ello se quitan sitios que conservas ahora.
+
+Una dirección como mail.example.com/inbox se reduce a su dominio, y se quita el www. inicial. También se aceptan localhost y direcciones IPv4 como 192.168.1.1.
+
+Conservar example.com conserva el historial, las cookies y los datos de sitio de example.com y de todos sus subdominios. Conservar mail.example.com también conserva las cookies de example.com, porque a menudo contienen el inicio de sesión del subdominio.
+
+ABRIR LA CONFIGURACIÓN
+
+La configuración se abre automáticamente tras la instalación, para que puedas rellenar la lista antes de activar el borrado. Más adelante, haz clic en el icono de la extensión en la barra de herramientas, o:
+
+1. Haz clic derecho en el icono de la extensión en la barra de herramientas.
+2. Selecciona Opciones.
+
+BORRADO AL INICIAR
+
+El borrado está desactivado tras la instalación, así que no se elimina nada hasta que lo pidas. La configuración muestra el aviso «El borrado está desactivado» con un botón «Activar borrado». Al activarlo aparece primero una advertencia: cada inicio elimina el historial y las cookies de todos los sitios excepto los conservados y cierra tu sesión en ellos, o en todos los sitios si no se conserva ninguno.
+
+Una vez activado, el borrado se ejecuta cada vez que se inicia el navegador, porque el navegador no deja que las extensiones se ejecuten al cerrarse. Borrar al iniciar elimina lo que dejó la sesión anterior. Desactívalo o vuelve a activarlo con «Borrar automáticamente al iniciar el navegador» en la configuración.
+
+BORRAR AHORA Y BORRAR RESTOS
+
+«Borrar ahora» en la configuración borra de inmediato. Si no se conserva ningún sitio, primero muestra una advertencia roja de que se eliminará todo. La configuración muestra cuándo fue el último borrado y cuántas entradas del historial y cookies eliminó.
+
+Cuando un borrado ha eliminado el historial y las cookies de un sitio, los borrados siguientes ya no encuentran ese sitio, así que su almacenamiento local, sus bases de datos y su caché se quedan. «Borrar restos» ejecuta un borrado y después elimina los datos de sitio de todos los sitios que no conservas, encontrados o no. Aquí el navegador solo puede respetar sitios exactos, así que un sitio conservado mantiene sus datos solo para el propio sitio y para los sitios conservados que el borrado encuentra en el historial, las cookies y las pestañas abiertas; una advertencia roja lo avisa antes.
+
+ACCESO A LOS SITIOS
+
+Las cookies solo se pueden eliminar en los sitios a los que la extensión tiene acceso, por eso pide acceso a todos los sitios web. Si limitas el acceso a los sitios, por ejemplo a «Al hacer clic», el historial se sigue borrando pero las cookies se omiten, y la configuración muestra un botón «Permitir acceso a los sitios».
+
+LIMITACIONES
+
+• Las pestañas restauradas al iniciar pueden crear cookies nuevas mientras se ejecuta el borrado. Esas cookies se quedan hasta el siguiente inicio o hasta «Borrar ahora».
+• Otros datos de sitio, como el almacenamiento de sesión, los permisos de los sitios y los archivos guardados con la API File System, no se borran.
+• Si la sincronización del navegador incluye el historial, las entradas eliminadas también pueden eliminarse en tus otros dispositivos.
+• Las ventanas de incógnito solo se borran si la extensión está permitida en modo incógnito. De todos modos, Chrome descarta sus datos al cerrarlas.
+• Las direcciones IPv6 no se pueden añadir a la lista.
+
+PRIVACIDAD
+
+• Sin analíticas ni seguimiento
+• Sin recopilación de datos
+• Sin solicitudes de red
+• Sin código remoto
+• Sin JavaScript externo
+• El historial y las cookies solo se leen para decidir qué eliminar, y solo dentro de tu navegador
+• La lista y la configuración se guardan localmente en tu navegador
+
+RENDIMIENTO
+
+La extensión no hace nada mientras navegas. Se ejecuta una vez al iniciarse el navegador, si el borrado está activado, y cuando haces clic en «Borrar ahora» o «Borrar restos».
+
+El primer borrado de un historial largo puede tardar varios minutos, porque cada entrada del historial se elimina por separado. Mientras tanto, puedes seguir navegando. Los borrados siguientes solo eliminan las entradas de la sesión anterior.
+
+CÓDIGO ABIERTO
+
+Clear Browsing Data Except Kept Sites es un proyecto de código abierto publicado bajo la licencia MIT.
+
+Consulta el código fuente, informa de incidencias o colabora en GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

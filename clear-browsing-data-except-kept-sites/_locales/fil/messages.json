@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Bumubura ng history, cookies at site data sa pagbukas ng browser para sa lahat ng site maliban sa mga itinatago mo."
+  },
+  "optionsTitle": {
+    "message": "Mga Itinatagong Site | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub repository, magbubukas sa bagong tab"
+  },
+  "accessHeading": {
+    "message": "Naka-off ang access sa site"
+  },
+  "allowSiteAccess": {
+    "message": "Payagan ang Access sa Site"
+  },
+  "accessHistorySiteData": {
+    "message": "Kung walang access sa mga website, hindi makakapag-delete ng cookies ang extension. Binubura pa rin ang history at site data."
+  },
+  "accessHistory": {
+    "message": "Kung walang access sa mga website, hindi makakapag-delete ng cookies ang extension. Binubura pa rin ang history."
+  },
+  "accessSiteData": {
+    "message": "Kung walang access sa mga website, hindi makakapag-delete ng cookies ang extension. Binubura pa rin ang site data."
+  },
+  "accessNothing": {
+    "message": "Kung walang access sa mga website, hindi makakapag-delete ng cookies ang extension, kaya walang binubura."
+  },
+  "clearingOffHeading": {
+    "message": "Naka-off ang pagbura"
+  },
+  "clearingOffText": {
+    "message": "Wala pang dine-delete. Idagdag ang mga site na gusto mong manatiling naka-sign in, at pagkatapos ay i-on ang pagbura. Mula noon, sa bawat pagbukas ng browser, ide-delete ang data ($DATA$) ng lahat ng iba pang site.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "I-on ang Pagbura"
+  },
+  "keptSitesHeading": {
+    "message": "Mga Itinatagong Site"
+  },
+  "intro": {
+    "message": "Itinatago ng mga site na ito at ng kanilang mga subdomain ang kanilang data ($DATA$), kaya mananatili kang naka-sign in. Habang naka-on ang pagbura, mawawala ito sa lahat ng iba pang site sa bawat pagbukas ng browser.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Mga domain ng website"
+  },
+  "keep": {
+    "message": "Itago"
+  },
+  "siteHint": {
+    "message": "Paghiwalayin ang ilang site gamit ang mga kuwit."
+  },
+  "noSites": {
+    "message": "Wala pang itinatagong site, kaya ide-delete ng pagbura ang data ($DATA$) ng bawat site.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Mga itinatagong site"
+  },
+  "clearingHeading": {
+    "message": "Pagbura"
+  },
+  "clearOnStartupLabel": {
+    "message": "Awtomatikong burahin kapag nagbukas ang browser"
+  },
+  "clearNow": {
+    "message": "Burahin Ngayon"
+  },
+  "firstClearHint": {
+    "message": "Maaaring tumagal nang ilang minuto ang unang pagbura kung maraming browsing data ang browser. Puwede kang magpatuloy sa pag-browse habang naghihintay."
+  },
+  "leftoversHeading": {
+    "message": "Natirang Site Data"
+  },
+  "leftoversIntro": {
+    "message": "Kapag na-delete na ang history at cookies ng isang site, hindi na ito mahahanap ng extension, kaya nananatili ang local storage, mga database at cache nito. Ide-delete ng Burahin ang Natira ang site data ng bawat site na hindi mo itinatago, nahanap man o hindi, pagkatapos ng pagbura gaya ng Burahin Ngayon."
+  },
+  "clearLeftovers": {
+    "message": "Burahin ang Natira"
+  },
+  "transferHeading": {
+    "message": "Import at Export"
+  },
+  "transferIntro": {
+    "message": "I-save ang iyong mga itinatagong site sa isang text file, o palitan ang mga ito ng mga site mula sa isang file. Puwedeng maglista ang file ng isang site bawat linya o paghiwalayin ang mga ito gamit ang mga kuwit."
+  },
+  "export": {
+    "message": "I-export"
+  },
+  "import": {
+    "message": "I-import"
+  },
+  "cancel": {
+    "message": "Kanselahin"
+  },
+  "dataAll": {
+    "message": "history, cookies at site data"
+  },
+  "dataNoHistory": {
+    "message": "cookies at site data"
+  },
+  "dataNoSiteData": {
+    "message": "history at cookies"
+  },
+  "dataCookies": {
+    "message": "cookies"
+  },
+  "remove": {
+    "message": "Alisin"
+  },
+  "removeSite": {
+    "message": "Alisin ang $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "Inalis ang $SITE$. Ide-delete ang data nito ($DATA$) sa susunod na pagbura.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Hindi maalis ang site."
+  },
+  "siteKept": {
+    "message": "Itinatago ang $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Itinatago ang $COUNT$ site.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Itinatago ang $COUNT$ na site.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "Itinatago na ang $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "Itinatago na ang $COUNT$ site.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "Itinatago na ang $COUNT$ na site.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "Hindi valid na domain ang $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Hindi valid na mga domain ang mga ito: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Maglagay ng valid na domain, gaya ng example.com."
+  },
+  "addSiteFailed": {
+    "message": "Hindi maidagdag ang site."
+  },
+  "addSitesFailed": {
+    "message": "Hindi maidagdag ang mga site."
+  },
+  "fileTooLarge": {
+    "message": "Mas malaki sa 1 MB ang $FILE$, kaya hindi nabago ang mga itinatagong site.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "Walang valid na domain ang $FILE$, kaya hindi nabago ang mga itinatagong site.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Palitan ang mga itinatagong site?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ na site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Papalitan ang mga site na itinatago mo ngayon ($CURRENT$) ng mga site sa $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "Hindi na itatago ang $COUNT$ site, at ide-delete ang data nito ($DATA$) sa susunod na pagbura.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "Hindi na itatago ang $COUNT$ na site, at ide-delete ang data ng mga ito ($DATA$) sa susunod na pagbura.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Palitan ang Mga Itinatagong Site"
+  },
+  "sitesImported_one": {
+    "message": "Na-import ang $COUNT$ site mula sa $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Na-import ang $COUNT$ na site mula sa $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Hindi ma-export ang mga itinatagong site."
+  },
+  "importFailed": {
+    "message": "Hindi ma-import ang mga itinatagong site mula sa $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "I-on ang pagbura?"
+  },
+  "turnOnKept": {
+    "message": "Sa bawat pagbukas ng browser, ide-delete ang data ($DATA$) ng bawat site maliban sa mga piniling itago mo. Masa-sign out ka sa lahat ng iba pang site.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Wala kang piniling site na itatago. Sa bawat pagbukas ng browser, ide-delete ang lahat ng data ($DATA$), at masa-sign out ka sa bawat site.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Hindi na mababawi ang na-delete na data ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Burahin ang lahat ngayon?"
+  },
+  "clearEverythingText": {
+    "message": "Wala kang piniling site na itatago, kaya ide-delete ngayon ang data ($DATA$) ng bawat site, at masa-sign out ka sa bawat site.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Burahin ang Lahat"
+  },
+  "leftoversTitle": {
+    "message": "Burahin ang natirang site data?"
+  },
+  "leftoversKept": {
+    "message": "Ide-delete ngayon ang data ($DATA$) ng bawat site na hindi mo itinatago, kasama ang site data ng mga site na hindi na mahanap ng extension.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Itinatago lang ng isang itinatagong site ang site data nito sa mga address na nahahanap ng extension sa history, cookies at mga bukas na tab. Mawawala ang site data ng anumang ibang subdomain o port ng itinatagong site, gaya ng isang ilang buwan mo nang hindi binibisita o isang local server sa ibang port, at maaari kang ma-sign out doon."
+  },
+  "clearing": {
+    "message": "Binubura… Maaaring tumagal nang ilang minuto."
+  },
+  "leftoversFailed": {
+    "message": "Hindi nabura ang natirang site data."
+  },
+  "leftoversCleared": {
+    "message": "Nabura ang natirang site data."
+  },
+  "nothingClearedYet": {
+    "message": "Wala pang nabubura."
+  },
+  "clearFailed": {
+    "message": "Nabigo ang pagbura noong $WHEN$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ entry sa history",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ na entry sa history",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ na cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "wala"
+  },
+  "lastCleared": {
+    "message": "Huling binura: $WHEN$. Na-delete: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Huling binura: $WHEN$. Na-delete: $WHAT$, kasama ang site data at cache.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Huling binura: $WHEN$. Na-delete: $WHAT$, kasama ang site data at cache ng bawat site na hindi itinatago.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Nilaktawan ang history at site data dahil hindi pinapayagan ng browser na ito ang mga extension na burahin ang mga ito."
+  },
+  "skippedHistory": {
+    "message": "Nilaktawan ang history dahil hindi pinapayagan ng browser na ito ang mga extension na burahin ito."
+  },
+  "skippedSiteData": {
+    "message": "Nilaktawan ang site data dahil hindi pinapayagan ng browser na ito ang mga extension na burahin ito."
+  },
+  "cookiesSkipped": {
+    "message": "Nilaktawan ang cookies dahil naka-off ang access sa site."
+  },
+  "loadFailed": {
+    "message": "Hindi ma-load ang mga setting."
+  }
+}

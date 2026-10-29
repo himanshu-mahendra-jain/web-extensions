@@ -1,0 +1,42 @@
+Fermez l'onglet actuel d'un appui à trois doigts, d'un clic du milieu ou d'un clic dans la barre d'outils.
+
+Three Finger Tap to Close Tab est une extension légère et open source qui offre un moyen simple et rapide de fermer l'onglet actuel du navigateur.
+
+Appuyez avec trois doigts ou faites un clic du milieu n'importe où sur une page web, hors des liens et des champs modifiables, pour fermer l'onglet actuel. Vous pouvez aussi cliquer sur l'icône de l'extension dans la barre d'outils.
+
+Dans Firefox pour Android, appuyez sur Three Finger Tap to Close Tab dans le menu Extensions du navigateur pour fermer l'onglet actuel. Un appui sur l'écran n'est pas un clic du milieu : appuyer sur une page web ne ferme donc jamais l'onglet.
+
+Le clic du milieu sur les liens et les cartes de fil d'actualité garde le comportement habituel du navigateur : vous continuez à ouvrir liens et publications dans de nouveaux onglets comme d'habitude. Une marge de sécurité intégrée évite de fermer l'onglet par erreur si vous appuyez juste à côté d'un lien ou d'une commande.
+
+FONCTIONNALITÉS PRINCIPALES
+
+• Fermez l'onglet actuel d'un appui à trois doigts
+• Fermez l'onglet actuel d'un clic du milieu
+• Fermez l'onglet actuel d'un clic dans la barre d'outils
+• Garde le clic du milieu habituel sur les liens, boutons et cartes de fil d'actualité
+• Une marge de sécurité évite les fermetures accidentelles près des éléments interactifs
+• Ne ferme pas d'onglet pendant que vous utilisez des formulaires et des champs modifiables
+• Aucun menu contextuel ni réglage
+
+CONFIGURATION DU PAVÉ TACTILE
+
+Votre pavé tactile et votre système d'exploitation doivent être configurés pour qu'un appui à trois doigts produise un clic du milieu.
+
+Ensuite, appuyez avec trois doigts sur une page web, hors des liens et du contenu interactif, pour fermer l'onglet actuel.
+
+CONFIDENTIALITÉ
+
+• Aucune analyse ni aucun pistage
+• Aucune collecte de données ni d'historique de navigation
+• Aucune requête réseau
+• Aucune activité de navigation ni préférence enregistrée
+
+Les onglets sont toujours fermés localement, dans votre navigateur.
+
+OPEN SOURCE
+
+Three Finger Tap to Close Tab est un projet open source sous licence MIT.
+
+Consultez le code source, signalez des anomalies ou contribuez sur GitHub :
+
+https://github.com/himanshu-mahendra-jain/web-extensions

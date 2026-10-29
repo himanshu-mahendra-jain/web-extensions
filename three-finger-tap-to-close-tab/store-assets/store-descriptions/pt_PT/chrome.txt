@@ -1,0 +1,42 @@
+Feche o separador atual com um toque de três dedos, um clique do meio ou um clique na barra de ferramentas.
+
+Three Finger Tap to Close Tab é uma extensão leve e de código aberto que oferece uma forma rápida e simples de fechar o separador atual do navegador.
+
+Toque com três dedos ou clique com o botão do meio em qualquer ponto de uma página web fora de ligações e campos editáveis para fechar o separador atual. Também pode clicar no ícone da extensão na barra de ferramentas.
+
+Sugestão: fixe a extensão no menu de Extensões do Chrome (o ícone da peça de puzzle) para manter o ícone visível na barra de ferramentas.
+
+O clique do meio em ligações e cartões de feeds mantém o comportamento normal do navegador, pelo que continua a abrir ligações e publicações em novos separadores como habitualmente. Uma margem de segurança integrada evita fechar o separador por engano se tocar mesmo ao lado de uma ligação ou controlo.
+
+PRINCIPAIS FUNCIONALIDADES
+
+• Feche o separador atual com um toque de três dedos
+• Feche o separador atual com um clique do meio
+• Feche o separador atual com um clique na barra de ferramentas
+• Mantém o clique do meio normal em ligações, botões e cartões de feeds
+• Uma margem de segurança evita fechos acidentais perto de elementos interativos
+• Não fecha separadores enquanto utiliza formulários e campos editáveis
+• Sem menus pop-up nem definições
+
+CONFIGURAÇÃO DO TOUCHPAD
+
+O touchpad e o sistema operativo têm de estar configurados para que um toque de três dedos gere um clique do meio.
+
+Depois disso, toque com três dedos numa página web fora de ligações e conteúdo interativo para fechar o separador atual.
+
+PRIVACIDADE
+
+• Sem análises nem rastreio
+• Não recolhe dados nem histórico de navegação
+• Sem pedidos de rede
+• Não guarda atividade de navegação nem preferências
+
+Todos os separadores são fechados localmente no seu navegador.
+
+CÓDIGO ABERTO
+
+O Three Finger Tap to Close Tab é um projeto de código aberto sob a licença MIT.
+
+Consulte o código-fonte, reporte problemas ou colabore no GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

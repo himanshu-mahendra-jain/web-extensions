@@ -1,0 +1,47 @@
+Tukar kelajuan main balik video dan audio dengan satu klik atau pintasan papan kekunci.
+
+Change Video Playback Speed ialah sambungan sumber terbuka yang ringan untuk bertukar antara empat kelajuan main balik yang berguna:
+
+1x → 1.2x → 1.5x → 2x → 1x
+
+Klik ikon sambungan atau gunakan pintasan papan kekunci untuk beralih ke kelajuan seterusnya. Kelajuan yang dipilih digunakan pada video dan audio di halaman, termasuk pemain terbenam yang disokong.
+
+Petua: Sematkan sambungan dalam menu Sambungan Chrome (ikon kepingan teka-teki) untuk mengekalkan ikonnya pada bar alat.
+
+Kelajuan semasa dipaparkan seketika pada halaman dan pada lencana bar alat.
+
+CIRI UTAMA
+
+• Kawalan dengan satu klik dan pintasan papan kekunci
+• Sokongan video dan audio
+• Sokongan untuk pemain terbenam yang serasi
+• Lencana kelajuan pada bar alat dan penunjuk pada halaman yang turut kelihatan dalam skrin penuh
+• Tiada menu timbul, kawalan terapung atau tetapan
+
+PINTASAN PAPAN KEKUNCI LALAI
+
+• Windows, Linux, ChromeOS, GooglebookOS dan Android: Alt+S
+• macOS: Command+Shift+Period
+
+TUKAR PINTASAN PAPAN KEKUNCI
+
+1. Buka menu Chrome dan pilih Sambungan → Urus Sambungan.
+2. Pilih Pintasan papan kekunci dalam bar sisi.
+3. Cari Change Video Playback Speed dan masukkan pintasan pilihan anda.
+
+PRIVASI
+
+• Tiada analitik atau penjejakan
+• Tidak mengumpul data atau sejarah penyemakan imbas
+• Tiada permintaan rangkaian
+• Tiada akses kekal ke tapak web
+
+Semua perubahan kelajuan berlaku secara setempat dalam pelayar anda.
+
+SUMBER TERBUKA
+
+Change Video Playback Speed ialah projek sumber terbuka di bawah Lesen MIT.
+
+Lihat kod sumber, laporkan isu atau sumbangkan kod di GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

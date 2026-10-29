@@ -1,0 +1,42 @@
+Sulje nykyinen välilehti kolmen sormen napautuksella, keskiklikkauksella tai työkalupalkin napsautuksella.
+
+Three Finger Tap to Close Tab on kevyt avoimen lähdekoodin laajennus, jolla suljet selaimen nykyisen välilehden nopeasti ja helposti.
+
+Napauta kolmella sormella tai keskiklikkaa missä tahansa verkkosivulla linkkien ja muokattavien kenttien ulkopuolella sulkeaksesi nykyisen välilehden. Voit myös napsauttaa laajennuksen kuvaketta työkalupalkissa.
+
+Vinkki: Ota Edgen Laajennukset-valikossa käyttöön «Näytä työkalurivillä» Three Finger Tap to Close Tabille nopeaa käyttöä varten.
+
+Linkkien ja syötekorttien keskiklikkaus toimii selaimen tavalliseen tapaan, joten voit edelleen avata linkkejä ja julkaisuja uusiin välilehtiin. Sisäänrakennettu turvaetäisyys estää välilehden sulkeutumisen vahingossa, jos napautat aivan linkin tai painikkeen vierestä.
+
+TÄRKEIMMÄT OMINAISUUDET
+
+• Sulje nykyinen välilehti kolmen sormen napautuksella
+• Sulje nykyinen välilehti keskiklikkauksella
+• Sulje nykyinen välilehti työkalupalkin napsautuksella
+• Säilyttää tavallisen keskiklikkauksen linkeissä, painikkeissa ja syötekorteissa
+• Turvaetäisyys estää vahingossa sulkemisen vuorovaikutteisten elementtien lähellä
+• Ei sulje välilehtiä, kun käytät lomakkeita ja muokattavia kenttiä
+• Ei ponnahdusvalikoita eikä asetuksia
+
+KOSKETUSLEVYN ASETUKSET
+
+Kosketuslevyn ja käyttöjärjestelmän on oltava asetettu niin, että kolmen sormen napautus tuottaa keskiklikkauksen.
+
+Sen jälkeen napauta kolmella sormella verkkosivua linkkien ja vuorovaikutteisen sisällön ulkopuolella sulkeaksesi nykyisen välilehden.
+
+YKSITYISYYS
+
+• Ei analytiikkaa eikä seurantaa
+• Ei tietojen eikä selaushistorian keräämistä
+• Ei verkkopyyntöjä
+• Ei tallennettua selaustoimintaa eikä asetuksia
+
+Välilehdet suljetaan aina paikallisesti selaimessasi.
+
+AVOIN LÄHDEKOODI
+
+Three Finger Tap to Close Tab on avoimen lähdekoodin ohjelmisto MIT-lisenssillä.
+
+Lähdekoodi, vikailmoitukset ja kehitystyö GitHubissa:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

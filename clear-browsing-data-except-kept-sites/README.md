@@ -25,22 +25,19 @@ Google Chrome, Microsoft Edge, and Mozilla Firefox, each on Windows, macOS, Linu
 * Show the result of the last clear on the settings page
 * Warn when site access is turned off and cookies cannot be cleared
 * No analytics, tracking, remote code, or network requests
+* In the browser's language: every Chrome Web Store language, with English as the fallback; the settings page is laid out right to left for Arabic, Hebrew, and Persian
 
 ## Usage
 
 ### Kept Sites
 
-Open the settings page and add a domain such as `example.com`, or several separated by commas. A full URL such as `https://mail.example.com/inbox` is reduced to its domain, and a leading `www.` is dropped.
-
-`localhost` and IPv4 addresses such as `192.168.1.1` are also accepted, so local development servers and router admin pages can stay signed in. **Export** saves the list as `kept-sites.txt`, one domain per line. **Import** replaces the list with the sites in a text file, one per line or separated by commas; when that drops sites that are kept now, it warns first. Files over 1 MB are refused.
+Open the settings page and add a domain such as `example.com`, or several separated by commas. A full URL such as `https://mail.example.com/inbox` is reduced to its domain, and a leading `www.` is dropped. `localhost` and IPv4 addresses such as `192.168.1.1` are also accepted, so local development servers and router admin pages can stay signed in. **Export** saves the list as `kept-sites.txt`, one domain per line. **Import** replaces the list with the sites in a text file, one per line or separated by commas; when that drops sites that are kept now, it warns first. Files over 1 MB are refused.
 
 The settings page opens automatically after installation, so the keep list can be filled in before clearing is turned on. Later, open it by clicking the extension icon in the toolbar, or in Firefox for Android by tapping the extension in the browser's Extensions menu. Chrome and Edge keep a new extension's icon in their Extensions menu; pin it there to keep it on the toolbar. Firefox puts the icon on the toolbar when the extension is first installed. The page is also available from the browser's extension settings: in Chrome and Edge, right-click the extension icon and select **Options**; in Firefox, open `about:addons`, select **Extensions**, open the three-dot menu next to **Clear Browsing Data Except Kept Sites**, and select **Preferences**.
 
 ### Clearing on Startup
 
-Clearing is off after installation, so the extension removes nothing until you ask it to. While it is off, the settings page shows a **Clearing is off** notice with a **Turn On Clearing** button. Turning it on, with the button or the checkbox, first shows a warning: every startup deletes the history and cookies of all sites except the kept ones and signs you out of them, or of every site when none are kept.
-
-Once on, clearing runs each time the browser starts. Browsers do not give extensions a chance to run when they close, so clearing at startup removes what the previous session left behind. Turn it off or on again with **Clear automatically when the browser starts** on the settings page.
+Clearing is off after installation, so the extension removes nothing until you ask it to. While it is off, the settings page shows a **Clearing is off** notice with a **Turn On Clearing** button. Turning it on, with the button or the checkbox, first shows a warning: every startup deletes the history and cookies of all sites except the kept ones and signs you out of them, or of every site when none are kept. Once on, clearing runs each time the browser starts. Browsers do not give extensions a chance to run when they close, so clearing at startup removes what the previous session left behind. Turn it off or on again with **Clear automatically when the browser starts** on the settings page.
 
 ### Clear Now
 
@@ -53,9 +50,7 @@ Once on, clearing runs each time the browser starts. Browsers do not give extens
 | `example.com` | `example.com`, `www.example.com`, `mail.example.com` | `example.com` and all its subdomains |
 | `mail.example.com` | `mail.example.com` and its subdomains | `mail.example.com`, its subdomains, and the parent domain `example.com` |
 
-Cookies set on a parent domain, such as `example.com`, are sent to the kept subdomain and often hold its sign-in, so they are kept too. History for other subdomains of the parent, such as `www.example.com`, is still cleared. A partitioned cookie, which an embedded site such as a YouTube video sets under the site that embeds it, is kept only when both its own domain and that site are kept; the site it is partitioned under counts as found for [Site Data](#site-data).
-
-History entries that do not belong to a website, such as `file://` pages, are cleared.
+Cookies set on a parent domain, such as `example.com`, are sent to the kept subdomain and often hold its sign-in, so they are kept too. History for other subdomains of the parent, such as `www.example.com`, is still cleared. A partitioned cookie, which an embedded site such as a YouTube video sets under the site that embeds it, is kept only when both its own domain and that site are kept; the site it is partitioned under counts as found for [Site Data](#site-data). History entries that do not belong to a website, such as `file://` pages, are cleared.
 
 ### Site Data
 
@@ -63,14 +58,13 @@ Local storage, IndexedDB, service workers, and cache follow the history rule: th
 
 ## Site Access
 
-Cookies can only be read and removed for sites the extension has access to, so the extension asks for access to all `http` and `https` sites.
-
-If site access is turned off or limited, for example with Chrome's **On click** site access setting or by revoking it in Firefox, history is still cleared but cookies are skipped. The settings page then shows a warning with an **Allow Site Access** button.
+Cookies can only be read and removed for sites the extension has access to, so the extension asks for access to all `http` and `https` sites. If site access is turned off or limited, for example with Chrome's **On click** site access setting or by revoking it in Firefox, history is still cleared but cookies are skipped. The settings page then shows a warning with an **Allow Site Access** button.
 
 ## Project Structure
 
 ```text
 clear-browsing-data-except-kept-sites/
+├── _locales/        <language>/messages.json: the extension's text, one per Chrome Web Store language
 ├── icons/           icon16.png, icon32.png, icon48.png, icon128.png
 ├── options/
 │   ├── options.css
@@ -79,11 +73,13 @@ clear-browsing-data-except-kept-sites/
 ├── src/
 │   ├── background.js
 │   ├── cleaner.js
+│   ├── i18n.js
 │   └── site-utils.js
 ├── store-assets/
 │   ├── chrome/      chrome.txt and Chrome Web Store images
 │   ├── edge/        edge.txt and Edge Add-ons images
-│   └── firefox/     firefox.txt and the Firefox screenshots
+│   ├── firefox/     firefox.txt and the Firefox screenshots
+│   └── store-descriptions/<language>/  the listings translated
 ├── tests/
 │   ├── android/
 │   │   ├── clearing.spec.js
@@ -94,6 +90,7 @@ clear-browsing-data-except-kept-sites/
 │   ├── cleaner.spec.js
 │   ├── clearing.spec.js
 │   ├── fake-chrome.js
+│   ├── locales.spec.js
 │   ├── manifest.spec.js
 │   ├── options.spec.js
 │   ├── site-utils.spec.js
@@ -109,7 +106,9 @@ clear-browsing-data-except-kept-sites/
 * `src/background.js`: runs a clear on browser startup when turned on, handles **Clear Now** and **Clear Leftovers** requests from the settings page, and opens the settings page on installation and toolbar clicks. Clears are queued, so two never run at the same time.
 * `src/cleaner.js`: removes unkept history entries, cookies, and site data, and records the result. History is read with `history.search()` one page at a time, newest first. Unkept entries are deleted, which lets the next search reach older entries. When a page holds only kept entries, its time range is split in half, so kept entries cannot hide older ones. Cookies are read from the default cookie store, every store with an open tab, and every Firefox container, including partitioned cookies. The sites seen along the way decide which site data `browsingData` clears.
 * `src/site-utils.js`: normalizes and validates kept-site entries and decides whether a history URL or cookie domain belongs to a kept site.
+* `src/i18n.js`: the text in the browser's language, from `_locales/`. Counts take each language's plural forms, lists and dates follow the language, and `localizePage()` fills the settings page's `data-i18n` elements and sets its `lang` and `dir`.
 * `options/`: the settings page for the keep list, the startup setting and its notice while it is off, **Clear Now**, **Clear Leftovers**, the last clear result, and the site access warning. It uses local browser extension APIs only and does not load external assets.
+* `store-assets/`: browser-store listing text and images, not packaged, with [translated listings](../README.md#store-listings) in `store-descriptions/`.
 * `tests/`: Playwright tests. The `*-snapshots/` folders hold baseline screenshots of the settings page in Chromium, Firefox, and Firefox for Android; see [Screenshots](../README.md#screenshots) in the monorepo README.
 
 ## Permissions
@@ -127,9 +126,7 @@ The extension does not collect user data, send browsing history or cookies anywh
 
 ## Performance
 
-The extension does no work while the browser is in use. It runs once at browser startup, when clearing is on, and when **Clear Now** or **Clear Leftovers** is clicked.
-
-The first clear of a long browsing history can take several minutes, because each history entry is deleted individually; the settings page says so next to **Clear Now**. Later clears only have the previous session's entries to remove.
+The extension does no work while the browser is in use. It runs once at browser startup, when clearing is on, and when **Clear Now** or **Clear Leftovers** is clicked. The first clear of a long browsing history can take several minutes, because each history entry is deleted individually; the settings page says so next to **Clear Now**. Later clears only have the previous session's entries to remove.
 
 ## Build
 

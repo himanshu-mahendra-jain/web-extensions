@@ -1,0 +1,47 @@
+Vaihda videon ja äänen toistonopeutta yhdellä napsautuksella tai pikanäppäimellä.
+
+Change Video Playback Speed on kevyt avoimen lähdekoodin laajennus, joka vaihtaa neljän hyödyllisen toistonopeuden välillä:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Siirry seuraavaan nopeuteen napsauttamalla laajennuksen kuvaketta tai pikanäppäimellä. Valittu nopeus koskee sivun videoita ja ääntä, myös tuettuja upotettuja soittimia.
+
+Vinkki: Ota Edgen Laajennukset-valikossa käyttöön «Näytä työkalurivillä» Change Video Playback Speedille nopeaa käyttöä varten.
+
+Nykyinen nopeus näkyy hetken sivulla ja työkalupalkin merkissä.
+
+TÄRKEIMMÄT OMINAISUUDET
+
+• Ohjaus yhdellä napsautuksella ja pikanäppäimellä
+• Tukee videota ja ääntä
+• Tukee yhteensopivia upotettuja soittimia
+• Nopeusmerkki työkalupalkissa ja sivulla näkyvä ilmaisin, joka näkyy myös koko näytön tilassa
+• Ei ponnahdusvalikoita, kelluvia säätimiä eikä asetuksia
+
+OLETUSPIKANÄPPÄIMET
+
+• Windows, Linux, ChromeOS, GooglebookOS ja Android: Alt+S
+• macOS: Command+Shift+Period
+
+PIKANÄPPÄIMEN VAIHTAMINEN
+
+1. Avaa Laajennukset-valikko ja valitse Hallitse laajennuksia.
+2. Valitse sivupalkista Pikanäppäimet.
+3. Etsi Change Video Playback Speed ja kirjoita haluamasi pikanäppäin.
+
+YKSITYISYYS
+
+• Ei analytiikkaa eikä seurantaa
+• Ei tietojen eikä selaushistorian keräämistä
+• Ei verkkopyyntöjä
+• Ei pysyvää pääsyä sivustoille
+
+Kaikki nopeuden muutokset tapahtuvat paikallisesti selaimessasi.
+
+AVOIN LÄHDEKOODI
+
+Change Video Playback Speed on avoimen lähdekoodin ohjelmisto MIT-lisenssillä.
+
+Lähdekoodi, vikailmoitukset ja kehitystyö GitHubissa:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

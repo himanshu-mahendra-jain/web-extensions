@@ -5,7 +5,7 @@ import {
   expect
 } from "../../../test-support/firefox-android.js";
 
-import { applyPlaybackSpeed } from "../../src/page.js";
+import { indicatorScript } from "../media.js";
 
 
 test.use({
@@ -33,7 +33,7 @@ for (const speed of [1, 1.2, 1.5, 2]) {
 
     await tab.evaluate(`
       window.setTimeout = () => 0;
-      (${applyPlaybackSpeed})(${speed});
+      ${indicatorScript(speed)};
     `);
 
     expect(await tab.screenshot("#cvps-speed-indicator"))

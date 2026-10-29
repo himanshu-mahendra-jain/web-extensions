@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Включает копирование, выделение текста и контекстное меню на сайтах, которые их запрещают."
+  },
+  "commandDescription": {
+    "message": "Включить копирование и правый щелчок на текущей странице"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: включено",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Копирование и правый щелчок включены."
+  },
+  "optionsTitle": {
+    "message": "Автоматические сайты | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Репозиторий на GitHub, откроется в новой вкладке"
+  },
+  "automaticSitesHeading": {
+    "message": "Автоматические сайты"
+  },
+  "automaticSitesIntro": {
+    "message": "Автоматически включать копирование, выделение текста и правый щелчок на добавленных сайтах."
+  },
+  "siteInputLabel": {
+    "message": "Домен сайта"
+  },
+  "addSite": {
+    "message": "Добавить сайт"
+  },
+  "noSites": {
+    "message": "Автоматические сайты ещё не добавлены."
+  },
+  "siteListLabel": {
+    "message": "Автоматические сайты"
+  },
+  "remove": {
+    "message": "Удалить"
+  },
+  "removeSite": {
+    "message": "Удалить $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (разрешение отозвано)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "Сайт $SITE$ добавлен.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "Сайт $SITE$ снова включён.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "Сайт $SITE$ удалён.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Этот сайт уже включён."
+  },
+  "invalidDomain": {
+    "message": "Введите корректный домен, например example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Разрешение для сайта не предоставлено."
+  },
+  "addFailed": {
+    "message": "Не удалось добавить сайт."
+  },
+  "removeFailed": {
+    "message": "Не удалось удалить сайт."
+  },
+  "loadFailed": {
+    "message": "Не удалось загрузить список сайтов."
+  }
+}

@@ -1,0 +1,80 @@
+Erlaubt Kopieren, Textauswahl und Rechtsklickmenüs auf Webseiten, die sie einschränken.
+
+Enable Copy and Right Click ist eine schlanke Open-Source-Erweiterung, die normales Kopieren, Textauswahl und Rechtsklick auf Webseiten wiederherstellt, die diese Aktionen einschränken.
+
+Klicken Sie auf das Symbol der Erweiterung in der Symbolleiste oder verwenden Sie die Tastenkombination, um Kopieren und Rechtsklick im aktuellen Tab zu erlauben.
+
+Tipp: Aktivieren Sie im Edge-Erweiterungsmenü die Option «In Symbolleiste anzeigen» für Enable Copy and Right Click, um schnellen Zugriff zu haben.
+
+Sie können vertrauenswürdige Websites auch zur Liste „Automatische Websites“ hinzufügen. Die Erweiterung erlaubt Kopieren und Rechtsklick dann automatisch bei jedem Besuch dieser Websites.
+
+WICHTIGSTE FUNKTIONEN
+
+• Erlaubt Kopieren und Textauswahl auf eingeschränkten Webseiten
+• Erlaubt Rechtsklick-Kontextmenüs
+• Erlaubt Kopieren, Ausschneiden, Einfügen, Textauswahl und Ziehen
+• Aktivierung mit einem Klick in der Symbolleiste
+• Tastenkombination für schnelles Aktivieren
+• Automatische Aktivierung auf Websites Ihrer Wahl
+• Funktioniert in zugänglichen iframes, soweit die Berechtigungen des Browsers es zulassen
+• Zeigt nach manueller Aktivierung ein ON-Badge
+• Keine Pop-up-Menüs
+• Keine Analyse, kein Tracking
+• Kein entfernter Code, keine Netzwerkanfragen
+
+STANDARD-TASTENKOMBINATIONEN
+
+• Windows, Linux, ChromeOS, GooglebookOS und Android: Alt+C
+• macOS: Command+Shift+Y
+
+Die Tastenkombination bewirkt dasselbe wie ein Klick auf das Symbol der Erweiterung.
+
+TASTENKOMBINATION ÄNDERN
+
+1. Öffnen Sie das Menü „Erweiterungen“ und wählen Sie „Erweiterungen verwalten“.
+2. Wählen Sie in der Seitenleiste „Tastenkombinationen“.
+3. Suchen Sie Enable Copy and Right Click und geben Sie die gewünschte Tastenkombination ein.
+
+AUTOMATISCHE WEBSITES
+
+Öffnen Sie die Optionsseite der Erweiterung und fügen Sie eine Domain hinzu, zum Beispiel:
+
+example.com
+
+Die Erweiterung fragt nur für die Website, die Sie hinzufügen, nach einer Berechtigung. Sobald Sie sie erteilt haben, werden Kopieren, Textauswahl und Rechtsklick auf dieser Website automatisch erlaubt.
+
+Sie können eine automatische Website jederzeit auf der Optionsseite wieder entfernen.
+
+OPTIONSSEITE ÖFFNEN
+
+1. Klicken Sie mit der rechten Maustaste auf das Symbol der Erweiterung in der Symbolleiste.
+2. Wählen Sie „Erweiterungsoptionen“.
+
+DATENSCHUTZ
+
+• Keine Analyse, kein Tracking
+• Keine Datenerfassung
+• Keine Erfassung des Browserverlaufs
+• Keine Netzwerkanfragen
+• Kein entfernter Code
+• Kein externes JavaScript
+• Die Einstellungen für automatische Websites werden lokal in Ihrem Browser gespeichert
+• Berechtigungen für Websites werden nur angefragt, wenn Sie selbst eine Website hinzufügen
+
+Kopieren und Rechtsklick werden vollständig lokal in Ihrem Browser wiederhergestellt.
+
+LEISTUNG
+
+Die Erweiterung ist schlank und ereignisgesteuert.
+
+Im Leerlauf arbeitet sie nicht im Hintergrund. Die manuelle Aktivierung läuft nur, wenn Sie auf das Symbol in der Symbolleiste klicken oder die Tastenkombination verwenden. Die automatische Aktivierung läuft nur auf Websites, die Sie ausdrücklich hinzugefügt haben.
+
+Es gibt kein Polling, keine Netzwerkaktivität im Hintergrund, kein Analyse-SDK, keine entfernte Konfiguration und keine Schleife, die Seiten ständig überwacht.
+
+OPEN SOURCE
+
+Enable Copy and Right Click ist Open Source und unter der MIT-Lizenz lizenziert.
+
+Quellcode einsehen, Probleme melden oder beitragen auf GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

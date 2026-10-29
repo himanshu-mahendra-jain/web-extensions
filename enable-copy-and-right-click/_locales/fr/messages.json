@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Réactivez la copie, la sélection de texte et les menus du clic droit sur les pages web qui les bloquent."
+  },
+  "commandDescription": {
+    "message": "Activer la copie et le clic droit sur la page actuelle"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$ : active",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Copie et clic droit activés."
+  },
+  "optionsTitle": {
+    "message": "Sites automatiques | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Dépôt GitHub, s'ouvre dans un nouvel onglet"
+  },
+  "automaticSitesHeading": {
+    "message": "Sites automatiques"
+  },
+  "automaticSitesIntro": {
+    "message": "Activez automatiquement la copie, la sélection de texte et le clic droit sur les sites que vous ajoutez."
+  },
+  "siteInputLabel": {
+    "message": "Domaine du site web"
+  },
+  "addSite": {
+    "message": "Ajouter le site"
+  },
+  "noSites": {
+    "message": "Aucun site automatique ajouté pour l'instant."
+  },
+  "siteListLabel": {
+    "message": "Sites automatiques"
+  },
+  "remove": {
+    "message": "Retirer"
+  },
+  "removeSite": {
+    "message": "Retirer $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (autorisation retirée)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ ajouté.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ réactivé.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ retiré.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Ce site est déjà activé."
+  },
+  "invalidDomain": {
+    "message": "Saisissez un domaine valide, comme example.com."
+  },
+  "permissionNotGranted": {
+    "message": "L'autorisation pour le site n'a pas été accordée."
+  },
+  "addFailed": {
+    "message": "Le site n'a pas pu être ajouté."
+  },
+  "removeFailed": {
+    "message": "Le site n'a pas pu être retiré."
+  },
+  "loadFailed": {
+    "message": "La liste des sites n'a pas pu être chargée."
+  }
+}

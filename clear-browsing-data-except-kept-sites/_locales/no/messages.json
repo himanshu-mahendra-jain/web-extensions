@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Sletter logg, informasjonskapsler og nettstedsdata når nettleseren starter, for alle nettsteder unntatt dem du beholder."
+  },
+  "optionsTitle": {
+    "message": "Beholdte nettsteder | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-repositorium, åpnes i en ny fane"
+  },
+  "accessHeading": {
+    "message": "Tilgang til nettsteder er av"
+  },
+  "allowSiteAccess": {
+    "message": "Gi tilgang til nettsteder"
+  },
+  "accessHistorySiteData": {
+    "message": "Uten tilgang til nettsteder kan ikke utvidelsen slette informasjonskapsler. Logg og nettstedsdata slettes fortsatt."
+  },
+  "accessHistory": {
+    "message": "Uten tilgang til nettsteder kan ikke utvidelsen slette informasjonskapsler. Loggen slettes fortsatt."
+  },
+  "accessSiteData": {
+    "message": "Uten tilgang til nettsteder kan ikke utvidelsen slette informasjonskapsler. Nettstedsdata slettes fortsatt."
+  },
+  "accessNothing": {
+    "message": "Uten tilgang til nettsteder kan ikke utvidelsen slette informasjonskapsler, så ingenting slettes."
+  },
+  "clearingOffHeading": {
+    "message": "Sletting er av"
+  },
+  "clearingOffText": {
+    "message": "Ingenting slettes ennå. Legg til nettstedene du vil forbli pålogget på, og slå deretter på sletting. Fra da av slettes dataene ($DATA$) til alle andre nettsteder hver gang nettleseren starter.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Slå på sletting"
+  },
+  "keptSitesHeading": {
+    "message": "Beholdte nettsteder"
+  },
+  "intro": {
+    "message": "Disse nettstedene og underdomenene deres beholder dataene sine ($DATA$), så du forblir pålogget. Så lenge sletting er på, mister alle andre nettsteder dem hver gang nettleseren starter.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Nettstedsdomener"
+  },
+  "keep": {
+    "message": "Behold"
+  },
+  "siteHint": {
+    "message": "Skill flere nettsteder med komma."
+  },
+  "noSites": {
+    "message": "Ingen nettsteder beholdes ennå, så en sletting fjerner dataene ($DATA$) til alle nettsteder.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Beholdte nettsteder"
+  },
+  "clearingHeading": {
+    "message": "Sletting"
+  },
+  "clearOnStartupLabel": {
+    "message": "Slett automatisk når nettleseren starter"
+  },
+  "clearNow": {
+    "message": "Slett nå"
+  },
+  "firstClearHint": {
+    "message": "Den første slettingen kan ta flere minutter hvis nettleseren har mye nettlesingsdata. Du kan fortsette å surfe i mellomtiden."
+  },
+  "leftoversHeading": {
+    "message": "Gjenværende nettstedsdata"
+  },
+  "leftoversIntro": {
+    "message": "Når loggen og informasjonskapslene til et nettsted er slettet, finner ikke utvidelsen det lenger, så den lokale lagringen, databasene og hurtigbufferen blir liggende. Slett rester sletter nettstedsdataene til alle nettsteder du ikke beholder, funnet eller ikke, etter en sletting som Slett nå."
+  },
+  "clearLeftovers": {
+    "message": "Slett rester"
+  },
+  "transferHeading": {
+    "message": "Import og eksport"
+  },
+  "transferIntro": {
+    "message": "Lagre de beholdte nettstedene i en tekstfil, eller erstatt dem med nettstedene i en fil. En fil kan ha ett nettsted per linje eller skille dem med komma."
+  },
+  "export": {
+    "message": "Eksporter"
+  },
+  "import": {
+    "message": "Importer"
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "dataAll": {
+    "message": "logg, informasjonskapsler og nettstedsdata"
+  },
+  "dataNoHistory": {
+    "message": "informasjonskapsler og nettstedsdata"
+  },
+  "dataNoSiteData": {
+    "message": "logg og informasjonskapsler"
+  },
+  "dataCookies": {
+    "message": "informasjonskapsler"
+  },
+  "remove": {
+    "message": "Fjern"
+  },
+  "removeSite": {
+    "message": "Fjern $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ er fjernet. Dataene ($DATA$) slettes ved neste sletting.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Kunne ikke fjerne nettstedet."
+  },
+  "siteKept": {
+    "message": "$SITE$ beholdes.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ nettsted beholdes.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ nettsteder beholdes.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ beholdes allerede.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ nettsted beholdes allerede.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ nettsteder beholdes allerede.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ er ikke et gyldig domene.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Dette er ikke gyldige domener: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Skriv inn et gyldig domene, for eksempel example.com."
+  },
+  "addSiteFailed": {
+    "message": "Kunne ikke legge til nettstedet."
+  },
+  "addSitesFailed": {
+    "message": "Kunne ikke legge til nettstedene."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ er større enn 1 MB, så de beholdte nettstedene er ikke endret.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ har ingen gyldige domener, så de beholdte nettstedene er ikke endret.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Erstatte beholdte nettsteder?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ nettsted",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ nettsteder",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Nettstedene du beholder nå ($CURRENT$), erstattes med nettstedene i $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ nettsted beholdes ikke lenger, og dataene ($DATA$) slettes ved neste sletting.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ nettsteder beholdes ikke lenger, og dataene deres ($DATA$) slettes ved neste sletting.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Erstatt beholdte nettsteder"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ nettsted importert fra $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ nettsteder importert fra $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Kunne ikke eksportere de beholdte nettstedene."
+  },
+  "importFailed": {
+    "message": "Kunne ikke importere beholdte nettsteder fra $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Slå på sletting?"
+  },
+  "turnOnKept": {
+    "message": "Hver gang nettleseren starter, slettes dataene ($DATA$) til alle nettsteder unntatt dem du har valgt å beholde. Du blir logget av alle andre nettsteder.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Du har ikke valgt noen nettsteder å beholde. Hver gang nettleseren starter, slettes alle data ($DATA$), og du blir logget av alle nettsteder.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Slettede data ($DATA$) kan ikke gjenopprettes.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Slette alt nå?"
+  },
+  "clearEverythingText": {
+    "message": "Du har ikke valgt noen nettsteder å beholde, så dataene ($DATA$) til alle nettsteder slettes nå, og du blir logget av alle nettsteder.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Slett alt"
+  },
+  "leftoversTitle": {
+    "message": "Slette gjenværende nettstedsdata?"
+  },
+  "leftoversKept": {
+    "message": "Dataene ($DATA$) til alle nettsteder du ikke beholder, slettes nå, også nettstedsdataene til nettsteder som utvidelsen ikke lenger finner.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Et beholdt nettsted beholder bare nettstedsdataene sine på adressene utvidelsen finner i logg, informasjonskapsler og åpne faner. Alle andre underdomener eller porter på et beholdt nettsted, for eksempel et du ikke har besøkt på flere måneder eller en lokal server på en annen port, mister nettstedsdataene sine, og du kan bli logget av dem."
+  },
+  "clearing": {
+    "message": "Sletter… Dette kan ta noen minutter."
+  },
+  "leftoversFailed": {
+    "message": "Kunne ikke slette gjenværende nettstedsdata."
+  },
+  "leftoversCleared": {
+    "message": "Gjenværende nettstedsdata er slettet."
+  },
+  "nothingClearedYet": {
+    "message": "Ingenting er slettet ennå."
+  },
+  "clearFailed": {
+    "message": "Slettingen $WHEN$ mislyktes.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ loggoppføring",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ loggoppføringer",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ informasjonskapsel",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ informasjonskapsler",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "ingenting"
+  },
+  "lastCleared": {
+    "message": "Sist slettet: $WHEN$. Slettet: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Sist slettet: $WHEN$. Slettet: $WHAT$, i tillegg til nettstedsdata og hurtigbuffer.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Sist slettet: $WHEN$. Slettet: $WHAT$, i tillegg til nettstedsdata og hurtigbuffer for alle nettsteder som ikke beholdes.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Logg og nettstedsdata ble hoppet over fordi denne nettleseren ikke lar utvidelser slette dem."
+  },
+  "skippedHistory": {
+    "message": "Loggen ble hoppet over fordi denne nettleseren ikke lar utvidelser slette den."
+  },
+  "skippedSiteData": {
+    "message": "Nettstedsdata ble hoppet over fordi denne nettleseren ikke lar utvidelser slette dem."
+  },
+  "cookiesSkipped": {
+    "message": "Informasjonskapsler ble hoppet over fordi tilgang til nettsteder er av."
+  },
+  "loadFailed": {
+    "message": "Kunne ikke laste inn innstillingene."
+  }
+}

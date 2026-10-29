@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "ನಿರ್ಬಂಧಿತ ವೆಬ್‌ಪುಟಗಳಲ್ಲಿ ನಕಲಿಸುವುದು, ಪಠ್ಯ ಆಯ್ಕೆ ಮತ್ತು ಬಲ-ಕ್ಲಿಕ್ ಮೆನುಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ."
+  },
+  "commandDescription": {
+    "message": "ಪ್ರಸ್ತುತ ಪುಟದಲ್ಲಿ ನಕಲು ಮತ್ತು ಬಲ ಕ್ಲಿಕ್ ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: ಸಕ್ರಿಯ",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "ನಕಲು ಮತ್ತು ಬಲ ಕ್ಲಿಕ್ ಸಕ್ರಿಯಗೊಂಡಿವೆ."
+  },
+  "optionsTitle": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ಸೈಟ್‌ಗಳು | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub ರೆಪೊಸಿಟರಿ, ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ"
+  },
+  "automaticSitesHeading": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ಸೈಟ್‌ಗಳು"
+  },
+  "automaticSitesIntro": {
+    "message": "ನೀವು ಸೇರಿಸುವ ವೆಬ್‌ಸೈಟ್‌ಗಳಲ್ಲಿ ನಕಲಿಸುವುದು, ಪಠ್ಯ ಆಯ್ಕೆ ಮತ್ತು ಬಲ ಕ್ಲಿಕ್ ಅನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಿ."
+  },
+  "siteInputLabel": {
+    "message": "ವೆಬ್‌ಸೈಟ್ ಡೊಮೇನ್"
+  },
+  "addSite": {
+    "message": "ಸೈಟ್ ಸೇರಿಸಿ"
+  },
+  "noSites": {
+    "message": "ಇನ್ನೂ ಯಾವುದೇ ಸ್ವಯಂಚಾಲಿತ ಸೈಟ್ ಸೇರಿಸಿಲ್ಲ."
+  },
+  "siteListLabel": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ಸೈಟ್‌ಗಳು"
+  },
+  "remove": {
+    "message": "ತೆಗೆದುಹಾಕಿ"
+  },
+  "removeSite": {
+    "message": "$SITE$ ತೆಗೆದುಹಾಕಿ",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (ಅನುಮತಿ ತೆಗೆದುಹಾಕಲಾಗಿದೆ)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ ಸೇರಿಸಲಾಗಿದೆ.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ ಮತ್ತೆ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ ತೆಗೆದುಹಾಕಲಾಗಿದೆ.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "ಈ ಸೈಟ್ ಈಗಾಗಲೇ ಸಕ್ರಿಯವಾಗಿದೆ."
+  },
+  "invalidDomain": {
+    "message": "example.com ನಂತಹ ಮಾನ್ಯ ಡೊಮೇನ್ ನಮೂದಿಸಿ."
+  },
+  "permissionNotGranted": {
+    "message": "ಸೈಟ್ ಅನುಮತಿ ನೀಡಲಾಗಿಲ್ಲ."
+  },
+  "addFailed": {
+    "message": "ಸೈಟ್ ಸೇರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  },
+  "removeFailed": {
+    "message": "ಸೈಟ್ ತೆಗೆದುಹಾಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  },
+  "loadFailed": {
+    "message": "ಸೈಟ್‌ಗಳ ಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ."
+  }
+}

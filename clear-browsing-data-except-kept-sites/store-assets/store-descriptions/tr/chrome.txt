@@ -1,0 +1,90 @@
+Tarayıcı açılırken, tuttuğunuz siteler dışındaki tüm sitelerin geçmişini, çerezlerini ve site verilerini temizler.
+
+Clear Browsing Data Except Kept Sites, saklamayı seçmediğiniz tüm sitelerin geçmiş kayıtlarını, çerezlerini ve site verilerini kaldıran hafif, açık kaynaklı bir uzantıdır.
+
+Ayarlarda oturumunuzun açık kalmasını ve hatırlanmayı istediğiniz siteleri ekleyin, ardından temizlemeyi açın. Tarayıcı her açıldığında uzantı diğer tüm sitelerin geçmişini, çerezlerini ve site verilerini siler. "Şimdi temizle" düğmesiyle istediğiniz zaman da temizleyebilirsiniz.
+
+İpucu: Uzantı simgesinin araç çubuğunda her zaman görünmesi için Chrome Uzantılar menüsünden (yapboz parçası simgesi) uzantıyı sabitleyin.
+
+TEMEL ÖZELLİKLER
+
+• Geçmişi ve çerezleri hiç temizlenmeyen sitelerin listesi; metin dosyası olarak içe ve dışa aktarma
+• Açtıktan sonra, tarayıcı açılırken diğer tüm sitelerin geçmişini ve çerezlerini temizler
+• "Şimdi temizle" düğmesiyle istediğiniz zaman temizleme ve "Kalanları temizle" düğmesiyle artık bulunamayan sitelerden kalan verileri temizleme
+• Saklanan bir sitenin alt alan adlarını otomatik olarak saklar
+• Saklanan bir sitenin oturumunuzu açık tutmak için ihtiyaç duyduğu üst alan adı çerezlerini saklar
+• Bölümlenmiş (üçüncü taraf) çerezleri temizler; saklanan bir sitenin bölümlenmiş çerezleri yalnızca saklanan sitelerin altında kalır
+• Saklanmayan sitelerin yerel depolamasını, IndexedDB'sini, service worker'larını ve önbelleğini temizler
+• Son temizlemenin sonucunu ayarlarda gösterir
+• Site erişimi kapalıyken ve çerezler silinemezken uyarır
+• Analiz veya izleme yok
+• Uzak kod veya ağ isteği yok
+
+SAKLANAN SİTELER
+
+Ayarları açın ve bir alan adı ekleyin, örneğin:
+
+example.com
+
+Birkaçını birden eklemek için virgülle ayırın.
+
+"Dışa aktar" listeyi her satırda bir alan adı olacak şekilde bir metin dosyasına kaydeder. "İçe aktar" listeyi bir metin dosyasındaki sitelerle değiştirir ve bu işlem şu anda sakladığınız siteleri kaldıracaksa önce uyarır.
+
+mail.example.com/inbox gibi bir adres alan adına kısaltılır ve baştaki www. atılır. localhost ve 192.168.1.1 gibi IPv4 adresleri de kabul edilir.
+
+example.com'u saklamak, example.com'un ve tüm alt alan adlarının geçmişini, çerezlerini ve site verilerini saklar. mail.example.com'u saklamak example.com'un çerezlerini de saklar, çünkü bunlar genellikle alt alan adının oturum bilgisini içerir.
+
+AYARLARI AÇMA
+
+Ayarlar yüklemeden sonra otomatik olarak açılır; böylece temizlemeyi açmadan önce listeyi doldurabilirsiniz. Daha sonra araç çubuğundaki uzantı simgesine tıklayın veya:
+
+1. Araç çubuğundaki uzantı simgesine sağ tıklayın.
+2. Seçenekler'i seçin.
+
+AÇILIŞTA TEMİZLEME
+
+Yüklemeden sonra temizleme kapalıdır, bu yüzden siz istemedikçe hiçbir şey kaldırılmaz. Ayarlarda "Temizleme kapalı" bildirimi ve "Temizlemeyi aç" düğmesi görünür. Açmak önce bir uyarı gösterir: her açılış, saklananlar dışındaki tüm sitelerin geçmişini ve çerezlerini siler ve sizi bu sitelerden, hiçbir site saklanmıyorsa tüm sitelerden çıkış yaptırır.
+
+Açıkken temizleme, tarayıcı her açıldığında çalışır, çünkü tarayıcı uzantıların kapanışta çalışmasına izin vermez. Açılışta temizleme önceki oturumdan kalanları kaldırır. Ayarlardaki "Tarayıcı açılırken otomatik olarak temizle" seçeneğiyle kapatın veya yeniden açın.
+
+ŞİMDİ TEMİZLE VE KALANLARI TEMİZLE
+
+Ayarlardaki "Şimdi temizle" hemen temizler. Hiçbir site saklanmıyorsa önce her şeyin silineceğini söyleyen kırmızı bir uyarı görünür. Ayarlar son temizlemenin ne zaman yapıldığını ve kaç geçmiş kaydı ile çerez sildiğini gösterir.
+
+Bir temizleme bir sitenin geçmişini ve çerezlerini kaldırdıktan sonra sonraki temizlemeler o siteyi artık bulamaz; bu yüzden sitenin yerel depolaması, veritabanları ve önbelleği kalır. "Kalanları temizle" bir temizleme çalıştırır, ardından bulunsun ya da bulunmasın saklamadığınız tüm sitelerin verilerini siler. Tarayıcı burada yalnızca tam olarak eşleşen siteleri esirgeyebilir; bu yüzden saklanan bir site verilerini yalnızca kendisi ve temizlemenin geçmişte, çerezlerde ve açık sekmelerde bulduğu saklanan siteler için tutar; kırmızı bir uyarı bunu önceden söyler.
+
+SİTE ERİŞİMİ
+
+Çerezler yalnızca uzantının erişimi olan sitelerden kaldırılabilir; bu yüzden uzantı tüm sitelere erişim ister. Site erişimini örneğin "Tıklandığında" olarak sınırlarsanız geçmiş yine temizlenir, ancak çerezler atlanır ve ayarlarda "Site erişimine izin ver" düğmesi görünür.
+
+SINIRLAMALAR
+
+• Açılışta geri yüklenen sekmeler, temizleme sürerken yeni çerezler ayarlayabilir. Bu çerezler bir sonraki açılışa veya bir sonraki "Şimdi temizle" işlemine kadar kalır.
+• Oturum depolaması, site izinleri ve File System API ile kaydedilen dosyalar gibi diğer site verileri temizlenmez.
+• Tarayıcı eşitlemesi geçmişi içeriyorsa kaldırılan geçmiş kayıtları diğer cihazlarınızdan da kaldırılabilir.
+• Gizli pencereler yalnızca uzantıya gizli modda izin verildiğinde temizlenir. Chrome bu pencerelerin verilerini kapanırken zaten atar.
+• IPv6 adresleri listeye eklenemez.
+
+GİZLİLİK
+
+• Analiz veya izleme yok
+• Veri toplama yok
+• Ağ isteği yok
+• Uzak kod yok
+• Harici JavaScript yok
+• Geçmiş ve çerezler yalnızca neyin kaldırılacağına karar vermek için ve yalnızca tarayıcınızda okunur
+• Liste ve ayarlar tarayıcınızda yerel olarak saklanır
+
+PERFORMANS
+
+Uzantı siz gezinirken hiçbir şey yapmaz. Temizleme açıksa tarayıcı açılırken bir kez ve "Şimdi temizle" veya "Kalanları temizle" düğmesine tıkladığınızda çalışır.
+
+Uzun bir geçmişin ilk temizlenmesi birkaç dakika sürebilir, çünkü her geçmiş kaydı ayrı ayrı silinir. Bu sırada gezinmeye devam edebilirsiniz. Sonraki temizlemeler yalnızca önceki oturumun kayıtlarını kaldırır.
+
+AÇIK KAYNAK
+
+Clear Browsing Data Except Kept Sites, MIT Lisansı altında sunulan açık kaynaklı bir projedir.
+
+Kaynak kodunu incelemek, sorun bildirmek veya katkıda bulunmak için GitHub'ı ziyaret edin:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

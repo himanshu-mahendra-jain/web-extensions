@@ -1,0 +1,42 @@
+Siere la schede atuâl cuntun tic cun trê dêts, un clic dal mieç o un clic te sbare dai imprescj.
+
+Three Finger Tap to Close Tab e je une estension lizere e a sorzint vierte che e ufrìs un mût svelt e sempliç par sierâ la schede atuâl dal navigadôr.
+
+Tocje cun trê dêts o fâs clic cul boton dal mieç dulà che tu vûs suntune pagjine web, fûr dai colegaments e dai cjamps modificabii, par sierâ la schede atuâl. Tu puedis ancje fâ clic su la icone de estension te sbare dai imprescj.
+
+In Firefox par Android, tocje Three Finger Tap to Close Tab tal menù Estensions dal navigadôr par sierâ la schede atuâl. Un tic sul schermi nol è un clic dal mieç, duncje tocjâ une pagjine web nol siere mai la schede.
+
+Il clic dal mieç sui colegaments e su lis schedis dai flus al ten il compuartament normâl dal navigadôr, duncje tu puedis continuâ a vierzi colegaments e publicazions in gnovis schedis come simpri. Un margjin di sigurece integrât al impedìs di sierâ la schede par erôr se tu tocjis dongje di un colegament o di un control.
+
+FUNZIONS PRINCIPÂLS
+
+• Siere la schede atuâl cuntun tic cun trê dêts
+• Siere la schede atuâl cuntun clic dal mieç
+• Siere la schede atuâl cuntun clic te sbare dai imprescj
+• Al ten il clic dal mieç normâl sui colegaments, sui botons e su lis schedis dai flus
+• Il margjin di sigurece al impedìs sieradis par erôr dongje dai elements interatîfs
+• Nol siere schedis intant che tu dopris modui e cjamps modificabii
+• Nissun menù a comparse e nissune impostazion
+
+CONFIGURAZION DAL TOUCHPAD
+
+Il touchpad e il sisteme operatîf a scugnin jessi configurâts in mût che un tic cun trê dêts al gjeneri un clic dal mieç.
+
+Dopo de configurazion, tocje cun trê dêts une pagjine web fûr dai colegaments e dal contignût interatîf par sierâ la schede atuâl.
+
+RISERVATECE
+
+• Nissune analisi e nissun tracjament
+• Nissune racuelte di dâts o di cronologjie di navigazion
+• Nissune richieste di rêt
+• Nissune ativitât di navigazion o preference salvade
+
+Dutis lis schedis si sierin in locâl, tal to navigadôr.
+
+SORZINT VIERTE
+
+Three Finger Tap to Close Tab al è a sorzint vierte e al è distribuît cu la licence MIT.
+
+Viôt il codiç sorzint, segnale problemis o contribuìs su GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

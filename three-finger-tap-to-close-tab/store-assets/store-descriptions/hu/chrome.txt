@@ -1,0 +1,42 @@
+Zárja be az aktuális lapot háromujjas koppintással, középső kattintással vagy az eszköztáron kattintva.
+
+A Three Finger Tap to Close Tab egy könnyű, nyílt forráskódú bővítmény, amellyel gyorsan és egyszerűen bezárhatja a böngésző aktuális lapját.
+
+Koppintson három ujjal vagy kattintson a középső gombbal bárhol a weboldalon a linkeken és szerkeszthető mezőkön kívül az aktuális lap bezárásához. A lapot az eszköztáron a bővítmény ikonjára kattintva is bezárhatja.
+
+Tipp: Rögzítse a bővítményt a Chrome Bővítmények menüjében (kirakós ikon), hogy ikonja mindig kéznél legyen az eszköztáron.
+
+A linkekre és hírfolyamkártyákra mért középső kattintás megtartja a böngésző szokásos viselkedését, így továbbra is új lapon nyithatja meg a linkeket és bejegyzéseket. A beépített biztonsági sáv megakadályozza, hogy a lap véletlenül bezáruljon, ha egy link vagy vezérlő mellé koppint.
+
+FŐ FUNKCIÓK
+
+• Az aktuális lap bezárása háromujjas koppintással
+• Az aktuális lap bezárása középső kattintással
+• Az aktuális lap bezárása az eszköztáron kattintva
+• Megtartja a szokásos középső kattintást linkeken, gombokon és hírfolyamkártyákon
+• A biztonsági sáv megakadályozza a véletlen bezárást interaktív elemek közelében
+• Nem zár be lapot, amíg űrlapokat és szerkeszthető mezőket használ
+• Nincsenek felugró menük és beállítások
+
+AZ ÉRINTŐPAD BEÁLLÍTÁSA
+
+Az érintőpadot és az operációs rendszert úgy kell beállítani, hogy a háromujjas koppintás középső kattintást adjon.
+
+Ezután koppintson három ujjal a weboldalra a linkeken és interaktív tartalmakon kívül az aktuális lap bezárásához.
+
+ADATVÉDELEM
+
+• Nincs analitika vagy követés
+• Nem gyűjt adatokat vagy böngészési előzményeket
+• Nincsenek hálózati kérések
+• Nem tárol böngészési tevékenységet vagy beállításokat
+
+A lapok bezárása mindig helyben, a böngészőjében történik.
+
+NYÍLT FORRÁSKÓD
+
+A Three Finger Tap to Close Tab egy nyílt forráskódú projekt MIT licenc alatt.
+
+Forráskód megtekintése, hibajelentés vagy hozzájárulás a GitHubon:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,552 @@
+{
+  "extensionDescription": {
+    "message": "Pri pokretanju preglednika briše povijest, kolačiće i podatke web-mjesta svih web-mjesta osim onih koje zadržavate."
+  },
+  "optionsTitle": {
+    "message": "Zadržana web-mjesta | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub repozitorij, otvara se u novoj kartici"
+  },
+  "accessHeading": {
+    "message": "Pristup web-mjestima je isključen"
+  },
+  "allowSiteAccess": {
+    "message": "Dopusti pristup web-mjestima"
+  },
+  "accessHistorySiteData": {
+    "message": "Bez pristupa web-mjestima proširenje ne može brisati kolačiće. Povijest i podaci web-mjesta i dalje se brišu."
+  },
+  "accessHistory": {
+    "message": "Bez pristupa web-mjestima proširenje ne može brisati kolačiće. Povijest se i dalje briše."
+  },
+  "accessSiteData": {
+    "message": "Bez pristupa web-mjestima proširenje ne može brisati kolačiće. Podaci web-mjesta i dalje se brišu."
+  },
+  "accessNothing": {
+    "message": "Bez pristupa web-mjestima proširenje ne može brisati kolačiće, pa se ništa ne briše."
+  },
+  "clearingOffHeading": {
+    "message": "Brisanje je isključeno"
+  },
+  "clearingOffText": {
+    "message": "Još se ništa ne briše. Dodajte web-mjesta na kojima želite ostati prijavljeni, a zatim uključite brisanje. Od tada će se pri svakom pokretanju preglednika brisati podaci ($DATA$) svih ostalih web-mjesta.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Uključi brisanje"
+  },
+  "keptSitesHeading": {
+    "message": "Zadržana web-mjesta"
+  },
+  "intro": {
+    "message": "Ova web-mjesta i njihove poddomene zadržavaju svoje podatke ($DATA$), pa ostajete prijavljeni. Dok je brisanje uključeno, sva ostala web-mjesta gube ih pri svakom pokretanju preglednika.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Domene web-mjesta"
+  },
+  "keep": {
+    "message": "Zadrži"
+  },
+  "siteHint": {
+    "message": "Više web-mjesta odvojite zarezima."
+  },
+  "noSites": {
+    "message": "Još nema zadržanih web-mjesta, pa brisanje briše podatke ($DATA$) svih web-mjesta.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Zadržana web-mjesta"
+  },
+  "clearingHeading": {
+    "message": "Brisanje"
+  },
+  "clearOnStartupLabel": {
+    "message": "Automatski briši pri pokretanju preglednika"
+  },
+  "clearNow": {
+    "message": "Izbriši sada"
+  },
+  "firstClearHint": {
+    "message": "Prvo brisanje može potrajati nekoliko minuta ako preglednik ima mnogo podataka o pregledavanju. U međuvremenu možete nastaviti pregledavati."
+  },
+  "leftoversHeading": {
+    "message": "Preostali podaci web-mjesta"
+  },
+  "leftoversIntro": {
+    "message": "Kad se povijest i kolačići web-mjesta izbrišu, proširenje ga više ne pronalazi, pa njegova lokalna pohrana, baze podataka i predmemorija ostaju. „Izbriši ostatke” nakon brisanja poput „Izbriši sada” briše podatke svih web-mjesta koja ne zadržavate, pronađenih ili ne."
+  },
+  "clearLeftovers": {
+    "message": "Izbriši ostatke"
+  },
+  "transferHeading": {
+    "message": "Uvoz i izvoz"
+  },
+  "transferIntro": {
+    "message": "Spremite zadržana web-mjesta u tekstnu datoteku ili ih zamijenite web-mjestima iz datoteke. Datoteka može imati jedno web-mjesto po retku ili ih odvajati zarezima."
+  },
+  "export": {
+    "message": "Izvezi"
+  },
+  "import": {
+    "message": "Uvezi"
+  },
+  "cancel": {
+    "message": "Odustani"
+  },
+  "dataAll": {
+    "message": "povijest, kolačići i podaci web-mjesta"
+  },
+  "dataNoHistory": {
+    "message": "kolačići i podaci web-mjesta"
+  },
+  "dataNoSiteData": {
+    "message": "povijest i kolačići"
+  },
+  "dataCookies": {
+    "message": "kolačići"
+  },
+  "remove": {
+    "message": "Ukloni"
+  },
+  "removeSite": {
+    "message": "Ukloni $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ je uklonjeno. Njegovi podaci ($DATA$) izbrisat će se pri sljedećem brisanju.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Web-mjesto nije moguće ukloniti."
+  },
+  "siteKept": {
+    "message": "$SITE$ je zadržano.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Zadržano je $COUNT$ web-mjesto.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_few": {
+    "message": "Zadržana su $COUNT$ web-mjesta.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Zadržano je $COUNT$ web-mjesta.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ je već zadržano.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ web-mjesto već je zadržano.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_few": {
+    "message": "$COUNT$ web-mjesta već su zadržana.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ web-mjesta već je zadržano.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ nije valjana domena.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Ovo nisu valjane domene: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Unesite valjanu domenu, npr. example.com."
+  },
+  "addSiteFailed": {
+    "message": "Web-mjesto nije moguće dodati."
+  },
+  "addSitesFailed": {
+    "message": "Web-mjesta nije moguće dodati."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ je veća od 1 MB, pa zadržana web-mjesta nisu promijenjena.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ nema valjanih domena, pa zadržana web-mjesta nisu promijenjena.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Zamijeniti zadržana web-mjesta?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ web-mjesto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_few": {
+    "message": "$COUNT$ web-mjesta",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ web-mjesta",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Web-mjesta koja sada zadržavate ($CURRENT$) zamijenit će se web-mjestima iz datoteke $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ web-mjesto više se neće zadržavati, a njegovi podaci ($DATA$) izbrisat će se pri sljedećem brisanju.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_few": {
+    "message": "$COUNT$ web-mjesta više se neće zadržavati, a njihovi podaci ($DATA$) izbrisat će se pri sljedećem brisanju.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ web-mjesta više se neće zadržavati, a njihovi podaci ($DATA$) izbrisat će se pri sljedećem brisanju.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Zamijeni zadržana web-mjesta"
+  },
+  "sitesImported_one": {
+    "message": "Iz datoteke $FILE$ uvezeno je $COUNT$ web-mjesto.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_few": {
+    "message": "Iz datoteke $FILE$ uvezena su $COUNT$ web-mjesta.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Iz datoteke $FILE$ uvezeno je $COUNT$ web-mjesta.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Zadržana web-mjesta nije moguće izvesti."
+  },
+  "importFailed": {
+    "message": "Zadržana web-mjesta nije moguće uvesti iz datoteke $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Uključiti brisanje?"
+  },
+  "turnOnKept": {
+    "message": "Pri svakom pokretanju preglednika brisat će se podaci ($DATA$) svih web-mjesta osim onih koje ste odlučili zadržati. Bit ćete odjavljeni sa svih ostalih web-mjesta.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Niste odabrali nijedno web-mjesto za zadržavanje. Pri svakom pokretanju preglednika brisat će se svi podaci ($DATA$) i bit ćete odjavljeni sa svih web-mjesta.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Izbrisane podatke ($DATA$) nije moguće vratiti.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Izbrisati sve sada?"
+  },
+  "clearEverythingText": {
+    "message": "Niste odabrali nijedno web-mjesto za zadržavanje, pa će se sada izbrisati podaci ($DATA$) svih web-mjesta i bit ćete odjavljeni sa svih web-mjesta.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Izbriši sve"
+  },
+  "leftoversTitle": {
+    "message": "Izbrisati preostale podatke web-mjesta?"
+  },
+  "leftoversKept": {
+    "message": "Sada će se izbrisati podaci ($DATA$) svih web-mjesta koja ne zadržavate, uključujući podatke web-mjesta koja proširenje više ne pronalazi.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Zadržano web-mjesto zadržava svoje podatke samo na adresama koje proširenje pronađe u povijesti, kolačićima i otvorenim karticama. Svaka druga poddomena ili priključak zadržanog web-mjesta, primjerice poddomena koju mjesecima niste posjetili ili lokalni poslužitelj na drugom priključku, gubi svoje podatke i možete biti odjavljeni s nje."
+  },
+  "clearing": {
+    "message": "Brisanje… Može potrajati nekoliko minuta."
+  },
+  "leftoversFailed": {
+    "message": "Brisanje preostalih podataka web-mjesta nije uspjelo."
+  },
+  "leftoversCleared": {
+    "message": "Preostali podaci web-mjesta izbrisani su."
+  },
+  "nothingClearedYet": {
+    "message": "Još ništa nije izbrisano."
+  },
+  "clearFailed": {
+    "message": "Brisanje ($WHEN$) nije uspjelo.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ stavka povijesti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_few": {
+    "message": "$COUNT$ stavke povijesti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ stavki povijesti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ kolačić",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_few": {
+    "message": "$COUNT$ kolačića",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ kolačića",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "ništa"
+  },
+  "lastCleared": {
+    "message": "Zadnje brisanje: $WHEN$. Izbrisano: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Zadnje brisanje: $WHEN$. Izbrisano: $WHAT$, uz podatke web-mjesta i predmemoriju.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Zadnje brisanje: $WHEN$. Izbrisano: $WHAT$, uz podatke i predmemoriju svih nezadržanih web-mjesta.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Povijest i podaci web-mjesta preskočeni su jer ovaj preglednik ne dopušta proširenjima da ih brišu."
+  },
+  "skippedHistory": {
+    "message": "Povijest je preskočena jer ovaj preglednik ne dopušta proširenjima da je brišu."
+  },
+  "skippedSiteData": {
+    "message": "Podaci web-mjesta preskočeni su jer ovaj preglednik ne dopušta proširenjima da ih brišu."
+  },
+  "cookiesSkipped": {
+    "message": "Kolačići su preskočeni jer je pristup web-mjestima isključen."
+  },
+  "loadFailed": {
+    "message": "Postavke nije moguće učitati."
+  }
+}

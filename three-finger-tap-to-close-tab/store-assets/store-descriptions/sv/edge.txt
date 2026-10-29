@@ -1,0 +1,42 @@
+Stäng den aktuella fliken med ett tryck med tre fingrar, ett mittenklick eller ett klick i verktygsfältet.
+
+Three Finger Tap to Close Tab är ett lätt tillägg med öppen källkod som ger ett snabbt och enkelt sätt att stänga den aktuella webbläsarfliken.
+
+Tryck med tre fingrar eller mittenklicka var som helst på en webbsida utanför länkar och redigerbara fält för att stänga den aktuella fliken. Du kan också klicka på tilläggets ikon i verktygsfältet.
+
+Tips: I Edges tilläggsmeny slår du på «Visa i verktygsfältet» för Three Finger Tap to Close Tab för enkel åtkomst.
+
+Mittenklick på länkar och flödeskort behåller webbläsarens vanliga beteende, så du kan fortsätta öppna länkar och inlägg i nya flikar som vanligt. En inbyggd säkerhetsmarginal hindrar att fliken stängs av misstag om du trycker precis bredvid en länk eller kontroll.
+
+VIKTIGASTE FUNKTIONER
+
+• Stäng den aktuella fliken med ett tryck med tre fingrar
+• Stäng den aktuella fliken med ett mittenklick
+• Stäng den aktuella fliken med ett klick i verktygsfältet
+• Behåller vanligt mittenklick på länkar, knappar och flödeskort
+• Säkerhetsmarginal hindrar oavsiktlig stängning nära interaktiva element
+• Stänger inte flikar medan du använder formulär och redigerbara fält
+• Inga popup-menyer eller inställningar
+
+STÄLLA IN STYRPLATTAN
+
+Styrplattan och operativsystemet måste vara inställda så att ett tryck med tre fingrar ger ett mittenklick.
+
+Tryck sedan med tre fingrar på en webbsida utanför länkar och interaktivt innehåll för att stänga den aktuella fliken.
+
+INTEGRITET
+
+• Ingen analys eller spårning
+• Ingen insamling av data eller webbhistorik
+• Inga nätverksförfrågningar
+• Ingen sparad webbaktivitet eller inställningar
+
+Flikar stängs alltid lokalt i din webbläsare.
+
+ÖPPEN KÄLLKOD
+
+Three Finger Tap to Close Tab är öppen källkod och licensierad under MIT-licensen.
+
+Granska källkoden, rapportera problem eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

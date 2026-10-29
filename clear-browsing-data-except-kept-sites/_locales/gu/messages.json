@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "બ્રાઉઝર શરૂ થાય ત્યારે, તમે રાખો છો તે સિવાયની બધી સાઇટનો ઇતિહાસ, કૂકી અને સાઇટ ડેટા સાફ કરે છે."
+  },
+  "optionsTitle": {
+    "message": "રાખેલી સાઇટ | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub રિપોઝિટરી, નવા ટૅબમાં ખૂલે છે"
+  },
+  "accessHeading": {
+    "message": "સાઇટ ઍક્સેસ બંધ છે"
+  },
+  "allowSiteAccess": {
+    "message": "સાઇટ ઍક્સેસની મંજૂરી આપો"
+  },
+  "accessHistorySiteData": {
+    "message": "વેબસાઇટની ઍક્સેસ વિના, એક્સ્ટેંશન કૂકી ડિલીટ કરી શકતું નથી. ઇતિહાસ અને સાઇટ ડેટા હજુ પણ સાફ થાય છે."
+  },
+  "accessHistory": {
+    "message": "વેબસાઇટની ઍક્સેસ વિના, એક્સ્ટેંશન કૂકી ડિલીટ કરી શકતું નથી. ઇતિહાસ હજુ પણ સાફ થાય છે."
+  },
+  "accessSiteData": {
+    "message": "વેબસાઇટની ઍક્સેસ વિના, એક્સ્ટેંશન કૂકી ડિલીટ કરી શકતું નથી. સાઇટ ડેટા હજુ પણ સાફ થાય છે."
+  },
+  "accessNothing": {
+    "message": "વેબસાઇટની ઍક્સેસ વિના, એક્સ્ટેંશન કૂકી ડિલીટ કરી શકતું નથી, તેથી કંઈ સાફ થતું નથી."
+  },
+  "clearingOffHeading": {
+    "message": "સાફ કરવાનું બંધ છે"
+  },
+  "clearingOffText": {
+    "message": "હજુ કંઈ ડિલીટ થતું નથી. જે સાઇટમાં તમે સાઇન ઇન રહેવા માંગો છો તે ઉમેરો, પછી સાફ કરવાનું ચાલુ કરો. ત્યારથી, દર વખતે બ્રાઉઝર શરૂ થાય ત્યારે, બાકીની બધી સાઇટનો ડેટા ($DATA$) ડિલીટ થશે.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "સાફ કરવાનું ચાલુ કરો"
+  },
+  "keptSitesHeading": {
+    "message": "રાખેલી સાઇટ"
+  },
+  "intro": {
+    "message": "આ સાઇટ અને તેમના સબડોમેન પોતાનો ડેટા ($DATA$) રાખે છે, તેથી તમે સાઇન ઇન રહો છો. સાફ કરવાનું ચાલુ હોય ત્યાં સુધી, બાકીની બધી સાઇટ દર વખતે બ્રાઉઝર શરૂ થાય ત્યારે તે ગુમાવે છે.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "વેબસાઇટ ડોમેન"
+  },
+  "keep": {
+    "message": "રાખો"
+  },
+  "siteHint": {
+    "message": "એકથી વધુ સાઇટને અલ્પવિરામથી અલગ કરો."
+  },
+  "noSites": {
+    "message": "હજુ કોઈ સાઇટ રાખેલી નથી, તેથી સાફ કરવાથી દરેક સાઇટનો ડેટા ($DATA$) ડિલીટ થાય છે.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "રાખેલી સાઇટ"
+  },
+  "clearingHeading": {
+    "message": "સાફ કરવું"
+  },
+  "clearOnStartupLabel": {
+    "message": "બ્રાઉઝર શરૂ થાય ત્યારે આપમેળે સાફ કરો"
+  },
+  "clearNow": {
+    "message": "હમણાં સાફ કરો"
+  },
+  "firstClearHint": {
+    "message": "બ્રાઉઝરમાં ઘણો બ્રાઉઝિંગ ડેટા હોય તો પહેલી વાર સાફ કરવામાં કેટલીક મિનિટ લાગી શકે છે. તે દરમિયાન તમે બ્રાઉઝ કરવાનું ચાલુ રાખી શકો છો."
+  },
+  "leftoversHeading": {
+    "message": "બાકી રહેલો સાઇટ ડેટા"
+  },
+  "leftoversIntro": {
+    "message": "કોઈ સાઇટનો ઇતિહાસ અને કૂકી ડિલીટ થઈ જાય પછી, એક્સ્ટેંશન તેને શોધી શકતું નથી, તેથી તેનો લોકલ સ્ટોરેજ, ડેટાબેઝ અને કૅશ રહી જાય છે. ‘બાકી રહેલું સાફ કરો’ હમણાં સાફ કરો જેવી સફાઈ પછી, તમે ન રાખતા હો તેવી દરેક સાઇટનો સાઇટ ડેટા ડિલીટ કરે છે, મળી હોય કે નહીં."
+  },
+  "clearLeftovers": {
+    "message": "બાકી રહેલું સાફ કરો"
+  },
+  "transferHeading": {
+    "message": "ઇમ્પોર્ટ અને એક્સપોર્ટ"
+  },
+  "transferIntro": {
+    "message": "તમારી રાખેલી સાઇટને ટેક્સ્ટ ફાઇલમાં સાચવો, અથવા તેમને કોઈ ફાઇલની સાઇટથી બદલો. ફાઇલમાં દરેક લાઇન પર એક સાઇટ હોઈ શકે અથવા અલ્પવિરામથી અલગ કરેલી સાઇટ હોઈ શકે."
+  },
+  "export": {
+    "message": "એક્સપોર્ટ કરો"
+  },
+  "import": {
+    "message": "ઇમ્પોર્ટ કરો"
+  },
+  "cancel": {
+    "message": "રદ કરો"
+  },
+  "dataAll": {
+    "message": "ઇતિહાસ, કૂકી અને સાઇટ ડેટા"
+  },
+  "dataNoHistory": {
+    "message": "કૂકી અને સાઇટ ડેટા"
+  },
+  "dataNoSiteData": {
+    "message": "ઇતિહાસ અને કૂકી"
+  },
+  "dataCookies": {
+    "message": "કૂકી"
+  },
+  "remove": {
+    "message": "દૂર કરો"
+  },
+  "removeSite": {
+    "message": "$SITE$ દૂર કરો",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ દૂર કરી. તેનો ડેટા ($DATA$) આગલી સફાઈમાં ડિલીટ થશે.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "સાઇટ દૂર કરી શકાઈ નહીં."
+  },
+  "siteKept": {
+    "message": "$SITE$ રાખી છે.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ સાઇટ રાખી છે.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ સાઇટ રાખી છે.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ પહેલેથી રાખેલી છે.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ સાઇટ પહેલેથી રાખેલી છે.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ સાઇટ પહેલેથી રાખેલી છે.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ માન્ય ડોમેન નથી.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "આ માન્ય ડોમેન નથી: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "માન્ય ડોમેન દાખલ કરો, જેમ કે example.com."
+  },
+  "addSiteFailed": {
+    "message": "સાઇટ ઉમેરી શકાઈ નહીં."
+  },
+  "addSitesFailed": {
+    "message": "સાઇટ ઉમેરી શકાઈ નહીં."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ 1 MB કરતાં મોટી છે, તેથી રાખેલી સાઇટ બદલાઈ નથી.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$માં કોઈ માન્ય ડોમેન નથી, તેથી રાખેલી સાઇટ બદલાઈ નથી.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "રાખેલી સાઇટ બદલવી છે?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ સાઇટ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ સાઇટ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "તમે હમણાં રાખેલી સાઇટ ($CURRENT$) $FILE$ની સાઇટ ($NEW$) વડે બદલાશે.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ સાઇટ હવે રાખવામાં નહીં આવે, અને તેનો ડેટા ($DATA$) આગલી સફાઈમાં ડિલીટ થશે.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ સાઇટ હવે રાખવામાં નહીં આવે, અને તેમનો ડેટા ($DATA$) આગલી સફાઈમાં ડિલીટ થશે.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "રાખેલી સાઇટ બદલો"
+  },
+  "sitesImported_one": {
+    "message": "$FILE$માંથી $COUNT$ સાઇટ ઇમ્પોર્ટ કરી.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$FILE$માંથી $COUNT$ સાઇટ ઇમ્પોર્ટ કરી.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "રાખેલી સાઇટ એક્સપોર્ટ કરી શકાઈ નહીં."
+  },
+  "importFailed": {
+    "message": "$FILE$માંથી રાખેલી સાઇટ ઇમ્પોર્ટ કરી શકાઈ નહીં.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "સાફ કરવાનું ચાલુ કરવું છે?"
+  },
+  "turnOnKept": {
+    "message": "દર વખતે બ્રાઉઝર શરૂ થાય ત્યારે, તમે રાખવા માટે પસંદ કરેલી સાઇટ સિવાયની દરેક સાઇટનો ડેટા ($DATA$) ડિલીટ થશે. તમે બાકીની બધી સાઇટમાંથી સાઇન આઉટ થશો.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "તમે રાખવા માટે કોઈ સાઇટ પસંદ કરી નથી. દર વખતે બ્રાઉઝર શરૂ થાય ત્યારે, બધો ડેટા ($DATA$) ડિલીટ થશે, અને તમે દરેક સાઇટમાંથી સાઇન આઉટ થશો.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "ડિલીટ થયેલો ડેટા ($DATA$) પાછો મેળવી શકાતો નથી.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "હમણાં બધું સાફ કરવું છે?"
+  },
+  "clearEverythingText": {
+    "message": "તમે રાખવા માટે કોઈ સાઇટ પસંદ કરી નથી, તેથી હવે દરેક સાઇટનો ડેટા ($DATA$) ડિલીટ થશે, અને તમે દરેક સાઇટમાંથી સાઇન આઉટ થશો.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "બધું સાફ કરો"
+  },
+  "leftoversTitle": {
+    "message": "બાકી રહેલો સાઇટ ડેટા સાફ કરવો છે?"
+  },
+  "leftoversKept": {
+    "message": "તમે ન રાખતા હો તેવી દરેક સાઇટનો ડેટા ($DATA$) હવે ડિલીટ થશે, જેમાં એક્સ્ટેંશનને હવે ન મળતી સાઇટનો સાઇટ ડેટા પણ સામેલ છે.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "રાખેલી સાઇટ પોતાનો સાઇટ ડેટા ફક્ત એવા સરનામાં પર રાખે છે જે એક્સ્ટેંશનને ઇતિહાસ, કૂકી અને ખુલ્લા ટૅબમાં મળે છે. રાખેલી સાઇટનું બીજું કોઈ પણ સબડોમેન કે પોર્ટ, જેમ કે મહિનાઓથી તમે ન ખોલેલું સબડોમેન કે બીજા પોર્ટ પરનું લોકલ સર્વર, પોતાનો સાઇટ ડેટા ગુમાવે છે, અને તમે ત્યાંથી સાઇન આઉટ થઈ શકો છો."
+  },
+  "clearing": {
+    "message": "સાફ કરી રહ્યાં છીએ… તેમાં થોડી મિનિટ લાગી શકે છે."
+  },
+  "leftoversFailed": {
+    "message": "બાકી રહેલો સાઇટ ડેટા સાફ કરવામાં નિષ્ફળ."
+  },
+  "leftoversCleared": {
+    "message": "બાકી રહેલો સાઇટ ડેટા સાફ કર્યો."
+  },
+  "nothingClearedYet": {
+    "message": "હજુ કંઈ સાફ થયું નથી."
+  },
+  "clearFailed": {
+    "message": "$WHEN$ની સફાઈ નિષ્ફળ ગઈ.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ ઇતિહાસ એન્ટ્રી",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ ઇતિહાસ એન્ટ્રી",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ કૂકી",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ કૂકી",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "કંઈ નહીં"
+  },
+  "lastCleared": {
+    "message": "છેલ્લે સાફ કર્યું: $WHEN$. ડિલીટ થયું: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "છેલ્લે સાફ કર્યું: $WHEN$. ડિલીટ થયું: $WHAT$, સાથે સાઇટ ડેટા અને કૅશ.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "છેલ્લે સાફ કર્યું: $WHEN$. ડિલીટ થયું: $WHAT$, સાથે ન રાખેલી દરેક સાઇટનો સાઇટ ડેટા અને કૅશ.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "ઇતિહાસ અને સાઇટ ડેટા છોડી દેવાયા, કારણ કે આ બ્રાઉઝર એક્સ્ટેંશનને તે સાફ કરવા દેતું નથી."
+  },
+  "skippedHistory": {
+    "message": "ઇતિહાસ છોડી દેવાયો, કારણ કે આ બ્રાઉઝર એક્સ્ટેંશનને તે સાફ કરવા દેતું નથી."
+  },
+  "skippedSiteData": {
+    "message": "સાઇટ ડેટા છોડી દેવાયો, કારણ કે આ બ્રાઉઝર એક્સ્ટેંશનને તે સાફ કરવા દેતું નથી."
+  },
+  "cookiesSkipped": {
+    "message": "કૂકી છોડી દેવાઈ, કારણ કે સાઇટ ઍક્સેસ બંધ છે."
+  },
+  "loadFailed": {
+    "message": "સેટિંગ લોડ કરી શકાયા નહીં."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Rýchlo meňte rýchlosť prehrávania videa a zvuku medzi 1x, 1,2x, 1,5x a 2x."
+  },
+  "commandDescription": {
+    "message": "Zmeniť rýchlosť prehrávania videa"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Rýchlosť prehrávania $SPEED$-násobná",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Rýchlosť prehrávania: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

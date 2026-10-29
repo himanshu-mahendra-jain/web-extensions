@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Разрешете копиране, избиране на текст и менюта с десен бутон на уеб страници с ограничения."
+  },
+  "commandDescription": {
+    "message": "Разрешаване на копиране и десен бутон на текущата страница"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Активно",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Копирането и десният бутон са разрешени."
+  },
+  "optionsTitle": {
+    "message": "Автоматични сайтове | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Хранилище в GitHub, отваря се в нов раздел"
+  },
+  "automaticSitesHeading": {
+    "message": "Автоматични сайтове"
+  },
+  "automaticSitesIntro": {
+    "message": "Автоматично разрешаване на копиране, избиране на текст и десен бутон на сайтовете, които добавите."
+  },
+  "siteInputLabel": {
+    "message": "Домейн на уебсайта"
+  },
+  "addSite": {
+    "message": "Добавяне на сайт"
+  },
+  "noSites": {
+    "message": "Все още няма добавени автоматични сайтове."
+  },
+  "siteListLabel": {
+    "message": "Автоматични сайтове"
+  },
+  "remove": {
+    "message": "Премахване"
+  },
+  "removeSite": {
+    "message": "Премахване на $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (разрешението е премахнато)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ е добавен.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ е разрешен отново.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ е премахнат.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Този сайт вече е разрешен."
+  },
+  "invalidDomain": {
+    "message": "Въведете валиден домейн, например example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Разрешението за сайта не беше дадено."
+  },
+  "addFailed": {
+    "message": "Сайтът не можа да бъде добавен."
+  },
+  "removeFailed": {
+    "message": "Сайтът не можа да бъде премахнат."
+  },
+  "loadFailed": {
+    "message": "Списъкът със сайтове не можа да бъде зареден."
+  }
+}

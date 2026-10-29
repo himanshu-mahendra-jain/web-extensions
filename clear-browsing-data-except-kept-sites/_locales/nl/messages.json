@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Wist bij het starten van de browser geschiedenis, cookies en sitegegevens van alle sites behalve de sites die je bewaart."
+  },
+  "optionsTitle": {
+    "message": "Bewaarde sites | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-repository, opent in een nieuw tabblad"
+  },
+  "accessHeading": {
+    "message": "Sitetoegang staat uit"
+  },
+  "allowSiteAccess": {
+    "message": "Sitetoegang toestaan"
+  },
+  "accessHistorySiteData": {
+    "message": "Zonder toegang tot websites kan de extensie geen cookies verwijderen. Geschiedenis en sitegegevens worden nog steeds gewist."
+  },
+  "accessHistory": {
+    "message": "Zonder toegang tot websites kan de extensie geen cookies verwijderen. De geschiedenis wordt nog steeds gewist."
+  },
+  "accessSiteData": {
+    "message": "Zonder toegang tot websites kan de extensie geen cookies verwijderen. Sitegegevens worden nog steeds gewist."
+  },
+  "accessNothing": {
+    "message": "Zonder toegang tot websites kan de extensie geen cookies verwijderen, dus er wordt niets gewist."
+  },
+  "clearingOffHeading": {
+    "message": "Wissen staat uit"
+  },
+  "clearingOffText": {
+    "message": "Er wordt nog niets verwijderd. Voeg de sites toe waarop je ingelogd wilt blijven en zet daarna het wissen aan. Vanaf dan worden bij elke start van de browser de gegevens ($DATA$) van alle andere sites verwijderd.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Wissen aanzetten"
+  },
+  "keptSitesHeading": {
+    "message": "Bewaarde sites"
+  },
+  "intro": {
+    "message": "Deze sites en hun subdomeinen behouden hun gegevens ($DATA$), zodat je ingelogd blijft. Zolang het wissen aanstaat, verliezen alle andere sites ze bij elke start van de browser.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Websitedomeinen"
+  },
+  "keep": {
+    "message": "Bewaren"
+  },
+  "siteHint": {
+    "message": "Scheid meerdere sites met komma's."
+  },
+  "noSites": {
+    "message": "Er worden nog geen sites bewaard, dus bij wissen worden de gegevens ($DATA$) van alle sites verwijderd.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Bewaarde sites"
+  },
+  "clearingHeading": {
+    "message": "Wissen"
+  },
+  "clearOnStartupLabel": {
+    "message": "Automatisch wissen bij het starten van de browser"
+  },
+  "clearNow": {
+    "message": "Nu wissen"
+  },
+  "firstClearHint": {
+    "message": "De eerste keer wissen kan enkele minuten duren als de browser veel browsegegevens bevat. Je kunt intussen gewoon verder browsen."
+  },
+  "leftoversHeading": {
+    "message": "Overgebleven sitegegevens"
+  },
+  "leftoversIntro": {
+    "message": "Zodra de geschiedenis en cookies van een site zijn verwijderd, vindt de extensie die site niet meer, dus blijven de lokale opslag, databases en cache ervan staan. Restanten wissen verwijdert de sitegegevens van alle sites die je niet bewaart, gevonden of niet, na een wisbeurt zoals Nu wissen."
+  },
+  "clearLeftovers": {
+    "message": "Restanten wissen"
+  },
+  "transferHeading": {
+    "message": "Importeren en exporteren"
+  },
+  "transferIntro": {
+    "message": "Sla je bewaarde sites op in een tekstbestand of vervang ze door de sites uit een bestand. Een bestand kan één site per regel bevatten of de sites scheiden met komma's."
+  },
+  "export": {
+    "message": "Exporteren"
+  },
+  "import": {
+    "message": "Importeren"
+  },
+  "cancel": {
+    "message": "Annuleren"
+  },
+  "dataAll": {
+    "message": "geschiedenis, cookies en sitegegevens"
+  },
+  "dataNoHistory": {
+    "message": "cookies en sitegegevens"
+  },
+  "dataNoSiteData": {
+    "message": "geschiedenis en cookies"
+  },
+  "dataCookies": {
+    "message": "cookies"
+  },
+  "remove": {
+    "message": "Verwijderen"
+  },
+  "removeSite": {
+    "message": "$SITE$ verwijderen",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ verwijderd. De gegevens ervan ($DATA$) worden bij de volgende wisbeurt verwijderd.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "De site kan niet worden verwijderd."
+  },
+  "siteKept": {
+    "message": "$SITE$ wordt bewaard.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ site wordt bewaard.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ sites worden bewaard.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ wordt al bewaard.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ site wordt al bewaard.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ sites worden al bewaard.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ is geen geldig domein.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Dit zijn geen geldige domeinen: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Voer een geldig domein in, zoals example.com."
+  },
+  "addSiteFailed": {
+    "message": "De site kan niet worden toegevoegd."
+  },
+  "addSitesFailed": {
+    "message": "De sites kunnen niet worden toegevoegd."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ is groter dan 1 MB, dus de bewaarde sites zijn niet gewijzigd.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ bevat geen geldige domeinen, dus de bewaarde sites zijn niet gewijzigd.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Bewaarde sites vervangen?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ sites",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "De sites die je nu bewaart ($CURRENT$) worden vervangen door de sites in $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ site wordt niet meer bewaard en de gegevens ervan ($DATA$) worden bij de volgende wisbeurt verwijderd.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ sites worden niet meer bewaard en hun gegevens ($DATA$) worden bij de volgende wisbeurt verwijderd.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Bewaarde sites vervangen"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ site geïmporteerd uit $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ sites geïmporteerd uit $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "De bewaarde sites kunnen niet worden geëxporteerd."
+  },
+  "importFailed": {
+    "message": "De bewaarde sites kunnen niet worden geïmporteerd uit $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Wissen aanzetten?"
+  },
+  "turnOnKept": {
+    "message": "Bij elke start van de browser worden de gegevens ($DATA$) van alle sites verwijderd, behalve die je hebt gekozen om te bewaren. Je wordt op alle andere sites uitgelogd.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Je hebt geen sites gekozen om te bewaren. Bij elke start van de browser worden alle gegevens ($DATA$) verwijderd en word je op alle sites uitgelogd.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Verwijderde gegevens ($DATA$) kunnen niet worden hersteld.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Nu alles wissen?"
+  },
+  "clearEverythingText": {
+    "message": "Je hebt geen sites gekozen om te bewaren, dus de gegevens ($DATA$) van alle sites worden nu verwijderd en je wordt op alle sites uitgelogd.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Alles wissen"
+  },
+  "leftoversTitle": {
+    "message": "Overgebleven sitegegevens wissen?"
+  },
+  "leftoversKept": {
+    "message": "De gegevens ($DATA$) van alle sites die je niet bewaart, worden nu verwijderd, ook de sitegegevens van sites die de extensie niet meer vindt.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Een bewaarde site behoudt haar sitegegevens alleen op de adressen die de extensie vindt in de geschiedenis, cookies en geopende tabbladen. Elk ander subdomein of elke andere poort van een bewaarde site, zoals een subdomein dat je al maanden niet hebt bezocht of een lokale server op een andere poort, verliest zijn sitegegevens en je kunt daar worden uitgelogd."
+  },
+  "clearing": {
+    "message": "Bezig met wissen… Dit kan een paar minuten duren."
+  },
+  "leftoversFailed": {
+    "message": "Wissen van overgebleven sitegegevens mislukt."
+  },
+  "leftoversCleared": {
+    "message": "Overgebleven sitegegevens gewist."
+  },
+  "nothingClearedYet": {
+    "message": "Er is nog niets gewist."
+  },
+  "clearFailed": {
+    "message": "Het wissen op $WHEN$ is mislukt.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ geschiedenisitem",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ geschiedenisitems",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "niets"
+  },
+  "lastCleared": {
+    "message": "Laatst gewist: $WHEN$. Verwijderd: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Laatst gewist: $WHEN$. Verwijderd: $WHAT$, plus sitegegevens en cache.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Laatst gewist: $WHEN$. Verwijderd: $WHAT$, plus de sitegegevens en cache van alle niet-bewaarde sites.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Geschiedenis en sitegegevens zijn overgeslagen, omdat deze browser extensies ze niet laat wissen."
+  },
+  "skippedHistory": {
+    "message": "De geschiedenis is overgeslagen, omdat deze browser extensies die niet laat wissen."
+  },
+  "skippedSiteData": {
+    "message": "Sitegegevens zijn overgeslagen, omdat deze browser extensies ze niet laat wissen."
+  },
+  "cookiesSkipped": {
+    "message": "Cookies zijn overgeslagen, omdat sitetoegang uitstaat."
+  },
+  "loadFailed": {
+    "message": "De instellingen kunnen niet worden geladen."
+  }
+}

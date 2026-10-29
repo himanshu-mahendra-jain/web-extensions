@@ -1,0 +1,80 @@
+Engedélyezi a másolást, a szövegkijelölést és a jobb gombos menüket a korlátozó weboldalakon.
+
+Az Enable Copy and Right Click egy könnyű, nyílt forráskódú bővítmény, amely visszaadja a megszokott másolást, szövegkijelölést és jobb kattintást azokon a weboldalakon, amelyek ezeket korlátozzák.
+
+Kattintson a bővítmény ikonjára az eszköztáron, vagy használja a billentyűparancsot, és az aktuális lapon engedélyezi a másolást és a jobb kattintást.
+
+Megbízható webhelyeket az Automatikus webhelyek listájához is hozzáadhat. A bővítmény ezután minden látogatáskor automatikusan engedélyezi rajtuk a másolást és a jobb kattintást.
+
+FŐ FUNKCIÓK
+
+• Engedélyezi a másolást és a szövegkijelölést a korlátozó weboldalakon
+• Engedélyezi a jobb gombos helyi menüket
+• Engedélyezi a másolást, kivágást, beillesztést, szövegkijelölést és húzást
+• Bekapcsolás egy kattintással az eszköztárról
+• Billentyűparancs a gyors bekapcsoláshoz
+• Automatikus bekapcsolás az Ön által választott webhelyeken
+• Működik az elérhető iframe-ekben, ha a böngésző engedélyei megengedik
+• Kézi bekapcsolás után ON jelvényt mutat
+• Nincsenek felugró menük
+• Nincs analitika vagy követés
+• Nincs távoli kód vagy hálózati kérés
+
+ALAPÉRTELMEZETT BILLENTYŰPARANCSOK
+
+• Windows, Linux, ChromeOS, GooglebookOS és Android: Alt+C
+• macOS: Command+Shift+Y
+
+A billentyűparancs ugyanazt teszi, mint a bővítmény ikonjára kattintás.
+
+A BILLENTYŰPARANCS MÓDOSÍTÁSA
+
+1. Nyissa meg a Firefox menüjét, és válassza a Kiegészítők és témák lehetőséget.
+2. Kattintson a fogaskerék ikonra a Kiegészítők oldalon.
+3. Válassza a Kiegészítők gyorsbillentyűinek kezelése lehetőséget.
+4. Keresse meg a Enable Copy and Right Click kiegészítőt, és adja meg a kívánt billentyűparancsot.
+
+AUTOMATIKUS WEBHELYEK
+
+Nyissa meg a bővítmény beállítási oldalát, és adjon hozzá egy domaint, például:
+
+example.com
+
+A bővítmény csak a hozzáadott webhelyhez kér engedélyt. Az engedély megadása után azon a webhelyen automatikusan engedélyezve lesz a másolás, a szövegkijelölés és a jobb kattintás.
+
+Az automatikus webhelyeket bármikor eltávolíthatja a beállítási oldalon.
+
+A BEÁLLÍTÁSI OLDAL MEGNYITÁSA
+
+1. Nyissa meg a Firefox menüjét, és válassza a Kiegészítők és témák lehetőséget.
+2. Keresse meg az Enable Copy and Right Click bővítményt, és kattintson a mellette lévő hárompontos menüre.
+3. Válassza a Beállítások lehetőséget.
+
+ADATVÉDELEM
+
+• Nincs analitika vagy követés
+• Nincs adatgyűjtés
+• Nincs böngészési előzmények gyűjtése
+• Nincs hálózati kérés
+• Nincs távoli kód
+• Nincs külső JavaScript
+• Az automatikus webhelyek beállításai helyben, a böngészőjében tárolódnak
+• Webhelyengedélyt csak akkor kér, amikor Ön kifejezetten hozzáad egy webhelyet
+
+A másolás és a jobb kattintás visszaállítása teljes egészében helyben, a böngészőjében történik.
+
+TELJESÍTMÉNY
+
+A bővítmény könnyű és eseményvezérelt.
+
+Tétlen állapotban nem végez folyamatos háttérmunkát. A kézi bekapcsolás csak akkor fut, ha az eszköztár ikonjára kattint, vagy a billentyűparancsot használja. Az automatikus bekapcsolás csak a kifejezetten hozzáadott webhelyeken fut.
+
+Nincs lekérdezés, háttérbeli hálózati forgalom, analitikai SDK, távoli konfiguráció vagy az oldalakat folyamatosan figyelő ciklus.
+
+NYÍLT FORRÁSKÓD
+
+A Enable Copy and Right Click egy nyílt forráskódú projekt MIT licenc alatt.
+
+Forráskód megtekintése, hibajelentés vagy hozzájárulás a GitHubon:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

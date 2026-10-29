@@ -1,0 +1,80 @@
+Zmóžniśo kopěrowanje, wuběranje teksta a menije pšawego kliknjenja na webbokach, kótarež je wobgranicuju.
+
+Enable Copy and Right Click jo lažke rozšyrjenje z wótwórjonym žrědłowym kodom, kótarež normalne kopěrowanje, wuběranje teksta a pšawe kliknjenje na webbokach wótnowijo, kótarež te akcije wobgranicuju.
+
+Klikniśo na symbol rozšyrjenja w symbolowej rědce abo wužywajśo tastowe skrotconko, aby kopěrowanje a pšawe kliknjenje w aktualnem rejtariku zmóžnił.
+
+Móžośo teke dowěry gódne websedła lisćinje Awtomatiske sedła pśidaś. Rozšyrjenje pótom kopěrowanje a pšawe kliknjenje awtomatiski zmóžnijo, gaž te sedła woglědujośo.
+
+HŁOWNE FUNKCIJE
+
+• Zmóžnja kopěrowanje a wuběranje teksta na wobgranicowanych webbokach
+• Zmóžnja kontekstowe menije pšawego kliknjenja
+• Zmóžnja kopěrowanje, wurězanje, zasajźenje, wuběranje teksta a śěgnjenje
+• Aktiwěrowanje z jadnym kliknjenim w symbolowej rědce
+• Tastowe skrotconko za malsne aktiwěrowanje
+• Awtomatiske aktiwěrowanje na wuzwólonych sedłach
+• Funkcioněrujo w pśistupnych iframe, źož pšawa wobglědowaka to dowóluju
+• Pokazujo znamje ON pó manuelnem aktiwěrowanju
+• Žedne wuskokujuce menije
+• Žedna analyza a žedne slědowanje
+• Žeden zdalony kod a žedne seśowe napšašowanja
+
+STANDARDNE TASTOWE SKROTCONKA
+
+• Windows, Linux, ChromeOS, GooglebookOS a Android: Alt+C
+• macOS: Command+Shift+Y
+
+Tastowe skrotconko cyni to samske ako kliknjenje na symbol rozšyrjenja.
+
+TASTOWE SKROTCONKO ZMĚNIŚ
+
+1. Wócyńśo meni Firefox a wubjeŕśo Dodanki a drastwy.
+2. Klikniśo na zubate kólesko na boku Rozšyrjenja.
+3. Wubjeŕśo Tastowe skrotconka rozšyrjenjow zastojaś.
+4. Pytajśo Enable Copy and Right Click a zapódajśo póžedane tastowe skrotconko.
+
+AWTOMATISKE SEDŁA
+
+Wócyńśo bok nastajenjow rozšyrjenja a pśidajśo domenu ako:
+
+example.com
+
+Rozšyrjenje pšosy jano wó pšawo za websedło, kótarež pśidawaśo. Za tym, až sćo pšawo dał, se kopěrowanje, wuběranje teksta a pšawe kliknjenje na tom sedle awtomatiski zmóžnijo.
+
+Awtomatiske sedło móžośo kuždy cas na boku nastajenjow wótwónoźeś.
+
+BOK NASTAJENJOW WÓCYNIŚ
+
+1. Wócyńśo meni Firefox a wubjeŕśo Dodanki a drastwy.
+2. Pytajśo Enable Copy and Right Click a klikniśo na meni z tśimi dypkami pódla njeje.
+3. Wubjeŕśo Nastajenja.
+
+PRIWATNOSĆ
+
+• Žedna analyza a žedne slědowanje
+• Žedno zběranje datow
+• Žedno zběranje historije pśeglědowanja
+• Žedne seśowe napšašowanja
+• Žeden zdalony kod
+• Žeden eksterny JavaScript
+• Nastajenja awtomatiskich sedłow se lokalnje we wašom wobglědowaku składuju
+• Wó pšawo za sedło se jano pšosy, gaž sami sedło pśidawaśo
+
+Ceło wótnowjenje kopěrowanja a pšawego kliknjenja se lokalnje we wašom wobglědowaku stawa.
+
+WUGBAŠOSĆ
+
+Rozšyrjenje jo lažke a se pśez tšojenja wóźi.
+
+Gaž jo njeaktiwne, njewukonujo žedne stawne źěło w slězynje. Manuelne aktiwěrowanje běžy jano, gaž na symbol w symbolowej rědce kliknjośo abo tastowe skrotconko wužywaśo. Awtomatiske aktiwěrowanje běžy jano na websedłach, kótarež sćo wuraznje pśidał.
+
+Njejo žedne pšašowanje w interwalach, žedna seśowa aktiwita w slězynje, žeden analyzowy SDK, žedna zdalona konfiguracija a žedna šlejfa, kótaraž boki stawnje wobglěda.
+
+WÓTWÓRJONY ŽRĚDŁOWY KOD
+
+Enable Copy and Right Click ma wótwórjony žrědłowy kod a jo licencěrowany pód licencu MIT.
+
+Woglědajśo se žrědłowy kod, wózjawśo problemy abo pśinosujśo na GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

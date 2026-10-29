@@ -1,8 +1,10 @@
 import { defineConfig } from "@playwright/test";
 
+import { androidDevice as resolveAndroidDevice } from "./test-support/android-device.js";
 
-// An adb serial, such as arc:5555, also runs the Firefox for Android tests there.
-const androidDevice = process.env.FIREFOX_ANDROID_DEVICE;
+
+// An adb serial, arc:5555 when it is connected, also runs the Firefox for Android tests there.
+const androidDevice = resolveAndroidDevice();
 
 
 export default defineConfig({
@@ -11,6 +13,10 @@ export default defineConfig({
 
   // Every browser test launches its own profile, so tests never share state.
   fullyParallel: true,
+
+  // Half the cores: Chromium, Firefox and the Android device together
+  // exhaust the memory with one worker per core, and tests time out.
+  workers: "50%",
 
   forbidOnly: Boolean(process.env.CI),
 

@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Brzo mijenjajte brzinu reprodukcije videa i zvuka između 1x, 1,2x, 1,5x i 2x."
+  },
+  "commandDescription": {
+    "message": "Promijeni brzinu reprodukcije videa"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Brzina reprodukcije $SPEED$ puta",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Brzina reprodukcije: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

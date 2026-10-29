@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "प्रतिबंधित वेबपेज पर कॉपी करना, टेक्स्ट चुनना और राइट-क्लिक मेन्यू चालू करें।"
+  },
+  "commandDescription": {
+    "message": "मौजूदा पेज पर कॉपी और राइट क्लिक चालू करें"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: चालू",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "कॉपी और राइट क्लिक चालू हो गए।"
+  },
+  "optionsTitle": {
+    "message": "अपने-आप चालू साइटें | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub रिपॉज़िटरी, नए टैब में खुलती है"
+  },
+  "automaticSitesHeading": {
+    "message": "अपने-आप चालू साइटें"
+  },
+  "automaticSitesIntro": {
+    "message": "आपकी जोड़ी गई वेबसाइटों पर कॉपी करना, टेक्स्ट चुनना और राइट क्लिक अपने-आप चालू करें।"
+  },
+  "siteInputLabel": {
+    "message": "वेबसाइट का डोमेन"
+  },
+  "addSite": {
+    "message": "साइट जोड़ें"
+  },
+  "noSites": {
+    "message": "अभी तक कोई अपने-आप चालू साइट नहीं जोड़ी गई है।"
+  },
+  "siteListLabel": {
+    "message": "अपने-आप चालू साइटें"
+  },
+  "remove": {
+    "message": "हटाएँ"
+  },
+  "removeSite": {
+    "message": "$SITE$ हटाएँ",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (अनुमति हटाई गई)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ जोड़ी गई।",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ फिर से चालू की गई।",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ हटाई गई।",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "यह साइट पहले से चालू है।"
+  },
+  "invalidDomain": {
+    "message": "सही डोमेन डालें, जैसे example.com।"
+  },
+  "permissionNotGranted": {
+    "message": "साइट की अनुमति नहीं दी गई।"
+  },
+  "addFailed": {
+    "message": "साइट नहीं जोड़ी जा सकी।"
+  },
+  "removeFailed": {
+    "message": "साइट नहीं हटाई जा सकी।"
+  },
+  "loadFailed": {
+    "message": "साइटों की सूची लोड नहीं हो सकी।"
+  }
+}

@@ -10,6 +10,7 @@ import {
 import {
   addPlayingVideo,
   enterFullscreenPlayer,
+  indicatorScript,
   videosArePlaying
 } from "./media.js";
 
@@ -79,8 +80,8 @@ test("applyPlaybackSpeed ignores speeds that are not listed", async ({ page }) =
 test("applyPlaybackSpeed sets every element and keeps one indicator", async ({ page }) => {
   await page.setContent("<video></video><audio></audio>");
 
-  await page.evaluate(applyPlaybackSpeed, 1.5);
-  await page.evaluate(applyPlaybackSpeed, 2);
+  await page.evaluate(indicatorScript(1.5));
+  await page.evaluate(indicatorScript(2));
 
   expect(
     await page.evaluate(() => {
@@ -93,6 +94,21 @@ test("applyPlaybackSpeed sets every element and keeps one indicator", async ({ p
 
   await expect(indicator).toHaveCount(1);
   await expect(indicator).toContainText("2x");
+});
+
+
+test("the indicator says the speed in the language it is given", async ({ page }) => {
+  const labels = { shown: "×1٫5", spoken: "سرعة التشغيل ×1٫5", lang: "ar", dir: "rtl" };
+
+  await page.setContent("<video></video>");
+  await page.evaluate(`(${applyPlaybackSpeed})(1.5, ${JSON.stringify(labels)})`);
+
+  const indicator = page.locator("#cvps-speed-indicator");
+
+  await expect(indicator).toHaveAttribute("lang", "ar");
+  await expect(indicator).toHaveAttribute("dir", "rtl");
+  await expect(indicator.locator("[aria-hidden]")).toHaveText("×1٫5");
+  await expect(indicator).toContainText("سرعة التشغيل ×1٫5");
 });
 
 
@@ -135,7 +151,7 @@ async function indicatorPixel(page) {
 test("applyPlaybackSpeed shows the indicator over a fullscreen player", async ({ page }) => {
   await enterFullscreenPlayer(page);
 
-  await page.evaluate(applyPlaybackSpeed, 1.5);
+  await page.evaluate(indicatorScript(1.5));
 
   expect(Math.max(...await indicatorPixel(page))).toBeLessThan(128);
 });

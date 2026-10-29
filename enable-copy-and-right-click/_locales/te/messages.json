@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "పరిమితులు ఉన్న వెబ్‌పేజీలలో కాపీ చేయడం, టెక్స్ట్ ఎంపిక, కుడి-క్లిక్ మెనూలను ప్రారంభించండి."
+  },
+  "commandDescription": {
+    "message": "ప్రస్తుత పేజీలో కాపీ, కుడి క్లిక్‌ను ప్రారంభించు"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: యాక్టివ్",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "కాపీ, కుడి క్లిక్ ప్రారంభించబడ్డాయి."
+  },
+  "optionsTitle": {
+    "message": "ఆటోమేటిక్ సైట్‌లు | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub రిపోజిటరీ, కొత్త ట్యాబ్‌లో తెరుచుకుంటుంది"
+  },
+  "automaticSitesHeading": {
+    "message": "ఆటోమేటిక్ సైట్‌లు"
+  },
+  "automaticSitesIntro": {
+    "message": "మీరు జోడించే వెబ్‌సైట్‌లలో కాపీ చేయడం, టెక్స్ట్ ఎంపిక, కుడి క్లిక్‌ను ఆటోమేటిక్‌గా ప్రారంభించండి."
+  },
+  "siteInputLabel": {
+    "message": "వెబ్‌సైట్ డొమైన్"
+  },
+  "addSite": {
+    "message": "సైట్‌ను జోడించు"
+  },
+  "noSites": {
+    "message": "ఇంకా ఆటోమేటిక్ సైట్‌లు ఏవీ జోడించలేదు."
+  },
+  "siteListLabel": {
+    "message": "ఆటోమేటిక్ సైట్‌లు"
+  },
+  "remove": {
+    "message": "తీసివేయి"
+  },
+  "removeSite": {
+    "message": "$SITE$ను తీసివేయి",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (అనుమతి తీసివేయబడింది)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ జోడించబడింది.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ మళ్లీ ప్రారంభించబడింది.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ తీసివేయబడింది.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "ఈ సైట్ ఇప్పటికే ప్రారంభించబడింది."
+  },
+  "invalidDomain": {
+    "message": "example.com వంటి సరైన డొమైన్‌ను నమోదు చేయండి."
+  },
+  "permissionNotGranted": {
+    "message": "సైట్ అనుమతి ఇవ్వబడలేదు."
+  },
+  "addFailed": {
+    "message": "సైట్‌ను జోడించడం సాధ్యం కాలేదు."
+  },
+  "removeFailed": {
+    "message": "సైట్‌ను తీసివేయడం సాధ్యం కాలేదు."
+  },
+  "loadFailed": {
+    "message": "సైట్‌ల జాబితాను లోడ్ చేయడం సాధ్యం కాలేదు."
+  }
+}

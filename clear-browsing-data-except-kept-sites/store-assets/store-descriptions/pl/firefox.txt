@@ -1,0 +1,91 @@
+Przy starcie przeglądarki czyści historię, pliki cookie i dane witryn wszystkich witryn poza tymi, które zachowujesz.
+
+Firefox na Androida nie pozwala rozszerzeniom czyścić historii, więc tam czyszczone są tylko pliki cookie i dane witryn.
+
+Clear Browsing Data Except Kept Sites to lekkie rozszerzenie open source, które usuwa wpisy historii, pliki cookie i dane witryn wszystkich witryn, których nie wybrano do zachowania.
+
+Dodaj w ustawieniach witryny, na których chcesz pozostać zalogowany i które mają być zapamiętane, a potem włącz czyszczenie. Przy każdym starcie przeglądarki rozszerzenie czyści historię i pliki cookie wszystkich pozostałych witryn. Możesz też czyścić w dowolnej chwili przyciskiem „Wyczyść teraz”.
+
+GŁÓWNE FUNKCJE
+
+• Lista witryn, których historia i pliki cookie nigdy nie są czyszczone, z importem i eksportem do pliku tekstowego
+• Czyszczenie historii i plików cookie wszystkich pozostałych witryn przy starcie przeglądarki, po jego włączeniu
+• Czyszczenie w dowolnej chwili przyciskiem „Wyczyść teraz” w ustawieniach
+• Automatyczne zachowywanie subdomen zachowanej witryny
+• Zachowywanie plików cookie domeny nadrzędnej, których zachowana witryna potrzebuje, aby zalogowanie zostało zachowane
+• Czyszczenie partycjonowanych plików cookie (innych firm) i plików cookie kontenerów; partycjonowane pliki cookie zachowanej witryny zostają tylko pod zachowanymi witrynami
+• Czyszczenie pamięci lokalnej, IndexedDB, service workerów i pamięci podręcznej witryn, których nie zachowano
+• Wynik ostatniego czyszczenia w ustawieniach
+• Ostrzeżenie, gdy dostęp do witryn jest wyłączony i nie można czyścić plików cookie
+• Bez analityki i śledzenia
+• Bez zdalnego kodu i żądań sieciowych
+
+ZACHOWANE WITRYNY
+
+Otwórz ustawienia i dodaj domenę, na przykład:
+
+example.com
+
+Aby dodać kilka naraz, oddziel je przecinkami.
+
+„Eksportuj” zapisuje listę w pliku tekstowym, jedna domena w wierszu. „Importuj” zastępuje listę witrynami z pliku tekstowego i najpierw ostrzega, jeśli usunie to witryny, które teraz zachowujesz.
+
+Adres taki jak mail.example.com/inbox jest skracany do domeny, a początkowe www. jest pomijane. Akceptowane są też localhost i adresy IPv4, takie jak 192.168.1.1.
+
+Zachowanie example.com zachowuje historię i pliki cookie example.com oraz wszystkich jej subdomen. Zachowanie mail.example.com zachowuje też pliki cookie example.com, bo często przechowują one logowanie subdomeny.
+
+OTWIERANIE USTAWIEŃ
+
+Ustawienia otwierają się automatycznie po instalacji, aby można było uzupełnić listę przed włączeniem czyszczenia. Później kliknij ikonę rozszerzenia na pasku narzędzi. W Firefoksie na Androida dotknij Clear Browsing Data Except Kept Sites w menu Rozszerzenia przeglądarki.
+
+Możesz je też otworzyć z menedżera dodatków:
+
+1. Otwórz menu Firefoksa i wybierz Dodatki i motywy.
+2. Znajdź Clear Browsing Data Except Kept Sites i kliknij menu z trzema kropkami obok.
+3. Wybierz Preferencje.
+
+CZYSZCZENIE PRZY STARCIE
+
+Po instalacji czyszczenie jest wyłączone, więc nic nie zostanie usunięte, dopóki o to nie poprosisz. Ustawienia pokazują komunikat „Czyszczenie jest wyłączone” z przyciskiem „Włącz czyszczenie”. Włączenie najpierw wyświetla ostrzeżenie: każdy start usuwa historię i pliki cookie wszystkich witryn poza zachowanymi i wylogowuje z nich, albo ze wszystkich witryn, gdy żadna nie jest zachowana.
+
+Po włączeniu czyszczenie działa przy każdym starcie przeglądarki, bo przeglądarka nie pozwala rozszerzeniom działać przy zamykaniu. Czyszczenie przy starcie usuwa to, co zostawiła poprzednia sesja. Wyłącz je lub włącz ponownie opcją „Czyść automatycznie przy starcie przeglądarki” w ustawieniach.
+
+WYCZYŚĆ TERAZ
+
+„Wyczyść teraz” w ustawieniach czyści od razu. Gdy żadna witryna nie jest zachowana, najpierw pojawia się czerwone ostrzeżenie, że wszystko zostanie usunięte. Ustawienia pokazują, kiedy odbyło się ostatnie czyszczenie i ile wpisów historii oraz plików cookie usunęło.
+
+DOSTĘP DO WITRYN
+
+Pliki cookie można usuwać tylko dla witryn, do których rozszerzenie ma dostęp, dlatego prosi ono o dostęp do wszystkich witryn. Jeśli wyłączysz dostęp do witryn, historia nadal jest czyszczona, ale pliki cookie są pomijane, a ustawienia pokazują przycisk „Zezwól na dostęp do witryn”.
+
+OGRANICZENIA
+
+• Karty przywrócone przy starcie mogą ustawić nowe pliki cookie w trakcie czyszczenia. Te pliki cookie zostają do następnego startu lub do użycia „Wyczyść teraz”.
+• Firefox nie potrafi czyścić danych witryn z wyjątkiem wybranych witryn, więc rozszerzenie czyści pamięć lokalną, IndexedDB i service workery każdej niezachowanej witryny, którą znajdzie w historii, plikach cookie i otwartych kartach. Witryna, której nie ma w żadnym z tych miejsc, zachowuje swoje dane. Witryna z zachowaną subdomeną zachowuje swoje service workery, bo Firefox wyczyściłby razem z nimi te subdomeny. Pamięć podręczna jest czyszczona dla wszystkich witryn, bo Firefox nie potrafi czyścić jej dla poszczególnych witryn; nikogo to nie wylogowuje.
+• Firefox nie potrafi czyścić Cache Storage, czyli plików offline zapisywanych przez service workery, dla poszczególnych witryn, więc nie jest ona czyszczona. Aby usunąć to, czego rozszerzenie nie sięga, użyj Ustawienia > Prywatność i bezpieczeństwo > Ciasteczka i dane witryn > Zarządzaj danymi.
+• Jeśli synchronizacja przeglądarki obejmuje historię, usunięte wpisy historii mogą zostać usunięte także na innych urządzeniach.
+• Okna prywatne są czyszczone tylko wtedy, gdy rozszerzenie może w nich działać.
+
+PRYWATNOŚĆ
+
+• Bez analityki i śledzenia
+• Bez zbierania danych
+• Bez żądań sieciowych
+• Bez zdalnego kodu
+• Bez zewnętrznego JavaScriptu
+• Historia i pliki cookie są odczytywane tylko po to, by zdecydować, co usunąć, i tylko w Twojej przeglądarce
+• Lista i ustawienia są przechowywane lokalnie w Twojej przeglądarce
+
+WYDAJNOŚĆ
+
+Rozszerzenie nic nie robi podczas przeglądania. Działa raz przy starcie przeglądarki, jeśli czyszczenie jest włączone, oraz gdy klikniesz „Wyczyść teraz”.
+
+Pierwsze czyszczenie długiej historii może potrwać kilka minut, bo każdy wpis historii jest usuwany osobno. W tym czasie możesz dalej przeglądać. Kolejne czyszczenia usuwają tylko wpisy z poprzedniej sesji.
+
+OPEN SOURCE
+
+Clear Browsing Data Except Kept Sites to projekt otwartoźródłowy udostępniany na licencji MIT.
+
+Zobacz kod źródłowy, zgłaszaj uwagi lub wesprzyj rozwój projektu w serwisie GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

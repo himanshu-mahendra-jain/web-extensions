@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "在限制复制的网页上重新启用复制、文本选择和右键菜单。"
+  },
+  "commandDescription": {
+    "message": "在当前页面启用复制和右键"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$：已启用",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "已启用复制和右键。"
+  },
+  "optionsTitle": {
+    "message": "自动启用的网站 | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub 代码库，在新标签页中打开"
+  },
+  "automaticSitesHeading": {
+    "message": "自动启用的网站"
+  },
+  "automaticSitesIntro": {
+    "message": "在你添加的网站上自动启用复制、文本选择和右键。"
+  },
+  "siteInputLabel": {
+    "message": "网站域名"
+  },
+  "addSite": {
+    "message": "添加网站"
+  },
+  "noSites": {
+    "message": "尚未添加自动启用的网站。"
+  },
+  "siteListLabel": {
+    "message": "自动启用的网站"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "removeSite": {
+    "message": "移除 $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$（权限已撤销）",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "已添加 $SITE$。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "已重新启用 $SITE$。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "已移除 $SITE$。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "此网站已启用。"
+  },
+  "invalidDomain": {
+    "message": "请输入有效的域名，例如 example.com。"
+  },
+  "permissionNotGranted": {
+    "message": "未授予网站权限。"
+  },
+  "addFailed": {
+    "message": "无法添加该网站。"
+  },
+  "removeFailed": {
+    "message": "无法移除该网站。"
+  },
+  "loadFailed": {
+    "message": "无法加载网站列表。"
+  }
+}

@@ -1,0 +1,80 @@
+Įjunkite kopijavimą, teksto žymėjimą ir dešiniojo spustelėjimo meniu tinklalapiuose, kurie juos riboja.
+
+Enable Copy and Right Click – lengvas atvirojo kodo plėtinys, grąžinantis įprastą kopijavimą, teksto žymėjimą ir dešinįjį spustelėjimą tinklalapiuose, kurie šiuos veiksmus riboja.
+
+Spustelėkite plėtinio piktogramą įrankių juostoje arba naudokite spartųjį klavišą, kad dabartiniame skirtuke įjungtumėte kopijavimą ir dešinįjį spustelėjimą.
+
+Patarimas: prisekite plėtinį „Chrome“ plėtinių meniu (dėlionės detalės piktograma), kad jis visada būtų po ranka įrankių juostoje.
+
+Patikimas svetaines taip pat galite įtraukti į automatinių svetainių sąrašą. Tuomet plėtinys kopijavimą ir dešinįjį spustelėjimą įjungs automatiškai kaskart, kai jose apsilankysite.
+
+PAGRINDINĖS FUNKCIJOS
+
+• Įjungia kopijavimą ir teksto žymėjimą ribojančiuose tinklalapiuose
+• Įjungia dešiniojo spustelėjimo kontekstinius meniu
+• Įjungia kopijavimą, iškirpimą, įklijavimą, teksto žymėjimą ir vilkimą
+• Įjungimas vienu spustelėjimu įrankių juostoje
+• Spartusis klavišas greitam įjungimui
+• Automatinis įjungimas jūsų pasirinktose svetainėse
+• Veikia pasiekiamuose iframe, kiek leidžia naršyklės leidimai
+• Įjungus rankiniu būdu rodo ženklelį ON
+• Jokių iššokančiųjų meniu
+• Jokios analitikos ar sekimo
+• Jokio nuotolinio kodo ar tinklo užklausų
+
+NUMATYTIEJI SPARTIEJI KLAVIŠAI
+
+• Windows, Linux, ChromeOS, GooglebookOS ir Android: Alt+C
+• macOS: Command+Shift+Y
+
+Spartusis klavišas atlieka tą patį, ką ir plėtinio piktogramos spustelėjimas.
+
+SPARČIOJO KLAVIŠO KEITIMAS
+
+1. Atidarykite „Chrome“ meniu ir pasirinkite Plėtiniai → Tvarkyti plėtinius.
+2. Šoninėje juostoje pasirinkite Spartieji klavišai.
+3. Raskite Enable Copy and Right Click ir įveskite norimą spartųjį klavišą.
+
+AUTOMATINĖS SVETAINĖS
+
+Atidarykite plėtinio parinkčių puslapį ir pridėkite domeną, pavyzdžiui:
+
+example.com
+
+Plėtinys prašys leidimo tik jūsų pridėtai svetainei. Suteikus leidimą, toje svetainėje kopijavimas, teksto žymėjimas ir dešinysis spustelėjimas bus įjungiami automatiškai.
+
+Automatinę svetainę bet kada galite pašalinti parinkčių puslapyje.
+
+PARINKČIŲ PUSLAPIO ATIDARYMAS
+
+1. Dešiniuoju pelės mygtuku spustelėkite plėtinio piktogramą įrankių juostoje.
+2. Pasirinkite Parinktys.
+
+PRIVATUMAS
+
+• Jokios analitikos ar sekimo
+• Jokio duomenų rinkimo
+• Jokio naršymo istorijos rinkimo
+• Jokių tinklo užklausų
+• Jokio nuotolinio kodo
+• Jokio išorinio JavaScript
+• Automatinių svetainių nuostatos saugomos vietoje, jūsų naršyklėje
+• Svetainės leidimo prašoma tik tada, kai patys pridedate svetainę
+
+Visas kopijavimo ir dešiniojo spustelėjimo atkūrimas vyksta vietoje, jūsų naršyklėje.
+
+NAŠUMAS
+
+Plėtinys lengvas ir veikia pagal įvykius.
+
+Neveikdamas jis nevykdo jokio nuolatinio darbo fone. Rankinis įjungimas vykdomas tik spustelėjus įrankių juostos piktogramą arba panaudojus spartųjį klavišą. Automatinis įjungimas vykdomas tik jūsų pačių pridėtose svetainėse.
+
+Nėra periodinių užklausų, tinklo veiklos fone, analitikos SDK, nuotolinės konfigūracijos ar nuolat puslapius stebinčio ciklo.
+
+ATVIRASIS KODAS
+
+„Enable Copy and Right Click“ yra atvirojo kodo projektas pagal MIT licenciją.
+
+Peržiūrėkite šaltinio kodą, praneškite apie klaidas ar prisidėkite „GitHub“:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

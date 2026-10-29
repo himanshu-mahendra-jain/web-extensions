@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Tarayıcı açılırken, tuttuğunuz siteler dışındaki tüm sitelerin geçmişini, çerezlerini ve site verilerini temizler."
+  },
+  "optionsTitle": {
+    "message": "Tutulan siteler | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub deposu, yeni sekmede açılır"
+  },
+  "accessHeading": {
+    "message": "Site erişimi kapalı"
+  },
+  "allowSiteAccess": {
+    "message": "Site erişimine izin ver"
+  },
+  "accessHistorySiteData": {
+    "message": "Web sitelerine erişim olmadan uzantı çerezleri silemez. Geçmiş ve site verileri yine de temizlenir."
+  },
+  "accessHistory": {
+    "message": "Web sitelerine erişim olmadan uzantı çerezleri silemez. Geçmiş yine de temizlenir."
+  },
+  "accessSiteData": {
+    "message": "Web sitelerine erişim olmadan uzantı çerezleri silemez. Site verileri yine de temizlenir."
+  },
+  "accessNothing": {
+    "message": "Web sitelerine erişim olmadan uzantı çerezleri silemez, bu yüzden hiçbir şey temizlenmez."
+  },
+  "clearingOffHeading": {
+    "message": "Temizleme kapalı"
+  },
+  "clearingOffText": {
+    "message": "Henüz hiçbir şey silinmiyor. Oturumunuzun açık kalmasını istediğiniz siteleri ekleyin, ardından temizlemeyi açın. O andan itibaren tarayıcı her açıldığında diğer tüm sitelerin verileri ($DATA$) silinir.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Temizlemeyi aç"
+  },
+  "keptSitesHeading": {
+    "message": "Tutulan siteler"
+  },
+  "intro": {
+    "message": "Bu siteler ve alt alan adları verilerini ($DATA$) korur, böylece oturumunuz açık kalır. Temizleme açıkken diğer tüm siteler tarayıcı her açıldığında bunları kaybeder.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Web sitesi alan adları"
+  },
+  "keep": {
+    "message": "Tut"
+  },
+  "siteHint": {
+    "message": "Birden fazla siteyi virgülle ayırın."
+  },
+  "noSites": {
+    "message": "Henüz tutulan site yok, bu yüzden temizleme tüm sitelerin verilerini ($DATA$) siler.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Tutulan siteler"
+  },
+  "clearingHeading": {
+    "message": "Temizleme"
+  },
+  "clearOnStartupLabel": {
+    "message": "Tarayıcı açılırken otomatik olarak temizle"
+  },
+  "clearNow": {
+    "message": "Şimdi temizle"
+  },
+  "firstClearHint": {
+    "message": "Tarayıcıda çok fazla tarama verisi varsa ilk temizleme birkaç dakika sürebilir. Bu sırada gezinmeye devam edebilirsiniz."
+  },
+  "leftoversHeading": {
+    "message": "Kalan site verileri"
+  },
+  "leftoversIntro": {
+    "message": "Bir sitenin geçmişi ve çerezleri silindikten sonra uzantı o siteyi artık bulamaz, bu yüzden yerel depolaması, veritabanları ve önbelleği kalır. Kalanları temizle, Şimdi temizle gibi bir temizlemenin ardından, tutmadığınız tüm sitelerin site verilerini, bulunsun ya da bulunmasın, siler."
+  },
+  "clearLeftovers": {
+    "message": "Kalanları temizle"
+  },
+  "transferHeading": {
+    "message": "İçe ve dışa aktarma"
+  },
+  "transferIntro": {
+    "message": "Tuttuğunuz siteleri bir metin dosyasına kaydedin veya bir dosyadaki sitelerle değiştirin. Dosyada her satırda bir site olabilir ya da siteler virgülle ayrılabilir."
+  },
+  "export": {
+    "message": "Dışa aktar"
+  },
+  "import": {
+    "message": "İçe aktar"
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "dataAll": {
+    "message": "geçmiş, çerezler ve site verileri"
+  },
+  "dataNoHistory": {
+    "message": "çerezler ve site verileri"
+  },
+  "dataNoSiteData": {
+    "message": "geçmiş ve çerezler"
+  },
+  "dataCookies": {
+    "message": "çerezler"
+  },
+  "remove": {
+    "message": "Kaldır"
+  },
+  "removeSite": {
+    "message": "$SITE$ sitesini kaldır",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ kaldırıldı. Verileri ($DATA$) bir sonraki temizlemede silinecek.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Site kaldırılamadı."
+  },
+  "siteKept": {
+    "message": "$SITE$ tutuluyor.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ site tutuluyor.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ site tutuluyor.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ zaten tutuluyor.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ site zaten tutuluyor.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ site zaten tutuluyor.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ geçerli bir alan adı değil.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Bunlar geçerli alan adları değil: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "example.com gibi geçerli bir alan adı girin."
+  },
+  "addSiteFailed": {
+    "message": "Site eklenemedi."
+  },
+  "addSitesFailed": {
+    "message": "Siteler eklenemedi."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ 1 MB'tan büyük, bu yüzden tutulan siteler değişmedi.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ geçerli alan adı içermiyor, bu yüzden tutulan siteler değişmedi.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Tutulan siteler değiştirilsin mi?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Şu anda tuttuğunuz siteler ($CURRENT$), $FILE$ dosyasındaki sitelerle ($NEW$) değiştirilecek.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ site artık tutulmayacak ve verileri ($DATA$) bir sonraki temizlemede silinecek.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ site artık tutulmayacak ve verileri ($DATA$) bir sonraki temizlemede silinecek.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Tutulan siteleri değiştir"
+  },
+  "sitesImported_one": {
+    "message": "$FILE$ dosyasından $COUNT$ site içe aktarıldı.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$FILE$ dosyasından $COUNT$ site içe aktarıldı.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Tutulan siteler dışa aktarılamadı."
+  },
+  "importFailed": {
+    "message": "Tutulan siteler $FILE$ dosyasından içe aktarılamadı.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Temizleme açılsın mı?"
+  },
+  "turnOnKept": {
+    "message": "Tarayıcı her açıldığında, tutmayı seçtikleriniz dışındaki tüm sitelerin verileri ($DATA$) silinecek. Diğer tüm sitelerde oturumunuz kapanacak.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Tutulacak site seçmediniz. Tarayıcı her açıldığında tüm veriler ($DATA$) silinecek ve tüm sitelerde oturumunuz kapanacak.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Silinen veriler ($DATA$) kurtarılamaz.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Her şey şimdi temizlensin mi?"
+  },
+  "clearEverythingText": {
+    "message": "Tutulacak site seçmediniz, bu yüzden tüm sitelerin verileri ($DATA$) şimdi silinecek ve tüm sitelerde oturumunuz kapanacak.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Her şeyi temizle"
+  },
+  "leftoversTitle": {
+    "message": "Kalan site verileri temizlensin mi?"
+  },
+  "leftoversKept": {
+    "message": "Tutmadığınız tüm sitelerin verileri ($DATA$) şimdi silinecek; uzantının artık bulamadığı sitelerin site verileri de buna dahil.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Tutulan bir site, site verilerini yalnızca uzantının geçmişte, çerezlerde ve açık sekmelerde bulduğu adreslerde korur. Tutulan bir sitenin diğer tüm alt alan adları veya bağlantı noktaları, örneğin aylardır ziyaret etmediğiniz bir alt alan adı ya da başka bir bağlantı noktasındaki yerel sunucu, site verilerini kaybeder ve oradaki oturumunuz kapanabilir."
+  },
+  "clearing": {
+    "message": "Temizleniyor… Bu birkaç dakika sürebilir."
+  },
+  "leftoversFailed": {
+    "message": "Kalan site verileri temizlenemedi."
+  },
+  "leftoversCleared": {
+    "message": "Kalan site verileri temizlendi."
+  },
+  "nothingClearedYet": {
+    "message": "Henüz hiçbir şey temizlenmedi."
+  },
+  "clearFailed": {
+    "message": "Temizleme ($WHEN$) başarısız oldu.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ geçmiş kaydı",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ geçmiş kaydı",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ çerez",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ çerez",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "hiçbir şey"
+  },
+  "lastCleared": {
+    "message": "Son temizleme: $WHEN$. Silinenler: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Son temizleme: $WHEN$. Silinenler: $WHAT$ ile site verileri ve önbellek.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Son temizleme: $WHEN$. Silinenler: $WHAT$ ile tutulmayan tüm sitelerin site verileri ve önbelleği.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Bu tarayıcı uzantıların geçmişi ve site verilerini temizlemesine izin vermediği için bunlar atlandı."
+  },
+  "skippedHistory": {
+    "message": "Bu tarayıcı uzantıların geçmişi temizlemesine izin vermediği için geçmiş atlandı."
+  },
+  "skippedSiteData": {
+    "message": "Bu tarayıcı uzantıların site verilerini temizlemesine izin vermediği için site verileri atlandı."
+  },
+  "cookiesSkipped": {
+    "message": "Site erişimi kapalı olduğu için çerezler atlandı."
+  },
+  "loadFailed": {
+    "message": "Ayarlar yüklenemedi."
+  }
+}

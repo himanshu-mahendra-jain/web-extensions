@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "વિડિયો અને ઑડિયોની પ્લેબૅક ઝડપ 1x, 1.2x, 1.5x અને 2x વચ્ચે ઝડપથી બદલો."
+  },
+  "commandDescription": {
+    "message": "વિડિયોની પ્લેબૅક ઝડપ બદલો"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "પ્લેબૅક ઝડપ $SPEED$ ગણી",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "પ્લેબૅક ઝડપ: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

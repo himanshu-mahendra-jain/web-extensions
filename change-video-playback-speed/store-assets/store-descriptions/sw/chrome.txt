@@ -1,0 +1,47 @@
+Badilisha kasi ya kucheza video na sauti kwa mbofyo mmoja au njia ya mkato ya kibodi.
+
+Change Video Playback Speed ni kiendelezi chepesi cha programu huria kinachozunguka kati ya kasi nne muhimu za kucheza:
+
+1x → 1.2x → 1.5x → 2x → 1x
+
+Bofya aikoni ya kiendelezi au tumia njia ya mkato ya kibodi kwenda kwenye kasi inayofuata. Kasi uliyochagua hutumika kwenye video na sauti za ukurasa, pamoja na vichezaji vilivyopachikwa vinavyotumika.
+
+Kidokezo: Bandika kiendelezi kwenye menyu ya Viendelezi ya Chrome (ikoni ya kipande cha fumbo) ili kuweka ikoni yake kwenye upau wa zana.
+
+Kasi ya sasa huonyeshwa kwa muda mfupi kwenye ukurasa na kwenye beji ya upau wa vidhibiti.
+
+VIPENGELE VIKUU
+
+• Udhibiti kwa mbofyo mmoja na kwa njia ya mkato ya kibodi
+• Inatumia video na sauti
+• Inatumia vichezaji vilivyopachikwa vinavyooana
+• Beji ya kasi kwenye upau wa vidhibiti na kiashiria kwenye ukurasa kinachoonekana hata kwenye skrini nzima
+• Hakuna menyu ibukizi, vidhibiti vinavyoelea wala mipangilio
+
+NJIA ZA MKATO ZA KIBODI CHAGUOMSINGI
+
+• Windows, Linux, ChromeOS, GooglebookOS na Android: Alt+S
+• macOS: Command+Shift+Period
+
+BADILISHA NJIA YA MKATO YA KIBODI
+
+1. Fungua menyu ya Chrome na uchague Viendelezi → Dhibiti Viendelezi.
+2. Chagua Njia za mkato za kibodi kwenye upau wa kando.
+3. Tafuta Change Video Playback Speed na uweke njia ya mkato unayopendelea.
+
+FARAGHA
+
+• Hakuna takwimu wala ufuatiliaji
+• Haikusanyi data wala historia ya kuvinjari
+• Hakuna maombi ya mtandao
+• Hakuna ufikiaji wa kudumu kwa tovuti
+
+Mabadiliko yote ya kasi hufanyika ndani ya kivinjari chako.
+
+PROGRAMU HURIA
+
+Change Video Playback Speed ni mradi wa programu huria chini ya Leseni ya MIT.
+
+Tazama msimbo chanzo, ripoti matatizo au changia kwenye GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

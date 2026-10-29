@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Menghapus histori, cookie, dan data situs saat browser dimulai untuk semua situs kecuali yang Anda simpan."
+  },
+  "optionsTitle": {
+    "message": "Situs yang Disimpan | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repositori GitHub, terbuka di tab baru"
+  },
+  "accessHeading": {
+    "message": "Akses situs nonaktif"
+  },
+  "allowSiteAccess": {
+    "message": "Izinkan Akses Situs"
+  },
+  "accessHistorySiteData": {
+    "message": "Tanpa akses ke situs web, ekstensi tidak dapat menghapus cookie. Histori dan data situs tetap dihapus."
+  },
+  "accessHistory": {
+    "message": "Tanpa akses ke situs web, ekstensi tidak dapat menghapus cookie. Histori tetap dihapus."
+  },
+  "accessSiteData": {
+    "message": "Tanpa akses ke situs web, ekstensi tidak dapat menghapus cookie. Data situs tetap dihapus."
+  },
+  "accessNothing": {
+    "message": "Tanpa akses ke situs web, ekstensi tidak dapat menghapus cookie, jadi tidak ada yang dihapus."
+  },
+  "clearingOffHeading": {
+    "message": "Penghapusan nonaktif"
+  },
+  "clearingOffText": {
+    "message": "Belum ada yang dihapus. Tambahkan situs tempat Anda ingin tetap login, lalu aktifkan penghapusan. Sejak itu, setiap kali browser dimulai, data ($DATA$) semua situs lainnya akan dihapus.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Aktifkan Penghapusan"
+  },
+  "keptSitesHeading": {
+    "message": "Situs yang Disimpan"
+  },
+  "intro": {
+    "message": "Situs-situs ini dan subdomainnya menyimpan datanya ($DATA$), jadi Anda tetap login. Selama penghapusan aktif, semua situs lainnya kehilangan data tersebut setiap kali browser dimulai.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Domain situs web"
+  },
+  "keep": {
+    "message": "Simpan"
+  },
+  "siteHint": {
+    "message": "Pisahkan beberapa situs dengan koma."
+  },
+  "noSites": {
+    "message": "Belum ada situs yang disimpan, jadi penghapusan akan menghapus data ($DATA$) semua situs.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Situs yang disimpan"
+  },
+  "clearingHeading": {
+    "message": "Penghapusan"
+  },
+  "clearOnStartupLabel": {
+    "message": "Hapus otomatis saat browser dimulai"
+  },
+  "clearNow": {
+    "message": "Hapus Sekarang"
+  },
+  "firstClearHint": {
+    "message": "Penghapusan pertama dapat memakan waktu beberapa menit jika browser menyimpan banyak data penjelajahan. Anda dapat terus menjelajah sementara itu."
+  },
+  "leftoversHeading": {
+    "message": "Sisa Data Situs"
+  },
+  "leftoversIntro": {
+    "message": "Setelah histori dan cookie sebuah situs dihapus, ekstensi tidak lagi menemukannya, jadi penyimpanan lokal, database, dan cache-nya tetap ada. Hapus Sisa menghapus data situs dari setiap situs yang tidak Anda simpan, ditemukan atau tidak, setelah penghapusan seperti Hapus Sekarang."
+  },
+  "clearLeftovers": {
+    "message": "Hapus Sisa"
+  },
+  "transferHeading": {
+    "message": "Impor dan Ekspor"
+  },
+  "transferIntro": {
+    "message": "Simpan situs yang Anda simpan ke file teks, atau ganti dengan situs dari sebuah file. File dapat berisi satu situs per baris atau memisahkannya dengan koma."
+  },
+  "export": {
+    "message": "Ekspor"
+  },
+  "import": {
+    "message": "Impor"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "dataAll": {
+    "message": "histori, cookie, dan data situs"
+  },
+  "dataNoHistory": {
+    "message": "cookie dan data situs"
+  },
+  "dataNoSiteData": {
+    "message": "histori dan cookie"
+  },
+  "dataCookies": {
+    "message": "cookie"
+  },
+  "remove": {
+    "message": "Hapus"
+  },
+  "removeSite": {
+    "message": "Hapus $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ dihapus dari daftar. Datanya ($DATA$) akan dihapus pada penghapusan berikutnya.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Situs tidak dapat dihapus dari daftar."
+  },
+  "siteKept": {
+    "message": "$SITE$ disimpan.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ situs disimpan.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ situs disimpan.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ sudah disimpan.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ situs sudah disimpan.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ situs sudah disimpan.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ bukan domain yang valid.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Ini bukan domain yang valid: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Masukkan domain yang valid, seperti example.com."
+  },
+  "addSiteFailed": {
+    "message": "Situs tidak dapat ditambahkan."
+  },
+  "addSitesFailed": {
+    "message": "Situs-situs tidak dapat ditambahkan."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ lebih besar dari 1 MB, jadi situs yang disimpan tidak berubah.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ tidak berisi domain yang valid, jadi situs yang disimpan tidak berubah.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Ganti situs yang disimpan?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ situs",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ situs",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Situs yang Anda simpan sekarang ($CURRENT$) akan diganti dengan situs di $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ situs tidak lagi disimpan, dan datanya ($DATA$) akan dihapus pada penghapusan berikutnya.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ situs tidak lagi disimpan, dan datanya ($DATA$) akan dihapus pada penghapusan berikutnya.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Ganti Situs yang Disimpan"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ situs diimpor dari $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ situs diimpor dari $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Situs yang disimpan tidak dapat diekspor."
+  },
+  "importFailed": {
+    "message": "Situs yang disimpan tidak dapat diimpor dari $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Aktifkan penghapusan?"
+  },
+  "turnOnKept": {
+    "message": "Setiap kali browser dimulai, data ($DATA$) setiap situs akan dihapus kecuali situs yang Anda pilih untuk disimpan. Anda akan logout dari semua situs lainnya.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Anda belum memilih situs untuk disimpan. Setiap kali browser dimulai, semua data ($DATA$) akan dihapus, dan Anda akan logout dari setiap situs.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Data yang dihapus ($DATA$) tidak dapat dipulihkan.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Hapus semuanya sekarang?"
+  },
+  "clearEverythingText": {
+    "message": "Anda belum memilih situs untuk disimpan, jadi data ($DATA$) setiap situs akan dihapus sekarang, dan Anda akan logout dari setiap situs.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Hapus Semuanya"
+  },
+  "leftoversTitle": {
+    "message": "Hapus sisa data situs?"
+  },
+  "leftoversKept": {
+    "message": "Data ($DATA$) setiap situs yang tidak Anda simpan akan dihapus sekarang, termasuk data situs dari situs yang tidak lagi ditemukan ekstensi.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Situs yang disimpan hanya mempertahankan data situsnya di alamat yang ditemukan ekstensi di histori, cookie, dan tab yang terbuka. Subdomain atau port lain dari situs yang disimpan, seperti subdomain yang sudah berbulan-bulan tidak Anda kunjungi atau server lokal di port lain, kehilangan data situsnya, dan Anda mungkin logout dari sana."
+  },
+  "clearing": {
+    "message": "Menghapus… Ini dapat memakan waktu beberapa menit."
+  },
+  "leftoversFailed": {
+    "message": "Gagal menghapus sisa data situs."
+  },
+  "leftoversCleared": {
+    "message": "Sisa data situs dihapus."
+  },
+  "nothingClearedYet": {
+    "message": "Belum ada yang dihapus."
+  },
+  "clearFailed": {
+    "message": "Penghapusan pada $WHEN$ gagal.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ entri histori",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ entri histori",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "tidak ada"
+  },
+  "lastCleared": {
+    "message": "Terakhir dihapus: $WHEN$. Dihapus: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Terakhir dihapus: $WHEN$. Dihapus: $WHAT$, beserta data situs dan cache.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Terakhir dihapus: $WHEN$. Dihapus: $WHAT$, beserta data situs dan cache setiap situs yang tidak disimpan.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Histori dan data situs dilewati karena browser ini tidak mengizinkan ekstensi menghapusnya."
+  },
+  "skippedHistory": {
+    "message": "Histori dilewati karena browser ini tidak mengizinkan ekstensi menghapusnya."
+  },
+  "skippedSiteData": {
+    "message": "Data situs dilewati karena browser ini tidak mengizinkan ekstensi menghapusnya."
+  },
+  "cookiesSkipped": {
+    "message": "Cookie dilewati karena akses situs nonaktif."
+  },
+  "loadFailed": {
+    "message": "Setelan tidak dapat dimuat."
+  }
+}

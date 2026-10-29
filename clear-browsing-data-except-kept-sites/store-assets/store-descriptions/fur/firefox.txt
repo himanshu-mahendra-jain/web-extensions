@@ -1,0 +1,91 @@
+Nete la cronologjie, i cookies e i dâts dai sîts ae inviament dal navigadôr par ducj i sîts fûr che chei che tu tegnis.
+
+Firefox par Android nol permet aes estensions di eliminâ la cronologjie, duncje li a vegnin netâts dome i cookies e i dâts dai sîts.
+
+Clear Browsing Data Except Kept Sites e je une estension lizere e a sorzint vierte che e gjave lis vôs de cronologjie, i cookies e i dâts dai sîts par ducj i sîts che no tu âs sielt di tignî.
+
+Tes impostazions, zonte i sîts dulà che tu vuelis restâ jentrât e che a àn di visâsi di te, dopo ative la netisie. Ogni volte che il navigadôr si invie, la estension e elimine la cronologjie e i cookies di ducj chei altris sîts. Tu puedis ancje netâ in cualsisei moment cun “Nete cumò”.
+
+FUNZIONS PRINCIPÂLS
+
+• Une liste di sîts che la lôr cronologjie e i lôr cookies no vegnin mai netâts, cun importazion e esportazion come file di test
+• E nete la cronologjie e i cookies di ducj chei altris sîts ae inviament dal navigadôr, dopo che tu le âs ativade
+• Netisie in cualsisei moment cun “Nete cumò” tes impostazions
+• E ten in automatic i sot-dominis di un sît tignût
+• E ten i cookies dal domini gjenitôr che a coventin a un sît tignût par fâti restâ jentrât
+• E nete i cookies partizionâts (di tiercis parts) e i cookies dai contignidôrs; i cookies partizionâts di un sît tignût a restin dome sot dai sîts tignûts
+• E nete l'archiviazion locâl, IndexedDB, i service workers e la cache dai sîts no tignûts
+• E mostre il risultât de ultime netisie tes impostazions
+• E avise cuant che l'acès ai sîts al è disativât e i cookies no puedin jessi eliminâts
+• Nissune analisi e nissun tracjament
+• Nissun codiç rimot e nissune richieste di rêt
+
+SÎTS TIGNÛTS
+
+Vierç lis impostazions e zonte un domini, par esempli:
+
+example.com
+
+Par zontâ plui di un in une volte, separiju cun virgulis.
+
+“Espuarte” al salve la liste come file di test, un domini par rie. “Impuarte” al sostituìs la liste cui sîts di un file di test e al avise prime se cussì a sparissin sîts che tu tegnis cumò.
+
+Une direzion come mail.example.com/inbox e ven ridusude al so domini, e un www. iniziâl al ven gjavât. A son acetâts ancje localhost e lis direzions IPv4 come 192.168.1.1.
+
+Tignî example.com al ten la cronologjie e i cookies di example.com e di ducj i siei sot-dominis. Tignî mail.example.com al ten ancje i cookies di example.com, parcè che dispès a contegnin l'acès dal sot-domini.
+
+VIERZI LIS IMPOSTAZIONS
+
+Lis impostazions si vierzin in automatic dopo la instalazion, cussì tu puedis jemplâ la liste prime di ativâ la netisie. Plui indenant, fâs clic su la icone de estension te sbare dai imprescj. In Firefox par Android, tocje Clear Browsing Data Except Kept Sites tal menù Estensions dal navigadôr.
+
+Tu puedis ancje vierzilis dal gjestôr dai components adizionâi:
+
+1. Vierç il menù di Firefox e selezione Components adizionâi e temis.
+2. Cjate Clear Browsing Data Except Kept Sites e fâs clic sul menù cui trê ponts che al è dongje.
+3. Selezione Preferencis.
+
+NETISIE AE INVIAMENT
+
+Dopo la instalazion la netisie e je disativade, duncje nol ven gjavât nuie fin che no tu lu domandis. Lis impostazions a mostrin l'avîs “La netisie e je disativade” cul boton “Ative la netisie”. Ativâle e mostre prime un avertiment: ogni inviament al elimine la cronologjie e i cookies di ducj i sîts fûr che chei tignûts e ti fâs jessî di chei, o di ducj i sîts se no 'nd è nissun tignût.
+
+Une volte ativade, la netisie e ven eseguide a ogni inviament dal navigadôr, parcè che il navigadôr nol lasse che lis estensions a funzionin ae sierade. La netisie ae inviament e gjave ce che la session precedente e à lassât. Disative o torne ative cun “Nete in automatic cuant che il navigadôr si invie” tes impostazions.
+
+NETE CUMÒ
+
+“Nete cumò” tes impostazions al nete daurman. Se nol è tignût nissun sît, al ven fûr prime un avertiment ros che dut al vignarà eliminât. Lis impostazions a mostrin cuant che e je stade la ultime netisie e tropis vôs de cronologjie e cookies e à eliminât.
+
+ACÈS AI SÎTS
+
+I cookies a puedin jessi gjavâts dome pai sîts che la estension e à acès, duncje e domande l'acès a ducj i sîts. Se tu disativis l'acès ai sîts, la cronologjie e ven netade distès, ma i cookies a vegnin saltâts e lis impostazions a mostrin il boton “Permet l'acès ai sîts”.
+
+LIMITAZIONS
+
+• Lis schedis ripristinadis ae inviament a puedin meti cookies gnûfs intant che la netisie e je in vore. Chei cookies a restin fin al prossim inviament o al prossim “Nete cumò”.
+• Firefox nol pues eliminâ i dâts dai sîts fûr che pai sîts sielts, duncje la estension e elimine l'archiviazion locâl, IndexedDB e i service workers di ogni sît no tignût che e cjate te cronologjie, tai cookies e tes schedis viertis. Un sît che nol comparìs in nissune di chestis robis al ten i siei dâts. Un sît cuntun sot-domini tignût al ten i siei service workers, parcè che Firefox al eliminarès insieme cun lôr ancje chei dal sot-domini. La cache e ven netade par ducj i sîts, parcè che Firefox no le pues netâ sît par sît; chest nol fâs jessî nissun.
+• Firefox nol pues netâ sît par sît la Cache Storage, i file fûr di linie salvâts dai service workers, duncje no ven netade. Par gjavâ ce che la estension no rive a tocjâ, dopre Impostazions > Riservatece e sigurece > Cookies e dâts dai sîts > Gjestìs dâts.
+• Se la sincronizazion dal navigadôr e inclût la cronologjie, lis vôs gjavadis a puedin jessi gjavadis ancje dai tiei altris dispositîfs.
+• Lis bariochis privadis a vegnin netadis dome cuant che la estension e à il permès di funzionâ in chês.
+
+RISERVATECE
+
+• Nissune analisi e nissun tracjament
+• Nissune racuelte di dâts
+• Nissune richieste di rêt
+• Nissun codiç rimot
+• Nissun JavaScript esterni
+• La cronologjie e i cookies a vegnin lets dome par decidi ce gjavâ, e dome tal to navigadôr
+• La liste e lis impostazions a vegnin archiviadis in locâl tal to navigadôr
+
+PRESTAZIONS
+
+La estension no fâs nuie intant che tu navighis. E funzione une volte ae inviament dal navigadôr, se la netisie e je ative, e cuant che tu fasis clic su “Nete cumò”.
+
+La prime netisie di une cronologjie lungje e pues durâ cualchi minût, parcè che ogni vôs de cronologjie e ven eliminade a part. Intant tu puedis continuâ a navigâ. Lis netisiis daspò a gjavin dome lis vôs de session precedente.
+
+SORZINT VIERTE
+
+Clear Browsing Data Except Kept Sites al è a sorzint vierte e al è distribuît cu la licence MIT.
+
+Viôt il codiç sorzint, segnale problemis o contribuìs su GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,552 @@
+{
+  "extensionDescription": {
+    "message": "Paleidus naršyklę išvalo istoriją, slapukus ir svetainių duomenis visose svetainėse, išskyrus tas, kurias paliekate."
+  },
+  "optionsTitle": {
+    "message": "Paliekamos svetainės | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "„GitHub“ saugykla, atidaroma naujame skirtuke"
+  },
+  "accessHeading": {
+    "message": "Prieiga prie svetainių išjungta"
+  },
+  "allowSiteAccess": {
+    "message": "Leisti prieigą prie svetainių"
+  },
+  "accessHistorySiteData": {
+    "message": "Be prieigos prie svetainių plėtinys negali ištrinti slapukų. Istorija ir svetainių duomenys vis tiek išvalomi."
+  },
+  "accessHistory": {
+    "message": "Be prieigos prie svetainių plėtinys negali ištrinti slapukų. Istorija vis tiek išvaloma."
+  },
+  "accessSiteData": {
+    "message": "Be prieigos prie svetainių plėtinys negali ištrinti slapukų. Svetainių duomenys vis tiek išvalomi."
+  },
+  "accessNothing": {
+    "message": "Be prieigos prie svetainių plėtinys negali ištrinti slapukų, todėl niekas neišvaloma."
+  },
+  "clearingOffHeading": {
+    "message": "Valymas išjungtas"
+  },
+  "clearingOffText": {
+    "message": "Kol kas niekas netrinama. Pridėkite svetaines, kuriose norite likti prisijungę, tada įjunkite valymą. Nuo tada kiekvieną kartą paleidus naršyklę bus ištrinami visų kitų svetainių duomenys ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Įjungti valymą"
+  },
+  "keptSitesHeading": {
+    "message": "Paliekamos svetainės"
+  },
+  "intro": {
+    "message": "Šios svetainės ir jų subdomenai išsaugo savo duomenis ($DATA$), todėl liekate prisijungę. Kol valymas įjungtas, visos kitos svetainės juos praranda kiekvieną kartą paleidus naršyklę.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Svetainių domenai"
+  },
+  "keep": {
+    "message": "Palikti"
+  },
+  "siteHint": {
+    "message": "Kelias svetaines atskirkite kableliais."
+  },
+  "noSites": {
+    "message": "Dar nepaliekama jokia svetainė, todėl valymas ištrina visų svetainių duomenis ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Paliekamos svetainės"
+  },
+  "clearingHeading": {
+    "message": "Valymas"
+  },
+  "clearOnStartupLabel": {
+    "message": "Automatiškai valyti paleidus naršyklę"
+  },
+  "clearNow": {
+    "message": "Valyti dabar"
+  },
+  "firstClearHint": {
+    "message": "Pirmasis valymas gali užtrukti kelias minutes, jei naršyklėje daug naršymo duomenų. Tuo metu galite toliau naršyti."
+  },
+  "leftoversHeading": {
+    "message": "Likę svetainių duomenys"
+  },
+  "leftoversIntro": {
+    "message": "Ištrynus svetainės istoriją ir slapukus, plėtinys jos nebeaptinka, todėl jos vietinė saugykla, duomenų bazės ir talpykla lieka. „Valyti likučius“ po valymo, pvz., „Valyti dabar“, ištrina visų nepaliekamų svetainių duomenis, aptiktų ar ne."
+  },
+  "clearLeftovers": {
+    "message": "Valyti likučius"
+  },
+  "transferHeading": {
+    "message": "Importavimas ir eksportavimas"
+  },
+  "transferIntro": {
+    "message": "Išsaugokite paliekamas svetaines teksto faile arba pakeiskite jas failo svetainėmis. Faile gali būti po vieną svetainę eilutėje arba svetainės, atskirtos kableliais."
+  },
+  "export": {
+    "message": "Eksportuoti"
+  },
+  "import": {
+    "message": "Importuoti"
+  },
+  "cancel": {
+    "message": "Atšaukti"
+  },
+  "dataAll": {
+    "message": "istorija, slapukai ir svetainių duomenys"
+  },
+  "dataNoHistory": {
+    "message": "slapukai ir svetainių duomenys"
+  },
+  "dataNoSiteData": {
+    "message": "istorija ir slapukai"
+  },
+  "dataCookies": {
+    "message": "slapukai"
+  },
+  "remove": {
+    "message": "Pašalinti"
+  },
+  "removeSite": {
+    "message": "Pašalinti $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ pašalinta. Jos duomenys ($DATA$) bus ištrinti per kitą valymą.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Nepavyko pašalinti svetainės."
+  },
+  "siteKept": {
+    "message": "$SITE$ paliekama.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Paliekama $COUNT$ svetainė.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_few": {
+    "message": "Paliekamos $COUNT$ svetainės.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Paliekama $COUNT$ svetainių.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ jau paliekama.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ svetainė jau paliekama.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_few": {
+    "message": "$COUNT$ svetainės jau paliekamos.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ svetainių jau paliekama.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ nėra tinkamas domenas.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Tai nėra tinkami domenai: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Įveskite tinkamą domeną, pvz., example.com."
+  },
+  "addSiteFailed": {
+    "message": "Nepavyko pridėti svetainės."
+  },
+  "addSitesFailed": {
+    "message": "Nepavyko pridėti svetainių."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ didesnis nei 1 MB, todėl paliekamos svetainės nepakeistos.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "Faile $FILE$ nėra tinkamų domenų, todėl paliekamos svetainės nepakeistos.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Pakeisti paliekamas svetaines?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ svetainė",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_few": {
+    "message": "$COUNT$ svetainės",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ svetainių",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Dabar paliekamos svetainės ($CURRENT$) bus pakeistos failo $FILE$ svetainėmis ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ svetainė nebebus paliekama, o jos duomenys ($DATA$) bus ištrinti per kitą valymą.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_few": {
+    "message": "$COUNT$ svetainės nebebus paliekamos, o jų duomenys ($DATA$) bus ištrinti per kitą valymą.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ svetainių nebebus paliekama, o jų duomenys ($DATA$) bus ištrinti per kitą valymą.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Pakeisti paliekamas svetaines"
+  },
+  "sitesImported_one": {
+    "message": "Iš $FILE$ importuota $COUNT$ svetainė.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_few": {
+    "message": "Iš $FILE$ importuotos $COUNT$ svetainės.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Iš $FILE$ importuota $COUNT$ svetainių.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Nepavyko eksportuoti paliekamų svetainių."
+  },
+  "importFailed": {
+    "message": "Nepavyko importuoti paliekamų svetainių iš $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Įjungti valymą?"
+  },
+  "turnOnKept": {
+    "message": "Kiekvieną kartą paleidus naršyklę bus ištrinami visų svetainių duomenys ($DATA$), išskyrus tas, kurias pasirinkote palikti. Būsite atjungti nuo visų kitų svetainių.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Nepasirinkote jokių paliekamų svetainių. Kiekvieną kartą paleidus naršyklę bus ištrinami visi duomenys ($DATA$), o jūs būsite atjungti nuo visų svetainių.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Ištrintų duomenų ($DATA$) atkurti negalima.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Išvalyti viską dabar?"
+  },
+  "clearEverythingText": {
+    "message": "Nepasirinkote jokių paliekamų svetainių, todėl dabar bus ištrinti visų svetainių duomenys ($DATA$), o jūs būsite atjungti nuo visų svetainių.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Išvalyti viską"
+  },
+  "leftoversTitle": {
+    "message": "Išvalyti likusius svetainių duomenis?"
+  },
+  "leftoversKept": {
+    "message": "Dabar bus ištrinti visų nepaliekamų svetainių duomenys ($DATA$), įskaitant svetainių, kurių plėtinys nebeaptinka, duomenis.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Paliekama svetainė išsaugo savo duomenis tik tais adresais, kuriuos plėtinys aptinka istorijoje, slapukuose ir atidarytuose skirtukuose. Bet kuris kitas paliekamos svetainės subdomenas ar prievadas, pvz., mėnesių mėnesius nelankytas subdomenas ar vietinis serveris kitame prievade, praranda savo duomenis, ir galite būti nuo jo atjungti."
+  },
+  "clearing": {
+    "message": "Valoma… Tai gali užtrukti kelias minutes."
+  },
+  "leftoversFailed": {
+    "message": "Nepavyko išvalyti likusių svetainių duomenų."
+  },
+  "leftoversCleared": {
+    "message": "Likę svetainių duomenys išvalyti."
+  },
+  "nothingClearedYet": {
+    "message": "Dar niekas neišvalyta."
+  },
+  "clearFailed": {
+    "message": "Valymas ($WHEN$) nepavyko.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ istorijos įrašas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_few": {
+    "message": "$COUNT$ istorijos įrašai",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ istorijos įrašų",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ slapukas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_few": {
+    "message": "$COUNT$ slapukai",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ slapukų",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "nieko"
+  },
+  "lastCleared": {
+    "message": "Paskutinį kartą išvalyta: $WHEN$. Ištrinta: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Paskutinį kartą išvalyta: $WHEN$. Ištrinta: $WHAT$, taip pat svetainių duomenys ir talpykla.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Paskutinį kartą išvalyta: $WHEN$. Ištrinta: $WHAT$, taip pat visų nepaliekamų svetainių duomenys ir talpykla.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Istorija ir svetainių duomenys praleisti, nes ši naršyklė neleidžia plėtiniams jų valyti."
+  },
+  "skippedHistory": {
+    "message": "Istorija praleista, nes ši naršyklė neleidžia plėtiniams jos valyti."
+  },
+  "skippedSiteData": {
+    "message": "Svetainių duomenys praleisti, nes ši naršyklė neleidžia plėtiniams jų valyti."
+  },
+  "cookiesSkipped": {
+    "message": "Slapukai praleisti, nes prieiga prie svetainių išjungta."
+  },
+  "loadFailed": {
+    "message": "Nepavyko įkelti nustatymų."
+  }
+}

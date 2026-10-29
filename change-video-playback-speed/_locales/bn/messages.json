@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "ভিডিও ও অডিওর প্লেব্যাক গতি দ্রুত 1x, 1.2x, 1.5x ও 2x-এর মধ্যে বদলান।"
+  },
+  "commandDescription": {
+    "message": "ভিডিওর প্লেব্যাক গতি বদলান"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "প্লেব্যাক গতি $SPEED$ গুণ",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "প্লেব্যাক গতি: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

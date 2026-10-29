@@ -1,0 +1,42 @@
+Tanqueu la pestanya actual amb un toc de tres dits, un clic del mig o un clic a la barra d'eines.
+
+Three Finger Tap to Close Tab és una extensió lleugera i de codi obert que ofereix una manera ràpida i senzilla de tancar la pestanya actual del navegador.
+
+Feu un toc de tres dits o un clic del mig en qualsevol lloc d'una pàgina web fora d'enllaços i camps editables per tancar la pestanya actual. També podeu fer clic a la icona de l'extensió a la barra d'eines.
+
+Consell: fixeu l'extensió al menú d'extensions de Chrome (la icona de peça de trencaclosques) per mantenir-ne la icona a la barra d'eines.
+
+El clic del mig sobre enllaços i targetes de canals manté el comportament habitual del navegador, de manera que podeu continuar obrint enllaços i publicacions en pestanyes noves com sempre. Un marge de seguretat integrat evita tancar la pestanya per error si toqueu just al costat d'un enllaç o d'un control.
+
+CARACTERÍSTIQUES PRINCIPALS
+
+• Tanqueu la pestanya actual amb un toc de tres dits
+• Tanqueu la pestanya actual amb un clic del mig
+• Tanqueu la pestanya actual amb un clic a la barra d'eines
+• Manté el comportament habitual del clic del mig en enllaços, botons i targetes de canals
+• Un marge de seguretat evita tancaments accidentals a prop d'elements interactius
+• No tanca pestanyes mentre interactueu amb formularis i camps editables
+• Sense menús emergents ni configuració
+
+CONFIGURACIÓ DEL RATOLÍ TÀCTIL
+
+El ratolí tàctil i el sistema operatiu han d'estar configurats perquè un toc de tres dits generi un clic del mig.
+
+Un cop configurat, feu un toc de tres dits en una pàgina web fora d'enllaços i de contingut interactiu per tancar la pestanya actual.
+
+PRIVADESA
+
+• Sense analítiques ni seguiment
+• No recull dades ni historial de navegació
+• Sense sol·licituds de xarxa
+• No desa activitat de navegació ni preferències
+
+Tots els tancaments de pestanyes es fan localment al vostre navegador.
+
+CODI OBERT
+
+Three Finger Tap to Close Tab és un projecte de codi obert sota llicència MIT.
+
+Consulteu el codi font, informeu d'errors o col·laboreu a GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

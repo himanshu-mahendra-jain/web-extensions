@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2026-10-29
+
+### New Features
+
+* The extension now speaks your browser's language. It is translated into every language the Chrome Web Store supports and falls back to English for any other.
+* The on-screen speed indicator, the announcement screen readers hear, the toolbar button's tooltip and the keyboard shortcut's name are all translated. The speed is written the way your language writes numbers, so German shows 1,5x. The badge on the toolbar button keeps plain digits.
+
 ## [1.0.4] - 2026-10-17
 
 ### Changes

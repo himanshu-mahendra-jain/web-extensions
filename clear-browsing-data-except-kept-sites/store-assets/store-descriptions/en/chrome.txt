@@ -1,0 +1,90 @@
+Clear history, cookies and site data on browser startup for every site except the ones you keep.
+
+Clear Browsing Data Except Kept Sites is a lightweight, open-source extension that removes the history entries, cookies, and site data of every site you have not chosen to keep.
+
+Add the sites you want to stay signed in to and remember on the settings page, then turn clearing on. Each time Chrome starts, the extension clears the history, cookies, and site data of all other sites. You can also clear on demand with Clear Now.
+
+Tip: pin the extension in Chrome's Extensions menu (the puzzle-piece icon) to keep its icon on the toolbar.
+
+KEY FEATURES
+
+• Keep a list of sites whose history and cookies are never cleared, and import or export it as a text file
+• Clear history and cookies for all other sites when Chrome starts, once you turn it on
+• Clear on demand with Clear Now, and clear the leftover site data of sites no longer found with Clear Leftovers
+• Keep subdomains of a kept site automatically
+• Keep the parent-domain cookies a kept site needs to stay signed in
+• Clear partitioned (third-party) cookies; a kept site's partitioned cookies are kept only under kept sites
+• Clear the local storage, IndexedDB, service workers, and cache of sites that are not kept
+• Show the result of the last clear on the settings page
+• Warn when site access is turned off and cookies cannot be cleared
+• No analytics or tracking
+• No remote code or network requests
+
+KEPT SITES
+
+Open the settings page and add a domain such as:
+
+example.com
+
+To add several at once, separate them with commas.
+
+Export saves the list as a text file, one domain per line. Import replaces the list with the sites in a text file, and warns first when that drops sites you keep now.
+
+An address such as mail.example.com/inbox is reduced to its domain, and a leading www. is dropped. localhost and IPv4 addresses such as 192.168.1.1 are also accepted.
+
+Keeping example.com keeps the history, cookies, and site data of example.com and all its subdomains. Keeping mail.example.com also keeps the cookies of example.com, because they often hold the subdomain's sign-in.
+
+OPEN THE SETTINGS PAGE
+
+The settings page opens automatically after installation, so you can fill in the keep list before turning clearing on. Later, click the extension icon in the toolbar, or:
+
+1. Right-click the extension icon in the toolbar.
+2. Select Options.
+
+CLEARING ON STARTUP
+
+Clearing is off after installation, so nothing is removed until you ask for it. The settings page shows a "Clearing is off" notice with a Turn On Clearing button. Turning it on first shows a warning: every startup deletes the history and cookies of all sites except the kept ones and signs you out of them, or of every site when none are kept.
+
+Once on, clearing runs each time Chrome starts, because Chrome does not let extensions run when it closes. Clearing at startup removes what the previous session left behind. Turn it off or on again with "Clear automatically when the browser starts" on the settings page.
+
+CLEAR NOW AND CLEAR LEFTOVERS
+
+Clear Now on the settings page clears immediately. When no sites are kept, it first shows a red warning that everything will be deleted. The settings page shows when the last clear ran and how many history entries and cookies it deleted.
+
+Once a clear has removed a site's history and cookies, later clears no longer find that site, so its local storage, databases, and cache stay. Clear Leftovers runs a clear and then deletes the site data of every site you do not keep, found or not. Chrome can spare only exact sites here, so a kept site keeps its data only for the site itself and the kept sites the clear finds in history, cookies, and open tabs; a red warning says so first.
+
+SITE ACCESS
+
+Cookies can only be removed for sites the extension has access to, so it asks for access to all websites. If you limit site access, for example to On click, history is still cleared but cookies are skipped, and the settings page shows an Allow Site Access button.
+
+LIMITATIONS
+
+• Tabs restored at startup can set new cookies while the clear runs. Those cookies remain until the next startup or Clear Now.
+• Other site data, such as session storage, site permissions, and files saved through the file system API, is not cleared.
+• If Chrome sync includes history, removed history entries may also be removed on your other devices.
+• Incognito windows are cleared only when the extension is allowed in Incognito. Chrome discards their data when they close anyway.
+• IPv6 addresses cannot be added to the keep list.
+
+PRIVACY
+
+• No analytics or tracking
+• No data collection
+• No network requests
+• No remote code
+• No external JavaScript
+• History and cookies are read only to decide what to remove, and only inside your browser
+• The keep list and settings are stored locally in your browser
+
+PERFORMANCE
+
+The extension does no work while you browse. It runs once when Chrome starts, if clearing is on, and when you click Clear Now or Clear Leftovers.
+
+The first clear of a long history can take several minutes, because each history entry is deleted individually. You can keep browsing in the meantime. Later clears only remove the previous session's entries.
+
+OPEN SOURCE
+
+Clear Browsing Data Except Kept Sites is open source and licensed under the MIT License.
+
+View the source code, report issues, or contribute on GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

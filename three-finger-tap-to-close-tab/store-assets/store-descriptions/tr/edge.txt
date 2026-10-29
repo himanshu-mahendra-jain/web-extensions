@@ -1,0 +1,42 @@
+Geçerli sekmeyi üç parmakla dokunarak, orta tıklayarak veya araç çubuğuna tıklayarak kapatın.
+
+Three Finger Tap to Close Tab, geçerli tarayıcı sekmesini hızlı ve kolayca kapatmanızı sağlayan hafif, açık kaynaklı bir uzantıdır.
+
+Geçerli sekmeyi kapatmak için bir web sayfasında bağlantılar ve düzenlenebilir alanlar dışında herhangi bir yere üç parmakla dokunun veya orta tıklayın. Sekmeyi araç çubuğundaki uzantı simgesine tıklayarak da kapatabilirsiniz.
+
+İpucu: Edge Uzantılar menüsünde Three Finger Tap to Close Tab için «Araç çubuğunda göster» seçeneğini açarak hızlı erişim sağlayın.
+
+Bağlantılara ve akış kartlarına orta tıklama tarayıcının normal davranışını korur; böylece bağlantıları ve gönderileri her zamanki gibi yeni sekmelerde açmaya devam edersiniz. Yerleşik güvenlik payı, bir bağlantının veya denetimin hemen yanına dokunduğunuzda sekmenin yanlışlıkla kapanmasını önler.
+
+TEMEL ÖZELLİKLER
+
+• Geçerli sekmeyi üç parmakla dokunarak kapatın
+• Geçerli sekmeyi orta tıklayarak kapatın
+• Geçerli sekmeyi araç çubuğuna tıklayarak kapatın
+• Bağlantılarda, düğmelerde ve akış kartlarında normal orta tıklamayı korur
+• Güvenlik payı, etkileşimli öğelerin yakınında yanlışlıkla kapanmayı önler
+• Formları ve düzenlenebilir alanları kullanırken sekmeleri kapatmaz
+• Açılır menü veya ayar yok
+
+DOKUNMATİK YÜZEY KURULUMU
+
+Dokunmatik yüzeyiniz ve işletim sisteminiz, üç parmakla dokunma orta tıklama üretecek şekilde ayarlanmalıdır.
+
+Ayarladıktan sonra, geçerli sekmeyi kapatmak için bağlantılar ve etkileşimli içerik dışında web sayfasına üç parmakla dokunun.
+
+GİZLİLİK
+
+• Analiz veya izleme yok
+• Veri veya tarama geçmişi toplanmaz
+• Ağ isteği yok
+• Tarama etkinliği veya tercihler kaydedilmez
+
+Tüm sekme kapatma işlemleri yerel olarak tarayıcınızda gerçekleşir.
+
+AÇIK KAYNAK
+
+Three Finger Tap to Close Tab, MIT Lisansı altında sunulan açık kaynaklı bir projedir.
+
+Kaynak kodunu incelemek, sorun bildirmek veya katkıda bulunmak için GitHub'ı ziyaret edin:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

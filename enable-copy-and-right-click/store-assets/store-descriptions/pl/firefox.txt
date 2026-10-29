@@ -1,0 +1,80 @@
+Włącz kopiowanie, zaznaczanie tekstu i menu prawego przycisku na stronach, które je blokują.
+
+Enable Copy and Right Click to lekkie rozszerzenie o otwartym kodzie źródłowym, które przywraca normalne kopiowanie, zaznaczanie tekstu i prawy przycisk na stronach internetowych, które je ograniczają.
+
+Kliknij ikonę rozszerzenia na pasku narzędzi lub użyj skrótu klawiszowego, aby włączyć kopiowanie i prawy przycisk na bieżącej karcie.
+
+Zaufane witryny możesz też dodać do listy witryn automatycznych. Wtedy rozszerzenie będzie automatycznie włączać kopiowanie i prawy przycisk przy każdej wizycie na tych witrynach.
+
+GŁÓWNE FUNKCJE
+
+• Włącza kopiowanie i zaznaczanie tekstu na stronach z ograniczeniami
+• Włącza menu kontekstowe prawego przycisku
+• Włącza kopiowanie, wycinanie, wklejanie, zaznaczanie tekstu i przeciąganie
+• Włączanie jednym kliknięciem z paska narzędzi
+• Skrót klawiszowy do szybkiego włączania
+• Automatyczne włączanie na wybranych witrynach
+• Działa w dostępnych ramkach iframe, o ile pozwalają na to uprawnienia przeglądarki
+• Po ręcznym włączeniu pokazuje plakietkę ON
+• Bez wyskakujących menu
+• Bez analityki i śledzenia
+• Bez zdalnego kodu i żądań sieciowych
+
+DOMYŚLNE SKRÓTY KLAWISZOWE
+
+• Windows, Linux, ChromeOS, GooglebookOS i Android: Alt+C
+• macOS: Command+Shift+Y
+
+Skrót klawiszowy działa tak samo jak kliknięcie ikony rozszerzenia.
+
+ZMIANA SKRÓTU KLAWISZOWEGO
+
+1. Otwórz menu Firefoksa i wybierz Dodatki i motywy.
+2. Kliknij ikonę zębatki na stronie Rozszerzenia.
+3. Wybierz Zarządzaj skrótami rozszerzeń.
+4. Znajdź Enable Copy and Right Click i wpisz wybrany skrót.
+
+WITRYNY AUTOMATYCZNE
+
+Otwórz stronę opcji rozszerzenia i dodaj domenę, na przykład:
+
+example.com
+
+Rozszerzenie poprosi o uprawnienie tylko dla dodanej witryny. Po jego przyznaniu kopiowanie, zaznaczanie tekstu i prawy przycisk będą na niej włączane automatycznie.
+
+Witrynę automatyczną możesz w każdej chwili usunąć na stronie opcji.
+
+OTWIERANIE STRONY OPCJI
+
+1. Otwórz menu Firefoksa i wybierz Dodatki i motywy.
+2. Znajdź Enable Copy and Right Click i kliknij menu z trzema kropkami obok.
+3. Wybierz Preferencje.
+
+PRYWATNOŚĆ
+
+• Bez analityki i śledzenia
+• Bez zbierania danych
+• Bez zbierania historii przeglądania
+• Bez żądań sieciowych
+• Bez zdalnego kodu
+• Bez zewnętrznego JavaScriptu
+• Ustawienia witryn automatycznych są przechowywane lokalnie w przeglądarce
+• O uprawnienia dla witryny prosi tylko wtedy, gdy sam dodasz witrynę
+
+Całe przywracanie kopiowania i prawego przycisku odbywa się lokalnie w przeglądarce.
+
+WYDAJNOŚĆ
+
+Rozszerzenie jest lekkie i działa w oparciu o zdarzenia.
+
+W stanie bezczynności nie wykonuje żadnej ciągłej pracy w tle. Ręczne włączanie działa tylko po kliknięciu ikony na pasku narzędzi lub użyciu skrótu klawiszowego. Automatyczne włączanie działa tylko na witrynach, które sam dodałeś.
+
+Brak odpytywania, aktywności sieciowej w tle, SDK analitycznego, zdalnej konfiguracji czy stałej pętli monitorującej strony.
+
+OPEN SOURCE
+
+Enable Copy and Right Click to projekt otwartoźródłowy udostępniany na licencji MIT.
+
+Zobacz kod źródłowy, zgłaszaj uwagi lub wesprzyj rozwój projektu w serwisie GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

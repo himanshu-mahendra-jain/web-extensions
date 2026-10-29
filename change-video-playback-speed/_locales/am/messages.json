@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "የቪዲዮ እና የድምፅ መልሶ ማጫወቻ ፍጥነትን በ1x፣ 1.2x፣ 1.5x እና 2x መካከል በፍጥነት ይቀይሩ።"
+  },
+  "commandDescription": {
+    "message": "የቪዲዮ መልሶ ማጫወቻ ፍጥነትን ይቀይሩ"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "የመልሶ ማጫወቻ ፍጥነት $SPEED$ እጥፍ",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "የመልሶ ማጫወቻ ፍጥነት፦ $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

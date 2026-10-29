@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "All'avvio del browser cancella cronologia, cookie e dati dei siti di tutti i siti, tranne quelli che conservi."
+  },
+  "optionsTitle": {
+    "message": "Siti conservati | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repository GitHub, si apre in una nuova scheda"
+  },
+  "accessHeading": {
+    "message": "L'accesso ai siti è disattivato"
+  },
+  "allowSiteAccess": {
+    "message": "Consenti accesso ai siti"
+  },
+  "accessHistorySiteData": {
+    "message": "Senza accesso ai siti web, l'estensione non può eliminare i cookie. Cronologia e dati dei siti vengono comunque cancellati."
+  },
+  "accessHistory": {
+    "message": "Senza accesso ai siti web, l'estensione non può eliminare i cookie. La cronologia viene comunque cancellata."
+  },
+  "accessSiteData": {
+    "message": "Senza accesso ai siti web, l'estensione non può eliminare i cookie. I dati dei siti vengono comunque cancellati."
+  },
+  "accessNothing": {
+    "message": "Senza accesso ai siti web, l'estensione non può eliminare i cookie, quindi non viene cancellato nulla."
+  },
+  "clearingOffHeading": {
+    "message": "La cancellazione è disattivata"
+  },
+  "clearingOffText": {
+    "message": "Non viene ancora eliminato nulla. Aggiungi i siti in cui vuoi restare connesso, poi attiva la cancellazione. Da allora, a ogni avvio del browser verranno eliminati i dati ($DATA$) di tutti gli altri siti.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Attiva la cancellazione"
+  },
+  "keptSitesHeading": {
+    "message": "Siti conservati"
+  },
+  "intro": {
+    "message": "Questi siti e i loro sottodomini conservano i propri dati ($DATA$), così resti connesso. Finché la cancellazione è attiva, tutti gli altri siti li perdono a ogni avvio del browser.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Domini dei siti web"
+  },
+  "keep": {
+    "message": "Conserva"
+  },
+  "siteHint": {
+    "message": "Separa più siti con virgole."
+  },
+  "noSites": {
+    "message": "Non conservi ancora nessun sito, quindi una cancellazione elimina i dati ($DATA$) di tutti i siti.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Siti conservati"
+  },
+  "clearingHeading": {
+    "message": "Cancellazione"
+  },
+  "clearOnStartupLabel": {
+    "message": "Cancella automaticamente all'avvio del browser"
+  },
+  "clearNow": {
+    "message": "Cancella ora"
+  },
+  "firstClearHint": {
+    "message": "La prima cancellazione può richiedere diversi minuti se il browser contiene molti dati di navigazione. Nel frattempo puoi continuare a navigare."
+  },
+  "leftoversHeading": {
+    "message": "Dati dei siti rimasti"
+  },
+  "leftoversIntro": {
+    "message": "Una volta eliminati la cronologia e i cookie di un sito, l'estensione non lo trova più, quindi il suo spazio di archiviazione locale, i database e la cache restano. Cancella residui elimina i dati di tutti i siti che non conservi, trovati o meno, dopo una cancellazione come Cancella ora."
+  },
+  "clearLeftovers": {
+    "message": "Cancella residui"
+  },
+  "transferHeading": {
+    "message": "Importa ed esporta"
+  },
+  "transferIntro": {
+    "message": "Salva i siti conservati in un file di testo o sostituiscili con i siti di un file. Un file può elencare un sito per riga o separarli con virgole."
+  },
+  "export": {
+    "message": "Esporta"
+  },
+  "import": {
+    "message": "Importa"
+  },
+  "cancel": {
+    "message": "Annulla"
+  },
+  "dataAll": {
+    "message": "cronologia, cookie e dati dei siti"
+  },
+  "dataNoHistory": {
+    "message": "cookie e dati dei siti"
+  },
+  "dataNoSiteData": {
+    "message": "cronologia e cookie"
+  },
+  "dataCookies": {
+    "message": "cookie"
+  },
+  "remove": {
+    "message": "Rimuovi"
+  },
+  "removeSite": {
+    "message": "Rimuovi $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ rimosso. I suoi dati ($DATA$) verranno eliminati alla prossima cancellazione.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Impossibile rimuovere il sito."
+  },
+  "siteKept": {
+    "message": "$SITE$ conservato.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ sito conservato.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ siti conservati.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ è già conservato.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ sito è già conservato.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ siti sono già conservati.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ non è un dominio valido.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Questi non sono domini validi: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Inserisci un dominio valido, ad esempio example.com."
+  },
+  "addSiteFailed": {
+    "message": "Impossibile aggiungere il sito."
+  },
+  "addSitesFailed": {
+    "message": "Impossibile aggiungere i siti."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ supera 1 MB, quindi i siti conservati non sono cambiati.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ non contiene domini validi, quindi i siti conservati non sono cambiati.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Sostituire i siti conservati?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ sito",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ siti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "I siti che conservi ora ($CURRENT$) verranno sostituiti dai siti in $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ sito non verrà più conservato e i suoi dati ($DATA$) verranno eliminati alla prossima cancellazione.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ siti non verranno più conservati e i loro dati ($DATA$) verranno eliminati alla prossima cancellazione.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Sostituisci siti conservati"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ sito importato da $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ siti importati da $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Impossibile esportare i siti conservati."
+  },
+  "importFailed": {
+    "message": "Impossibile importare i siti conservati da $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Attivare la cancellazione?"
+  },
+  "turnOnKept": {
+    "message": "A ogni avvio del browser verranno eliminati i dati ($DATA$) di tutti i siti tranne quelli che hai scelto di conservare. Verrai disconnesso da tutti gli altri siti.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Non hai scelto nessun sito da conservare. A ogni avvio del browser verranno eliminati tutti i dati ($DATA$) e verrai disconnesso da tutti i siti.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "I dati eliminati ($DATA$) non possono essere recuperati.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Cancellare tutto ora?"
+  },
+  "clearEverythingText": {
+    "message": "Non hai scelto nessun sito da conservare, quindi ora verranno eliminati i dati ($DATA$) di tutti i siti e verrai disconnesso da tutti i siti.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Cancella tutto"
+  },
+  "leftoversTitle": {
+    "message": "Cancellare i dati dei siti rimasti?"
+  },
+  "leftoversKept": {
+    "message": "Ora verranno eliminati i dati ($DATA$) di tutti i siti che non conservi, compresi i dati dei siti che l'estensione non trova più.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Un sito conservato mantiene i propri dati solo agli indirizzi che l'estensione trova nella cronologia, nei cookie e nelle schede aperte. Ogni altro sottodominio o porta di un sito conservato, ad esempio uno che non visiti da mesi o un server locale su un'altra porta, perde i propri dati e potresti esserne disconnesso."
+  },
+  "clearing": {
+    "message": "Cancellazione… Potrebbe richiedere qualche minuto."
+  },
+  "leftoversFailed": {
+    "message": "Cancellazione dei dati dei siti rimasti non riuscita."
+  },
+  "leftoversCleared": {
+    "message": "Dati dei siti rimasti cancellati."
+  },
+  "nothingClearedYet": {
+    "message": "Non è stato ancora cancellato nulla."
+  },
+  "clearFailed": {
+    "message": "La cancellazione del $WHEN$ non è riuscita.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ voce della cronologia",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ voci della cronologia",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "nulla"
+  },
+  "lastCleared": {
+    "message": "Ultima cancellazione: $WHEN$. Eliminato: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Ultima cancellazione: $WHEN$. Eliminato: $WHAT$, insieme a dati dei siti e cache.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Ultima cancellazione: $WHEN$. Eliminato: $WHAT$, insieme a dati e cache di tutti i siti non conservati.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Cronologia e dati dei siti sono stati saltati perché questo browser non consente alle estensioni di cancellarli."
+  },
+  "skippedHistory": {
+    "message": "La cronologia è stata saltata perché questo browser non consente alle estensioni di cancellarla."
+  },
+  "skippedSiteData": {
+    "message": "I dati dei siti sono stati saltati perché questo browser non consente alle estensioni di cancellarli."
+  },
+  "cookiesSkipped": {
+    "message": "I cookie sono stati saltati perché l'accesso ai siti è disattivato."
+  },
+  "loadFailed": {
+    "message": "Impossibile caricare le impostazioni."
+  }
+}

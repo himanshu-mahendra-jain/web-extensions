@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-10-29
+
+### New Features
+
+* The extension now speaks your browser's language. It is translated into every language the Chrome Web Store supports and falls back to English for any other.
+* The Automatic Sites page and its messages, the announcement screen readers hear, the toolbar button's tooltip and the keyboard shortcut's name are all translated. The page is laid out right to left in Arabic, Hebrew and Persian. The badge on the toolbar button still reads `ON`.
+
 ## [1.0.2] - 2026-10-17
 
 ### Changes

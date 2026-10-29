@@ -1,0 +1,42 @@
+Luk den aktuelle fane med et tryk med tre fingre, et midterklik eller et klik på værktøjslinjen.
+
+Three Finger Tap to Close Tab er en let udvidelse med åben kildekode, der giver en hurtig og enkel måde at lukke den aktuelle browserfane på.
+
+Tryk med tre fingre eller midterklik hvor som helst på en webside uden for links og redigerbare felter for at lukke den aktuelle fane. Du kan også klikke på udvidelsens ikon på værktøjslinjen for at lukke fanen.
+
+Tip: I Edges udvidelsesmenu kan du slå «Vis på værktøjslinje» til for Three Finger Tap to Close Tab for altid at have hurtig adgang.
+
+Midterklik på links og feedkort bevarer browserens normale adfærd, så du fortsat kan åbne links og opslag i nye faner som sædvanligt. En indbygget sikkerhedsafstand forhindrer, at fanen lukkes ved et uheld, hvis du trykker lige ved siden af et link eller en knap.
+
+VIGTIGSTE FUNKTIONER
+
+• Luk den aktuelle fane med et tryk med tre fingre
+• Luk den aktuelle fane med et midterklik
+• Luk den aktuelle fane med et klik på værktøjslinjen
+• Bevarer normalt midterklik på links, knapper og feedkort
+• Sikkerhedsafstand forhindrer utilsigtet lukning nær interaktive elementer
+• Lukker ikke faner, mens du arbejder med formularer og redigerbare felter
+• Ingen pop op-menuer eller indstillinger
+
+OPSÆTNING AF TOUCHPAD
+
+Din touchpad og dit styresystem skal være indstillet, så et tryk med tre fingre giver et midterklik.
+
+Derefter kan du trykke med tre fingre på en webside uden for links og interaktivt indhold for at lukke den aktuelle fane.
+
+PRIVATLIV
+
+• Ingen analyse eller sporing
+• Ingen indsamling af data eller browserhistorik
+• Ingen netværksanmodninger
+• Ingen gemt browseraktivitet eller indstillinger
+
+Al lukning af faner sker lokalt i din browser.
+
+OPEN SOURCE
+
+Three Finger Tap to Close Tab er open source og udgivet under MIT-licensen.
+
+Se kildekoden, rapportér problemer eller bidrag på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

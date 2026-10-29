@@ -1,0 +1,91 @@
+Tyhjentää selaimen käynnistyessä historian, evästeet ja sivustotiedot kaikilta sivustoilta paitsi säilyttämiltäsi.
+
+Androidin Firefox ei salli laajennusten poistaa historiaa, joten siellä tyhjennetään vain evästeet ja sivustotiedot.
+
+Clear Browsing Data Except Kept Sites on kevyt avoimen lähdekoodin laajennus, joka poistaa historiamerkinnät, evästeet ja sivustotiedot kaikilta sivustoilta, joita et ole valinnut säilytettäviksi.
+
+Lisää asetuksissa sivustot, joille haluat jäädä kirjautuneeksi ja jotka haluat muistaa, ja ota sitten tyhjennys käyttöön. Joka kerta kun selain käynnistyy, laajennus poistaa kaikkien muiden sivustojen historian ja evästeet. Voit myös tyhjentää milloin tahansa painikkeella ”Tyhjennä nyt”.
+
+TÄRKEIMMÄT OMINAISUUDET
+
+• Luettelo sivustoista, joiden historiaa ja evästeitä ei koskaan tyhjennetä, tuonnilla ja viennillä tekstitiedostona
+• Kaikkien muiden sivustojen historian ja evästeiden tyhjennys selaimen käynnistyessä, kun otat sen käyttöön
+• Tyhjennys milloin tahansa asetusten painikkeella ”Tyhjennä nyt”
+• Säilytetyn sivuston aliverkkotunnukset säilytetään automaattisesti
+• Säilytetään ylätason verkkotunnuksen evästeet, joita säilytetty sivusto tarvitsee pitääkseen sinut kirjautuneena
+• Osioitujen (kolmannen osapuolen) evästeiden ja eristysvälilehtien evästeiden tyhjennys; säilytetyn sivuston osioidut evästeet säilyvät vain säilytettyjen sivustojen alla
+• Säilyttämättömien sivustojen paikallisen tallennustilan, IndexedDB:n, service workereiden ja välimuistin tyhjennys
+• Viimeisimmän tyhjennyksen tulos asetuksissa
+• Varoitus, kun sivustojen käyttöoikeus on poistettu eikä evästeitä voi poistaa
+• Ei analytiikkaa tai seurantaa
+• Ei etäkoodia tai verkkopyyntöjä
+
+SÄILYTETYT SIVUSTOT
+
+Avaa asetukset ja lisää verkkotunnus, esimerkiksi:
+
+example.com
+
+Jos haluat lisätä useita kerralla, erota ne pilkuilla.
+
+”Vie” tallentaa luettelon tekstitiedostoon, yksi verkkotunnus riviä kohden. ”Tuo” korvaa luettelon tekstitiedoston sivustoilla ja varoittaa ensin, jos nyt säilyttämiäsi sivustoja katoaa.
+
+Osoite kuten mail.example.com/inbox lyhennetään verkkotunnukseksi, ja alussa oleva www. jätetään pois. Myös localhost ja IPv4-osoitteet kuten 192.168.1.1 hyväksytään.
+
+example.com-sivuston säilyttäminen säilyttää example.comin ja kaikkien sen aliverkkotunnusten historian ja evästeet. mail.example.com-sivuston säilyttäminen säilyttää myös example.comin evästeet, koska niissä on usein aliverkkotunnuksen kirjautuminen.
+
+ASETUSTEN AVAAMINEN
+
+Asetukset avautuvat automaattisesti asennuksen jälkeen, joten voit täyttää luettelon ennen kuin otat tyhjennyksen käyttöön. Myöhemmin napsauta laajennuksen kuvaketta työkalupalkissa. Androidin Firefoxissa napauta Clear Browsing Data Except Kept Sites selaimen Laajennukset-valikossa.
+
+Voit avata ne myös lisäosien hallinnasta:
+
+1. Avaa Firefoxin valikko ja valitse Lisäosat ja teemat.
+2. Etsi Clear Browsing Data Except Kept Sites ja napsauta sen vieressä olevaa kolmen pisteen valikkoa.
+3. Valitse Asetukset.
+
+TYHJENNYS KÄYNNISTYKSESSÄ
+
+Asennuksen jälkeen tyhjennys on pois päältä, joten mitään ei poisteta ennen kuin pyydät. Asetuksissa näkyy ilmoitus ”Tyhjennys on pois päältä” ja painike ”Ota tyhjennys käyttöön”. Käyttöönotto näyttää ensin varoituksen: jokainen käynnistys poistaa kaikkien sivustojen historian ja evästeet säilytettyjä lukuun ottamatta ja kirjaa sinut ulos niiltä, tai kaikilta sivustoilta, jos yhtään ei säilytetä.
+
+Kun tyhjennys on käytössä, se suoritetaan joka kerta kun selain käynnistyy, koska selain ei anna laajennusten toimia sulkemisen yhteydessä. Käynnistyksessä tehtävä tyhjennys poistaa sen, mitä edellinen istunto jätti. Poista se käytöstä tai ota se uudelleen käyttöön asetuksella ”Tyhjennä automaattisesti selaimen käynnistyessä”.
+
+TYHJENNÄ NYT
+
+Asetusten ”Tyhjennä nyt” tyhjentää heti. Jos yhtään sivustoa ei säilytetä, ensin näytetään punainen varoitus siitä, että kaikki poistetaan. Asetuksissa näkyy, milloin viimeisin tyhjennys tehtiin ja kuinka monta historiamerkintää ja evästettä se poisti.
+
+SIVUSTOJEN KÄYTTÖOIKEUS
+
+Evästeitä voidaan poistaa vain sivustoilta, joihin laajennuksella on käyttöoikeus, joten se pyytää käyttöoikeutta kaikkiin sivustoihin. Jos poistat sivustojen käyttöoikeuden, historia tyhjennetään edelleen, mutta evästeet ohitetaan ja asetuksissa näkyy painike ”Salli sivustojen käyttö”.
+
+RAJOITUKSET
+
+• Käynnistyksessä palautetut välilehdet voivat asettaa uusia evästeitä tyhjennyksen aikana. Ne säilyvät seuraavaan käynnistykseen tai ”Tyhjennä nyt”-tyhjennykseen asti.
+• Firefox ei voi poistaa sivustotietoja valittuja sivustoja lukuun ottamatta, joten laajennus poistaa paikallisen tallennustilan, IndexedDB:n ja service workerit jokaiselta säilyttämättömältä sivustolta, jonka se löytää historiasta, evästeistä ja avoimista välilehdistä. Sivusto, joka ei näy missään näistä, säilyttää tietonsa. Sivusto, jonka aliverkkotunnus säilytetään, säilyttää service workerinsa, koska Firefox poistaisi niiden mukana myös aliverkkotunnuksen omat. Välimuisti tyhjennetään kaikilta sivustoilta, koska Firefox ei voi tyhjentää sitä sivustokohtaisesti; se ei kirjaa ketään ulos.
+• Firefox ei voi tyhjentää sivustokohtaisesti Cache Storagea eli service workereiden tallentamia offline-tiedostoja, joten sitä ei tyhjennetä. Jos haluat poistaa sen, mihin laajennus ei ylety, käytä kohtaa Asetukset > Tietosuoja ja turvallisuus > Evästeet ja sivustotiedot > Hallitse tietoja.
+• Jos selaimen synkronointi sisältää historian, poistetut historiamerkinnät voivat poistua myös muilta laitteiltasi.
+• Yksityiset ikkunat tyhjennetään vain, jos laajennus saa toimia niissä.
+
+YKSITYISYYS
+
+• Ei analytiikkaa tai seurantaa
+• Ei tiedonkeruuta
+• Ei verkkopyyntöjä
+• Ei etäkoodia
+• Ei ulkoista JavaScriptiä
+• Historiaa ja evästeitä luetaan vain sen päättämiseksi, mitä poistetaan, ja vain selaimessasi
+• Luettelo ja asetukset tallennetaan paikallisesti selaimeesi
+
+SUORITUSKYKY
+
+Laajennus ei tee mitään selatessasi. Se suoritetaan kerran selaimen käynnistyessä, jos tyhjennys on käytössä, ja kun napsautat ”Tyhjennä nyt”.
+
+Pitkän historian ensimmäinen tyhjennys voi kestää muutaman minuutin, koska jokainen historiamerkintä poistetaan erikseen. Voit jatkaa selaamista sillä välin. Myöhemmät tyhjennykset poistavat vain edellisen istunnon merkinnät.
+
+AVOIN LÄHDEKOODI
+
+Clear Browsing Data Except Kept Sites on avoimen lähdekoodin ohjelmisto MIT-lisenssillä.
+
+Lähdekoodi, vikailmoitukset ja kehitystyö GitHubissa:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "ブラウザの起動時に、残すサイト以外のすべてのサイトの履歴、Cookie、サイトデータを消去します。"
+  },
+  "optionsTitle": {
+    "message": "残すサイト | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub リポジトリ (新しいタブで開きます)"
+  },
+  "accessHeading": {
+    "message": "サイトへのアクセスがオフです"
+  },
+  "allowSiteAccess": {
+    "message": "サイトへのアクセスを許可"
+  },
+  "accessHistorySiteData": {
+    "message": "ウェブサイトへのアクセスがないと、拡張機能は Cookie を削除できません。履歴とサイトデータは引き続き消去されます。"
+  },
+  "accessHistory": {
+    "message": "ウェブサイトへのアクセスがないと、拡張機能は Cookie を削除できません。履歴は引き続き消去されます。"
+  },
+  "accessSiteData": {
+    "message": "ウェブサイトへのアクセスがないと、拡張機能は Cookie を削除できません。サイトデータは引き続き消去されます。"
+  },
+  "accessNothing": {
+    "message": "ウェブサイトへのアクセスがないと、拡張機能は Cookie を削除できないため、何も消去されません。"
+  },
+  "clearingOffHeading": {
+    "message": "消去はオフです"
+  },
+  "clearingOffText": {
+    "message": "まだ何も削除されません。ログインしたままにしたいサイトを追加してから、消去をオンにしてください。それ以降、ブラウザが起動するたびに、ほかのすべてのサイトのデータ ($DATA$) が削除されます。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "消去をオンにする"
+  },
+  "keptSitesHeading": {
+    "message": "残すサイト"
+  },
+  "intro": {
+    "message": "これらのサイトとそのサブドメインはデータ ($DATA$) を保持するため、ログインしたままになります。消去がオンの間は、ほかのすべてのサイトはブラウザが起動するたびにそれを失います。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "ウェブサイトのドメイン"
+  },
+  "keep": {
+    "message": "残す"
+  },
+  "siteHint": {
+    "message": "複数のサイトはカンマで区切ってください。"
+  },
+  "noSites": {
+    "message": "残すサイトがまだないため、消去するとすべてのサイトのデータ ($DATA$) が削除されます。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "残すサイト"
+  },
+  "clearingHeading": {
+    "message": "消去"
+  },
+  "clearOnStartupLabel": {
+    "message": "ブラウザの起動時に自動で消去する"
+  },
+  "clearNow": {
+    "message": "今すぐ消去"
+  },
+  "firstClearHint": {
+    "message": "ブラウザに大量の閲覧データがある場合、初回の消去には数分かかることがあります。その間もブラウジングを続けられます。"
+  },
+  "leftoversHeading": {
+    "message": "残っているサイトデータ"
+  },
+  "leftoversIntro": {
+    "message": "サイトの履歴と Cookie が削除されると、拡張機能はそのサイトを見つけられなくなるため、ローカルストレージ、データベース、キャッシュが残ります。[残りを消去] は、[今すぐ消去] などの消去の後に、見つかったかどうかにかかわらず、残さないすべてのサイトのサイトデータを削除します。"
+  },
+  "clearLeftovers": {
+    "message": "残りを消去"
+  },
+  "transferHeading": {
+    "message": "インポートとエクスポート"
+  },
+  "transferIntro": {
+    "message": "残すサイトをテキストファイルに保存するか、ファイル内のサイトで置き換えます。ファイルには 1 行に 1 サイトずつ書くか、カンマで区切って書けます。"
+  },
+  "export": {
+    "message": "エクスポート"
+  },
+  "import": {
+    "message": "インポート"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "dataAll": {
+    "message": "履歴、Cookie、サイトデータ"
+  },
+  "dataNoHistory": {
+    "message": "Cookie とサイトデータ"
+  },
+  "dataNoSiteData": {
+    "message": "履歴と Cookie"
+  },
+  "dataCookies": {
+    "message": "Cookie"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "removeSite": {
+    "message": "$SITE$ を削除",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ を削除しました。このサイトのデータ ($DATA$) は次回の消去で削除されます。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "サイトを削除できませんでした。"
+  },
+  "siteKept": {
+    "message": "$SITE$ を残します。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ 件のサイトを残します。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ 件のサイトを残します。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ はすでに残すサイトです。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ 件のサイトはすでに残すサイトです。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ 件のサイトはすでに残すサイトです。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ は有効なドメインではありません。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "次のドメインは有効ではありません: $SITES$",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "example.com のような有効なドメインを入力してください。"
+  },
+  "addSiteFailed": {
+    "message": "サイトを追加できませんでした。"
+  },
+  "addSitesFailed": {
+    "message": "サイトを追加できませんでした。"
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ は 1 MB を超えているため、残すサイトは変更されていません。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ に有効なドメインがないため、残すサイトは変更されていません。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "残すサイトを置き換えますか?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ 件のサイト",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ 件のサイト",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "現在残しているサイト ($CURRENT$) が、$FILE$ のサイト ($NEW$) に置き換えられます。",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ 件のサイトは残されなくなり、そのデータ ($DATA$) は次回の消去で削除されます。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ 件のサイトは残されなくなり、そのデータ ($DATA$) は次回の消去で削除されます。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "残すサイトを置き換え"
+  },
+  "sitesImported_one": {
+    "message": "$FILE$ から $COUNT$ 件のサイトをインポートしました。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$FILE$ から $COUNT$ 件のサイトをインポートしました。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "残すサイトをエクスポートできませんでした。"
+  },
+  "importFailed": {
+    "message": "$FILE$ から残すサイトをインポートできませんでした。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "消去をオンにしますか?"
+  },
+  "turnOnKept": {
+    "message": "ブラウザが起動するたびに、残すように選んだサイト以外のすべてのサイトのデータ ($DATA$) が削除されます。ほかのすべてのサイトからログアウトされます。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "残すサイトが選ばれていません。ブラウザが起動するたびに、すべてのデータ ($DATA$) が削除され、すべてのサイトからログアウトされます。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "削除されたデータ ($DATA$) は復元できません。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "今すぐすべて消去しますか?"
+  },
+  "clearEverythingText": {
+    "message": "残すサイトが選ばれていないため、すべてのサイトのデータ ($DATA$) が今すぐ削除され、すべてのサイトからログアウトされます。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "すべて消去"
+  },
+  "leftoversTitle": {
+    "message": "残っているサイトデータを消去しますか?"
+  },
+  "leftoversKept": {
+    "message": "残さないすべてのサイトのデータ ($DATA$) が今すぐ削除されます。拡張機能が見つけられなくなったサイトのサイトデータも含まれます。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "残すサイトがサイトデータを保持するのは、拡張機能が履歴、Cookie、開いているタブで見つけたアドレスだけです。残すサイトのそれ以外のサブドメインやポート (何か月も訪れていないサブドメインや、別のポートのローカルサーバーなど) はサイトデータを失い、ログアウトされることがあります。"
+  },
+  "clearing": {
+    "message": "消去中… 数分かかることがあります。"
+  },
+  "leftoversFailed": {
+    "message": "残っているサイトデータを消去できませんでした。"
+  },
+  "leftoversCleared": {
+    "message": "残っているサイトデータを消去しました。"
+  },
+  "nothingClearedYet": {
+    "message": "まだ何も消去されていません。"
+  },
+  "clearFailed": {
+    "message": "$WHEN$ の消去に失敗しました。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "履歴 $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "履歴 $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "Cookie $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "Cookie $COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "なし"
+  },
+  "lastCleared": {
+    "message": "前回の消去: $WHEN$。削除したもの: $WHAT$。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "前回の消去: $WHEN$。削除したもの: $WHAT$、サイトデータとキャッシュ。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "前回の消去: $WHEN$。削除したもの: $WHAT$、残さないすべてのサイトのサイトデータとキャッシュ。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "このブラウザでは拡張機能が履歴とサイトデータを消去できないため、スキップしました。"
+  },
+  "skippedHistory": {
+    "message": "このブラウザでは拡張機能が履歴を消去できないため、スキップしました。"
+  },
+  "skippedSiteData": {
+    "message": "このブラウザでは拡張機能がサイトデータを消去できないため、スキップしました。"
+  },
+  "cookiesSkipped": {
+    "message": "サイトへのアクセスがオフのため、Cookie はスキップしました。"
+  },
+  "loadFailed": {
+    "message": "設定を読み込めませんでした。"
+  }
+}

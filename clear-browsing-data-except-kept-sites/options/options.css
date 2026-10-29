@@ -213,13 +213,13 @@ h2 {
 .notice {
     margin: 0 0 28px;
     padding: 16px;
-    border-left: 4px solid var(--warning-line);
+    border-inline-start: 4px solid var(--warning-line);
     border-radius: 6px;
     background: var(--warning-bg);
 }
 
 .notice {
-    border-left-color: var(--accent);
+    border-inline-start-color: var(--accent);
     background: var(--notice-bg);
 }
 
@@ -323,7 +323,7 @@ dialog h2 {
 .danger {
     margin: 16px 0 24px;
     padding: 12px 16px;
-    border-left: 4px solid var(--danger);
+    border-inline-start: 4px solid var(--danger);
     border-radius: 6px;
     background: var(--danger-bg);
 }

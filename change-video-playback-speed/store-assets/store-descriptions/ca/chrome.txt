@@ -1,0 +1,47 @@
+Canvieu la velocitat de reproducció de vídeo i àudio amb un clic o una drecera de teclat.
+
+Change Video Playback Speed és una extensió lleugera i de codi obert que alterna entre quatre velocitats de reproducció útils:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Feu clic a la icona de l'extensió o utilitzeu la drecera de teclat per passar a la velocitat següent. La velocitat triada s'aplica al vídeo i a l'àudio de la pàgina, inclosos els reproductors incrustats compatibles.
+
+Consell: fixeu l'extensió al menú d'extensions de Chrome (la icona de peça de trencaclosques) per mantenir-ne la icona a la barra d'eines.
+
+La velocitat actual es mostra breument a la pàgina i a la insígnia de la barra d'eines.
+
+CARACTERÍSTIQUES PRINCIPALS
+
+• Control amb un clic i amb drecera de teclat
+• Compatible amb vídeo i àudio
+• Compatible amb reproductors incrustats compatibles
+• Insígnia de velocitat a la barra d'eines i un indicador a la pàgina que també es veu a pantalla completa
+• Sense menús emergents, controls flotants ni configuració
+
+DRECERES DE TECLAT PER DEFECTE
+
+• Windows, Linux, ChromeOS, GooglebookOS i Android: Alt+S
+• macOS: Command+Shift+Period
+
+CANVIAR LA DRECERA DE TECLAT
+
+1. Obriu el menú de Chrome i seleccioneu Extensions → Gestiona les extensions.
+2. Seleccioneu Dreceres de teclat a la barra lateral.
+3. Cerqueu Change Video Playback Speed i introduïu la drecera que vulgueu.
+
+PRIVADESA
+
+• Sense analítiques ni seguiment
+• No recull dades ni historial de navegació
+• Sense sol·licituds de xarxa
+• Sense accés permanent als llocs web
+
+Tots els canvis de velocitat es fan localment al vostre navegador.
+
+CODI OBERT
+
+Change Video Playback Speed és un projecte de codi obert sota llicència MIT.
+
+Consulteu el codi font, informeu d'errors o col·laboreu a GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

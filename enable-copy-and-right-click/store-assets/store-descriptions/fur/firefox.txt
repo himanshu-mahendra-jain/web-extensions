@@ -1,0 +1,80 @@
+Abilite la copie, la selezion dal test e i menù dal clic diestri su lis pagjinis web che ju limitin.
+
+Enable Copy and Right Click e je une estension lizere e a sorzint vierte che e torne a dâ la copie, la selezion dal test e il clic diestri normâi su lis pagjinis web che a limitin chestis azions.
+
+Fâs clic su la icone de estension te sbare dai imprescj o dopre la scurte de tastiere par abilitâ la copie e il clic diestri te schede atuâl.
+
+Tu puedis ancje zontâ sîts web fidâts ae liste dai sîts automatics. Alore la estension e abilitarà la copie e il clic diestri in automatic ogni volte che tu visitis chei sîts.
+
+FUNZIONS PRINCIPÂLS
+
+• Abilite la copie e la selezion dal test su lis pagjinis web limitadis
+• Abilite i menù contestuâi dal clic diestri
+• Abilite copiâ, taiâ, tacâ, selezionâ il test e strissinâ
+• Ativazion cuntun clic de sbare dai imprescj
+• Scurte de tastiere par une ativazion svelte
+• Ativazion automatiche sui sîts che tu sielzis
+• E funzione tai iframe acessibii, dulà che i permès dal navigadôr lu consintin
+• E mostre un badge ON dopo de ativazion manuâl
+• Nissun menù a comparse
+• Nissune analisi e nissun tracjament
+• Nissun codiç rimot e nissune richieste di rêt
+
+SCURTIS DE TASTIERE PREDEFINIDIS
+
+• Windows, Linux, ChromeOS, GooglebookOS e Android: Alt+C
+• macOS: Command+Shift+Y
+
+La scurte de tastiere e fâs la stesse robe che il clic su la icone de estension.
+
+CAMBIÂ LA SCURTE DE TASTIERE
+
+1. Vierç il menù di Firefox e selezione Components adizionâi e temis.
+2. Fâs clic su la icone de ruede dentade te pagjine Estensions.
+3. Selezione Gjestìs lis scurtis des estensions.
+4. Cjate Enable Copy and Right Click e scrîf la scurte che tu preferissis.
+
+SÎTS AUTOMATICS
+
+Vierç la pagjine des opzions de estension e zonte un domini come:
+
+example.com
+
+La estension e domandarà il permès dome pal sît web che tu zontis. Dopo dât il permès, la copie, la selezion dal test e il clic diestri a vignaran abilitâts in automatic su chel sît.
+
+Tu puedis gjavâ un sît automatic cuant che tu vûs de pagjine des opzions.
+
+VIERZI LA PAGJINE DES OPZIONS
+
+1. Vierç il menù di Firefox e selezione Components adizionâi e temis.
+2. Cjate Enable Copy and Right Click e fâs clic sul menù cui trê ponts che al è dongje.
+3. Selezione Preferencis.
+
+RISERVATECE
+
+• Nissune analisi e nissun tracjament
+• Nissune racuelte di dâts
+• Nissune racuelte de cronologjie di navigazion
+• Nissune richieste di rêt
+• Nissun codiç rimot
+• Nissun JavaScript esterni
+• Lis preferencis dai sîts automatics a son salvadis in locâl tal to navigadôr
+• I permès dai sîts a vegnin domandâts dome cuant che tu zontis tu un sît
+
+Dut il ripristinament de copie e dal clic diestri al sucêt in locâl tal to navigadôr.
+
+PRESTAZIONS
+
+La estension e je lizere e e funzione a events.
+
+Cuant che e je inative no fâs nissun lavôr continui in sotfont. La ativazion manuâl e ven eseguide dome cuant che tu fasis clic su la icone de sbare dai imprescj o tu dopris la scurte de tastiere. La ativazion automatiche e ven eseguide dome sui sîts web che tu âs zontât tu.
+
+No son interogazions periodichis, ativitât di rêt in sotfont, SDK di analisi, configurazion rimote o ciclis di control continui des pagjinis.
+
+SORZINT VIERTE
+
+Enable Copy and Right Click al è a sorzint vierte e al è distribuît cu la licence MIT.
+
+Viôt il codiç sorzint, segnale problemis o contribuìs su GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

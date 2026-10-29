@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Изчиства историята, бисквитките и данните на сайтовете при стартиране на браузъра за всички сайтове освен запазените."
+  },
+  "optionsTitle": {
+    "message": "Запазени сайтове | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Хранилище в GitHub, отваря се в нов раздел"
+  },
+  "accessHeading": {
+    "message": "Достъпът до сайтове е изключен"
+  },
+  "allowSiteAccess": {
+    "message": "Разрешаване на достъп до сайтове"
+  },
+  "accessHistorySiteData": {
+    "message": "Без достъп до уебсайтовете разширението не може да изтрива бисквитки. Историята и данните на сайтовете пак се изчистват."
+  },
+  "accessHistory": {
+    "message": "Без достъп до уебсайтовете разширението не може да изтрива бисквитки. Историята пак се изчиства."
+  },
+  "accessSiteData": {
+    "message": "Без достъп до уебсайтовете разширението не може да изтрива бисквитки. Данните на сайтовете пак се изчистват."
+  },
+  "accessNothing": {
+    "message": "Без достъп до уебсайтовете разширението не може да изтрива бисквитки, така че нищо не се изчиства."
+  },
+  "clearingOffHeading": {
+    "message": "Изчистването е изключено"
+  },
+  "clearingOffText": {
+    "message": "Все още нищо не е изтрито. Добавете сайтовете, в които искате да останете влезли, след това включете изчистването. Оттогава при всяко стартиране на браузъра се изтриват данните на всички други сайтове ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Включване на изчистването"
+  },
+  "keptSitesHeading": {
+    "message": "Запазени сайтове"
+  },
+  "intro": {
+    "message": "Тези сайтове и техните поддомейни запазват данните си ($DATA$), така че оставате влезли. Докато изчистването е включено, всички други сайтове ги губят при всяко стартиране на браузъра.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Домейни на уебсайтове"
+  },
+  "keep": {
+    "message": "Запазване"
+  },
+  "siteHint": {
+    "message": "Разделяйте няколко сайта със запетаи."
+  },
+  "noSites": {
+    "message": "Все още няма запазени сайтове, така че изчистването изтрива данните на всички сайтове ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Запазени сайтове"
+  },
+  "clearingHeading": {
+    "message": "Изчистване"
+  },
+  "clearOnStartupLabel": {
+    "message": "Автоматично изчистване при стартиране на браузъра"
+  },
+  "clearNow": {
+    "message": "Изчистване сега"
+  },
+  "firstClearHint": {
+    "message": "Първото изчистване може да отнеме няколко минути, ако браузърът пази много данни от сърфирането. Междувременно можете да продължите да сърфирате."
+  },
+  "leftoversHeading": {
+    "message": "Останали данни на сайтове"
+  },
+  "leftoversIntro": {
+    "message": "След като историята и бисквитките на даден сайт бъдат изтрити, разширението вече не го намира, така че локалното му хранилище, базите данни и кешът остават. „Изчистване на остатъците“ изтрива данните на всеки сайт, който не запазвате, намерен или не, след изчистване като „Изчистване сега“."
+  },
+  "clearLeftovers": {
+    "message": "Изчистване на остатъците"
+  },
+  "transferHeading": {
+    "message": "Импортиране и експортиране"
+  },
+  "transferIntro": {
+    "message": "Запишете запазените си сайтове в текстов файл или ги заменете със сайтовете от такъв файл. Файлът може да съдържа по един сайт на ред или сайтове, разделени със запетаи."
+  },
+  "export": {
+    "message": "Експортиране"
+  },
+  "import": {
+    "message": "Импортиране"
+  },
+  "cancel": {
+    "message": "Отказ"
+  },
+  "dataAll": {
+    "message": "история, бисквитки и данни на сайтовете"
+  },
+  "dataNoHistory": {
+    "message": "бисквитки и данни на сайтовете"
+  },
+  "dataNoSiteData": {
+    "message": "история и бисквитки"
+  },
+  "dataCookies": {
+    "message": "бисквитки"
+  },
+  "remove": {
+    "message": "Премахване"
+  },
+  "removeSite": {
+    "message": "Премахване на $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ е премахнат. Данните му ($DATA$) ще бъдат изтрити при следващото изчистване.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Сайтът не можа да бъде премахнат."
+  },
+  "siteKept": {
+    "message": "$SITE$ е запазен.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ сайт е запазен.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ сайта са запазени.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ вече е запазен.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ сайт вече е запазен.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ сайта вече са запазени.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ не е валиден домейн.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Това не са валидни домейни: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Въведете валиден домейн, например example.com."
+  },
+  "addSiteFailed": {
+    "message": "Сайтът не можа да бъде добавен."
+  },
+  "addSitesFailed": {
+    "message": "Сайтовете не можаха да бъдат добавени."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ е по-голям от 1 MB, така че запазените сайтове не са променени.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ не съдържа валидни домейни, така че запазените сайтове не са променени.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Да се заменят ли запазените сайтове?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ сайт",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ сайта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Сайтовете, които запазвате сега ($CURRENT$), ще бъдат заменени със сайтовете от $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ сайт вече няма да е запазен и данните му ($DATA$) ще бъдат изтрити при следващото изчистване.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ сайта вече няма да са запазени и данните им ($DATA$) ще бъдат изтрити при следващото изчистване.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Замяна на запазените сайтове"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ сайт е импортиран от $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ сайта са импортирани от $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Запазените сайтове не можаха да бъдат експортирани."
+  },
+  "importFailed": {
+    "message": "Запазените сайтове не можаха да бъдат импортирани от $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Да се включи ли изчистването?"
+  },
+  "turnOnKept": {
+    "message": "При всяко стартиране на браузъра ще се изтриват данните ($DATA$) на всички сайтове освен избраните за запазване. Ще излезете от профила си във всички други сайтове.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Не сте избрали сайтове за запазване. При всяко стартиране на браузъра ще се изтриват всички данни ($DATA$) и ще излизате от профила си във всички сайтове.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Изтритите данни ($DATA$) не могат да бъдат възстановени.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Да се изчисти ли всичко сега?"
+  },
+  "clearEverythingText": {
+    "message": "Не сте избрали сайтове за запазване, така че данните на всички сайтове ($DATA$) ще бъдат изтрити сега и ще излезете от профила си във всички сайтове.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Изчистване на всичко"
+  },
+  "leftoversTitle": {
+    "message": "Да се изчистят ли останалите данни на сайтове?"
+  },
+  "leftoversKept": {
+    "message": "Данните ($DATA$) на всеки сайт, който не запазвате, ще бъдат изтрити сега, включително данните на сайтовете, които разширението вече не намира.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Запазеният сайт запазва данните си само на адресите, които разширението намира в историята, бисквитките и отворените раздели. Всеки друг поддомейн или порт на запазен сайт, например такъв, който не сте посещавали от месеци, или локален сървър на друг порт, губи данните си и може да излезете от профила си в него."
+  },
+  "clearing": {
+    "message": "Изчистване… Това може да отнеме няколко минути."
+  },
+  "leftoversFailed": {
+    "message": "Изчистването на останалите данни на сайтове не бе успешно."
+  },
+  "leftoversCleared": {
+    "message": "Останалите данни на сайтове са изчистени."
+  },
+  "nothingClearedYet": {
+    "message": "Все още нищо не е изчистено."
+  },
+  "clearFailed": {
+    "message": "Изчистването на $WHEN$ не бе успешно.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ запис от историята",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ записа от историята",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ бисквитка",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ бисквитки",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "нищо"
+  },
+  "lastCleared": {
+    "message": "Последно изчистване: $WHEN$. Изтрито: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Последно изчистване: $WHEN$. Изтрито: $WHAT$, заедно с данните на сайтовете и кеша.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Последно изчистване: $WHEN$. Изтрито: $WHAT$, заедно с данните и кеша на всеки незапазен сайт.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Историята и данните на сайтовете бяха пропуснати, защото този браузър не позволява на разширенията да ги изчистват."
+  },
+  "skippedHistory": {
+    "message": "Историята беше пропусната, защото този браузър не позволява на разширенията да я изчистват."
+  },
+  "skippedSiteData": {
+    "message": "Данните на сайтовете бяха пропуснати, защото този браузър не позволява на разширенията да ги изчистват."
+  },
+  "cookiesSkipped": {
+    "message": "Бисквитките бяха пропуснати, защото достъпът до сайтове е изключен."
+  },
+  "loadFailed": {
+    "message": "Настройките не можаха да бъдат заредени."
+  }
+}

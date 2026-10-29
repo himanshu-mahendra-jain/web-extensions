@@ -2,6 +2,7 @@ import "./extension-api.js";
 import {
   rememberEnabledTab
 } from "./badge-reset.js";
+import { extensionName, t } from "./i18n.js";
 import {
   getSiteOrigins,
   sanitizeSites
@@ -10,6 +11,12 @@ import {
 
 const AUTOMATIC_SCRIPT_ID =
   "automatic-sites";
+
+// enable.js reads its announcement through extensionApi, so the browser's namespace comes first.
+const ENABLE_SCRIPTS = [
+  "src/extension-api.js",
+  "src/enable.js"
+];
 
 const actions = new Map();
 
@@ -63,9 +70,7 @@ async function enableCopyAndRightClick(tabId) {
         tabId,
         allFrames: true
       },
-      files: [
-        "src/enable.js"
-      ]
+      files: ENABLE_SCRIPTS
     });
   } catch (error) {
     reportError(
@@ -77,9 +82,7 @@ async function enableCopyAndRightClick(tabId) {
       target: {
         tabId
       },
-      files: [
-        "src/enable.js"
-      ]
+      files: ENABLE_SCRIPTS
     });
   }
 
@@ -98,7 +101,7 @@ async function enableCopyAndRightClick(tabId) {
 
   await extensionApi.action.setTitle({
     tabId,
-    title: "Enable Copy and Right Click: Active"
+    title: t("actionTitleActive", extensionName())
   });
 
   await rememberEnabledTab(tabId);
@@ -186,9 +189,7 @@ async function syncAutomaticSites() {
   const script = {
     id: AUTOMATIC_SCRIPT_ID,
     matches,
-    js: [
-      "src/enable.js"
-    ],
+    js: ENABLE_SCRIPTS,
     allFrames: true,
     runAt: "document_start"
   };

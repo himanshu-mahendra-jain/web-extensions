@@ -1,0 +1,42 @@
+Zamknij bieżącą kartę stuknięciem trzema palcami, środkowym kliknięciem lub kliknięciem na pasku narzędzi.
+
+Three Finger Tap to Close Tab to lekkie rozszerzenie typu open source, które pozwala szybko i prosto zamknąć bieżącą kartę przeglądarki.
+
+Stuknij trzema palcami lub kliknij środkowym przyciskiem w dowolnym miejscu strony poza linkami i polami edycji, aby zamknąć bieżącą kartę. Kartę możesz też zamknąć, klikając ikonę rozszerzenia na pasku narzędzi.
+
+Wskazówka: przypnij rozszerzenie w menu Rozszerzenia Chrome (ikona puzzla), aby jego ikona była zawsze widoczna na pasku narzędzi.
+
+Środkowe kliknięcie linków i kart w kanałach działa jak zwykle w przeglądarce, więc nadal otworzysz linki i posty w nowych kartach. Wbudowany margines bezpieczeństwa zapobiega przypadkowemu zamknięciu karty, gdy stukniesz tuż obok linku lub kontrolki.
+
+GŁÓWNE FUNKCJE
+
+• Zamykanie bieżącej karty stuknięciem trzema palcami
+• Zamykanie bieżącej karty środkowym kliknięciem
+• Zamykanie bieżącej karty kliknięciem na pasku narzędzi
+• Zachowuje zwykłe środkowe kliknięcie na linkach, przyciskach i kartach w kanałach
+• Margines bezpieczeństwa zapobiega przypadkowemu zamknięciu przy elementach interaktywnych
+• Nie zamyka kart podczas korzystania z formularzy i pól edycji
+• Bez wyskakujących menu i ustawień
+
+KONFIGURACJA TOUCHPADA
+
+Touchpad i system operacyjny muszą być ustawione tak, aby stuknięcie trzema palcami dawało środkowe kliknięcie.
+
+Następnie stuknij trzema palcami stronę poza linkami i treścią interaktywną, aby zamknąć bieżącą kartę.
+
+PRYWATNOŚĆ
+
+• Bez analityki i śledzenia
+• Bez zbierania danych i historii przeglądania
+• Bez żądań sieciowych
+• Bez zapisywania aktywności przeglądania i preferencji
+
+Karty są zawsze zamykane lokalnie w Twojej przeglądarce.
+
+OPEN SOURCE
+
+Three Finger Tap to Close Tab to projekt otwartoźródłowy udostępniany na licencji MIT.
+
+Zobacz kod źródłowy, zgłaszaj uwagi lub wesprzyj rozwój projektu w serwisie GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

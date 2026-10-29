@@ -1,0 +1,80 @@
+Aktifkan penyalinan, pemilihan teks, dan menu klik kanan di halaman web yang membatasinya.
+
+Enable Copy and Right Click adalah ekstensi ringan dan open source yang mengembalikan fungsi salin, pemilihan teks, dan klik kanan yang normal di halaman web yang membatasinya.
+
+Klik ikon ekstensi di toolbar atau gunakan pintasan keyboard untuk mengaktifkan salin dan klik kanan di tab saat ini.
+
+Tips: Sematkan ekstensi di menu Ekstensi Chrome (ikon potongan puzzle) agar ikonnya selalu terlihat di bilah alat.
+
+Anda juga dapat menambahkan situs web tepercaya ke daftar Situs Otomatis. Setelah itu, ekstensi akan mengaktifkan salin dan klik kanan secara otomatis setiap kali Anda mengunjungi situs tersebut.
+
+FITUR UTAMA
+
+• Mengaktifkan penyalinan dan pemilihan teks di halaman web yang dibatasi
+• Mengaktifkan menu konteks klik kanan
+• Mengaktifkan salin, potong, tempel, pemilihan teks, dan seret
+• Aktivasi sekali klik dari toolbar
+• Pintasan keyboard untuk aktivasi cepat
+• Aktivasi otomatis di situs pilihan Anda
+• Berfungsi di iframe yang dapat diakses jika izin browser memungkinkan
+• Menampilkan badge ON setelah aktivasi manual
+• Tanpa menu popup
+• Tanpa analitik atau pelacakan
+• Tanpa kode jarak jauh atau permintaan jaringan
+
+PINTASAN KEYBOARD DEFAULT
+
+• Windows, Linux, ChromeOS, GooglebookOS, dan Android: Alt+C
+• macOS: Command+Shift+Y
+
+Pintasan keyboard melakukan hal yang sama dengan mengklik ikon ekstensi.
+
+MENGUBAH PINTASAN KEYBOARD
+
+1. Buka menu Chrome, lalu pilih Ekstensi → Kelola Ekstensi.
+2. Pilih Pintasan keyboard di sidebar.
+3. Cari Enable Copy and Right Click, lalu masukkan pintasan pilihan Anda.
+
+SITUS OTOMATIS
+
+Buka halaman opsi ekstensi dan tambahkan domain seperti:
+
+example.com
+
+Ekstensi hanya akan meminta izin untuk situs web yang Anda tambahkan. Setelah izin diberikan, salin, pemilihan teks, dan klik kanan akan diaktifkan secara otomatis di situs itu.
+
+Anda dapat menghapus situs otomatis kapan saja dari halaman opsi.
+
+MEMBUKA HALAMAN OPSI
+
+1. Klik kanan ikon ekstensi di toolbar.
+2. Pilih Opsi.
+
+PRIVASI
+
+• Tanpa analitik atau pelacakan
+• Tanpa pengumpulan data
+• Tanpa pengumpulan histori penjelajahan
+• Tanpa permintaan jaringan
+• Tanpa kode jarak jauh
+• Tanpa JavaScript eksternal
+• Preferensi situs otomatis disimpan secara lokal di browser Anda
+• Izin situs hanya diminta saat Anda sendiri menambahkan situs
+
+Semua pemulihan salin dan klik kanan terjadi secara lokal di browser Anda.
+
+PERFORMA
+
+Ekstensi ini ringan dan berbasis peristiwa.
+
+Ekstensi ini tidak menjalankan pekerjaan latar belakang terus-menerus saat tidak digunakan. Aktivasi manual hanya berjalan saat Anda mengklik ikon toolbar atau menggunakan pintasan keyboard. Aktivasi otomatis hanya berjalan di situs web yang Anda tambahkan sendiri.
+
+Tidak ada polling, aktivitas jaringan di latar belakang, SDK analitik, konfigurasi jarak jauh, atau loop pemantauan halaman yang terus berjalan.
+
+SUMBER TERBUKA (OPEN SOURCE)
+
+Enable Copy and Right Click adalah perangkat lunak sumber terbuka di bawah Lisensi MIT.
+
+Lihat kode sumber, laporkan masalah, atau berkontribusi di GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

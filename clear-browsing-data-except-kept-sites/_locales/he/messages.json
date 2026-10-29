@@ -1,0 +1,552 @@
+{
+  "extensionDescription": {
+    "message": "מוחק היסטוריה, קובצי Cookie ונתוני אתרים בהפעלת הדפדפן בכל האתרים, מלבד האתרים שבחרת לשמור."
+  },
+  "optionsTitle": {
+    "message": "אתרים שמורים | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "מאגר GitHub, נפתח בכרטיסייה חדשה"
+  },
+  "accessHeading": {
+    "message": "הגישה לאתרים כבויה"
+  },
+  "allowSiteAccess": {
+    "message": "מתן גישה לאתרים"
+  },
+  "accessHistorySiteData": {
+    "message": "בלי גישה לאתרים, התוסף לא יכול למחוק קובצי Cookie. ההיסטוריה ונתוני האתרים עדיין נמחקים."
+  },
+  "accessHistory": {
+    "message": "בלי גישה לאתרים, התוסף לא יכול למחוק קובצי Cookie. ההיסטוריה עדיין נמחקת."
+  },
+  "accessSiteData": {
+    "message": "בלי גישה לאתרים, התוסף לא יכול למחוק קובצי Cookie. נתוני האתרים עדיין נמחקים."
+  },
+  "accessNothing": {
+    "message": "בלי גישה לאתרים, התוסף לא יכול למחוק קובצי Cookie, ולכן שום דבר לא נמחק."
+  },
+  "clearingOffHeading": {
+    "message": "המחיקה כבויה"
+  },
+  "clearingOffText": {
+    "message": "עדיין לא נמחק דבר. יש להוסיף את האתרים שבהם רוצים להישאר מחוברים, ואז להפעיל את המחיקה. מאותו רגע, בכל הפעלה של הדפדפן יימחקו הנתונים ($DATA$) של כל שאר האתרים.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "הפעלת המחיקה"
+  },
+  "keptSitesHeading": {
+    "message": "אתרים שמורים"
+  },
+  "intro": {
+    "message": "האתרים האלה ותת-הדומיינים שלהם שומרים על הנתונים שלהם ($DATA$), כך שנשארים מחוברים. כל עוד המחיקה פועלת, כל שאר האתרים מאבדים אותם בכל הפעלה של הדפדפן.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "דומיינים של אתרים"
+  },
+  "keep": {
+    "message": "שמירה"
+  },
+  "siteHint": {
+    "message": "יש להפריד בין כמה אתרים בפסיקים."
+  },
+  "noSites": {
+    "message": "עדיין אין אתרים שמורים, ולכן מחיקה מוחקת את הנתונים ($DATA$) של כל האתרים.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "אתרים שמורים"
+  },
+  "clearingHeading": {
+    "message": "מחיקה"
+  },
+  "clearOnStartupLabel": {
+    "message": "מחיקה אוטומטית בהפעלת הדפדפן"
+  },
+  "clearNow": {
+    "message": "מחיקה עכשיו"
+  },
+  "firstClearHint": {
+    "message": "המחיקה הראשונה עשויה להימשך כמה דקות אם יש בדפדפן הרבה נתוני גלישה. אפשר להמשיך לגלוש בינתיים."
+  },
+  "leftoversHeading": {
+    "message": "נתוני אתרים שנשארו"
+  },
+  "leftoversIntro": {
+    "message": "אחרי שההיסטוריה וקובצי ה-Cookie של אתר נמחקים, התוסף כבר לא מוצא אותו, ולכן האחסון המקומי, מסדי הנתונים והמטמון שלו נשארים. „מחיקת השאריות” מוחקת את נתוני האתרים של כל אתר שאינו שמור, שנמצא או לא, אחרי מחיקה כמו „מחיקה עכשיו”."
+  },
+  "clearLeftovers": {
+    "message": "מחיקת השאריות"
+  },
+  "transferHeading": {
+    "message": "ייבוא וייצוא"
+  },
+  "transferIntro": {
+    "message": "אפשר לשמור את האתרים השמורים בקובץ טקסט, או להחליף אותם באתרים שבקובץ. קובץ יכול לכלול אתר אחד בכל שורה או אתרים מופרדים בפסיקים."
+  },
+  "export": {
+    "message": "ייצוא"
+  },
+  "import": {
+    "message": "ייבוא"
+  },
+  "cancel": {
+    "message": "ביטול"
+  },
+  "dataAll": {
+    "message": "היסטוריה, קובצי Cookie ונתוני אתרים"
+  },
+  "dataNoHistory": {
+    "message": "קובצי Cookie ונתוני אתרים"
+  },
+  "dataNoSiteData": {
+    "message": "היסטוריה וקובצי Cookie"
+  },
+  "dataCookies": {
+    "message": "קובצי Cookie"
+  },
+  "remove": {
+    "message": "הסרה"
+  },
+  "removeSite": {
+    "message": "הסרת $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ הוסר. הנתונים שלו ($DATA$) יימחקו במחיקה הבאה.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "לא ניתן היה להסיר את האתר."
+  },
+  "siteKept": {
+    "message": "$SITE$ נשמר.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ אתר נשמר.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_two": {
+    "message": "$COUNT$ אתרים נשמרו.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ אתרים נשמרו.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ כבר שמור.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ אתר כבר שמור.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_two": {
+    "message": "$COUNT$ אתרים כבר שמורים.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ אתרים כבר שמורים.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ אינו דומיין חוקי.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "אלה אינם דומיינים חוקיים: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "יש להזין דומיין חוקי, כמו example.com."
+  },
+  "addSiteFailed": {
+    "message": "לא ניתן היה להוסיף את האתר."
+  },
+  "addSitesFailed": {
+    "message": "לא ניתן היה להוסיף את האתרים."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ גדול מ-1 MB, ולכן האתרים השמורים לא השתנו.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "אין ב-$FILE$ דומיינים חוקיים, ולכן האתרים השמורים לא השתנו.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "להחליף את האתרים השמורים?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ אתר",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_two": {
+    "message": "$COUNT$ אתרים",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ אתרים",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "האתרים השמורים כעת ($CURRENT$) יוחלפו באתרים שב-$FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ אתר כבר לא יישמר, והנתונים שלו ($DATA$) יימחקו במחיקה הבאה.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_two": {
+    "message": "$COUNT$ אתרים כבר לא יישמרו, והנתונים שלהם ($DATA$) יימחקו במחיקה הבאה.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ אתרים כבר לא יישמרו, והנתונים שלהם ($DATA$) יימחקו במחיקה הבאה.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "החלפת האתרים השמורים"
+  },
+  "sitesImported_one": {
+    "message": "יובא $COUNT$ אתר מ-$FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_two": {
+    "message": "יובאו $COUNT$ אתרים מ-$FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "יובאו $COUNT$ אתרים מ-$FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "לא ניתן היה לייצא את האתרים השמורים."
+  },
+  "importFailed": {
+    "message": "לא ניתן היה לייבא את האתרים השמורים מ-$FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "להפעיל את המחיקה?"
+  },
+  "turnOnKept": {
+    "message": "בכל הפעלה של הדפדפן יימחקו הנתונים ($DATA$) של כל האתרים, מלבד אלה שבחרת לשמור. תתבצע יציאה מכל שאר האתרים.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "לא נבחרו אתרים לשמירה. בכל הפעלה של הדפדפן יימחקו כל הנתונים ($DATA$), ותתבצע יציאה מכל האתרים.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "אי אפשר לשחזר נתונים שנמחקו ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "למחוק הכול עכשיו?"
+  },
+  "clearEverythingText": {
+    "message": "לא נבחרו אתרים לשמירה, ולכן הנתונים ($DATA$) של כל האתרים יימחקו עכשיו, ותתבצע יציאה מכל האתרים.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "מחיקת הכול"
+  },
+  "leftoversTitle": {
+    "message": "למחוק את נתוני האתרים שנשארו?"
+  },
+  "leftoversKept": {
+    "message": "הנתונים ($DATA$) של כל אתר שאינו שמור יימחקו עכשיו, כולל נתוני האתרים שהתוסף כבר לא מוצא.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "אתר שמור שומר על נתוני האתר שלו רק בכתובות שהתוסף מוצא בהיסטוריה, בקובצי ה-Cookie ובכרטיסיות הפתוחות. כל תת-דומיין או יציאה אחרים של אתר שמור, כמו תת-דומיין שלא ביקרת בו כבר חודשים או שרת מקומי ביציאה אחרת, מאבדים את נתוני האתר שלהם, וייתכן שתתבצע יציאה מהם."
+  },
+  "clearing": {
+    "message": "מתבצעת מחיקה… זה עשוי להימשך כמה דקות."
+  },
+  "leftoversFailed": {
+    "message": "מחיקת נתוני האתרים שנשארו נכשלה."
+  },
+  "leftoversCleared": {
+    "message": "נתוני האתרים שנשארו נמחקו."
+  },
+  "nothingClearedYet": {
+    "message": "עדיין לא נמחק דבר."
+  },
+  "clearFailed": {
+    "message": "המחיקה ב-$WHEN$ נכשלה.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ רשומת היסטוריה",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_two": {
+    "message": "$COUNT$ רשומות היסטוריה",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ רשומות היסטוריה",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ קובץ Cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_two": {
+    "message": "$COUNT$ קובצי Cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ קובצי Cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "כלום"
+  },
+  "lastCleared": {
+    "message": "מחיקה אחרונה: $WHEN$. נמחקו: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "מחיקה אחרונה: $WHEN$. נמחקו: $WHAT$, וגם נתוני אתרים ומטמון.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "מחיקה אחרונה: $WHEN$. נמחקו: $WHAT$, וגם נתוני האתרים והמטמון של כל אתר שאינו שמור.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "ההיסטוריה ונתוני האתרים דולגו, כי הדפדפן הזה לא מאפשר לתוספים למחוק אותם."
+  },
+  "skippedHistory": {
+    "message": "ההיסטוריה דולגה, כי הדפדפן הזה לא מאפשר לתוספים למחוק אותה."
+  },
+  "skippedSiteData": {
+    "message": "נתוני האתרים דולגו, כי הדפדפן הזה לא מאפשר לתוספים למחוק אותם."
+  },
+  "cookiesSkipped": {
+    "message": "קובצי ה-Cookie דולגו, כי הגישה לאתרים כבויה."
+  },
+  "loadFailed": {
+    "message": "לא ניתן היה לטעון את ההגדרות."
+  }
+}

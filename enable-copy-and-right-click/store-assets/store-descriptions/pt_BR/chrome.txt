@@ -1,0 +1,80 @@
+Ative cópia, seleção de texto e menus do botão direito em páginas que os bloqueiam.
+
+Enable Copy and Right Click é uma extensão leve e de código aberto que restaura a cópia, a seleção de texto e o botão direito normais em páginas da web que restringem essas ações.
+
+Clique no ícone da extensão na barra de ferramentas ou use o atalho de teclado para ativar a cópia e o botão direito na guia atual.
+
+Dica: fixe a extensão no menu de Extensões do Chrome (o ícone de peça de quebra-cabeça) para manter o ícone visível na barra de ferramentas.
+
+Você também pode adicionar sites confiáveis à lista de sites automáticos. A extensão então ativará a cópia e o botão direito automaticamente sempre que você visitar esses sites.
+
+PRINCIPAIS RECURSOS
+
+• Ativa a cópia e a seleção de texto em páginas da web restritas
+• Ativa os menus de contexto do botão direito
+• Ativa copiar, recortar, colar, selecionar texto e arrastar
+• Ativação com um clique na barra de ferramentas
+• Atalho de teclado para ativação rápida
+• Ativação automática nos sites que você escolher
+• Funciona em iframes acessíveis quando as permissões do navegador permitem
+• Mostra um selo ON após a ativação manual
+• Sem menus pop-up
+• Sem análises ou rastreamento
+• Sem código remoto ou solicitações de rede
+
+ATALHOS DE TECLADO PADRÃO
+
+• Windows, Linux, ChromeOS, GooglebookOS e Android: Alt+C
+• macOS: Command+Shift+Y
+
+O atalho de teclado faz o mesmo que clicar no ícone da extensão.
+
+MUDAR O ATALHO DE TECLADO
+
+1. Abra o menu do Chrome e selecione Extensões → Gerenciar extensões.
+2. Selecione Atalhos do teclado na barra lateral.
+3. Encontre Enable Copy and Right Click e digite o atalho que preferir.
+
+SITES AUTOMÁTICOS
+
+Abra a página de opções da extensão e adicione um domínio como:
+
+example.com
+
+A extensão pedirá permissão apenas para o site que você adicionar. Depois que a permissão for concedida, a cópia, a seleção de texto e o botão direito serão ativados automaticamente nesse site.
+
+Você pode remover um site automático a qualquer momento na página de opções.
+
+ABRIR A PÁGINA DE OPÇÕES
+
+1. Clique com o botão direito no ícone da extensão na barra de ferramentas.
+2. Selecione Opções.
+
+PRIVACIDADE
+
+• Sem análises ou rastreamento
+• Sem coleta de dados
+• Sem coleta do histórico de navegação
+• Sem solicitações de rede
+• Sem código remoto
+• Sem JavaScript externo
+• As preferências de sites automáticos ficam armazenadas localmente no seu navegador
+• A permissão de um site só é pedida quando você mesmo adiciona o site
+
+Toda a restauração da cópia e do botão direito acontece localmente no seu navegador.
+
+DESEMPENHO
+
+A extensão é leve e orientada a eventos.
+
+Ela não faz nenhum trabalho contínuo em segundo plano quando está ociosa. A ativação manual só é executada quando você clica no ícone da barra de ferramentas ou usa o atalho de teclado. A ativação automática só é executada nos sites que você mesmo adicionou.
+
+Não há polling, atividade de rede em segundo plano, SDK de análise, configuração remota nem um loop que monitore as páginas continuamente.
+
+CÓDIGO ABERTO
+
+O Enable Copy and Right Click é um projeto de código aberto sob a licença MIT.
+
+Acesse o código-fonte, reporte problemas ou contribua no GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

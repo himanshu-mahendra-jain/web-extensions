@@ -1,0 +1,42 @@
+Zavřete aktuální kartu klepnutím třemi prsty, prostředním kliknutím nebo kliknutím na panelu nástrojů.
+
+Three Finger Tap to Close Tab je lehké rozšíření s otevřeným zdrojovým kódem, které nabízí rychlý a jednoduchý způsob, jak zavřít aktuální kartu prohlížeče.
+
+Klepněte třemi prsty nebo klikněte prostředním tlačítkem kdekoli na webové stránce mimo odkazy a upravitelná pole a aktuální karta se zavře. Kartu můžete zavřít také kliknutím na ikonu rozšíření na panelu nástrojů.
+
+Tip: Připněte si rozšíření v nabídce Rozšíření v Chromu (ikona dílku puzzle), abyste měli ikonu stále po ruce na panelu nástrojů.
+
+Prostřední kliknutí na odkazy a karty ve zdrojích zachovává běžné chování prohlížeče, takže můžete dál otevírat odkazy a příspěvky v nových kartách jako obvykle. Vestavěná bezpečnostní zóna zabraňuje nechtěnému zavření karty, pokud klepnete těsně vedle odkazu nebo ovládacího prvku.
+
+HLAVNÍ FUNKCE
+
+• Zavření aktuální karty klepnutím třemi prsty
+• Zavření aktuální karty prostředním kliknutím
+• Zavření aktuální karty kliknutím na panelu nástrojů
+• Zachovává běžné prostřední kliknutí na odkazy, tlačítka a karty ve zdrojích
+• Bezpečnostní zóna brání nechtěnému zavření karty u interaktivních prvků
+• Nezavírá karty při práci s formuláři a upravitelnými poli
+• Žádné vyskakovací nabídky ani nastavení
+
+NASTAVENÍ TOUCHPADU
+
+Touchpad a operační systém musí být nastaveny tak, aby klepnutí třemi prsty vyvolalo prostřední kliknutí.
+
+Poté klepněte třemi prsty na webovou stránku mimo odkazy a interaktivní obsah a aktuální karta se zavře.
+
+SOUKROMÍ
+
+• Žádná analytika ani sledování
+• Žádný sběr dat ani historie prohlížení
+• Žádné síťové požadavky
+• Žádná uložená aktivita prohlížení ani předvolby
+
+Všechna zavírání karet probíhají místně ve vašem prohlížeči.
+
+OPEN SOURCE
+
+Three Finger Tap to Close Tab je open-source projekt pod licencí MIT.
+
+Zdrojový kód, hlášení chyb a možnost zapojení najdete na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

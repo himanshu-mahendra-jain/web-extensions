@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Canvieu ràpidament la velocitat de reproducció de vídeo i àudio entre 1x, 1,2x, 1,5x i 2x."
+  },
+  "commandDescription": {
+    "message": "Canvia la velocitat de reproducció del vídeo"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Velocitat de reproducció $SPEED$ vegades",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Velocitat de reproducció: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

@@ -117,6 +117,13 @@
       "polite"
     );
 
+    // The text is in the browser's language, not the page's.
+    announcement.lang =
+      extensionApi.i18n.getUILanguage();
+
+    announcement.dir =
+      extensionApi.i18n.getMessage("@@bidi_dir") || "ltr";
+
     Object.assign(
       announcement.style,
       {
@@ -143,7 +150,7 @@
      */
     setTimeout(() => {
       announcement.textContent =
-        "Copy and right click enabled.";
+        extensionApi.i18n.getMessage("copyEnabled");
     }, 100);
 
     setTimeout(() => {

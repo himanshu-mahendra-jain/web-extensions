@@ -47,7 +47,7 @@ for (const [namespace, firefox] of [["chrome", false], ["browser", true]]) {
     expect(scripts).toEqual([{
       tabId: 7,
       allFrames: true,
-      files: ["src/enable.js"]
+      files: ["src/extension-api.js", "src/enable.js"]
     }]);
     expect(badges).toEqual([{ tabId: 7, text: "ON" }]);
     expect(titles).toEqual([{
@@ -132,7 +132,7 @@ test("when a frame cannot be scripted, the shortcut enables the top frame", asyn
 
   const { scripts, badges, titles } = await fake(page);
 
-  expect(scripts).toEqual([{ tabId: 7, files: ["src/enable.js"] }]);
+  expect(scripts).toEqual([{ tabId: 7, files: ["src/extension-api.js", "src/enable.js"] }]);
   expect(badges).toEqual([{ tabId: 7, text: "ON" }]);
   expect(titles).toEqual([{
     tabId: 7,

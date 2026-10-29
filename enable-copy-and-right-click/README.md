@@ -26,9 +26,8 @@ Google Chrome, Microsoft Edge, and Mozilla Firefox, each on Windows, macOS, Linu
 * Show an `ON` toolbar badge after manual activation
 * Handle rapid repeated actions sequentially per tab
 * Use optional host permissions only for automatic sites
-* No analytics or tracking
-* No remote code
-* No network requests
+* No analytics, tracking, remote code, or network requests
+* In the browser's language: every Chrome Web Store language, with English as the fallback; the options page is laid out right to left for Arabic, Hebrew, and Persian
 
 ## Usage
 
@@ -45,7 +44,7 @@ Chrome and Edge keep a new extension's icon in their Extensions menu; pin it the
 
 Users can change the shortcut at any time through their browser's extension keyboard shortcut settings.
 
-After successful manual activation, the extension displays `ON` in the toolbar badge for that tab. The badge is cleared when the tab starts loading a new page.
+After successful manual activation, the extension displays `ON`, in English in every language, in the toolbar badge for that tab. The badge is cleared when the tab starts loading a new page.
 
 ### Automatic Sites
 
@@ -63,6 +62,7 @@ In Chrome, the extension details page may still show removed host patterns under
 
 ```text
 enable-copy-and-right-click/
+├── _locales/        <language>/messages.json: the extension's text, one per Chrome Web Store language
 ├── icons/           icon16.png, icon32.png, icon48.png, icon128.png
 ├── options/
 │   ├── options.css
@@ -71,11 +71,13 @@ enable-copy-and-right-click/
 ├── src/
 │   ├── background.js
 │   ├── enable.js
+│   ├── i18n.js
 │   └── site-utils.js
 ├── store-assets/
 │   ├── chrome/      chrome.txt and Chrome Web Store images
 │   ├── edge/        edge.txt and Edge Add-ons images
-│   └── firefox/     firefox.txt and the Firefox screenshots
+│   ├── firefox/     firefox.txt and the Firefox screenshots
+│   └── store-descriptions/<language>/  the listings translated
 ├── tests/
 │   ├── android/
 │   │   ├── automatic-sites.spec.js
@@ -86,6 +88,7 @@ enable-copy-and-right-click/
 │   ├── command.spec.js
 │   ├── enable.spec.js
 │   ├── fake-chrome.js
+│   ├── locales.spec.js
 │   ├── manifest.spec.js
 │   ├── site-utils.spec.js
 │   ├── visual.spec.js
@@ -100,8 +103,9 @@ enable-copy-and-right-click/
 * `src/background.js`: handles toolbar clicks, keyboard shortcut commands, active-tab lookup for keyboard commands, per-tab operation queues, automatic-site content-script registration, and permission synchronization. The queue processes rapid manual actions sequentially within a tab while different tabs operate independently.
 * `src/enable.js`: the content script that restores page interactions. It clears common inline event handlers, captures blocking events before page listeners, and injects a small style rule to restore text selection. It is idempotent, so repeated manual activation does not add duplicate handlers or styles.
 * `src/site-utils.js`: normalizes user-entered domains, validates automatic-site entries, sanitizes stored site lists, and converts domains into browser host permission patterns.
+* `src/i18n.js`: the text in the browser's language, from `_locales/`; `localizePage()` fills the options page's `data-i18n` elements and sets its `lang` and `dir`. `enable.js` is injected after `extension-api.js` and reads its announcement from the same messages.
 * `options/`: the options page for adding and removing automatic sites. It uses local browser extension APIs only and does not load external assets.
-* `store-assets/`: browser-store listing text and images. They are not included in the distribution packages.
+* `store-assets/`: browser-store listing text and images, not packaged, with [translated listings](../README.md#store-listings) in `store-descriptions/`.
 * `tests/`: Playwright tests. The `*-snapshots/` folders hold baseline screenshots of the options page in Chromium, Firefox, and Firefox for Android; see [Screenshots](../README.md#screenshots) in the monorepo README.
 
 ## Permissions
@@ -113,9 +117,7 @@ enable-copy-and-right-click/
 
 ## Privacy
 
-The extension does not collect user data or browsing history, use analytics or tracking, make network requests, use remote code, or load external JavaScript. It stores automatic-site preferences locally in `chrome.storage.local` and requests optional host permissions only after user action.
-
-All copy and right-click restoration happens locally in the browser.
+The extension does not collect user data or browsing history, use analytics or tracking, make network requests, use remote code, or load external JavaScript. It stores automatic-site preferences locally in `chrome.storage.local` and requests optional host permissions only after user action. All copy and right-click restoration happens locally in the browser.
 
 ## Performance and Security
 

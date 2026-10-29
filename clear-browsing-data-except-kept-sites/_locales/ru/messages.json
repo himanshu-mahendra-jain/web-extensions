@@ -1,0 +1,614 @@
+{
+  "extensionDescription": {
+    "message": "При запуске браузера удаляет историю, файлы cookie и данные сайтов для всех сайтов, кроме сохранённых вами."
+  },
+  "optionsTitle": {
+    "message": "Сохранённые сайты | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Репозиторий GitHub, откроется в новой вкладке"
+  },
+  "accessHeading": {
+    "message": "Доступ к сайтам отключён"
+  },
+  "allowSiteAccess": {
+    "message": "Разрешить доступ к сайтам"
+  },
+  "accessHistorySiteData": {
+    "message": "Без доступа к сайтам расширение не может удалять файлы cookie. История и данные сайтов по-прежнему очищаются."
+  },
+  "accessHistory": {
+    "message": "Без доступа к сайтам расширение не может удалять файлы cookie. История по-прежнему очищается."
+  },
+  "accessSiteData": {
+    "message": "Без доступа к сайтам расширение не может удалять файлы cookie. Данные сайтов по-прежнему очищаются."
+  },
+  "accessNothing": {
+    "message": "Без доступа к сайтам расширение не может удалять файлы cookie, поэтому ничего не очищается."
+  },
+  "clearingOffHeading": {
+    "message": "Очистка отключена"
+  },
+  "clearingOffText": {
+    "message": "Пока ничего не удаляется. Добавьте сайты, на которых хотите оставаться в аккаунте, затем включите очистку. С этого момента при каждом запуске браузера будут удаляться данные ($DATA$) всех остальных сайтов.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Включить очистку"
+  },
+  "keptSitesHeading": {
+    "message": "Сохранённые сайты"
+  },
+  "intro": {
+    "message": "Эти сайты и их поддомены сохраняют свои данные ($DATA$), поэтому вы остаётесь в аккаунте. Пока очистка включена, все остальные сайты теряют их при каждом запуске браузера.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Домены сайтов"
+  },
+  "keep": {
+    "message": "Сохранить"
+  },
+  "siteHint": {
+    "message": "Разделяйте несколько сайтов запятыми."
+  },
+  "noSites": {
+    "message": "Сохранённых сайтов пока нет, поэтому очистка удаляет данные ($DATA$) всех сайтов.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Сохранённые сайты"
+  },
+  "clearingHeading": {
+    "message": "Очистка"
+  },
+  "clearOnStartupLabel": {
+    "message": "Очищать автоматически при запуске браузера"
+  },
+  "clearNow": {
+    "message": "Очистить сейчас"
+  },
+  "firstClearHint": {
+    "message": "Первая очистка может занять несколько минут, если в браузере много данных о просмотре. Тем временем можно продолжать работу в браузере."
+  },
+  "leftoversHeading": {
+    "message": "Оставшиеся данные сайтов"
+  },
+  "leftoversIntro": {
+    "message": "Когда история и файлы cookie сайта удалены, расширение больше его не находит, поэтому его локальное хранилище, базы данных и кеш остаются. «Очистить остатки» после очистки, например «Очистить сейчас», удаляет данные всех несохранённых сайтов, найденных или нет."
+  },
+  "clearLeftovers": {
+    "message": "Очистить остатки"
+  },
+  "transferHeading": {
+    "message": "Импорт и экспорт"
+  },
+  "transferIntro": {
+    "message": "Сохраните список сохранённых сайтов в текстовый файл или замените его сайтами из файла. В файле может быть по одному сайту в строке или сайты через запятую."
+  },
+  "export": {
+    "message": "Экспорт"
+  },
+  "import": {
+    "message": "Импорт"
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "dataAll": {
+    "message": "история, файлы cookie и данные сайтов"
+  },
+  "dataNoHistory": {
+    "message": "файлы cookie и данные сайтов"
+  },
+  "dataNoSiteData": {
+    "message": "история и файлы cookie"
+  },
+  "dataCookies": {
+    "message": "файлы cookie"
+  },
+  "remove": {
+    "message": "Удалить"
+  },
+  "removeSite": {
+    "message": "Удалить $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ удалён из списка. Его данные ($DATA$) будут удалены при следующей очистке.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Не удалось удалить сайт."
+  },
+  "siteKept": {
+    "message": "$SITE$ сохранён.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Сохранён $COUNT$ сайт.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_few": {
+    "message": "Сохранено $COUNT$ сайта.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_many": {
+    "message": "Сохранено $COUNT$ сайтов.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Сохранено $COUNT$ сайта.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ уже сохранён.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ сайт уже сохранён.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_few": {
+    "message": "$COUNT$ сайта уже сохранены.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_many": {
+    "message": "$COUNT$ сайтов уже сохранены.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ сайта уже сохранены.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ — недопустимый домен.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Недопустимые домены: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Введите допустимый домен, например example.com."
+  },
+  "addSiteFailed": {
+    "message": "Не удалось добавить сайт."
+  },
+  "addSitesFailed": {
+    "message": "Не удалось добавить сайты."
+  },
+  "fileTooLarge": {
+    "message": "Файл $FILE$ больше 1 МБ, поэтому сохранённые сайты не изменились.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "В файле $FILE$ нет допустимых доменов, поэтому сохранённые сайты не изменились.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Заменить сохранённые сайты?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ сайт",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_few": {
+    "message": "$COUNT$ сайта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_many": {
+    "message": "$COUNT$ сайтов",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ сайта",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Сохранённые сейчас сайты ($CURRENT$) будут заменены сайтами из файла $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ сайт больше не будет сохраняться, и его данные ($DATA$) будут удалены при следующей очистке.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_few": {
+    "message": "$COUNT$ сайта больше не будут сохраняться, и их данные ($DATA$) будут удалены при следующей очистке.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_many": {
+    "message": "$COUNT$ сайтов больше не будут сохраняться, и их данные ($DATA$) будут удалены при следующей очистке.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ сайта больше не будут сохраняться, и их данные ($DATA$) будут удалены при следующей очистке.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Заменить сохранённые сайты"
+  },
+  "sitesImported_one": {
+    "message": "Импортирован $COUNT$ сайт из файла $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_few": {
+    "message": "Импортировано $COUNT$ сайта из файла $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_many": {
+    "message": "Импортировано $COUNT$ сайтов из файла $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Импортировано $COUNT$ сайта из файла $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Не удалось экспортировать сохранённые сайты."
+  },
+  "importFailed": {
+    "message": "Не удалось импортировать сохранённые сайты из файла $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Включить очистку?"
+  },
+  "turnOnKept": {
+    "message": "При каждом запуске браузера будут удаляться данные ($DATA$) всех сайтов, кроме тех, которые вы решили сохранить. Вы выйдете из аккаунтов на всех остальных сайтах.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Вы не выбрали ни одного сайта для сохранения. При каждом запуске браузера будут удаляться все данные ($DATA$), и вы выйдете из аккаунтов на всех сайтах.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Удалённые данные ($DATA$) нельзя восстановить.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Очистить всё сейчас?"
+  },
+  "clearEverythingText": {
+    "message": "Вы не выбрали ни одного сайта для сохранения, поэтому сейчас будут удалены данные ($DATA$) всех сайтов, и вы выйдете из аккаунтов на всех сайтах.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Очистить всё"
+  },
+  "leftoversTitle": {
+    "message": "Очистить оставшиеся данные сайтов?"
+  },
+  "leftoversKept": {
+    "message": "Сейчас будут удалены данные ($DATA$) всех несохранённых сайтов, включая данные сайтов, которые расширение больше не находит.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Сохранённый сайт сохраняет свои данные только по адресам, которые расширение находит в истории, файлах cookie и открытых вкладках. Любой другой поддомен или порт сохранённого сайта, например поддомен, который вы не посещали несколько месяцев, или локальный сервер на другом порту, теряет свои данные, и вы можете выйти там из аккаунта."
+  },
+  "clearing": {
+    "message": "Очистка… Это может занять несколько минут."
+  },
+  "leftoversFailed": {
+    "message": "Не удалось очистить оставшиеся данные сайтов."
+  },
+  "leftoversCleared": {
+    "message": "Оставшиеся данные сайтов очищены."
+  },
+  "nothingClearedYet": {
+    "message": "Пока ничего не очищено."
+  },
+  "clearFailed": {
+    "message": "Очистка ($WHEN$) не удалась.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ запись истории",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_few": {
+    "message": "$COUNT$ записи истории",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_many": {
+    "message": "$COUNT$ записей истории",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ записи истории",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ файл cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_few": {
+    "message": "$COUNT$ файла cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_many": {
+    "message": "$COUNT$ файлов cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ файла cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "ничего"
+  },
+  "lastCleared": {
+    "message": "Последняя очистка: $WHEN$. Удалено: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Последняя очистка: $WHEN$. Удалено: $WHAT$, а также данные сайтов и кеш.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Последняя очистка: $WHEN$. Удалено: $WHAT$, а также данные и кеш всех несохранённых сайтов.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "История и данные сайтов пропущены, так как этот браузер не позволяет расширениям их очищать."
+  },
+  "skippedHistory": {
+    "message": "История пропущена, так как этот браузер не позволяет расширениям её очищать."
+  },
+  "skippedSiteData": {
+    "message": "Данные сайтов пропущены, так как этот браузер не позволяет расширениям их очищать."
+  },
+  "cookiesSkipped": {
+    "message": "Файлы cookie пропущены, так как доступ к сайтам отключён."
+  },
+  "loadFailed": {
+    "message": "Не удалось загрузить настройки."
+  }
+}

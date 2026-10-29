@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Dayakan penyalinan, pemilihan teks dan menu klik kanan pada halaman web yang menyekatnya."
+  },
+  "commandDescription": {
+    "message": "Dayakan salin dan klik kanan pada halaman semasa"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Aktif",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Salin dan klik kanan didayakan."
+  },
+  "optionsTitle": {
+    "message": "Tapak Automatik | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repositori GitHub, dibuka dalam tab baharu"
+  },
+  "automaticSitesHeading": {
+    "message": "Tapak Automatik"
+  },
+  "automaticSitesIntro": {
+    "message": "Dayakan penyalinan, pemilihan teks dan klik kanan secara automatik pada tapak web yang anda tambah."
+  },
+  "siteInputLabel": {
+    "message": "Domain tapak web"
+  },
+  "addSite": {
+    "message": "Tambah Tapak"
+  },
+  "noSites": {
+    "message": "Belum ada tapak automatik ditambah."
+  },
+  "siteListLabel": {
+    "message": "Tapak automatik"
+  },
+  "remove": {
+    "message": "Alih Keluar"
+  },
+  "removeSite": {
+    "message": "Alih keluar $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (kebenaran ditarik balik)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ ditambah.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ didayakan semula.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ dialih keluar.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Tapak ini sudah didayakan."
+  },
+  "invalidDomain": {
+    "message": "Masukkan domain yang sah, seperti example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Kebenaran tapak tidak diberikan."
+  },
+  "addFailed": {
+    "message": "Tapak tidak dapat ditambah."
+  },
+  "removeFailed": {
+    "message": "Tapak tidak dapat dialih keluar."
+  },
+  "loadFailed": {
+    "message": "Senarai tapak tidak dapat dimuatkan."
+  }
+}

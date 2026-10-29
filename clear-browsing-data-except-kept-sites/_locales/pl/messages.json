@@ -1,0 +1,614 @@
+{
+  "extensionDescription": {
+    "message": "Przy starcie przeglądarki czyści historię, pliki cookie i dane witryn wszystkich witryn poza tymi, które zachowujesz."
+  },
+  "optionsTitle": {
+    "message": "Zachowane witryny | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repozytorium GitHub, otwiera się w nowej karcie"
+  },
+  "accessHeading": {
+    "message": "Dostęp do witryn jest wyłączony"
+  },
+  "allowSiteAccess": {
+    "message": "Zezwól na dostęp do witryn"
+  },
+  "accessHistorySiteData": {
+    "message": "Bez dostępu do witryn rozszerzenie nie może usuwać plików cookie. Historia i dane witryn są nadal czyszczone."
+  },
+  "accessHistory": {
+    "message": "Bez dostępu do witryn rozszerzenie nie może usuwać plików cookie. Historia jest nadal czyszczona."
+  },
+  "accessSiteData": {
+    "message": "Bez dostępu do witryn rozszerzenie nie może usuwać plików cookie. Dane witryn są nadal czyszczone."
+  },
+  "accessNothing": {
+    "message": "Bez dostępu do witryn rozszerzenie nie może usuwać plików cookie, więc nic nie jest czyszczone."
+  },
+  "clearingOffHeading": {
+    "message": "Czyszczenie jest wyłączone"
+  },
+  "clearingOffText": {
+    "message": "Nic nie jest jeszcze usuwane. Dodaj witryny, na których chcesz pozostać zalogowany, a potem włącz czyszczenie. Od tej chwili przy każdym starcie przeglądarki będą usuwane dane ($DATA$) wszystkich pozostałych witryn.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Włącz czyszczenie"
+  },
+  "keptSitesHeading": {
+    "message": "Zachowane witryny"
+  },
+  "intro": {
+    "message": "Te witryny i ich subdomeny zachowują swoje dane ($DATA$), więc pozostajesz zalogowany. Dopóki czyszczenie jest włączone, wszystkie pozostałe witryny tracą je przy każdym starcie przeglądarki.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Domeny witryn"
+  },
+  "keep": {
+    "message": "Zachowaj"
+  },
+  "siteHint": {
+    "message": "Kilka witryn oddziel przecinkami."
+  },
+  "noSites": {
+    "message": "Nie zachowujesz jeszcze żadnej witryny, więc czyszczenie usuwa dane ($DATA$) wszystkich witryn.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Zachowane witryny"
+  },
+  "clearingHeading": {
+    "message": "Czyszczenie"
+  },
+  "clearOnStartupLabel": {
+    "message": "Czyść automatycznie przy starcie przeglądarki"
+  },
+  "clearNow": {
+    "message": "Wyczyść teraz"
+  },
+  "firstClearHint": {
+    "message": "Pierwsze czyszczenie może potrwać kilka minut, jeśli przeglądarka przechowuje dużo danych przeglądania. W tym czasie możesz dalej przeglądać."
+  },
+  "leftoversHeading": {
+    "message": "Pozostałe dane witryn"
+  },
+  "leftoversIntro": {
+    "message": "Po usunięciu historii i plików cookie witryny rozszerzenie już jej nie znajduje, więc jej pamięć lokalna, bazy danych i pamięć podręczna zostają. „Wyczyść pozostałości” po czyszczeniu takim jak „Wyczyść teraz” usuwa dane wszystkich witryn, których nie zachowujesz, znalezionych lub nie."
+  },
+  "clearLeftovers": {
+    "message": "Wyczyść pozostałości"
+  },
+  "transferHeading": {
+    "message": "Import i eksport"
+  },
+  "transferIntro": {
+    "message": "Zapisz zachowane witryny w pliku tekstowym albo zastąp je witrynami z pliku. Plik może zawierać jedną witrynę w wierszu lub witryny oddzielone przecinkami."
+  },
+  "export": {
+    "message": "Eksportuj"
+  },
+  "import": {
+    "message": "Importuj"
+  },
+  "cancel": {
+    "message": "Anuluj"
+  },
+  "dataAll": {
+    "message": "historia, pliki cookie i dane witryn"
+  },
+  "dataNoHistory": {
+    "message": "pliki cookie i dane witryn"
+  },
+  "dataNoSiteData": {
+    "message": "historia i pliki cookie"
+  },
+  "dataCookies": {
+    "message": "pliki cookie"
+  },
+  "remove": {
+    "message": "Usuń"
+  },
+  "removeSite": {
+    "message": "Usuń $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "Usunięto $SITE$. Jej dane ($DATA$) zostaną usunięte przy następnym czyszczeniu.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Nie udało się usunąć witryny."
+  },
+  "siteKept": {
+    "message": "Zachowano $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Zachowano $COUNT$ witrynę.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_few": {
+    "message": "Zachowano $COUNT$ witryny.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_many": {
+    "message": "Zachowano $COUNT$ witryn.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Zachowano $COUNT$ witryny.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ jest już zachowana.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ witryna jest już zachowana.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_few": {
+    "message": "$COUNT$ witryny są już zachowane.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_many": {
+    "message": "$COUNT$ witryn jest już zachowanych.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ witryny jest już zachowanych.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ nie jest prawidłową domeną.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "To nie są prawidłowe domeny: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Wpisz prawidłową domenę, np. example.com."
+  },
+  "addSiteFailed": {
+    "message": "Nie udało się dodać witryny."
+  },
+  "addSitesFailed": {
+    "message": "Nie udało się dodać witryn."
+  },
+  "fileTooLarge": {
+    "message": "Plik $FILE$ jest większy niż 1 MB, więc zachowane witryny się nie zmieniły.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "Plik $FILE$ nie zawiera prawidłowych domen, więc zachowane witryny się nie zmieniły.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Zastąpić zachowane witryny?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ witryna",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_few": {
+    "message": "$COUNT$ witryny",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_many": {
+    "message": "$COUNT$ witryn",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ witryny",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Witryny zachowywane teraz ($CURRENT$) zostaną zastąpione witrynami z pliku $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ witryna nie będzie już zachowywana, a jej dane ($DATA$) zostaną usunięte przy następnym czyszczeniu.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_few": {
+    "message": "$COUNT$ witryny nie będą już zachowywane, a ich dane ($DATA$) zostaną usunięte przy następnym czyszczeniu.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_many": {
+    "message": "$COUNT$ witryn nie będzie już zachowywanych, a ich dane ($DATA$) zostaną usunięte przy następnym czyszczeniu.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ witryny nie będzie już zachowywanych, a ich dane ($DATA$) zostaną usunięte przy następnym czyszczeniu.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Zastąp zachowane witryny"
+  },
+  "sitesImported_one": {
+    "message": "Zaimportowano $COUNT$ witrynę z pliku $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_few": {
+    "message": "Zaimportowano $COUNT$ witryny z pliku $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_many": {
+    "message": "Zaimportowano $COUNT$ witryn z pliku $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Zaimportowano $COUNT$ witryny z pliku $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Nie udało się wyeksportować zachowanych witryn."
+  },
+  "importFailed": {
+    "message": "Nie udało się zaimportować zachowanych witryn z pliku $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Włączyć czyszczenie?"
+  },
+  "turnOnKept": {
+    "message": "Przy każdym starcie przeglądarki będą usuwane dane ($DATA$) wszystkich witryn poza tymi, które wybrano do zachowania. Nastąpi wylogowanie ze wszystkich pozostałych witryn.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Nie wybrano żadnych witryn do zachowania. Przy każdym starcie przeglądarki będą usuwane wszystkie dane ($DATA$) i nastąpi wylogowanie ze wszystkich witryn.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Usuniętych danych ($DATA$) nie można odzyskać.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Wyczyścić wszystko teraz?"
+  },
+  "clearEverythingText": {
+    "message": "Nie wybrano żadnych witryn do zachowania, więc teraz zostaną usunięte dane ($DATA$) wszystkich witryn i nastąpi wylogowanie ze wszystkich witryn.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Wyczyść wszystko"
+  },
+  "leftoversTitle": {
+    "message": "Wyczyścić pozostałe dane witryn?"
+  },
+  "leftoversKept": {
+    "message": "Teraz zostaną usunięte dane ($DATA$) wszystkich witryn, których nie zachowujesz, w tym dane witryn, których rozszerzenie już nie znajduje.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Zachowana witryna zachowuje swoje dane tylko pod adresami, które rozszerzenie znajduje w historii, plikach cookie i otwartych kartach. Każda inna subdomena lub port zachowanej witryny, na przykład subdomena nieodwiedzana od miesięcy albo lokalny serwer na innym porcie, traci swoje dane i może nastąpić wylogowanie z niej."
+  },
+  "clearing": {
+    "message": "Czyszczenie… Może to potrwać kilka minut."
+  },
+  "leftoversFailed": {
+    "message": "Nie udało się wyczyścić pozostałych danych witryn."
+  },
+  "leftoversCleared": {
+    "message": "Wyczyszczono pozostałe dane witryn."
+  },
+  "nothingClearedYet": {
+    "message": "Nic jeszcze nie wyczyszczono."
+  },
+  "clearFailed": {
+    "message": "Czyszczenie ($WHEN$) nie powiodło się.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ wpis historii",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_few": {
+    "message": "$COUNT$ wpisy historii",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_many": {
+    "message": "$COUNT$ wpisów historii",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ wpisu historii",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ plik cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_few": {
+    "message": "$COUNT$ pliki cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_many": {
+    "message": "$COUNT$ plików cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ pliku cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "nic"
+  },
+  "lastCleared": {
+    "message": "Ostatnie czyszczenie: $WHEN$. Usunięto: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Ostatnie czyszczenie: $WHEN$. Usunięto: $WHAT$, a także dane witryn i pamięć podręczną.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Ostatnie czyszczenie: $WHEN$. Usunięto: $WHAT$, a także dane i pamięć podręczną wszystkich niezachowanych witryn.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Pominięto historię i dane witryn, ponieważ ta przeglądarka nie pozwala rozszerzeniom ich czyścić."
+  },
+  "skippedHistory": {
+    "message": "Pominięto historię, ponieważ ta przeglądarka nie pozwala rozszerzeniom jej czyścić."
+  },
+  "skippedSiteData": {
+    "message": "Pominięto dane witryn, ponieważ ta przeglądarka nie pozwala rozszerzeniom ich czyścić."
+  },
+  "cookiesSkipped": {
+    "message": "Pominięto pliki cookie, ponieważ dostęp do witryn jest wyłączony."
+  },
+  "loadFailed": {
+    "message": "Nie udało się wczytać ustawień."
+  }
+}

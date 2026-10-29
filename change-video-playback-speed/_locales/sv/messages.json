@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Byt snabbt uppspelningshastighet för video och ljud mellan 1x, 1,2x, 1,5x och 2x."
+  },
+  "commandDescription": {
+    "message": "Ändra videons uppspelningshastighet"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Uppspelningshastighet $SPEED$ gånger",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Uppspelningshastighet: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

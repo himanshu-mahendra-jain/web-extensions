@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Rensar historik, cookies och webbplatsdata när webbläsaren startar för alla webbplatser utom dem du behåller."
+  },
+  "optionsTitle": {
+    "message": "Behållna webbplatser | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-repo, öppnas i en ny flik"
+  },
+  "accessHeading": {
+    "message": "Webbplatsåtkomst är avstängd"
+  },
+  "allowSiteAccess": {
+    "message": "Tillåt webbplatsåtkomst"
+  },
+  "accessHistorySiteData": {
+    "message": "Utan åtkomst till webbplatser kan tillägget inte radera cookies. Historik och webbplatsdata rensas fortfarande."
+  },
+  "accessHistory": {
+    "message": "Utan åtkomst till webbplatser kan tillägget inte radera cookies. Historiken rensas fortfarande."
+  },
+  "accessSiteData": {
+    "message": "Utan åtkomst till webbplatser kan tillägget inte radera cookies. Webbplatsdata rensas fortfarande."
+  },
+  "accessNothing": {
+    "message": "Utan åtkomst till webbplatser kan tillägget inte radera cookies, så ingenting rensas."
+  },
+  "clearingOffHeading": {
+    "message": "Rensning är avstängd"
+  },
+  "clearingOffText": {
+    "message": "Ingenting raderas ännu. Lägg till de webbplatser där du vill förbli inloggad och slå sedan på rensning. Därefter raderas data ($DATA$) för alla andra webbplatser varje gång webbläsaren startar.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Slå på rensning"
+  },
+  "keptSitesHeading": {
+    "message": "Behållna webbplatser"
+  },
+  "intro": {
+    "message": "Dessa webbplatser och deras underdomäner behåller sina data ($DATA$), så att du förblir inloggad. Så länge rensning är på förlorar alla andra webbplatser dem varje gång webbläsaren startar.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Webbplatsdomäner"
+  },
+  "keep": {
+    "message": "Behåll"
+  },
+  "siteHint": {
+    "message": "Separera flera webbplatser med kommatecken."
+  },
+  "noSites": {
+    "message": "Inga webbplatser behålls ännu, så en rensning raderar data ($DATA$) för alla webbplatser.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Behållna webbplatser"
+  },
+  "clearingHeading": {
+    "message": "Rensning"
+  },
+  "clearOnStartupLabel": {
+    "message": "Rensa automatiskt när webbläsaren startar"
+  },
+  "clearNow": {
+    "message": "Rensa nu"
+  },
+  "firstClearHint": {
+    "message": "Den första rensningen kan ta flera minuter om webbläsaren har mycket webbinformation. Du kan fortsätta surfa under tiden."
+  },
+  "leftoversHeading": {
+    "message": "Kvarvarande webbplatsdata"
+  },
+  "leftoversIntro": {
+    "message": "När en webbplats historik och cookies har raderats hittar tillägget den inte längre, så dess lokala lagring, databaser och cache ligger kvar. Rensa rester raderar webbplatsdata för alla webbplatser du inte behåller, hittade eller inte, efter en rensning som Rensa nu."
+  },
+  "clearLeftovers": {
+    "message": "Rensa rester"
+  },
+  "transferHeading": {
+    "message": "Import och export"
+  },
+  "transferIntro": {
+    "message": "Spara dina behållna webbplatser i en textfil, eller ersätt dem med webbplatserna i en fil. En fil kan ha en webbplats per rad eller separera dem med kommatecken."
+  },
+  "export": {
+    "message": "Exportera"
+  },
+  "import": {
+    "message": "Importera"
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "dataAll": {
+    "message": "historik, cookies och webbplatsdata"
+  },
+  "dataNoHistory": {
+    "message": "cookies och webbplatsdata"
+  },
+  "dataNoSiteData": {
+    "message": "historik och cookies"
+  },
+  "dataCookies": {
+    "message": "cookies"
+  },
+  "remove": {
+    "message": "Ta bort"
+  },
+  "removeSite": {
+    "message": "Ta bort $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ har tagits bort. Dess data ($DATA$) raderas vid nästa rensning.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Det gick inte att ta bort webbplatsen."
+  },
+  "siteKept": {
+    "message": "$SITE$ behålls.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ webbplats behålls.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ webbplatser behålls.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ behålls redan.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ webbplats behålls redan.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ webbplatser behålls redan.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ är inte en giltig domän.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Det här är inte giltiga domäner: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Ange en giltig domän, till exempel example.com."
+  },
+  "addSiteFailed": {
+    "message": "Det gick inte att lägga till webbplatsen."
+  },
+  "addSitesFailed": {
+    "message": "Det gick inte att lägga till webbplatserna."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ är större än 1 MB, så de behållna webbplatserna har inte ändrats.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ har inga giltiga domäner, så de behållna webbplatserna har inte ändrats.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Ersätta behållna webbplatser?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ webbplats",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ webbplatser",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Webbplatserna du behåller nu ($CURRENT$) ersätts med webbplatserna i $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ webbplats behålls inte längre, och dess data ($DATA$) raderas vid nästa rensning.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ webbplatser behålls inte längre, och deras data ($DATA$) raderas vid nästa rensning.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Ersätt behållna webbplatser"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ webbplats importerades från $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ webbplatser importerades från $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Det gick inte att exportera de behållna webbplatserna."
+  },
+  "importFailed": {
+    "message": "Det gick inte att importera behållna webbplatser från $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Slå på rensning?"
+  },
+  "turnOnKept": {
+    "message": "Varje gång webbläsaren startar raderas data ($DATA$) för alla webbplatser utom dem du har valt att behålla. Du loggas ut från alla andra webbplatser.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Du har inte valt några webbplatser att behålla. Varje gång webbläsaren startar raderas alla data ($DATA$) och du loggas ut från alla webbplatser.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Raderade data ($DATA$) kan inte återställas.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Rensa allt nu?"
+  },
+  "clearEverythingText": {
+    "message": "Du har inte valt några webbplatser att behålla, så data ($DATA$) för alla webbplatser raderas nu och du loggas ut från alla webbplatser.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Rensa allt"
+  },
+  "leftoversTitle": {
+    "message": "Rensa kvarvarande webbplatsdata?"
+  },
+  "leftoversKept": {
+    "message": "Data ($DATA$) för alla webbplatser du inte behåller raderas nu, även webbplatsdata för webbplatser som tillägget inte längre hittar.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "En behållen webbplats behåller bara sin webbplatsdata på de adresser som tillägget hittar i historik, cookies och öppna flikar. Alla andra underdomäner eller portar på en behållen webbplats, till exempel en du inte har besökt på flera månader eller en lokal server på en annan port, förlorar sin webbplatsdata, och du kan bli utloggad därifrån."
+  },
+  "clearing": {
+    "message": "Rensar… Det kan ta några minuter."
+  },
+  "leftoversFailed": {
+    "message": "Det gick inte att rensa kvarvarande webbplatsdata."
+  },
+  "leftoversCleared": {
+    "message": "Kvarvarande webbplatsdata har rensats."
+  },
+  "nothingClearedYet": {
+    "message": "Ingenting har rensats ännu."
+  },
+  "clearFailed": {
+    "message": "Rensningen $WHEN$ misslyckades.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ historikpost",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ historikposter",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "ingenting"
+  },
+  "lastCleared": {
+    "message": "Senast rensat: $WHEN$. Raderat: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Senast rensat: $WHEN$. Raderat: $WHAT$, plus webbplatsdata och cache.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Senast rensat: $WHEN$. Raderat: $WHAT$, plus webbplatsdata och cache för alla webbplatser som inte behålls.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Historik och webbplatsdata hoppades över eftersom den här webbläsaren inte låter tillägg rensa dem."
+  },
+  "skippedHistory": {
+    "message": "Historiken hoppades över eftersom den här webbläsaren inte låter tillägg rensa den."
+  },
+  "skippedSiteData": {
+    "message": "Webbplatsdata hoppades över eftersom den här webbläsaren inte låter tillägg rensa dem."
+  },
+  "cookiesSkipped": {
+    "message": "Cookies hoppades över eftersom webbplatsåtkomst är avstängd."
+  },
+  "loadFailed": {
+    "message": "Det gick inte att läsa in inställningarna."
+  }
+}

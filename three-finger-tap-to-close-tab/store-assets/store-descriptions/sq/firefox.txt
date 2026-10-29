@@ -1,0 +1,42 @@
+Mbyllni skedën aktuale me një prekje me tre gishta, një klikim të mesëm ose një klikim te shiriti i mjeteve.
+
+Three Finger Tap to Close Tab është një zgjerim i lehtë me burim të hapur që ofron një mënyrë të shpejtë dhe të thjeshtë për të mbyllur skedën aktuale të shfletuesit.
+
+Prekni me tre gishta ose klikoni me butonin e mesit kudo në një faqe interneti, jashtë lidhjeve dhe fushave të redaktueshme, për të mbyllur skedën aktuale. Mund të klikoni edhe ikonën e zgjerimit te shiriti i mjeteve.
+
+Në Firefox për Android, prekni Three Finger Tap to Close Tab te menuja Zgjerime e shfletuesit për të mbyllur skedën aktuale. Prekja e ekranit nuk është klikim i mesëm, ndaj prekja e një faqeje interneti nuk e mbyll kurrë skedën.
+
+Klikimi i mesëm mbi lidhje dhe karta prurjesh ruan sjelljen e zakonshme të shfletuesit, kështu që vazhdoni të hapni lidhje dhe postime në skeda të reja si zakonisht. Një hapësirë sigurie e integruar parandalon mbylljen aksidentale nëse prekni pranë një lidhjeje ose kontrolli.
+
+VEÇORITË KRYESORE
+
+• Mbyllni skedën aktuale me një prekje me tre gishta
+• Mbyllni skedën aktuale me një klikim të mesëm
+• Mbyllni skedën aktuale me një klikim te shiriti i mjeteve
+• Ruan klikimin e zakonshëm të mesëm mbi lidhje, butona dhe karta prurjesh
+• Hapësira e sigurisë parandalon mbylljen aksidentale pranë elementeve ndërvepruese
+• Nuk mbyll skeda ndërsa përdorni formularë dhe fusha të redaktueshme
+• Pa menu kërcyese dhe pa rregullime
+
+RREGULLIMI I TASTIERËS PREKËSE
+
+Pajisja prekëse dhe sistemi operativ duhet të jenë rregulluar që një prekje me tre gishta të prodhojë një klikim të mesëm.
+
+Pas rregullimit, prekni me tre gishta një faqe interneti jashtë lidhjeve dhe lëndës ndërvepruese për të mbyllur skedën aktuale.
+
+PRIVATËSIA
+
+• Pa analiza dhe pa gjurmim
+• Nuk mbledh të dhëna ose historik shfletimi
+• Pa kërkesa rrjeti
+• Nuk ruan veprimtari shfletimi ose parapëlqime
+
+Të gjitha skedat mbyllen vendorësisht, në shfletuesin tuaj.
+
+BURIM I HAPUR
+
+Three Finger Tap to Close Tab është me burim të hapur dhe licencohet sipas Licencës MIT.
+
+Shihni kodin burim, raportoni probleme ose kontribuoni në GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "I-enable ang pagkopya, pagpili ng text, at mga right-click menu sa mga webpage na naghihigpit dito."
+  },
+  "commandDescription": {
+    "message": "I-enable ang pagkopya at right click sa kasalukuyang page"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Aktibo",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Na-enable ang pagkopya at right click."
+  },
+  "optionsTitle": {
+    "message": "Mga Awtomatikong Site | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub repository, bubukas sa bagong tab"
+  },
+  "automaticSitesHeading": {
+    "message": "Mga Awtomatikong Site"
+  },
+  "automaticSitesIntro": {
+    "message": "Awtomatikong i-enable ang pagkopya, pagpili ng text, at right click sa mga website na idinagdag mo."
+  },
+  "siteInputLabel": {
+    "message": "Domain ng website"
+  },
+  "addSite": {
+    "message": "Magdagdag ng Site"
+  },
+  "noSites": {
+    "message": "Wala pang naidagdag na awtomatikong site."
+  },
+  "siteListLabel": {
+    "message": "Mga awtomatikong site"
+  },
+  "remove": {
+    "message": "Alisin"
+  },
+  "removeSite": {
+    "message": "Alisin ang $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (inalis ang pahintulot)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "Naidagdag ang $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "Na-enable ulit ang $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "Inalis ang $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Naka-enable na ang site na ito."
+  },
+  "invalidDomain": {
+    "message": "Maglagay ng valid na domain, gaya ng example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Hindi naibigay ang pahintulot para sa site."
+  },
+  "addFailed": {
+    "message": "Hindi naidagdag ang site."
+  },
+  "removeFailed": {
+    "message": "Hindi naalis ang site."
+  },
+  "loadFailed": {
+    "message": "Hindi na-load ang listahan ng mga site."
+  }
+}

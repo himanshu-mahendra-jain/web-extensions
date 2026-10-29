@@ -1,0 +1,91 @@
+Pri spustení prehliadača vymaže históriu, súbory cookie a údaje webov všetkých webov okrem tých, ktoré si ponecháte.
+
+Firefox pre Android nedovoľuje rozšíreniam vymazávať históriu, preto sa tam vymazávajú iba súbory cookie a údaje webov.
+
+Clear Browsing Data Except Kept Sites je ľahké rozšírenie s otvoreným zdrojovým kódom, ktoré odstraňuje záznamy histórie, súbory cookie a údaje webov všetkých webov, ktoré ste si nevybrali ponechať.
+
+V nastaveniach pridajte weby, na ktorých chcete zostať prihlásení a ktoré si chcete pamätať, a potom zapnite vymazávanie. Pri každom spustení prehliadača rozšírenie vymaže históriu a súbory cookie všetkých ostatných webov. Vymazať môžete aj kedykoľvek tlačidlom „Vymazať teraz“.
+
+HLAVNÉ FUNKCIE
+
+• Zoznam webov, ktorých história a súbory cookie sa nikdy nevymazávajú, s importom a exportom do textového súboru
+• Vymazávanie histórie a súborov cookie všetkých ostatných webov pri spustení prehliadača, keď ho zapnete
+• Vymazanie kedykoľvek tlačidlom „Vymazať teraz“ v nastaveniach
+• Automatické ponechanie subdomén ponechaného webu
+• Ponechanie súborov cookie nadradenej domény, ktoré ponechaný web potrebuje, aby ste zostali prihlásení
+• Vymazávanie delených súborov cookie (tretích strán) a súborov cookie kontajnerov; delené súbory cookie ponechaného webu zostávajú iba pod ponechanými webmi
+• Vymazávanie lokálneho úložiska, IndexedDB, service workerov a vyrovnávacej pamäte webov, ktoré nie sú ponechané
+• Výsledok posledného vymazania v nastaveniach
+• Upozornenie, keď je prístup k webom vypnutý a súbory cookie sa nedajú vymazať
+• Žiadna analytika ani sledovanie
+• Žiadny vzdialený kód ani sieťové požiadavky
+
+PONECHANÉ WEBY
+
+Otvorte nastavenia a pridajte doménu, napríklad:
+
+example.com
+
+Ak chcete pridať viac naraz, oddeľte ich čiarkami.
+
+„Exportovať“ uloží zoznam do textového súboru, jednu doménu na riadok. „Importovať“ nahradí zoznam webmi z textového súboru a vopred upozorní, ak tým zmiznú weby, ktoré si teraz ponechávate.
+
+Adresa ako mail.example.com/inbox sa skráti na doménu a úvodné www. sa vynechá. Prijímajú sa aj localhost a adresy IPv4 ako 192.168.1.1.
+
+Ponechanie example.com ponechá históriu a súbory cookie example.com a všetkých jeho subdomén. Ponechanie mail.example.com ponechá aj súbory cookie example.com, pretože často obsahujú prihlásenie subdomény.
+
+OTVORENIE NASTAVENÍ
+
+Nastavenia sa po inštalácii otvoria automaticky, aby ste mohli vyplniť zoznam ešte pred zapnutím vymazávania. Neskôr kliknite na ikonu rozšírenia na paneli s nástrojmi. Vo Firefoxe pre Android ťuknite na Clear Browsing Data Except Kept Sites v ponuke Rozšírenia prehliadača.
+
+Otvoriť ich môžete aj zo správcu doplnkov:
+
+1. Otvorte ponuku Firefoxu a vyberte Doplnky a témy vzhľadu.
+2. Nájdite Clear Browsing Data Except Kept Sites a kliknite na ponuku s tromi bodkami vedľa neho.
+3. Vyberte Predvoľby.
+
+VYMAZÁVANIE PRI SPUSTENÍ
+
+Po inštalácii je vymazávanie vypnuté, takže sa nič neodstráni, kým o to nepožiadate. Nastavenia zobrazia upozornenie „Vymazávanie je vypnuté“ s tlačidlom „Zapnúť vymazávanie“. Zapnutie najprv zobrazí varovanie: každé spustenie odstráni históriu a súbory cookie všetkých webov okrem ponechaných a odhlási vás z nich, alebo zo všetkých webov, keď nie je ponechaný žiadny.
+
+Po zapnutí prebieha vymazávanie pri každom spustení prehliadača, pretože prehliadač nenechá rozšírenia bežať pri zatváraní. Vymazávanie pri spustení odstráni, čo zanechala predchádzajúca relácia. Vypnúť alebo znova zapnúť ho môžete voľbou „Automaticky vymazať pri spustení prehliadača“ v nastaveniach.
+
+VYMAZAŤ TERAZ
+
+„Vymazať teraz“ v nastaveniach vymaže okamžite. Keď nie je ponechaný žiadny web, najprv sa zobrazí červené varovanie, že sa všetko odstráni. Nastavenia ukazujú, kedy prebehlo posledné vymazanie a koľko záznamov histórie a súborov cookie odstránilo.
+
+PRÍSTUP K WEBOM
+
+Súbory cookie sa dajú odstrániť iba pre weby, ku ktorým má rozšírenie prístup, preto žiada o prístup ku všetkým webom. Ak prístup k webom vypnete, história sa naďalej vymazáva, ale súbory cookie sa preskočia a nastavenia zobrazia tlačidlo „Povoliť prístup k webom“.
+
+OBMEDZENIA
+
+• Karty obnovené pri spustení môžu počas vymazávania vytvoriť nové súbory cookie. Tie zostanú do ďalšieho spustenia alebo do použitia „Vymazať teraz“.
+• Firefox nedokáže vymazávať údaje webov s výnimkou vybraných webov, preto rozšírenie vymazáva lokálne úložisko, IndexedDB a service workery každého neponechaného webu, ktorý nájde v histórii, súboroch cookie a otvorených kartách. Web, ktorý sa v ničom z toho nevyskytuje, si svoje údaje ponechá. Web s ponechanou subdoménou si ponechá svoje service workery, pretože Firefox by s nimi vymazal aj tie subdomény. Vyrovnávacia pamäť sa vymazáva pre všetky weby, pretože ju Firefox nedokáže vymazávať po weboch; nikoho to neodhlási.
+• Firefox nedokáže vymazávať po weboch Cache Storage, teda offline súbory, ktoré ukladajú service workery, preto sa nevymazáva. Ak chcete odstrániť, na čo rozšírenie nedosiahne, použite Nastavenia > Súkromie a bezpečnosť > Cookies a údaje stránok > Spravovať údaje.
+• Ak synchronizácia prehliadača zahŕňa históriu, odstránené záznamy histórie sa môžu odstrániť aj na vašich ďalších zariadeniach.
+• Súkromné okná sa vymazávajú iba vtedy, keď v nich rozšírenie smie bežať.
+
+OCHRANA SÚKROMIA
+
+• Žiadna analytika ani sledovanie
+• Žiadny zber údajov
+• Žiadne sieťové požiadavky
+• Žiadny vzdialený kód
+• Žiadny externý JavaScript
+• História a súbory cookie sa čítajú iba na rozhodnutie, čo odstrániť, a iba vo vašom prehliadači
+• Zoznam a nastavenia sa ukladajú lokálne vo vašom prehliadači
+
+VÝKON
+
+Rozšírenie počas prehliadania nič nerobí. Spustí sa raz pri štarte prehliadača, ak je vymazávanie zapnuté, a keď kliknete na „Vymazať teraz“.
+
+Prvé vymazanie dlhej histórie môže trvať niekoľko minút, pretože každý záznam histórie sa odstraňuje zvlášť. Medzitým môžete ďalej prehliadať. Ďalšie vymazania odstránia iba záznamy predchádzajúcej relácie.
+
+OPEN SOURCE
+
+Clear Browsing Data Except Kept Sites je open-source projekt pod licenciou MIT.
+
+Zdrojový kód, hlásenie chýb a možnosť prispieť nájdete na GitHube:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Швидко перемикайте швидкість відтворення відео й аудіо: 1x, 1,2x, 1,5x і 2x."
+  },
+  "commandDescription": {
+    "message": "Змінити швидкість відтворення відео"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Швидкість відтворення $SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Швидкість відтворення: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

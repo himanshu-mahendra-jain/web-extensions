@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "አሳሹ ሲጀምር ከሚያቆዩዋቸው ጣቢያዎች በስተቀር የሁሉንም ጣቢያዎች ታሪክ፣ ኩኪዎች እና የጣቢያ ውሂብ ያጽዱ።"
+  },
+  "optionsTitle": {
+    "message": "የሚቆዩ ጣቢያዎች | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "የGitHub ማከማቻ፣ በአዲስ ትር ይከፈታል"
+  },
+  "accessHeading": {
+    "message": "የጣቢያ መዳረሻ ጠፍቷል"
+  },
+  "allowSiteAccess": {
+    "message": "የጣቢያ መዳረሻ ፍቀድ"
+  },
+  "accessHistorySiteData": {
+    "message": "ወደ ድረ-ገጾች መዳረሻ ከሌለ ቅጥያው ኩኪዎችን መሰረዝ አይችልም። ታሪክ እና የጣቢያ ውሂብ አሁንም ይጸዳሉ።"
+  },
+  "accessHistory": {
+    "message": "ወደ ድረ-ገጾች መዳረሻ ከሌለ ቅጥያው ኩኪዎችን መሰረዝ አይችልም። ታሪክ አሁንም ይጸዳል።"
+  },
+  "accessSiteData": {
+    "message": "ወደ ድረ-ገጾች መዳረሻ ከሌለ ቅጥያው ኩኪዎችን መሰረዝ አይችልም። የጣቢያ ውሂብ አሁንም ይጸዳል።"
+  },
+  "accessNothing": {
+    "message": "ወደ ድረ-ገጾች መዳረሻ ከሌለ ቅጥያው ኩኪዎችን መሰረዝ አይችልም፣ ስለዚህ ምንም አይጸዳም።"
+  },
+  "clearingOffHeading": {
+    "message": "ማጽዳት ጠፍቷል"
+  },
+  "clearingOffText": {
+    "message": "እስካሁን ምንም አልተሰረዘም። በመለያ ገብተው እንዲቆዩባቸው የሚፈልጓቸውን ጣቢያዎች ያክሉ፣ ከዚያ ማጽዳትን ያብሩ። ከዚያ በኋላ አሳሹ በጀመረ ቁጥር የሌሎቹ ጣቢያዎች ሁሉ ውሂብ ($DATA$) ይሰረዛል።",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "ማጽዳትን አብራ"
+  },
+  "keptSitesHeading": {
+    "message": "የሚቆዩ ጣቢያዎች"
+  },
+  "intro": {
+    "message": "እነዚህ ጣቢያዎች እና ንዑስ ጎራዎቻቸው ውሂባቸውን ($DATA$) ያቆያሉ፣ ስለዚህ በመለያ ገብተው ይቆያሉ። ማጽዳት በርቶ ሳለ አሳሹ በጀመረ ቁጥር ሌሎቹ ጣቢያዎች ሁሉ ይህን ውሂብ ያጣሉ።",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "የድረ-ገጽ ጎራዎች"
+  },
+  "keep": {
+    "message": "አቆይ"
+  },
+  "siteHint": {
+    "message": "ብዙ ጣቢያዎችን በኮማ ይለዩ።"
+  },
+  "noSites": {
+    "message": "እስካሁን ምንም ጣቢያ አልቆየም፣ ስለዚህ ማጽዳት የሁሉንም ጣቢያዎች ውሂብ ($DATA$) ይሰርዛል።",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "የሚቆዩ ጣቢያዎች"
+  },
+  "clearingHeading": {
+    "message": "ማጽዳት"
+  },
+  "clearOnStartupLabel": {
+    "message": "አሳሹ ሲጀምር በራስ-ሰር አጽዳ"
+  },
+  "clearNow": {
+    "message": "አሁን አጽዳ"
+  },
+  "firstClearHint": {
+    "message": "አሳሹ ብዙ የአሰሳ ውሂብ ሲኖረው የመጀመሪያው ማጽዳት ብዙ ደቂቃዎችን ሊወስድ ይችላል። እስከዚያው ማሰስዎን መቀጠል ይችላሉ።"
+  },
+  "leftoversHeading": {
+    "message": "የቀረ የጣቢያ ውሂብ"
+  },
+  "leftoversIntro": {
+    "message": "የአንድ ጣቢያ ታሪክ እና ኩኪዎች ከተሰረዙ በኋላ ቅጥያው ጣቢያውን ከእንግዲህ አያገኘውም፣ ስለዚህ የአካባቢ ማከማቻው፣ የውሂብ ጎታዎቹ እና መሸጎጫው ይቀራሉ። «ቀሪዎችን አጽዳ» እንደ «አሁን አጽዳ» ካለ ማጽዳት በኋላ የማያቆዩትን የእያንዳንዱን ጣቢያ የጣቢያ ውሂብ፣ ቢገኝም ባይገኝም፣ ይሰርዛል።"
+  },
+  "clearLeftovers": {
+    "message": "ቀሪዎችን አጽዳ"
+  },
+  "transferHeading": {
+    "message": "ማስመጣት እና መላክ"
+  },
+  "transferIntro": {
+    "message": "የሚቆዩ ጣቢያዎችዎን ወደ የጽሑፍ ፋይል ያስቀምጡ፣ ወይም በአንድ ፋይል ውስጥ ባሉ ጣቢያዎች ይተኩዋቸው። ፋይል በእያንዳንዱ መስመር አንድ ጣቢያ ሊዘረዝር ወይም ጣቢያዎችን በኮማ ሊለይ ይችላል።"
+  },
+  "export": {
+    "message": "ላክ"
+  },
+  "import": {
+    "message": "አስመጣ"
+  },
+  "cancel": {
+    "message": "ይቅር"
+  },
+  "dataAll": {
+    "message": "ታሪክ፣ ኩኪዎች እና የጣቢያ ውሂብ"
+  },
+  "dataNoHistory": {
+    "message": "ኩኪዎች እና የጣቢያ ውሂብ"
+  },
+  "dataNoSiteData": {
+    "message": "ታሪክ እና ኩኪዎች"
+  },
+  "dataCookies": {
+    "message": "ኩኪዎች"
+  },
+  "remove": {
+    "message": "አስወግድ"
+  },
+  "removeSite": {
+    "message": "$SITE$ን አስወግድ",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ ተወግዷል። ውሂቡ ($DATA$) በሚቀጥለው ማጽዳት ይሰረዛል።",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "ጣቢያውን ማስወገድ አልተቻለም።"
+  },
+  "siteKept": {
+    "message": "$SITE$ ይቆያል።",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ ጣቢያ ይቆያል።",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ ጣቢያዎች ይቆያሉ።",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ አስቀድሞ ይቆያል።",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ ጣቢያ አስቀድሞ ይቆያል።",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ ጣቢያዎች አስቀድመው ይቆያሉ።",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ ትክክለኛ ጎራ አይደለም።",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "እነዚህ ትክክለኛ ጎራዎች አይደሉም፦ $SITES$።",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "እንደ example.com ያለ ትክክለኛ ጎራ ያስገቡ።"
+  },
+  "addSiteFailed": {
+    "message": "ጣቢያውን ማከል አልተቻለም።"
+  },
+  "addSitesFailed": {
+    "message": "ጣቢያዎቹን ማከል አልተቻለም።"
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ ከ1 MB ይበልጣል፣ ስለዚህ የሚቆዩ ጣቢያዎች አልተቀየሩም።",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ ምንም ትክክለኛ ጎራ የለውም፣ ስለዚህ የሚቆዩ ጣቢያዎች አልተቀየሩም።",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "የሚቆዩ ጣቢያዎች ይተኩ?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ ጣቢያ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ ጣቢያዎች",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "አሁን የሚያቆዩዋቸው ጣቢያዎች ($CURRENT$) በ$FILE$ ውስጥ ባሉት ጣቢያዎች ($NEW$) ይተካሉ።",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ ጣቢያ ከእንግዲህ አይቆይም፣ እና ውሂቡ ($DATA$) በሚቀጥለው ማጽዳት ይሰረዛል።",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ ጣቢያዎች ከእንግዲህ አይቆዩም፣ እና ውሂባቸው ($DATA$) በሚቀጥለው ማጽዳት ይሰረዛል።",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "የሚቆዩ ጣቢያዎችን ተካ"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ ጣቢያ ከ$FILE$ ገብቷል።",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ ጣቢያዎች ከ$FILE$ ገብተዋል።",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "የሚቆዩ ጣቢያዎችን መላክ አልተቻለም።"
+  },
+  "importFailed": {
+    "message": "የሚቆዩ ጣቢያዎችን ከ$FILE$ ማስመጣት አልተቻለም።",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "ማጽዳት ይብራ?"
+  },
+  "turnOnKept": {
+    "message": "አሳሹ በጀመረ ቁጥር ለማቆየት ከመረጧቸው በስተቀር የሁሉም ጣቢያዎች ውሂብ ($DATA$) ይሰረዛል። ከሌሎቹ ጣቢያዎች ሁሉ ዘግተው ይወጣሉ።",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "ለማቆየት ምንም ጣቢያ አልመረጡም። አሳሹ በጀመረ ቁጥር ሁሉም ውሂብ ($DATA$) ይሰረዛል፣ እና ከሁሉም ጣቢያዎች ዘግተው ይወጣሉ።",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "የተሰረዘ ውሂብ ($DATA$) መልሶ ሊገኝ አይችልም።",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "ሁሉም አሁን ይጽዳ?"
+  },
+  "clearEverythingText": {
+    "message": "ለማቆየት ምንም ጣቢያ አልመረጡም፣ ስለዚህ የሁሉም ጣቢያዎች ውሂብ ($DATA$) አሁን ይሰረዛል፣ እና ከሁሉም ጣቢያዎች ዘግተው ይወጣሉ።",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "ሁሉንም አጽዳ"
+  },
+  "leftoversTitle": {
+    "message": "የቀረ የጣቢያ ውሂብ ይጽዳ?"
+  },
+  "leftoversKept": {
+    "message": "የማያቆዩት የእያንዳንዱ ጣቢያ ውሂብ ($DATA$) አሁን ይሰረዛል፤ ቅጥያው ከእንግዲህ የማያገኛቸው ጣቢያዎች የጣቢያ ውሂብም ጭምር።",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "የሚቆይ ጣቢያ የጣቢያ ውሂቡን የሚያቆየው ቅጥያው በታሪክ፣ በኩኪዎች እና በክፍት ትሮች ውስጥ በሚያገኛቸው አድራሻዎች ብቻ ነው። የሚቆይ ጣቢያ ሌላ ማንኛውም ንዑስ ጎራ ወይም ወደብ፣ ለምሳሌ ለወራት ያልጎበኙት ወይም በሌላ ወደብ ላይ ያለ የአካባቢ አገልጋይ፣ የጣቢያ ውሂቡን ያጣል፣ እና ከእሱ ዘግተው ሊወጡ ይችላሉ።"
+  },
+  "clearing": {
+    "message": "በማጽዳት ላይ… ይህ ጥቂት ደቂቃዎችን ሊወስድ ይችላል።"
+  },
+  "leftoversFailed": {
+    "message": "የቀረ የጣቢያ ውሂብን ማጽዳት አልተሳካም።"
+  },
+  "leftoversCleared": {
+    "message": "የቀረ የጣቢያ ውሂብ ጸድቷል።"
+  },
+  "nothingClearedYet": {
+    "message": "እስካሁን ምንም አልጸዳም።"
+  },
+  "clearFailed": {
+    "message": "በ$WHEN$ የተደረገው ማጽዳት አልተሳካም።",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ የታሪክ ግቤት",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ የታሪክ ግቤቶች",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ ኩኪ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ ኩኪዎች",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "ምንም"
+  },
+  "lastCleared": {
+    "message": "መጨረሻ የጸዳው፦ $WHEN$። የተሰረዘ፦ $WHAT$።",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "መጨረሻ የጸዳው፦ $WHEN$። የተሰረዘ፦ $WHAT$፣ ከጣቢያ ውሂብ እና መሸጎጫ ጋር።",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "መጨረሻ የጸዳው፦ $WHEN$። የተሰረዘ፦ $WHAT$፣ ከማይቆዩት ጣቢያዎች ሁሉ የጣቢያ ውሂብ እና መሸጎጫ ጋር።",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "ይህ አሳሽ ቅጥያዎች ታሪክን እና የጣቢያ ውሂብን እንዲያጸዱ ስለማይፈቅድ እነዚህ ተዘልለዋል።"
+  },
+  "skippedHistory": {
+    "message": "ይህ አሳሽ ቅጥያዎች ታሪክን እንዲያጸዱ ስለማይፈቅድ ታሪክ ተዘልሏል።"
+  },
+  "skippedSiteData": {
+    "message": "ይህ አሳሽ ቅጥያዎች የጣቢያ ውሂብን እንዲያጸዱ ስለማይፈቅድ የጣቢያ ውሂብ ተዘልሏል።"
+  },
+  "cookiesSkipped": {
+    "message": "የጣቢያ መዳረሻ ስለጠፋ ኩኪዎች ተዘልለዋል።"
+  },
+  "loadFailed": {
+    "message": "ቅንብሮቹን መጫን አልተቻለም።"
+  }
+}

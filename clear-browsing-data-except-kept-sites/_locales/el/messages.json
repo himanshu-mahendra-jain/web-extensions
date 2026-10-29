@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Διαγράφει ιστορικό, cookies και δεδομένα ιστότοπων στην εκκίνηση του προγράμματος περιήγησης, εκτός από τους ιστότοπους που κρατάτε."
+  },
+  "optionsTitle": {
+    "message": "Ιστότοποι που κρατάτε | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Αποθετήριο GitHub, ανοίγει σε νέα καρτέλα"
+  },
+  "accessHeading": {
+    "message": "Η πρόσβαση σε ιστότοπους είναι απενεργοποιημένη"
+  },
+  "allowSiteAccess": {
+    "message": "Να επιτρέπεται η πρόσβαση"
+  },
+  "accessHistorySiteData": {
+    "message": "Χωρίς πρόσβαση σε ιστότοπους, η επέκταση δεν μπορεί να διαγράψει cookies. Το ιστορικό και τα δεδομένα ιστότοπων διαγράφονται κανονικά."
+  },
+  "accessHistory": {
+    "message": "Χωρίς πρόσβαση σε ιστότοπους, η επέκταση δεν μπορεί να διαγράψει cookies. Το ιστορικό διαγράφεται κανονικά."
+  },
+  "accessSiteData": {
+    "message": "Χωρίς πρόσβαση σε ιστότοπους, η επέκταση δεν μπορεί να διαγράψει cookies. Τα δεδομένα ιστότοπων διαγράφονται κανονικά."
+  },
+  "accessNothing": {
+    "message": "Χωρίς πρόσβαση σε ιστότοπους, η επέκταση δεν μπορεί να διαγράψει cookies, οπότε δεν διαγράφεται τίποτα."
+  },
+  "clearingOffHeading": {
+    "message": "Η διαγραφή είναι απενεργοποιημένη"
+  },
+  "clearingOffText": {
+    "message": "Δεν έχει διαγραφεί τίποτα ακόμη. Προσθέστε τους ιστότοπους στους οποίους θέλετε να μένετε συνδεδεμένοι και, στη συνέχεια, ενεργοποιήστε τη διαγραφή. Από τότε, σε κάθε εκκίνηση του προγράμματος περιήγησης, διαγράφονται τα δεδομένα ($DATA$) όλων των άλλων ιστότοπων.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Ενεργοποίηση διαγραφής"
+  },
+  "keptSitesHeading": {
+    "message": "Ιστότοποι που κρατάτε"
+  },
+  "intro": {
+    "message": "Αυτοί οι ιστότοποι και οι υποτομείς τους κρατούν τα δεδομένα τους ($DATA$), ώστε να μένετε συνδεδεμένοι. Όσο η διαγραφή είναι ενεργή, όλοι οι άλλοι ιστότοποι τα χάνουν σε κάθε εκκίνηση του προγράμματος περιήγησης.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Τομείς ιστότοπων"
+  },
+  "keep": {
+    "message": "Διατήρηση"
+  },
+  "siteHint": {
+    "message": "Διαχωρίστε πολλούς ιστότοπους με κόμματα."
+  },
+  "noSites": {
+    "message": "Δεν κρατάτε ακόμη κανέναν ιστότοπο, οπότε μια διαγραφή σβήνει τα δεδομένα ($DATA$) όλων των ιστότοπων.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Ιστότοποι που κρατάτε"
+  },
+  "clearingHeading": {
+    "message": "Διαγραφή"
+  },
+  "clearOnStartupLabel": {
+    "message": "Αυτόματη διαγραφή στην εκκίνηση του προγράμματος περιήγησης"
+  },
+  "clearNow": {
+    "message": "Διαγραφή τώρα"
+  },
+  "firstClearHint": {
+    "message": "Η πρώτη διαγραφή μπορεί να διαρκέσει αρκετά λεπτά, αν το πρόγραμμα περιήγησης έχει πολλά δεδομένα περιήγησης. Μπορείτε να συνεχίσετε την περιήγηση στο μεταξύ."
+  },
+  "leftoversHeading": {
+    "message": "Υπόλοιπα δεδομένα ιστότοπων"
+  },
+  "leftoversIntro": {
+    "message": "Μόλις διαγραφούν το ιστορικό και τα cookies ενός ιστότοπου, η επέκταση δεν τον βρίσκει πια, οπότε ο τοπικός χώρος αποθήκευσης, οι βάσεις δεδομένων και η κρυφή μνήμη του μένουν. Η «Διαγραφή υπολοίπων» σβήνει τα δεδομένα κάθε ιστότοπου που δεν κρατάτε, είτε βρέθηκε είτε όχι, μετά από μια διαγραφή όπως η «Διαγραφή τώρα»."
+  },
+  "clearLeftovers": {
+    "message": "Διαγραφή υπολοίπων"
+  },
+  "transferHeading": {
+    "message": "Εισαγωγή και εξαγωγή"
+  },
+  "transferIntro": {
+    "message": "Αποθηκεύστε τους ιστότοπους που κρατάτε σε αρχείο κειμένου ή αντικαταστήστε τους με τους ιστότοπους ενός αρχείου. Ένα αρχείο μπορεί να έχει έναν ιστότοπο ανά γραμμή ή να τους χωρίζει με κόμματα."
+  },
+  "export": {
+    "message": "Εξαγωγή"
+  },
+  "import": {
+    "message": "Εισαγωγή"
+  },
+  "cancel": {
+    "message": "Ακύρωση"
+  },
+  "dataAll": {
+    "message": "ιστορικό, cookies και δεδομένα ιστότοπων"
+  },
+  "dataNoHistory": {
+    "message": "cookies και δεδομένα ιστότοπων"
+  },
+  "dataNoSiteData": {
+    "message": "ιστορικό και cookies"
+  },
+  "dataCookies": {
+    "message": "cookies"
+  },
+  "remove": {
+    "message": "Αφαίρεση"
+  },
+  "removeSite": {
+    "message": "Αφαίρεση $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "Ο ιστότοπος $SITE$ αφαιρέθηκε. Τα δεδομένα του ($DATA$) θα διαγραφούν στην επόμενη διαγραφή.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Δεν ήταν δυνατή η αφαίρεση του ιστότοπου."
+  },
+  "siteKept": {
+    "message": "Ο ιστότοπος $SITE$ διατηρείται.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ ιστότοπος διατηρείται.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ ιστότοποι διατηρούνται.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "Ο ιστότοπος $SITE$ διατηρείται ήδη.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ ιστότοπος διατηρείται ήδη.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ ιστότοποι διατηρούνται ήδη.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "Το $SITE$ δεν είναι έγκυρος τομέας.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Αυτοί δεν είναι έγκυροι τομείς: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Εισαγάγετε έναν έγκυρο τομέα, όπως example.com."
+  },
+  "addSiteFailed": {
+    "message": "Δεν ήταν δυνατή η προσθήκη του ιστότοπου."
+  },
+  "addSitesFailed": {
+    "message": "Δεν ήταν δυνατή η προσθήκη των ιστότοπων."
+  },
+  "fileTooLarge": {
+    "message": "Το $FILE$ είναι μεγαλύτερο από 1 MB, οπότε οι ιστότοποι που κρατάτε δεν άλλαξαν.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "Το $FILE$ δεν περιέχει έγκυρους τομείς, οπότε οι ιστότοποι που κρατάτε δεν άλλαξαν.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Αντικατάσταση των ιστότοπων που κρατάτε;"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ ιστότοπος",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ ιστότοποι",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Οι ιστότοποι που κρατάτε τώρα ($CURRENT$) θα αντικατασταθούν από τους ιστότοπους του $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ ιστότοπος δεν θα διατηρείται πια και τα δεδομένα του ($DATA$) θα διαγραφούν στην επόμενη διαγραφή.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ ιστότοποι δεν θα διατηρούνται πια και τα δεδομένα τους ($DATA$) θα διαγραφούν στην επόμενη διαγραφή.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Αντικατάσταση ιστότοπων"
+  },
+  "sitesImported_one": {
+    "message": "Εισήχθη $COUNT$ ιστότοπος από το $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Εισήχθησαν $COUNT$ ιστότοποι από το $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Δεν ήταν δυνατή η εξαγωγή των ιστότοπων που κρατάτε."
+  },
+  "importFailed": {
+    "message": "Δεν ήταν δυνατή η εισαγωγή των ιστότοπων από το $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Ενεργοποίηση διαγραφής;"
+  },
+  "turnOnKept": {
+    "message": "Σε κάθε εκκίνηση του προγράμματος περιήγησης, θα διαγράφονται τα δεδομένα ($DATA$) όλων των ιστότοπων εκτός από αυτούς που επιλέξατε να κρατήσετε. Θα αποσυνδέεστε από όλους τους άλλους ιστότοπους.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Δεν επιλέξατε ιστότοπους για διατήρηση. Σε κάθε εκκίνηση του προγράμματος περιήγησης, θα διαγράφονται όλα τα δεδομένα ($DATA$) και θα αποσυνδέεστε από όλους τους ιστότοπους.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Τα δεδομένα που διαγράφονται ($DATA$) δεν μπορούν να ανακτηθούν.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Διαγραφή όλων τώρα;"
+  },
+  "clearEverythingText": {
+    "message": "Δεν επιλέξατε ιστότοπους για διατήρηση, οπότε τα δεδομένα ($DATA$) όλων των ιστότοπων θα διαγραφούν τώρα και θα αποσυνδεθείτε από όλους τους ιστότοπους.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Διαγραφή όλων"
+  },
+  "leftoversTitle": {
+    "message": "Διαγραφή υπολοίπων δεδομένων ιστότοπων;"
+  },
+  "leftoversKept": {
+    "message": "Τα δεδομένα ($DATA$) κάθε ιστότοπου που δεν κρατάτε θα διαγραφούν τώρα, μαζί με τα δεδομένα ιστότοπων που η επέκταση δεν βρίσκει πια.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Ένας ιστότοπος που κρατάτε διατηρεί τα δεδομένα του μόνο στις διευθύνσεις που βρίσκει η επέκταση στο ιστορικό, στα cookies και στις ανοιχτές καρτέλες. Κάθε άλλος υποτομέας ή θύρα του, όπως ένας που δεν έχετε επισκεφθεί εδώ και μήνες ή ένας τοπικός διακομιστής σε άλλη θύρα, χάνει τα δεδομένα του και μπορεί να αποσυνδεθείτε από αυτόν."
+  },
+  "clearing": {
+    "message": "Διαγραφή… Μπορεί να διαρκέσει μερικά λεπτά."
+  },
+  "leftoversFailed": {
+    "message": "Η διαγραφή των υπολοίπων δεδομένων ιστότοπων απέτυχε."
+  },
+  "leftoversCleared": {
+    "message": "Τα υπόλοιπα δεδομένα ιστότοπων διαγράφηκαν."
+  },
+  "nothingClearedYet": {
+    "message": "Δεν έχει διαγραφεί τίποτα ακόμη."
+  },
+  "clearFailed": {
+    "message": "Η διαγραφή στις $WHEN$ απέτυχε.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ καταχώριση ιστορικού",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ καταχωρίσεις ιστορικού",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "τίποτα"
+  },
+  "lastCleared": {
+    "message": "Τελευταία διαγραφή: $WHEN$. Διαγράφηκαν: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Τελευταία διαγραφή: $WHEN$. Διαγράφηκαν: $WHAT$, μαζί με δεδομένα ιστότοπων και κρυφή μνήμη.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Τελευταία διαγραφή: $WHEN$. Διαγράφηκαν: $WHAT$, μαζί με τα δεδομένα και την κρυφή μνήμη κάθε ιστότοπου που δεν κρατάτε.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Το ιστορικό και τα δεδομένα ιστότοπων παραλείφθηκαν, επειδή αυτό το πρόγραμμα περιήγησης δεν επιτρέπει στις επεκτάσεις να τα διαγράφουν."
+  },
+  "skippedHistory": {
+    "message": "Το ιστορικό παραλείφθηκε, επειδή αυτό το πρόγραμμα περιήγησης δεν επιτρέπει στις επεκτάσεις να το διαγράφουν."
+  },
+  "skippedSiteData": {
+    "message": "Τα δεδομένα ιστότοπων παραλείφθηκαν, επειδή αυτό το πρόγραμμα περιήγησης δεν επιτρέπει στις επεκτάσεις να τα διαγράφουν."
+  },
+  "cookiesSkipped": {
+    "message": "Τα cookies παραλείφθηκαν, επειδή η πρόσβαση σε ιστότοπους είναι απενεργοποιημένη."
+  },
+  "loadFailed": {
+    "message": "Δεν ήταν δυνατή η φόρτωση των ρυθμίσεων."
+  }
+}

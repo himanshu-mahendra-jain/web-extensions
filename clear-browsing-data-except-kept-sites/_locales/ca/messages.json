@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Esborra l'historial, les galetes i les dades dels llocs en iniciar el navegador, per a tots els llocs excepte els que conserveu."
+  },
+  "optionsTitle": {
+    "message": "Llocs conservats | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repositori de GitHub, s'obre en una pestanya nova"
+  },
+  "accessHeading": {
+    "message": "L'accés als llocs està desactivat"
+  },
+  "allowSiteAccess": {
+    "message": "Permet l'accés als llocs"
+  },
+  "accessHistorySiteData": {
+    "message": "Sense accés als llocs web, l'extensió no pot suprimir les galetes. L'historial i les dades dels llocs encara s'esborren."
+  },
+  "accessHistory": {
+    "message": "Sense accés als llocs web, l'extensió no pot suprimir les galetes. L'historial encara s'esborra."
+  },
+  "accessSiteData": {
+    "message": "Sense accés als llocs web, l'extensió no pot suprimir les galetes. Les dades dels llocs encara s'esborren."
+  },
+  "accessNothing": {
+    "message": "Sense accés als llocs web, l'extensió no pot suprimir les galetes, de manera que no s'esborra res."
+  },
+  "clearingOffHeading": {
+    "message": "L'esborrat està desactivat"
+  },
+  "clearingOffText": {
+    "message": "Encara no s'ha suprimit res. Afegiu els llocs on voleu mantenir la sessió iniciada i, després, activeu l'esborrat. A partir d'aleshores, cada vegada que s'iniciï el navegador, se suprimiran les dades de tots els altres llocs ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Activa l'esborrat"
+  },
+  "keptSitesHeading": {
+    "message": "Llocs conservats"
+  },
+  "intro": {
+    "message": "Aquests llocs i els seus subdominis conserven les seves dades ($DATA$), de manera que manteniu la sessió iniciada. Mentre l'esborrat estigui activat, tots els altres llocs les perden cada vegada que s'inicia el navegador.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Dominis de llocs web"
+  },
+  "keep": {
+    "message": "Conserva"
+  },
+  "siteHint": {
+    "message": "Separeu diversos llocs amb comes."
+  },
+  "noSites": {
+    "message": "Encara no es conserva cap lloc, de manera que un esborrat suprimeix les dades de tots els llocs ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Llocs conservats"
+  },
+  "clearingHeading": {
+    "message": "Esborrat"
+  },
+  "clearOnStartupLabel": {
+    "message": "Esborra automàticament quan s'iniciï el navegador"
+  },
+  "clearNow": {
+    "message": "Esborra ara"
+  },
+  "firstClearHint": {
+    "message": "El primer esborrat pot trigar uns quants minuts si el navegador conté moltes dades de navegació. Mentrestant, podeu continuar navegant."
+  },
+  "leftoversHeading": {
+    "message": "Dades de llocs restants"
+  },
+  "leftoversIntro": {
+    "message": "Un cop suprimits l'historial i les galetes d'un lloc, l'extensió ja no el troba, de manera que el seu emmagatzematge local, les bases de dades i la memòria cau es queden. «Esborra les restes» suprimeix les dades de tots els llocs que no conserveu, trobats o no, després d'un esborrat com «Esborra ara»."
+  },
+  "clearLeftovers": {
+    "message": "Esborra les restes"
+  },
+  "transferHeading": {
+    "message": "Importació i exportació"
+  },
+  "transferIntro": {
+    "message": "Deseu els llocs conservats en un fitxer de text o substituïu-los pels llocs d'un fitxer. Un fitxer pot tenir un lloc per línia o separar-los amb comes."
+  },
+  "export": {
+    "message": "Exporta"
+  },
+  "import": {
+    "message": "Importa"
+  },
+  "cancel": {
+    "message": "Cancel·la"
+  },
+  "dataAll": {
+    "message": "historial, galetes i dades dels llocs"
+  },
+  "dataNoHistory": {
+    "message": "galetes i dades dels llocs"
+  },
+  "dataNoSiteData": {
+    "message": "historial i galetes"
+  },
+  "dataCookies": {
+    "message": "galetes"
+  },
+  "remove": {
+    "message": "Suprimeix"
+  },
+  "removeSite": {
+    "message": "Suprimeix $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "S'ha suprimit $SITE$. Les seves dades ($DATA$) se suprimiran en el proper esborrat.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "No s'ha pogut suprimir el lloc."
+  },
+  "siteKept": {
+    "message": "Es conserva $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Es conserva $COUNT$ lloc.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Es conserven $COUNT$ llocs.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ ja es conserva.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ lloc ja es conserva.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ llocs ja es conserven.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ no és un domini vàlid.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Aquests no són dominis vàlids: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Introduïu un domini vàlid, com ara example.com."
+  },
+  "addSiteFailed": {
+    "message": "No s'ha pogut afegir el lloc."
+  },
+  "addSitesFailed": {
+    "message": "No s'han pogut afegir els llocs."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ ocupa més d'1 MB, de manera que els llocs conservats no han canviat.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ no té cap domini vàlid, de manera que els llocs conservats no han canviat.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Voleu substituir els llocs conservats?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ lloc",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ llocs",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Els llocs que conserveu ara ($CURRENT$) se substituiran pels llocs de $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ lloc deixarà de conservar-se i les seves dades ($DATA$) se suprimiran en el proper esborrat.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ llocs deixaran de conservar-se i les seves dades ($DATA$) se suprimiran en el proper esborrat.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Substitueix els llocs conservats"
+  },
+  "sitesImported_one": {
+    "message": "S'ha importat $COUNT$ lloc de $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "S'han importat $COUNT$ llocs de $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "No s'han pogut exportar els llocs conservats."
+  },
+  "importFailed": {
+    "message": "No s'han pogut importar els llocs conservats de $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Voleu activar l'esborrat?"
+  },
+  "turnOnKept": {
+    "message": "Cada vegada que s'iniciï el navegador, se suprimiran les dades ($DATA$) de tots els llocs excepte els que heu triat conservar. Es tancarà la sessió de tots els altres llocs.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "No heu triat cap lloc per conservar. Cada vegada que s'iniciï el navegador, se suprimiran totes les dades ($DATA$) i es tancarà la sessió de tots els llocs.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Les dades suprimides ($DATA$) no es poden recuperar.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Voleu esborrar-ho tot ara?"
+  },
+  "clearEverythingText": {
+    "message": "No heu triat cap lloc per conservar, de manera que ara se suprimiran les dades de tots els llocs ($DATA$) i es tancarà la sessió de tots els llocs.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Esborra-ho tot"
+  },
+  "leftoversTitle": {
+    "message": "Voleu esborrar les dades de llocs restants?"
+  },
+  "leftoversKept": {
+    "message": "Ara se suprimiran les dades ($DATA$) de tots els llocs que no conserveu, incloses les dades dels llocs que l'extensió ja no troba.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Un lloc conservat només conserva les seves dades a les adreces que l'extensió troba a l'historial, a les galetes i a les pestanyes obertes. Qualsevol altre subdomini o port d'un lloc conservat, com ara un que no heu visitat fa mesos o un servidor local en un altre port, perd les seves dades, i potser se us tancarà la sessió."
+  },
+  "clearing": {
+    "message": "S'està esborrant… Pot trigar uns minuts."
+  },
+  "leftoversFailed": {
+    "message": "No s'han pogut esborrar les dades de llocs restants."
+  },
+  "leftoversCleared": {
+    "message": "S'han esborrat les dades de llocs restants."
+  },
+  "nothingClearedYet": {
+    "message": "Encara no s'ha esborrat res."
+  },
+  "clearFailed": {
+    "message": "L'esborrat del $WHEN$ ha fallat.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ entrada de l'historial",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ entrades de l'historial",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ galeta",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ galetes",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "res"
+  },
+  "lastCleared": {
+    "message": "Últim esborrat: $WHEN$. Suprimit: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Últim esborrat: $WHEN$. Suprimit: $WHAT$, a més de les dades dels llocs i la memòria cau.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Últim esborrat: $WHEN$. Suprimit: $WHAT$, a més de les dades i la memòria cau de tots els llocs no conservats.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "S'han omès l'historial i les dades dels llocs perquè aquest navegador no permet que les extensions els esborrin."
+  },
+  "skippedHistory": {
+    "message": "S'ha omès l'historial perquè aquest navegador no permet que les extensions l'esborrin."
+  },
+  "skippedSiteData": {
+    "message": "S'han omès les dades dels llocs perquè aquest navegador no permet que les extensions les esborrin."
+  },
+  "cookiesSkipped": {
+    "message": "S'han omès les galetes perquè l'accés als llocs està desactivat."
+  },
+  "loadFailed": {
+    "message": "No s'ha pogut carregar la configuració."
+  }
+}

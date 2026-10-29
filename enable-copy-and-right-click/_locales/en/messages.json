@@ -1,0 +1,105 @@
+{
+  "extensionDescription": {
+    "message": "Enable copying, text selection, and right-click menus on restricted webpages.",
+    "description": "The extension's description in the browser's extension list and store."
+  },
+  "commandDescription": {
+    "message": "Enable copy and right click on the current page",
+    "description": "The keyboard shortcut's name in the browser's keyboard shortcuts settings."
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: Active",
+    "description": "Tooltip of the toolbar button on a tab where copying and right click are enabled. The extension's name stays in English.",
+    "placeholders": { "name": { "content": "$1", "example": "Enable Copy and Right Click" } }
+  },
+  "copyEnabled": {
+    "message": "Copy and right click enabled.",
+    "description": "What screen readers announce on the page once copying and right click are enabled."
+  },
+  "optionsTitle": {
+    "message": "Automatic Sites | $NAME$",
+    "description": "The settings page's title in the browser tab. The extension's name stays in English.",
+    "placeholders": { "name": { "content": "$1", "example": "Enable Copy and Right Click" } }
+  },
+  "githubLink": {
+    "message": "GitHub repository, opens in a new tab",
+    "description": "Accessible name of the GitHub link in the settings page's header."
+  },
+  "automaticSitesHeading": {
+    "message": "Automatic Sites",
+    "description": "Heading of the settings page."
+  },
+  "automaticSitesIntro": {
+    "message": "Automatically enable copying, text selection, and right click on the websites you add.",
+    "description": "Text under the settings page's heading."
+  },
+  "siteInputLabel": {
+    "message": "Website domain",
+    "description": "Accessible name of the field where a website's domain, such as example.com, is entered."
+  },
+  "addSite": {
+    "message": "Add Site",
+    "description": "Button that adds the entered website."
+  },
+  "noSites": {
+    "message": "No automatic sites added yet.",
+    "description": "Shown instead of the list when no website is added."
+  },
+  "siteListLabel": {
+    "message": "Automatic sites",
+    "description": "Accessible name of the list of added websites."
+  },
+  "remove": {
+    "message": "Remove",
+    "description": "Button next to a website that removes it from the list."
+  },
+  "removeSite": {
+    "message": "Remove $SITE$",
+    "description": "Accessible name of the Remove button next to a website.",
+    "placeholders": { "site": { "content": "$1", "example": "example.com" } }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (permission removed)",
+    "description": "A website in the list whose permission was taken back in the browser's settings.",
+    "placeholders": { "site": { "content": "$1", "example": "example.com" } }
+  },
+  "siteAdded": {
+    "message": "$SITE$ added.",
+    "description": "Status after a website is added.",
+    "placeholders": { "site": { "content": "$1", "example": "example.com" } }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ re-enabled.",
+    "description": "Status after a website in the list whose permission was removed is added again.",
+    "placeholders": { "site": { "content": "$1", "example": "example.com" } }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ removed.",
+    "description": "Status after a website is removed.",
+    "placeholders": { "site": { "content": "$1", "example": "example.com" } }
+  },
+  "siteAlreadyEnabled": {
+    "message": "This site is already enabled.",
+    "description": "Status when the entered website is already in the list."
+  },
+  "invalidDomain": {
+    "message": "Enter a valid domain, such as example.com.",
+    "description": "Error when the entered text is not a website's domain."
+  },
+  "permissionNotGranted": {
+    "message": "Site permission was not granted.",
+    "description": "Error when the browser's permission prompt for the website is declined."
+  },
+  "addFailed": {
+    "message": "The site could not be added.",
+    "description": "Error when adding a website fails."
+  },
+  "removeFailed": {
+    "message": "The site could not be removed.",
+    "description": "Error when removing a website fails."
+  },
+  "loadFailed": {
+    "message": "The site list could not be loaded.",
+    "description": "Error when the settings page cannot read the list of websites."
+  }
+}

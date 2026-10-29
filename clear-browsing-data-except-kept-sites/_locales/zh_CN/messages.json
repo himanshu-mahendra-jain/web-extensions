@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "浏览器启动时，清除除你保留的网站以外所有网站的历史记录、Cookie 和网站数据。"
+  },
+  "optionsTitle": {
+    "message": "保留的网站 | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub 代码库，在新标签页中打开"
+  },
+  "accessHeading": {
+    "message": "网站访问权限已关闭"
+  },
+  "allowSiteAccess": {
+    "message": "允许访问网站"
+  },
+  "accessHistorySiteData": {
+    "message": "没有网站访问权限，扩展程序无法删除 Cookie。历史记录和网站数据仍会被清除。"
+  },
+  "accessHistory": {
+    "message": "没有网站访问权限，扩展程序无法删除 Cookie。历史记录仍会被清除。"
+  },
+  "accessSiteData": {
+    "message": "没有网站访问权限，扩展程序无法删除 Cookie。网站数据仍会被清除。"
+  },
+  "accessNothing": {
+    "message": "没有网站访问权限，扩展程序无法删除 Cookie，因此不会清除任何内容。"
+  },
+  "clearingOffHeading": {
+    "message": "清除已关闭"
+  },
+  "clearingOffText": {
+    "message": "目前还不会删除任何内容。请添加你想保持登录的网站，然后开启清除。此后，每次浏览器启动时，其他所有网站的数据（$DATA$）都会被删除。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "开启清除"
+  },
+  "keptSitesHeading": {
+    "message": "保留的网站"
+  },
+  "intro": {
+    "message": "这些网站及其子域名会保留自己的数据（$DATA$），因此你会保持登录。清除开启期间，其他所有网站会在每次浏览器启动时丢失这些数据。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "网站域名"
+  },
+  "keep": {
+    "message": "保留"
+  },
+  "siteHint": {
+    "message": "用逗号分隔多个网站。"
+  },
+  "noSites": {
+    "message": "还没有保留任何网站，因此清除会删除所有网站的数据（$DATA$）。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "保留的网站"
+  },
+  "clearingHeading": {
+    "message": "清除"
+  },
+  "clearOnStartupLabel": {
+    "message": "浏览器启动时自动清除"
+  },
+  "clearNow": {
+    "message": "立即清除"
+  },
+  "firstClearHint": {
+    "message": "如果浏览器中有大量浏览数据，首次清除可能需要几分钟。在此期间你可以继续浏览。"
+  },
+  "leftoversHeading": {
+    "message": "残留的网站数据"
+  },
+  "leftoversIntro": {
+    "message": "网站的历史记录和 Cookie 被删除后，扩展程序就再也找不到该网站，因此它的本地存储、数据库和缓存会残留下来。在执行“立即清除”等清除之后，“清除残留”会删除所有未保留网站的网站数据，无论是否找到。"
+  },
+  "clearLeftovers": {
+    "message": "清除残留"
+  },
+  "transferHeading": {
+    "message": "导入和导出"
+  },
+  "transferIntro": {
+    "message": "将保留的网站保存到文本文件，或用某个文件中的网站替换它们。文件可以每行列出一个网站，也可以用逗号分隔。"
+  },
+  "export": {
+    "message": "导出"
+  },
+  "import": {
+    "message": "导入"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "dataAll": {
+    "message": "历史记录、Cookie 和网站数据"
+  },
+  "dataNoHistory": {
+    "message": "Cookie 和网站数据"
+  },
+  "dataNoSiteData": {
+    "message": "历史记录和 Cookie"
+  },
+  "dataCookies": {
+    "message": "Cookie"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "removeSite": {
+    "message": "移除 $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "已移除 $SITE$。它的数据（$DATA$）将在下次清除时删除。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "无法移除该网站。"
+  },
+  "siteKept": {
+    "message": "已保留 $SITE$。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "已保留 $COUNT$ 个网站。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "已保留 $COUNT$ 个网站。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ 已被保留。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ 个网站已被保留。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ 个网站已被保留。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ 不是有效的域名。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "以下不是有效的域名：$SITES$。",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "请输入有效的域名，例如 example.com。"
+  },
+  "addSiteFailed": {
+    "message": "无法添加该网站。"
+  },
+  "addSitesFailed": {
+    "message": "无法添加这些网站。"
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ 超过 1 MB，因此保留的网站没有更改。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ 中没有有效的域名，因此保留的网站没有更改。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "要替换保留的网站吗？"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ 个网站",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ 个网站",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "你当前保留的网站（$CURRENT$）将被替换为 $FILE$ 中的网站（$NEW$）。",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ 个网站将不再保留，其数据（$DATA$）将在下次清除时删除。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ 个网站将不再保留，其数据（$DATA$）将在下次清除时删除。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "替换保留的网站"
+  },
+  "sitesImported_one": {
+    "message": "已从 $FILE$ 导入 $COUNT$ 个网站。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "已从 $FILE$ 导入 $COUNT$ 个网站。",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "无法导出保留的网站。"
+  },
+  "importFailed": {
+    "message": "无法从 $FILE$ 导入保留的网站。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "要开启清除吗？"
+  },
+  "turnOnKept": {
+    "message": "每次浏览器启动时，除你选择保留的网站外，所有网站的数据（$DATA$）都会被删除。你将退出其他所有网站的登录。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "你没有选择要保留的网站。每次浏览器启动时，所有数据（$DATA$）都会被删除，你将退出所有网站的登录。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "已删除的数据（$DATA$）无法恢复。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "要立即清除所有内容吗？"
+  },
+  "clearEverythingText": {
+    "message": "你没有选择要保留的网站，因此现在会删除所有网站的数据（$DATA$），你将退出所有网站的登录。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "全部清除"
+  },
+  "leftoversTitle": {
+    "message": "要清除残留的网站数据吗？"
+  },
+  "leftoversKept": {
+    "message": "现在会删除所有未保留网站的数据（$DATA$），包括扩展程序已找不到的网站的数据。",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "保留的网站只会在扩展程序从历史记录、Cookie 和打开的标签页中找到的地址上保留网站数据。保留网站的其他任何子域名或端口（例如几个月未访问的子域名，或其他端口上的本地服务器）都会丢失网站数据，你可能会在那里退出登录。"
+  },
+  "clearing": {
+    "message": "正在清除… 可能需要几分钟。"
+  },
+  "leftoversFailed": {
+    "message": "清除残留的网站数据失败。"
+  },
+  "leftoversCleared": {
+    "message": "已清除残留的网站数据。"
+  },
+  "nothingClearedYet": {
+    "message": "尚未清除任何内容。"
+  },
+  "clearFailed": {
+    "message": "$WHEN$ 的清除失败。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ 条历史记录",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ 条历史记录",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ 个 Cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ 个 Cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "无"
+  },
+  "lastCleared": {
+    "message": "上次清除：$WHEN$。已删除：$WHAT$。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "上次清除：$WHEN$。已删除：$WHAT$，以及网站数据和缓存。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "上次清除：$WHEN$。已删除：$WHAT$，以及所有未保留网站的网站数据和缓存。",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "已跳过历史记录和网站数据，因为此浏览器不允许扩展程序清除它们。"
+  },
+  "skippedHistory": {
+    "message": "已跳过历史记录，因为此浏览器不允许扩展程序清除历史记录。"
+  },
+  "skippedSiteData": {
+    "message": "已跳过网站数据，因为此浏览器不允许扩展程序清除网站数据。"
+  },
+  "cookiesSkipped": {
+    "message": "已跳过 Cookie，因为网站访问权限已关闭。"
+  },
+  "loadFailed": {
+    "message": "无法加载设置。"
+  }
+}

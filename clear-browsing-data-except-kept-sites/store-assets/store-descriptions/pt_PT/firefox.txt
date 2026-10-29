@@ -1,0 +1,91 @@
+Limpa o histórico, os cookies e os dados de sites ao iniciar o navegador em todos os sites, exceto os que mantém.
+
+O Firefox para Android não permite que as extensões limpem o histórico, por isso aí só são limpos os cookies e os dados de sites.
+
+Clear Browsing Data Except Kept Sites é uma extensão leve e de código aberto que remove as entradas do histórico, os cookies e os dados de sites de todos os sites que não escolheu manter.
+
+Adicione nas definições os sites nos quais pretende manter a sessão iniciada e que quer lembrar, e depois ative a limpeza. Sempre que o navegador inicia, a extensão limpa o histórico e os cookies de todos os outros sites. Também pode limpar quando quiser com "Limpar agora".
+
+PRINCIPAIS FUNCIONALIDADES
+
+• Uma lista de sites cujo histórico e cookies nunca são limpos, que pode importar ou exportar como ficheiro de texto
+• Limpa o histórico e os cookies de todos os outros sites quando o navegador inicia, depois de a ativar
+• Limpa quando quiser com "Limpar agora" nas definições
+• Mantém automaticamente os subdomínios de um site mantido
+• Mantém os cookies do domínio principal de que um site mantido precisa para manter a sessão iniciada
+• Limpa cookies particionados (de terceiros) e cookies de contentores; os cookies particionados de um site mantido só são mantidos sob sites mantidos
+• Limpa o armazenamento local, o IndexedDB, os service workers e a cache dos sites não mantidos
+• Mostra o resultado da última limpeza nas definições
+• Avisa quando o acesso aos sites está desativado e os cookies não podem ser limpos
+• Sem análises nem rastreio
+• Sem código remoto nem pedidos de rede
+
+SITES MANTIDOS
+
+Abra as definições e adicione um domínio, por exemplo:
+
+example.com
+
+Para adicionar vários de uma vez, separe-os com vírgulas.
+
+"Exportar" guarda a lista num ficheiro de texto, um domínio por linha. "Importar" substitui a lista pelos sites de um ficheiro de texto e avisa antes se isso retirar sites que mantém agora.
+
+Um endereço como mail.example.com/inbox é reduzido ao seu domínio, e um www. inicial é retirado. localhost e endereços IPv4 como 192.168.1.1 também são aceites.
+
+Manter example.com mantém o histórico e os cookies de example.com e de todos os seus subdomínios. Manter mail.example.com também mantém os cookies de example.com, porque muitas vezes guardam a sessão do subdomínio.
+
+ABRIR AS DEFINIÇÕES
+
+As definições abrem automaticamente após a instalação, para que possa preencher a lista antes de ativar a limpeza. Depois, clique no ícone da extensão na barra de ferramentas. No Firefox para Android, toque em Clear Browsing Data Except Kept Sites no menu Extensões do navegador.
+
+Também pode abri-las a partir do gestor de extras:
+
+1. Abra o menu do Firefox e selecione Extras e temas.
+2. Procure Clear Browsing Data Except Kept Sites e clique no menu de três pontos ao lado.
+3. Selecione Preferências.
+
+LIMPEZA AO INICIAR
+
+A limpeza fica desativada após a instalação, por isso nada é removido até que o peça. As definições mostram o aviso "A limpeza está desativada" com um botão "Ativar limpeza". Ativá-la mostra primeiro um aviso: cada arranque elimina o histórico e os cookies de todos os sites, exceto os mantidos, e termina a sessão neles, ou em todos os sites quando nenhum é mantido.
+
+Depois de ativada, a limpeza é executada sempre que o navegador inicia, porque o navegador não deixa as extensões serem executadas quando fecha. Limpar ao iniciar remove o que a sessão anterior deixou. Desative-a ou volte a ativá-la com "Limpar automaticamente quando o navegador iniciar" nas definições.
+
+LIMPAR AGORA
+
+"Limpar agora" nas definições limpa de imediato. Quando nenhum site é mantido, mostra primeiro um aviso vermelho de que tudo será eliminado. As definições mostram quando foi a última limpeza e quantas entradas do histórico e cookies eliminou.
+
+ACESSO AOS SITES
+
+Os cookies só podem ser removidos nos sites a que a extensão tem acesso, por isso pede acesso a todos os sites. Se desativar o acesso aos sites, o histórico continua a ser limpo, mas os cookies são ignorados, e as definições mostram um botão "Permitir acesso aos sites".
+
+LIMITAÇÕES
+
+• Os separadores restaurados no arranque podem criar novos cookies enquanto a limpeza decorre. Esses cookies ficam até ao arranque seguinte ou até "Limpar agora".
+• O Firefox não consegue limpar dados de sites exceto os de sites escolhidos, por isso a extensão limpa o armazenamento local, o IndexedDB e os service workers de cada site não mantido que encontra no histórico, nos cookies e nos separadores abertos. Um site que não aparece em nenhum deles mantém os seus dados. Um site com um subdomínio mantido mantém os seus service workers, porque o Firefox limparia os do subdomínio com eles. A cache é limpa para todos os sites, porque o Firefox não a consegue limpar por site; isto não termina a sessão de ninguém.
+• O Firefox não consegue limpar por site o Cache Storage, os ficheiros offline que os service workers guardam, por isso não é limpo. Para remover o que a extensão não alcança, use Definições > Privacidade e segurança > Cookies e dados de sites > Gerir dados.
+• Se a sincronização do navegador incluir o histórico, as entradas removidas também podem ser removidas nos seus outros dispositivos.
+• As janelas privadas só são limpas quando a extensão tem permissão para ser executada nelas.
+
+PRIVACIDADE
+
+• Sem análises nem rastreio
+• Sem recolha de dados
+• Sem pedidos de rede
+• Sem código remoto
+• Sem JavaScript externo
+• O histórico e os cookies só são lidos para decidir o que remover, e só dentro do seu navegador
+• A lista e as definições são guardadas localmente no seu navegador
+
+DESEMPENHO
+
+A extensão não faz nada enquanto navega. É executada uma vez quando o navegador inicia, se a limpeza estiver ativada, e quando clica em "Limpar agora".
+
+A primeira limpeza de um histórico longo pode demorar alguns minutos, porque cada entrada do histórico é eliminada individualmente. Entretanto, pode continuar a navegar. As limpezas seguintes só removem as entradas da sessão anterior.
+
+CÓDIGO ABERTO
+
+O Clear Browsing Data Except Kept Sites é um projeto de código aberto sob a licença MIT.
+
+Consulte o código-fonte, reporte problemas ou colabore no GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

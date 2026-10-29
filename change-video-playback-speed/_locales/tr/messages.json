@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Video ve ses oynatma hızını 1x, 1,2x, 1,5x ve 2x arasında hızla değiştirin."
+  },
+  "commandDescription": {
+    "message": "Video oynatma hızını değiştir"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Oynatma hızı $SPEED$ kat",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Oynatma hızı: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "ब्राउज़र शुरू होने पर, आपकी रखी साइटों को छोड़कर सभी साइटों का इतिहास, कुकी और साइट डेटा साफ़ करता है."
+  },
+  "optionsTitle": {
+    "message": "रखी गई साइटें | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub रिपॉज़िटरी, नए टैब में खुलती है"
+  },
+  "accessHeading": {
+    "message": "साइट ऐक्सेस बंद है"
+  },
+  "allowSiteAccess": {
+    "message": "साइट ऐक्सेस की अनुमति दें"
+  },
+  "accessHistorySiteData": {
+    "message": "वेबसाइटों के ऐक्सेस के बिना, एक्सटेंशन कुकी नहीं मिटा सकता. इतिहास और साइट डेटा अब भी साफ़ होते हैं."
+  },
+  "accessHistory": {
+    "message": "वेबसाइटों के ऐक्सेस के बिना, एक्सटेंशन कुकी नहीं मिटा सकता. इतिहास अब भी साफ़ होता है."
+  },
+  "accessSiteData": {
+    "message": "वेबसाइटों के ऐक्सेस के बिना, एक्सटेंशन कुकी नहीं मिटा सकता. साइट डेटा अब भी साफ़ होता है."
+  },
+  "accessNothing": {
+    "message": "वेबसाइटों के ऐक्सेस के बिना, एक्सटेंशन कुकी नहीं मिटा सकता, इसलिए कुछ भी साफ़ नहीं होता."
+  },
+  "clearingOffHeading": {
+    "message": "साफ़ करना बंद है"
+  },
+  "clearingOffText": {
+    "message": "अभी कुछ भी नहीं मिटाया जाता. वे साइटें जोड़ें जिनमें आप साइन इन रहना चाहते हैं, फिर साफ़ करना चालू करें. उसके बाद, हर बार ब्राउज़र शुरू होने पर बाकी सभी साइटों का डेटा ($DATA$) मिटा दिया जाएगा.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "साफ़ करना चालू करें"
+  },
+  "keptSitesHeading": {
+    "message": "रखी गई साइटें"
+  },
+  "intro": {
+    "message": "ये साइटें और इनके सबडोमेन अपना डेटा ($DATA$) रखते हैं, इसलिए आप साइन इन रहते हैं. साफ़ करना चालू रहने तक, बाकी सभी साइटें हर बार ब्राउज़र शुरू होने पर इसे खो देती हैं.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "वेबसाइट डोमेन"
+  },
+  "keep": {
+    "message": "रखें"
+  },
+  "siteHint": {
+    "message": "कई साइटों को कॉमा से अलग करें."
+  },
+  "noSites": {
+    "message": "अभी कोई साइट नहीं रखी गई है, इसलिए साफ़ करने पर हर साइट का डेटा ($DATA$) मिट जाता है.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "रखी गई साइटें"
+  },
+  "clearingHeading": {
+    "message": "साफ़ करना"
+  },
+  "clearOnStartupLabel": {
+    "message": "ब्राउज़र शुरू होने पर अपने-आप साफ़ करें"
+  },
+  "clearNow": {
+    "message": "अभी साफ़ करें"
+  },
+  "firstClearHint": {
+    "message": "अगर ब्राउज़र में बहुत ज़्यादा ब्राउज़िंग डेटा है, तो पहली बार साफ़ करने में कई मिनट लग सकते हैं. इस बीच आप ब्राउज़ करना जारी रख सकते हैं."
+  },
+  "leftoversHeading": {
+    "message": "बचा हुआ साइट डेटा"
+  },
+  "leftoversIntro": {
+    "message": "किसी साइट का इतिहास और कुकी मिटने के बाद, एक्सटेंशन उसे नहीं ढूंढ पाता, इसलिए उसका लोकल स्टोरेज, डेटाबेस और कैश बचे रहते हैं. ‘बचा हुआ साफ़ करें’, ‘अभी साफ़ करें’ जैसी सफ़ाई के बाद, उन सभी साइटों का साइट डेटा मिटाता है जिन्हें आप नहीं रखते, चाहे वे मिली हों या नहीं."
+  },
+  "clearLeftovers": {
+    "message": "बचा हुआ साफ़ करें"
+  },
+  "transferHeading": {
+    "message": "इंपोर्ट और एक्सपोर्ट"
+  },
+  "transferIntro": {
+    "message": "अपनी रखी गई साइटें किसी टेक्स्ट फ़ाइल में सेव करें, या उन्हें किसी फ़ाइल की साइटों से बदलें. फ़ाइल में हर लाइन पर एक साइट हो सकती है या साइटें कॉमा से अलग हो सकती हैं."
+  },
+  "export": {
+    "message": "एक्सपोर्ट करें"
+  },
+  "import": {
+    "message": "इंपोर्ट करें"
+  },
+  "cancel": {
+    "message": "रद्द करें"
+  },
+  "dataAll": {
+    "message": "इतिहास, कुकी और साइट डेटा"
+  },
+  "dataNoHistory": {
+    "message": "कुकी और साइट डेटा"
+  },
+  "dataNoSiteData": {
+    "message": "इतिहास और कुकी"
+  },
+  "dataCookies": {
+    "message": "कुकी"
+  },
+  "remove": {
+    "message": "हटाएं"
+  },
+  "removeSite": {
+    "message": "$SITE$ हटाएं",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ हटा दी गई. इसका डेटा ($DATA$) अगली सफ़ाई में मिटा दिया जाएगा.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "साइट हटाई नहीं जा सकी."
+  },
+  "siteKept": {
+    "message": "$SITE$ रखी गई है.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ साइट रखी गई है.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ साइटें रखी गई हैं.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ पहले से रखी गई है.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ साइट पहले से रखी गई है.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ साइटें पहले से रखी गई हैं.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ मान्य डोमेन नहीं है.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "ये मान्य डोमेन नहीं हैं: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "कोई मान्य डोमेन डालें, जैसे example.com."
+  },
+  "addSiteFailed": {
+    "message": "साइट जोड़ी नहीं जा सकी."
+  },
+  "addSitesFailed": {
+    "message": "साइटें जोड़ी नहीं जा सकीं."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ 1 MB से बड़ी है, इसलिए रखी गई साइटें नहीं बदलीं.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ में कोई मान्य डोमेन नहीं है, इसलिए रखी गई साइटें नहीं बदलीं.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "रखी गई साइटें बदलें?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ साइट",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ साइटें",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "अभी रखी गई साइटें ($CURRENT$) $FILE$ की साइटों ($NEW$) से बदल दी जाएंगी.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ साइट अब नहीं रखी जाएगी, और उसका डेटा ($DATA$) अगली सफ़ाई में मिटा दिया जाएगा.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ साइटें अब नहीं रखी जाएंगी, और उनका डेटा ($DATA$) अगली सफ़ाई में मिटा दिया जाएगा.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "रखी गई साइटें बदलें"
+  },
+  "sitesImported_one": {
+    "message": "$FILE$ से $COUNT$ साइट इंपोर्ट की गई.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$FILE$ से $COUNT$ साइटें इंपोर्ट की गईं.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "रखी गई साइटें एक्सपोर्ट नहीं की जा सकीं."
+  },
+  "importFailed": {
+    "message": "$FILE$ से रखी गई साइटें इंपोर्ट नहीं की जा सकीं.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "साफ़ करना चालू करें?"
+  },
+  "turnOnKept": {
+    "message": "हर बार ब्राउज़र शुरू होने पर, आपकी रखने के लिए चुनी गई साइटों को छोड़कर हर साइट का डेटा ($DATA$) मिटा दिया जाएगा. आप बाकी सभी साइटों से साइन आउट हो जाएंगे.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "आपने रखने के लिए कोई साइट नहीं चुनी है. हर बार ब्राउज़र शुरू होने पर, सारा डेटा ($DATA$) मिटा दिया जाएगा, और आप हर साइट से साइन आउट हो जाएंगे.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "मिटाया गया डेटा ($DATA$) वापस नहीं पाया जा सकता.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "अभी सब कुछ साफ़ करें?"
+  },
+  "clearEverythingText": {
+    "message": "आपने रखने के लिए कोई साइट नहीं चुनी है, इसलिए अब हर साइट का डेटा ($DATA$) मिटा दिया जाएगा, और आप हर साइट से साइन आउट हो जाएंगे.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "सब कुछ साफ़ करें"
+  },
+  "leftoversTitle": {
+    "message": "बचा हुआ साइट डेटा साफ़ करें?"
+  },
+  "leftoversKept": {
+    "message": "आप जिन साइटों को नहीं रखते, उन सभी का डेटा ($DATA$) अब मिटा दिया जाएगा, जिसमें उन साइटों का साइट डेटा भी शामिल है जिन्हें एक्सटेंशन अब नहीं ढूंढ पाता.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "रखी गई साइट अपना साइट डेटा सिर्फ़ उन पतों पर रखती है जो एक्सटेंशन को इतिहास, कुकी और खुले टैब में मिलते हैं. रखी गई साइट का कोई भी दूसरा सबडोमेन या पोर्ट, जैसे कोई सबडोमेन जिस पर आप महीनों से नहीं गए या किसी दूसरे पोर्ट पर चल रहा लोकल सर्वर, अपना साइट डेटा खो देता है, और आप वहां से साइन आउट हो सकते हैं."
+  },
+  "clearing": {
+    "message": "साफ़ किया जा रहा है… इसमें कुछ मिनट लग सकते हैं."
+  },
+  "leftoversFailed": {
+    "message": "बचा हुआ साइट डेटा साफ़ नहीं हो सका."
+  },
+  "leftoversCleared": {
+    "message": "बचा हुआ साइट डेटा साफ़ कर दिया गया."
+  },
+  "nothingClearedYet": {
+    "message": "अभी तक कुछ भी साफ़ नहीं किया गया है."
+  },
+  "clearFailed": {
+    "message": "$WHEN$ को साफ़ करना विफल रहा.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "इतिहास की $COUNT$ एंट्री",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "इतिहास की $COUNT$ एंट्री",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ कुकी",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ कुकी",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "कुछ नहीं"
+  },
+  "lastCleared": {
+    "message": "पिछली बार साफ़ किया गया: $WHEN$. मिटाया गया: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "पिछली बार साफ़ किया गया: $WHEN$. मिटाया गया: $WHAT$, साथ में साइट डेटा और कैश.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "पिछली बार साफ़ किया गया: $WHEN$. मिटाया गया: $WHAT$, साथ में न रखी गई हर साइट का साइट डेटा और कैश.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "इतिहास और साइट डेटा छोड़ दिए गए, क्योंकि यह ब्राउज़र एक्सटेंशन को इन्हें साफ़ करने नहीं देता."
+  },
+  "skippedHistory": {
+    "message": "इतिहास छोड़ दिया गया, क्योंकि यह ब्राउज़र एक्सटेंशन को इसे साफ़ करने नहीं देता."
+  },
+  "skippedSiteData": {
+    "message": "साइट डेटा छोड़ दिया गया, क्योंकि यह ब्राउज़र एक्सटेंशन को इसे साफ़ करने नहीं देता."
+  },
+  "cookiesSkipped": {
+    "message": "कुकी छोड़ दी गईं, क्योंकि साइट ऐक्सेस बंद है."
+  },
+  "loadFailed": {
+    "message": "सेटिंग लोड नहीं की जा सकीं."
+  }
+}

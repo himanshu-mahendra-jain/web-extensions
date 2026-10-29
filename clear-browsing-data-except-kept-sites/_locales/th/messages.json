@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "ล้างประวัติ คุกกี้ และข้อมูลเว็บไซต์เมื่อเบราว์เซอร์เริ่มทำงาน สำหรับทุกเว็บไซต์ยกเว้นเว็บไซต์ที่คุณเก็บไว้"
+  },
+  "optionsTitle": {
+    "message": "เว็บไซต์ที่เก็บไว้ | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "ที่เก็บ GitHub เปิดในแท็บใหม่"
+  },
+  "accessHeading": {
+    "message": "การเข้าถึงเว็บไซต์ปิดอยู่"
+  },
+  "allowSiteAccess": {
+    "message": "อนุญาตการเข้าถึงเว็บไซต์"
+  },
+  "accessHistorySiteData": {
+    "message": "หากไม่มีสิทธิ์เข้าถึงเว็บไซต์ ส่วนขยายจะลบคุกกี้ไม่ได้ ประวัติและข้อมูลเว็บไซต์ยังคงถูกล้าง"
+  },
+  "accessHistory": {
+    "message": "หากไม่มีสิทธิ์เข้าถึงเว็บไซต์ ส่วนขยายจะลบคุกกี้ไม่ได้ ประวัติยังคงถูกล้าง"
+  },
+  "accessSiteData": {
+    "message": "หากไม่มีสิทธิ์เข้าถึงเว็บไซต์ ส่วนขยายจะลบคุกกี้ไม่ได้ ข้อมูลเว็บไซต์ยังคงถูกล้าง"
+  },
+  "accessNothing": {
+    "message": "หากไม่มีสิทธิ์เข้าถึงเว็บไซต์ ส่วนขยายจะลบคุกกี้ไม่ได้ จึงไม่มีสิ่งใดถูกล้าง"
+  },
+  "clearingOffHeading": {
+    "message": "การล้างปิดอยู่"
+  },
+  "clearingOffText": {
+    "message": "ยังไม่มีสิ่งใดถูกลบ เพิ่มเว็บไซต์ที่คุณต้องการลงชื่อเข้าใช้ค้างไว้ แล้วเปิดการล้าง จากนั้นทุกครั้งที่เบราว์เซอร์เริ่มทำงาน ข้อมูล ($DATA$) ของเว็บไซต์อื่นทั้งหมดจะถูกลบ",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "เปิดการล้าง"
+  },
+  "keptSitesHeading": {
+    "message": "เว็บไซต์ที่เก็บไว้"
+  },
+  "intro": {
+    "message": "เว็บไซต์เหล่านี้และโดเมนย่อยจะเก็บข้อมูลของตน ($DATA$) ไว้ คุณจึงยังลงชื่อเข้าใช้อยู่ ขณะที่การล้างเปิดอยู่ เว็บไซต์อื่นทั้งหมดจะสูญเสียข้อมูลนี้ทุกครั้งที่เบราว์เซอร์เริ่มทำงาน",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "โดเมนของเว็บไซต์"
+  },
+  "keep": {
+    "message": "เก็บไว้"
+  },
+  "siteHint": {
+    "message": "คั่นหลายเว็บไซต์ด้วยเครื่องหมายจุลภาค"
+  },
+  "noSites": {
+    "message": "ยังไม่มีเว็บไซต์ที่เก็บไว้ การล้างจึงลบข้อมูล ($DATA$) ของทุกเว็บไซต์",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "เว็บไซต์ที่เก็บไว้"
+  },
+  "clearingHeading": {
+    "message": "การล้าง"
+  },
+  "clearOnStartupLabel": {
+    "message": "ล้างโดยอัตโนมัติเมื่อเบราว์เซอร์เริ่มทำงาน"
+  },
+  "clearNow": {
+    "message": "ล้างเลย"
+  },
+  "firstClearHint": {
+    "message": "การล้างครั้งแรกอาจใช้เวลาหลายนาทีหากเบราว์เซอร์มีข้อมูลการท่องเว็บจำนวนมาก ระหว่างนี้คุณท่องเว็บต่อได้"
+  },
+  "leftoversHeading": {
+    "message": "ข้อมูลเว็บไซต์ที่เหลืออยู่"
+  },
+  "leftoversIntro": {
+    "message": "เมื่อประวัติและคุกกี้ของเว็บไซต์ถูกลบแล้ว ส่วนขยายจะหาเว็บไซต์นั้นไม่พบอีก พื้นที่เก็บข้อมูลในเครื่อง ฐานข้อมูล และแคชของเว็บไซต์จึงยังคงอยู่ \"ล้างส่วนที่เหลือ\" จะลบข้อมูลเว็บไซต์ของทุกเว็บไซต์ที่คุณไม่ได้เก็บไว้ ไม่ว่าจะพบหรือไม่ หลังการล้างอย่าง \"ล้างเลย\""
+  },
+  "clearLeftovers": {
+    "message": "ล้างส่วนที่เหลือ"
+  },
+  "transferHeading": {
+    "message": "นำเข้าและส่งออก"
+  },
+  "transferIntro": {
+    "message": "บันทึกเว็บไซต์ที่เก็บไว้ลงในไฟล์ข้อความ หรือแทนที่ด้วยเว็บไซต์จากไฟล์ ไฟล์อาจมีหนึ่งเว็บไซต์ต่อบรรทัดหรือคั่นด้วยเครื่องหมายจุลภาค"
+  },
+  "export": {
+    "message": "ส่งออก"
+  },
+  "import": {
+    "message": "นำเข้า"
+  },
+  "cancel": {
+    "message": "ยกเลิก"
+  },
+  "dataAll": {
+    "message": "ประวัติ คุกกี้ และข้อมูลเว็บไซต์"
+  },
+  "dataNoHistory": {
+    "message": "คุกกี้และข้อมูลเว็บไซต์"
+  },
+  "dataNoSiteData": {
+    "message": "ประวัติและคุกกี้"
+  },
+  "dataCookies": {
+    "message": "คุกกี้"
+  },
+  "remove": {
+    "message": "นำออก"
+  },
+  "removeSite": {
+    "message": "นำ $SITE$ ออก",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "นำ $SITE$ ออกแล้ว ข้อมูลของเว็บไซต์นี้ ($DATA$) จะถูกลบในการล้างครั้งถัดไป",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "นำเว็บไซต์ออกไม่ได้"
+  },
+  "siteKept": {
+    "message": "เก็บ $SITE$ ไว้แล้ว",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "เก็บ $COUNT$ เว็บไซต์ไว้แล้ว",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "เก็บ $COUNT$ เว็บไซต์ไว้แล้ว",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ ถูกเก็บไว้อยู่แล้ว",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ เว็บไซต์ถูกเก็บไว้อยู่แล้ว",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ เว็บไซต์ถูกเก็บไว้อยู่แล้ว",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ ไม่ใช่โดเมนที่ถูกต้อง",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "โดเมนเหล่านี้ไม่ถูกต้อง: $SITES$",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "ป้อนโดเมนที่ถูกต้อง เช่น example.com"
+  },
+  "addSiteFailed": {
+    "message": "เพิ่มเว็บไซต์ไม่ได้"
+  },
+  "addSitesFailed": {
+    "message": "เพิ่มเว็บไซต์ไม่ได้"
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ มีขนาดเกิน 1 MB เว็บไซต์ที่เก็บไว้จึงไม่เปลี่ยนแปลง",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ ไม่มีโดเมนที่ถูกต้อง เว็บไซต์ที่เก็บไว้จึงไม่เปลี่ยนแปลง",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "แทนที่เว็บไซต์ที่เก็บไว้ไหม"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ เว็บไซต์",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ เว็บไซต์",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "เว็บไซต์ที่คุณเก็บไว้ตอนนี้ ($CURRENT$) จะถูกแทนที่ด้วยเว็บไซต์ใน $FILE$ ($NEW$)",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ เว็บไซต์จะไม่ถูกเก็บไว้อีก และข้อมูล ($DATA$) จะถูกลบในการล้างครั้งถัดไป",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ เว็บไซต์จะไม่ถูกเก็บไว้อีก และข้อมูล ($DATA$) จะถูกลบในการล้างครั้งถัดไป",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "แทนที่เว็บไซต์ที่เก็บไว้"
+  },
+  "sitesImported_one": {
+    "message": "นำเข้า $COUNT$ เว็บไซต์จาก $FILE$ แล้ว",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "นำเข้า $COUNT$ เว็บไซต์จาก $FILE$ แล้ว",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "ส่งออกเว็บไซต์ที่เก็บไว้ไม่ได้"
+  },
+  "importFailed": {
+    "message": "นำเข้าเว็บไซต์ที่เก็บไว้จาก $FILE$ ไม่ได้",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "เปิดการล้างไหม"
+  },
+  "turnOnKept": {
+    "message": "ทุกครั้งที่เบราว์เซอร์เริ่มทำงาน ข้อมูล ($DATA$) ของทุกเว็บไซต์จะถูกลบ ยกเว้นเว็บไซต์ที่คุณเลือกเก็บไว้ คุณจะออกจากระบบของเว็บไซต์อื่นทั้งหมด",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "คุณยังไม่ได้เลือกเว็บไซต์ที่จะเก็บไว้ ทุกครั้งที่เบราว์เซอร์เริ่มทำงาน ข้อมูลทั้งหมด ($DATA$) จะถูกลบ และคุณจะออกจากระบบของทุกเว็บไซต์",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "ข้อมูลที่ลบแล้ว ($DATA$) จะกู้คืนไม่ได้",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "ล้างทั้งหมดตอนนี้ไหม"
+  },
+  "clearEverythingText": {
+    "message": "คุณยังไม่ได้เลือกเว็บไซต์ที่จะเก็บไว้ ข้อมูล ($DATA$) ของทุกเว็บไซต์จึงจะถูกลบตอนนี้ และคุณจะออกจากระบบของทุกเว็บไซต์",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "ล้างทั้งหมด"
+  },
+  "leftoversTitle": {
+    "message": "ล้างข้อมูลเว็บไซต์ที่เหลืออยู่ไหม"
+  },
+  "leftoversKept": {
+    "message": "ข้อมูล ($DATA$) ของทุกเว็บไซต์ที่คุณไม่ได้เก็บไว้จะถูกลบตอนนี้ รวมถึงข้อมูลเว็บไซต์ของเว็บไซต์ที่ส่วนขยายหาไม่พบแล้ว",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "เว็บไซต์ที่เก็บไว้จะเก็บข้อมูลเว็บไซต์ไว้เฉพาะที่อยู่ที่ส่วนขยายพบในประวัติ คุกกี้ และแท็บที่เปิดอยู่ โดเมนย่อยหรือพอร์ตอื่นๆ ของเว็บไซต์ที่เก็บไว้ เช่น โดเมนย่อยที่คุณไม่ได้เข้าชมมาหลายเดือน หรือเซิร์ฟเวอร์ในเครื่องที่พอร์ตอื่น จะสูญเสียข้อมูลเว็บไซต์ และคุณอาจออกจากระบบของที่นั่น"
+  },
+  "clearing": {
+    "message": "กำลังล้าง… อาจใช้เวลาสักครู่"
+  },
+  "leftoversFailed": {
+    "message": "ล้างข้อมูลเว็บไซต์ที่เหลืออยู่ไม่สำเร็จ"
+  },
+  "leftoversCleared": {
+    "message": "ล้างข้อมูลเว็บไซต์ที่เหลืออยู่แล้ว"
+  },
+  "nothingClearedYet": {
+    "message": "ยังไม่มีการล้างใดๆ"
+  },
+  "clearFailed": {
+    "message": "การล้างเมื่อ $WHEN$ ไม่สำเร็จ",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "รายการประวัติ $COUNT$ รายการ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "รายการประวัติ $COUNT$ รายการ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "คุกกี้ $COUNT$ รายการ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "คุกกี้ $COUNT$ รายการ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "ไม่มี"
+  },
+  "lastCleared": {
+    "message": "ล้างล่าสุด: $WHEN$ ลบแล้ว: $WHAT$",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "ล้างล่าสุด: $WHEN$ ลบแล้ว: $WHAT$ พร้อมข้อมูลเว็บไซต์และแคช",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "ล้างล่าสุด: $WHEN$ ลบแล้ว: $WHAT$ พร้อมข้อมูลเว็บไซต์และแคชของทุกเว็บไซต์ที่ไม่ได้เก็บไว้",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "ข้ามประวัติและข้อมูลเว็บไซต์ เนื่องจากเบราว์เซอร์นี้ไม่อนุญาตให้ส่วนขยายล้างข้อมูลเหล่านี้"
+  },
+  "skippedHistory": {
+    "message": "ข้ามประวัติ เนื่องจากเบราว์เซอร์นี้ไม่อนุญาตให้ส่วนขยายล้างประวัติ"
+  },
+  "skippedSiteData": {
+    "message": "ข้ามข้อมูลเว็บไซต์ เนื่องจากเบราว์เซอร์นี้ไม่อนุญาตให้ส่วนขยายล้างข้อมูลนี้"
+  },
+  "cookiesSkipped": {
+    "message": "ข้ามคุกกี้ เนื่องจากการเข้าถึงเว็บไซต์ปิดอยู่"
+  },
+  "loadFailed": {
+    "message": "โหลดการตั้งค่าไม่ได้"
+  }
+}

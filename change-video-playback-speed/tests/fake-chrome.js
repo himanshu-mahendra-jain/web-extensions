@@ -20,7 +20,7 @@ export function openHarness(page, options = {}) {
 /*
  * Runs in the page. Every tab has one video at playbackRate in its top
  * frame; executeScript returns that for the extension's media check and
- * records every call on window.fake.
+ * records every call on window.fake. i18n answers in English.
  */
 function installFakeChrome({
   activeTabs = [],
@@ -29,7 +29,7 @@ function installFakeChrome({
   noCommands = false,
   firefox = false
 }) {
-  const { listeners, recordingAction, recordingQuery, expose } = window.fakeKit;
+  const { listeners, recordingAction, recordingQuery, expose, i18n } = window.fakeKit;
 
   const fake = {
     activeTabs,
@@ -54,6 +54,12 @@ function installFakeChrome({
     tabs: {
       query: recordingQuery(fake)
     },
+
+    runtime: {
+      getManifest: () => ({ name: "Change Video Playback Speed" })
+    },
+
+    i18n,
 
     scripting: {
       executeScript: async ({ target, func, args }) => {

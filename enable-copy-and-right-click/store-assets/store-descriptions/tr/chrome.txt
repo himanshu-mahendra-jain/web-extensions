@@ -1,0 +1,80 @@
+Kısıtlayan web sayfalarında kopyalamayı, metin seçmeyi ve sağ tık menülerini etkinleştirin.
+
+Enable Copy and Right Click, kopyalamayı, metin seçmeyi ve sağ tıklamayı kısıtlayan web sayfalarında bunların normal davranışını geri getiren hafif ve açık kaynaklı bir uzantıdır.
+
+Geçerli sekmede kopyalamayı ve sağ tıklamayı etkinleştirmek için araç çubuğundaki uzantı simgesine tıklayın veya klavye kısayolunu kullanın.
+
+İpucu: Uzantı simgesinin araç çubuğunda her zaman görünmesi için Chrome Uzantılar menüsünden (yapboz parçası simgesi) uzantıyı sabitleyin.
+
+Güvendiğiniz web sitelerini Otomatik Siteler listesine de ekleyebilirsiniz. Uzantı bu siteleri her ziyaret ettiğinizde kopyalamayı ve sağ tıklamayı otomatik olarak etkinleştirir.
+
+TEMEL ÖZELLİKLER
+
+• Kısıtlanmış web sayfalarında kopyalamayı ve metin seçmeyi etkinleştirir
+• Sağ tık bağlam menülerini etkinleştirir
+• Kopyalama, kesme, yapıştırma, metin seçme ve sürüklemeyi etkinleştirir
+• Araç çubuğundan tek tıkla etkinleştirme
+• Hızlı etkinleştirme için klavye kısayolu
+• Seçtiğiniz sitelerde otomatik etkinleştirme
+• Tarayıcı izinlerinin el verdiği erişilebilir iframe'lerde de çalışır
+• Elle etkinleştirdikten sonra ON rozeti gösterir
+• Açılır menü yok
+• Analiz veya izleme yok
+• Uzak kod veya ağ isteği yok
+
+VARSAYILAN KLAVYE KISAYOLLARI
+
+• Windows, Linux, ChromeOS, GooglebookOS ve Android: Alt+C
+• macOS: Command+Shift+Y
+
+Klavye kısayolu, uzantı simgesine tıklamakla aynı işi yapar.
+
+KLAVYE KISAYOLUNU DEĞİŞTİRME
+
+1. Chrome menüsünü açın ve Uzantılar → Uzantıları Yönet'i seçin.
+2. Kenar çubuğunda Klavye kısayolları'nı seçin.
+3. Enable Copy and Right Click'i bulun ve tercih ettiğiniz kısayolu girin.
+
+OTOMATİK SİTELER
+
+Uzantının seçenekler sayfasını açın ve şunun gibi bir alan adı ekleyin:
+
+example.com
+
+Uzantı yalnızca eklediğiniz web sitesi için izin ister. İzin verildikten sonra o sitede kopyalama, metin seçme ve sağ tıklama otomatik olarak etkinleşir.
+
+Otomatik bir siteyi seçenekler sayfasından istediğiniz zaman kaldırabilirsiniz.
+
+SEÇENEKLER SAYFASINI AÇMA
+
+1. Araç çubuğundaki uzantı simgesine sağ tıklayın.
+2. Seçenekler'i seçin.
+
+GİZLİLİK
+
+• Analiz veya izleme yok
+• Veri toplama yok
+• Tarama geçmişi toplama yok
+• Ağ isteği yok
+• Uzak kod yok
+• Harici JavaScript yok
+• Otomatik site tercihleri tarayıcınızda yerel olarak saklanır
+• Site izinleri yalnızca bir siteyi kendiniz eklediğinizde istenir
+
+Kopyalama ve sağ tıklamanın geri getirilmesinin tamamı tarayıcınızda yerel olarak gerçekleşir.
+
+PERFORMANS
+
+Uzantı hafiftir ve olay odaklı çalışır.
+
+Boştayken arka planda sürekli bir iş yapmaz. Elle etkinleştirme yalnızca araç çubuğu simgesine tıkladığınızda veya klavye kısayolunu kullandığınızda çalışır. Otomatik etkinleştirme yalnızca kendiniz eklediğiniz web sitelerinde çalışır.
+
+Yoklama, arka planda ağ etkinliği, analiz SDK'sı, uzaktan yapılandırma veya sayfaları sürekli izleyen bir döngü yoktur.
+
+AÇIK KAYNAK
+
+Enable Copy and Right Click, MIT Lisansı altında sunulan açık kaynaklı bir projedir.
+
+Kaynak kodunu incelemek, sorun bildirmek veya katkıda bulunmak için GitHub'ı ziyaret edin:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

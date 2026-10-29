@@ -1,0 +1,42 @@
+Lukk gjeldande fane med eit trefingertrykk, eit midtklikk eller eit klikk på verktøylinja.
+
+Three Finger Tap to Close Tab er ei lett utviding med open kjeldekode som gjev ein rask og enkel måte å lukke gjeldande nettlesarfane på.
+
+Trykk med tre fingrar eller midtklikk kvar som helst på ei nettside utanfor lenker og redigerbare felt for å lukke gjeldande fane. Du kan òg klikke på ikonet til utvidinga på verktøylinja.
+
+I Firefox for Android trykkjer du på Three Finger Tap to Close Tab i Utvidingar-menyen til nettlesaren for å lukke gjeldande fane. Eit trykk på skjermen er ikkje eit midtklikk, så eit trykk på ei nettside lukkar aldri fana.
+
+Midtklikk på lenker og feedkort held på den vanlege åtferda til nettlesaren, så du kan framleis opne lenker og innlegg i nye faner som før. Ein innebygd tryggleiksavstand hindrar at fana vert lukka ved eit uhell om du trykkjer like ved ei lenke eller ein kontroll.
+
+VIKTIGASTE FUNKSJONAR
+
+• Lukk gjeldande fane med eit trefingertrykk
+• Lukk gjeldande fane med eit midtklikk
+• Lukk gjeldande fane med eit klikk på verktøylinja
+• Held på vanleg midtklikk på lenker, knappar og feedkort
+• Tryggleiksavstand hindrar utilsikta lukking nær interaktive element
+• Lukkar ikkje faner medan du brukar skjema og redigerbare felt
+• Ingen sprettoppmenyar eller innstillingar
+
+OPPSETT AV STYREFLATE
+
+Styreflata og operativsystemet må vere sett opp slik at eit trefingertrykk gjev eit midtklikk.
+
+Deretter trykkjer du med tre fingrar på ei nettside utanfor lenker og interaktivt innhald for å lukke gjeldande fane.
+
+PERSONVERN
+
+• Ingen analyse eller sporing
+• Ingen innsamling av data eller nettlesarlogg
+• Ingen nettverksførespurnader
+• Ingen lagra nettlesaraktivitet eller innstillingar
+
+All lukking av faner skjer lokalt i nettlesaren din.
+
+OPEN KJELDEKODE
+
+Three Finger Tap to Close Tab har open kjeldekode og er lisensiert under MIT-lisensen.
+
+Sjå kjeldekoden, rapporter problem eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

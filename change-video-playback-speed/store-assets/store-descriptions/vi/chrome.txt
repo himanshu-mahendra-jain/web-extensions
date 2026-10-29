@@ -1,0 +1,47 @@
+Đổi tốc độ phát video và âm thanh chỉ với một cú nhấp hoặc phím tắt.
+
+Change Video Playback Speed là tiện ích mở rộng nhẹ, mã nguồn mở, luân phiên giữa bốn tốc độ phát hữu ích:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Nhấp vào biểu tượng tiện ích hoặc dùng phím tắt để chuyển sang tốc độ tiếp theo. Tốc độ đã chọn được áp dụng cho video và âm thanh trên trang, kể cả các trình phát nhúng được hỗ trợ.
+
+Mẹo: Hãy ghim tiện ích trong menu Tiện ích của Chrome (biểu tượng mảnh ghép) để luôn thấy biểu tượng trên thanh công cụ.
+
+Tốc độ hiện tại hiện ngắn trên trang và trên huy hiệu ở thanh công cụ.
+
+TÍNH NĂNG CHÍNH
+
+• Điều khiển bằng một cú nhấp và phím tắt
+• Hỗ trợ video và âm thanh
+• Hỗ trợ các trình phát nhúng tương thích
+• Huy hiệu tốc độ trên thanh công cụ và chỉ báo trên trang, hiển thị cả khi toàn màn hình
+• Không có menu bật lên, nút điều khiển nổi hay cài đặt
+
+PHÍM TẮT MẶC ĐỊNH
+
+• Windows, Linux, ChromeOS, GooglebookOS và Android: Alt+S
+• macOS: Command+Shift+Period
+
+ĐỔI PHÍM TẮT
+
+1. Mở menu Chrome rồi chọn Tiện ích → Quản lý tiện ích.
+2. Chọn Phím tắt ở thanh bên.
+3. Tìm Change Video Playback Speed rồi nhập phím tắt bạn muốn.
+
+QUYỀN RIÊNG TƯ
+
+• Không phân tích hay theo dõi
+• Không thu thập dữ liệu hay lịch sử duyệt web
+• Không gửi yêu cầu mạng
+• Không có quyền truy cập cố định vào trang web
+
+Mọi thay đổi tốc độ đều diễn ra cục bộ trong trình duyệt của bạn.
+
+MÃ NGUỒN MỞ
+
+Change Video Playback Speed là dự án mã nguồn mở phát hành theo giấy phép MIT.
+
+Xem mã nguồn, báo cáo sự cố hoặc đóng góp trên GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

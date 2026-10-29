@@ -31,7 +31,7 @@ function installFakeChrome({
   noCommands = false,
   firefox = false
 }) {
-  const { listeners, storageArea, recordingAction, recordingQuery, expose } = window.fakeKit;
+  const { listeners, storageArea, recordingAction, recordingQuery, expose, i18n } = window.fakeKit;
 
   const fake = {
     activeTabs,
@@ -77,6 +77,7 @@ function installFakeChrome({
     },
 
     runtime: {
+      getManifest: () => ({ name: "Enable Copy and Right Click" }),
       onInstalled: listeners(),
       onStartup: listeners(),
       onMessage: listeners()
@@ -90,7 +91,9 @@ function installFakeChrome({
     permissions: {
       onAdded: listeners(),
       onRemoved: listeners()
-    }
+    },
+
+    i18n
   };
 
   // Firefox for Android has no keyboard shortcuts.

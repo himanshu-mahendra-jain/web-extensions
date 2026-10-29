@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Muutke video ja heli taasesituse kiirust kiiresti: 1x, 1,2x, 1,5x ja 2x."
+  },
+  "commandDescription": {
+    "message": "Muuda video taasesituse kiirust"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Taasesituse kiirus $SPEED$ korda",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Taasesituse kiirus: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

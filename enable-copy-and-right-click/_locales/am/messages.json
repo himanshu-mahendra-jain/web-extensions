@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "በተገደቡ ድረ-ገጾች ላይ መቅዳትን፣ ጽሑፍ መምረጥን እና የቀኝ ጠቅታ ምናሌዎችን ያንቁ።"
+  },
+  "commandDescription": {
+    "message": "በአሁኑ ገጽ ላይ መቅዳትን እና ቀኝ ጠቅታን አንቃ"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$፦ ገቢር",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "መቅዳት እና ቀኝ ጠቅታ ነቅተዋል።"
+  },
+  "optionsTitle": {
+    "message": "ራስ-ሰር ጣቢያዎች | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "የGitHub ማከማቻ፣ በአዲስ ትር ይከፈታል"
+  },
+  "automaticSitesHeading": {
+    "message": "ራስ-ሰር ጣቢያዎች"
+  },
+  "automaticSitesIntro": {
+    "message": "በሚያክሏቸው ድረ-ገጾች ላይ መቅዳትን፣ ጽሑፍ መምረጥን እና ቀኝ ጠቅታን በራስ-ሰር ያንቁ።"
+  },
+  "siteInputLabel": {
+    "message": "የድረ-ገጽ ጎራ"
+  },
+  "addSite": {
+    "message": "ጣቢያ አክል"
+  },
+  "noSites": {
+    "message": "እስካሁን ምንም ራስ-ሰር ጣቢያ አልታከለም።"
+  },
+  "siteListLabel": {
+    "message": "ራስ-ሰር ጣቢያዎች"
+  },
+  "remove": {
+    "message": "አስወግድ"
+  },
+  "removeSite": {
+    "message": "$SITE$ን አስወግድ",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (ፍቃዱ ተወግዷል)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ ታክሏል።",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ እንደገና ነቅቷል።",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ ተወግዷል።",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "ይህ ጣቢያ አስቀድሞ ነቅቷል።"
+  },
+  "invalidDomain": {
+    "message": "እንደ example.com ያለ ትክክለኛ ጎራ ያስገቡ።"
+  },
+  "permissionNotGranted": {
+    "message": "የጣቢያው ፍቃድ አልተሰጠም።"
+  },
+  "addFailed": {
+    "message": "ጣቢያውን ማከል አልተቻለም።"
+  },
+  "removeFailed": {
+    "message": "ጣቢያውን ማስወገድ አልተቻለም።"
+  },
+  "loadFailed": {
+    "message": "የጣቢያዎቹን ዝርዝር መጫን አልተቻለም።"
+  }
+}

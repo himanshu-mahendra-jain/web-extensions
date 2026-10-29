@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Iespējojiet kopēšanu, teksta atlasi un labās pogas izvēlnes tīmekļa lapās, kas tās ierobežo."
+  },
+  "commandDescription": {
+    "message": "Iespējot kopēšanu un labo klikšķi pašreizējā lapā"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: aktīvs",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopēšana un labais klikšķis ir iespējoti."
+  },
+  "optionsTitle": {
+    "message": "Automātiskās vietnes | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub repozitorijs, tiek atvērts jaunā cilnē"
+  },
+  "automaticSitesHeading": {
+    "message": "Automātiskās vietnes"
+  },
+  "automaticSitesIntro": {
+    "message": "Automātiski iespējojiet kopēšanu, teksta atlasi un labo klikšķi pievienotajās vietnēs."
+  },
+  "siteInputLabel": {
+    "message": "Vietnes domēns"
+  },
+  "addSite": {
+    "message": "Pievienot vietni"
+  },
+  "noSites": {
+    "message": "Vēl nav pievienota neviena automātiskā vietne."
+  },
+  "siteListLabel": {
+    "message": "Automātiskās vietnes"
+  },
+  "remove": {
+    "message": "Noņemt"
+  },
+  "removeSite": {
+    "message": "Noņemt $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (atļauja atsaukta)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ pievienota.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ atkal iespējota.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ noņemta.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Šī vietne jau ir iespējota."
+  },
+  "invalidDomain": {
+    "message": "Ievadiet derīgu domēnu, piemēram, example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Vietnes atļauja netika piešķirta."
+  },
+  "addFailed": {
+    "message": "Vietni neizdevās pievienot."
+  },
+  "removeFailed": {
+    "message": "Vietni neizdevās noņemt."
+  },
+  "loadFailed": {
+    "message": "Vietņu sarakstu neizdevās ielādēt."
+  }
+}

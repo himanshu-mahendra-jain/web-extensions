@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Limpa o histórico, os cookies e os dados de sites ao iniciar o navegador em todos os sites, exceto os que mantém."
+  },
+  "optionsTitle": {
+    "message": "Sites mantidos | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repositório do GitHub, abre num novo separador"
+  },
+  "accessHeading": {
+    "message": "O acesso aos sites está desativado"
+  },
+  "allowSiteAccess": {
+    "message": "Permitir acesso aos sites"
+  },
+  "accessHistorySiteData": {
+    "message": "Sem acesso aos sites, a extensão não consegue eliminar cookies. O histórico e os dados de sites continuam a ser limpos."
+  },
+  "accessHistory": {
+    "message": "Sem acesso aos sites, a extensão não consegue eliminar cookies. O histórico continua a ser limpo."
+  },
+  "accessSiteData": {
+    "message": "Sem acesso aos sites, a extensão não consegue eliminar cookies. Os dados de sites continuam a ser limpos."
+  },
+  "accessNothing": {
+    "message": "Sem acesso aos sites, a extensão não consegue eliminar cookies, por isso nada é limpo."
+  },
+  "clearingOffHeading": {
+    "message": "A limpeza está desativada"
+  },
+  "clearingOffText": {
+    "message": "Ainda nada é eliminado. Adicione os sites nos quais pretende manter a sessão iniciada e depois ative a limpeza. A partir daí, sempre que o navegador iniciar, os dados ($DATA$) de todos os outros sites serão eliminados.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Ativar limpeza"
+  },
+  "keptSitesHeading": {
+    "message": "Sites mantidos"
+  },
+  "intro": {
+    "message": "Estes sites e os respetivos subdomínios mantêm os seus dados ($DATA$), pelo que a sessão continua iniciada. Enquanto a limpeza estiver ativada, todos os outros sites perdem-nos sempre que o navegador inicia.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Domínios de sites"
+  },
+  "keep": {
+    "message": "Manter"
+  },
+  "siteHint": {
+    "message": "Separe vários sites com vírgulas."
+  },
+  "noSites": {
+    "message": "Ainda não mantém nenhum site, por isso uma limpeza elimina os dados ($DATA$) de todos os sites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Sites mantidos"
+  },
+  "clearingHeading": {
+    "message": "Limpeza"
+  },
+  "clearOnStartupLabel": {
+    "message": "Limpar automaticamente quando o navegador iniciar"
+  },
+  "clearNow": {
+    "message": "Limpar agora"
+  },
+  "firstClearHint": {
+    "message": "A primeira limpeza pode demorar alguns minutos se o navegador tiver muitos dados de navegação. Entretanto, pode continuar a navegar."
+  },
+  "leftoversHeading": {
+    "message": "Dados de sites restantes"
+  },
+  "leftoversIntro": {
+    "message": "Depois de o histórico e os cookies de um site serem eliminados, a extensão deixa de o encontrar, por isso o armazenamento local, as bases de dados e a cache desse site ficam. Limpar restos elimina os dados de todos os sites que não mantém, encontrados ou não, após uma limpeza como Limpar agora."
+  },
+  "clearLeftovers": {
+    "message": "Limpar restos"
+  },
+  "transferHeading": {
+    "message": "Importar e exportar"
+  },
+  "transferIntro": {
+    "message": "Guarde os sites mantidos num ficheiro de texto ou substitua-os pelos sites de um ficheiro. Um ficheiro pode ter um site por linha ou separá-los com vírgulas."
+  },
+  "export": {
+    "message": "Exportar"
+  },
+  "import": {
+    "message": "Importar"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "dataAll": {
+    "message": "histórico, cookies e dados de sites"
+  },
+  "dataNoHistory": {
+    "message": "cookies e dados de sites"
+  },
+  "dataNoSiteData": {
+    "message": "histórico e cookies"
+  },
+  "dataCookies": {
+    "message": "cookies"
+  },
+  "remove": {
+    "message": "Remover"
+  },
+  "removeSite": {
+    "message": "Remover $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ removido. Os respetivos dados ($DATA$) serão eliminados na próxima limpeza.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Não foi possível remover o site."
+  },
+  "siteKept": {
+    "message": "$SITE$ mantido.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ site mantido.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ sites mantidos.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ já é mantido.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ site já é mantido.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ sites já são mantidos.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ não é um domínio válido.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Estes não são domínios válidos: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Introduza um domínio válido, como example.com."
+  },
+  "addSiteFailed": {
+    "message": "Não foi possível adicionar o site."
+  },
+  "addSitesFailed": {
+    "message": "Não foi possível adicionar os sites."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ tem mais de 1 MB, por isso os sites mantidos não foram alterados.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ não tem domínios válidos, por isso os sites mantidos não foram alterados.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Substituir os sites mantidos?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ site",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ sites",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Os sites que mantém agora ($CURRENT$) serão substituídos pelos sites de $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ site deixará de ser mantido e os respetivos dados ($DATA$) serão eliminados na próxima limpeza.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ sites deixarão de ser mantidos e os respetivos dados ($DATA$) serão eliminados na próxima limpeza.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Substituir sites mantidos"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ site importado de $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ sites importados de $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Não foi possível exportar os sites mantidos."
+  },
+  "importFailed": {
+    "message": "Não foi possível importar os sites mantidos de $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Ativar a limpeza?"
+  },
+  "turnOnKept": {
+    "message": "Sempre que o navegador iniciar, os dados ($DATA$) de todos os sites serão eliminados, exceto os que escolheu manter. A sessão será terminada em todos os outros sites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Não escolheu nenhum site para manter. Sempre que o navegador iniciar, todos os dados ($DATA$) serão eliminados e a sessão será terminada em todos os sites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Os dados eliminados ($DATA$) não podem ser recuperados.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Limpar tudo agora?"
+  },
+  "clearEverythingText": {
+    "message": "Não escolheu nenhum site para manter, por isso os dados ($DATA$) de todos os sites serão eliminados agora e a sessão será terminada em todos os sites.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Limpar tudo"
+  },
+  "leftoversTitle": {
+    "message": "Limpar os dados de sites restantes?"
+  },
+  "leftoversKept": {
+    "message": "Os dados ($DATA$) de todos os sites que não mantém serão eliminados agora, incluindo os dados dos sites que a extensão já não encontra.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Um site mantido só conserva os seus dados nos endereços que a extensão encontra no histórico, nos cookies e nos separadores abertos. Qualquer outro subdomínio ou porta de um site mantido, como um que não visita há meses ou um servidor local noutra porta, perde os seus dados e a sessão nele pode ser terminada."
+  },
+  "clearing": {
+    "message": "A limpar… Isto pode demorar alguns minutos."
+  },
+  "leftoversFailed": {
+    "message": "Não foi possível limpar os dados de sites restantes."
+  },
+  "leftoversCleared": {
+    "message": "Dados de sites restantes limpos."
+  },
+  "nothingClearedYet": {
+    "message": "Ainda nada foi limpo."
+  },
+  "clearFailed": {
+    "message": "A limpeza de $WHEN$ falhou.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ entrada do histórico",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ entradas do histórico",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "nada"
+  },
+  "lastCleared": {
+    "message": "Última limpeza: $WHEN$. Eliminado: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Última limpeza: $WHEN$. Eliminado: $WHAT$, além dos dados de sites e da cache.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Última limpeza: $WHEN$. Eliminado: $WHAT$, além dos dados e da cache de todos os sites não mantidos.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "O histórico e os dados de sites foram ignorados porque este navegador não permite que as extensões os limpem."
+  },
+  "skippedHistory": {
+    "message": "O histórico foi ignorado porque este navegador não permite que as extensões o limpem."
+  },
+  "skippedSiteData": {
+    "message": "Os dados de sites foram ignorados porque este navegador não permite que as extensões os limpem."
+  },
+  "cookiesSkipped": {
+    "message": "Os cookies foram ignorados porque o acesso aos sites está desativado."
+  },
+  "loadFailed": {
+    "message": "Não foi possível carregar as definições."
+  }
+}

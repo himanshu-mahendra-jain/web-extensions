@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Salli kopiointi, tekstin valinta ja hiiren oikean painikkeen valikot verkkosivuilla, jotka estävät ne."
+  },
+  "commandDescription": {
+    "message": "Salli kopiointi ja oikea painike nykyisellä sivulla"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: käytössä",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopiointi ja oikea painike on sallittu."
+  },
+  "optionsTitle": {
+    "message": "Automaattiset sivustot | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-tietovarasto, avautuu uudelle välilehdelle"
+  },
+  "automaticSitesHeading": {
+    "message": "Automaattiset sivustot"
+  },
+  "automaticSitesIntro": {
+    "message": "Salli kopiointi, tekstin valinta ja oikea painike automaattisesti lisäämilläsi sivustoilla."
+  },
+  "siteInputLabel": {
+    "message": "Sivuston verkkotunnus"
+  },
+  "addSite": {
+    "message": "Lisää sivusto"
+  },
+  "noSites": {
+    "message": "Automaattisia sivustoja ei ole vielä lisätty."
+  },
+  "siteListLabel": {
+    "message": "Automaattiset sivustot"
+  },
+  "remove": {
+    "message": "Poista"
+  },
+  "removeSite": {
+    "message": "Poista $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (lupa poistettu)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ lisätty.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ otettu uudelleen käyttöön.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ poistettu.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Tämä sivusto on jo käytössä."
+  },
+  "invalidDomain": {
+    "message": "Anna kelvollinen verkkotunnus, esimerkiksi example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Sivuston lupaa ei myönnetty."
+  },
+  "addFailed": {
+    "message": "Sivustoa ei voitu lisätä."
+  },
+  "removeFailed": {
+    "message": "Sivustoa ei voitu poistaa."
+  },
+  "loadFailed": {
+    "message": "Sivustoluetteloa ei voitu ladata."
+  }
+}

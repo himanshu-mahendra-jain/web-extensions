@@ -1,0 +1,47 @@
+Schimbați viteza de redare a videoclipurilor și a sunetului cu un clic sau o comandă rapidă de la tastatură.
+
+Change Video Playback Speed este o extensie ușoară, open source, care trece prin patru viteze de redare utile:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Faceți clic pe pictograma extensiei sau folosiți comanda rapidă pentru a trece la viteza următoare. Viteza aleasă se aplică videoclipurilor și sunetului de pe pagină, inclusiv în playerele încorporate compatibile.
+
+Sfat: fixați extensia în meniul Extensii din Chrome (pictograma piesă de puzzle) pentru a-i păstra pictograma pe bara de instrumente.
+
+Viteza curentă apare pentru scurt timp pe pagină și în insigna din bara de instrumente.
+
+FUNCȚII PRINCIPALE
+
+• Control cu un clic și cu o comandă rapidă de la tastatură
+• Compatibil cu video și audio
+• Compatibil cu playerele încorporate compatibile
+• Insignă cu viteza în bara de instrumente și un indicator pe pagină, vizibil și pe ecran complet
+• Fără meniuri pop-up, comenzi flotante sau setări
+
+COMENZI RAPIDE IMPLICITE
+
+• Windows, Linux, ChromeOS, GooglebookOS și Android: Alt+S
+• macOS: Command+Shift+Period
+
+SCHIMBAREA COMENZII RAPIDE
+
+1. Deschideți meniul Chrome și selectați Extensii → Gestionează extensiile.
+2. Selectați Comenzi rapide de la tastatură în bara laterală.
+3. Găsiți Change Video Playback Speed și introduceți comanda rapidă preferată.
+
+CONFIDENȚIALITATE
+
+• Fără analize sau urmărire
+• Nu colectează date sau istoric de navigare
+• Fără solicitări de rețea
+• Fără acces permanent la site-uri
+
+Toate schimbările de viteză au loc local, în browserul dvs.
+
+SURSA DESCHISĂ (OPEN SOURCE)
+
+Change Video Playback Speed este un proiect open source distribuit sub Licența MIT.
+
+Vizualizați codul sursă, raportați probleme sau contribuiți pe GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

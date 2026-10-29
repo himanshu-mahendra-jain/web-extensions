@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Omogućite kopiranje, odabir teksta i izbornike desnog klika na web-stranicama koje ih ograničavaju."
+  },
+  "commandDescription": {
+    "message": "Omogući kopiranje i desni klik na trenutačnoj stranici"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: aktivno",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopiranje i desni klik omogućeni su."
+  },
+  "optionsTitle": {
+    "message": "Automatske web-lokacije | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub repozitorij, otvara se u novoj kartici"
+  },
+  "automaticSitesHeading": {
+    "message": "Automatske web-lokacije"
+  },
+  "automaticSitesIntro": {
+    "message": "Automatski omogućite kopiranje, odabir teksta i desni klik na web-lokacijama koje dodate."
+  },
+  "siteInputLabel": {
+    "message": "Domena web-lokacije"
+  },
+  "addSite": {
+    "message": "Dodaj web-lokaciju"
+  },
+  "noSites": {
+    "message": "Još nisu dodane automatske web-lokacije."
+  },
+  "siteListLabel": {
+    "message": "Automatske web-lokacije"
+  },
+  "remove": {
+    "message": "Ukloni"
+  },
+  "removeSite": {
+    "message": "Ukloni $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (dopuštenje uklonjeno)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ dodano.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ ponovno omogućeno.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ uklonjeno.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Ova je web-lokacija već omogućena."
+  },
+  "invalidDomain": {
+    "message": "Unesite valjanu domenu, primjerice example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Dopuštenje za web-lokaciju nije dano."
+  },
+  "addFailed": {
+    "message": "Web-lokaciju nije moguće dodati."
+  },
+  "removeFailed": {
+    "message": "Web-lokaciju nije moguće ukloniti."
+  },
+  "loadFailed": {
+    "message": "Popis web-lokacija nije moguće učitati."
+  }
+}

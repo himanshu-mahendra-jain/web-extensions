@@ -1,0 +1,47 @@
+Endre avspillingshastigheten for video og lyd med ett klikk eller en hurtigtast.
+
+Change Video Playback Speed er en lett utvidelse med åpen kildekode som veksler mellom fire nyttige avspillingshastigheter:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klikk på utvidelsens ikon eller bruk hurtigtasten for å gå til neste hastighet. Den valgte hastigheten brukes på video og lyd på siden, også i støttede innebygde avspillere.
+
+Tips: Fest utvidelsen i Chromes utvidelsesmeny (puslespillikonet) for å holde ikonet synlig på verktøylinjen.
+
+Gjeldende hastighet vises kort på siden og på merket på verktøylinjen.
+
+VIKTIGSTE FUNKSJONER
+
+• Styring med ett klikk og med hurtigtast
+• Støtte for video og lyd
+• Støtte for kompatible innebygde avspillere
+• Hastighetsmerke på verktøylinjen og en indikator på siden som også vises i fullskjerm
+• Ingen hurtigmenyer, flytende kontroller eller innstillinger
+
+STANDARD HURTIGTASTER
+
+• Windows, Linux, ChromeOS, GooglebookOS og Android: Alt+S
+• macOS: Command+Shift+Period
+
+ENDRE HURTIGTASTEN
+
+1. Åpne Chrome-menyen og velg Utvidelser → Administrer utvidelser.
+2. Velg Hurtigtaster i sidepanelet.
+3. Finn Change Video Playback Speed og skriv inn hurtigtasten du foretrekker.
+
+PERSONVERN
+
+• Ingen analyse eller sporing
+• Ingen innsamling av data eller nettleserlogg
+• Ingen nettverksforespørsler
+• Ingen permanent tilgang til nettsteder
+
+Alle hastighetsendringer skjer lokalt i nettleseren din.
+
+ÅPEN KILDEKODE
+
+Change Video Playback Speed er åpen kildekode og lisensiert under MIT-lisensen.
+
+Se kildekoden, rapporter problemer eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

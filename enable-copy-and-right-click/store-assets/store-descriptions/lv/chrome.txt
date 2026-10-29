@@ -1,0 +1,80 @@
+Iespējojiet kopēšanu, teksta atlasi un labās pogas izvēlnes tīmekļa lapās, kas tās ierobežo.
+
+Enable Copy and Right Click ir viegls atvērtā pirmkoda paplašinājums, kas atjauno parasto kopēšanu, teksta atlasi un labo klikšķi tīmekļa lapās, kas šīs darbības ierobežo.
+
+Noklikšķiniet uz paplašinājuma ikonas rīkjoslā vai izmantojiet īsinājumtaustiņus, lai pašreizējā cilnē iespējotu kopēšanu un labo klikšķi.
+
+Padoms: piespraudiet paplašinājumu Chrome paplašinājumu izvēlnē (puzles ikona), lai ikona vienmēr būtu redzama rīkjoslā.
+
+Uzticamas vietnes varat pievienot arī automātisko vietņu sarakstam. Tad paplašinājums ikreiz, kad apmeklēsiet šīs vietnes, automātiski iespējos kopēšanu un labo klikšķi.
+
+GALVENĀS FUNKCIJAS
+
+• Iespējo kopēšanu un teksta atlasi tīmekļa lapās ar ierobežojumiem
+• Iespējo labā klikšķa konteksta izvēlnes
+• Iespējo kopēšanu, izgriešanu, ielīmēšanu, teksta atlasi un vilkšanu
+• Ieslēgšana ar vienu klikšķi rīkjoslā
+• Īsinājumtaustiņi ātrai ieslēgšanai
+• Automātiska ieslēgšana jūsu izvēlētajās vietnēs
+• Darbojas pieejamos iframe, ciktāl to atļauj pārlūka atļaujas
+• Pēc manuālas ieslēgšanas rāda nozīmīti ON
+• Bez uznirstošajām izvēlnēm
+• Bez analītikas un izsekošanas
+• Bez attāla koda un tīkla pieprasījumiem
+
+NOKLUSĒJUMA ĪSINĀJUMTAUSTIŅI
+
+• Windows, Linux, ChromeOS, GooglebookOS un Android: Alt+C
+• macOS: Command+Shift+Y
+
+Īsinājumtaustiņi dara to pašu, ko klikšķis uz paplašinājuma ikonas.
+
+ĪSINĀJUMTAUSTIŅA MAIŅA
+
+1. Atveriet Chrome izvēlni un atlasiet Paplašinājumi → Pārvaldīt paplašinājumus.
+2. Sānjoslā atlasiet Īsinājumtaustiņi.
+3. Atrodiet Enable Copy and Right Click un ievadiet vēlamo īsinājumtaustiņu.
+
+AUTOMĀTISKĀS VIETNES
+
+Atveriet paplašinājuma opciju lapu un pievienojiet domēnu, piemēram:
+
+example.com
+
+Paplašinājums lūgs atļauju tikai jūsu pievienotajai vietnei. Kad atļauja būs piešķirta, šajā vietnē automātiski tiks iespējota kopēšana, teksta atlase un labais klikšķis.
+
+Automātisko vietni jebkurā laikā varat noņemt opciju lapā.
+
+OPCIJU LAPAS ATVĒRŠANA
+
+1. Ar peles labo pogu noklikšķiniet uz paplašinājuma ikonas rīkjoslā.
+2. Atlasiet Opcijas.
+
+PRIVĀTUMS
+
+• Bez analītikas un izsekošanas
+• Bez datu vākšanas
+• Bez pārlūkošanas vēstures vākšanas
+• Bez tīkla pieprasījumiem
+• Bez attāla koda
+• Bez ārēja JavaScript
+• Automātisko vietņu preferences tiek glabātas lokāli jūsu pārlūkā
+• Vietnes atļauja tiek pieprasīta tikai tad, kad jūs pats pievienojat vietni
+
+Visa kopēšanas un labā klikšķa atjaunošana notiek lokāli jūsu pārlūkā.
+
+VEIKTSPĒJA
+
+Paplašinājums ir viegls un darbojas uz notikumu pamata.
+
+Dīkstāvē tas neveic nekādu nepārtrauktu darbu fonā. Manuālā ieslēgšana notiek tikai tad, kad noklikšķināt uz rīkjoslas ikonas vai izmantojat īsinājumtaustiņus. Automātiskā ieslēgšana notiek tikai jūsu pašu pievienotajās vietnēs.
+
+Nav periodisku vaicājumu, tīkla darbību fonā, analītikas SDK, attālas konfigurācijas vai cikla, kas nepārtraukti uzrauga lapas.
+
+ATVĒRTAIS PIRMKODS
+
+Enable Copy and Right Click ir atvērtā koda programmatūra saskaņā ar MIT licenci.
+
+Apskatiet pirmkodu, ziņojiet par kļūdām vai piedalieties izstrādē GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,47 @@
+Cambia la velocidad de reproducción de vídeo y audio con un clic o un atajo de teclado.
+
+Change Video Playback Speed es una extensión ligera y de código abierto que alterna entre cuatro velocidades de reproducción útiles:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Haz clic en el icono de la extensión o usa el atajo de teclado para pasar a la siguiente velocidad. La velocidad elegida se aplica al vídeo y al audio de la página, incluidos los reproductores insertados compatibles.
+
+Consejo: en el menú de extensiones de Edge, activa «Mostrar en la barra de herramientas» para Change Video Playback Speed y mantener visible su icono.
+
+La velocidad actual se muestra brevemente en la página y en la insignia de la barra de herramientas.
+
+FUNCIONES PRINCIPALES
+
+• Control con un clic y con atajo de teclado
+• Compatible con vídeo y audio
+• Compatible con reproductores insertados compatibles
+• Insignia de velocidad en la barra de herramientas y un indicador en la página que también se ve a pantalla completa
+• Sin menús emergentes, controles flotantes ni ajustes
+
+ATAJOS DE TECLADO PREDETERMINADOS
+
+• Windows, Linux, ChromeOS, GooglebookOS y Android: Alt+S
+• macOS: Command+Shift+Period
+
+CAMBIAR EL ATAJO DE TECLADO
+
+1. Abre el menú Extensiones y selecciona Administrar extensiones.
+2. Selecciona Métodos abreviados de teclado en la barra lateral.
+3. Busca Change Video Playback Speed e introduce el atajo que prefieras.
+
+PRIVACIDAD
+
+• Sin analíticas ni seguimiento
+• No recopila datos ni historial de navegación
+• Sin solicitudes de red
+• Sin acceso permanente a los sitios web
+
+Todos los cambios de velocidad se hacen localmente en tu navegador.
+
+CÓDIGO ABIERTO
+
+Change Video Playback Speed es un proyecto de código abierto publicado bajo la licencia MIT.
+
+Consulta el código fuente, informa de incidencias o colabora en GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,90 @@
+A böngésző indulásakor törli az előzményeket, a sütiket és a webhelyadatokat minden webhelyről, kivéve a megtartottakat.
+
+A Clear Browsing Data Except Kept Sites egy könnyű, nyílt forráskódú bővítmény, amely eltávolítja az előzménybejegyzéseket, a sütiket és a webhelyadatokat minden olyan webhelyről, amelyet nem választott megtartásra.
+
+A beállításokban adja hozzá azokat a webhelyeket, amelyeken bejelentkezve szeretne maradni, és amelyekre emlékezni szeretne, majd kapcsolja be a törlést. A böngésző minden indításakor a bővítmény törli az összes többi webhely előzményeit, sütijeit és webhelyadatait. Bármikor törölhet a(z) „Törlés most” gombbal is.
+
+Tipp: Rögzítse a bővítményt a Chrome Bővítmények menüjében (kirakós ikon), hogy ikonja mindig kéznél legyen az eszköztáron.
+
+FŐ FUNKCIÓK
+
+• Webhelyek listája, amelyek előzményei és sütijei soha nem törlődnek, szövegfájlba exportálással és onnan importálással
+• Az összes többi webhely előzményeinek és sütijeinek törlése a böngésző indításakor, miután bekapcsolta
+• Törlés bármikor a(z) „Törlés most” gombbal, és a már nem található webhelyek maradék adatainak törlése a(z) „Maradékok törlése” gombbal
+• Egy megtartott webhely aldomainjeinek automatikus megtartása
+• A szülődomain azon sütijeinek megtartása, amelyekre egy megtartott webhelynek szüksége van ahhoz, hogy bejelentkezve maradjon
+• Particionált (harmadik féltől származó) sütik törlése; egy megtartott webhely particionált sütijei csak megtartott webhelyek alatt maradnak meg
+• A nem megtartott webhelyek helyi tárolójának, IndexedDB-jének, service workereinek és gyorsítótárának törlése
+• A legutóbbi törlés eredménye a beállításokban
+• Figyelmeztetés, ha a webhely-hozzáférés ki van kapcsolva, és a sütik nem törölhetők
+• Nincs analitika vagy követés
+• Nincs távoli kód vagy hálózati kérés
+
+MEGTARTOTT WEBHELYEK
+
+Nyissa meg a beállításokat, és adjon hozzá egy domaint, például:
+
+example.com
+
+Ha egyszerre többet szeretne hozzáadni, válassza el őket vesszővel.
+
+Az „Exportálás” szövegfájlba menti a listát, soronként egy domaint. Az „Importálás” lecseréli a listát egy szövegfájl webhelyeire, és előbb figyelmeztet, ha emiatt eltűnnek a most megtartott webhelyek.
+
+Egy olyan cím, mint a mail.example.com/inbox, a domainjére rövidül, a kezdő www. pedig elmarad. A localhost és az IPv4-címek, például a 192.168.1.1, is elfogadottak.
+
+Az example.com megtartása megtartja az example.com és összes aldomainje előzményeit, sütijeit és webhelyadatait. A mail.example.com megtartása az example.com sütijeit is megtartja, mert azok gyakran tartalmazzák az aldomain bejelentkezését.
+
+A BEÁLLÍTÁSOK MEGNYITÁSA
+
+A beállítások a telepítés után automatikusan megnyílnak, így a törlés bekapcsolása előtt kitöltheti a listát. Később kattintson a bővítmény ikonjára az eszköztáron, vagy:
+
+1. Kattintson a jobb gombbal a bővítmény ikonjára az eszköztáron.
+2. Válassza a Beállítások lehetőséget.
+
+TÖRLÉS INDÍTÁSKOR
+
+Telepítés után a törlés ki van kapcsolva, így semmi sem törlődik, amíg nem kéri. A beállítások a(z) „A törlés ki van kapcsolva” értesítést mutatják a(z) „Törlés bekapcsolása” gombbal. A bekapcsolás előbb figyelmeztetést jelenít meg: minden indítás törli az összes webhely előzményeit és sütijeit a megtartottak kivételével, és kijelentkezteti Önt róluk, vagy az összes webhelyről, ha egy sincs megtartva.
+
+Bekapcsolva a törlés a böngésző minden indításakor lefut, mert a böngésző nem engedi a bővítményeknek, hogy bezáráskor fussanak. Az indításkori törlés eltávolítja, amit az előző munkamenet hagyott hátra. Kapcsolja ki vagy újra be a(z) „Automatikus törlés a böngésző indulásakor” beállítással.
+
+TÖRLÉS MOST ÉS MARADÉKOK TÖRLÉSE
+
+A beállítások „Törlés most” gombja azonnal töröl. Ha egy webhely sincs megtartva, előbb piros figyelmeztetés jelzi, hogy minden törlődik. A beállítások mutatják, mikor volt a legutóbbi törlés, és hány előzménybejegyzést és sütit törölt.
+
+Miután egy törlés eltávolította egy webhely előzményeit és sütijeit, a későbbi törlések már nem találják azt a webhelyet, így a helyi tárolója, adatbázisai és gyorsítótára megmarad. A(z) „Maradékok törlése” lefuttat egy törlést, majd törli az összes nem megtartott webhely adatait, akár megtalálta őket, akár nem. Itt a böngésző csak pontos webhelyeket kímélhet meg, így egy megtartott webhely csak saját magának és azoknak a megtartott webhelyeknek tartja meg az adatait, amelyeket a törlés megtalál az előzményekben, a sütikben és a megnyitott lapokon; ezt előbb piros figyelmeztetés közli.
+
+WEBHELY-HOZZÁFÉRÉS
+
+Sütik csak olyan webhelyekről távolíthatók el, amelyekhez a bővítmény hozzáfér, ezért hozzáférést kér minden webhelyhez. Ha korlátozza a webhely-hozzáférést, például „Kattintásra” értékre, az előzmények továbbra is törlődnek, de a sütik kimaradnak, és a beállítások a(z) „Webhely-hozzáférés engedélyezése” gombot mutatják.
+
+KORLÁTOZÁSOK
+
+• Az indításkor visszaállított lapok új sütiket állíthatnak be, miközben a törlés fut. Ezek a sütik a következő indításig vagy a(z) „Törlés most” használatáig megmaradnak.
+• Más webhelyadatok, például a munkamenet-tároló, a webhelyengedélyek és a File System API-n keresztül mentett fájlok, nem törlődnek.
+• Ha a böngésző szinkronizálása kiterjed az előzményekre, az eltávolított előzménybejegyzések a többi eszközéről is eltávolításra kerülhetnek.
+• Az inkognitóablakok csak akkor törlődnek, ha a bővítmény engedélyezve van inkognitómódban. A Chrome amúgy is eldobja az adataikat bezáráskor.
+• IPv6-címek nem adhatók hozzá a listához.
+
+ADATVÉDELEM
+
+• Nincs analitika vagy követés
+• Nincs adatgyűjtés
+• Nincsenek hálózati kérések
+• Nincs távoli kód
+• Nincs külső JavaScript
+• Az előzmények és a sütik olvasása csak annak eldöntésére történik, mit kell eltávolítani, és csak az Ön böngészőjében
+• A lista és a beállítások helyben, az Ön böngészőjében tárolódnak
+
+TELJESÍTMÉNY
+
+A bővítmény böngészés közben semmit sem csinál. Egyszer fut a böngésző indításakor, ha a törlés be van kapcsolva, és amikor a(z) „Törlés most” vagy a(z) „Maradékok törlése” gombra kattint.
+
+Egy hosszú előzménylista első törlése néhány percig tarthat, mert minden előzménybejegyzés külön törlődik. Közben nyugodtan böngészhet tovább. A későbbi törlések csak az előző munkamenet bejegyzéseit távolítják el.
+
+NYÍLT FORRÁSKÓD
+
+A Clear Browsing Data Except Kept Sites egy nyílt forráskódú projekt MIT licenc alatt.
+
+Forráskód megtekintése, hibajelentés vagy hozzájárulás a GitHubon:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

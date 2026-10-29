@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "コピー、テキスト選択、右クリックメニューを制限しているウェブページで、それらを使えるようにします。"
+  },
+  "commandDescription": {
+    "message": "現在のページでコピーと右クリックを有効にする"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: 有効",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "コピーと右クリックを有効にしました。"
+  },
+  "optionsTitle": {
+    "message": "自動で有効にするサイト | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub リポジトリ (新しいタブで開きます)"
+  },
+  "automaticSitesHeading": {
+    "message": "自動で有効にするサイト"
+  },
+  "automaticSitesIntro": {
+    "message": "追加したウェブサイトでは、コピー、テキスト選択、右クリックが自動で有効になります。"
+  },
+  "siteInputLabel": {
+    "message": "ウェブサイトのドメイン"
+  },
+  "addSite": {
+    "message": "サイトを追加"
+  },
+  "noSites": {
+    "message": "自動で有効にするサイトはまだありません。"
+  },
+  "siteListLabel": {
+    "message": "自動で有効にするサイト"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "removeSite": {
+    "message": "$SITE$ を削除",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (権限が取り消されています)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ を追加しました。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ を再び有効にしました。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ を削除しました。",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "このサイトはすでに有効です。"
+  },
+  "invalidDomain": {
+    "message": "example.com のような正しいドメインを入力してください。"
+  },
+  "permissionNotGranted": {
+    "message": "サイトへの権限が許可されませんでした。"
+  },
+  "addFailed": {
+    "message": "サイトを追加できませんでした。"
+  },
+  "removeFailed": {
+    "message": "サイトを削除できませんでした。"
+  },
+  "loadFailed": {
+    "message": "サイトの一覧を読み込めませんでした。"
+  }
+}

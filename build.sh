@@ -117,7 +117,8 @@ remove_firefox_excludes() {
 
 # Package one extension directory into its own dist/ directory.
 # Runs in a subshell so the cd and the per-extension variables stay local.
-# _locales/, when the extension has one, goes into every package as it is.
+# _locales/, when the extension has one, goes into every package as it is,
+# except that the Firefox package names Norwegian Bokmål nb instead of no.
 build_extension() {
     local extension_directory="$1"
     (
@@ -208,6 +209,10 @@ build_extension() {
             cp -R "icons" "$FIREFOX_STAGE/icons"
             if [ -d "_locales" ]; then
                 cp -R "_locales" "$FIREFOX_STAGE/_locales"
+                # Chrome looks Norwegian Bokmål up under no, Firefox under nb.
+                if [ -d "$FIREFOX_STAGE/_locales/no" ]; then
+                    mv "$FIREFOX_STAGE/_locales/no" "$FIREFOX_STAGE/_locales/nb"
+                fi
             fi
             if [ ! -f "options/placeholder" ]; then
                 cp -R "options" "$FIREFOX_STAGE/options"

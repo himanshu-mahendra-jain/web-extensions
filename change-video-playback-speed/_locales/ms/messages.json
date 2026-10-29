@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Tukar kelajuan main balik video dan audio dengan pantas antara 1x, 1.2x, 1.5x dan 2x."
+  },
+  "commandDescription": {
+    "message": "Tukar kelajuan main balik video"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Kelajuan main balik $SPEED$ kali",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Kelajuan main balik: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

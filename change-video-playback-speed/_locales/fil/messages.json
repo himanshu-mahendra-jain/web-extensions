@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Mabilis na palitan ang bilis ng pag-play ng video at audio sa 1x, 1.2x, 1.5x, at 2x."
+  },
+  "commandDescription": {
+    "message": "Palitan ang bilis ng pag-play ng video"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Bilis ng pag-play $SPEED$ beses",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Bilis ng pag-play: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

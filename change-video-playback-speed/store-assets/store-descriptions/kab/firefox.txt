@@ -1,0 +1,46 @@
+Beddel arured n tɣuri n tvidyut d umeslaw s yiwen usiti neɣ s unegzum n unasiw.
+
+Change Video Playback Speed d asiɣzef afessas n uɣbalu yeldin i yettbeddilen gar ukkuẓ n yiruraden n tɣuri iɣef ara tesfaydeḍ:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Sit ɣef tignit n usiɣzef neɣ seqdec anegzum n unasiw akken ad tɛeddiḍ ɣer urured d-iteddun. Arured i tferneḍ yettwasnas ɣef tvidyut d umeslaw n usebter, ula deg yimeɣriyen yettwaseddayen i yettwasefraken.
+
+Arured amiran yettban ciṭuḥ deg usebter d tecreḍt n ufeggag n yifecka.
+
+TIMAḌMIWIN TIGEJDANIN
+
+• Asenqed s yiwen usiti d unegzum n unasiw
+• Tallelt i tvidyut d umeslaw
+• Tallelt i yimeɣriyen yettwaseddayen imṣadan
+• Tacreḍt n urured deg ufeggag n yifecka d umesken deg usebter i d-yettbanen ula deg ugdil aččuran
+• Ulac umuɣen udhimen, isenqaden yettfeǧǧiǧen neɣ iɣewwaren
+
+INEGZUMEN N UNASIW S WUDEM AMEZWER
+
+• Windows, Linux, ChromeOS, GooglebookOS d Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+BEDDEL ANEGZUM N UNASIW
+
+1. Ldi umuɣ n Firefox, sakin fren Izegrar d yisental.
+2. Sit ɣef tignit n tnaṭ deg usebter n Isiɣzaf.
+3. Fren Sefrek inegzumen n yisiɣzaf.
+4. Af-d Change Video Playback Speed, sakin sekcem anegzum i tebɣiḍ.
+
+TABAḌNIT
+
+• Ulac tasleḍt neɣ aḍfar
+• Ur yettlqaḍ ara isefka neɣ amazray n tunigin
+• Ulac tuttriwin n uẓeṭṭa
+• Ulac anekcum yezgan ɣer yismal web
+
+Akk ibeddilen n urured ttilin s wudem adigan deg yiminig-ik.
+
+AƔBALU YELDIN
+
+Change Video Playback Speed d aɣbalu yeldin, yettwaḍmen s turagt MIT.
+
+Wali tangalt taɣbalut, mmel-d uguren neɣ ttekki deg GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

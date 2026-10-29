@@ -1,0 +1,42 @@
+Zacyńśo aktualny rejtarik z póstuknjenim z tśimi palcami, srjejźnym kliknjenim abo kliknjenim w symbolowej rědce.
+
+Three Finger Tap to Close Tab jo lažke rozšyrjenje z wótwórjonym žrědłowym kodom, kótarež zmóžnja aktualny rejtarik wobglědowaka malsnje a jadnorje zacyniś.
+
+Póstukniśo z tśimi palcami abo klikniśo ze srjejźneju tastu źinžkuli na webbokach zwenka wótkazow a wobźěłujobnych pólow, aby aktualny rejtarik zacynił. Móžośo teke na symbol rozšyrjenja w symbolowej rědce kliknuś.
+
+We Firefox za Android póstukniśo w meniju Rozšyrjenja wobglědowaka na Three Finger Tap to Close Tab, aby aktualny rejtarik zacynił. Póstuknjenje na wobrazowku njejo srjejźne kliknjenje, togodla póstuknjenje na webbok rejtarik nigda njezacynja.
+
+Srjejźne kliknjenje na wótkaze a kórtki kanalow wobchowajo wšedne zaźaržanje wobglědowaka, tak až móžośo wótkaze a pósty dalej ako pśecej w nowych rejtarikach wócyniś. Zatwarjona wěstotna cona zajźujo njechtne zacynjenje, jolic póstuknjośo direktnje pódla wótkaza abo wóźeńskego elementa.
+
+HŁOWNE FUNKCIJE
+
+• Aktualny rejtarik z póstuknjenim z tśimi palcami zacyniś
+• Aktualny rejtarik ze srjejźnym kliknjenim zacyniś
+• Aktualny rejtarik z kliknjenim w symbolowej rědce zacyniś
+• Wobchowajo wšedne srjejźne kliknjenje na wótkazach, tłocaškach a kórtkach kanalow
+• Wěstotna cona zajźujo njechtne zacynjenje pódla interaktiwnych elementow
+• Njezacynja rejtariki, mjaztym až formulary a wobźěłujobne pola wužywaśo
+• Žedne wuskokujuce menije a žedne nastajenja
+
+NASTAJENJE DOTYKOWEJ PŁOŚICKI
+
+Waša dotykowa płośicka a waš źěłowy system muselej tak nastajonej byś, až póstuknjenje z tśimi palcami srjejźne kliknjenje wuwołujo.
+
+Pótom póstukniśo z tśimi palcami na webbok zwenka wótkazow a interaktiwnego wopśimjeśa, aby aktualny rejtarik zacynił.
+
+PRIWATNOSĆ
+
+• Žedna analyza a žedne slědowanje
+• Žedno zběranje datow abo historije pśeglědowanja
+• Žedne seśowe napšašowanja
+• Žedna składowana aktiwita pśeglědowanja abo nastajenja
+
+Rejtariki se pśecej lokalnje we wašom wobglědowaku zacynjaju.
+
+WÓTWÓRJONY ŽRĚDŁOWY KOD
+
+Three Finger Tap to Close Tab ma wótwórjony žrědłowy kod a jo licencěrowany pód licencu MIT.
+
+Woglědajśo se žrědłowy kod, wózjawśo problemy abo pśinosujśo na GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "கட்டுப்படுத்தப்பட்ட வலைப்பக்கங்களில் நகலெடுத்தல், உரைத் தேர்வு, வலது கிளிக் மெனுக்களை இயக்கவும்."
+  },
+  "commandDescription": {
+    "message": "தற்போதைய பக்கத்தில் நகலெடுத்தல், வலது கிளிக்கை இயக்கு"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: செயலில்",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "நகலெடுத்தலும் வலது கிளிக்கும் இயக்கப்பட்டன."
+  },
+  "optionsTitle": {
+    "message": "தானியங்கு தளங்கள் | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub களஞ்சியம், புதிய தாவலில் திறக்கும்"
+  },
+  "automaticSitesHeading": {
+    "message": "தானியங்கு தளங்கள்"
+  },
+  "automaticSitesIntro": {
+    "message": "நீங்கள் சேர்க்கும் இணையதளங்களில் நகலெடுத்தல், உரைத் தேர்வு, வலது கிளிக்கைத் தானாக இயக்கவும்."
+  },
+  "siteInputLabel": {
+    "message": "இணையதள டொமைன்"
+  },
+  "addSite": {
+    "message": "தளத்தைச் சேர்"
+  },
+  "noSites": {
+    "message": "இன்னும் தானியங்கு தளங்கள் எதுவும் சேர்க்கப்படவில்லை."
+  },
+  "siteListLabel": {
+    "message": "தானியங்கு தளங்கள்"
+  },
+  "remove": {
+    "message": "அகற்று"
+  },
+  "removeSite": {
+    "message": "$SITE$-ஐ அகற்று",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (அனுமதி அகற்றப்பட்டது)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ சேர்க்கப்பட்டது.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ மீண்டும் இயக்கப்பட்டது.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ அகற்றப்பட்டது.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "இந்தத் தளம் ஏற்கெனவே இயக்கப்பட்டுள்ளது."
+  },
+  "invalidDomain": {
+    "message": "example.com போன்ற சரியான டொமைனை உள்ளிடவும்."
+  },
+  "permissionNotGranted": {
+    "message": "தள அனுமதி வழங்கப்படவில்லை."
+  },
+  "addFailed": {
+    "message": "தளத்தைச் சேர்க்க முடியவில்லை."
+  },
+  "removeFailed": {
+    "message": "தளத்தை அகற்ற முடியவில்லை."
+  },
+  "loadFailed": {
+    "message": "தளங்களின் பட்டியலை ஏற்ற முடியவில்லை."
+  }
+}

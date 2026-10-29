@@ -1,0 +1,90 @@
+Sletter logg, informasjonskapsler og nettstedsdata når nettleseren starter, for alle nettsteder unntatt dem du beholder.
+
+Clear Browsing Data Except Kept Sites er en lett utvidelse med åpen kildekode som fjerner historikkoppføringer, informasjonskapsler og nettstedsdata for alle nettsteder du ikke har valgt å beholde.
+
+I innstillingene legger du til nettstedene der du vil forbli pålogget og bli husket, og slår deretter på sletting. Hver gang nettleseren starter, sletter utvidelsen historikk, informasjonskapsler og nettstedsdata for alle andre nettsteder. Du kan også slette når som helst med «Slett nå».
+
+Tips: I Edges utvidelsesmeny slår du på «Vis på verktøylinjen» for Clear Browsing Data Except Kept Sites for rask tilgang.
+
+VIKTIGSTE FUNKSJONER
+
+• En liste over nettsteder der historikk og informasjonskapsler aldri slettes, med import og eksport som tekstfil
+• Sletter historikk og informasjonskapsler for alle andre nettsteder når nettleseren starter, etter at du har slått det på
+• Slett når som helst med «Slett nå», og slett gjenværende data fra nettsteder som ikke lenger blir funnet med «Slett rester»
+• Beholder automatisk underdomenene til et beholdt nettsted
+• Beholder informasjonskapslene til overordnet domene som et beholdt nettsted trenger for at du skal forbli pålogget
+• Sletter partisjonerte informasjonskapsler (fra tredjeparter); et beholdt nettsteds partisjonerte informasjonskapsler blir bare værende under beholdte nettsteder
+• Sletter lokal lagring, IndexedDB, service workers og hurtigbuffer for nettsteder som ikke beholdes
+• Viser resultatet av siste sletting i innstillingene
+• Varsler når nettstedstilgang er slått av og informasjonskapsler ikke kan slettes
+• Ingen analyse eller sporing
+• Ingen ekstern kode eller nettverksforespørsler
+
+BEHOLDTE NETTSTEDER
+
+Åpne innstillingene og legg til et domene, for eksempel:
+
+example.com
+
+Skill dem med komma for å legge til flere samtidig.
+
+«Eksporter» lagrer listen som en tekstfil, ett domene per linje. «Importer» erstatter listen med nettstedene i en tekstfil og advarer først hvis nettsteder du beholder nå, forsvinner.
+
+En adresse som mail.example.com/inbox kortes ned til domenet, og en innledende www. fjernes. localhost og IPv4-adresser som 192.168.1.1 godtas også.
+
+Å beholde example.com beholder historikk, informasjonskapsler og nettstedsdata for example.com og alle underdomenene. Å beholde mail.example.com beholder også informasjonskapslene for example.com, fordi de ofte inneholder underdomenets pålogging.
+
+ÅPNE INNSTILLINGENE
+
+Innstillingene åpnes automatisk etter installasjon, så du kan fylle ut listen før du slår på sletting. Senere klikker du på utvidelsens ikon på verktøylinjen, eller:
+
+1. Høyreklikk på utvidelsens ikon på verktøylinjen.
+2. Velg Utvidelsesalternativer.
+
+SLETTING VED OPPSTART
+
+Etter installasjon er sletting av, så ingenting fjernes før du ber om det. Innstillingene viser meldingen «Sletting er av» med knappen «Slå på sletting». Når du slår det på, vises først en advarsel: hver oppstart sletter historikk og informasjonskapsler for alle nettsteder unntatt de beholdte og logger deg ut av dem, eller av alle nettsteder hvis ingen beholdes.
+
+Når den er på, kjører slettingen hver gang nettleseren starter, fordi nettleseren ikke lar utvidelser kjøre når den lukkes. Sletting ved oppstart fjerner det forrige økt etterlot. Slå den av eller på igjen med «Slett automatisk når nettleseren starter» i innstillingene.
+
+SLETT NÅ OG SLETT RESTER
+
+«Slett nå» i innstillingene sletter med en gang. Hvis ingen nettsteder beholdes, vises først en rød advarsel om at alt blir slettet. Innstillingene viser når siste sletting skjedde, og hvor mange historikkoppføringer og informasjonskapsler den slettet.
+
+Når en sletting har fjernet et nettsteds historikk og informasjonskapsler, finner senere slettinger ikke lenger det nettstedet, så den lokale lagringen, databasene og hurtigbufferen blir værende. «Slett rester» kjører en sletting og sletter deretter dataene for alle nettsteder du ikke beholder, funnet eller ikke. Nettleseren kan her bare skåne eksakte nettsteder, så et beholdt nettsted beholder data bare for seg selv og for beholdte nettsteder som slettingen finner i historikk, informasjonskapsler og åpne faner; en rød advarsel sier dette først.
+
+NETTSTEDSTILGANG
+
+Informasjonskapsler kan bare fjernes for nettsteder utvidelsen har tilgang til, så den ber om tilgang til alle nettsteder. Hvis du begrenser nettstedstilgangen, for eksempel til «Ved klikk», slettes historikken fortsatt, men informasjonskapsler hoppes over, og innstillingene viser knappen «Gi tilgang til nettsteder».
+
+BEGRENSNINGER
+
+• Faner som gjenopprettes ved oppstart, kan sette nye informasjonskapsler mens slettingen pågår. Disse informasjonskapslene blir værende til neste oppstart eller neste «Slett nå».
+• Andre nettstedsdata, som øktlagring, nettstedstillatelser og filer lagret via File System API, slettes ikke.
+• Hvis nettleserens synkronisering omfatter historikk, kan historikkoppføringer som fjernes, også fjernes på de andre enhetene dine.
+• InPrivate-vinduer slettes bare når utvidelsen er tillatt i InPrivate. Edge forkaster uansett dataene deres når de lukkes.
+• IPv6-adresser kan ikke legges til i listen.
+
+PERSONVERN
+
+• Ingen analyse eller sporing
+• Ingen datainnsamling
+• Ingen nettverksforespørsler
+• Ingen ekstern kode
+• Ingen ekstern JavaScript
+• Historikk og informasjonskapsler leses bare for å avgjøre hva som skal fjernes, og bare i nettleseren din
+• Listen og innstillingene lagres lokalt i nettleseren din
+
+YTELSE
+
+Utvidelsen gjør ingenting mens du surfer. Den kjører én gang når nettleseren starter, hvis sletting er på, og når du klikker på «Slett nå» eller «Slett rester».
+
+Den første slettingen av en lang historikk kan ta noen minutter, fordi hver historikkoppføring slettes for seg. Du kan surfe videre i mellomtiden. Senere slettinger fjerner bare oppføringene fra forrige økt.
+
+ÅPEN KILDEKODE
+
+Clear Browsing Data Except Kept Sites er åpen kildekode og lisensiert under MIT-lisensen.
+
+Se kildekoden, rapporter problemer eller bidra på GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

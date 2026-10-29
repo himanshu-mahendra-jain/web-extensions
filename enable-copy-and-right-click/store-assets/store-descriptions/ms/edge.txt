@@ -1,0 +1,80 @@
+Dayakan penyalinan, pemilihan teks dan menu klik kanan pada halaman web yang menyekatnya.
+
+Enable Copy and Right Click ialah sambungan sumber terbuka yang ringan, yang memulihkan penyalinan, pemilihan teks dan klik kanan yang biasa pada halaman web yang menyekat tindakan ini.
+
+Klik ikon sambungan dalam bar alat atau gunakan pintasan papan kekunci untuk mendayakan salin dan klik kanan pada tab semasa.
+
+Petua: Dalam menu Sambungan Edge, hidupkan «Tunjukkan dalam bar alat» untuk Enable Copy and Right Click untuk capaian pantas.
+
+Anda juga boleh menambah tapak web yang dipercayai ke senarai Tapak Automatik. Sambungan akan mendayakan salin dan klik kanan secara automatik setiap kali anda melawat tapak tersebut.
+
+CIRI UTAMA
+
+• Mendayakan penyalinan dan pemilihan teks pada halaman web yang disekat
+• Mendayakan menu konteks klik kanan
+• Mendayakan salin, potong, tampal, pemilihan teks dan seret
+• Pengaktifan dengan satu klik dari bar alat
+• Pintasan papan kekunci untuk pengaktifan pantas
+• Pengaktifan automatik pada tapak pilihan anda
+• Berfungsi dalam iframe yang boleh diakses jika kebenaran penyemak imbas membenarkan
+• Memaparkan lencana ON selepas pengaktifan manual
+• Tiada menu timbul
+• Tiada analitis atau penjejakan
+• Tiada kod jauh atau permintaan rangkaian
+
+PINTASAN PAPAN KEKUNCI LALAI
+
+• Windows, Linux, ChromeOS, GooglebookOS dan Android: Alt+C
+• macOS: Command+Shift+Y
+
+Pintasan papan kekunci melakukan tindakan yang sama seperti mengklik ikon sambungan.
+
+TUKAR PINTASAN PAPAN KEKUNCI
+
+1. Buka menu Sambungan dan pilih Urus sambungan.
+2. Pilih Pintasan papan kekunci dalam bar sisi.
+3. Cari Enable Copy and Right Click dan masukkan pintasan pilihan anda.
+
+TAPAK AUTOMATIK
+
+Buka halaman pilihan sambungan dan tambah domain seperti:
+
+example.com
+
+Sambungan hanya akan meminta kebenaran untuk tapak web yang anda tambah. Setelah kebenaran diberikan, salin, pemilihan teks dan klik kanan akan didayakan secara automatik pada tapak itu.
+
+Anda boleh mengalih keluar tapak automatik pada bila-bila masa dari halaman pilihan.
+
+BUKA HALAMAN PILIHAN
+
+1. Klik kanan ikon sambungan dalam bar alat.
+2. Pilih Pilihan sambungan.
+
+PRIVASI
+
+• Tiada analitis atau penjejakan
+• Tiada pengumpulan data
+• Tiada pengumpulan sejarah penyemakan imbas
+• Tiada permintaan rangkaian
+• Tiada kod jauh
+• Tiada JavaScript luaran
+• Pilihan tapak automatik disimpan secara setempat dalam penyemak imbas anda
+• Kebenaran tapak hanya diminta apabila anda sendiri menambah tapak
+
+Semua pemulihan salin dan klik kanan berlaku secara setempat dalam penyemak imbas anda.
+
+PRESTASI
+
+Sambungan ini ringan dan dipacu peristiwa.
+
+Ia tidak melakukan kerja latar belakang yang berterusan semasa melahu. Pengaktifan manual hanya berjalan apabila anda mengklik ikon bar alat atau menggunakan pintasan papan kekunci. Pengaktifan automatik hanya berjalan pada tapak web yang anda tambah sendiri.
+
+Tiada tinjauan berkala, aktiviti rangkaian latar belakang, SDK analitis, konfigurasi jauh atau gelung pemantauan halaman yang berterusan.
+
+SUMBER TERBUKA
+
+Enable Copy and Right Click ialah projek sumber terbuka di bawah Lesen MIT.
+
+Lihat kod sumber, laporkan isu atau sumbangkan kod di GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

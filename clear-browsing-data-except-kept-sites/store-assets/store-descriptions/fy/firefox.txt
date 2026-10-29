@@ -1,0 +1,91 @@
+Wiskje skiednis, cookies en websidegegevens by it starten fan de browser foar alle websites útsein dy't jo bewarje.
+
+Firefox foar Android lit útwreidingen gjin skiednis wiskje, dus dêr wurde allinnich cookies en websidegegevens wiske.
+
+Clear Browsing Data Except Kept Sites is in lichte iepenboarne-útwreiding dy't skiednisitems, cookies en websidegegevens fuortsmyt foar alle websites dy't jo net keazen hawwe om te bewarjen.
+
+Foegje yn de ynstellingen de websites ta wêr't jo oanmeld bliuwe wolle en dy't jo ûnthâlde moatte, en skeakelje dan wiskjen yn. Elke kear as de browser start, wisket de útwreiding de skiednis en cookies fan alle oare websites. Jo kinne ek op elk momint wiskje mei ‘No wiskje’.
+
+WICHTICHSTE FUNKSJES
+
+• In list mei websites wêrfan't de skiednis en cookies nea wiske wurde, mei ymportearjen en eksportearjen as tekstbestân
+• Wisket de skiednis en cookies fan alle oare websites as de browser start, neidat jo it ynskeakele hawwe
+• Op elk momint wiskje mei ‘No wiskje’ yn de ynstellingen
+• Bewarret automatysk de subdomeinen fan in bewarre website
+• Bewarret de cookies fan it boppelizzende domein dy't in bewarre website nedich hat om jo oanmeld te hâlden
+• Wisket partisjonearre cookies (fan tredden) en kontenercookies; partisjonearre cookies fan in bewarre website bliuwe allinnich ûnder bewarre websites
+• Wisket lokale opslach, IndexedDB, service workers en buffer fan websites dy't net bewarre wurde
+• Toant it resultaat fan de lêste wiskbeurt yn de ynstellingen
+• Warskôget as websidetagong útskeakele is en cookies net fuortsmiten wurde kinne
+• Gjin analyse of folgjen
+• Gjin koade op ôfstân of netwurkfersiken
+
+BEWARRE WEBSITES
+
+Iepenje de ynstellingen en foegje in domein ta, bygelyks:
+
+example.com
+
+Skied se mei komma's om der ferskate tagelyk ta te foegjen.
+
+‘Eksportearje’ bewarret de list as tekstbestân, ien domein per rigel. ‘Ymportearje’ ferfangt de list troch de websites út in tekstbestân en warskôget earst as websites dy't jo no bewarje dêrtroch ferdwine.
+
+In adres lykas mail.example.com/inbox wurdt ynkoarte ta it domein, en in www. oan it begjin wurdt weilitten. localhost en IPv4-adressen lykas 192.168.1.1 wurde ek akseptearre.
+
+It bewarjen fan example.com bewarret de skiednis en cookies fan example.com en al syn subdomeinen. It bewarjen fan mail.example.com bewarret ek de cookies fan example.com, omdat dy faak de oanmelding fan it subdomein befetsje.
+
+DE YNSTELLINGEN IEPENJE
+
+De ynstellingen iepenje automatysk nei de ynstallaasje, sadat jo de list ynfolje kinne foardat jo wiskjen ynskeakelje. Klik letter op it piktogram fan de útwreiding yn de arkbalke. Tik yn Firefox foar Android op Clear Browsing Data Except Kept Sites yn it menu Útwreidingen fan de browser.
+
+Jo kinne se ek iepenje fanút de add-onbehearder:
+
+1. Iepenje it Firefox-menu en kies Add-ons en tema's.
+2. Sykje Clear Browsing Data Except Kept Sites en klik op it menu mei trije puntsjes dêrneist.
+3. Selektearje Foarkarren.
+
+WISKJE BY IT STARTEN
+
+Nei de ynstallaasje stiet wiskjen út, dus der wurdt neat fuortsmiten oant jo dêrom freegje. De ynstellingen toane de melding ‘Wiskjen stiet út’ mei de knop ‘Wiskjen ynskeakelje’. By it ynskeakeljen ferskynt earst in warskôging: elke start wisket de skiednis en cookies fan alle websites útsein de bewarre websites en meldt jo dêrfan ôf, of fan alle websites as der gjin ien bewarre wurdt.
+
+As it ynskeakele is, rint it wiskjen elke kear as de browser start, omdat de browser útwreidingen net útfiere lit by it sluten. Wiskje by it starten smyt fuort wat de foarige sesje efterlitten hat. Skeakelje it út of wer yn mei ‘Automatysk wiskje as de browser start’ yn de ynstellingen.
+
+NO WISKJE
+
+‘No wiskje’ yn de ynstellingen wisket fuortendaliks. As der gjin website bewarre wurdt, ferskynt earst in reade warskôging dat alles wiske wurdt. De ynstellingen toane wannear't de lêste wiskbeurt wie en hoefolle skiednisitems en cookies dêrby wiske binne.
+
+WEBSIDETAGONG
+
+Cookies kinne allinnich fuortsmiten wurde foar websites dêr't de útwreiding tagong ta hat, dus se freget tagong ta alle websites. As jo websidetagong útskeakelje, wurdt de skiednis noch hieltyd wiske, mar cookies wurde oerslein en de ynstellingen toane de knop ‘Websidetagong tastean’.
+
+BEPERKINGEN
+
+• Ljepblêden dy't by it starten werombrocht wurde, kinne nije cookies pleatse wylst it wiskjen rint. Dy cookies bliuwe oant de folgjende start of de folgjende ‘No wiskje’.
+• Firefox kin gjin websidegegevens wiskje útsein foar keazen websites, dus de útwreiding wisket de lokale opslach, IndexedDB en service workers fan elke net bewarre website dy't er fynt yn skiednis, cookies en iepen ljepblêden. In website dy't yn neat dêrfan foarkomt, hâldt syn gegevens. In website mei in bewarre subdomein hâldt syn service workers, omdat Firefox dy fan it subdomein oars ek wiskje soe. De buffer wurdt foar alle websites wiske, omdat Firefox him net per website wiskje kin; dat meldt nimmen ôf.
+• Firefox kin Cache Storage, de offline bestannen dy't service workers bewarje, net per website wiskje, dus dat wurdt net wiske. Om fuort te smiten wêr't de útwreiding net by kin, brûk Ynstellingen > Privacy en befeiliging > Cookies en websitegegevens > Gegevens beheare.
+• As de syngronisaasje fan de browser skiednis omfettet, kinne fuortsmiten skiednisitems ek op jo oare apparaten fuortsmiten wurde.
+• Priveefinsters wurde allinnich wiske as de útwreiding deryn útfierd wurde mei.
+
+PRIVACY
+
+• Gjin analyse of folgjen
+• Gjin gegevensferzamling
+• Gjin netwurkfersiken
+• Gjin koade op ôfstân
+• Gjin eksterne JavaScript
+• Skiednis en cookies wurde allinnich lêzen om te besluten wat fuortsmiten wurdt, en allinnich yn jo browser
+• De list en de ynstellingen wurde lokaal yn jo browser bewarre
+
+PRESTAASJES
+
+De útwreiding docht neat wylst jo sneupe. Se rint ien kear as de browser start, as wiskjen ynskeakele is, en as jo op ‘No wiskje’ klikke.
+
+De earste wiskbeurt fan in lange skiednis kin in pear minuten duorje, omdat elk skiednisitem apart wiske wurdt. Jo kinne yntusken gewoan fierder sneupe. Lettere wiskbeurten smite allinnich de items fan de foarige sesje fuort.
+
+IEPEN BOARNE
+
+Clear Browsing Data Except Kept Sites is iepen boarne en wurdt útjûn ûnder de MIT-lisinsje.
+
+Besjoch de boarnekoade, meld problemen of draach by op GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

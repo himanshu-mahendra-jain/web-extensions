@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Skift hurtigt afspilningshastigheden for video og lyd mellem 1x, 1,2x, 1,5x og 2x."
+  },
+  "commandDescription": {
+    "message": "Skift videoens afspilningshastighed"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Afspilningshastighed $SPEED$ gange",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Afspilningshastighed: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

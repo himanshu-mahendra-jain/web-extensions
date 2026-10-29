@@ -1,0 +1,80 @@
+Omogućite kopiranje, odabir teksta i izbornike desnog klika na web-stranicama koje ih ograničavaju.
+
+Enable Copy and Right Click lagano je proširenje otvorenog koda koje vraća uobičajeno kopiranje, odabir teksta i desni klik na web-stranice koje ograničavaju te radnje.
+
+Kliknite ikonu proširenja na alatnoj traci ili upotrijebite tipkovnički prečac kako biste omogućili kopiranje i desni klik na trenutačnoj kartici.
+
+Savjet: Prikvačite proširenje u Chromeovom izborniku proširenja (ikona slagalice) kako bi ikona bila uvijek dostupna na alatnoj traci.
+
+Pouzdane web-lokacije možete dodati i na popis automatskih web-lokacija. Proširenje će tada automatski omogućiti kopiranje i desni klik svaki put kad ih posjetite.
+
+GLAVNE ZNAČAJKE
+
+• Omogućuje kopiranje i odabir teksta na ograničenim web-stranicama
+• Omogućuje kontekstne izbornike desnog klika
+• Omogućuje kopiranje, izrezivanje, lijepljenje, odabir teksta i povlačenje
+• Uključivanje jednim klikom s alatne trake
+• Tipkovnički prečac za brzo uključivanje
+• Automatsko uključivanje na web-lokacijama koje odaberete
+• Radi u dostupnim iframeovima kada to dopuštaju dopuštenja preglednika
+• Nakon ručnog uključivanja prikazuje značku ON
+• Bez skočnih izbornika
+• Bez analitike i praćenja
+• Bez udaljenog koda i mrežnih zahtjeva
+
+ZADANI TIPKOVNIČKI PREČACI
+
+• Windows, Linux, ChromeOS, GooglebookOS i Android: Alt+C
+• macOS: Command+Shift+Y
+
+Tipkovnički prečac čini isto što i klik na ikonu proširenja.
+
+PROMJENA TIPKOVNIČKOG PREČACA
+
+1. Otvorite izbornik Chromea i odaberite Proširenja → Upravljanje proširenjima.
+2. Na bočnoj traci odaberite Tipkovni prečaci.
+3. Pronađite Enable Copy and Right Click i unesite željeni prečac.
+
+AUTOMATSKE WEB-LOKACIJE
+
+Otvorite stranicu s mogućnostima proširenja i dodajte domenu, primjerice:
+
+example.com
+
+Proširenje će zatražiti dopuštenje samo za web-lokaciju koju dodate. Nakon što ga date, kopiranje, odabir teksta i desni klik automatski će se omogućiti na toj web-lokaciji.
+
+Automatsku web-lokaciju možete ukloniti u bilo kojem trenutku sa stranice s mogućnostima.
+
+OTVARANJE STRANICE S MOGUĆNOSTIMA
+
+1. Desnom tipkom miša kliknite ikonu proširenja na alatnoj traci.
+2. Odaberite Mogućnosti.
+
+PRIVATNOST
+
+• Bez analitike i praćenja
+• Bez prikupljanja podataka
+• Bez prikupljanja povijesti pregledavanja
+• Bez mrežnih zahtjeva
+• Bez udaljenog koda
+• Bez vanjskog JavaScripta
+• Postavke automatskih web-lokacija pohranjuju se lokalno u vašem pregledniku
+• Dopuštenja za web-lokacije traže se samo kada izričito dodate web-lokaciju
+
+Cijelo vraćanje kopiranja i desnog klika odvija se lokalno u vašem pregledniku.
+
+PERFORMANSE
+
+Proširenje je lagano i pokreću ga događaji.
+
+Dok miruje, ne obavlja nikakav neprekidan rad u pozadini. Ručno uključivanje pokreće se samo kad kliknete ikonu na alatnoj traci ili upotrijebite tipkovnički prečac. Automatsko uključivanje pokreće se samo na web-lokacijama koje ste izričito dodali.
+
+Nema periodičnog provjeravanja, mrežne aktivnosti u pozadini, analitičkog SDK-a, udaljene konfiguracije ni stalne petlje koja nadzire stranice.
+
+OTVORENI KOD
+
+Enable Copy and Right Click je projekt otvorenog koda pod licencom MIT.
+
+Pregledajte izvorni kod, prijavite probleme ili doprinesite na GitHubu:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

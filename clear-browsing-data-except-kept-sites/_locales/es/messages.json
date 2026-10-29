@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Borra el historial, las cookies y los datos de sitios al iniciar el navegador en todos los sitios salvo los que conservas."
+  },
+  "optionsTitle": {
+    "message": "Sitios conservados | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repositorio de GitHub, se abre en una pestaña nueva"
+  },
+  "accessHeading": {
+    "message": "El acceso a los sitios está desactivado"
+  },
+  "allowSiteAccess": {
+    "message": "Permitir acceso a los sitios"
+  },
+  "accessHistorySiteData": {
+    "message": "Sin acceso a los sitios web, la extensión no puede eliminar cookies. El historial y los datos de sitios se siguen borrando."
+  },
+  "accessHistory": {
+    "message": "Sin acceso a los sitios web, la extensión no puede eliminar cookies. El historial se sigue borrando."
+  },
+  "accessSiteData": {
+    "message": "Sin acceso a los sitios web, la extensión no puede eliminar cookies. Los datos de sitios se siguen borrando."
+  },
+  "accessNothing": {
+    "message": "Sin acceso a los sitios web, la extensión no puede eliminar cookies, así que no se borra nada."
+  },
+  "clearingOffHeading": {
+    "message": "El borrado está desactivado"
+  },
+  "clearingOffText": {
+    "message": "Todavía no se elimina nada. Añade los sitios en los que quieres mantener la sesión iniciada y, después, activa el borrado. A partir de entonces, cada vez que se inicie el navegador, se eliminarán los datos ($DATA$) de todos los demás sitios.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Activar borrado"
+  },
+  "keptSitesHeading": {
+    "message": "Sitios conservados"
+  },
+  "intro": {
+    "message": "Estos sitios y sus subdominios conservan sus datos ($DATA$), así que mantienes la sesión iniciada. Mientras el borrado esté activado, todos los demás sitios los pierden cada vez que se inicia el navegador.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Dominios de sitios web"
+  },
+  "keep": {
+    "message": "Conservar"
+  },
+  "siteHint": {
+    "message": "Separa varios sitios con comas."
+  },
+  "noSites": {
+    "message": "Aún no conservas ningún sitio, así que un borrado elimina los datos ($DATA$) de todos los sitios.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Sitios conservados"
+  },
+  "clearingHeading": {
+    "message": "Borrado"
+  },
+  "clearOnStartupLabel": {
+    "message": "Borrar automáticamente al iniciar el navegador"
+  },
+  "clearNow": {
+    "message": "Borrar ahora"
+  },
+  "firstClearHint": {
+    "message": "El primer borrado puede tardar varios minutos si el navegador guarda muchos datos de navegación. Mientras tanto, puedes seguir navegando."
+  },
+  "leftoversHeading": {
+    "message": "Datos de sitios restantes"
+  },
+  "leftoversIntro": {
+    "message": "Una vez eliminados el historial y las cookies de un sitio, la extensión ya no lo encuentra, así que su almacenamiento local, sus bases de datos y su caché se quedan. Borrar restos elimina los datos de todos los sitios que no conservas, encontrados o no, después de un borrado como Borrar ahora."
+  },
+  "clearLeftovers": {
+    "message": "Borrar restos"
+  },
+  "transferHeading": {
+    "message": "Importar y exportar"
+  },
+  "transferIntro": {
+    "message": "Guarda tus sitios conservados en un archivo de texto o sustitúyelos por los sitios de un archivo. Un archivo puede tener un sitio por línea o separarlos con comas."
+  },
+  "export": {
+    "message": "Exportar"
+  },
+  "import": {
+    "message": "Importar"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "dataAll": {
+    "message": "historial, cookies y datos de sitios"
+  },
+  "dataNoHistory": {
+    "message": "cookies y datos de sitios"
+  },
+  "dataNoSiteData": {
+    "message": "historial y cookies"
+  },
+  "dataCookies": {
+    "message": "cookies"
+  },
+  "remove": {
+    "message": "Quitar"
+  },
+  "removeSite": {
+    "message": "Quitar $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ quitado. Sus datos ($DATA$) se eliminarán en el próximo borrado.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "No se ha podido quitar el sitio."
+  },
+  "siteKept": {
+    "message": "$SITE$ conservado.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ sitio conservado.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ sitios conservados.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ ya se conserva.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ sitio ya se conserva.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ sitios ya se conservan.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ no es un dominio válido.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Estos no son dominios válidos: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Introduce un dominio válido, como example.com."
+  },
+  "addSiteFailed": {
+    "message": "No se ha podido añadir el sitio."
+  },
+  "addSitesFailed": {
+    "message": "No se han podido añadir los sitios."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ ocupa más de 1 MB, así que los sitios conservados no han cambiado.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ no tiene dominios válidos, así que los sitios conservados no han cambiado.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "¿Sustituir los sitios conservados?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ sitio",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ sitios",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Los sitios que conservas ahora ($CURRENT$) se sustituirán por los sitios de $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ sitio dejará de conservarse y sus datos ($DATA$) se eliminarán en el próximo borrado.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ sitios dejarán de conservarse y sus datos ($DATA$) se eliminarán en el próximo borrado.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Sustituir sitios conservados"
+  },
+  "sitesImported_one": {
+    "message": "$COUNT$ sitio importado de $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$COUNT$ sitios importados de $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "No se han podido exportar los sitios conservados."
+  },
+  "importFailed": {
+    "message": "No se han podido importar los sitios conservados de $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "¿Activar el borrado?"
+  },
+  "turnOnKept": {
+    "message": "Cada vez que se inicie el navegador, se eliminarán los datos ($DATA$) de todos los sitios excepto los que has elegido conservar. Se cerrará tu sesión en todos los demás sitios.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "No has elegido ningún sitio para conservar. Cada vez que se inicie el navegador, se eliminarán todos los datos ($DATA$) y se cerrará tu sesión en todos los sitios.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Los datos eliminados ($DATA$) no se pueden recuperar.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "¿Borrar todo ahora?"
+  },
+  "clearEverythingText": {
+    "message": "No has elegido ningún sitio para conservar, así que ahora se eliminarán los datos ($DATA$) de todos los sitios y se cerrará tu sesión en todos ellos.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Borrar todo"
+  },
+  "leftoversTitle": {
+    "message": "¿Borrar los datos de sitios restantes?"
+  },
+  "leftoversKept": {
+    "message": "Ahora se eliminarán los datos ($DATA$) de todos los sitios que no conservas, incluidos los datos de los sitios que la extensión ya no encuentra.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Un sitio conservado solo conserva sus datos en las direcciones que la extensión encuentra en el historial, las cookies y las pestañas abiertas. Cualquier otro subdominio o puerto de un sitio conservado, como uno que no visitas desde hace meses o un servidor local en otro puerto, pierde sus datos, y es posible que se cierre tu sesión en él."
+  },
+  "clearing": {
+    "message": "Borrando… Puede tardar unos minutos."
+  },
+  "leftoversFailed": {
+    "message": "No se han podido borrar los datos de sitios restantes."
+  },
+  "leftoversCleared": {
+    "message": "Datos de sitios restantes borrados."
+  },
+  "nothingClearedYet": {
+    "message": "Todavía no se ha borrado nada."
+  },
+  "clearFailed": {
+    "message": "El borrado del $WHEN$ ha fallado.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ entrada del historial",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ entradas del historial",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "nada"
+  },
+  "lastCleared": {
+    "message": "Último borrado: $WHEN$. Eliminado: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Último borrado: $WHEN$. Eliminado: $WHAT$, junto con los datos de sitios y la caché.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Último borrado: $WHEN$. Eliminado: $WHAT$, junto con los datos y la caché de todos los sitios no conservados.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Se han omitido el historial y los datos de sitios porque este navegador no permite que las extensiones los borren."
+  },
+  "skippedHistory": {
+    "message": "Se ha omitido el historial porque este navegador no permite que las extensiones lo borren."
+  },
+  "skippedSiteData": {
+    "message": "Se han omitido los datos de sitios porque este navegador no permite que las extensiones los borren."
+  },
+  "cookiesSkipped": {
+    "message": "Se han omitido las cookies porque el acceso a los sitios está desactivado."
+  },
+  "loadFailed": {
+    "message": "No se ha podido cargar la configuración."
+  }
+}

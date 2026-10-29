@@ -1,3 +1,6 @@
+import { applyPlaybackSpeed } from "../src/page.js";
+
+
 /*
  * Adds a muted, looping <video> that plays generated silence, so the
  * page has media that is really playing (not paused, enough data
@@ -81,4 +84,20 @@ export async function enterFullscreenPlayer(page) {
 
   await page.click("button");
   await page.waitForFunction(() => document.fullscreenElement !== null);
+}
+
+
+/*
+ * A script that shows the on-page indicator at speed, as the extension
+ * does in English, for page.evaluate() or a tab's evaluate().
+ */
+export function indicatorScript(speed) {
+  const labels = {
+    shown: `${speed}x`,
+    spoken: `Playback speed ${speed} times`,
+    lang: "en",
+    dir: "ltr"
+  };
+
+  return `(${applyPlaybackSpeed})(${speed}, ${JSON.stringify(labels)})`;
 }

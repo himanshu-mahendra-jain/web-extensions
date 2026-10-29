@@ -1,0 +1,42 @@
+Sluit het huidige tabblad met een tik met drie vingers, een middelklik of een klik op de werkbalk.
+
+Three Finger Tap to Close Tab is een lichte opensource-extensie waarmee u het huidige browsertabblad snel en eenvoudig sluit.
+
+Tik met drie vingers of klik met de middelste knop ergens op een webpagina buiten links en bewerkbare velden om het huidige tabblad te sluiten. U kunt ook op het pictogram van de extensie in de werkbalk klikken.
+
+Tip: schakel in het extensiemenu van Edge «Weergeven op werkbalk» in voor Three Finger Tap to Close Tab om het pictogram altijd binnen handbereik te hebben.
+
+Een middelklik op links en feedkaarten houdt het gewone gedrag van de browser, zodat u links en berichten zoals altijd in nieuwe tabbladen opent. Een ingebouwde veiligheidsmarge voorkomt dat het tabblad per ongeluk sluit als u net naast een link of bedieningselement tikt.
+
+BELANGRIJKSTE FUNCTIES
+
+• Sluit het huidige tabblad met een tik met drie vingers
+• Sluit het huidige tabblad met een middelklik
+• Sluit het huidige tabblad met een klik op de werkbalk
+• Houdt de gewone middelklik op links, knoppen en feedkaarten
+• Een veiligheidsmarge voorkomt per ongeluk sluiten naast interactieve elementen
+• Sluit geen tabbladen terwijl u formulieren en bewerkbare velden gebruikt
+• Geen pop-upmenu's of instellingen
+
+TOUCHPAD INSTELLEN
+
+Uw touchpad en besturingssysteem moeten zo zijn ingesteld dat een tik met drie vingers een middelklik geeft.
+
+Tik daarna met drie vingers op een webpagina buiten links en interactieve inhoud om het huidige tabblad te sluiten.
+
+PRIVACY
+
+• Geen analyse of tracking
+• Geen verzameling van gegevens of browsegeschiedenis
+• Geen netwerkverzoeken
+• Geen opgeslagen browseactiviteit of voorkeuren
+
+Tabbladen worden altijd lokaal in uw browser gesloten.
+
+OPEN SOURCE
+
+Three Finger Tap to Close Tab is open source en gelicentieerd onder de MIT-licentie.
+
+Bekijk de broncode, meld problemen of draag bij op GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

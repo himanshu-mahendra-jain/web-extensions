@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "வீடியோ, ஆடியோ இயக்க வேகத்தை 1x, 1.2x, 1.5x, 2x இடையே விரைவாக மாற்றுக."
+  },
+  "commandDescription": {
+    "message": "வீடியோ இயக்க வேகத்தை மாற்று"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "இயக்க வேகம் $SPEED$ மடங்கு",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "இயக்க வேகம்: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

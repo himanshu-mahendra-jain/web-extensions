@@ -7,6 +7,7 @@ import { promisify } from "node:util";
 
 import { test as base, expect } from "@playwright/test";
 
+import { androidDevice } from "./android-device.js";
 import { buildFirefoxPackage } from "./firefox-package.js";
 import { RemoteFirefox, withTimeout } from "./firefox-rdp.js";
 
@@ -18,10 +19,10 @@ export { expect };
  * Runs an extension's Firefox package in Firefox for Android on a
  * device, installed with web-ext and driven over the debugger socket.
  *
- * FIREFOX_ANDROID_DEVICE is the adb serial of the device, and
+ * The device is the one android-device.js resolves, and
  * FIREFOX_ANDROID_APK the Firefox package (Nightly by default).
  */
-const DEVICE = process.env.FIREFOX_ANDROID_DEVICE;
+const DEVICE = androidDevice();
 const APK = process.env.FIREFOX_ANDROID_APK || "org.mozilla.fenix";
 const ADB = process.env.ADB || "adb";
 
@@ -375,6 +376,52 @@ async function startWebExt(packageDir) {
 }
 
 
+/*
+ * Moves Firefox's window to the device's default display, display 0,
+ * once web-ext has started it. On ChromeOS the window may open on an
+ * external monitor instead of the built-in screen, and a screenshot's
+ * size follows the density of the display it is taken on, so the
+ * baselines would match or fail by where the window landed. A device
+ * with one display has nothing to move.
+ */
+async function moveFirefoxToDefaultDisplay() {
+  const firefoxRootTask = async () => {
+    let rootTask;
+
+    for (const line of (await adb("shell", "am", "stack", "list")).split("\n")) {
+      const root = /^RootTask id=(\d+) .*\bdisplayId=(\d+)/.exec(line);
+
+      if (root) {
+        rootTask = { id: root[1], displayId: root[2] };
+      } else if (rootTask && /^\s*taskId=\d+: /.test(line) && line.includes(`${APK}/`)) {
+        return rootTask;
+      }
+    }
+
+    return undefined;
+  };
+
+  const found = await firefoxRootTask();
+
+  if (!found || found.displayId === "0") {
+    return;
+  }
+
+  await adb("shell", "am", "display", "move-stack", found.id, "0");
+
+  // The window is laid out again for the new display's density.
+  for (let tries = 0; tries < 25; tries += 1) {
+    if ((await firefoxRootTask())?.displayId === "0") {
+      return;
+    }
+
+    await sleep(200);
+  }
+
+  throw new Error("Firefox's window did not move to the default display.");
+}
+
+
 async function stopWebExt(webExt) {
   if (webExt.exitCode !== null || webExt.signalCode !== null) {
     return;
@@ -414,6 +461,7 @@ export class FirefoxAndroid {
 
     try {
       firefox.#webExt = await startWebExt(packageDir);
+      await moveFirefoxToDefaultDisplay();
       await firefox.#attach();
       await firefox.#checkManifest(packageDir);
     } catch (error) {

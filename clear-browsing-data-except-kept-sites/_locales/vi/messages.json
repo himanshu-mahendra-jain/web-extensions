@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "Xóa lịch sử, cookie và dữ liệu trang web khi trình duyệt khởi động, cho mọi trang web trừ những trang bạn giữ lại."
+  },
+  "optionsTitle": {
+    "message": "Trang web được giữ lại | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Kho GitHub, mở trong thẻ mới"
+  },
+  "accessHeading": {
+    "message": "Quyền truy cập trang web đang tắt"
+  },
+  "allowSiteAccess": {
+    "message": "Cho phép truy cập trang web"
+  },
+  "accessHistorySiteData": {
+    "message": "Khi không có quyền truy cập trang web, tiện ích không thể xóa cookie. Lịch sử và dữ liệu trang web vẫn được xóa."
+  },
+  "accessHistory": {
+    "message": "Khi không có quyền truy cập trang web, tiện ích không thể xóa cookie. Lịch sử vẫn được xóa."
+  },
+  "accessSiteData": {
+    "message": "Khi không có quyền truy cập trang web, tiện ích không thể xóa cookie. Dữ liệu trang web vẫn được xóa."
+  },
+  "accessNothing": {
+    "message": "Khi không có quyền truy cập trang web, tiện ích không thể xóa cookie, nên không có gì được xóa."
+  },
+  "clearingOffHeading": {
+    "message": "Tính năng xóa đang tắt"
+  },
+  "clearingOffText": {
+    "message": "Chưa có gì bị xóa. Hãy thêm các trang web mà bạn muốn duy trì trạng thái đăng nhập, rồi bật tính năng xóa. Từ đó, mỗi khi trình duyệt khởi động, dữ liệu ($DATA$) của mọi trang web khác sẽ bị xóa.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Bật tính năng xóa"
+  },
+  "keptSitesHeading": {
+    "message": "Trang web được giữ lại"
+  },
+  "intro": {
+    "message": "Những trang web này và các miền con của chúng giữ lại dữ liệu ($DATA$), nên bạn vẫn đăng nhập. Khi tính năng xóa đang bật, mọi trang web khác sẽ mất dữ liệu đó mỗi khi trình duyệt khởi động.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Miền trang web"
+  },
+  "keep": {
+    "message": "Giữ lại"
+  },
+  "siteHint": {
+    "message": "Phân tách nhiều trang web bằng dấu phẩy."
+  },
+  "noSites": {
+    "message": "Chưa có trang web nào được giữ lại, nên khi xóa, dữ liệu ($DATA$) của mọi trang web sẽ bị xóa.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Trang web được giữ lại"
+  },
+  "clearingHeading": {
+    "message": "Xóa"
+  },
+  "clearOnStartupLabel": {
+    "message": "Tự động xóa khi trình duyệt khởi động"
+  },
+  "clearNow": {
+    "message": "Xóa ngay"
+  },
+  "firstClearHint": {
+    "message": "Lần xóa đầu tiên có thể mất vài phút nếu trình duyệt có nhiều dữ liệu duyệt web. Trong lúc đó, bạn vẫn có thể tiếp tục duyệt web."
+  },
+  "leftoversHeading": {
+    "message": "Dữ liệu trang web còn sót"
+  },
+  "leftoversIntro": {
+    "message": "Khi lịch sử và cookie của một trang web đã bị xóa, tiện ích không còn tìm thấy trang đó, nên bộ nhớ cục bộ, cơ sở dữ liệu và bộ nhớ đệm của trang vẫn còn. Xóa phần còn sót sẽ xóa dữ liệu của mọi trang web bạn không giữ lại, dù có được tìm thấy hay không, sau một lần xóa như Xóa ngay."
+  },
+  "clearLeftovers": {
+    "message": "Xóa phần còn sót"
+  },
+  "transferHeading": {
+    "message": "Nhập và xuất"
+  },
+  "transferIntro": {
+    "message": "Lưu các trang web được giữ lại vào tệp văn bản, hoặc thay chúng bằng các trang web trong một tệp. Tệp có thể liệt kê mỗi dòng một trang web hoặc phân tách bằng dấu phẩy."
+  },
+  "export": {
+    "message": "Xuất"
+  },
+  "import": {
+    "message": "Nhập"
+  },
+  "cancel": {
+    "message": "Hủy"
+  },
+  "dataAll": {
+    "message": "lịch sử, cookie và dữ liệu trang web"
+  },
+  "dataNoHistory": {
+    "message": "cookie và dữ liệu trang web"
+  },
+  "dataNoSiteData": {
+    "message": "lịch sử và cookie"
+  },
+  "dataCookies": {
+    "message": "cookie"
+  },
+  "remove": {
+    "message": "Gỡ"
+  },
+  "removeSite": {
+    "message": "Gỡ $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "Đã gỡ $SITE$. Dữ liệu của trang ($DATA$) sẽ bị xóa trong lần xóa tiếp theo.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Không thể gỡ trang web."
+  },
+  "siteKept": {
+    "message": "Đã giữ lại $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Đã giữ lại $COUNT$ trang web.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Đã giữ lại $COUNT$ trang web.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ đã được giữ lại.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ trang web đã được giữ lại.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ trang web đã được giữ lại.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ không phải là miền hợp lệ.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Đây không phải là các miền hợp lệ: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Nhập một miền hợp lệ, chẳng hạn example.com."
+  },
+  "addSiteFailed": {
+    "message": "Không thể thêm trang web."
+  },
+  "addSitesFailed": {
+    "message": "Không thể thêm các trang web."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ lớn hơn 1 MB, nên các trang web được giữ lại không thay đổi.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ không có miền hợp lệ nào, nên các trang web được giữ lại không thay đổi.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Thay thế các trang web được giữ lại?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ trang web",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ trang web",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Các trang web bạn đang giữ lại ($CURRENT$) sẽ được thay bằng các trang web trong $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ trang web sẽ không còn được giữ lại và dữ liệu ($DATA$) của trang sẽ bị xóa trong lần xóa tiếp theo.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ trang web sẽ không còn được giữ lại và dữ liệu ($DATA$) của chúng sẽ bị xóa trong lần xóa tiếp theo.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Thay thế trang web được giữ lại"
+  },
+  "sitesImported_one": {
+    "message": "Đã nhập $COUNT$ trang web từ $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Đã nhập $COUNT$ trang web từ $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Không thể xuất các trang web được giữ lại."
+  },
+  "importFailed": {
+    "message": "Không thể nhập các trang web được giữ lại từ $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Bật tính năng xóa?"
+  },
+  "turnOnKept": {
+    "message": "Mỗi khi trình duyệt khởi động, dữ liệu ($DATA$) của mọi trang web sẽ bị xóa, trừ những trang bạn đã chọn giữ lại. Bạn sẽ bị đăng xuất khỏi mọi trang web khác.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Bạn chưa chọn trang web nào để giữ lại. Mỗi khi trình duyệt khởi động, mọi dữ liệu ($DATA$) sẽ bị xóa và bạn sẽ bị đăng xuất khỏi mọi trang web.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Dữ liệu đã xóa ($DATA$) không thể khôi phục.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Xóa mọi thứ ngay bây giờ?"
+  },
+  "clearEverythingText": {
+    "message": "Bạn chưa chọn trang web nào để giữ lại, nên dữ liệu ($DATA$) của mọi trang web sẽ bị xóa ngay bây giờ và bạn sẽ bị đăng xuất khỏi mọi trang web.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Xóa mọi thứ"
+  },
+  "leftoversTitle": {
+    "message": "Xóa dữ liệu trang web còn sót?"
+  },
+  "leftoversKept": {
+    "message": "Dữ liệu ($DATA$) của mọi trang web bạn không giữ lại sẽ bị xóa ngay bây giờ, kể cả dữ liệu của các trang web mà tiện ích không còn tìm thấy.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Một trang web được giữ lại chỉ giữ dữ liệu của nó ở những địa chỉ mà tiện ích tìm thấy trong lịch sử, cookie và các thẻ đang mở. Mọi miền con hoặc cổng khác của trang web được giữ lại, chẳng hạn một miền con bạn đã không truy cập nhiều tháng hoặc một máy chủ cục bộ ở cổng khác, sẽ mất dữ liệu và bạn có thể bị đăng xuất khỏi đó."
+  },
+  "clearing": {
+    "message": "Đang xóa… Việc này có thể mất vài phút."
+  },
+  "leftoversFailed": {
+    "message": "Không thể xóa dữ liệu trang web còn sót."
+  },
+  "leftoversCleared": {
+    "message": "Đã xóa dữ liệu trang web còn sót."
+  },
+  "nothingClearedYet": {
+    "message": "Chưa xóa gì."
+  },
+  "clearFailed": {
+    "message": "Lần xóa lúc $WHEN$ không thành công.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ mục lịch sử",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ mục lịch sử",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "không có gì"
+  },
+  "lastCleared": {
+    "message": "Lần xóa gần nhất: $WHEN$. Đã xóa: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Lần xóa gần nhất: $WHEN$. Đã xóa: $WHAT$, cùng dữ liệu trang web và bộ nhớ đệm.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Lần xóa gần nhất: $WHEN$. Đã xóa: $WHAT$, cùng dữ liệu và bộ nhớ đệm của mọi trang web không được giữ lại.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Đã bỏ qua lịch sử và dữ liệu trang web vì trình duyệt này không cho phép tiện ích xóa chúng."
+  },
+  "skippedHistory": {
+    "message": "Đã bỏ qua lịch sử vì trình duyệt này không cho phép tiện ích xóa lịch sử."
+  },
+  "skippedSiteData": {
+    "message": "Đã bỏ qua dữ liệu trang web vì trình duyệt này không cho phép tiện ích xóa dữ liệu đó."
+  },
+  "cookiesSkipped": {
+    "message": "Đã bỏ qua cookie vì quyền truy cập trang web đang tắt."
+  },
+  "loadFailed": {
+    "message": "Không thể tải phần cài đặt."
+  }
+}

@@ -1,0 +1,42 @@
+Đóng thẻ hiện tại bằng cách chạm ba ngón, nhấp chuột giữa hoặc nhấp trên thanh công cụ.
+
+Three Finger Tap to Close Tab là tiện ích mở rộng nhẹ, mã nguồn mở, giúp bạn đóng thẻ trình duyệt hiện tại nhanh chóng và đơn giản.
+
+Chạm ba ngón hoặc nhấp chuột giữa ở bất kỳ đâu trên trang web, bên ngoài liên kết và trường có thể chỉnh sửa, để đóng thẻ hiện tại. Bạn cũng có thể nhấp vào biểu tượng tiện ích trên thanh công cụ để đóng thẻ.
+
+Trong Firefox dành cho Android, chạm vào Three Finger Tap to Close Tab trong menu Tiện ích mở rộng của trình duyệt để đóng thẻ hiện tại. Chạm vào màn hình không phải là nhấp chuột giữa, nên chạm vào trang web sẽ không bao giờ đóng thẻ.
+
+Nhấp chuột giữa vào liên kết và thẻ bảng tin vẫn giữ hành vi thông thường của trình duyệt, nên bạn vẫn mở liên kết và bài đăng trong thẻ mới như bình thường. Vùng an toàn tích hợp giúp tránh đóng thẻ do vô tình nếu bạn chạm ngay cạnh liên kết hoặc nút điều khiển.
+
+TÍNH NĂNG CHÍNH
+
+• Đóng thẻ hiện tại bằng cách chạm ba ngón
+• Đóng thẻ hiện tại bằng cách nhấp chuột giữa
+• Đóng thẻ hiện tại bằng cách nhấp trên thanh công cụ
+• Giữ nguyên thao tác nhấp chuột giữa trên liên kết, nút và thẻ bảng tin
+• Vùng an toàn giúp tránh đóng thẻ do vô tình gần các phần tử tương tác
+• Không đóng thẻ khi bạn đang dùng biểu mẫu và trường có thể chỉnh sửa
+• Không có menu bật lên hay cài đặt
+
+THIẾT LẬP BÀN DI CHUỘT
+
+Bàn di chuột và hệ điều hành phải được thiết lập để thao tác chạm ba ngón tạo ra cú nhấp chuột giữa.
+
+Sau khi thiết lập, chạm ba ngón lên trang web bên ngoài liên kết và nội dung tương tác để đóng thẻ hiện tại.
+
+QUYỀN RIÊNG TƯ
+
+• Không phân tích hay theo dõi
+• Không thu thập dữ liệu hay lịch sử duyệt web
+• Không gửi yêu cầu mạng
+• Không lưu hoạt động duyệt web hay tùy chọn
+
+Mọi thao tác đóng thẻ đều diễn ra cục bộ trong trình duyệt của bạn.
+
+MÃ NGUỒN MỞ
+
+Three Finger Tap to Close Tab là dự án mã nguồn mở phát hành theo giấy phép MIT.
+
+Xem mã nguồn, báo cáo sự cố hoặc đóng góp trên GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Engedélyezi a másolást, a szövegkijelölést és a jobb gombos menüket a korlátozó weboldalakon."
+  },
+  "commandDescription": {
+    "message": "Másolás és jobb kattintás engedélyezése az aktuális oldalon"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: aktív",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "A másolás és a jobb kattintás engedélyezve."
+  },
+  "optionsTitle": {
+    "message": "Automatikus webhelyek | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub-tároló, új lapon nyílik meg"
+  },
+  "automaticSitesHeading": {
+    "message": "Automatikus webhelyek"
+  },
+  "automaticSitesIntro": {
+    "message": "A másolás, a szövegkijelölés és a jobb kattintás automatikus engedélyezése a hozzáadott webhelyeken."
+  },
+  "siteInputLabel": {
+    "message": "Webhely domainje"
+  },
+  "addSite": {
+    "message": "Webhely hozzáadása"
+  },
+  "noSites": {
+    "message": "Még nincs automatikus webhely hozzáadva."
+  },
+  "siteListLabel": {
+    "message": "Automatikus webhelyek"
+  },
+  "remove": {
+    "message": "Eltávolítás"
+  },
+  "removeSite": {
+    "message": "$SITE$ eltávolítása",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (engedély visszavonva)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ hozzáadva.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ újra engedélyezve.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ eltávolítva.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Ez a webhely már engedélyezve van."
+  },
+  "invalidDomain": {
+    "message": "Adjon meg egy érvényes domaint, például: example.com."
+  },
+  "permissionNotGranted": {
+    "message": "A webhely engedélyét nem adta meg."
+  },
+  "addFailed": {
+    "message": "Nem sikerült hozzáadni a webhelyet."
+  },
+  "removeFailed": {
+    "message": "Nem sikerült eltávolítani a webhelyet."
+  },
+  "loadFailed": {
+    "message": "Nem sikerült betölteni a webhelyek listáját."
+  }
+}

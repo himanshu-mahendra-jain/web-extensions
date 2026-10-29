@@ -1,0 +1,91 @@
+Löscht beim Browserstart Verlauf, Cookies und Websitedaten aller Websites außer denen, die Sie behalten.
+
+Firefox für Android erlaubt Erweiterungen nicht, den Verlauf zu löschen, daher werden dort nur Cookies und Websitedaten gelöscht.
+
+Clear Browsing Data Except Kept Sites ist eine schlanke Open-Source-Erweiterung, die Verlaufseinträge, Cookies und Websitedaten aller Websites löscht, die Sie nicht zum Behalten ausgewählt haben.
+
+Fügen Sie in den Einstellungen die Websites hinzu, bei denen Sie angemeldet bleiben möchten und die gespeichert bleiben sollen, und schalten Sie dann das Löschen ein. Bei jedem Browserstart löscht die Erweiterung Verlauf und Cookies aller anderen Websites. Mit „Jetzt löschen“ können Sie auch jederzeit löschen.
+
+WICHTIGSTE FUNKTIONEN
+
+• Eine Liste von Websites, deren Verlauf und Cookies nie gelöscht werden, als Textdatei importieren oder exportieren
+• Verlauf und Cookies aller anderen Websites beim Browserstart löschen, sobald Sie es einschalten
+• Mit „Jetzt löschen“ in den Einstellungen jederzeit löschen
+• Subdomains einer behaltenen Website automatisch behalten
+• Die Cookies der übergeordneten Domain behalten, die eine behaltene Website zum Angemeldetbleiben braucht
+• Partitionierte Cookies (von Drittanbietern) und Container-Cookies löschen; die partitionierten Cookies einer behaltenen Website bleiben nur unter behaltenen Websites erhalten
+• Lokalen Speicher, IndexedDB, Service Worker und Cache nicht behaltener Websites löschen
+• Das Ergebnis des letzten Löschvorgangs in den Einstellungen anzeigen
+• Warnen, wenn der Websitezugriff aus ist und Cookies nicht gelöscht werden können
+• Keine Analyse oder Nachverfolgung
+• Kein Remote-Code und keine Netzwerkanfragen
+
+BEHALTENE WEBSITES
+
+Öffnen Sie die Einstellungen und fügen Sie eine Domain hinzu, zum Beispiel:
+
+example.com
+
+Um mehrere auf einmal hinzuzufügen, trennen Sie sie mit Kommas.
+
+„Exportieren“ speichert die Liste als Textdatei mit einer Domain pro Zeile. „Importieren“ ersetzt die Liste durch die Websites aus einer Textdatei und warnt vorher, wenn dabei Websites wegfallen, die Sie jetzt behalten.
+
+Eine Adresse wie mail.example.com/inbox wird auf ihre Domain gekürzt, ein vorangestelltes www. entfällt. localhost und IPv4-Adressen wie 192.168.1.1 werden ebenfalls akzeptiert.
+
+Wer example.com behält, behält Verlauf und Cookies von example.com und allen Subdomains. Wer mail.example.com behält, behält auch die Cookies von example.com, weil diese oft die Anmeldung der Subdomain enthalten.
+
+EINSTELLUNGEN ÖFFNEN
+
+Die Einstellungen öffnen sich nach der Installation automatisch, sodass Sie die Liste füllen können, bevor Sie das Löschen einschalten. Später klicken Sie auf das Symbol der Erweiterung in der Symbolleiste. In Firefox für Android tippen Sie im Erweiterungsmenü des Browsers auf Clear Browsing Data Except Kept Sites.
+
+Sie können sie auch über den Add-ons-Manager öffnen:
+
+1. Öffnen Sie das Firefox-Menü und wählen Sie „Add-ons und Themes“.
+2. Suchen Sie Clear Browsing Data Except Kept Sites und klicken Sie auf das Drei-Punkte-Menü daneben.
+3. Wählen Sie „Einstellungen“.
+
+LÖSCHEN BEIM START
+
+Nach der Installation ist das Löschen aus, es wird also nichts entfernt, bis Sie es veranlassen. Die Einstellungen zeigen den Hinweis „Löschen ist aus“ mit der Schaltfläche „Löschen einschalten“. Beim Einschalten erscheint zuerst eine Warnung: Jeder Start löscht Verlauf und Cookies aller Websites außer den behaltenen und meldet Sie dort ab, oder bei allen Websites, wenn keine behalten werden.
+
+Ist es eingeschaltet, läuft das Löschen bei jedem Browserstart, weil der Browser Erweiterungen beim Beenden nicht ausführen lässt. Das Löschen beim Start entfernt, was die vorige Sitzung hinterlassen hat. Mit „Beim Browserstart automatisch löschen“ in den Einstellungen schalten Sie es aus oder wieder ein.
+
+JETZT LÖSCHEN
+
+„Jetzt löschen“ in den Einstellungen löscht sofort. Werden keine Websites behalten, erscheint zuerst eine rote Warnung, dass alles gelöscht wird. Die Einstellungen zeigen, wann zuletzt gelöscht wurde und wie viele Verlaufseinträge und Cookies dabei gelöscht wurden.
+
+WEBSITEZUGRIFF
+
+Cookies lassen sich nur für Websites entfernen, auf die die Erweiterung zugreifen darf, daher fragt sie nach Zugriff auf alle Websites. Wenn Sie den Websitezugriff ausschalten, wird der Verlauf weiterhin gelöscht, Cookies werden aber übersprungen, und die Einstellungen zeigen die Schaltfläche „Websitezugriff erlauben“.
+
+EINSCHRÄNKUNGEN
+
+• Beim Start wiederhergestellte Tabs können neue Cookies setzen, während das Löschen läuft. Diese Cookies bleiben bis zum nächsten Start oder bis „Jetzt löschen“.
+• Firefox kann Websitedaten nicht mit Ausnahme ausgewählter Websites löschen, daher löscht die Erweiterung lokalen Speicher, IndexedDB und Service Worker jeder nicht behaltenen Website, die sie in Verlauf, Cookies und offenen Tabs findet. Eine Website, die in keinem davon vorkommt, behält ihre Daten. Eine Website mit einer behaltenen Subdomain behält ihre Service Worker, weil Firefox die der Subdomain mitlöschen würde. Der Cache wird für alle Websites gelöscht, weil Firefox ihn nicht pro Website löschen kann; dabei wird niemand abgemeldet.
+• Firefox kann den Cache Storage, also die Offline-Dateien von Service Workern, nicht pro Website löschen, daher wird er nicht gelöscht. Um zu entfernen, was die Erweiterung nicht erreicht, nutzen Sie Einstellungen > Datenschutz & Sicherheit > Cookies und Website-Daten > Daten verwalten.
+• Wenn die Synchronisierung des Browsers den Verlauf einschließt, werden entfernte Verlaufseinträge möglicherweise auch auf Ihren anderen Geräten entfernt.
+• Private Fenster werden nur gelöscht, wenn die Erweiterung darin ausgeführt werden darf.
+
+DATENSCHUTZ
+
+• Keine Analyse oder Nachverfolgung
+• Keine Datenerfassung
+• Keine Netzwerkanfragen
+• Kein Remote-Code
+• Kein externes JavaScript
+• Verlauf und Cookies werden nur gelesen, um zu entscheiden, was entfernt wird, und nur in Ihrem Browser
+• Die Liste und die Einstellungen werden lokal in Ihrem Browser gespeichert
+
+LEISTUNG
+
+Die Erweiterung arbeitet nicht, während Sie surfen. Sie läuft einmal beim Browserstart, wenn das Löschen eingeschaltet ist, und wenn Sie auf „Jetzt löschen“ klicken.
+
+Der erste Löschvorgang eines langen Verlaufs kann einige Minuten dauern, weil jeder Verlaufseintrag einzeln gelöscht wird. Sie können währenddessen weitersurfen. Spätere Löschvorgänge entfernen nur die Einträge der vorigen Sitzung.
+
+OPEN SOURCE
+
+Clear Browsing Data Except Kept Sites ist Open Source und unter der MIT-Lizenz lizenziert.
+
+Quellcode einsehen, Probleme melden oder beitragen auf GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "നിയന്ത്രിത വെബ്‌പേജുകളിൽ പകർത്തൽ, ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കൽ, റൈറ്റ് ക്ലിക്ക് മെനുകൾ എന്നിവ പ്രവർത്തനക്ഷമമാക്കുക."
+  },
+  "commandDescription": {
+    "message": "നിലവിലെ പേജിൽ പകർത്തലും റൈറ്റ് ക്ലിക്കും പ്രവർത്തനക്ഷമമാക്കുക"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: സജീവം",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "പകർത്തലും റൈറ്റ് ക്ലിക്കും പ്രവർത്തനക്ഷമമാക്കി."
+  },
+  "optionsTitle": {
+    "message": "സ്വയമേവയുള്ള സൈറ്റുകൾ | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub റിപ്പോസിറ്ററി, പുതിയ ടാബിൽ തുറക്കും"
+  },
+  "automaticSitesHeading": {
+    "message": "സ്വയമേവയുള്ള സൈറ്റുകൾ"
+  },
+  "automaticSitesIntro": {
+    "message": "നിങ്ങൾ ചേർക്കുന്ന വെബ്‌സൈറ്റുകളിൽ പകർത്തൽ, ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കൽ, റൈറ്റ് ക്ലിക്ക് എന്നിവ സ്വയമേവ പ്രവർത്തനക്ഷമമാക്കുക."
+  },
+  "siteInputLabel": {
+    "message": "വെബ്‌സൈറ്റ് ഡൊമെയ്ൻ"
+  },
+  "addSite": {
+    "message": "സൈറ്റ് ചേർക്കുക"
+  },
+  "noSites": {
+    "message": "ഇതുവരെ സ്വയമേവയുള്ള സൈറ്റുകളൊന്നും ചേർത്തിട്ടില്ല."
+  },
+  "siteListLabel": {
+    "message": "സ്വയമേവയുള്ള സൈറ്റുകൾ"
+  },
+  "remove": {
+    "message": "നീക്കം ചെയ്യുക"
+  },
+  "removeSite": {
+    "message": "$SITE$ നീക്കം ചെയ്യുക",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (അനുമതി നീക്കം ചെയ്തു)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ ചേർത്തു.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ വീണ്ടും പ്രവർത്തനക്ഷമമാക്കി.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ നീക്കം ചെയ്തു.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "ഈ സൈറ്റ് ഇതിനകം പ്രവർത്തനക്ഷമമാണ്."
+  },
+  "invalidDomain": {
+    "message": "example.com പോലുള്ള സാധുവായ ഡൊമെയ്ൻ നൽകുക."
+  },
+  "permissionNotGranted": {
+    "message": "സൈറ്റ് അനുമതി നൽകിയില്ല."
+  },
+  "addFailed": {
+    "message": "സൈറ്റ് ചേർക്കാനായില്ല."
+  },
+  "removeFailed": {
+    "message": "സൈറ്റ് നീക്കം ചെയ്യാനായില്ല."
+  },
+  "loadFailed": {
+    "message": "സൈറ്റുകളുടെ ലിസ്റ്റ് ലോഡ് ചെയ്യാനായില്ല."
+  }
+}

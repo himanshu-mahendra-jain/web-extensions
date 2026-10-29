@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Įjunkite kopijavimą, teksto žymėjimą ir dešiniojo spustelėjimo meniu tinklalapiuose, kurie juos riboja."
+  },
+  "commandDescription": {
+    "message": "Įjungti kopijavimą ir dešinįjį spustelėjimą dabartiniame puslapyje"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: įjungta",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopijavimas ir dešinysis spustelėjimas įjungti."
+  },
+  "optionsTitle": {
+    "message": "Automatinės svetainės | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub saugykla, atidaroma naujame skirtuke"
+  },
+  "automaticSitesHeading": {
+    "message": "Automatinės svetainės"
+  },
+  "automaticSitesIntro": {
+    "message": "Automatiškai įjunkite kopijavimą, teksto žymėjimą ir dešinįjį spustelėjimą pridėtose svetainėse."
+  },
+  "siteInputLabel": {
+    "message": "Svetainės domenas"
+  },
+  "addSite": {
+    "message": "Pridėti svetainę"
+  },
+  "noSites": {
+    "message": "Automatinių svetainių dar nepridėta."
+  },
+  "siteListLabel": {
+    "message": "Automatinės svetainės"
+  },
+  "remove": {
+    "message": "Šalinti"
+  },
+  "removeSite": {
+    "message": "Šalinti $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (leidimas atšauktas)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ pridėta.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ vėl įjungta.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ pašalinta.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Ši svetainė jau įjungta."
+  },
+  "invalidDomain": {
+    "message": "Įveskite tinkamą domeną, pavyzdžiui, example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Svetainės leidimas nesuteiktas."
+  },
+  "addFailed": {
+    "message": "Nepavyko pridėti svetainės."
+  },
+  "removeFailed": {
+    "message": "Nepavyko pašalinti svetainės."
+  },
+  "loadFailed": {
+    "message": "Nepavyko įkelti svetainių sąrašo."
+  }
+}

@@ -1,0 +1,90 @@
+Wist bij het starten van de browser geschiedenis, cookies en sitegegevens van alle sites behalve de sites die je bewaart.
+
+Clear Browsing Data Except Kept Sites is een lichte, opensource-extensie die de geschiedenisitems, cookies en sitegegevens verwijdert van elke site die je niet hebt gekozen om te bewaren.
+
+Voeg in de instellingen de sites toe waarop je ingelogd wilt blijven en die je wilt onthouden, en zet daarna het wissen aan. Bij elke start van de browser wist de extensie de geschiedenis, cookies en sitegegevens van alle andere sites. Je kunt ook op elk moment wissen met 'Nu wissen'.
+
+Tip: schakel in het extensiemenu van Edge «Weergeven op werkbalk» in voor Clear Browsing Data Except Kept Sites om het pictogram altijd binnen handbereik te hebben.
+
+BELANGRIJKSTE FUNCTIES
+
+• Een lijst met sites waarvan de geschiedenis en cookies nooit worden gewist, te importeren of exporteren als tekstbestand
+• Wist de geschiedenis en cookies van alle andere sites bij het starten van de browser, zodra je het aanzet
+• Wis op elk moment met 'Nu wissen', en wis de overgebleven sitegegevens van sites die niet meer worden gevonden met 'Restanten wissen'
+• Bewaart subdomeinen van een bewaarde site automatisch
+• Bewaart de cookies van het bovenliggende domein die een bewaarde site nodig heeft om ingelogd te blijven
+• Wist gepartitioneerde cookies (van derden); de gepartitioneerde cookies van een bewaarde site blijven alleen onder bewaarde sites bewaard
+• Wist lokale opslag, IndexedDB, service workers en cache van sites die niet worden bewaard
+• Toont het resultaat van de laatste wisbeurt in de instellingen
+• Waarschuwt als sitetoegang uitstaat en cookies niet kunnen worden gewist
+• Geen analyse of tracking
+• Geen externe code of netwerkverzoeken
+
+BEWAARDE SITES
+
+Open de instellingen en voeg een domein toe, bijvoorbeeld:
+
+example.com
+
+Scheid ze met komma's om er meerdere tegelijk toe te voegen.
+
+'Exporteren' slaat de lijst op als tekstbestand, één domein per regel. 'Importeren' vervangt de lijst door de sites uit een tekstbestand en waarschuwt eerst als daardoor sites wegvallen die je nu bewaart.
+
+Een adres zoals mail.example.com/inbox wordt ingekort tot het domein, en een www. aan het begin valt weg. localhost en IPv4-adressen zoals 192.168.1.1 worden ook geaccepteerd.
+
+Als je example.com bewaart, worden de geschiedenis, cookies en sitegegevens van example.com en al zijn subdomeinen bewaard. Als je mail.example.com bewaart, worden ook de cookies van example.com bewaard, omdat die vaak de aanmelding van het subdomein bevatten.
+
+DE INSTELLINGEN OPENEN
+
+De instellingen openen na de installatie automatisch, zodat je de lijst kunt vullen voordat je het wissen aanzet. Klik later op het pictogram van de extensie in de werkbalk, of:
+
+1. Klik met de rechtermuisknop op het pictogram van de extensie in de werkbalk.
+2. Selecteer Extensieopties.
+
+WISSEN BIJ HET STARTEN
+
+Na de installatie staat wissen uit, dus er wordt niets verwijderd totdat je erom vraagt. De instellingen tonen de melding 'Wissen staat uit' met de knop 'Wissen aanzetten'. Bij het aanzetten verschijnt eerst een waarschuwing: elke start verwijdert de geschiedenis en cookies van alle sites behalve de bewaarde en logt je daar uit, of op alle sites als er geen worden bewaard.
+
+Eenmaal aan wordt er gewist bij elke start van de browser, omdat de browser extensies niet laat werken bij het afsluiten. Wissen bij het starten verwijdert wat de vorige sessie heeft achtergelaten. Zet het uit of weer aan met 'Automatisch wissen bij het starten van de browser' in de instellingen.
+
+NU WISSEN EN RESTANTEN WISSEN
+
+'Nu wissen' in de instellingen wist meteen. Als er geen sites worden bewaard, verschijnt eerst een rode waarschuwing dat alles wordt verwijderd. De instellingen tonen wanneer de laatste wisbeurt was en hoeveel geschiedenisitems en cookies die heeft verwijderd.
+
+Zodra een wisbeurt de geschiedenis en cookies van een site heeft verwijderd, vinden latere wisbeurten die site niet meer, dus blijven de lokale opslag, databases en cache ervan staan. 'Restanten wissen' voert een wisbeurt uit en verwijdert daarna de sitegegevens van alle sites die je niet bewaart, gevonden of niet. De browser kan hier alleen exacte sites sparen, dus een bewaarde site behoudt zijn gegevens alleen voor de site zelf en de bewaarde sites die de wisbeurt vindt in geschiedenis, cookies en open tabbladen; een rode waarschuwing meldt dit eerst.
+
+SITETOEGANG
+
+Cookies kunnen alleen worden verwijderd voor sites waartoe de extensie toegang heeft, dus vraagt ze toegang tot alle websites. Als je de sitetoegang beperkt, bijvoorbeeld tot 'Bij klikken', wordt de geschiedenis nog steeds gewist maar worden cookies overgeslagen, en tonen de instellingen de knop 'Sitetoegang toestaan'.
+
+BEPERKINGEN
+
+• Tabbladen die bij het starten worden hersteld, kunnen nieuwe cookies plaatsen terwijl het wissen loopt. Die cookies blijven tot de volgende start of tot 'Nu wissen'.
+• Andere sitegegevens, zoals sessieopslag, sitemachtigingen en bestanden die via de File System API zijn opgeslagen, worden niet gewist.
+• Als de synchronisatie van de browser de geschiedenis omvat, kunnen verwijderde geschiedenisitems ook op je andere apparaten worden verwijderd.
+• InPrivate-vensters worden alleen gewist als de extensie in InPrivate is toegestaan. Edge verwijdert hun gegevens bij het sluiten toch al.
+• IPv6-adressen kunnen niet aan de lijst worden toegevoegd.
+
+PRIVACY
+
+• Geen analyse of tracking
+• Geen gegevensverzameling
+• Geen netwerkverzoeken
+• Geen externe code
+• Geen extern JavaScript
+• Geschiedenis en cookies worden alleen gelezen om te bepalen wat er wordt verwijderd, en alleen in je browser
+• De lijst en de instellingen worden lokaal in je browser opgeslagen
+
+PRESTATIES
+
+De extensie doet niets terwijl je surft. Ze werkt één keer bij het starten van de browser, als wissen aanstaat, en wanneer je op 'Nu wissen' of 'Restanten wissen' klikt.
+
+De eerste wisbeurt van een lange geschiedenis kan enkele minuten duren, omdat elk geschiedenisitem afzonderlijk wordt verwijderd. Je kunt intussen gewoon verder surfen. Latere wisbeurten verwijderen alleen de items van de vorige sessie.
+
+OPEN SOURCE
+
+Clear Browsing Data Except Kept Sites is open source en gelicentieerd onder de MIT-licentie.
+
+Bekijk de broncode, meld problemen of draag bij op GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

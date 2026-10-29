@@ -234,6 +234,26 @@ function firstImport(scriptPath) {
 }
 
 
+/*
+ * The lists of script files the extension's own code injects or
+ * registers, as scripting.executeScript({ files }) and
+ * registerContentScripts([{ js }]) take them: each array of
+ * "src/....js" strings in src/.
+ */
+function injectedScriptLists(extensionPath) {
+  const directory = path.join(extensionPath, "src");
+
+  return fs.readdirSync(directory)
+    .filter((file) => file.endsWith(".js"))
+    .flatMap((file) => {
+      const source = fs.readFileSync(path.join(directory, file), "utf8");
+
+      return [...source.matchAll(/\[((?:\s*"src\/[^"]+\.js",?)+)\s*\]/g)]
+        .map((match) => [...match[1].matchAll(/"([^"]+)"/g)].map((name) => name[1]));
+    });
+}
+
+
 // The scripts in src/ and options/ that call extensionApi, apart from its own files.
 function extensionApiCallers(extensionPath) {
   return ["src", "options"]
@@ -527,8 +547,9 @@ export function testManifests(
     /*
      * Each package calls its browser's namespace through extensionApi:
      * chrome from src/extension-api.js, browser from the Firefox variant.
-     * A content script lists the file before itself; a module imports
-     * it first, so it is set before the module's own code runs.
+     * A content script, in the manifest or injected by the extension's
+     * code, lists the file before itself; a module imports it first, so
+     * it is set before the module's own code runs.
      */
     test("every script that calls extensionApi loads extension-api.js first", () => {
       const api = path.join(extensionPath, "src", "extension-api.js");
@@ -536,9 +557,10 @@ export function testManifests(
       expect(fs.existsSync(api)).toBe(true);
       expect(fs.existsSync(firefoxVariantOf(api))).toBe(true);
 
-      const scriptLists = (chromium.content_scripts ?? []).map((script) => {
-        return (script.js ?? []).map((file) => path.join(extensionPath, file));
-      });
+      const scriptLists = [
+        ...(chromium.content_scripts ?? []).map((script) => script.js ?? []),
+        ...injectedScriptLists(extensionPath)
+      ].map((list) => list.map((file) => path.join(extensionPath, file)));
 
       const late = extensionApiCallers(extensionPath).filter((file) => {
         const lists = scriptLists.filter((list) => list.includes(file));

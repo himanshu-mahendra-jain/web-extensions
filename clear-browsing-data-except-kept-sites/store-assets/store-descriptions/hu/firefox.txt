@@ -1,0 +1,91 @@
+A böngésző indulásakor törli az előzményeket, a sütiket és a webhelyadatokat minden webhelyről, kivéve a megtartottakat.
+
+Az Androidos Firefox nem engedi a bővítményeknek az előzmények törlését, ezért ott csak a sütik és a webhelyadatok törlődnek.
+
+A Clear Browsing Data Except Kept Sites egy könnyű, nyílt forráskódú bővítmény, amely eltávolítja az előzménybejegyzéseket, a sütiket és a webhelyadatokat minden olyan webhelyről, amelyet nem választott megtartásra.
+
+A beállításokban adja hozzá azokat a webhelyeket, amelyeken bejelentkezve szeretne maradni, és amelyekre emlékezni szeretne, majd kapcsolja be a törlést. A böngésző minden indításakor a bővítmény törli az összes többi webhely előzményeit és sütijeit. Bármikor törölhet a(z) „Törlés most” gombbal is.
+
+FŐ FUNKCIÓK
+
+• Webhelyek listája, amelyek előzményei és sütijei soha nem törlődnek, szövegfájlba exportálással és onnan importálással
+• Az összes többi webhely előzményeinek és sütijeinek törlése a böngésző indításakor, miután bekapcsolta
+• Törlés bármikor a(z) „Törlés most” gombbal a beállításokban
+• Egy megtartott webhely aldomainjeinek automatikus megtartása
+• A szülődomain azon sütijeinek megtartása, amelyekre egy megtartott webhelynek szüksége van ahhoz, hogy bejelentkezve maradjon
+• Particionált (harmadik féltől származó) sütik és konténersütik törlése; egy megtartott webhely particionált sütijei csak megtartott webhelyek alatt maradnak meg
+• A nem megtartott webhelyek helyi tárolójának, IndexedDB-jének, service workereinek és gyorsítótárának törlése
+• A legutóbbi törlés eredménye a beállításokban
+• Figyelmeztetés, ha a webhely-hozzáférés ki van kapcsolva, és a sütik nem törölhetők
+• Nincs analitika vagy követés
+• Nincs távoli kód vagy hálózati kérés
+
+MEGTARTOTT WEBHELYEK
+
+Nyissa meg a beállításokat, és adjon hozzá egy domaint, például:
+
+example.com
+
+Ha egyszerre többet szeretne hozzáadni, válassza el őket vesszővel.
+
+Az „Exportálás” szövegfájlba menti a listát, soronként egy domaint. Az „Importálás” lecseréli a listát egy szövegfájl webhelyeire, és előbb figyelmeztet, ha emiatt eltűnnek a most megtartott webhelyek.
+
+Egy olyan cím, mint a mail.example.com/inbox, a domainjére rövidül, a kezdő www. pedig elmarad. A localhost és az IPv4-címek, például a 192.168.1.1, is elfogadottak.
+
+Az example.com megtartása megtartja az example.com és összes aldomainje előzményeit és sütijeit. A mail.example.com megtartása az example.com sütijeit is megtartja, mert azok gyakran tartalmazzák az aldomain bejelentkezését.
+
+A BEÁLLÍTÁSOK MEGNYITÁSA
+
+A beállítások a telepítés után automatikusan megnyílnak, így a törlés bekapcsolása előtt kitöltheti a listát. Később kattintson a bővítmény ikonjára az eszköztáron. Az Androidos Firefoxban koppintson a Clear Browsing Data Except Kept Sites elemre a böngésző Kiegészítők menüjében.
+
+A kiegészítőkezelőből is megnyithatja őket:
+
+1. Nyissa meg a Firefox menüjét, és válassza a Kiegészítők és témák lehetőséget.
+2. Keresse meg az Clear Browsing Data Except Kept Sites bővítményt, és kattintson a mellette lévő hárompontos menüre.
+3. Válassza a Beállítások lehetőséget.
+
+TÖRLÉS INDÍTÁSKOR
+
+Telepítés után a törlés ki van kapcsolva, így semmi sem törlődik, amíg nem kéri. A beállítások a(z) „A törlés ki van kapcsolva” értesítést mutatják a(z) „Törlés bekapcsolása” gombbal. A bekapcsolás előbb figyelmeztetést jelenít meg: minden indítás törli az összes webhely előzményeit és sütijeit a megtartottak kivételével, és kijelentkezteti Önt róluk, vagy az összes webhelyről, ha egy sincs megtartva.
+
+Bekapcsolva a törlés a böngésző minden indításakor lefut, mert a böngésző nem engedi a bővítményeknek, hogy bezáráskor fussanak. Az indításkori törlés eltávolítja, amit az előző munkamenet hagyott hátra. Kapcsolja ki vagy újra be a(z) „Automatikus törlés a böngésző indulásakor” beállítással.
+
+TÖRLÉS MOST
+
+A beállítások „Törlés most” gombja azonnal töröl. Ha egy webhely sincs megtartva, előbb piros figyelmeztetés jelzi, hogy minden törlődik. A beállítások mutatják, mikor volt a legutóbbi törlés, és hány előzménybejegyzést és sütit törölt.
+
+WEBHELY-HOZZÁFÉRÉS
+
+Sütik csak olyan webhelyekről távolíthatók el, amelyekhez a bővítmény hozzáfér, ezért hozzáférést kér minden webhelyhez. Ha kikapcsolja a webhely-hozzáférést, az előzmények továbbra is törlődnek, de a sütik kimaradnak, és a beállítások a(z) „Webhely-hozzáférés engedélyezése” gombot mutatják.
+
+KORLÁTOZÁSOK
+
+• Az indításkor visszaállított lapok új sütiket állíthatnak be, miközben a törlés fut. Ezek a sütik a következő indításig vagy a(z) „Törlés most” használatáig megmaradnak.
+• A Firefox nem tud webhelyadatokat törölni kiválasztott webhelyek kivételével, ezért a bővítmény minden olyan nem megtartott webhely helyi tárolóját, IndexedDB-jét és service workereit törli, amelyet az előzményekben, a sütikben és a megnyitott lapokon talál. Az a webhely, amely ezek egyikében sem jelenik meg, megtartja az adatait. Az a webhely, amelynek egy aldomainje meg van tartva, megtartja a service workereit, mert a Firefox velük együtt az aldomainéit is törölné. A gyorsítótár minden webhelyre törlődik, mert a Firefox nem tudja webhelyenként törölni; ez senkit sem jelentkeztet ki.
+• A Firefox nem tudja webhelyenként törölni a Cache Storage-ot, vagyis a service workerek által mentett offline fájlokat, ezért az nem törlődik. Ha el szeretné távolítani, amit a bővítmény nem ér el, használja a Beállítások > Adatvédelem és biztonság > Sütik és oldaladatok > Adatok kezelése menüpontot.
+• Ha a böngésző szinkronizálása kiterjed az előzményekre, az eltávolított előzménybejegyzések a többi eszközéről is eltávolításra kerülhetnek.
+• A privát ablakok csak akkor törlődnek, ha a bővítmény futhat bennük.
+
+ADATVÉDELEM
+
+• Nincs analitika vagy követés
+• Nincs adatgyűjtés
+• Nincsenek hálózati kérések
+• Nincs távoli kód
+• Nincs külső JavaScript
+• Az előzmények és a sütik olvasása csak annak eldöntésére történik, mit kell eltávolítani, és csak az Ön böngészőjében
+• A lista és a beállítások helyben, az Ön böngészőjében tárolódnak
+
+TELJESÍTMÉNY
+
+A bővítmény böngészés közben semmit sem csinál. Egyszer fut a böngésző indításakor, ha a törlés be van kapcsolva, és amikor a(z) „Törlés most” gombra kattint.
+
+Egy hosszú előzménylista első törlése néhány percig tarthat, mert minden előzménybejegyzés külön törlődik. Közben nyugodtan böngészhet tovább. A későbbi törlések csak az előző munkamenet bejegyzéseit távolítják el.
+
+NYÍLT FORRÁSKÓD
+
+A Clear Browsing Data Except Kept Sites egy nyílt forráskódú projekt MIT licenc alatt.
+
+Forráskód megtekintése, hibajelentés vagy hozzájárulás a GitHubon:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

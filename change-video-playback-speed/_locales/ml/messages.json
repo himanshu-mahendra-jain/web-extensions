@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "വീഡിയോയുടെയും ഓഡിയോയുടെയും പ്ലേബാക്ക് വേഗത 1x, 1.2x, 1.5x, 2x എന്നിവയ്ക്കിടയിൽ വേഗത്തിൽ മാറ്റുക."
+  },
+  "commandDescription": {
+    "message": "വീഡിയോ പ്ലേബാക്ക് വേഗത മാറ്റുക"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "പ്ലേബാക്ക് വേഗത $SPEED$ മടങ്ങ്",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "പ്ലേബാക്ക് വേഗത: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

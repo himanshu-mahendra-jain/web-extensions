@@ -1,0 +1,42 @@
+Claude le scheda actual con un toccata de tres digitos, un clic medie o un clic in le barra de instrumentos.
+
+Three Finger Tap to Close Tab es un extension legier e de codice aperte que offere un maniera rapide e simple de clauder le scheda actual del navigator.
+
+Tocca con tres digitos o face clic medie in qualcunque loco de un pagina web foras de ligamines e campos modificabile pro clauder le scheda actual. Tu pote etiam cliccar sur le icone del extension in le barra de instrumentos.
+
+In Firefox pro Android, tocca Three Finger Tap to Close Tab in le menu Extensiones del navigator pro clauder le scheda actual. Un toccata sur le schermo non es un clic medie, assi toccar un pagina web nunquam claude le scheda.
+
+Le clic medie sur ligamines e cartas de fluxos mantene le comportamento normal del navigator, assi tu continua a aperir ligamines e messages in nove schedas como sempre. Un margine de securitate integrate impedi de clauder le scheda per error si tu tocca justo al latere de un ligamine o controlo.
+
+FUNCTIONES PRINCIPAL
+
+• Claude le scheda actual con un toccata de tres digitos
+• Claude le scheda actual con un clic medie
+• Claude le scheda actual con un clic in le barra de instrumentos
+• Mantene le clic medie normal sur ligamines, buttones e cartas de fluxos
+• Un margine de securitate impedi clausuras accidental presso elementos interactive
+• Non claude schedas durante que tu usa formularios e campos modificabile
+• Nulle menus emergente o configurationes
+
+CONFIGURATION DEL TOUCHPAD
+
+Tu touchpad e tu systema operative debe esser configurate de maniera que un toccata de tres digitos genera un clic medie.
+
+Postea, tocca con tres digitos un pagina web foras de ligamines e contento interactive pro clauder le scheda actual.
+
+PRIVATESSA
+
+• Nulle analyse o traciamento
+• Nulle collection de datos o de chronologia de navigation
+• Nulle requestas de rete
+• Nulle activitate de navigation o preferentias salvate
+
+Tote le schedas se claude localmente in tu navigator.
+
+CODICE APERTE
+
+Three Finger Tap to Close Tab es de codice aperte e es distribuite sub le licentia MIT.
+
+Vide le codice fonte, reporta problemas o contribue sur GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

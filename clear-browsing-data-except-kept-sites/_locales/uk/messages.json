@@ -1,0 +1,614 @@
+{
+  "extensionDescription": {
+    "message": "Під час запуску браузера очищує історію, файли cookie й дані сайтів усіх сайтів, крім тих, які ви зберігаєте."
+  },
+  "optionsTitle": {
+    "message": "Збережені сайти | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Репозиторій GitHub, відкриється в новій вкладці"
+  },
+  "accessHeading": {
+    "message": "Доступ до сайтів вимкнено"
+  },
+  "allowSiteAccess": {
+    "message": "Дозволити доступ до сайтів"
+  },
+  "accessHistorySiteData": {
+    "message": "Без доступу до сайтів розширення не може видаляти файли cookie. Історія й дані сайтів і далі очищаються."
+  },
+  "accessHistory": {
+    "message": "Без доступу до сайтів розширення не може видаляти файли cookie. Історія і далі очищається."
+  },
+  "accessSiteData": {
+    "message": "Без доступу до сайтів розширення не може видаляти файли cookie. Дані сайтів і далі очищаються."
+  },
+  "accessNothing": {
+    "message": "Без доступу до сайтів розширення не може видаляти файли cookie, тому нічого не очищається."
+  },
+  "clearingOffHeading": {
+    "message": "Очищення вимкнено"
+  },
+  "clearingOffText": {
+    "message": "Поки нічого не видаляється. Додайте сайти, на яких хочете залишатися в обліковому записі, а потім увімкніть очищення. Відтоді під час кожного запуску браузера видалятимуться дані ($DATA$) усіх інших сайтів.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Увімкнути очищення"
+  },
+  "keptSitesHeading": {
+    "message": "Збережені сайти"
+  },
+  "intro": {
+    "message": "Ці сайти та їхні піддомени зберігають свої дані ($DATA$), тому ви залишаєтеся в обліковому записі. Поки очищення ввімкнено, усі інші сайти втрачають їх під час кожного запуску браузера.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Домени сайтів"
+  },
+  "keep": {
+    "message": "Зберегти"
+  },
+  "siteHint": {
+    "message": "Розділяйте кілька сайтів комами."
+  },
+  "noSites": {
+    "message": "Збережених сайтів ще немає, тому очищення видаляє дані ($DATA$) усіх сайтів.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Збережені сайти"
+  },
+  "clearingHeading": {
+    "message": "Очищення"
+  },
+  "clearOnStartupLabel": {
+    "message": "Автоматично очищати під час запуску браузера"
+  },
+  "clearNow": {
+    "message": "Очистити зараз"
+  },
+  "firstClearHint": {
+    "message": "Перше очищення може тривати кілька хвилин, якщо в браузері багато даних перегляду. Тим часом можна далі переглядати сторінки."
+  },
+  "leftoversHeading": {
+    "message": "Залишки даних сайтів"
+  },
+  "leftoversIntro": {
+    "message": "Після видалення історії та файлів cookie сайту розширення більше його не знаходить, тому його локальне сховище, бази даних і кеш залишаються. «Очистити залишки» після очищення на кшталт «Очистити зараз» видаляє дані всіх незбережених сайтів, знайдених чи ні."
+  },
+  "clearLeftovers": {
+    "message": "Очистити залишки"
+  },
+  "transferHeading": {
+    "message": "Імпорт і експорт"
+  },
+  "transferIntro": {
+    "message": "Збережіть список збережених сайтів у текстовий файл або замініть його сайтами з файлу. У файлі може бути по одному сайту в рядку або сайти через кому."
+  },
+  "export": {
+    "message": "Експортувати"
+  },
+  "import": {
+    "message": "Імпортувати"
+  },
+  "cancel": {
+    "message": "Скасувати"
+  },
+  "dataAll": {
+    "message": "історія, файли cookie й дані сайтів"
+  },
+  "dataNoHistory": {
+    "message": "файли cookie й дані сайтів"
+  },
+  "dataNoSiteData": {
+    "message": "історія й файли cookie"
+  },
+  "dataCookies": {
+    "message": "файли cookie"
+  },
+  "remove": {
+    "message": "Вилучити"
+  },
+  "removeSite": {
+    "message": "Вилучити $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ вилучено зі списку. Його дані ($DATA$) буде видалено під час наступного очищення.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Не вдалося вилучити сайт."
+  },
+  "siteKept": {
+    "message": "$SITE$ збережено.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Збережено $COUNT$ сайт.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_few": {
+    "message": "Збережено $COUNT$ сайти.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_many": {
+    "message": "Збережено $COUNT$ сайтів.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Збережено $COUNT$ сайту.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ уже збережено.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ сайт уже збережено.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_few": {
+    "message": "$COUNT$ сайти вже збережено.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_many": {
+    "message": "$COUNT$ сайтів уже збережено.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ сайту вже збережено.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ — недійсний домен.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Недійсні домени: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Введіть дійсний домен, наприклад example.com."
+  },
+  "addSiteFailed": {
+    "message": "Не вдалося додати сайт."
+  },
+  "addSitesFailed": {
+    "message": "Не вдалося додати сайти."
+  },
+  "fileTooLarge": {
+    "message": "Файл $FILE$ більший за 1 МБ, тому збережені сайти не змінено.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "У файлі $FILE$ немає дійсних доменів, тому збережені сайти не змінено.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Замінити збережені сайти?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ сайт",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_few": {
+    "message": "$COUNT$ сайти",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_many": {
+    "message": "$COUNT$ сайтів",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ сайту",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Сайти, збережені зараз ($CURRENT$), буде замінено сайтами з файлу $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ сайт більше не зберігатиметься, і його дані ($DATA$) буде видалено під час наступного очищення.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_few": {
+    "message": "$COUNT$ сайти більше не зберігатимуться, і їхні дані ($DATA$) буде видалено під час наступного очищення.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_many": {
+    "message": "$COUNT$ сайтів більше не зберігатимуться, і їхні дані ($DATA$) буде видалено під час наступного очищення.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ сайту більше не зберігатимуться, і їхні дані ($DATA$) буде видалено під час наступного очищення.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Замінити збережені сайти"
+  },
+  "sitesImported_one": {
+    "message": "Імпортовано $COUNT$ сайт із файлу $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_few": {
+    "message": "Імпортовано $COUNT$ сайти з файлу $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_many": {
+    "message": "Імпортовано $COUNT$ сайтів із файлу $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Імпортовано $COUNT$ сайту з файлу $FILE$.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Не вдалося експортувати збережені сайти."
+  },
+  "importFailed": {
+    "message": "Не вдалося імпортувати збережені сайти з файлу $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Увімкнути очищення?"
+  },
+  "turnOnKept": {
+    "message": "Під час кожного запуску браузера видалятимуться дані ($DATA$) усіх сайтів, крім тих, які ви вирішили зберегти. Ви вийдете з облікових записів на всіх інших сайтах.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Ви не вибрали жодного сайту для збереження. Під час кожного запуску браузера видалятимуться всі дані ($DATA$), і ви вийдете з облікових записів на всіх сайтах.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Видалені дані ($DATA$) не можна відновити.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Очистити все зараз?"
+  },
+  "clearEverythingText": {
+    "message": "Ви не вибрали жодного сайту для збереження, тому зараз буде видалено дані ($DATA$) усіх сайтів, і ви вийдете з облікових записів на всіх сайтах.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Очистити все"
+  },
+  "leftoversTitle": {
+    "message": "Очистити залишки даних сайтів?"
+  },
+  "leftoversKept": {
+    "message": "Зараз буде видалено дані ($DATA$) усіх незбережених сайтів, зокрема дані сайтів, яких розширення більше не знаходить.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Збережений сайт зберігає свої дані лише за адресами, які розширення знаходить в історії, файлах cookie та відкритих вкладках. Будь-який інший піддомен або порт збереженого сайту, наприклад піддомен, який ви не відвідували кілька місяців, чи локальний сервер на іншому порту, втрачає свої дані, і ви можете вийти там з облікового запису."
+  },
+  "clearing": {
+    "message": "Очищення… Це може тривати кілька хвилин."
+  },
+  "leftoversFailed": {
+    "message": "Не вдалося очистити залишки даних сайтів."
+  },
+  "leftoversCleared": {
+    "message": "Залишки даних сайтів очищено."
+  },
+  "nothingClearedYet": {
+    "message": "Ще нічого не очищено."
+  },
+  "clearFailed": {
+    "message": "Очищення ($WHEN$) не вдалося.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ запис історії",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_few": {
+    "message": "$COUNT$ записи історії",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_many": {
+    "message": "$COUNT$ записів історії",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ запису історії",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ файл cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_few": {
+    "message": "$COUNT$ файли cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_many": {
+    "message": "$COUNT$ файлів cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ файлу cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "нічого"
+  },
+  "lastCleared": {
+    "message": "Останнє очищення: $WHEN$. Видалено: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Останнє очищення: $WHEN$. Видалено: $WHAT$, а також дані сайтів і кеш.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Останнє очищення: $WHEN$. Видалено: $WHAT$, а також дані й кеш усіх незбережених сайтів.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Історію й дані сайтів пропущено, бо цей браузер не дозволяє розширенням їх очищати."
+  },
+  "skippedHistory": {
+    "message": "Історію пропущено, бо цей браузер не дозволяє розширенням її очищати."
+  },
+  "skippedSiteData": {
+    "message": "Дані сайтів пропущено, бо цей браузер не дозволяє розширенням їх очищати."
+  },
+  "cookiesSkipped": {
+    "message": "Файли cookie пропущено, бо доступ до сайтів вимкнено."
+  },
+  "loadFailed": {
+    "message": "Не вдалося завантажити налаштування."
+  }
+}

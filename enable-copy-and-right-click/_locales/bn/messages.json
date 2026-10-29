@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "সীমাবদ্ধ ওয়েবপেজে কপি করা, টেক্সট বাছাই ও রাইট-ক্লিক মেনু চালু করুন।"
+  },
+  "commandDescription": {
+    "message": "বর্তমান পেজে কপি ও রাইট ক্লিক চালু করুন"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: চালু",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "কপি ও রাইট ক্লিক চালু হয়েছে।"
+  },
+  "optionsTitle": {
+    "message": "স্বয়ংক্রিয় সাইট | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub রিপোজিটরি, নতুন ট্যাবে খোলে"
+  },
+  "automaticSitesHeading": {
+    "message": "স্বয়ংক্রিয় সাইট"
+  },
+  "automaticSitesIntro": {
+    "message": "আপনার যোগ করা ওয়েবসাইটে কপি করা, টেক্সট বাছাই ও রাইট ক্লিক স্বয়ংক্রিয়ভাবে চালু করুন।"
+  },
+  "siteInputLabel": {
+    "message": "ওয়েবসাইটের ডোমেন"
+  },
+  "addSite": {
+    "message": "সাইট যোগ করুন"
+  },
+  "noSites": {
+    "message": "এখনো কোনো স্বয়ংক্রিয় সাইট যোগ করা হয়নি।"
+  },
+  "siteListLabel": {
+    "message": "স্বয়ংক্রিয় সাইট"
+  },
+  "remove": {
+    "message": "সরান"
+  },
+  "removeSite": {
+    "message": "$SITE$ সরান",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (অনুমতি সরানো হয়েছে)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ যোগ করা হয়েছে।",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ আবার চালু হয়েছে।",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ সরানো হয়েছে।",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "এই সাইট আগেই চালু আছে।"
+  },
+  "invalidDomain": {
+    "message": "সঠিক একটি ডোমেন লিখুন, যেমন example.com।"
+  },
+  "permissionNotGranted": {
+    "message": "সাইটের অনুমতি দেওয়া হয়নি।"
+  },
+  "addFailed": {
+    "message": "সাইটটি যোগ করা যায়নি।"
+  },
+  "removeFailed": {
+    "message": "সাইটটি সরানো যায়নি।"
+  },
+  "loadFailed": {
+    "message": "সাইটের তালিকা লোড করা যায়নি।"
+  }
+}

@@ -1,3 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
+
 import { test as base, expect } from "@playwright/test";
 
 import { ORIGIN, defaultLocaleMessages, installFakeI18n, routeExtensionFiles } from "./harness.js";
@@ -55,7 +58,14 @@ export async function openExtensionPage(page, extensionPath, pagePath, state = {
     messages: defaultLocaleMessages(extensionPath),
     direction: state.direction
   });
-  await page.addInitScript(installFakeChrome, { ...state, firefox });
+  const manifest = JSON.parse(fs.readFileSync(
+    path.join(extensionPath, firefox && fs.existsSync(path.join(extensionPath, "manifest-firefox.json"))
+      ? "manifest-firefox.json"
+      : "manifest.json"),
+    "utf8"
+  ));
+
+  await page.addInitScript(installFakeChrome, { ...state, firefox, manifest });
 
   await page.goto(`${ORIGIN}/${pagePath}`);
 }
@@ -70,13 +80,15 @@ export async function openExtensionPage(page, extensionPath, pagePath, state = {
  * as Firefox does, instead of chrome, and makes runtime.getURL() name
  * a moz-extension: URL, for pages that tell Firefox apart by it. i18n
  * answers from the extension's default locale; see installFakeI18n().
+ * runtime.getManifest() answers manifest, the package's manifest.json.
  */
 function installFakeChrome({
   storage = {},
   origins = [],
   responses = {},
   namespaces = [],
-  firefox = false
+  firefox = false,
+  manifest = {}
 }) {
   const clone = (value) => {
     return value === undefined ? undefined : JSON.parse(JSON.stringify(value));
@@ -136,6 +148,7 @@ function installFakeChrome({
 
         return `${base}/${file.replace(/^\//, "")}`;
       },
+      getManifest: () => clone(manifest),
       sendMessage: async (message) => clone(responses[message?.type]),
       openOptionsPage: async () => {},
       onMessage: event()

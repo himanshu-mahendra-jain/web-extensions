@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "เปิดใช้การคัดลอก การเลือกข้อความ และเมนูคลิกขวาบนหน้าเว็บที่จำกัดไว้"
+  },
+  "commandDescription": {
+    "message": "เปิดใช้การคัดลอกและคลิกขวาในหน้าปัจจุบัน"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: ใช้งานอยู่",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "เปิดใช้การคัดลอกและคลิกขวาแล้ว"
+  },
+  "optionsTitle": {
+    "message": "เว็บไซต์อัตโนมัติ | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "ที่เก็บ GitHub เปิดในแท็บใหม่"
+  },
+  "automaticSitesHeading": {
+    "message": "เว็บไซต์อัตโนมัติ"
+  },
+  "automaticSitesIntro": {
+    "message": "เปิดใช้การคัดลอก การเลือกข้อความ และคลิกขวาโดยอัตโนมัติบนเว็บไซต์ที่คุณเพิ่ม"
+  },
+  "siteInputLabel": {
+    "message": "โดเมนของเว็บไซต์"
+  },
+  "addSite": {
+    "message": "เพิ่มเว็บไซต์"
+  },
+  "noSites": {
+    "message": "ยังไม่มีเว็บไซต์อัตโนมัติ"
+  },
+  "siteListLabel": {
+    "message": "เว็บไซต์อัตโนมัติ"
+  },
+  "remove": {
+    "message": "นำออก"
+  },
+  "removeSite": {
+    "message": "นำ $SITE$ ออก",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (ถูกเพิกถอนสิทธิ์)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "เพิ่ม $SITE$ แล้ว",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "เปิดใช้ $SITE$ อีกครั้งแล้ว",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "นำ $SITE$ ออกแล้ว",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "เว็บไซต์นี้เปิดใช้อยู่แล้ว"
+  },
+  "invalidDomain": {
+    "message": "ป้อนโดเมนที่ถูกต้อง เช่น example.com"
+  },
+  "permissionNotGranted": {
+    "message": "ไม่ได้รับสิทธิ์สำหรับเว็บไซต์"
+  },
+  "addFailed": {
+    "message": "เพิ่มเว็บไซต์ไม่ได้"
+  },
+  "removeFailed": {
+    "message": "นำเว็บไซต์ออกไม่ได้"
+  },
+  "loadFailed": {
+    "message": "โหลดรายการเว็บไซต์ไม่ได้"
+  }
+}

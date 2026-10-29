@@ -1,13 +1,11 @@
 import { test, expect } from "../../test-support/visual.js";
 
-import { applyPlaybackSpeed } from "../src/page.js";
-
-import { enterFullscreenPlayer } from "./media.js";
+import { enterFullscreenPlayer, indicatorScript } from "./media.js";
 
 
 /*
  * Baseline screenshots of the on-page indicator. applyPlaybackSpeed()
- * runs straight in the page: its inline styles are all there is to how
+ * runs straight in the page, with English labels: its inline styles are all there is to how
  * the indicator looks, so loading the extension would add nothing.
  */
 
@@ -30,7 +28,7 @@ for (const browserName of ["chromium", "firefox"]) {
         await page.setContent("<p>Page text</p>");
         await keepIndicator(page);
 
-        await page.evaluate(applyPlaybackSpeed, speed);
+        await page.evaluate(indicatorScript(speed));
 
         await expect(page.locator("#cvps-speed-indicator"))
           .toHaveScreenshot(`indicator-${speed}x-${browserName}.png`);
@@ -42,7 +40,7 @@ for (const browserName of ["chromium", "firefox"]) {
       await enterFullscreenPlayer(page);
       await keepIndicator(page);
 
-      await page.evaluate(applyPlaybackSpeed, 1.5);
+      await page.evaluate(indicatorScript(1.5));
 
       await expect(page)
         .toHaveScreenshot(`fullscreen-${browserName}.png`);

@@ -1,0 +1,46 @@
+Změńśo malsnosć wótgraśa wideo a awdio z jadnym kliknjenim abo tastowym skrotconkom.
+
+Change Video Playback Speed jo lažke rozšyrjenje z wótwórjonym žrědłowym kodom, kótarež mjazy styrimi wužytnymi malsnosćami wótgraśa wuměnja:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klikniśo na symbol rozšyrjenja abo wužywajśo tastowe skrotconko, aby k pśiducej malsnosći pśešeł. Wubrana malsnosć płaśi za wideo a awdio na boku, teke w pódpěranych zasajźonych wótgrawakach.
+
+Aktualna malsnosć se krotko na boku a na znamjenju w symbolowej rědce pokazujo.
+
+HŁOWNE FUNKCIJE
+
+• Wóźenje z jadnym kliknjenim a z tastowym skrotconkom
+• Pódpěra za wideo a awdio
+• Pódpěra za kompatibelne zasajźone wótgrawaki
+• Znamje malsnosći w symbolowej rědce a pokazowak na boku, kótaryž jo teke na cełej wobrazowce widobny
+• Žedne wuskokujuce menije, płuwajuce wóźeńske elementy abo nastajenja
+
+STANDARDNE TASTOWE SKROTCONKA
+
+• Windows, Linux, ChromeOS, GooglebookOS a Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+TASTOWE SKROTCONKO ZMĚNIŚ
+
+1. Wócyńśo meni Firefox a wubjeŕśo Dodanki a drastwy.
+2. Klikniśo na zubate kólesko na boku Rozšyrjenja.
+3. Wubjeŕśo Tastowe skrotconka rozšyrjenjow zastojaś.
+4. Pytajśo Change Video Playback Speed a zapódajśo póžedane tastowe skrotconko.
+
+PRIWATNOSĆ
+
+• Žedna analyza a žedne slědowanje
+• Žedno zběranje datow abo historije pśeglědowanja
+• Žedne seśowe napšašowanja
+• Žeden stawny pśistup k websedłam
+
+Wšykne změny malsnosći se lokalnje we wašom wobglědowaku stawaju.
+
+WÓTWÓRJONY ŽRĚDŁOWY KOD
+
+Change Video Playback Speed ma wótwórjony žrědłowy kod a jo licencěrowany pód licencu MIT.
+
+Woglědajśo se žrědłowy kod, wózjawśo problemy abo pśinosujśo na GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

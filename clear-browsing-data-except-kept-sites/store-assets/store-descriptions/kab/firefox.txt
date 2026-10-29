@@ -1,0 +1,91 @@
+Sfeḍ amazray, inagan n tuqqna d yisefka n yismal mi ara yekker yiminig i yal asmel ala wid i tḥerzeḍ.
+
+Firefox i Android ur yettaǧǧa ara isiɣzaf ad kksen amazray, ihi dinna ttwasfaḍen kan yinagan n tuqqna d yisefka n yismal.
+
+Clear Browsing Data Except Kept Sites d asiɣzef afessas n uɣbalu yeldin i yettekksen inekcam n umazray, inagan n tuqqna d yisefka n yismal i yal asmel ur tefreneḍ ara ad t-tḥerzeḍ.
+
+Deg yiɣewwaren, rnu ismal anda tebɣiḍ ad teqqimeḍ teqqneḍ, yernu ad k-id-cfun, syin rmed asfaḍ. Yal tikkelt ara yekker yiminig, asiɣzef ad yekkes amazray d yinagan n tuqqna n yismal-nniḍen akk. Tzemreḍ daɣen ad tesfeḍeḍ melmi i tebɣiḍ s “Sfeḍ tura”.
+
+TIMAḌMIWIN TIGEJDANIN
+
+• Tabdart n yismal ur yettwasfaḍen ara akk umazray d yinagan-nsen n tuqqna, s uktar d usifeḍ d afaylu n uḍris
+• Yessfaḍ amazray d yinagan n tuqqna n yismal-nniḍen akk mi ara yekker yiminig, mi t-tremdeḍ
+• Asfaḍ melmi i tebɣiḍ s “Sfeḍ tura” deg yiɣewwaren
+• Yeṭṭef s wudem awurman idaɣer inaddayen n usmel yettwaḥerzen
+• Yeṭṭef inagan n tuqqna n taɣult tamarawt i yeḥwaǧ usmel yettwaḥerzen akken ad teqqimeḍ teqqneḍ
+• Yessfaḍ inagan n tuqqna yebḍan (n wis kraḍ) d yinagan n tuqqna n yimagburen; inagan n tuqqna yebḍan n usmel yettwaḥerzen qqimen kan ddaw yismal yettwaḥerzen
+• Yessfaḍ aklas adigan, IndexedDB, service workers d tuffirt n yismal ur yettwaḥerzen ara
+• Yesskan agmuḍ n usfaḍ aneggaru deg yiɣewwaren
+• Yettwelleh mi ara yens unekcum ɣer yismal yerna ur ttwakksen ara yinagan n tuqqna
+• Ulac tasleḍt neɣ aḍfar
+• Ulac tangalt n tmeggagt neɣ isuturen n uẓeṭṭa
+
+ISMAL YETTWAḤERZEN
+
+Ldi iɣewwaren syin rnu taɣult, amedya:
+
+example.com
+
+Akken ad ternuḍ aṭas ɣef tikkelt, freq-iten s tefrayin.
+
+“Sifeḍ” yessekles tabdart d afaylu n uḍris, yiwet n taɣult i yal izirig. “Kter” yessemselsi tabdart s yismal n ufaylu n uḍris, yerna yettwelleh qbel ma yella ad ruḥen yismal i tḥerzeḍ tura.
+
+Tansa am mail.example.com/inbox tettwasenqes ɣer taɣult-is, ma d www. deg tazwara yettwakkes. Ttwaqeblen daɣen localhost d tansiwin IPv4 am 192.168.1.1.
+
+Aḥraz n example.com yeṭṭef amazray d yinagan n tuqqna n example.com d yidaɣer inaddayen-is akk. Aḥraz n mail.example.com yeṭṭef daɣen inagan n tuqqna n example.com, acku s waṭas gren tuqqna n udaɣer anaddaw.
+
+ALDI N YIƔEWWAREN
+
+Iɣewwaren ttwaldin s wudem awurman deffir usebded, akken ad teččareḍ tabdart send ad tremdeḍ asfaḍ. Ticki, sit ɣef tignit n usiɣzef deg ufeggag n yifecka. Deg Firefox i Android, sit ɣef Clear Browsing Data Except Kept Sites deg wumuɣ Isiɣzaf n yiminig.
+
+Tzemreḍ daɣen ad ten-teldiḍ seg umsefrak n yizegrar:
+
+1. Ldi umuɣ n Firefox, sakin fren Izegrar d yisental.
+2. Af Clear Browsing Data Except Kept Sites syin sit ɣef wumuɣ s tlata n tenqiḍin i t-yezdin.
+3. Fren Ismenyifen.
+
+ASFAḌ MI ARA YEKKER
+
+Deffir usebded, asfaḍ yensa, ihi ulac ayen ara yettwakksen alamma tesutreḍ-t. Iɣewwaren sskanen tamawt “Asfaḍ yensa” s tqeffalt “Rmed asfaḍ”. Armed yesskan qbel alɣu: yal asekker yekkes amazray d yinagan n tuqqna n yismal akk ala wid yettwaḥerzen yerna ad k-yessuffeɣ segsen, neɣ seg yismal akk ma yella ulac asmel yettwaḥerzen.
+
+Mi yermed, asfaḍ yettwaselkam yal tikkelt ara yekker yiminig, acku iminig ur yettaǧǧa ara isiɣzaf ad ddun mi ara yettwamdel. Asfaḍ mi ara yekker yekkes ayen yeǧǧa tɣimit yezrin. Sens-it neɣ ales armed-is s “Sfeḍ s wudem awurman mi ara yekker yiminig” deg yiɣewwaren.
+
+SFEḌ TURA
+
+“Sfeḍ tura” deg yiɣewwaren yessfaḍ imir-nni. Ma yella ulac asmel yettwaḥerzen, ad d-yettwaskan qbel walɣu azeggaɣ belli ayen akk ad yettwakkes. Iɣewwaren sskanen melmi i yella usfaḍ aneggaru d acḥal n yinekcam n umazray d yinagan n tuqqna i yekkes.
+
+ANEKCUM ƔER YISMAL
+
+Inagan n tuqqna zemren ad ttwakksen kan i yismal ɣer yesɛa usiɣzef anekcum, ihi yessuter anekcum ɣer yismal akk. Ma tsenseḍ anekcum ɣer yismal, amazray yettwasfaḍ kan, maca inagan n tuqqna ttwazeglen, yerna iɣewwaren sskanen taqeffalt “Sireg anekcum ɣer yismal”.
+
+TILISA
+
+• Accaren yettwarran mi ara yekker zemren ad sbedden inagan n tuqqna imaynuten mi ara iteddu usfaḍ. Inagan-a qqimen alamma d asekker i d-iteddun neɣ “Sfeḍ tura” i d-iteddun.
+• Firefox ur yezmir ara ad yekkes isefka n yismal ala ismal yettwafernen, ihi asiɣzef yekkes aklas adigan, IndexedDB d service workers n yal asmel ur yettwaḥerzen ara i yufa deg umazray, deg yinagan n tuqqna d waccaren yeldin. Asmel ur d-nettban ara deg yiwen seg-sen yeṭṭef isefka-s. Asmel s udaɣer anaddaw yettwaḥerzen yeṭṭef service workers-is, acku Firefox ad yekkes yid-sen wid n udaɣer anaddaw. Tuffirt tettwasfaḍ i yismal akk, acku Firefox ur yezmir ara ad tt-isfeḍ i yal asmel; aya ur yessuffuɣ yiwen.
+• Firefox ur yezmir ara ad yessfeḍ i yal asmel Cache Storage, d ifuyla war tuqqna i sseklasen service workers, ihi ur tettwasfaḍ ara. Akken ad tekkseḍ ayen ur yessaweḍ ara usiɣzef, seqdec Iɣewwaren > Tabaḍnit d tɣellist > Inagan n tuqqna d yisefka n usmel > Sefrek isefka.
+• Ma yella amtawi n yiminig igber amazray, inekcam n umazray yettwakksen zemren ad ttwakksen daɣen deg yibenkan-ik niḍen.
+• Isfuyla usligen ttwasfaḍen kan ma yella asiɣzef yettwasireg ad iteddu deg-sen.
+
+TABAḌNIT
+
+• Ulac tasleḍt neɣ aḍfar
+• Ulac alqaḍ n yisefka
+• Ulac isuturen n uẓeṭṭa
+• Ulac tangalt n tmeggagt
+• Ulac JavaScript beṛṛani
+• Amazray d yinagan n tuqqna ttwaɣran kan i wakken ad yettwafren ayen ara yettwakksen, yerna deg yiminig-ik kan
+• Tabdart d yiɣewwaren ttwaskelsen s wudem adigan deg yiminig-ik
+
+TIMELLIT
+
+Asiɣzef ur yettxedim kra mi ara tettinigeḍ. Yetteddu yiwet n tikkelt mi ara yekker yiminig, ma yella asfaḍ yermed, d mi ara tsiteḍ ɣef “Sfeḍ tura”.
+
+Asfaḍ amezwaru n umazray aɣezfan yezmer ad yeṭṭef kra n tesdatin, acku yal anekcum n umazray yettwakkes weḥd-s. Gar-aya tzemreḍ ad tkemmleḍ tunigin. Isfaḍen i d-iteddun kksen kan inekcam n tɣimit yezrin.
+
+AƔBALU YELDIN
+
+Clear Browsing Data Except Kept Sites d aɣbalu yeldin, yettwaḍmen s turagt MIT.
+
+Wali tangalt taɣbalut, mmel-d uguren neɣ ttekki deg GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

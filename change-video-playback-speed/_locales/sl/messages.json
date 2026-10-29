@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Hitro spreminjajte hitrost predvajanja videa in zvoka med 1x, 1,2x, 1,5x in 2x."
+  },
+  "commandDescription": {
+    "message": "Spremeni hitrost predvajanja videa"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Hitrost predvajanja $SPEED$-krat",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Hitrost predvajanja: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

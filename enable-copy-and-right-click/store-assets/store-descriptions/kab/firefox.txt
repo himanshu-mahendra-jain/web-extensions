@@ -1,0 +1,80 @@
+Rmed anɣel, afran n uḍris d wumuɣen n usiti ayeffus deg yisebtar web i ten-yesḥebsen.
+
+Enable Copy and Right Click d asiɣzef afessas n uɣbalu yeldin i d-yerran anɣel, afran n uḍris d usiti ayeffus akken llan deg yisebtar web i yesḥebsen tigawin-a.
+
+Sit ɣef tignit n usiɣzef deg ufeggag n yifecka neɣ seqdec anegzum n unasiw akken ad tremdeḍ anɣel d usiti ayeffus deg yiccer amiran.
+
+Tzemreḍ daɣen ad ternuḍ ismal web i tettamneḍ ɣer tebdart n yismal iwurmanen. Syin asiɣzef ad yermed s wudem awurman anɣel d usiti ayeffus yal tikkelt ara ten-terzuḍ.
+
+TIMAḌMIWIN TIGEJDANIN
+
+• Yettermed anɣel d ufran n uḍris deg yisebtar web yettwaḥebsen
+• Yettermed umuɣen n usiti ayeffus
+• Yettermed anɣel, agzam, asenṭeḍ, afran n uḍris d uzuɣer
+• Armed s yiwen usiti seg ufeggag n yifecka
+• Anegzum n unasiw i urmad arurad
+• Armed awurman deg yismal i tferneḍ
+• Yetteddu deg iframe yettwaḍfaren anida i t-ttaǧǧan tsirag n yiminig
+• Yesskanay tabzimt ON deffir urmad s ufus
+• Ulac umuɣen udhimen
+• Ulac tasleḍt neɣ aḍfar
+• Ulac tangalt n lebεid neɣ tuttriwin n uẓeṭṭa
+
+INEGZUMEN N UNASIW S WUDEM AMEZWER
+
+• Windows, Linux, ChromeOS, GooglebookOS d Android: Alt+C
+• macOS: Command+Shift+Y
+
+Anegzum n unasiw yeskar ayen yettgen usiti ɣef tignit n usiɣzef.
+
+BEDDEL ANEGZUM N UNASIW
+
+1. Ldi umuɣ n Firefox, sakin fren Izegrar d yisental.
+2. Sit ɣef tignit n tnaṭ deg usebter n Isiɣzaf.
+3. Fren Sefrek inegzumen n yisiɣzaf.
+4. Af-d Enable Copy and Right Click, sakin sekcem anegzum i tebɣiḍ.
+
+ISMAL IWURMANEN
+
+Ldi asebter n yixtiṛen n usiɣzef syin rnu taɣult am:
+
+example.com
+
+Asiɣzef ad yessuter tasiregt kan i usmel web i ternuḍ. Mi ara tettunefk tsiregt, anɣel, afran n uḍris d usiti ayeffus ad ttwarmden s wudem awurman deg usmel-nni.
+
+Tzemreḍ ad tekkseḍ asmel awurman melmi i tebɣiḍ seg usebter n yixtiṛen.
+
+LDI ASEBTER N YIXTIṚEN
+
+1. Ldi umuɣ n Firefox, sakin fren Izegrar d yisental.
+2. Af Enable Copy and Right Click syin sit ɣef wumuɣ s tlata n tenqiḍin i t-yezdin.
+3. Fren Ismenyifen.
+
+TABAḌNIT
+
+• Ulac tasleḍt neɣ aḍfar
+• Ur yettlqaḍ ara isefka
+• Ur yettlqaḍ ara amazray n tunigin
+• Ulac tuttriwin n uẓeṭṭa
+• Ulac tangalt n lebεid
+• Ulac JavaScript azɣaray
+• Ismenyifen n yismal iwurmanen ttwaḥerzen s wudem adigan deg yiminig-ik
+• Tisirag n usmel ttwasuturent kan mi ara ternuḍ s timmad-ik asmel
+
+Tiririt n unɣel d usiti ayeffus akk teḍra s wudem adigan deg yiminig-ik.
+
+TIMELLIT
+
+Asiɣzef d afessas, yetteddu s yineḍruyen.
+
+Ur yeskar ara amahil yettkemmilen deg ugilal mi ara yili d arurmid. Armed s ufus yettwaselkam kan mi ara tsiteḍ ɣef tignit n ufeggag n yifecka neɣ ad tesqedceḍ anegzum n unasiw. Armed awurman yettwaselkam kan deg yismal web i ternuḍ s timmad-ik.
+
+Ulac asteqsi yettuɣalen, armud n uẓeṭṭa deg ugilal, SDK n tesleḍt, aswel n lebεid neɣ tineddict i yettεassan isebtar yal tikkelt.
+
+AƔBALU YELDIN
+
+Enable Copy and Right Click d aɣbalu yeldin, yettwaḍmen s turagt MIT.
+
+Wali tangalt taɣbalut, mmel-d uguren neɣ ttekki deg GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

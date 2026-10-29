@@ -1,0 +1,42 @@
+Uždarykite dabartinį skirtuką bakstelėdami trimis pirštais, spustelėdami viduriniu klavišu arba įrankių juostoje.
+
+Three Finger Tap to Close Tab – lengvas atvirojo kodo plėtinys, leidžiantis greitai ir paprastai uždaryti dabartinį naršyklės skirtuką.
+
+Bakstelėkite trimis pirštais arba spustelėkite viduriniu klavišu bet kurioje tinklalapio vietoje už nuorodų ir redaguojamų laukų, kad uždarytumėte dabartinį skirtuką. Skirtuką galite uždaryti ir spustelėję plėtinio piktogramą įrankių juostoje.
+
+Patarimas: „Edge“ plėtinių meniu įjunkite „Rodyti įrankių juostoje“ ties „Three Finger Tap to Close Tab“ greitam naudojimui.
+
+Spustelėjus viduriniu klavišu nuorodas ir srauto korteles išlieka įprasta naršyklės elgsena, todėl nuorodas ir įrašus galite kaip įprasta atidaryti naujuose skirtukuose. Įtaisyta saugos zona neleidžia netyčia uždaryti skirtuko, jei bakstelite šalia nuorodos ar valdiklio.
+
+PAGRINDINĖS FUNKCIJOS
+
+• Dabartinio skirtuko uždarymas bakstelėjus trimis pirštais
+• Dabartinio skirtuko uždarymas spustelėjus viduriniu klavišu
+• Dabartinio skirtuko uždarymas spustelėjus įrankių juostoje
+• Išlaiko įprastą vidurinio klavišo veikimą nuorodose, mygtukuose ir srauto kortelėse
+• Saugos zona neleidžia netyčia uždaryti skirtuko šalia interaktyvių elementų
+• Neuždaro skirtukų, kol naudojate formas ir redaguojamus laukus
+• Jokių iškylančiųjų meniu ar nustatymų
+
+JUTIKLINIO KILIMĖLIO SĄRANKA
+
+Jutiklinis kilimėlis ir operacinė sistema turi būti nustatyti taip, kad bakstelėjimas trimis pirštais būtų vidurinio klavišo spustelėjimas.
+
+Tada bakstelėkite trimis pirštais tinklalapį už nuorodų ir interaktyvaus turinio, kad uždarytumėte dabartinį skirtuką.
+
+PRIVATUMAS
+
+• Jokios analitikos ar sekimo
+• Nerenka duomenų ar naršymo istorijos
+• Jokių tinklo užklausų
+• Nesaugo naršymo veiklos ar nuostatų
+
+Visi skirtukai uždaromi vietoje, jūsų naršyklėje.
+
+ATVIRASIS KODAS
+
+„Three Finger Tap to Close Tab“ yra atvirojo kodo projektas pagal MIT licenciją.
+
+Peržiūrėkite šaltinio kodą, praneškite apie klaidas ar prisidėkite „GitHub“:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

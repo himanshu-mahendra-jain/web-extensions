@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Activa la còpia, la selecció de text i els menús del clic dret a les pàgines web restringides."
+  },
+  "commandDescription": {
+    "message": "Activa la còpia i el clic dret a la pàgina actual"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: activa",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "S'han activat la còpia i el clic dret."
+  },
+  "optionsTitle": {
+    "message": "Llocs automàtics | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repositori de GitHub, s'obre en una pestanya nova"
+  },
+  "automaticSitesHeading": {
+    "message": "Llocs automàtics"
+  },
+  "automaticSitesIntro": {
+    "message": "Activa automàticament la còpia, la selecció de text i el clic dret als llocs web que afegiu."
+  },
+  "siteInputLabel": {
+    "message": "Domini del lloc web"
+  },
+  "addSite": {
+    "message": "Afegeix un lloc"
+  },
+  "noSites": {
+    "message": "Encara no heu afegit cap lloc automàtic."
+  },
+  "siteListLabel": {
+    "message": "Llocs automàtics"
+  },
+  "remove": {
+    "message": "Suprimeix"
+  },
+  "removeSite": {
+    "message": "Suprimeix $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (permís retirat)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "S'ha afegit $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "S'ha tornat a activar $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "S'ha suprimit $SITE$.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Aquest lloc ja està activat."
+  },
+  "invalidDomain": {
+    "message": "Introduïu un domini vàlid, com ara example.com."
+  },
+  "permissionNotGranted": {
+    "message": "No s'ha concedit el permís per al lloc."
+  },
+  "addFailed": {
+    "message": "No s'ha pogut afegir el lloc."
+  },
+  "removeFailed": {
+    "message": "No s'ha pogut suprimir el lloc."
+  },
+  "loadFailed": {
+    "message": "No s'ha pogut carregar la llista de llocs."
+  }
+}

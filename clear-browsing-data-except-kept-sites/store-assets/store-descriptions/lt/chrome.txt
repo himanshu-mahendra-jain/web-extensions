@@ -1,0 +1,90 @@
+Paleidus naršyklę išvalo istoriją, slapukus ir svetainių duomenis visose svetainėse, išskyrus tas, kurias paliekate.
+
+Clear Browsing Data Except Kept Sites – lengvas atvirojo kodo plėtinys, kuris pašalina istorijos įrašus, slapukus ir svetainių duomenis visose svetainėse, kurių nepasirinkote išsaugoti.
+
+Nustatymuose pridėkite svetaines, kuriose norite likti prisijungę ir kurios turi jus atsiminti, tada įjunkite valymą. Kiekvieną kartą paleidus naršyklę plėtinys ištrina visų kitų svetainių istoriją, slapukus ir svetainių duomenis. Valyti galite ir bet kada mygtuku „Valyti dabar“.
+
+Patarimas: prisekite plėtinį „Chrome“ plėtinių meniu (dėlionės detalės piktograma), kad jis visada būtų po ranka įrankių juostoje.
+
+PAGRINDINĖS FUNKCIJOS
+
+• Svetainių, kurių istorija ir slapukai niekada nevalomi, sąrašas su importavimu ir eksportavimu tekstiniu failu
+• Visų kitų svetainių istorijos ir slapukų valymas paleidus naršyklę, kai jį įjungiate
+• Valymas bet kada mygtuku „Valyti dabar“ ir likusių nebeaptinkamų svetainių duomenų valymas mygtuku „Valyti likučius“
+• Automatiškai išsaugomi išsaugotos svetainės subdomenai
+• Išsaugomi pagrindinio domeno slapukai, kurių išsaugotai svetainei reikia, kad liktumėte prisijungę
+• Skaidytų (trečiųjų šalių) slapukų valymas; išsaugotos svetainės skaidyti slapukai lieka tik po išsaugotomis svetainėmis
+• Neišsaugotų svetainių vietinės saugyklos, IndexedDB, service worker ir talpyklos valymas
+• Paskutinio valymo rezultatas nustatymuose
+• Įspėjimas, kai prieiga prie svetainių išjungta ir slapukų ištrinti negalima
+• Jokios analizės ar sekimo
+• Jokio nuotolinio kodo ar tinklo užklausų
+
+IŠSAUGOTOS SVETAINĖS
+
+Atidarykite nustatymus ir pridėkite domeną, pavyzdžiui:
+
+example.com
+
+Norėdami pridėti kelis iš karto, atskirkite juos kableliais.
+
+„Eksportuoti“ įrašo sąrašą į tekstinį failą, po vieną domeną eilutėje. „Importuoti“ pakeičia sąrašą tekstinio failo svetainėmis ir pirmiausia įspėja, jei taip dingtų svetainės, kurias dabar išsaugote.
+
+Adresas, pvz., mail.example.com/inbox, sutrumpinamas iki domeno, o pradinis www. praleidžiamas. Priimami ir localhost bei IPv4 adresai, pvz., 192.168.1.1.
+
+Išsaugojus example.com, išsaugoma example.com ir visų jo subdomenų istorija, slapukai ir svetainės duomenys. Išsaugojus mail.example.com, išsaugomi ir example.com slapukai, nes juose dažnai būna subdomeno prisijungimas.
+
+NUSTATYMŲ ATIDARYMAS
+
+Nustatymai po įdiegimo atsidaro automatiškai, kad galėtumėte užpildyti sąrašą prieš įjungdami valymą. Vėliau spustelėkite plėtinio piktogramą įrankių juostoje arba:
+
+1. Dešiniuoju pelės mygtuku spustelėkite plėtinio piktogramą įrankių juostoje.
+2. Pasirinkite Parinktys.
+
+VALYMAS PALEIDUS
+
+Po įdiegimo valymas išjungtas, todėl niekas nepašalinama, kol to nepaprašysite. Nustatymuose rodomas pranešimas „Valymas išjungtas“ su mygtuku „Įjungti valymą“. Įjungiant pirmiausia parodomas įspėjimas: kiekvienas paleidimas ištrina visų svetainių, išskyrus išsaugotas, istoriją ir slapukus ir atjungia jus nuo jų arba nuo visų svetainių, jei neišsaugota nė viena.
+
+Įjungus valymas vykdomas kiekvieną kartą paleidus naršyklę, nes naršyklė neleidžia plėtiniams veikti uždarant. Valymas paleidus pašalina tai, kas liko po ankstesnės sesijos. Išjunkite arba vėl įjunkite jį nustatymuose parinktimi „Automatiškai valyti paleidus naršyklę“.
+
+VALYTI DABAR IR VALYTI LIKUČIUS
+
+Nustatymų mygtukas „Valyti dabar“ išvalo iš karto. Jei neišsaugota nė viena svetainė, pirmiausia parodomas raudonas įspėjimas, kad viskas bus ištrinta. Nustatymuose matyti, kada buvo paskutinis valymas ir kiek istorijos įrašų bei slapukų jis ištrynė.
+
+Kai valymas pašalina svetainės istoriją ir slapukus, vėlesni valymai tos svetainės nebeaptinka, todėl jos vietinė saugykla, duomenų bazės ir talpykla lieka. „Valyti likučius“ atlieka valymą ir tada ištrina visų neišsaugotų svetainių duomenis, aptiktų ar ne. Čia naršyklė gali pasigailėti tik tikslių svetainių, todėl išsaugota svetainė išsaugo duomenis tik sau ir toms išsaugotoms svetainėms, kurias valymas randa istorijoje, slapukuose ir atidarytuose skirtukuose; raudonas įspėjimas tai pasako iš anksto.
+
+PRIEIGA PRIE SVETAINIŲ
+
+Slapukus galima pašalinti tik svetainėse, prie kurių plėtinys turi prieigą, todėl jis prašo prieigos prie visų svetainių. Jei apribosite prieigą prie svetainių, pvz., iki „Spustelėjus“, istorija vis tiek valoma, bet slapukai praleidžiami, o nustatymuose rodomas mygtukas „Leisti prieigą prie svetainių“.
+
+APRIBOJIMAI
+
+• Paleidus atkurti skirtukai gali nustatyti naujų slapukų, kol vyksta valymas. Tie slapukai lieka iki kito paleidimo arba kito „Valyti dabar“.
+• Kiti svetainių duomenys, pvz., sesijos saugykla, svetainių leidimai ir per File System API įrašyti failai, nevalomi.
+• Jei naršyklės sinchronizavimas apima istoriją, pašalinti istorijos įrašai gali būti pašalinti ir kituose jūsų įrenginiuose.
+• Inkognito langai valomi tik tada, kai plėtinys leidžiamas inkognito režimu. Chrome vis tiek išmeta jų duomenis juos uždarant.
+• IPv6 adresų į sąrašą pridėti negalima.
+
+PRIVATUMAS
+
+• Jokios analizės ar sekimo
+• Jokio duomenų rinkimo
+• Jokių tinklo užklausų
+• Jokio nuotolinio kodo
+• Jokio išorinio JavaScript
+• Istorija ir slapukai skaitomi tik tam, kad būtų nuspręsta, ką pašalinti, ir tik jūsų naršyklėje
+• Sąrašas ir nustatymai saugomi vietoje jūsų naršyklėje
+
+NAŠUMAS
+
+Kol naršote, plėtinys nieko nedaro. Jis veikia vieną kartą paleidus naršyklę, jei valymas įjungtas, ir kai spustelite „Valyti dabar“ arba „Valyti likučius“.
+
+Pirmasis ilgos istorijos valymas gali užtrukti kelias minutes, nes kiekvienas istorijos įrašas ištrinamas atskirai. Tuo metu galite toliau naršyti. Vėlesni valymai pašalina tik ankstesnės sesijos įrašus.
+
+ATVIRASIS KODAS
+
+„Clear Browsing Data Except Kept Sites“ yra atvirojo kodo projektas pagal MIT licenciją.
+
+Peržiūrėkite šaltinio kodą, praneškite apie klaidas ar prisidėkite „GitHub“:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

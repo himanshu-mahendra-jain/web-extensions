@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "ব্রাউজার চালু হলে আপনার রাখা সাইটগুলো বাদে প্রতিটি সাইটের ইতিহাস, কুকি ও সাইট ডেটা মুছে ফেলুন।"
+  },
+  "optionsTitle": {
+    "message": "রাখা সাইট | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub রিপোজিটরি, নতুন ট্যাবে খোলে"
+  },
+  "accessHeading": {
+    "message": "সাইট অ্যাক্সেস বন্ধ"
+  },
+  "allowSiteAccess": {
+    "message": "সাইট অ্যাক্সেসের অনুমতি দিন"
+  },
+  "accessHistorySiteData": {
+    "message": "ওয়েবসাইটে অ্যাক্সেস ছাড়া এক্সটেনশন কুকি মুছতে পারে না। ইতিহাস ও সাইট ডেটা তবুও মোছা হয়।"
+  },
+  "accessHistory": {
+    "message": "ওয়েবসাইটে অ্যাক্সেস ছাড়া এক্সটেনশন কুকি মুছতে পারে না। ইতিহাস তবুও মোছা হয়।"
+  },
+  "accessSiteData": {
+    "message": "ওয়েবসাইটে অ্যাক্সেস ছাড়া এক্সটেনশন কুকি মুছতে পারে না। সাইট ডেটা তবুও মোছা হয়।"
+  },
+  "accessNothing": {
+    "message": "ওয়েবসাইটে অ্যাক্সেস ছাড়া এক্সটেনশন কুকি মুছতে পারে না, তাই কিছুই মোছা হয় না।"
+  },
+  "clearingOffHeading": {
+    "message": "মোছা বন্ধ"
+  },
+  "clearingOffText": {
+    "message": "এখনো কিছু মোছা হয়নি। যেসব সাইটে সাইন ইন থাকতে চান সেগুলো যোগ করুন, তারপর মোছা চালু করুন। তখন থেকে প্রতিবার ব্রাউজার চালু হলে অন্য সব সাইটের ডেটা ($DATA$) মুছে ফেলা হবে।",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "মোছা চালু করুন"
+  },
+  "keptSitesHeading": {
+    "message": "রাখা সাইট"
+  },
+  "intro": {
+    "message": "এই সাইটগুলো ও এদের সাবডোমেইন নিজেদের ডেটা ($DATA$) রাখে, তাই আপনি সাইন ইন থাকেন। মোছা চালু থাকলে প্রতিবার ব্রাউজার চালু হওয়ার সময় অন্য সব সাইট এগুলো হারায়।",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "ওয়েবসাইটের ডোমেইন"
+  },
+  "keep": {
+    "message": "রাখুন"
+  },
+  "siteHint": {
+    "message": "একাধিক সাইট কমা দিয়ে আলাদা করুন।"
+  },
+  "noSites": {
+    "message": "এখনো কোনো সাইট রাখা হয়নি, তাই মোছার সময় প্রতিটি সাইটের ডেটা ($DATA$) মুছে যায়।",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "রাখা সাইট"
+  },
+  "clearingHeading": {
+    "message": "মোছা"
+  },
+  "clearOnStartupLabel": {
+    "message": "ব্রাউজার চালু হলে স্বয়ংক্রিয়ভাবে মুছুন"
+  },
+  "clearNow": {
+    "message": "এখনই মুছুন"
+  },
+  "firstClearHint": {
+    "message": "ব্রাউজারে অনেক ব্রাউজিং ডেটা থাকলে প্রথমবার মুছতে কয়েক মিনিট লাগতে পারে। এর মধ্যে আপনি ব্রাউজ করে যেতে পারেন।"
+  },
+  "leftoversHeading": {
+    "message": "থেকে যাওয়া সাইট ডেটা"
+  },
+  "leftoversIntro": {
+    "message": "কোনো সাইটের ইতিহাস ও কুকি মুছে গেলে এক্সটেনশন সেই সাইটটি আর খুঁজে পায় না, তাই এর লোকাল স্টোরেজ, ডেটাবেস ও ক্যাশ থেকে যায়। “অবশিষ্ট মুছুন” “এখনই মুছুন”-এর মতো মোছার পরে আপনার না রাখা প্রতিটি সাইটের সাইট ডেটা মুছে দেয়, সাইটটি খুঁজে পাওয়া যাক বা না যাক।"
+  },
+  "clearLeftovers": {
+    "message": "অবশিষ্ট মুছুন"
+  },
+  "transferHeading": {
+    "message": "ইমপোর্ট ও এক্সপোর্ট"
+  },
+  "transferIntro": {
+    "message": "আপনার রাখা সাইটগুলো একটি টেক্সট ফাইলে সেভ করুন, অথবা কোনো ফাইলের সাইট দিয়ে সেগুলো বদলে দিন। ফাইলে প্রতি লাইনে একটি সাইট থাকতে পারে বা সাইটগুলো কমা দিয়ে আলাদা থাকতে পারে।"
+  },
+  "export": {
+    "message": "এক্সপোর্ট"
+  },
+  "import": {
+    "message": "ইমপোর্ট"
+  },
+  "cancel": {
+    "message": "বাতিল"
+  },
+  "dataAll": {
+    "message": "ইতিহাস, কুকি ও সাইট ডেটা"
+  },
+  "dataNoHistory": {
+    "message": "কুকি ও সাইট ডেটা"
+  },
+  "dataNoSiteData": {
+    "message": "ইতিহাস ও কুকি"
+  },
+  "dataCookies": {
+    "message": "কুকি"
+  },
+  "remove": {
+    "message": "সরান"
+  },
+  "removeSite": {
+    "message": "$SITE$ সরান",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ সরানো হয়েছে। পরের বার মোছার সময় এর ডেটা ($DATA$) মুছে ফেলা হবে।",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "সাইটটি সরানো যায়নি।"
+  },
+  "siteKept": {
+    "message": "$SITE$ রাখা হয়েছে।",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$টি সাইট রাখা হয়েছে।",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$টি সাইট রাখা হয়েছে।",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ আগে থেকেই রাখা আছে।",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$টি সাইট আগে থেকেই রাখা আছে।",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$টি সাইট আগে থেকেই রাখা আছে।",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ সঠিক ডোমেইন নয়।",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "এগুলো সঠিক ডোমেইন নয়: $SITES$।",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "সঠিক একটি ডোমেইন লিখুন, যেমন example.com।"
+  },
+  "addSiteFailed": {
+    "message": "সাইটটি যোগ করা যায়নি।"
+  },
+  "addSitesFailed": {
+    "message": "সাইটগুলো যোগ করা যায়নি।"
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ 1 MB-এর চেয়ে বড়, তাই রাখা সাইট বদলানো হয়নি।",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$-এ কোনো সঠিক ডোমেইন নেই, তাই রাখা সাইট বদলানো হয়নি।",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "রাখা সাইট বদলাবেন?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$টি সাইট",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$টি সাইট",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "এখন আপনার রাখা $CURRENT$ বদলে $FILE$-এর $NEW$ রাখা হবে।",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$টি সাইট আর রাখা হবে না, এবং পরের বার মোছার সময় এর ডেটা ($DATA$) মুছে ফেলা হবে।",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$টি সাইট আর রাখা হবে না, এবং পরের বার মোছার সময় এগুলোর ডেটা ($DATA$) মুছে ফেলা হবে।",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "রাখা সাইট বদলান"
+  },
+  "sitesImported_one": {
+    "message": "$FILE$ থেকে $COUNT$টি সাইট ইমপোর্ট করা হয়েছে।",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$FILE$ থেকে $COUNT$টি সাইট ইমপোর্ট করা হয়েছে।",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "রাখা সাইট এক্সপোর্ট করা যায়নি।"
+  },
+  "importFailed": {
+    "message": "$FILE$ থেকে রাখা সাইট ইমপোর্ট করা যায়নি।",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "মোছা চালু করবেন?"
+  },
+  "turnOnKept": {
+    "message": "প্রতিবার ব্রাউজার চালু হলে আপনার রাখার জন্য বাছাই করা সাইট বাদে প্রতিটি সাইটের ডেটা ($DATA$) মুছে ফেলা হবে। অন্য সব সাইট থেকে আপনি সাইন আউট হয়ে যাবেন।",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "আপনি রাখার জন্য কোনো সাইট বাছাই করেননি। প্রতিবার ব্রাউজার চালু হলে সব ডেটা ($DATA$) মুছে ফেলা হবে, এবং আপনি প্রতিটি সাইট থেকে সাইন আউট হয়ে যাবেন।",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "মুছে ফেলা ডেটা ($DATA$) আর ফিরিয়ে আনা যায় না।",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "এখনই সবকিছু মুছবেন?"
+  },
+  "clearEverythingText": {
+    "message": "আপনি রাখার জন্য কোনো সাইট বাছাই করেননি, তাই এখনই প্রতিটি সাইটের ডেটা ($DATA$) মুছে ফেলা হবে, এবং আপনি প্রতিটি সাইট থেকে সাইন আউট হয়ে যাবেন।",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "সবকিছু মুছুন"
+  },
+  "leftoversTitle": {
+    "message": "থেকে যাওয়া সাইট ডেটা মুছবেন?"
+  },
+  "leftoversKept": {
+    "message": "আপনার না রাখা প্রতিটি সাইটের ডেটা ($DATA$) এখনই মুছে ফেলা হবে, এক্সটেনশন যেসব সাইট আর খুঁজে পায় না সেগুলোর সাইট ডেটাসহ।",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "রাখা সাইট শুধু সেই ঠিকানাগুলোতেই নিজের সাইট ডেটা রাখে, যেগুলো এক্সটেনশন ইতিহাস, কুকি ও খোলা ট্যাবে খুঁজে পায়। রাখা সাইটের অন্য যেকোনো সাবডোমেইন বা পোর্ট, যেমন কয়েক মাস ধরে না দেখা কোনো সাবডোমেইন বা অন্য পোর্টে চলা লোকাল সার্ভার, নিজের সাইট ডেটা হারায়, এবং সেখান থেকে আপনি সাইন আউট হয়ে যেতে পারেন।"
+  },
+  "clearing": {
+    "message": "মোছা হচ্ছে… এতে কয়েক মিনিট লাগতে পারে।"
+  },
+  "leftoversFailed": {
+    "message": "থেকে যাওয়া সাইট ডেটা মোছা যায়নি।"
+  },
+  "leftoversCleared": {
+    "message": "থেকে যাওয়া সাইট ডেটা মোছা হয়েছে।"
+  },
+  "nothingClearedYet": {
+    "message": "এখনো কিছু মোছা হয়নি।"
+  },
+  "clearFailed": {
+    "message": "$WHEN$-এ মোছা ব্যর্থ হয়েছে।",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$টি ইতিহাস এন্ট্রি",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$টি ইতিহাস এন্ট্রি",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$টি কুকি",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$টি কুকি",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "কিছুই না"
+  },
+  "lastCleared": {
+    "message": "শেষবার মোছা হয়েছে: $WHEN$। মোছা হয়েছে: $WHAT$।",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "শেষবার মোছা হয়েছে: $WHEN$। মোছা হয়েছে: $WHAT$, সঙ্গে সাইট ডেটা ও ক্যাশ।",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "শেষবার মোছা হয়েছে: $WHEN$। মোছা হয়েছে: $WHAT$, সঙ্গে না রাখা প্রতিটি সাইটের সাইট ডেটা ও ক্যাশ।",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "ইতিহাস ও সাইট ডেটা বাদ দেওয়া হয়েছে, কারণ এই ব্রাউজার এক্সটেনশনকে এগুলো মুছতে দেয় না।"
+  },
+  "skippedHistory": {
+    "message": "ইতিহাস বাদ দেওয়া হয়েছে, কারণ এই ব্রাউজার এক্সটেনশনকে এটি মুছতে দেয় না।"
+  },
+  "skippedSiteData": {
+    "message": "সাইট ডেটা বাদ দেওয়া হয়েছে, কারণ এই ব্রাউজার এক্সটেনশনকে এটি মুছতে দেয় না।"
+  },
+  "cookiesSkipped": {
+    "message": "সাইট অ্যাক্সেস বন্ধ থাকায় কুকি বাদ দেওয়া হয়েছে।"
+  },
+  "loadFailed": {
+    "message": "সেটিংস লোড করা যায়নি।"
+  }
+}

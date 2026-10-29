@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Ātri mainiet video un audio atskaņošanas ātrumu starp 1x, 1,2x, 1,5x un 2x."
+  },
+  "commandDescription": {
+    "message": "Mainīt video atskaņošanas ātrumu"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Atskaņošanas ātrums $SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Atskaņošanas ātrums: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

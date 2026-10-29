@@ -1,0 +1,80 @@
+Activa la còpia, la selecció de text i els menús del clic dret a les pàgines web restringides.
+
+Enable Copy and Right Click és una extensió lleugera i de codi obert que restableix la còpia, la selecció de text i el clic dret normals a les pàgines web que restringeixen aquestes accions.
+
+Feu clic a la icona de l'extensió a la barra d'eines o feu servir la drecera de teclat per activar la còpia i el clic dret a la pestanya actual.
+
+Consell: al menú d'extensions d'Edge, activeu «Mostra a la barra d'eines» per a Enable Copy and Right Click per tenir la icona a mà.
+
+També podeu afegir llocs web de confiança a la llista de llocs automàtics. Aleshores l'extensió activarà la còpia i el clic dret automàticament cada vegada que visiteu aquests llocs.
+
+CARACTERÍSTIQUES PRINCIPALS
+
+• Activa la còpia i la selecció de text a les pàgines web restringides
+• Activa els menús contextuals del clic dret
+• Activa copiar, retallar, enganxar, seleccionar text i arrossegar
+• Activació amb un clic des de la barra d'eines
+• Drecera de teclat per a una activació ràpida
+• Activació automàtica als llocs que trieu
+• Funciona en els iframes accessibles on els permisos del navegador ho permeten
+• Mostra una insígnia ON després de l'activació manual
+• Sense menús emergents
+• Sense analítiques ni seguiment
+• Sense codi remot ni sol·licituds de xarxa
+
+DRECERES DE TECLAT PER DEFECTE
+
+• Windows, Linux, ChromeOS, GooglebookOS i Android: Alt+C
+• macOS: Command+Shift+Y
+
+La drecera de teclat fa el mateix que fer clic a la icona de l'extensió.
+
+CANVIAR LA DRECERA DE TECLAT
+
+1. Obriu el menú Extensions i seleccioneu Gestiona les extensions.
+2. Seleccioneu Dreceres de teclat a la barra lateral.
+3. Cerqueu Enable Copy and Right Click i introduïu la drecera que vulgueu.
+
+LLOCS AUTOMÀTICS
+
+Obriu la pàgina d'opcions de l'extensió i afegiu un domini com ara:
+
+example.com
+
+L'extensió demanarà permís només per al lloc web que afegiu. Un cop concedit, la còpia, la selecció de text i el clic dret s'activaran automàticament en aquest lloc.
+
+Podeu suprimir un lloc automàtic en qualsevol moment des de la pàgina d'opcions.
+
+OBRIR LA PÀGINA D'OPCIONS
+
+1. Feu clic dret a la icona de l'extensió a la barra d'eines.
+2. Seleccioneu Opcions de l'extensió.
+
+PRIVADESA
+
+• Sense analítiques ni seguiment
+• Sense recollida de dades
+• Sense recollida de l'historial de navegació
+• Sense sol·licituds de xarxa
+• Sense codi remot
+• Sense JavaScript extern
+• Les preferències dels llocs automàtics es desen localment al navegador
+• Els permisos dels llocs només es demanen quan afegiu un lloc expressament
+
+Tot el restabliment de la còpia i el clic dret es fa localment al navegador.
+
+RENDIMENT
+
+L'extensió és lleugera i funciona per esdeveniments.
+
+No fa cap feina contínua en segon pla mentre està inactiva. L'activació manual només s'executa quan feu clic a la icona de la barra d'eines o feu servir la drecera de teclat. L'activació automàtica només s'executa als llocs web que hàgiu afegit expressament.
+
+No hi ha sondeigs, activitat de xarxa en segon pla, SDK d'analítiques, configuració remota ni cap bucle que vigili les pàgines contínuament.
+
+CODI OBERT
+
+Enable Copy and Right Click és un projecte de codi obert sota llicència MIT.
+
+Consulteu el codi font, informeu d'errors o col·laboreu a GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

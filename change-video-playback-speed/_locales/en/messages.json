@@ -1,0 +1,28 @@
+{
+  "extensionDescription": {
+    "message": "Quickly change video and audio playback speed between 1x, 1.2x, 1.5x, and 2x.",
+    "description": "The extension's description in the browser's extension list and store."
+  },
+  "commandDescription": {
+    "message": "Change video playback speed",
+    "description": "The keyboard shortcut's name in the browser's keyboard shortcuts settings."
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "description": "The speed as the on-page indicator shows it, such as 1.5x.",
+    "placeholders": { "speed": { "content": "$1", "example": "1.5" } }
+  },
+  "speedSpoken": {
+    "message": "Playback speed $SPEED$ times",
+    "description": "What screen readers announce when the speed changes.",
+    "placeholders": { "speed": { "content": "$1", "example": "1.5" } }
+  },
+  "actionTitle": {
+    "message": "Playback speed: $SPEED$ - $NAME$",
+    "description": "Tooltip of the toolbar button once the speed is changed. The speed reads as the indicator shows it, such as 1.5x; the extension's name stays in English.",
+    "placeholders": {
+      "speed": { "content": "$1", "example": "1.5x" },
+      "name": { "content": "$2", "example": "Change Video Playback Speed" }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "کپی، انتخاب متن و منوهای کلیک راست را در صفحه‌های وبی که آن‌ها را محدود کرده‌اند فعال کنید."
+  },
+  "commandDescription": {
+    "message": "فعال کردن کپی و کلیک راست در صفحه فعلی"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: فعال",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "کپی و کلیک راست فعال شد."
+  },
+  "optionsTitle": {
+    "message": "سایت‌های خودکار | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "مخزن GitHub، در برگه تازه باز می‌شود"
+  },
+  "automaticSitesHeading": {
+    "message": "سایت‌های خودکار"
+  },
+  "automaticSitesIntro": {
+    "message": "کپی، انتخاب متن و کلیک راست را در وب‌سایت‌هایی که اضافه می‌کنید خودکار فعال کنید."
+  },
+  "siteInputLabel": {
+    "message": "دامنه وب‌سایت"
+  },
+  "addSite": {
+    "message": "افزودن سایت"
+  },
+  "noSites": {
+    "message": "هنوز هیچ سایت خودکاری اضافه نشده است."
+  },
+  "siteListLabel": {
+    "message": "سایت‌های خودکار"
+  },
+  "remove": {
+    "message": "حذف"
+  },
+  "removeSite": {
+    "message": "حذف $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (مجوز برداشته شد)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ اضافه شد.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ دوباره فعال شد.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ حذف شد.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "این سایت از قبل فعال است."
+  },
+  "invalidDomain": {
+    "message": "یک دامنه معتبر وارد کنید، مثلاً example.com."
+  },
+  "permissionNotGranted": {
+    "message": "مجوز سایت داده نشد."
+  },
+  "addFailed": {
+    "message": "افزودن سایت ممکن نشد."
+  },
+  "removeFailed": {
+    "message": "حذف سایت ممکن نشد."
+  },
+  "loadFailed": {
+    "message": "بارگیری فهرست سایت‌ها ممکن نشد."
+  }
+}

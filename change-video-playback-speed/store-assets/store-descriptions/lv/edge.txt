@@ -1,0 +1,47 @@
+Mainiet video un audio atskaņošanas ātrumu ar vienu klikšķi vai īsinājumtaustiņu.
+
+Change Video Playback Speed ir viegls atvērtā pirmkoda paplašinājums, kas pārslēdz četrus noderīgus atskaņošanas ātrumus:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Noklikšķiniet uz paplašinājuma ikonas vai izmantojiet īsinājumtaustiņu, lai pārietu uz nākamo ātrumu. Izvēlētais ātrums tiek piemērots lapas video un audio, arī atbalstītajos iegultajos atskaņotājos.
+
+Padoms: Edge paplašinājumu izvēlnē ieslēdziet «Rādīt rīkjoslā» paplašinājumam Change Video Playback Speed ātrai piekļuvei.
+
+Pašreizējais ātrums uz brīdi tiek parādīts lapā un rīkjoslas nozīmītē.
+
+GALVENĀS FUNKCIJAS
+
+• Vadība ar vienu klikšķi un īsinājumtaustiņu
+• Video un audio atbalsts
+• Saderīgu iegulto atskaņotāju atbalsts
+• Ātruma nozīmīte rīkjoslā un indikators lapā, kas redzams arī pilnekrāna režīmā
+• Nav uznirstošo izvēlņu, peldošo vadīklu vai iestatījumu
+
+NOKLUSĒJUMA ĪSINĀJUMTAUSTIŅI
+
+• Windows, Linux, ChromeOS, GooglebookOS un Android: Alt+S
+• macOS: Command+Shift+Period
+
+ĪSINĀJUMTAUSTIŅA MAIŅA
+
+1. Atveriet izvēlni Paplašinājumi un atlasiet Pārvaldīt paplašinājumus.
+2. Sānjoslā atlasiet Īsinājumtaustiņi.
+3. Atrodiet Change Video Playback Speed un ievadiet vēlamo īsinājumtaustiņu.
+
+PRIVĀTUMS
+
+• Nav analītikas vai izsekošanas
+• Nevāc datus vai pārlūkošanas vēsturi
+• Nav tīkla pieprasījumu
+• Nav pastāvīgas piekļuves vietnēm
+
+Visas ātruma izmaiņas notiek lokāli jūsu pārlūkā.
+
+ATVĒRTAIS PIRMKODS
+
+Change Video Playback Speed ir atvērtā koda programmatūra saskaņā ar MIT licenci.
+
+Apskatiet pirmkodu, ziņojiet par kļūdām vai piedalieties izstrādē GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

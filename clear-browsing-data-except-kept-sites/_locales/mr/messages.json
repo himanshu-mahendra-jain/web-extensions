@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "ब्राउझर सुरू झाल्यावर, तुम्ही ठेवलेल्या साइट सोडून सर्व साइटचा इतिहास, कुकी आणि साइट डेटा साफ करते."
+  },
+  "optionsTitle": {
+    "message": "ठेवलेल्या साइट | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub रिपॉझिटरी, नवीन टॅबमध्ये उघडते"
+  },
+  "accessHeading": {
+    "message": "साइट ॲक्सेस बंद आहे"
+  },
+  "allowSiteAccess": {
+    "message": "साइट ॲक्सेसला अनुमती द्या"
+  },
+  "accessHistorySiteData": {
+    "message": "वेबसाइटच्या ॲक्सेसशिवाय, एक्स्टेंशन कुकी हटवू शकत नाही. इतिहास आणि साइट डेटा अजूनही साफ होतात."
+  },
+  "accessHistory": {
+    "message": "वेबसाइटच्या ॲक्सेसशिवाय, एक्स्टेंशन कुकी हटवू शकत नाही. इतिहास अजूनही साफ होतो."
+  },
+  "accessSiteData": {
+    "message": "वेबसाइटच्या ॲक्सेसशिवाय, एक्स्टेंशन कुकी हटवू शकत नाही. साइट डेटा अजूनही साफ होतो."
+  },
+  "accessNothing": {
+    "message": "वेबसाइटच्या ॲक्सेसशिवाय, एक्स्टेंशन कुकी हटवू शकत नाही, त्यामुळे काहीही साफ होत नाही."
+  },
+  "clearingOffHeading": {
+    "message": "साफ करणे बंद आहे"
+  },
+  "clearingOffText": {
+    "message": "अजून काहीही हटवले जात नाही. ज्या साइटवर तुम्हाला साइन इन राहायचे आहे त्या जोडा, नंतर साफ करणे सुरू करा. त्यानंतर, प्रत्येक वेळी ब्राउझर सुरू झाल्यावर इतर सर्व साइटचा डेटा ($DATA$) हटवला जाईल.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "साफ करणे सुरू करा"
+  },
+  "keptSitesHeading": {
+    "message": "ठेवलेल्या साइट"
+  },
+  "intro": {
+    "message": "या साइट आणि त्यांचे सबडोमेन त्यांचा डेटा ($DATA$) ठेवतात, त्यामुळे तुम्ही साइन इन राहता. साफ करणे सुरू असेपर्यंत, इतर सर्व साइट प्रत्येक वेळी ब्राउझर सुरू झाल्यावर तो गमावतात.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "वेबसाइट डोमेन"
+  },
+  "keep": {
+    "message": "ठेवा"
+  },
+  "siteHint": {
+    "message": "अनेक साइट स्वल्पविरामाने वेगळ्या करा."
+  },
+  "noSites": {
+    "message": "अजून कोणतीही साइट ठेवलेली नाही, त्यामुळे साफ केल्यावर प्रत्येक साइटचा डेटा ($DATA$) हटवला जातो.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "ठेवलेल्या साइट"
+  },
+  "clearingHeading": {
+    "message": "साफ करणे"
+  },
+  "clearOnStartupLabel": {
+    "message": "ब्राउझर सुरू झाल्यावर आपोआप साफ करा"
+  },
+  "clearNow": {
+    "message": "आता साफ करा"
+  },
+  "firstClearHint": {
+    "message": "ब्राउझरमध्ये खूप ब्राउझिंग डेटा असल्यास पहिल्यांदा साफ करायला काही मिनिटे लागू शकतात. दरम्यान तुम्ही ब्राउझ करणे सुरू ठेवू शकता."
+  },
+  "leftoversHeading": {
+    "message": "उरलेला साइट डेटा"
+  },
+  "leftoversIntro": {
+    "message": "एखाद्या साइटचा इतिहास आणि कुकी हटवल्यानंतर, एक्स्टेंशनला ती सापडत नाही, त्यामुळे तिचे लोकल स्टोरेज, डेटाबेस आणि कॅशे राहतात. ‘उरलेले साफ करा’ हे ‘आता साफ करा’ सारख्या साफसफाईनंतर, तुम्ही न ठेवलेल्या प्रत्येक साइटचा साइट डेटा, सापडलेला असो वा नसो, हटवते."
+  },
+  "clearLeftovers": {
+    "message": "उरलेले साफ करा"
+  },
+  "transferHeading": {
+    "message": "इंपोर्ट आणि एक्सपोर्ट"
+  },
+  "transferIntro": {
+    "message": "तुमच्या ठेवलेल्या साइट टेक्स्ट फाइलमध्ये सेव्ह करा, किंवा त्यांना फाइलमधील साइटने बदला. फाइलमध्ये प्रत्येक ओळीत एक साइट असू शकते किंवा साइट स्वल्पविरामाने वेगळ्या असू शकतात."
+  },
+  "export": {
+    "message": "एक्सपोर्ट करा"
+  },
+  "import": {
+    "message": "इंपोर्ट करा"
+  },
+  "cancel": {
+    "message": "रद्द करा"
+  },
+  "dataAll": {
+    "message": "इतिहास, कुकी आणि साइट डेटा"
+  },
+  "dataNoHistory": {
+    "message": "कुकी आणि साइट डेटा"
+  },
+  "dataNoSiteData": {
+    "message": "इतिहास आणि कुकी"
+  },
+  "dataCookies": {
+    "message": "कुकी"
+  },
+  "remove": {
+    "message": "काढा"
+  },
+  "removeSite": {
+    "message": "$SITE$ काढा",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ काढली. तिचा डेटा ($DATA$) पुढील साफसफाईत हटवला जाईल.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "साइट काढता आली नाही."
+  },
+  "siteKept": {
+    "message": "$SITE$ ठेवली आहे.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ साइट ठेवली आहे.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ साइट ठेवल्या आहेत.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ आधीच ठेवलेली आहे.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ साइट आधीच ठेवलेली आहे.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ साइट आधीच ठेवलेल्या आहेत.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ हे वैध डोमेन नाही.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "हे वैध डोमेन नाहीत: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "example.com सारखे वैध डोमेन एंटर करा."
+  },
+  "addSiteFailed": {
+    "message": "साइट जोडता आली नाही."
+  },
+  "addSitesFailed": {
+    "message": "साइट जोडता आल्या नाहीत."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ 1 MB पेक्षा मोठी आहे, त्यामुळे ठेवलेल्या साइट बदलल्या नाहीत.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ मध्ये कोणतेही वैध डोमेन नाही, त्यामुळे ठेवलेल्या साइट बदलल्या नाहीत.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "ठेवलेल्या साइट बदलायच्या?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ साइट",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ साइट",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "तुम्ही आता ठेवलेल्या साइट ($CURRENT$) $FILE$ मधील साइटनी ($NEW$) बदलल्या जातील.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ साइट यापुढे ठेवली जाणार नाही, आणि तिचा डेटा ($DATA$) पुढील साफसफाईत हटवला जाईल.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ साइट यापुढे ठेवल्या जाणार नाहीत, आणि त्यांचा डेटा ($DATA$) पुढील साफसफाईत हटवला जाईल.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "ठेवलेल्या साइट बदला"
+  },
+  "sitesImported_one": {
+    "message": "$FILE$ मधून $COUNT$ साइट इंपोर्ट केली.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$FILE$ मधून $COUNT$ साइट इंपोर्ट केल्या.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "ठेवलेल्या साइट एक्सपोर्ट करता आल्या नाहीत."
+  },
+  "importFailed": {
+    "message": "$FILE$ मधून ठेवलेल्या साइट इंपोर्ट करता आल्या नाहीत.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "साफ करणे सुरू करायचे?"
+  },
+  "turnOnKept": {
+    "message": "प्रत्येक वेळी ब्राउझर सुरू झाल्यावर, तुम्ही ठेवण्यासाठी निवडलेल्या साइट सोडून प्रत्येक साइटचा डेटा ($DATA$) हटवला जाईल. तुम्ही इतर सर्व साइटवरून साइन आउट व्हाल.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "तुम्ही ठेवण्यासाठी कोणतीही साइट निवडलेली नाही. प्रत्येक वेळी ब्राउझर सुरू झाल्यावर, सर्व डेटा ($DATA$) हटवला जाईल, आणि तुम्ही प्रत्येक साइटवरून साइन आउट व्हाल.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "हटवलेला डेटा ($DATA$) परत मिळवता येत नाही.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "आता सर्व काही साफ करायचे?"
+  },
+  "clearEverythingText": {
+    "message": "तुम्ही ठेवण्यासाठी कोणतीही साइट निवडलेली नाही, त्यामुळे आता प्रत्येक साइटचा डेटा ($DATA$) हटवला जाईल, आणि तुम्ही प्रत्येक साइटवरून साइन आउट व्हाल.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "सर्व काही साफ करा"
+  },
+  "leftoversTitle": {
+    "message": "उरलेला साइट डेटा साफ करायचा?"
+  },
+  "leftoversKept": {
+    "message": "तुम्ही न ठेवलेल्या प्रत्येक साइटचा डेटा ($DATA$) आता हटवला जाईल, ज्यात एक्स्टेंशनला आता न सापडणाऱ्या साइटचा साइट डेटाही समाविष्ट आहे.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "ठेवलेली साइट तिचा साइट डेटा फक्त त्या पत्त्यांवर ठेवते जे एक्स्टेंशनला इतिहास, कुकी आणि उघड्या टॅबमध्ये सापडतात. ठेवलेल्या साइटचे इतर कोणतेही सबडोमेन किंवा पोर्ट, जसे की तुम्ही महिनोन्‌महिने भेट न दिलेले सबडोमेन किंवा दुसऱ्या पोर्टवरील लोकल सर्व्हर, त्याचा साइट डेटा गमावते, आणि तुम्ही तिथून साइन आउट होऊ शकता."
+  },
+  "clearing": {
+    "message": "साफ करत आहे… याला काही मिनिटे लागू शकतात."
+  },
+  "leftoversFailed": {
+    "message": "उरलेला साइट डेटा साफ करता आला नाही."
+  },
+  "leftoversCleared": {
+    "message": "उरलेला साइट डेटा साफ केला."
+  },
+  "nothingClearedYet": {
+    "message": "अजून काहीही साफ केलेले नाही."
+  },
+  "clearFailed": {
+    "message": "$WHEN$ ची साफसफाई अयशस्वी झाली.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ इतिहास नोंद",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ इतिहास नोंदी",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ कुकी",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ कुकी",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "काहीही नाही"
+  },
+  "lastCleared": {
+    "message": "शेवटचे साफ केले: $WHEN$. हटवले: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "शेवटचे साफ केले: $WHEN$. हटवले: $WHAT$, सोबत साइट डेटा आणि कॅशे.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "शेवटचे साफ केले: $WHEN$. हटवले: $WHAT$, सोबत न ठेवलेल्या प्रत्येक साइटचा साइट डेटा आणि कॅशे.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "इतिहास आणि साइट डेटा वगळले, कारण हा ब्राउझर एक्स्टेंशनना ते साफ करू देत नाही."
+  },
+  "skippedHistory": {
+    "message": "इतिहास वगळला, कारण हा ब्राउझर एक्स्टेंशनना तो साफ करू देत नाही."
+  },
+  "skippedSiteData": {
+    "message": "साइट डेटा वगळला, कारण हा ब्राउझर एक्स्टेंशनना तो साफ करू देत नाही."
+  },
+  "cookiesSkipped": {
+    "message": "साइट ॲक्सेस बंद असल्यामुळे कुकी वगळल्या."
+  },
+  "loadFailed": {
+    "message": "सेटिंग्ज लोड करता आल्या नाहीत."
+  }
+}

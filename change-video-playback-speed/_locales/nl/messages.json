@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Wissel snel de afspeelsnelheid van video en audio tussen 1x, 1,2x, 1,5x en 2x."
+  },
+  "commandDescription": {
+    "message": "Afspeelsnelheid van video wijzigen"
+  },
+  "speedShown": {
+    "message": "$SPEED$x",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "speedSpoken": {
+    "message": "Afspeelsnelheid $SPEED$ keer",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      }
+    }
+  },
+  "actionTitle": {
+    "message": "Afspeelsnelheid: $SPEED$ - $NAME$",
+    "placeholders": {
+      "speed": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}

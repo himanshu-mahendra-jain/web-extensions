@@ -1,0 +1,6 @@
+{
+  "extensionDescription": {
+    "message": "Close the current tab with a three-finger tap or middle click outside links and editable fields.",
+    "description": "The extension's description in the browser's extension list and store."
+  }
+}

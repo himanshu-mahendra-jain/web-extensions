@@ -1,0 +1,90 @@
+Bumubura ng history, cookies at site data sa pagbukas ng browser para sa lahat ng site maliban sa mga itinatago mo.
+
+Ang Clear Browsing Data Except Kept Sites ay isang magaan at open source na extension na nag-aalis ng mga entry sa history, cookie, at data ng site ng lahat ng site na hindi mo piniling panatilihin.
+
+Sa mga setting, idagdag ang mga site kung saan mo gustong manatiling naka-sign in at gustong maalala ka, pagkatapos ay i-on ang pagbura. Sa bawat pagbukas ng browser, binubura ng extension ang history, mga cookie, at data ng site ng lahat ng iba pang site. Puwede ka ring magbura anumang oras gamit ang "Burahin Ngayon".
+
+Tip: Sa menu ng Extensions ng Edge, i-on ang «Show in toolbar» para sa Clear Browsing Data Except Kept Sites upang madali itong ma-access.
+
+MGA PANGUNAHING FEATURE
+
+• Listahan ng mga site na hindi kailanman binubura ang history at mga cookie, na may import at export bilang text file
+• Binubura ang history at mga cookie ng lahat ng iba pang site kapag nagbukas ang browser, pagkatapos mo itong i-on
+• Magbura anumang oras gamit ang "Burahin Ngayon", at burahin ang natirang data ng mga site na hindi na matagpuan gamit ang "Burahin ang Natira"
+• Awtomatikong pinapanatili ang mga subdomain ng pinapanatiling site
+• Pinapanatili ang mga cookie ng parent domain na kailangan ng pinapanatiling site para manatili kang naka-sign in
+• Binubura ang mga partitioned (third-party) na cookie; nananatili lang ang mga partitioned na cookie ng pinapanatiling site sa ilalim ng mga pinapanatiling site
+• Binubura ang local storage, IndexedDB, mga service worker, at cache ng mga site na hindi pinapanatili
+• Ipinapakita sa mga setting ang resulta ng huling pagbura
+• Nagbababala kapag naka-off ang access sa site at hindi mabura ang mga cookie
+• Walang analytics o pagsubaybay
+• Walang remote code o network request
+
+MGA PINAPANATILING SITE
+
+Buksan ang mga setting at magdagdag ng domain, halimbawa:
+
+example.com
+
+Para magdagdag ng ilan nang sabay-sabay, paghiwalayin ang mga ito ng kuwit.
+
+Ang "I-export" ay nagse-save ng listahan bilang text file, isang domain bawat linya. Ang "I-import" ay pinapalitan ang listahan ng mga site mula sa text file, at nagbababala muna kung mawawala ang mga site na pinapanatili mo ngayon.
+
+Ang address na tulad ng mail.example.com/inbox ay pinaiikli sa domain nito, at inaalis ang www. sa simula. Tinatanggap din ang localhost at mga IPv4 address na tulad ng 192.168.1.1.
+
+Ang pagpapanatili sa example.com ay nagpapanatili ng history, mga cookie, at data ng site ng example.com at ng lahat ng subdomain nito. Ang pagpapanatili sa mail.example.com ay nagpapanatili rin ng mga cookie ng example.com, dahil madalas na naroon ang sign-in ng subdomain.
+
+PAGBUKAS NG MGA SETTING
+
+Awtomatikong nagbubukas ang mga setting pagkatapos mag-install, para mapunan mo ang listahan bago i-on ang pagbura. Sa susunod, i-click ang icon ng extension sa toolbar, o:
+
+1. I-right click ang icon ng extension sa toolbar.
+2. Piliin ang Mga opsyon ng extension.
+
+PAGBURA SA PAGBUKAS
+
+Pagkatapos mag-install, naka-off ang pagbura, kaya walang inaalis hangga't hindi mo hinihiling. Ipinapakita ng mga setting ang abisong "Naka-off ang pagbura" kasama ang button na "I-on ang Pagbura". Kapag in-on, may babala muna: bawat pagbukas ay binubura ang history at mga cookie ng lahat ng site maliban sa mga pinapanatili at isa-sign out ka sa mga ito, o sa lahat ng site kung walang pinapanatili.
+
+Kapag naka-on, tumatakbo ang pagbura sa bawat pagbukas ng browser, dahil hindi pinapayagan ng browser na tumakbo ang mga extension sa pagsara. Inaalis ng pagbura sa pagbukas ang iniwan ng nakaraang session. I-off o i-on ulit ito gamit ang "Awtomatikong burahin kapag nagbukas ang browser" sa mga setting.
+
+BURAHIN NGAYON AT BURAHIN ANG NATIRA
+
+Agad nagbubura ang "Burahin Ngayon" sa mga setting. Kung walang pinapanatiling site, may lalabas munang pulang babala na buburahin ang lahat. Ipinapakita ng mga setting kung kailan ang huling pagbura at kung ilang entry sa history at cookie ang nabura nito.
+
+Kapag inalis na ng pagbura ang history at mga cookie ng isang site, hindi na matatagpuan ng mga susunod na pagbura ang site na iyon, kaya naiiwan ang local storage, mga database, at cache nito. Ang "Burahin ang Natira" ay nagpapatakbo ng pagbura at saka binubura ang data ng lahat ng site na hindi mo pinapanatili, natagpuan man o hindi. Dito, eksaktong mga site lang ang kayang iligtas ng browser, kaya ang pinapanatiling site ay nagtatabi lang ng data para sa sarili nito at sa mga pinapanatiling site na natagpuan ng pagbura sa history, mga cookie, at mga bukas na tab; sinasabi muna ito ng isang pulang babala.
+
+ACCESS SA SITE
+
+Matatanggal lang ang mga cookie ng mga site na may access ang extension, kaya humihingi ito ng access sa lahat ng site. Kung lilimitahan mo ang access sa site, halimbawa sa "Kapag na-click", binubura pa rin ang history pero nilalaktawan ang mga cookie, at ipinapakita ng mga setting ang button na "Payagan ang Access sa Site".
+
+MGA LIMITASYON
+
+• Ang mga tab na naibalik sa pagbukas ay puwedeng magtakda ng mga bagong cookie habang tumatakbo ang pagbura. Mananatili ang mga cookie na iyon hanggang sa susunod na pagbukas o susunod na "Burahin Ngayon".
+• Hindi binubura ang iba pang data ng site, tulad ng session storage, mga pahintulot ng site, at mga file na na-save sa pamamagitan ng File System API.
+• Kung kasama ang history sa pag-sync ng browser, ang mga inalis na entry sa history ay puwede ring maalis sa iba mo pang device.
+• Binubura lang ang mga InPrivate window kapag pinapayagan ang extension sa InPrivate. Itinatapon din naman ng Edge ang data ng mga ito kapag isinara.
+• Hindi maidaragdag sa listahan ang mga IPv6 address.
+
+PRIVACY
+
+• Walang analytics o pagsubaybay
+• Walang pangongolekta ng data
+• Walang network request
+• Walang remote code
+• Walang external na JavaScript
+• Binabasa lang ang history at mga cookie para magpasya kung ano ang aalisin, at sa browser mo lang
+• Lokal na naka-store sa browser mo ang listahan at mga setting
+
+PERFORMANCE
+
+Walang ginagawa ang extension habang nagba-browse ka. Tumatakbo ito nang isang beses sa pagbukas ng browser, kung naka-on ang pagbura, at kapag nag-click ka ng "Burahin Ngayon" o "Burahin ang Natira".
+
+Ang unang pagbura ng mahabang history ay puwedeng tumagal nang ilang minuto, dahil isa-isang binubura ang bawat entry sa history. Puwede kang magpatuloy sa pag-browse habang naghihintay. Ang mga susunod na pagbura ay nag-aalis lang ng mga entry mula sa nakaraang session.
+
+OPEN SOURCE
+
+Ang Clear Browsing Data Except Kept Sites ay open source at lisensyado sa ilalim ng MIT License.
+
+Tingnan ang source code, mag-ulat ng mga isyu, o mag-ambag sa GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

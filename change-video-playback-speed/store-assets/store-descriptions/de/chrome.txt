@@ -1,0 +1,47 @@
+Ändern Sie die Wiedergabegeschwindigkeit von Video und Audio mit einem Klick oder einer Tastenkombination.
+
+Change Video Playback Speed ist eine schlanke Open-Source-Erweiterung, die zwischen vier nützlichen Wiedergabegeschwindigkeiten wechselt:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klicken Sie auf das Symbol der Erweiterung oder verwenden Sie die Tastenkombination, um zur nächsten Geschwindigkeit zu wechseln. Die gewählte Geschwindigkeit gilt für Video und Audio auf der Seite, auch in unterstützten eingebetteten Playern.
+
+Tipp: Fixieren Sie die Erweiterung im Chrome-Erweiterungsmenü (Puzzleteil-Symbol), um das Symbol dauerhaft in der Symbolleiste zu behalten.
+
+Die aktuelle Geschwindigkeit wird kurz auf der Seite und im Badge in der Symbolleiste angezeigt.
+
+WICHTIGSTE FUNKTIONEN
+
+• Bedienung per Klick und Tastenkombination
+• Für Video und Audio
+• Unterstützt kompatible eingebettete Player
+• Geschwindigkeits-Badge in der Symbolleiste und eine Anzeige auf der Seite, auch im Vollbild
+• Keine Pop-up-Menüs, schwebenden Bedienelemente oder Einstellungen
+
+STANDARD-TASTENKOMBINATIONEN
+
+• Windows, Linux, ChromeOS, GooglebookOS und Android: Alt+S
+• macOS: Command+Shift+Period
+
+TASTENKOMBINATION ÄNDERN
+
+1. Öffnen Sie das Chrome-Menü und wählen Sie „Erweiterungen“ → „Erweiterungen verwalten“.
+2. Wählen Sie in der Seitenleiste „Tastenkombinationen“.
+3. Suchen Sie Change Video Playback Speed und geben Sie die gewünschte Tastenkombination ein.
+
+DATENSCHUTZ
+
+• Keine Analyse, kein Tracking
+• Keine Erfassung von Daten oder Browserverlauf
+• Keine Netzwerkanfragen
+• Kein dauerhafter Zugriff auf Websites
+
+Alle Änderungen der Geschwindigkeit erfolgen lokal in Ihrem Browser.
+
+OPEN SOURCE
+
+Change Video Playback Speed ist Open Source und unter der MIT-Lizenz lizenziert.
+
+Quellcode einsehen, Probleme melden oder beitragen auf GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

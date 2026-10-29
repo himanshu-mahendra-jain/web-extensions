@@ -1,0 +1,42 @@
+Tutup tab saat ini dengan ketukan tiga jari, klik tengah, atau klik di toolbar.
+
+Three Finger Tap to Close Tab adalah ekstensi open source yang ringan untuk menutup tab browser saat ini dengan cepat dan mudah.
+
+Ketuk dengan tiga jari atau klik tengah di mana saja pada halaman web di luar tautan dan kolom yang dapat diedit untuk menutup tab saat ini. Anda juga dapat mengklik ikon ekstensi di toolbar untuk menutup tab.
+
+Tips: Di menu Ekstensi Edge, aktifkan opsi «Tampilkan di bilah alat» untuk Three Finger Tap to Close Tab agar mudah diakses.
+
+Klik tengah pada tautan dan kartu feed tetap berperilaku normal seperti biasa di browser, sehingga Anda tetap dapat membuka tautan dan postingan di tab baru. Zona aman bawaan mencegah tab tertutup tanpa sengaja jika Anda mengetuk sedikit di dekat tautan atau kontrol.
+
+FITUR UTAMA
+
+• Tutup tab saat ini dengan ketukan tiga jari
+• Tutup tab saat ini dengan klik tengah
+• Tutup tab saat ini dengan klik di toolbar
+• Klik tengah pada tautan, tombol, dan kartu feed tetap berfungsi normal
+• Zona aman mencegah tab tertutup tanpa sengaja di dekat elemen interaktif
+• Tidak menutup tab saat Anda menggunakan formulir dan kolom yang dapat diedit
+• Tanpa menu popup atau pengaturan
+
+PENGATURAN TOUCHPAD
+
+Touchpad dan sistem operasi Anda harus diatur agar ketukan tiga jari menghasilkan klik tengah.
+
+Setelah diatur, ketuk dengan tiga jari pada halaman web di luar tautan dan konten interaktif untuk menutup tab saat ini.
+
+PRIVASI
+
+• Tanpa analitik atau pelacakan
+• Tidak mengumpulkan data atau riwayat penjelajahan
+• Tanpa permintaan jaringan
+• Tidak menyimpan aktivitas penjelajahan atau preferensi
+
+Semua penutupan tab terjadi secara lokal di browser Anda.
+
+SUMBER TERBUKA (OPEN SOURCE)
+
+Three Finger Tap to Close Tab adalah perangkat lunak sumber terbuka di bawah Lisensi MIT.
+
+Lihat kode sumber, laporkan masalah, atau berkontribusi di GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

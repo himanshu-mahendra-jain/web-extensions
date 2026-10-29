@@ -1,0 +1,90 @@
+Limpa o histórico, os cookies e os dados de sites ao iniciar o navegador em todos os sites, exceto os que você mantém.
+
+Clear Browsing Data Except Kept Sites é uma extensão leve e de código aberto que remove as entradas do histórico, os cookies e os dados de sites de todos os sites que você não escolheu manter.
+
+Adicione nas configurações os sites em que você quer continuar conectado e que quer lembrar, depois ative a limpeza. Sempre que o navegador inicia, a extensão limpa o histórico, os cookies e os dados de sites de todos os outros sites. Você também pode limpar quando quiser com "Limpar agora".
+
+Dica: no menu de Extensões do Edge, ative «Mostrar na barra de ferramentas» para o Clear Browsing Data Except Kept Sites e mantenha seu ícone acessível.
+
+PRINCIPAIS RECURSOS
+
+• Uma lista de sites cujo histórico e cookies nunca são limpos, que pode ser importada ou exportada como arquivo de texto
+• Limpa o histórico e os cookies de todos os outros sites quando o navegador inicia, depois que você ativa
+• Limpa quando você quiser com "Limpar agora" e limpa os dados restantes de sites que não são mais encontrados com "Limpar restos"
+• Mantém automaticamente os subdomínios de um site mantido
+• Mantém os cookies do domínio principal de que um site mantido precisa para continuar conectado
+• Limpa cookies particionados (de terceiros); os cookies particionados de um site mantido só são mantidos sob sites mantidos
+• Limpa o armazenamento local, o IndexedDB, os service workers e o cache dos sites não mantidos
+• Mostra o resultado da última limpeza nas configurações
+• Avisa quando o acesso aos sites está desativado e os cookies não podem ser limpos
+• Sem análises ou rastreamento
+• Sem código remoto nem solicitações de rede
+
+SITES MANTIDOS
+
+Abra as configurações e adicione um domínio, por exemplo:
+
+example.com
+
+Para adicionar vários de uma vez, separe-os com vírgulas.
+
+"Exportar" salva a lista como arquivo de texto, um domínio por linha. "Importar" substitui a lista pelos sites de um arquivo de texto e avisa antes se isso remover sites que você mantém agora.
+
+Um endereço como mail.example.com/inbox é reduzido ao seu domínio, e um www. inicial é removido. localhost e endereços IPv4 como 192.168.1.1 também são aceitos.
+
+Manter example.com mantém o histórico, os cookies e os dados de site de example.com e de todos os seus subdomínios. Manter mail.example.com também mantém os cookies de example.com, porque eles muitas vezes guardam o login do subdomínio.
+
+ABRIR AS CONFIGURAÇÕES
+
+As configurações abrem automaticamente após a instalação, para que você possa preencher a lista antes de ativar a limpeza. Depois, clique no ícone da extensão na barra de ferramentas, ou:
+
+1. Clique com o botão direito no ícone da extensão na barra de ferramentas.
+2. Selecione Opções da extensão.
+
+LIMPEZA AO INICIAR
+
+A limpeza fica desativada após a instalação, então nada é removido até que você peça. As configurações mostram o aviso "A limpeza está desativada" com um botão "Ativar limpeza". Ativá-la mostra primeiro um alerta: cada inicialização exclui o histórico e os cookies de todos os sites, exceto os mantidos, e desconecta você deles, ou de todos os sites quando nenhum é mantido.
+
+Depois de ativada, a limpeza é executada sempre que o navegador inicia, porque o navegador não deixa extensões serem executadas quando ele fecha. Limpar ao iniciar remove o que a sessão anterior deixou. Desative ou ative de novo com "Limpar automaticamente quando o navegador iniciar" nas configurações.
+
+LIMPAR AGORA E LIMPAR RESTOS
+
+"Limpar agora" nas configurações limpa na hora. Quando nenhum site é mantido, primeiro aparece um alerta vermelho de que tudo será excluído. As configurações mostram quando foi a última limpeza e quantas entradas do histórico e cookies ela excluiu.
+
+Depois que uma limpeza removeu o histórico e os cookies de um site, as limpezas seguintes não encontram mais esse site, então o armazenamento local, os bancos de dados e o cache dele permanecem. "Limpar restos" executa uma limpeza e depois exclui os dados de site de todos os sites que você não mantém, encontrados ou não. Aqui o navegador só consegue poupar sites exatos, então um site mantido conserva os dados só para ele mesmo e para os sites mantidos que a limpeza encontra no histórico, nos cookies e nas guias abertas; um alerta vermelho avisa isso antes.
+
+ACESSO AOS SITES
+
+Os cookies só podem ser removidos dos sites a que a extensão tem acesso, por isso ela pede acesso a todos os sites. Se você limitar o acesso aos sites, por exemplo para "Ao clicar", o histórico continua sendo limpo, mas os cookies são ignorados, e as configurações mostram um botão "Permitir acesso aos sites".
+
+LIMITAÇÕES
+
+• Guias restauradas na inicialização podem criar novos cookies enquanto a limpeza é executada. Esses cookies ficam até a próxima inicialização ou até "Limpar agora".
+• Outros dados de sites, como o armazenamento de sessão, as permissões dos sites e os arquivos salvos pela API File System, não são limpos.
+• Se a sincronização do navegador incluir o histórico, as entradas removidas também podem ser removidas nos seus outros dispositivos.
+• Janelas InPrivate só são limpas quando a extensão é permitida no InPrivate. De qualquer forma, o Edge descarta os dados delas quando são fechadas.
+• Endereços IPv6 não podem ser adicionados à lista.
+
+PRIVACIDADE
+
+• Sem análises ou rastreamento
+• Sem coleta de dados
+• Sem solicitações de rede
+• Sem código remoto
+• Sem JavaScript externo
+• O histórico e os cookies só são lidos para decidir o que remover, e só dentro do seu navegador
+• A lista e as configurações ficam armazenadas localmente no seu navegador
+
+DESEMPENHO
+
+A extensão não faz nada enquanto você navega. Ela é executada uma vez quando o navegador inicia, se a limpeza estiver ativada, e quando você clica em "Limpar agora" ou "Limpar restos".
+
+A primeira limpeza de um histórico longo pode levar alguns minutos, porque cada entrada do histórico é excluída individualmente. Você pode continuar navegando enquanto isso. As limpezas seguintes só removem as entradas da sessão anterior.
+
+CÓDIGO ABERTO
+
+O Clear Browsing Data Except Kept Sites é um projeto de código aberto sob a licença MIT.
+
+Acesse o código-fonte, reporte problemas ou contribua no GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

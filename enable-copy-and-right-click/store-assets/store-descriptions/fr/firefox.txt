@@ -1,0 +1,80 @@
+Réactivez la copie, la sélection de texte et les menus du clic droit sur les pages web qui les bloquent.
+
+Enable Copy and Right Click est une extension légère et open source qui rétablit la copie, la sélection de texte et le clic droit normaux sur les pages web qui restreignent ces actions.
+
+Cliquez sur l'icône de l'extension dans la barre d'outils ou utilisez le raccourci clavier pour activer la copie et le clic droit dans l'onglet actuel.
+
+Vous pouvez aussi ajouter des sites de confiance à la liste des sites automatiques. L'extension activera alors la copie et le clic droit automatiquement chaque fois que vous visiterez ces sites.
+
+FONCTIONNALITÉS PRINCIPALES
+
+• Active la copie et la sélection de texte sur les pages web restreintes
+• Active les menus contextuels du clic droit
+• Active copier, couper, coller, sélectionner du texte et glisser-déposer
+• Activation en un clic depuis la barre d'outils
+• Raccourci clavier pour une activation rapide
+• Activation automatique sur les sites de votre choix
+• Fonctionne dans les iframes accessibles lorsque les autorisations du navigateur le permettent
+• Affiche un badge ON après une activation manuelle
+• Aucun menu contextuel surgissant
+• Aucune analyse ni aucun pistage
+• Aucun code distant ni aucune requête réseau
+
+RACCOURCIS CLAVIER PAR DÉFAUT
+
+• Windows, Linux, ChromeOS, GooglebookOS et Android : Alt+C
+• macOS : Command+Shift+Y
+
+Le raccourci clavier a le même effet qu'un clic sur l'icône de l'extension.
+
+CHANGER LE RACCOURCI CLAVIER
+
+1. Ouvrez le menu de Firefox et sélectionnez Modules complémentaires et thèmes.
+2. Cliquez sur l'icône d'engrenage de la page Extensions.
+3. Sélectionnez Gérer les raccourcis d'extensions.
+4. Recherchez Enable Copy and Right Click et saisissez le raccourci de votre choix.
+
+SITES AUTOMATIQUES
+
+Ouvrez la page d'options de l'extension et ajoutez un domaine, par exemple :
+
+example.com
+
+L'extension ne demande l'autorisation que pour le site que vous ajoutez. Une fois l'autorisation accordée, la copie, la sélection de texte et le clic droit seront activés automatiquement sur ce site.
+
+Vous pouvez retirer un site automatique à tout moment depuis la page d'options.
+
+OUVRIR LA PAGE D'OPTIONS
+
+1. Ouvrez le menu de Firefox et sélectionnez Modules complémentaires et thèmes.
+2. Repérez Enable Copy and Right Click et cliquez sur le menu à trois points à côté.
+3. Sélectionnez Préférences.
+
+CONFIDENTIALITÉ
+
+• Aucune analyse ni aucun pistage
+• Aucune collecte de données
+• Aucune collecte de l'historique de navigation
+• Aucune requête réseau
+• Aucun code distant
+• Aucun JavaScript externe
+• Les préférences des sites automatiques sont enregistrées localement dans votre navigateur
+• Les autorisations de site ne sont demandées que lorsque vous ajoutez vous-même un site
+
+Tout le rétablissement de la copie et du clic droit se fait localement dans votre navigateur.
+
+PERFORMANCES
+
+L'extension est légère et fonctionne par événements.
+
+Elle n'effectue aucun travail continu en arrière-plan lorsqu'elle est inactive. L'activation manuelle ne s'exécute que lorsque vous cliquez sur l'icône de la barre d'outils ou utilisez le raccourci clavier. L'activation automatique ne s'exécute que sur les sites que vous avez vous-même ajoutés.
+
+Il n'y a ni interrogation périodique, ni activité réseau en arrière-plan, ni SDK d'analyse, ni configuration à distance, ni boucle de surveillance permanente des pages.
+
+OPEN SOURCE
+
+Enable Copy and Right Click est un projet open source sous licence MIT.
+
+Consultez le code source, signalez des anomalies ou contribuez sur GitHub :
+
+https://github.com/himanshu-mahendra-jain/web-extensions

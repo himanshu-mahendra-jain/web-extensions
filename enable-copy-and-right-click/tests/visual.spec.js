@@ -69,6 +69,16 @@ for (const browserName of ["chromium", "firefox"]) {
     });
 
 
+    test("laid out right to left, as Arabic, Hebrew and Persian are", async ({ page }) => {
+      await openAutomaticSites(page, { ...SITES, direction: "rtl" });
+
+      await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
+      await expect(page.locator("#site-list li")).toHaveCount(2);
+
+      await expect(page).toHaveScreenshot(`sites-rtl-${browserName}.png`, { fullPage: true });
+    });
+
+
     test.describe("in dark mode", () => {
       test.use({ colorScheme: "dark" });
 

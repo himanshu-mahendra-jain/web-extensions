@@ -1,0 +1,552 @@
+{
+  "extensionDescription": {
+    "message": "Při spuštění prohlížeče vymaže historii, soubory cookie a data webů u všech webů kromě těch, které si ponecháte."
+  },
+  "optionsTitle": {
+    "message": "Ponechané weby | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repozitář na GitHubu, otevře se na nové kartě"
+  },
+  "accessHeading": {
+    "message": "Přístup k webům je vypnutý"
+  },
+  "allowSiteAccess": {
+    "message": "Povolit přístup k webům"
+  },
+  "accessHistorySiteData": {
+    "message": "Bez přístupu k webům nemůže rozšíření mazat soubory cookie. Historie a data webů se mažou dál."
+  },
+  "accessHistory": {
+    "message": "Bez přístupu k webům nemůže rozšíření mazat soubory cookie. Historie se maže dál."
+  },
+  "accessSiteData": {
+    "message": "Bez přístupu k webům nemůže rozšíření mazat soubory cookie. Data webů se mažou dál."
+  },
+  "accessNothing": {
+    "message": "Bez přístupu k webům nemůže rozšíření mazat soubory cookie, takže se nic nemaže."
+  },
+  "clearingOffHeading": {
+    "message": "Mazání je vypnuté"
+  },
+  "clearingOffText": {
+    "message": "Zatím se nic nesmazalo. Přidejte weby, na kterých chcete zůstat přihlášeni, a pak zapněte mazání. Od té doby se při každém spuštění prohlížeče smažou data všech ostatních webů ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "Zapnout mazání"
+  },
+  "keptSitesHeading": {
+    "message": "Ponechané weby"
+  },
+  "intro": {
+    "message": "Tyto weby a jejich subdomény si ponechají svá data ($DATA$), takže zůstanete přihlášeni. Dokud je mazání zapnuté, všechny ostatní weby je při každém spuštění prohlížeče ztratí.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "Domény webů"
+  },
+  "keep": {
+    "message": "Ponechat"
+  },
+  "siteHint": {
+    "message": "Více webů oddělte čárkami."
+  },
+  "noSites": {
+    "message": "Zatím nejsou ponechány žádné weby, takže mazání smaže data všech webů ($DATA$).",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "Ponechané weby"
+  },
+  "clearingHeading": {
+    "message": "Mazání"
+  },
+  "clearOnStartupLabel": {
+    "message": "Mazat automaticky při spuštění prohlížeče"
+  },
+  "clearNow": {
+    "message": "Smazat nyní"
+  },
+  "firstClearHint": {
+    "message": "První mazání může trvat několik minut, pokud prohlížeč uchovává mnoho dat o prohlížení. Mezitím můžete dál prohlížet."
+  },
+  "leftoversHeading": {
+    "message": "Zbylá data webů"
+  },
+  "leftoversIntro": {
+    "message": "Jakmile se smaže historie a soubory cookie webu, rozšíření ho už nenajde, takže jeho místní úložiště, databáze a mezipaměť zůstanou. „Smazat zbytky“ smaže data všech webů, které si neponecháváte, nalezených i nenalezených, po mazání, jako je „Smazat nyní“."
+  },
+  "clearLeftovers": {
+    "message": "Smazat zbytky"
+  },
+  "transferHeading": {
+    "message": "Import a export"
+  },
+  "transferIntro": {
+    "message": "Uložte ponechané weby do textového souboru nebo je nahraďte weby ze souboru. Soubor může obsahovat jeden web na řádek nebo weby oddělené čárkami."
+  },
+  "export": {
+    "message": "Exportovat"
+  },
+  "import": {
+    "message": "Importovat"
+  },
+  "cancel": {
+    "message": "Zrušit"
+  },
+  "dataAll": {
+    "message": "historie, soubory cookie a data webů"
+  },
+  "dataNoHistory": {
+    "message": "soubory cookie a data webů"
+  },
+  "dataNoSiteData": {
+    "message": "historie a soubory cookie"
+  },
+  "dataCookies": {
+    "message": "soubory cookie"
+  },
+  "remove": {
+    "message": "Odebrat"
+  },
+  "removeSite": {
+    "message": "Odebrat $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ odebrán. Jeho data ($DATA$) se smažou při příštím mazání.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "Web se nepodařilo odebrat."
+  },
+  "siteKept": {
+    "message": "$SITE$ ponechán.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "Ponechán $COUNT$ web.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_few": {
+    "message": "Ponechány $COUNT$ weby.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "Ponecháno $COUNT$ webů.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ je již ponechán.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ web je již ponechán.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_few": {
+    "message": "$COUNT$ weby jsou již ponechány.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ webů je již ponecháno.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ není platná doména.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "Toto nejsou platné domény: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "Zadejte platnou doménu, například example.com."
+  },
+  "addSiteFailed": {
+    "message": "Web se nepodařilo přidat."
+  },
+  "addSitesFailed": {
+    "message": "Weby se nepodařilo přidat."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ je větší než 1 MB, takže se ponechané weby nezměnily.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$ neobsahuje žádné platné domény, takže se ponechané weby nezměnily.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "Nahradit ponechané weby?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ web",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_few": {
+    "message": "$COUNT$ weby",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ webů",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "Weby, které teď ponecháváte ($CURRENT$), budou nahrazeny weby ze souboru $FILE$ ($NEW$).",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ web už nebude ponechán a jeho data ($DATA$) se smažou při příštím mazání.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_few": {
+    "message": "$COUNT$ weby už nebudou ponechány a jejich data ($DATA$) se smažou při příštím mazání.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ webů už nebude ponecháno a jejich data ($DATA$) se smažou při příštím mazání.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "Nahradit ponechané weby"
+  },
+  "sitesImported_one": {
+    "message": "Ze souboru $FILE$ importován $COUNT$ web.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_few": {
+    "message": "Ze souboru $FILE$ importovány $COUNT$ weby.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "Ze souboru $FILE$ importováno $COUNT$ webů.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "Ponechané weby se nepodařilo exportovat."
+  },
+  "importFailed": {
+    "message": "Ponechané weby se nepodařilo importovat ze souboru $FILE$.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "Zapnout mazání?"
+  },
+  "turnOnKept": {
+    "message": "Při každém spuštění prohlížeče se smažou data ($DATA$) všech webů kromě těch, které jste si vybrali ponechat. Ze všech ostatních webů budete odhlášeni.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "Nevybrali jste žádné weby k ponechání. Při každém spuštění prohlížeče se smažou všechna data ($DATA$) a budete odhlášeni ze všech webů.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "Smazaná data ($DATA$) nelze obnovit.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "Smazat nyní vše?"
+  },
+  "clearEverythingText": {
+    "message": "Nevybrali jste žádné weby k ponechání, takže se nyní smažou data všech webů ($DATA$) a budete odhlášeni ze všech webů.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "Smazat vše"
+  },
+  "leftoversTitle": {
+    "message": "Smazat zbylá data webů?"
+  },
+  "leftoversKept": {
+    "message": "Nyní se smažou data ($DATA$) všech webů, které si neponecháváte, včetně dat webů, které už rozšíření nenachází.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "Ponechaný web si svá data ponechá jen na adresách, které rozšíření najde v historii, souborech cookie a otevřených kartách. Jakákoli jiná subdoména nebo port ponechaného webu, například subdoména, kterou jste měsíce nenavštívili, nebo místní server na jiném portu, svá data ztratí a můžete z ní být odhlášeni."
+  },
+  "clearing": {
+    "message": "Mazání… Může to trvat několik minut."
+  },
+  "leftoversFailed": {
+    "message": "Zbylá data webů se nepodařilo smazat."
+  },
+  "leftoversCleared": {
+    "message": "Zbylá data webů byla smazána."
+  },
+  "nothingClearedYet": {
+    "message": "Zatím nebylo nic smazáno."
+  },
+  "clearFailed": {
+    "message": "Mazání $WHEN$ selhalo.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ záznam historie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_few": {
+    "message": "$COUNT$ záznamy historie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ záznamů historie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ soubor cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_few": {
+    "message": "$COUNT$ soubory cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ souborů cookie",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "nic"
+  },
+  "lastCleared": {
+    "message": "Naposledy smazáno: $WHEN$. Smazáno: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "Naposledy smazáno: $WHEN$. Smazáno: $WHAT$, spolu s daty webů a mezipamětí.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "Naposledy smazáno: $WHEN$. Smazáno: $WHAT$, spolu s daty a mezipamětí všech neponechaných webů.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "Historie a data webů byly přeskočeny, protože tento prohlížeč nedovoluje rozšířením je mazat."
+  },
+  "skippedHistory": {
+    "message": "Historie byla přeskočena, protože tento prohlížeč nedovoluje rozšířením ji mazat."
+  },
+  "skippedSiteData": {
+    "message": "Data webů byla přeskočena, protože tento prohlížeč nedovoluje rozšířením je mazat."
+  },
+  "cookiesSkipped": {
+    "message": "Soubory cookie byly přeskočeny, protože přístup k webům je vypnutý."
+  },
+  "loadFailed": {
+    "message": "Nastavení se nepodařilo načíst."
+  }
+}

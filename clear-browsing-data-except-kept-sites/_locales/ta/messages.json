@@ -1,0 +1,490 @@
+{
+  "extensionDescription": {
+    "message": "உலாவி தொடங்கும்போது, நீங்கள் வைத்திருக்கும் தளங்கள் தவிர மற்ற எல்லாத் தளங்களின் வரலாறு, குக்கீகள், தளத் தரவை அழிக்கிறது."
+  },
+  "optionsTitle": {
+    "message": "வைத்திருக்கும் தளங்கள் | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "GitHub களஞ்சியம், புதிய தாவலில் திறக்கும்"
+  },
+  "accessHeading": {
+    "message": "தள அணுகல் முடக்கப்பட்டுள்ளது"
+  },
+  "allowSiteAccess": {
+    "message": "தள அணுகலை அனுமதி"
+  },
+  "accessHistorySiteData": {
+    "message": "இணையதளங்களுக்கான அணுகல் இல்லாமல், நீட்டிப்பால் குக்கீகளை நீக்க முடியாது. வரலாறும் தளத் தரவும் இன்னும் அழிக்கப்படுகின்றன."
+  },
+  "accessHistory": {
+    "message": "இணையதளங்களுக்கான அணுகல் இல்லாமல், நீட்டிப்பால் குக்கீகளை நீக்க முடியாது. வரலாறு இன்னும் அழிக்கப்படுகிறது."
+  },
+  "accessSiteData": {
+    "message": "இணையதளங்களுக்கான அணுகல் இல்லாமல், நீட்டிப்பால் குக்கீகளை நீக்க முடியாது. தளத் தரவு இன்னும் அழிக்கப்படுகிறது."
+  },
+  "accessNothing": {
+    "message": "இணையதளங்களுக்கான அணுகல் இல்லாமல், நீட்டிப்பால் குக்கீகளை நீக்க முடியாது, எனவே எதுவும் அழிக்கப்படுவதில்லை."
+  },
+  "clearingOffHeading": {
+    "message": "அழித்தல் முடக்கப்பட்டுள்ளது"
+  },
+  "clearingOffText": {
+    "message": "இன்னும் எதுவும் நீக்கப்படவில்லை. உள்நுழைந்தே இருக்க விரும்பும் தளங்களைச் சேர்த்து, பிறகு அழித்தலை இயக்கவும். அதன்பிறகு, உலாவி தொடங்கும் ஒவ்வொரு முறையும் மற்ற எல்லாத் தளங்களின் தரவு ($DATA$) நீக்கப்படும்.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnClearing": {
+    "message": "அழித்தலை இயக்கு"
+  },
+  "keptSitesHeading": {
+    "message": "வைத்திருக்கும் தளங்கள்"
+  },
+  "intro": {
+    "message": "இந்தத் தளங்களும் அவற்றின் துணை டொமைன்களும் தங்கள் தரவை ($DATA$) வைத்துக்கொள்கின்றன, எனவே நீங்கள் உள்நுழைந்தே இருப்பீர்கள். அழித்தல் இயக்கத்தில் இருக்கும்வரை, மற்ற எல்லாத் தளங்களும் உலாவி தொடங்கும் ஒவ்வொரு முறையும் அதை இழக்கும்.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteInputLabel": {
+    "message": "இணையதள டொமைன்கள்"
+  },
+  "keep": {
+    "message": "வைத்திரு"
+  },
+  "siteHint": {
+    "message": "பல தளங்களைக் காற்புள்ளிகளால் பிரிக்கவும்."
+  },
+  "noSites": {
+    "message": "இன்னும் எந்தத் தளமும் வைத்திருக்கப்படவில்லை, எனவே அழித்தால் ஒவ்வொரு தளத்தின் தரவும் ($DATA$) நீக்கப்படும்.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteListLabel": {
+    "message": "வைத்திருக்கும் தளங்கள்"
+  },
+  "clearingHeading": {
+    "message": "அழித்தல்"
+  },
+  "clearOnStartupLabel": {
+    "message": "உலாவி தொடங்கும்போது தானாக அழி"
+  },
+  "clearNow": {
+    "message": "இப்போது அழி"
+  },
+  "firstClearHint": {
+    "message": "உலாவியில் நிறைய உலாவல் தரவு இருந்தால், முதல் அழித்தலுக்குப் பல நிமிடங்கள் ஆகலாம். அதுவரை நீங்கள் தொடர்ந்து உலாவலாம்."
+  },
+  "leftoversHeading": {
+    "message": "மீதமுள்ள தளத் தரவு"
+  },
+  "leftoversIntro": {
+    "message": "ஒரு தளத்தின் வரலாறும் குக்கீகளும் நீக்கப்பட்டதும், நீட்டிப்பால் அதைக் கண்டறிய முடியாது, எனவே அதன் உள்ளூர்ச் சேமிப்பகம், தரவுத்தளங்கள், தற்காலிகச் சேமிப்பு ஆகியவை தங்கிவிடும். ‘மீதமுள்ளதை அழி’, ‘இப்போது அழி’ போன்ற அழித்தலுக்குப் பிறகு, நீங்கள் வைத்திருக்காத ஒவ்வொரு தளத்தின் தளத் தரவையும், கண்டறியப்பட்டதோ இல்லையோ, நீக்கும்."
+  },
+  "clearLeftovers": {
+    "message": "மீதமுள்ளதை அழி"
+  },
+  "transferHeading": {
+    "message": "இறக்குமதியும் ஏற்றுமதியும்"
+  },
+  "transferIntro": {
+    "message": "வைத்திருக்கும் தளங்களை ஒரு உரைக் கோப்பில் சேமிக்கவும், அல்லது அவற்றை ஒரு கோப்பிலுள்ள தளங்களால் மாற்றவும். கோப்பில் ஒரு வரிக்கு ஒரு தளம் இருக்கலாம் அல்லது தளங்கள் காற்புள்ளிகளால் பிரிக்கப்படலாம்."
+  },
+  "export": {
+    "message": "ஏற்றுமதி செய்"
+  },
+  "import": {
+    "message": "இறக்குமதி செய்"
+  },
+  "cancel": {
+    "message": "ரத்துசெய்"
+  },
+  "dataAll": {
+    "message": "வரலாறு, குக்கீகள், தளத் தரவு"
+  },
+  "dataNoHistory": {
+    "message": "குக்கீகள், தளத் தரவு"
+  },
+  "dataNoSiteData": {
+    "message": "வரலாறு, குக்கீகள்"
+  },
+  "dataCookies": {
+    "message": "குக்கீகள்"
+  },
+  "remove": {
+    "message": "அகற்று"
+  },
+  "removeSite": {
+    "message": "$SITE$ஐ அகற்று",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ அகற்றப்பட்டது. அதன் தரவு ($DATA$) அடுத்த அழித்தலில் நீக்கப்படும்.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "removeFailed": {
+    "message": "தளத்தை அகற்ற முடியவில்லை."
+  },
+  "siteKept": {
+    "message": "$SITE$ வைத்திருக்கப்படுகிறது.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_one": {
+    "message": "$COUNT$ தளம் வைத்திருக்கப்படுகிறது.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesKept_other": {
+    "message": "$COUNT$ தளங்கள் வைத்திருக்கப்படுகின்றன.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyKept": {
+    "message": "$SITE$ ஏற்கெனவே வைத்திருக்கப்படுகிறது.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_one": {
+    "message": "$COUNT$ தளம் ஏற்கெனவே வைத்திருக்கப்படுகிறது.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "sitesAlreadyKept_other": {
+    "message": "$COUNT$ தளங்கள் ஏற்கெனவே வைத்திருக்கப்படுகின்றன.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomain": {
+    "message": "$SITE$ சரியான டொமைன் அல்ல.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidDomains": {
+    "message": "இவை சரியான டொமைன்கள் அல்ல: $SITES$.",
+    "placeholders": {
+      "sites": {
+        "content": "$1"
+      }
+    }
+  },
+  "enterValidDomain": {
+    "message": "example.com போன்ற சரியான டொமைனை உள்ளிடவும்."
+  },
+  "addSiteFailed": {
+    "message": "தளத்தைச் சேர்க்க முடியவில்லை."
+  },
+  "addSitesFailed": {
+    "message": "தளங்களைச் சேர்க்க முடியவில்லை."
+  },
+  "fileTooLarge": {
+    "message": "$FILE$ 1 MB-ஐ விடப் பெரியது, எனவே வைத்திருக்கும் தளங்கள் மாறவில்லை.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "fileNoDomains": {
+    "message": "$FILE$-இல் சரியான டொமைன்கள் இல்லை, எனவே வைத்திருக்கும் தளங்கள் மாறவில்லை.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceTitle": {
+    "message": "வைத்திருக்கும் தளங்களை மாற்றவா?"
+  },
+  "siteCount_one": {
+    "message": "$COUNT$ தளம்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteCount_other": {
+    "message": "$COUNT$ தளங்கள்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "replaceText": {
+    "message": "இப்போது வைத்திருக்கும் தளங்கள் ($CURRENT$) $FILE$-இலுள்ள தளங்களால் ($NEW$) மாற்றப்படும்.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "new": {
+        "content": "$2"
+      },
+      "file": {
+        "content": "$3"
+      }
+    }
+  },
+  "importDropped_one": {
+    "message": "$COUNT$ தளம் இனி வைத்திருக்கப்படாது, அதன் தரவு ($DATA$) அடுத்த அழித்தலில் நீக்கப்படும்.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "importDropped_other": {
+    "message": "$COUNT$ தளங்கள் இனி வைத்திருக்கப்படாது, அவற்றின் தரவு ($DATA$) அடுத்த அழித்தலில் நீக்கப்படும்.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "data": {
+        "content": "$2"
+      }
+    }
+  },
+  "replaceAction": {
+    "message": "வைத்திருக்கும் தளங்களை மாற்று"
+  },
+  "sitesImported_one": {
+    "message": "$FILE$-இலிருந்து $COUNT$ தளம் இறக்குமதி செய்யப்பட்டது.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "sitesImported_other": {
+    "message": "$FILE$-இலிருந்து $COUNT$ தளங்கள் இறக்குமதி செய்யப்பட்டன.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "exportFailed": {
+    "message": "வைத்திருக்கும் தளங்களை ஏற்றுமதி செய்ய முடியவில்லை."
+  },
+  "importFailed": {
+    "message": "$FILE$-இலிருந்து வைத்திருக்கும் தளங்களை இறக்குமதி செய்ய முடியவில்லை.",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnTitle": {
+    "message": "அழித்தலை இயக்கவா?"
+  },
+  "turnOnKept": {
+    "message": "உலாவி தொடங்கும் ஒவ்வொரு முறையும், நீங்கள் வைத்திருக்கத் தேர்ந்தெடுத்தவை தவிர ஒவ்வொரு தளத்தின் தரவும் ($DATA$) நீக்கப்படும். மற்ற எல்லாத் தளங்களிலிருந்தும் வெளியேற்றப்படுவீர்கள்.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "turnOnNone": {
+    "message": "வைத்திருக்க எந்தத் தளத்தையும் நீங்கள் தேர்ந்தெடுக்கவில்லை. உலாவி தொடங்கும் ஒவ்வொரு முறையும் எல்லாத் தரவும் ($DATA$) நீக்கப்படும், ஒவ்வொரு தளத்திலிருந்தும் வெளியேற்றப்படுவீர்கள்.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "cannotRecover": {
+    "message": "நீக்கப்பட்ட தரவை ($DATA$) மீட்டெடுக்க முடியாது.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverythingTitle": {
+    "message": "இப்போது அனைத்தையும் அழிக்கவா?"
+  },
+  "clearEverythingText": {
+    "message": "வைத்திருக்க எந்தத் தளத்தையும் நீங்கள் தேர்ந்தெடுக்கவில்லை, எனவே இப்போது ஒவ்வொரு தளத்தின் தரவும் ($DATA$) நீக்கப்படும், ஒவ்வொரு தளத்திலிருந்தும் வெளியேற்றப்படுவீர்கள்.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearEverything": {
+    "message": "அனைத்தையும் அழி"
+  },
+  "leftoversTitle": {
+    "message": "மீதமுள்ள தளத் தரவை அழிக்கவா?"
+  },
+  "leftoversKept": {
+    "message": "நீங்கள் வைத்திருக்காத ஒவ்வொரு தளத்தின் தரவும் ($DATA$) இப்போது நீக்கப்படும், நீட்டிப்பால் இனி கண்டறிய முடியாத தளங்களின் தளத் தரவு உட்பட.",
+    "placeholders": {
+      "data": {
+        "content": "$1"
+      }
+    }
+  },
+  "leftoversSubdomains": {
+    "message": "வைத்திருக்கும் தளம், வரலாறு, குக்கீகள், திறந்த தாவல்களில் நீட்டிப்பு கண்டறியும் முகவரிகளில் மட்டுமே தனது தளத் தரவை வைத்துக்கொள்ளும். வைத்திருக்கும் தளத்தின் வேறு எந்தத் துணை டொமைனும் போர்ட்டும், எடுத்துக்காட்டாகப் பல மாதங்களாக நீங்கள் பார்வையிடாத துணை டொமைன் அல்லது வேறு போர்ட்டிலுள்ள உள்ளூர் சேவையகம், தனது தளத் தரவை இழக்கும், அங்கிருந்து நீங்கள் வெளியேற்றப்படலாம்."
+  },
+  "clearing": {
+    "message": "அழிக்கிறது… இதற்குச் சில நிமிடங்கள் ஆகலாம்."
+  },
+  "leftoversFailed": {
+    "message": "மீதமுள்ள தளத் தரவை அழிக்க முடியவில்லை."
+  },
+  "leftoversCleared": {
+    "message": "மீதமுள்ள தளத் தரவு அழிக்கப்பட்டது."
+  },
+  "nothingClearedYet": {
+    "message": "இன்னும் எதுவும் அழிக்கப்படவில்லை."
+  },
+  "clearFailed": {
+    "message": "$WHEN$ அழித்தல் தோல்வியடைந்தது.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_one": {
+    "message": "$COUNT$ வரலாற்றுப் பதிவு",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "historyEntries_other": {
+    "message": "$COUNT$ வரலாற்றுப் பதிவுகள்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_one": {
+    "message": "$COUNT$ குக்கீ",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "cookieCount_other": {
+    "message": "$COUNT$ குக்கீகள்",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothing": {
+    "message": "எதுவுமில்லை"
+  },
+  "lastCleared": {
+    "message": "கடைசியாக அழித்தது: $WHEN$. நீக்கப்பட்டவை: $WHAT$.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedSiteData": {
+    "message": "கடைசியாக அழித்தது: $WHEN$. நீக்கப்பட்டவை: $WHAT$, கூடவே தளத் தரவும் தற்காலிகச் சேமிப்பும்.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "lastClearedLeftovers": {
+    "message": "கடைசியாக அழித்தது: $WHEN$. நீக்கப்பட்டவை: $WHAT$, கூடவே வைத்திருக்காத ஒவ்வொரு தளத்தின் தளத் தரவும் தற்காலிகச் சேமிப்பும்.",
+    "placeholders": {
+      "when": {
+        "content": "$1"
+      },
+      "what": {
+        "content": "$2"
+      }
+    }
+  },
+  "skippedHistorySiteData": {
+    "message": "இந்த உலாவி நீட்டிப்புகளை வரலாற்றையும் தளத் தரவையும் அழிக்க அனுமதிக்காததால், அவை தவிர்க்கப்பட்டன."
+  },
+  "skippedHistory": {
+    "message": "இந்த உலாவி நீட்டிப்புகளை வரலாற்றை அழிக்க அனுமதிக்காததால், அது தவிர்க்கப்பட்டது."
+  },
+  "skippedSiteData": {
+    "message": "இந்த உலாவி நீட்டிப்புகளைத் தளத் தரவை அழிக்க அனுமதிக்காததால், அது தவிர்க்கப்பட்டது."
+  },
+  "cookiesSkipped": {
+    "message": "தள அணுகல் முடக்கப்பட்டுள்ளதால் குக்கீகள் தவிர்க்கப்பட்டன."
+  },
+  "loadFailed": {
+    "message": "அமைப்புகளை ஏற்ற முடியவில்லை."
+  }
+}

@@ -1,0 +1,46 @@
+Ndryshoni shpejtësinë e luajtjes së videos dhe audios me një klikim ose një shkurtore tastiere.
+
+Change Video Playback Speed është një zgjerim i lehtë me burim të hapur që kalon nëpër katër shpejtësi të dobishme luajtjeje:
+
+1x → 1,2x → 1,5x → 2x → 1x
+
+Klikoni ikonën e zgjerimit ose përdorni shkurtoren e tastierës për të kaluar te shpejtësia pasuese. Shpejtësia e zgjedhur zbatohet në videon dhe audion e faqes, përfshirë luajtësit e trupëzuar që mbulohen.
+
+Shpejtësia e tanishme shfaqet shkurt në faqe dhe te stema e shiritit të mjeteve.
+
+VEÇORITË KRYESORE
+
+• Kontroll me një klikim dhe me shkurtore tastiere
+• Mbulim për video dhe audio
+• Mbulim për luajtës të trupëzuar të përputhshëm
+• Stemë shpejtësie te shiriti i mjeteve dhe tregues në faqe që duket edhe sa krejt ekrani
+• Pa menu kërcyese, kontrolle pluskuese ose rregullime
+
+SHKURTORE PARAZGJEDHJE TASTIERE
+
+• Windows, Linux, ChromeOS, GooglebookOS dhe Android: Ctrl+Shift+Period
+• macOS: Command+Shift+Period
+
+NDRYSHONI SHKURTOREN E TASTIERËS
+
+1. Hapni menunë e Firefox-it dhe zgjidhni Shtesa dhe tema.
+2. Klikoni ikonën e ingranazhit te faqja Zgjerime.
+3. Zgjidhni Administroni Shkurtore Zgjerimesh.
+4. Gjeni Change Video Playback Speed dhe jepni shkurtoren që parapëlqeni.
+
+PRIVATËSIA
+
+• Pa analiza dhe pa gjurmim
+• Nuk mbledh të dhëna ose historik shfletimi
+• Pa kërkesa rrjeti
+• Pa hyrje të përhershme në sajte
+
+Krejt ndryshimet e shpejtësisë ndodhin vendorësisht, në shfletuesin tuaj.
+
+BURIM I HAPUR
+
+Change Video Playback Speed është me burim të hapur dhe licencohet sipas Licencës MIT.
+
+Shihni kodin burim, raportoni probleme ose kontribuoni në GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

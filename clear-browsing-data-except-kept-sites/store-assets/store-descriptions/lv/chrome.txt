@@ -1,0 +1,90 @@
+Pārlūka palaišanā notīra vēsturi, sīkfailus un vietņu datus visās vietnēs, izņemot tās, kuras paturat.
+
+Clear Browsing Data Except Kept Sites ir viegls atvērtā koda paplašinājums, kas noņem vēstures ierakstus, sīkfailus un vietņu datus visām vietnēm, kuras neesat izvēlējies paturēt.
+
+Iestatījumos pievienojiet vietnes, kurās vēlaties palikt pieteicies un kurām jūs jāatceras, pēc tam ieslēdziet notīrīšanu. Ikreiz, kad pārlūks tiek palaists, paplašinājums dzēš visu pārējo vietņu vēsturi, sīkfailus un vietņu datus. Notīrīt var arī jebkurā laikā ar pogu “Notīrīt tūlīt”.
+
+Padoms: piespraudiet paplašinājumu Chrome paplašinājumu izvēlnē (puzles ikona), lai ikona vienmēr būtu redzama rīkjoslā.
+
+GALVENĀS FUNKCIJAS
+
+• Saraksts ar vietnēm, kuru vēsture un sīkfaili nekad netiek notīrīti, ar importu un eksportu teksta failā
+• Visu pārējo vietņu vēstures un sīkfailu notīrīšana pārlūka palaišanā, kad to ieslēdzat
+• Notīrīšana jebkurā laikā ar pogu “Notīrīt tūlīt” un vairs neatrodamu vietņu atlikušo datu notīrīšana ar pogu “Notīrīt atlikumus”
+• Paturētas vietnes apakšdomēni tiek paturēti automātiski
+• Tiek paturēti vecākdomēna sīkfaili, kas paturētai vietnei vajadzīgi, lai jūs paliktu pieteicies
+• Sadalīto (trešo pušu) sīkfailu notīrīšana; paturētas vietnes sadalītie sīkfaili paliek tikai zem paturētām vietnēm
+• Nepaturēto vietņu lokālās krātuves, IndexedDB, service worker un kešatmiņas notīrīšana
+• Pēdējās notīrīšanas rezultāts iestatījumos
+• Brīdinājums, kad piekļuve vietnēm ir izslēgta un sīkfailus nevar dzēst
+• Bez analītikas vai izsekošanas
+• Bez attālā koda vai tīkla pieprasījumiem
+
+PATURĒTĀS VIETNES
+
+Atveriet iestatījumus un pievienojiet domēnu, piemēram:
+
+example.com
+
+Lai pievienotu vairākus uzreiz, atdaliet tos ar komatiem.
+
+“Eksportēt” saglabā sarakstu teksta failā, pa vienam domēnam rindā. “Importēt” aizstāj sarakstu ar teksta faila vietnēm un vispirms brīdina, ja tā pazustu vietnes, kuras pašlaik paturat.
+
+Adrese, piemēram, mail.example.com/inbox, tiek saīsināta līdz domēnam, un sākuma www. tiek izlaists. Tiek pieņemti arī localhost un IPv4 adreses, piemēram, 192.168.1.1.
+
+Paturot example.com, tiek paturēta example.com un visu tā apakšdomēnu vēsture, sīkfaili un vietņu dati. Paturot mail.example.com, tiek paturēti arī example.com sīkfaili, jo tajos bieži ir apakšdomēna pieteikšanās.
+
+IESTATĪJUMU ATVĒRŠANA
+
+Iestatījumi pēc instalēšanas atveras automātiski, lai jūs varētu aizpildīt sarakstu pirms notīrīšanas ieslēgšanas. Vēlāk noklikšķiniet uz paplašinājuma ikonas rīkjoslā vai:
+
+1. Ar peles labo pogu noklikšķiniet uz paplašinājuma ikonas rīkjoslā.
+2. Atlasiet Opcijas.
+
+NOTĪRĪŠANA PALAIŠANĀ
+
+Pēc instalēšanas notīrīšana ir izslēgta, tāpēc nekas netiek noņemts, kamēr to nepalūdzat. Iestatījumos redzams paziņojums “Notīrīšana ir izslēgta” ar pogu “Ieslēgt notīrīšanu”. Ieslēdzot vispirms tiek parādīts brīdinājums: katra palaišana dzēš visu vietņu, izņemot paturētās, vēsturi un sīkfailus un izraksta jūs no tām vai no visām vietnēm, ja neviena netiek paturēta.
+
+Kad tā ir ieslēgta, notīrīšana notiek katrā pārlūka palaišanā, jo pārlūks neļauj paplašinājumiem darboties aizvēršanas laikā. Notīrīšana palaišanā noņem to, ko atstāja iepriekšējā sesija. Izslēdziet vai atkal ieslēdziet to iestatījumos ar opciju “Automātiski notīrīt pārlūka palaišanā”.
+
+NOTĪRĪT TŪLĪT UN NOTĪRĪT ATLIKUMUS
+
+Iestatījumu poga “Notīrīt tūlīt” notīra uzreiz. Ja neviena vietne netiek paturēta, vispirms tiek parādīts sarkans brīdinājums, ka viss tiks dzēsts. Iestatījumos redzams, kad bija pēdējā notīrīšana un cik vēstures ierakstu un sīkfailu tā izdzēsa.
+
+Kad notīrīšana ir noņēmusi vietnes vēsturi un sīkfailus, vēlākas notīrīšanas šo vietni vairs neatrod, tāpēc tās lokālā krātuve, datubāzes un kešatmiņa paliek. “Notīrīt atlikumus” veic notīrīšanu un pēc tam dzēš visu nepaturēto vietņu datus, atrastu vai ne. Šeit pārlūks var saudzēt tikai precīzas vietnes, tāpēc paturēta vietne patur datus tikai sev un tām paturētajām vietnēm, kuras notīrīšana atrod vēsturē, sīkfailos un atvērtajās cilnēs; sarkans brīdinājums to pasaka iepriekš.
+
+PIEKĻUVE VIETNĒM
+
+Sīkfailus var noņemt tikai vietnēm, kurām paplašinājumam ir piekļuve, tāpēc tas pieprasa piekļuvi visām vietnēm. Ja ierobežojat piekļuvi vietnēm, piemēram, uz “Pēc klikšķa”, vēsture joprojām tiek notīrīta, bet sīkfaili tiek izlaisti, un iestatījumos redzama poga “Atļaut piekļuvi vietnēm”.
+
+IEROBEŽOJUMI
+
+• Palaišanā atjaunotās cilnes notīrīšanas laikā var iestatīt jaunus sīkfailus. Šie sīkfaili paliek līdz nākamajai palaišanai vai nākamajai “Notīrīt tūlīt” reizei.
+• Citi vietņu dati, piemēram, sesijas krātuve, vietņu atļaujas un ar File System API saglabātie faili, netiek notīrīti.
+• Ja pārlūka sinhronizācija ietver vēsturi, noņemtie vēstures ieraksti var tikt noņemti arī jūsu citās ierīcēs.
+• Inkognito logi tiek notīrīti tikai tad, ja paplašinājums ir atļauts inkognito režīmā. Chrome tik un tā izmet to datus, kad tie tiek aizvērti.
+• IPv6 adreses nevar pievienot sarakstam.
+
+PRIVĀTUMS
+
+• Bez analītikas vai izsekošanas
+• Bez datu vākšanas
+• Bez tīkla pieprasījumiem
+• Bez attālā koda
+• Bez ārēja JavaScript
+• Vēsture un sīkfaili tiek lasīti tikai, lai izlemtu, ko noņemt, un tikai jūsu pārlūkā
+• Saraksts un iestatījumi tiek glabāti lokāli jūsu pārlūkā
+
+VEIKTSPĒJA
+
+Pārlūkošanas laikā paplašinājums neko nedara. Tas darbojas vienreiz pārlūka palaišanā, ja notīrīšana ir ieslēgta, un tad, kad noklikšķināt uz “Notīrīt tūlīt” vai “Notīrīt atlikumus”.
+
+Garas vēstures pirmā notīrīšana var ilgt dažas minūtes, jo katrs vēstures ieraksts tiek dzēsts atsevišķi. Tikmēr varat turpināt pārlūkot. Vēlākas notīrīšanas noņem tikai iepriekšējās sesijas ierakstus.
+
+ATVĒRTAIS PIRMKODS
+
+Clear Browsing Data Except Kept Sites ir atvērtā koda programmatūra saskaņā ar MIT licenci.
+
+Apskatiet pirmkodu, ziņojiet par kļūdām vai piedalieties izstrādē GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

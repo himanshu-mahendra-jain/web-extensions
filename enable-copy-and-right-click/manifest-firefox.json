@@ -1,8 +1,9 @@
 {
     "manifest_version": 3,
     "name": "Enable Copy and Right Click",
-    "version": "1.0.2",
-    "description": "Enable copying, text selection, and right-click menus on restricted webpages.",
+    "version": "1.0.3",
+    "default_locale": "en",
+    "description": "__MSG_extensionDescription__",
     "homepage_url": "https://github.com/himanshu-mahendra-jain/web-extensions",
     "developer": {
         "name": "Himanshu Mahendra Jain",
@@ -45,7 +46,7 @@
                 "linux": "Alt+C",
                 "mac": "Command+Shift+Y"
             },
-            "description": "Enable copy and right click on the current page"
+            "description": "__MSG_commandDescription__"
         }
     },
     "permissions": [

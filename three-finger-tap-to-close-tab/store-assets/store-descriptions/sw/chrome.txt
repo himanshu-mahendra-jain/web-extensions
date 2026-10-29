@@ -1,0 +1,42 @@
+Funga kichupo cha sasa kwa kugusa kwa vidole vitatu, kubofya kwa kitufe cha kati au kubofya kwenye upau wa vidhibiti.
+
+Three Finger Tap to Close Tab ni kiendelezi chepesi cha programu huria kinachotoa njia ya haraka na rahisi ya kufunga kichupo cha sasa cha kivinjari.
+
+Gusa kwa vidole vitatu au bofya kwa kitufe cha kati popote kwenye ukurasa wa wavuti nje ya viungo na sehemu za kuhariri ili kufunga kichupo cha sasa. Unaweza pia kubofya aikoni ya kiendelezi kwenye upau wa vidhibiti.
+
+Kidokezo: Bandika kiendelezi kwenye menyu ya Viendelezi ya Chrome (ikoni ya kipande cha fumbo) ili kuweka ikoni yake kwenye upau wa zana.
+
+Kubofya kwa kitufe cha kati kwenye viungo na kadi za mipasho huhifadhi tabia ya kawaida ya kivinjari, kwa hivyo unaweza kuendelea kufungua viungo na machapisho katika vichupo vipya kama kawaida. Eneo la usalama lililojengewa ndani huzuia kichupo kufungwa kimakosa ukigusa karibu na kiungo au kidhibiti.
+
+VIPENGELE VIKUU
+
+• Funga kichupo cha sasa kwa kugusa kwa vidole vitatu
+• Funga kichupo cha sasa kwa kubofya kwa kitufe cha kati
+• Funga kichupo cha sasa kwa kubofya kwenye upau wa vidhibiti
+• Huhifadhi kubofya kwa kawaida kwa kitufe cha kati kwenye viungo, vitufe na kadi za mipasho
+• Eneo la usalama huzuia kufunga kimakosa karibu na vipengele vinavyoingiliana
+• Haifungi vichupo unapotumia fomu na sehemu za kuhariri
+• Hakuna menyu ibukizi wala mipangilio
+
+KUWEKA PADI YA KUGUSA
+
+Padi yako ya kugusa na mfumo wa uendeshaji lazima viwekwe ili kugusa kwa vidole vitatu kutoe mbofyo wa kitufe cha kati.
+
+Ukishaweka, gusa kwa vidole vitatu ukurasa wa wavuti nje ya viungo na maudhui yanayoingiliana ili kufunga kichupo cha sasa.
+
+FARAGHA
+
+• Hakuna takwimu wala ufuatiliaji
+• Haikusanyi data wala historia ya kuvinjari
+• Hakuna maombi ya mtandao
+• Haihifadhi shughuli za kuvinjari wala mapendeleo
+
+Vichupo vyote hufungwa ndani ya kivinjari chako.
+
+PROGRAMU HURIA
+
+Three Finger Tap to Close Tab ni mradi wa programu huria chini ya Leseni ya MIT.
+
+Tazama msimbo chanzo, ripoti matatizo au changia kwenye GitHub:
+
+https://github.com/himanshu-mahendra-jain/web-extensions

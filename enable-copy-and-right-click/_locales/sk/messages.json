@@ -1,0 +1,109 @@
+{
+  "extensionDescription": {
+    "message": "Povoľte kopírovanie, výber textu a ponuky pravého tlačidla na webových stránkach, ktoré ich obmedzujú."
+  },
+  "commandDescription": {
+    "message": "Povoliť kopírovanie a pravé tlačidlo na aktuálnej stránke"
+  },
+  "actionTitleActive": {
+    "message": "$NAME$: aktívne",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "copyEnabled": {
+    "message": "Kopírovanie a pravé tlačidlo sú povolené."
+  },
+  "optionsTitle": {
+    "message": "Automatické weby | $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "githubLink": {
+    "message": "Repozitár na GitHube, otvorí sa na novej karte"
+  },
+  "automaticSitesHeading": {
+    "message": "Automatické weby"
+  },
+  "automaticSitesIntro": {
+    "message": "Automaticky povoliť kopírovanie, výber textu a pravé tlačidlo na weboch, ktoré pridáte."
+  },
+  "siteInputLabel": {
+    "message": "Doména webu"
+  },
+  "addSite": {
+    "message": "Pridať web"
+  },
+  "noSites": {
+    "message": "Zatiaľ nie sú pridané žiadne automatické weby."
+  },
+  "siteListLabel": {
+    "message": "Automatické weby"
+  },
+  "remove": {
+    "message": "Odstrániť"
+  },
+  "removeSite": {
+    "message": "Odstrániť $SITE$",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "permissionRemoved": {
+    "message": "$SITE$ (povolenie odobraté)",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAdded": {
+    "message": "$SITE$ pridaný.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteReEnabled": {
+    "message": "$SITE$ znova povolený.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteRemoved": {
+    "message": "$SITE$ odstránený.",
+    "placeholders": {
+      "site": {
+        "content": "$1"
+      }
+    }
+  },
+  "siteAlreadyEnabled": {
+    "message": "Tento web je už povolený."
+  },
+  "invalidDomain": {
+    "message": "Zadajte platnú doménu, napríklad example.com."
+  },
+  "permissionNotGranted": {
+    "message": "Povolenie pre web nebolo udelené."
+  },
+  "addFailed": {
+    "message": "Web sa nepodarilo pridať."
+  },
+  "removeFailed": {
+    "message": "Web sa nepodarilo odstrániť."
+  },
+  "loadFailed": {
+    "message": "Zoznam webov sa nepodarilo načítať."
+  }
+}
