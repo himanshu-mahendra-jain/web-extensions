@@ -10,12 +10,24 @@ set -euo pipefail
 # so later runs leave that version alone. Needs gh, logged in through
 # GH_TOKEN, and GITHUB_SHA, the commit the drafts point at. Errors are
 # GitHub Actions annotations, so they show on the run's summary page.
+# With CWS_UPLOAD_PRIVATE_KEY and CWS_UPLOAD_KEY_PASSPHRASE set, each
+# draft also carries the Chrome package signed for the Chrome Web Store's
+# verified uploads; without them, as in a fork, it has the zips alone.
 
 REPO_ROOT=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 CHROMIUM_MANIFEST="manifest.json"
 DIST_DIR="dist"
 
 : "${GITHUB_SHA:?GITHUB_SHA must name the commit the drafts point at.}"
+
+# Only the signer gets the key; build.sh, release-notes.sh and gh do not.
+signing_key="${CWS_UPLOAD_PRIVATE_KEY:-}"
+signing_passphrase="${CWS_UPLOAD_KEY_PASSPHRASE:-}"
+unset CWS_UPLOAD_PRIVATE_KEY CWS_UPLOAD_KEY_PASSPHRASE
+
+if [ -z "$signing_key" ]; then
+    echo "::warning::CWS_UPLOAD_PRIVATE_KEY is not set, so the drafts have no signed Chrome package."
+fi
 
 cd "$REPO_ROOT"
 
@@ -61,6 +73,21 @@ for manifest in */"$CHROMIUM_MANIFEST"; do
         continue
     fi
 
+    packages=("$extension/$DIST_DIR"/*.zip)
+
+    # The Chrome Web Store takes only uploads signed with the key it has.
+    if [ -n "$signing_key" ]; then
+        chrome_zips=("$extension/$DIST_DIR"/*-chrome-v*.zip)
+        chrome_crx="${chrome_zips[0]%.zip}.crx"
+        if ! CWS_UPLOAD_PRIVATE_KEY="$signing_key" \
+            CWS_UPLOAD_KEY_PASSPHRASE="$signing_passphrase" \
+            node .github/sign-chrome-crx.mjs "${chrome_zips[0]}" "$chrome_crx"; then
+            failed+=("$tag")
+            continue
+        fi
+        packages+=("$chrome_crx")
+    fi
+
     # Drafts of an older version, or of this one from an earlier push.
     while read -r draft; do
         if [[ "$draft" =~ ^"$extension"-v[0-9][0-9.]*$ ]]; then
@@ -68,7 +95,7 @@ for manifest in */"$CHROMIUM_MANIFEST"; do
         fi
     done <<<"$drafts"
 
-    gh release create "$tag" "$extension/$DIST_DIR"/*.zip \
+    gh release create "$tag" "${packages[@]}" \
         --draft \
         --latest=false \
         --target "$GITHUB_SHA" \

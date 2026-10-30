@@ -20,6 +20,8 @@ jobs:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-26.04
     timeout-minutes: 10
+    # Holds the key that signs the Chrome packages, and gives it to main only.
+    environment: chrome-signing
     permissions:
       contents: write
     steps:
@@ -34,4 +36,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
+          CWS_UPLOAD_PRIVATE_KEY: ${{ secrets.CWS_UPLOAD_PRIVATE_KEY }}
+          CWS_UPLOAD_KEY_PASSPHRASE: ${{ secrets.CWS_UPLOAD_KEY_PASSPHRASE }}
         run: .github/draft-releases.sh
