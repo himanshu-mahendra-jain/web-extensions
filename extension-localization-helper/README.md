@@ -7,6 +7,8 @@ files in a folder. There is one script per store:
 - `edge.js` for the Microsoft Edge Add-ons store (Partner Center)
 - `firefox.js` for Firefox Add-ons (addons.mozilla.org, or AMO)
 
+https://github.com/user-attachments/assets/c6b19cd8-07b0-4eac-9ab0-867be3a8fe33
+
 You paste a script into the browser's DevTools console on the store's page, and it opens a
 small panel there. The descriptions need to be in a folder with one sub-folder per
 language:
@@ -41,15 +43,12 @@ Each panel asks for the name of the file inside each language folder. It default
   two.
 
 After loading, the panel shows what it found and which files it skipped, for example
-because a file is missing or too long for the store.
-
-Reloading the page stops the script. The Edge and Firefox scripts save their settings,
-descriptions and progress in the browser, so after a reload you paste the script again and
-press **Start: all incomplete languages** to carry on. Pasting a script a second time
-replaces its panel and stops the old run.
-
-The scripts find buttons and menus by their English labels, so the store pages must be in
-English.
+because a file is missing or too long for the store. Reloading the page stops the script.
+The Edge and Firefox scripts save their settings, descriptions and progress in the
+browser, so after a reload you paste the script again and press **Start: all incomplete
+languages** to carry on. Pasting a script a second time replaces its panel and stops the
+old run. The scripts find buttons and menus by their English labels, so the store pages
+must be in English.
 
 ## Chrome: Web Store Developer Dashboard (`chrome.js`)
 
@@ -63,12 +62,11 @@ up to 16,000 characters.
 checks every filled language. Then it clicks **Save draft** once. The dashboard keeps all
 languages in the page, so one save stores them all. Tick **Fill only** to stop before
 saving, so you can review the text and save it yourself. **Stop** ends the run after the
-current language, without saving. The script never clicks **Submit for review**.
-
-If languages are filled but not saved (after Fill only, Stop or a failed save), the next
+current language, without saving. The script never clicks **Submit for review**. If
+languages are filled but not saved (after Fill only, Stop or a failed save), the next
 Start saves them, as long as the page hasn't been reloaded. To check a run, reload the
-page, paste the script again, load and press Start. Every language should then be
-"already up to date".
+page, paste the script again, load and press Start. Every language should then be "already
+up to date".
 
 ## Edge: Partner Center (`edge.js`)
 
@@ -138,16 +136,15 @@ Folder names are matched to AMO's language codes. Most match directly (`de` → 
 page's **Localize for** menu is reported as failed.
 
 Changing a summary may send the add-on to AMO's content review; changing a description
-doesn't. The buttons work as in `edge.js`, except that a run saves all its languages at
-once.
+doesn't. The buttons work as in `edge.js`, except that a run saves all its languages at once.
 
 ## Files
 
 - `chrome.js`, `edge.js`, `firefox.js`: the scripts. Each one stands alone.
-- `tests/autofill_on_mock_chrome_webstore_dashboard.test.cjs`, `tests/autofill_on_mock_partner_center.test.cjs`
-  and `tests/autofill_on_mock_amo_devhub.test.cjs`: Playwright tests that
-  run the scripts on copies of the three store pages, built to behave like the real ones,
-  with a fake GitHub and test folders.
+- `tests/autofill_on_mock_*.test.cjs`: Playwright tests that run the scripts on copies of the
+  three store pages, built to behave like the real ones, with a fake GitHub and test folders.
+- `demo/record_chrome_demo_video_on_mock_dashboard.cjs`: records a 1920x1080 WebM, about 40
+  seconds, of `chrome.js` filling Change Video Playback Speed's 52 listings on a mock page.
 
 ## Test
 
@@ -155,4 +152,9 @@ once.
 NODE_PATH=$(npm root -g) node tests/autofill_on_mock_chrome_webstore_dashboard.test.cjs
 NODE_PATH=$(npm root -g) node tests/autofill_on_mock_partner_center.test.cjs
 NODE_PATH=$(npm root -g) node tests/autofill_on_mock_amo_devhub.test.cjs   # add --firefox to run in Firefox
+NODE_PATH=$(npm root -g) node demo/record_chrome_demo_video_on_mock_dashboard.cjs [out.webm]   # the video
 ```
+
+The video takes about three minutes to record and goes to `dist/chrome-js-demo.webm` unless you
+pass a path. It needs Playwright's ffmpeg (`npx playwright install ffmpeg`) and internet access for
+the Noto fonts.
