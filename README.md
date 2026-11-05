@@ -27,7 +27,6 @@ Paths are relative to where you run the script, so `../build.sh .` works from in
 
 ```text
 Build complete: change-video-playback-speed
-
   change-video-playback-speed/dist/change-video-playback-speed-chrome-v<version>.zip
   change-video-playback-speed/dist/change-video-playback-speed-edge-v<version>.zip
   change-video-playback-speed/dist/change-video-playback-speed-firefox-v<version>.zip
@@ -155,6 +154,6 @@ Each extension keeps a `CHANGELOG.md` in the [Keep a Changelog](https://keepacha
 
 After every push to `main`, the Draft releases workflow drafts a GitHub release for each extension version that has not been released yet, with the tag `<extension>-v<version>`, the packages, and the changelog section as the notes. Each push replaces the extension's existing drafts, so fix the notes in `CHANGELOG.md` rather than in the draft. Publishing a draft creates its tag, and that version is never drafted again, so an extension whose version has not changed gets no new draft. When publishing, untick **Set as the latest release**: with five extensions, no single release is the latest. Each draft also carries `<slug>-chrome-v<version>.crx`, the Chrome package signed for the Chrome Web Store's verified uploads; upload that file to the store, since it rejects the unsigned zip. The key and its passphrase are the `CWS_UPLOAD_PRIVATE_KEY` and `CWS_UPLOAD_KEY_PASSPHRASE` secrets of the `chrome-signing` environment, which only `main` can use; without them the drafts carry the zips alone. Keep an offline backup of the key: replacing a lost one through Chrome Web Store support can take a week.
 
-## License
+## Privacy Policy and License
 
-This project is licensed under the [MIT License](LICENSE).
+All extensions follow a zero-data-collection [Privacy Policy](PRIVACY.md) and are licensed under the [MIT License](LICENSE).
