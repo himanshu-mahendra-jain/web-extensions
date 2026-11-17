@@ -8,6 +8,10 @@
 // Save draft, reads the language back from Partner Center's API, clicks the details view's
 // Close, and moves on until all are done. It never clicks Publish.
 //
+// The Fast buttons skip the page instead: they read every language's listing from
+// Partner Center's API in one request and save each changed one with the same request
+// the page's Save draft sends, then read them all back.
+//
 // Settings, loaded descriptions and the run's progress are kept in the page's
 // localStorage: after a reload, paste it again and press "Start: all incomplete languages".
 (() => {
@@ -439,6 +443,174 @@
   }
 
   // ---------------------------------------------------------------------------
+  // Fast mode: saves each language straight through Partner Center's own API, the same
+  // request the page sends for Save draft, without opening any details view. One GET
+  // returns every language's listing; each changed one is PUT back whole, with only the
+  // description, YouTube URL and search terms changed, plus the extension's properties,
+  // which the page sends along with every listing it saves.
+
+  // A listing's lcid (a Windows language code) -> its descriptions folder.
+  const LCID_LOCALES = {
+    1: 'ar', 2: 'bg', 3: 'ca', 5: 'cs', 6: 'da', 7: 'de', 8: 'el', 9: 'en', 10: 'es', 11: 'fi', 12: 'fr',
+    13: 'he', 14: 'hu', 16: 'it', 17: 'ja', 18: 'ko', 19: 'nl', 20: 'no', 21: 'pl', 24: 'ro', 25: 'ru',
+    26: 'hr', 27: 'sk', 29: 'sv', 30: 'th', 31: 'tr', 33: 'id', 34: 'uk', 36: 'sl', 37: 'et', 38: 'lv',
+    39: 'lt', 41: 'fa', 42: 'vi', 57: 'hi', 62: 'ms', 65: 'sw', 69: 'bn', 71: 'gu', 73: 'ta', 74: 'te',
+    75: 'kn', 76: 'ml', 78: 'mr', 94: 'am', 100: 'fil', 1028: 'zh_TW', 1046: 'pt_BR', 2052: 'zh_CN',
+    2070: 'pt_PT', 22538: 'es_419', 31770: 'sr',
+  };
+
+  // The extension's API URLs, from the page's address
+  // (/en-us/dashboard/microsoftedge/<product>/listings) or, failing that, from the
+  // requests the page has made. Listings are under the language prefix (/en-us); the
+  // properties are not, and with the prefix Partner Center answers with its web page.
+  function partnerCenterApi() {
+    const m = /^\/([a-z]{2}-[a-z]{2})\/dashboard\/microsoftedge\/([0-9a-f-]{36})(?:\/|$)/i.exec(location.pathname);
+    const seen = apiRequests.map((r) => r.url.split(/[?#]/)[0]);
+    const listings = m
+      ? `${location.origin}/${m[1]}/dashboard/microsoftedge/api/${m[2]}/listings/storeListings`
+      : seen.find((u) => /\/api\/[0-9a-f-]{36}\/listings\/storeListings$/i.test(u));
+    if (!listings) throw new Error('Could not tell which extension this is. Open its Store listings page.');
+    const product = listings.replace(/\/listings\/storeListings$/, '').split('/').pop().toLowerCase();
+    const properties = seen.reverse().find((u) => u.toLowerCase().includes(`/api/${product}/properties/`)
+      && /\/properties\/[0-9a-f-]{36}$/i.test(u));
+    return { listings, properties, propertyInstances: `${location.origin}/dashboard/microsoftedge/api/${product}/properties/instances` };
+  }
+
+  async function apiJson(url, what, init = {}) {
+    const response = await fetch(url, { credentials: 'include', cache: 'no-store', ...init });
+    if (!response.ok) throw new Error(`${what} failed (HTTP ${response.status})`);
+    const text = await response.text();
+    try {
+      return JSON.parse(text);
+    } catch {
+      throw new Error(`${what} failed: Partner Center answered with a web page instead of data`);
+    }
+  }
+
+  async function readProperties(api) {
+    let url = api.properties;
+    if (!url) {
+      const instances = await apiJson(api.propertyInstances, 'Reading the extension\'s properties');
+      const list = Array.isArray(instances) ? instances : instances?.value || [];
+      const main = list.find((i) => i.isMainBranch) || list[0];
+      if (!main?.id) throw new Error('Could not find the extension\'s properties');
+      url = api.propertyInstances.replace(/instances$/, main.id);
+    }
+    const properties = await apiJson(url, 'Reading the extension\'s properties');
+    if (!properties?.propertyDetails || !properties.type) throw new Error('The extension\'s properties look different than expected');
+    return properties;
+  }
+
+  // The fields to change in `listing` for `locale` (['description', …]) and the body to PUT.
+  function fastSave(listing, locale, properties) {
+    const differences = listingDifferences(listing, locale);
+    const changed = ['description', 'YouTube URL', 'search terms'].filter((f) => differences.some((d) => d.startsWith(f)));
+    const { youtubeUrl, searchTerms } = fillValues();
+    const next = { ...listing, description: DATA.locales[locale].description };
+    if (changed.includes('YouTube URL')) {
+      next.urls = { ...(listing.urls || {}), VideoUrl: [{ displayText: null, url: youtubeUrl, subType: null, lastUpdatedDate: null }] };
+    }
+    if (changed.includes('search terms')) next.keywords = [...searchTerms];
+    // What the page's own Save draft sends besides the listing.
+    const body = { type: properties.type, propertyDetails: properties.propertyDetails, ...next, links: [], _type: 'StoreListing' };
+    return { changed, body };
+  }
+
+  // Goes through the loaded languages in order, saving each that differs. With onlyOne,
+  // stops after the first language that is not done yet.
+  async function fastLoop() {
+    if (detailsLanguage()) {
+      stop('Close the open details view first, then press a Fast button again.');
+      return;
+    }
+    const api = partnerCenterApi();
+    run.message = 'Reading every listing from Partner Center…';
+    saveRun();
+    const [listings, properties] = await Promise.all([apiJson(api.listings, 'Reading the listings'), readProperties(api)]);
+    checkNotSuperseded();
+    const byLocale = new Map();
+    const noData = [];
+    for (const listing of listings) {
+      const locale = LCID_LOCALES[listing.lcid];
+      if (locale && DATA.locales[locale]) byLocale.set(locale, listing);
+      else noData.push(locale || `LCID ${listing.lcid}`);
+    }
+    for (const locale of LOCALES.filter((l) => !byLocale.has(l))) run.failed[locale] = 'Partner Center has no listing in this language';
+
+    const saved = [];
+    let last = null; // the language "Fast: next language only" did
+    for (const locale of LOCALES) {
+      if (!run.active || superseded()) break;
+      if (run.done[locale] || run.failed[locale]) continue;
+      const name = englishName(locale);
+      const listing = byLocale.get(locale);
+      const { changed, body } = fastSave(listing, locale, properties);
+      last = locale;
+      try {
+        if (changed.length) {
+          run.current = locale;
+          run.message = `Saving ${name} (${changed.join(', ')})…`;
+          render();
+          const stored = await apiJson(`${api.listings}/${listing.id}`, `Saving ${name}`, {
+            method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body),
+          });
+          checkNotSuperseded();
+          const differences = listingDifferences(stored, locale);
+          if (differences.length) throw new Error(`Partner Center did not store: ${differences.join(', ')}`);
+          saved.push(locale);
+        }
+        run.done[locale] = { changed, at: new Date().toISOString() };
+        run.lastResult = `${name}: ${changed.length ? `saved ${changed.join(', ')}` : 'already up to date'}.`;
+      } catch (e) {
+        if (e instanceof Superseded) throw e;
+        run.failed[locale] = e.message;
+        run.lastResult = `${name} failed: ${e.message}`;
+      }
+      run.current = null;
+      saveRun();
+      if (run.onlyOne) break;
+    }
+
+    // Read everything back: a save can answer 200 and still not land. A language that
+    // looks wrong in the list is read on its own for up to 30 s (verifySaved), since a save
+    // may still be landing, before it counts as failed.
+    const stopped = !run.active;
+    if (saved.length && !superseded()) {
+      run.active = true; // the check runs even after Stop, so the report is right
+      run.message = `Checking what Partner Center stored for ${saved.length} languages…`;
+      render();
+      await sleep(2000);
+      const after = await apiJson(api.listings, 'Reading the listings back');
+      for (const locale of saved) {
+        const id = byLocale.get(locale).id;
+        const listing = after.find((l) => l.id === id);
+        if (listing && !listingDifferences(listing, locale).length) continue;
+        try {
+          await verifySaved(`${api.listings}/${id}`, locale);
+        } catch (e) {
+          delete run.done[locale];
+          run.failed[locale] = e.message;
+        }
+        checkNotSuperseded();
+      }
+    }
+    checkNotSuperseded();
+    const done = Object.keys(run.done).length;
+    const failed = Object.keys(run.failed).length;
+    const name = last && englishName(last);
+    let summary;
+    if (stopped) summary = `Stopped: ${done} done, ${failed} failed. Press a Fast button to go on.`;
+    else if (run.onlyOne) {
+      summary = !last ? 'Nothing left to do.'
+        : run.failed[last] ? `${name} failed: ${run.failed[last]}`
+          : `${name}: ${run.done[last].changed.length ? `saved ${run.done[last].changed.join(', ')}` : 'already up to date'}, checked.`;
+    } else {
+      summary = `Fast run finished: ${done} done, ${failed} failed${noData.length ? `; listings with no data: ${noData.join(', ')}` : ''}.`;
+    }
+    stop(`${summary}${saved.some((l) => run.done[l]) ? ' Reload the page to see the new text in the table.' : ''}`);
+  }
+
+  // ---------------------------------------------------------------------------
   // Descriptions from a GitHub folder: "https://github.com/OWNER/REPO/tree/REF/PATH" (or
   // just the repo URL). Returns { source, locales: { de: { description } }, skipped }.
 
@@ -564,7 +736,7 @@
 
   const instance = {};
   window[INSTANCE_KEY] = instance;
-  const newRun = () => ({ active: false, onlyOne: false, done: {}, failed: {}, attempts: {}, current: null, message: '' });
+  const newRun = () => ({ active: false, onlyOne: false, fast: false, done: {}, failed: {}, attempts: {}, current: null, message: '' });
   let run = newRun();
   let looping = false;
 
@@ -584,7 +756,7 @@
     if (looping) return;
     looping = true;
     try {
-      await runLoop();
+      await (run.fast ? fastLoop() : runLoop());
     } catch (e) {
       if (!(e instanceof Superseded)) stop(`Stopped: ${e.message}`);
     } finally {
@@ -593,8 +765,9 @@
   }
 
   // mode 'all': every language from the top; 'incomplete': keeps the languages already
-  // done and retries the failed ones; 'one': the next language that is not done.
-  function start(mode) {
+  // done and retries the failed ones; 'one': the next language that is not done. With
+  // fast, the languages are saved through Partner Center's API instead of the page.
+  function start(mode, { fast = false } = {}) {
     if (!DATA || loading || parseSettings(settings).errors.length) return;
     const onlyOne = mode === 'one';
     if (!onlyOne || !run.active) {
@@ -602,6 +775,7 @@
       run = { ...newRun(), ...keep };
     }
     run.active = true;
+    run.fast = fast;
     run.onlyOne = onlyOne;
     run.message = 'Starting…';
     saveRun();
@@ -781,6 +955,10 @@
     h('div', { style: ST.row },
       button('Next language only', 'one', 'secondary'),
       button('Stop', 'stop', 'secondary')),
+    h('div', { style: ST.label }, 'Fast: saves through Partner Center\'s API, without opening each language'),
+    h('div', { style: ST.row + ';margin-top:2px' },
+      button('Fast: all languages', 'fast-all', 'primary', 'Save every language that differs, straight through Partner Center\'s API'),
+      button('Fast: next language only', 'fast-one', 'secondary', 'Save the next language that is not done yet, as a first test')),
     h('div', { className: 'message', style: 'min-height:1.4em;white-space:pre-wrap' }),
     h('div', { className: 'progress', style: ST.muted }),
     h('div', { className: 'failed', style: `${ST.error};max-height:120px;overflow:auto` }));
@@ -871,6 +1049,8 @@
     const blocked = run.active || loading || !DATA || parsed.errors.length > 0;
     enable($('.start'), !blocked);
     enable($('.one'), !blocked);
+    enable($('.fast-all'), !blocked);
+    enable($('.fast-one'), !blocked);
     const doneCount = LOCALES.filter((l) => run.done[l]).length;
     enable($('.incomplete'), !(blocked || doneCount === 0 || doneCount === LOCALES.length));
     $('.incomplete').textContent = `Start: all incomplete languages (${LOCALES.length - doneCount})`;
@@ -912,6 +1092,8 @@
   $('.start').addEventListener('click', () => start('all'));
   $('.incomplete').addEventListener('click', () => start('incomplete'));
   $('.one').addEventListener('click', () => start('one'));
+  $('.fast-all').addEventListener('click', () => start('all', { fast: true }));
+  $('.fast-one').addEventListener('click', () => start('one', { fast: true }));
   $('.stop').addEventListener('click', () => stop('Stopped. Press a Start button to go on.'));
   $('.load').addEventListener('click', () => {
     const file = chosenFileName();

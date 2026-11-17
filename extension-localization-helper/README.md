@@ -1,11 +1,8 @@
 # Extension Localization Helper
 
 These scripts fill in every language of an extension's store listing from translation
-files in a folder. There is one script per store:
-
-- `chrome.js` for the Chrome Web Store
-- `edge.js` for the Microsoft Edge Add-ons store (Partner Center)
-- `firefox.js` for Firefox Add-ons (addons.mozilla.org, or AMO)
+files in a folder, one script per store: `chrome.js` for the Chrome Web Store, `edge.js` for
+Microsoft Edge Add-ons (Partner Center) and `firefox.js` for Firefox Add-ons (AMO, addons.mozilla.org).
 
 https://github.com/user-attachments/assets/c6b19cd8-07b0-4eac-9ab0-867be3a8fe33
 
@@ -94,16 +91,21 @@ Pasted lines become separate terms. If the existing terms are the same as yours 
 different order, they're left alone; otherwise yours replace them. Descriptions must be
 250 to 10,000 characters long.
 
-The buttons:
-
-- **Next language only** does one language and stops. It's a good first test.
-- **Start: all languages** goes through every language from the top.
-- **Start: all incomplete languages (N)** skips languages already done and retries failed ones.
-- **Stop** ends the run after the current language.
+**Next language only** does one language and stops, a good first test. **Start: all
+languages** goes through every language from the top. **Start: all incomplete languages
+(N)** skips languages already done and retries failed ones. **Stop** ends the run after the
+current language.
 
 The script matches each row to a folder by the language's English name, so "Bangla" goes to
 `bn`, "Kiswahili" to `sw`, and "Spanish (Latin America and the Caribbean)" to `es_419`.
 When the run finishes, it lists any rows it had no description for.
+
+The **Fast** buttons skip the page. They read all listings from Partner Center's API in one
+request, match each to a folder by its Windows language code (`lcid`), and save each one
+that differs with the request **Save draft** sends: all 52 in about a minute. Then they read
+everything back and report saves that didn't land. Microsoft can change this undocumented
+API, so if a Fast run fails, use the buttons above. **Fast: next language only** saves one
+language as a first test. Reload the page afterwards to see the new text in the table.
 
 ## Firefox: AMO Developer Hub (`firefox.js`)
 
@@ -138,15 +140,13 @@ page's **Localize for** menu is reported as failed.
 Changing a summary may send the add-on to AMO's content review; changing a description
 doesn't. The buttons work as in `edge.js`, except that a run saves all its languages at once.
 
-## Files
+## Files and tests
 
 - `chrome.js`, `edge.js`, `firefox.js`: the scripts. Each one stands alone.
 - `tests/autofill_on_mock_*.test.cjs`: Playwright tests that run the scripts on copies of the
   three store pages, built to behave like the real ones, with a fake GitHub and test folders.
 - `demo/record_chrome_demo_video_on_mock_dashboard.cjs`: records a 1920x1080 WebM, about 40
   seconds, of `chrome.js` filling Change Video Playback Speed's 52 listings on a mock page.
-
-## Test
 
 ```sh
 NODE_PATH=$(npm root -g) node tests/autofill_on_mock_chrome_webstore_dashboard.test.cjs

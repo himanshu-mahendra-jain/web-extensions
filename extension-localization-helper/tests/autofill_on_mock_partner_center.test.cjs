@@ -65,15 +65,21 @@ async function mockGithub(context) {
 // the real page does); Save draft PUTs the form and shows "Draft saved successfully."
 const PRODUCT = '11111111-2222-3333-4444-555555555555';
 const API = `/en-us/dashboard/microsoftedge/api/${PRODUCT}/listings/storeListings`;
+// The extension's properties, which the real page loads without the /en-us prefix.
+const PROPERTY_ID = '99999999-8888-7777-6666-555555555555';
+const PROPERTIES_API = `/dashboard/microsoftedge/api/${PRODUCT}/properties/`;
+const PROPERTIES = { links: [], type: 'MicorosoftEdgeAddOn',
+  propertyDetails: { category: 'Productivity', privatePolicyUrl: 'https://example.com/privacy', id: PROPERTY_ID } };
 const MOCK_PAGE = `<!doctype html><html><body><div id="app"></div><script>
 customElements.define('v6_he-button', class extends HTMLElement {});
 const API = '${API}';
-window.__publishClicked = 0; window.__listingCloseClicked = 0;
+window.__publishClicked = 0; window.__listingCloseClicked = 0; window.__detailsOpened = 0;
 const app = document.getElementById('app');
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 
 async function listing() {
   app.innerHTML = '<div class="loading">Loading…</div>';
+  fetch('${PROPERTIES_API}${PROPERTY_ID}');
   const rows = await (await fetch(API)).json();
   app.innerHTML = '<h1>Store Listings</h1>' +
     '<v6_he-button id="listing-close">Close</v6_he-button><v6_he-button id="publish">Publish</v6_he-button>' +
@@ -88,6 +94,7 @@ async function listing() {
 }
 
 function details(row) {
+  window.__detailsOpened++;
   let model = { description: '', keywords: [], urls: { VideoUrl: [] } };
   app.innerHTML = '<h2>Details for ' + row.lang + '</h2>' +
     '<div class="button-group"><v6_he-button class="save" disabled aria-disabled="true"><span>Save draft</span><v6_he-icon name="save"></v6_he-icon></v6_he-button>' +
@@ -150,34 +157,61 @@ listing();
 
 // The mock Partner Center API. Malayalam's PUT answers 200 but stores nothing (until the
 // test turns loseMalayalamSaves off); Bangla's
-// stores an extra empty search term, as the real API can.
-const LANGS = { Amharic: 'am', Arabic: 'ar', Bangla: 'bn', 'Chinese (China)': 'zh_CN', Kiswahili: 'sw', Klingon: 'tlh',
-  Malayalam: 'ml', Spanish: 'es', 'Spanish (Latin America and the Caribbean)': 'es_419' };
-const SERVER = Object.fromEntries(Object.keys(LANGS).map((lang, i) => [
+// stores an extra empty search term, as the real API can. Each listing has the lcid the
+// real API gives it (Klingon's is one no store language has) and an _etag that changes on
+// every save. A save sent the way the Fast buttons send it, with the page's extras, is
+// refused unless it has those extras right and the listing's current _etag.
+const LANGS = { Amharic: 94, Arabic: 1, Bangla: 69, 'Chinese (China)': 2052, Kiswahili: 65, Klingon: 9999,
+  Malayalam: 76, Spanish: 10, 'Spanish (Latin America and the Caribbean)': 22538 };
+const SERVER = Object.fromEntries(Object.entries(LANGS).map(([lang, lcid], i) => [
   `00000000-0000-0000-0000-${String(i).padStart(12, '0')}`,
-  { lang, description: null, keywords: [], urls: { VideoUrl: [] } },
+  { lang, lcid: String(lcid), _etag: '"0"', description: null, keywords: [], urls: { VideoUrl: [] } },
 ]));
-SERVER['00000000-0000-0000-0000-000000000000'] = { lang: 'Amharic', description: 'old amharic text', keywords: ['old term'], urls: { VideoUrl: [] } };
+Object.assign(SERVER['00000000-0000-0000-0000-000000000000'], { description: 'old amharic text', keywords: ['old term'] });
 let loseMalayalamSaves = true;
 let putCount = 0;
+let propertyInstanceReads = 0;
+const fastPuts = [];
 const serverByLang = (lang) => Object.values(SERVER).find((l) => l.lang === lang);
 
 async function partnerCenter(route) {
   const request = route.request();
   const url = new globalThis.URL(request.url());
+  const json = (body) => route.fulfill({ contentType: 'application/json', body: JSON.stringify(body) });
+  if (url.pathname === `${PROPERTIES_API}${PROPERTY_ID}`) return json(PROPERTIES);
+  if (url.pathname === `${PROPERTIES_API}instances`) {
+    propertyInstanceReads++;
+    return json([{ id: '00000000-aaaa-bbbb-cccc-000000000000', isMainBranch: false }, { id: PROPERTY_ID, isMainBranch: true }]);
+  }
+  // Like the real one, the mock answers any other address with the page, including the
+  // properties under the /en-us prefix.
   if (!url.pathname.startsWith(API)) return route.fulfill({ contentType: 'text/html', body: MOCK_PAGE });
   const id = url.pathname.slice(API.length + 1);
-  const json = (body) => route.fulfill({ contentType: 'application/json', body: JSON.stringify(body) });
   if (!id) return json(Object.entries(SERVER).map(([lid, l]) => ({ id: lid, ...l })));
   if (request.method() === 'GET') {
     await new Promise((r) => setTimeout(r, 700)); // late data, as on the real page
     return json({ id, ...SERVER[id] });
   }
   putCount++;
-  const body = JSON.parse(request.postData());
+  let body = JSON.parse(request.postData());
+  if ('_type' in body) {
+    fastPuts.push(body);
+    const { type, propertyDetails, links, _type, ...listing } = body;
+    const problem = _type !== 'StoreListing' ? '_type'
+      : type !== PROPERTIES.type || JSON.stringify(propertyDetails) !== JSON.stringify(PROPERTIES.propertyDetails) ? 'properties'
+        : !Array.isArray(links) || links.length ? 'links'
+          : listing.id !== id || listing.lcid !== SERVER[id].lcid ? 'listing' : null;
+    if (problem) return route.fulfill({ status: 400, body: `bad ${problem}` });
+    if (listing._etag !== SERVER[id]._etag) return route.fulfill({ status: 412, body: 'stale _etag' });
+    body = { description: listing.description, keywords: listing.keywords, urls: listing.urls };
+  }
   await new Promise((r) => setTimeout(r, 400));
   if (SERVER[id].lang === 'Bangla') body.keywords = [...body.keywords, ''];
-  if (SERVER[id].lang !== 'Malayalam' || !loseMalayalamSaves) Object.assign(SERVER[id], body);
+  if (SERVER[id].lang === 'Malayalam' && loseMalayalamSaves) {
+    // Answers as if the save landed, but stores nothing: only reading it back shows it.
+    return json({ id, ...SERVER[id], ...body });
+  }
+  Object.assign(SERVER[id], body, { _etag: `"${Number(SERVER[id]._etag.slice(1, -1)) + 1}"` });
   return json({ id, ...SERVER[id] });
 }
 
@@ -377,6 +411,75 @@ async function partnerCenter(route) {
   assert.match(await message(), /Finished: 8 done, 0 failed/);
   assert.equal(putCount - putsBefore, 1, 'everything was up to date');
   console.log('second paste ok');
+
+  // 6. The Fast buttons save through the API without opening any details view. GitHub's
+  // descriptions differ from the local ones saved above.
+  await panel.locator('input[name="source-kind"][value="github"]').check();
+  await panel.locator('button.load').click();
+  await waitForData(/Loaded 8 Edge descriptions \(edge\.txt\) from owner\/repo/);
+  const detailsOpened = await page.evaluate(() => window.__detailsOpened);
+  const fastBefore = fastPuts.length;
+  await panel.locator('button.fast-one').click();
+  await waitForText('.message', /^Amharic: /, 60000);
+  assert.equal(await message(), 'Amharic: saved description, checked. Reload the page to see the new text in the table.');
+  assert.deepEqual(saved('Amharic'), { description: DATA.locales.am.description, keywords: TERMS, urls: { VideoUrl: [{ url: YOUTUBE }] } },
+    'only the description changed: the same terms in another order are left alone');
+  assert.equal(saved('Arabic').description, LOCAL('ar'), 'only one language saved');
+  assert.equal(fastPuts.length - fastBefore, 1);
+  console.log('fast next-language-only ok');
+
+  loseMalayalamSaves = true;
+  await panel.locator('button.fast-all').click();
+  await waitForText('.message', /^Fast run finished/, 120000);
+  assert.equal(await message(), 'Fast run finished: 7 done, 1 failed; listings with no data: LCID 9999. Reload the page to see the new text in the table.');
+  assert.match(await panel.locator('.failed').textContent(), /^ml: Partner Center did not store: description/);
+  for (const [lang, locale] of Object.entries(expect)) {
+    // Bangla's stored terms go back as they are, and the mock adds another empty one.
+    const keywords = lang === 'Bangla' ? [...REVERSED, '', ''] : REVERSED;
+    assert.deepEqual(saved(lang), { description: DATA.locales[locale].description, keywords, urls: { VideoUrl: [] } }, lang);
+  }
+  assert.equal(fastPuts.length - fastBefore, 8, 'Amharic, already up to date, not saved again');
+  assert.ok(fastPuts.every((b) => b.links.length === 0 && b.propertyDetails.privatePolicyUrl === PROPERTIES.propertyDetails.privatePolicyUrl));
+
+  loseMalayalamSaves = false;
+  await panel.locator('button.fast-all').click();
+  await waitForText('.message', /^Fast run finished/, 60000);
+  assert.equal(await message(), 'Fast run finished: 8 done, 0 failed; listings with no data: LCID 9999. Reload the page to see the new text in the table.');
+  assert.equal(saved('Malayalam').description, DATA.locales.ml.description);
+  assert.equal(fastPuts.length - fastBefore, 9, 'only Malayalam saved');
+  assert.equal(await page.evaluate(() => window.__detailsOpened), detailsOpened, 'no details view opened');
+  assert.equal(await page.evaluate(() => window.__publishClicked), 0, 'never clicks Publish');
+  console.log('fast all-languages ok');
+
+  // Stop during a Fast run: it stops after the current language and says so.
+  await panel.locator('input[name="source-kind"][value="local"]').check();
+  await panel.locator('input.folder').setInputFiles(makeLocalFolder());
+  await waitForData(/from local folder "store-descriptions"/);
+  await panel.locator('button.fast-all').click();
+  await waitForText('.message', /^Saving /, 30000);
+  await panel.locator('button.stop').click();
+  await waitForText('.message', /^Stopped: /, 60000);
+  assert.match(await message(), /^Stopped: [1-7] done, 0 failed\. Press a Fast button to go on\. Reload the page/);
+  assert.equal(saved('Amharic').description, LOCAL('am'), 'the language being saved when Stop was pressed is finished');
+  assert.equal(saved('Spanish (Latin America and the Caribbean)').description, DATA.locales.es_419.description, 'the last language is left alone');
+  console.log('fast stop ok');
+
+  // When the page's own properties request is no longer in the browser's records, Fast
+  // looks the properties up itself, without the /en-us prefix.
+  await page.reload();
+  await page.waitForSelector('table');
+  // The page asks for its properties without waiting for the answer: clear once it is in.
+  await page.waitForFunction(() => performance.getEntriesByType('resource').some((e) => e.name.includes('/properties/')));
+  await page.evaluate(() => performance.clearResourceTimings());
+  await paste();
+  await panel.locator('button.fast-all').click();
+  await waitForText('.message', /^Fast run finished/, 120000);
+  assert.equal(await message(), 'Fast run finished: 8 done, 0 failed; listings with no data: LCID 9999. Reload the page to see the new text in the table.');
+  assert.equal(propertyInstanceReads, 1);
+  for (const [lang, locale] of Object.entries({ ...expect, Amharic: 'am', Malayalam: 'ml' })) {
+    assert.equal(saved(lang).description, LOCAL(locale), lang);
+  }
+  console.log('fast properties lookup ok');
 
   assert.deepEqual(errors, []);
   await browser.close();
