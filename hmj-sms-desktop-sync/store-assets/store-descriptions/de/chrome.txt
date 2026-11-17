@@ -2,6 +2,9 @@ Empfangen Sie SMS-Nachrichten und OTP-Codes Ihres Android-Smartphones als Deskto
 
 HMJ SMS Desktop Sync ist eine schlanke Open-Source-Erweiterung, die sich direkt mit der HMJ SMS App auf Ihrem Android-Smartphone koppelt. Trifft eine Nachricht auf Ihrem Smartphone ein, erscheint sie sofort auf Ihrem Desktop – so können Sie Anmeldecodes blitzschnell kopieren, ohne das Smartphone in die Hand nehmen zu müssen.
 
+Die HMJ SMS App gibt es bei Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Nachrichten werden über den browserinternen Push-Dienst direkt von Ihrem Smartphone an Ihren Browser übertragen – verschlüsselt ausschließlich für diesen Browser. Es gibt keine Zwischenserver, und der Push-Dienst kann die Inhalte nicht mitlesen.
 
 Tipp: Fixieren Sie die Erweiterung im Chrome-Erweiterungsmenü (Puzzleteil-Symbol), um das Symbol dauerhaft in der Symbolleiste zu behalten.
@@ -20,9 +23,11 @@ WICHTIGSTE FUNKTIONEN
 
 SMARTPHONE KOPPELN
 
-1. Klicken Sie in der Symbolleiste auf das Symbol von HMJ SMS Desktop Sync, um den QR-Code anzuzeigen.
-2. Öffnen Sie auf Ihrem Smartphone die HMJ SMS App, rufen Sie das Menü auf und wählen Sie «Desktop Sync».
-3. Tippen Sie auf «QR-Code scannen» und erfassen Sie den auf dem Bildschirm angezeigten Code.
+1. Installieren Sie die HMJ SMS App aus Google Play auf Ihrem Android-Smartphone:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Klicken Sie in der Symbolleiste auf das Symbol von HMJ SMS Desktop Sync, um den QR-Code anzuzeigen.
+3. Öffnen Sie auf Ihrem Smartphone die HMJ SMS App, rufen Sie das Menü auf und wählen Sie «Desktop Sync».
+4. Tippen Sie auf «QR-Code scannen» und erfassen Sie den auf dem Bildschirm angezeigten Code.
 
 Eine Testbenachrichtigung auf Ihrem Desktop bestätigt die erfolgreiche Verbindung. Um ein weiteres Smartphone zu koppeln, klicken Sie im Popup auf «Weiteres koppeln».
 

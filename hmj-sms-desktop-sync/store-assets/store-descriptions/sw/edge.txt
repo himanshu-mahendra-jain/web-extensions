@@ -2,6 +2,9 @@ Pokea ujumbe wa SMS na misimbo ya OTP kutoka kwa simu yako ya Android kama arifa
 
 HMJ SMS Desktop Sync ni kiendelezi chepesi cha programu huria (open-source) kinachounganishwa na programu ya HMJ SMS kwenye simu yako ya Android. Ujumbe unapofika kwenye simu yako, huonekana papo hapo kwenye skrini ya kompyuta yako, kukuwezesha kunakili nambari za uthibitishaji bila kuhitaji kuchukua simu yako.
 
+Pata programu ya HMJ SMS kwenye Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Ujumbe husafirishwa moja kwa moja kutoka kwa simu yako hadi kwenye kivinjari chako kupitia huduma ya arifa ya kivinjari yenyewe, ikiwa imesimbwa kwa njia fiche mahususi kwa kivinjari hiki pekee. Hakuna seva ya kati, na huduma ya arifa haiwezi kusoma ujumbe wako.
 
 Kidokezo: Kwenye menyu ya Viendelezi ya Edge, washa «Onyesha kwenye upau wa zana» kwa ajili ya HMJ SMS Desktop Sync kwa ufikiaji wa haraka.
@@ -20,9 +23,11 @@ VIPENGELE MUHIMU
 
 KUUNGANISHA SIMU YAKO
 
-1. Bofya ikoni ya HMJ SMS Desktop Sync kwenye upau wa zana ili kuonyesha msimbo wa QR.
-2. Kwenye simu yako, fungua programu ya HMJ SMS, nenda kwenye menyu na uchague «Desktop Sync».
-3. Gusa «Changanua Msimbo wa QR» na uchanganue msimbo ulio kwenye skrini ya kompyuta yako.
+1. Sakinisha programu ya HMJ SMS kwenye simu yako ya Android kutoka Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Bofya ikoni ya HMJ SMS Desktop Sync kwenye upau wa zana ili kuonyesha msimbo wa QR.
+3. Kwenye simu yako, fungua programu ya HMJ SMS, nenda kwenye menyu na uchague «Desktop Sync».
+4. Gusa «Changanua Msimbo wa QR» na uchanganue msimbo ulio kwenye skrini ya kompyuta yako.
 
 Arifa ya majaribio itaonekana kwenye kompyuta yako ili kuthibitisha muunganisho. Ili kuunganisha simu nyingine, bofya «Oanisha Nyingine» kwenye dirisha ibukizi.
 

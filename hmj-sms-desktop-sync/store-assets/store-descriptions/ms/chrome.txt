@@ -2,6 +2,9 @@ Lihat mesej SMS dan kod OTP daripada telefon Android anda sebagai pemberitahuan 
 
 HMJ SMS Desktop Sync ialah sambungan sumber terbuka yang ringan dan dipadankan dengan aplikasi HMJ SMS pada telefon Android anda. Apabila mesej tiba di telefon, ia akan dipaparkan serta-merta pada skrin komputer anda untuk memudahkan penyalinan kod pengesahan tanpa perlu mengambil telefon.
 
+Dapatkan aplikasi HMJ SMS di Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Mesej dihantar terus dari telefon ke penyemak imbas anda melalui perkhidmatan tolak (push) terbina dalam penyemak imbas, disulitkan khusus untuk penyemak imbas ini sahaja. Tiada pelayan perantara digunakan, dan perkhidmatan tolak tidak dapat membaca isi kandungan mesej anda.
 
 Petua: Sematkan sambungan dalam menu Sambungan Chrome (ikon kepingan teka-teki) untuk mengekalkan ikonnya pada bar alat.
@@ -20,9 +23,11 @@ CIRI-CIRI UTAMA
 
 MEMADANKAN TELEFON ANDA
 
-1. Klik ikon HMJ SMS Desktop Sync pada bar alat untuk memaparkan kod QR pemadanan.
-2. Buka aplikasi HMJ SMS pada telefon anda, buka menu dan pilih «Desktop Sync».
-3. Ketik «Imbas Kod QR» dan imbas kod yang dipaparkan pada skrin komputer anda.
+1. Pasang aplikasi HMJ SMS pada telefon Android anda daripada Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Klik ikon HMJ SMS Desktop Sync pada bar alat untuk memaparkan kod QR pemadanan.
+3. Buka aplikasi HMJ SMS pada telefon anda, buka menu dan pilih «Desktop Sync».
+4. Ketik «Imbas Kod QR» dan imbas kod yang dipaparkan pada skrin komputer anda.
 
 Pemberitahuan ujian akan muncul pada desktop untuk mengesahkan sambungan. Untuk memadankan telefon lain, klik «Padankan Peranti Lain» dalam tetingkap timbul.
 

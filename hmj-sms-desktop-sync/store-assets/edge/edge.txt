@@ -2,6 +2,9 @@ See the SMS messages and OTP codes your Android phone receives as desktop notifi
 
 HMJ SMS Desktop Sync is a lightweight, open-source extension that pairs with the HMJ SMS app on your Android phone. When a message arrives on your phone, it appears on your desktop within moments, so you can copy a sign-in code without picking up the phone.
 
+Get the HMJ SMS app on Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Messages travel straight from your phone to your browser through the browser's own push service, encrypted for this browser alone. There is no server in between, and the push service cannot read them.
 
 Tip: in Edge's Extensions menu, turn on Show in toolbar for HMJ SMS Desktop Sync to keep its icon on the toolbar.
@@ -20,9 +23,11 @@ KEY FEATURES
 
 PAIR YOUR PHONE
 
-1. Click the HMJ SMS Desktop Sync icon in the toolbar to show the pairing QR code.
-2. On your phone, open the HMJ SMS app, open its menu, and choose Desktop Sync.
-3. Tap Scan QR Code and scan the code on your screen.
+1. Install the HMJ SMS app on your Android phone from Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Click the HMJ SMS Desktop Sync icon in the toolbar to show the pairing QR code.
+3. On your phone, open the HMJ SMS app, open its menu, and choose Desktop Sync.
+4. Tap Scan QR Code and scan the code on your screen.
 
 A test notification appears on your desktop to confirm the connection. To pair another phone, click Pair Another in the popup.
 

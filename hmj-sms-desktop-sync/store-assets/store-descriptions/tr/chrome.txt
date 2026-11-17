@@ -2,6 +2,9 @@ Android telefonunuza gelen SMS mesajlarını ve OTP kodlarını masaüstü bildi
 
 HMJ SMS Desktop Sync, Android telefonunuzdaki HMJ SMS uygulamasıyla eşleşen hafif ve açık kaynaklı bir tarayıcı uzantısıdır. Telefonunuza bir mesaj geldiğinde, anında bilgisayar ekranınızda belirir; böylece telefonu elinize almanıza gerek kalmadan doğrulama kodlarını hızla kopyalayabilirsiniz.
 
+HMJ SMS uygulamasını Google Play'den edinin:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Mesajlar, telefonunuzdan tarayıcınıza doğrudan tarayıcının kendi anlık bildirim (push) hizmeti üzerinden aktarılır ve yalnızca bu tarayıcıya özel olarak şifrelenir. Arada hiçbir sunucu bulunmaz ve bildirim servisi mesajlarınızın içeriğini okuyamaz.
 
 İpucu: Uzantı simgesinin araç çubuğunda her zaman görünmesi için Chrome Uzantılar menüsünden (yapboz parçası simgesi) uzantıyı sabitleyin.
@@ -20,9 +23,11 @@ Mesajlar, telefonunuzdan tarayıcınıza doğrudan tarayıcının kendi anlık b
 
 TELEFONUNUZU EŞLEME
 
-1. Araç çubuğundaki HMJ SMS Desktop Sync simgesine tıklayarak eşleme QR kodunu açın.
-2. Telefonunuzda HMJ SMS uygulamasını açın, menüye gidin ve «Desktop Sync» seçeneğini seçin.
-3. «QR Kodu Tara» düğmesine dokunun ve bilgisayar ekranındaki kodu kameranızla tarayın.
+1. HMJ SMS uygulamasını Google Play'den Android telefonunuza yükleyin:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Araç çubuğundaki HMJ SMS Desktop Sync simgesine tıklayarak eşleme QR kodunu açın.
+3. Telefonunuzda HMJ SMS uygulamasını açın, menüye gidin ve «Desktop Sync» seçeneğini seçin.
+4. «QR Kodu Tara» düğmesine dokunun ve bilgisayar ekranındaki kodu kameranızla tarayın.
 
 Bağlantıyı onaylamak için masaüstünüzde bir test bildirimi görünecektir. Başka bir telefon eklemek için açılır penceredeki «Başka Eşle» seçeneğine tıklayın.
 

@@ -2,6 +2,9 @@ Android 휴대전화로 수신되는 SMS 메시지와 OTP 인증 코드를 데�
 
 HMJ SMS Desktop Sync는 Android 휴대전화의 HMJ SMS 앱과 연동되는 가볍고 안전한 오픈 소스 확장 프로그램입니다. 휴대전화로 메시지가 수신되면 즉시 데스크톱 화면에 표시되어, 스마트폰을 직접 들지 않고도 로그인 인증 코드를 바로 복사할 수 있습니다.
 
+Google Play에서 HMJ SMS 앱을 받으세요:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 메시지는 브라우저 자체 푸시 서비스를 통해 휴대전화에서 브라우저로 직접 전달되며, 오직 이 브라우저만을 위해 암호화됩니다. 중간 서버가 전혀 존재하지 않으며, 푸시 서비스조차 메시지 내용을 읽을 수 없습니다.
 
 팁: Chrome 확장 프로그램 메뉴(퍼즐 조각 아이콘)에서 고정해 두면 툴바에서 언제나 편리하게 이용할 수 있습니다.
@@ -20,9 +23,11 @@ HMJ SMS Desktop Sync는 Android 휴대전화의 HMJ SMS 앱과 연동되는 가�
 
 휴대전화 연동 방법
 
-1. 툴바의 HMJ SMS Desktop Sync 아이콘을 클릭하여 페어링 QR 코드를 엽니다.
-2. 스마트폰에서 HMJ SMS 앱을 실행하고 메뉴에서 'Desktop Sync'를 선택합니다.
-3. 'QR 코드 스캔'을 탭한 뒤 컴퓨터 화면의 코드를 스캔합니다.
+1. Google Play에서 Android 스마트폰에 HMJ SMS 앱을 설치합니다:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. 툴바의 HMJ SMS Desktop Sync 아이콘을 클릭하여 페어링 QR 코드를 엽니다.
+3. 스마트폰에서 HMJ SMS 앱을 실행하고 메뉴에서 'Desktop Sync'를 선택합니다.
+4. 'QR 코드 스캔'을 탭한 뒤 컴퓨터 화면의 코드를 스캔합니다.
 
 연결이 완료되면 데스크톱에 연결 확인용 테스트 알림이 표시됩니다. 다른 휴대전화를 추가하려면 팝업에서 '다른 기기 페어링'을 클릭하세요.
 

@@ -2,6 +2,9 @@ Saage oma Android-telefoni SMS-sõnumid ja OTP-koodid töölauateavitustena, ots
 
 HMJ SMS Desktop Sync on kergekaaluline ja avatud lähtekoodiga laiendus, mis paaritub teie Android-telefoni HMJ SMS rakendusega. Kui telefoni saabub sõnum, kuvatakse see kohe arvutiekraanil, võimaldades teil kinnituskoode mugavalt kopeerida ilma telefoni haaramata.
 
+HMJ SMS rakenduse saate Google Playst:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Sõnumid liiguvad telefonist otse brauserisse brauseri enda push-teenuse kaudu, krüpteerituna spetsiaalselt selle brauseri jaoks. Vahepealseid servereid ei ole ja push-teenus ei saa sõnumite sisu lugeda.
 
 Soovitus: lülitage Edge'i laienduste menüüs sisse «Kuva tööriistaribal» HMJ SMS Desktop Synci jaoks hõlpsaks juurdepääsuks.
@@ -20,9 +23,11 @@ PÕHIOMADUSED
 
 TELEFONI SIDUMINE
 
-1. Klõpsake tööriistaribal HMJ SMS Desktop Sync ikoonil, et kuvada sidumise QR-kood.
-2. Avage telefonis HMJ SMS rakendus, minge menüüsse ja valige «Desktop Sync».
-3. Puudutage «Skanni QR-kood» ja suunake kaamera ekraanil olevale koodile.
+1. Installige HMJ SMS rakendus oma Android-telefoni Google Playst:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Klõpsake tööriistaribal HMJ SMS Desktop Sync ikoonil, et kuvada sidumise QR-kood.
+3. Avage telefonis HMJ SMS rakendus, minge menüüsse ja valige «Desktop Sync».
+4. Puudutage «Skanni QR-kood» ja suunake kaamera ekraanil olevale koodile.
 
 Ühenduse kinnitamiseks ilmub töölauale testteavitus. Teise telefoni lisamiseks klõpsake hüpikaknas «Pair Another».
 

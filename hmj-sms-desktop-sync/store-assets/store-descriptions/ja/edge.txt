@@ -2,6 +2,9 @@ Android スマホが受信した SMS と OTP 認証コードをデスクトッ�
 
 HMJ SMS Desktop Sync は、Android スマートフォンの HMJ SMS アプリと連携する軽量でオープンソースの拡張機能です。スマホにメッセージが届くと、即座にパソコンの画面に表示されるため、スマホを手に取ることなく認証コードを素早くコピーできます。
 
+HMJ SMS アプリは Google Play から入手できます:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 メッセージはブラウザ独自のプッシュサービスを経由して、スマートフォンからブラウザへ直接送信されます。このブラウザ専用に暗号化されているため、途中に中継サーバーはなく、プッシュサービス自体もメッセージの内容を読み取ることはできません。
 
 ヒント: Edge の「拡張機能」メニューで HMJ SMS Desktop Sync の「ツールバーに表示」をオンにすると、すぐにアクセスできます。
@@ -20,9 +23,11 @@ HMJ SMS Desktop Sync は、Android スマートフォンの HMJ SMS アプリと
 
 スマートフォンのペア設定手順
 
-1. ツールバーの HMJ SMS Desktop Sync アイコンをクリックし、ペア設定用の QR コードを表示します。
-2. スマホで HMJ SMS アプリを開き、メニューから「Desktop Sync」を選択します。
-3. 「QR コードをスキャン」をタップし、パソコン画面上のコードを読み取ります。
+1. Google Play から Android スマホに HMJ SMS アプリをインストールします:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. ツールバーの HMJ SMS Desktop Sync アイコンをクリックし、ペア設定用の QR コードを表示します。
+3. スマホで HMJ SMS アプリを開き、メニューから「Desktop Sync」を選択します。
+4. 「QR コードをスキャン」をタップし、パソコン画面上のコードを読み取ります。
 
 接続が確立されると、確認用のテスト通知がデスクトップに届きます。別のスマホを追加する場合は、ポップアップ内の「別の端末をペア設定」をクリックしてください。
 

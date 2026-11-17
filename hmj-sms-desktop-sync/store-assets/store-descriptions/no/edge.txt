@@ -2,6 +2,9 @@ Motta SMS-meldinger og engangskoder (OTP) fra din Android-telefon som skrivebord
 
 HMJ SMS Desktop Sync er en lett og åpen kildekode-utvidelse som kobles sammen med HMJ SMS-appen på din Android-telefon. Når en melding tikker inn på telefonen, vises den umiddelbart på skrivebordet ditt, slik at du raskt kan kopiere påloggingskoder uten å plukke opp telefonen.
 
+Last ned HMJ SMS-appen på Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Meldinger overføres direkte fra telefonen til nettleseren via nettleserens egen push-tjeneste, kryptert utelukkende for denne nettleseren. Det finnes ingen mellomliggende servere, og push-tjenesten kan ikke lese innholdet.
 
 Tips: I Edges utvidelsesmeny slår du på «Vis på verktøylinjen» for HMJ SMS Desktop Sync for rask tilgang.
@@ -20,9 +23,11 @@ HOVEDFUNKSJONER
 
 KOBLE TIL TELEFONEN DIN
 
-1. Klikk på ikonet for HMJ SMS Desktop Sync på verktøylinjen for å vise QR-koden for paring.
-2. Åpne HMJ SMS-appen på telefonen din, åpne menyen og velg «Desktop Sync».
-3. Trykk på «Skann QR-kode» og skann koden på dataskjermen.
+1. Installer HMJ SMS-appen på Android-telefonen din fra Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Klikk på ikonet for HMJ SMS Desktop Sync på verktøylinjen for å vise QR-koden for paring.
+3. Åpne HMJ SMS-appen på telefonen din, åpne menyen og velg «Desktop Sync».
+4. Trykk på «Skann QR-kode» og skann koden på dataskjermen.
 
 Et testvarsel vises på skrivebordet for å bekrefte tilkoblingen. For å koble til en annen telefon, klikker du på «Koble til en annen» i hurtigmenyen.
 

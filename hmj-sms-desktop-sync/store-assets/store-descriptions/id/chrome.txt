@@ -2,6 +2,9 @@ Lihat pesan SMS dan kode OTP dari ponsel Android Anda sebagai notifikasi desktop
 
 HMJ SMS Desktop Sync adalah ekstensi sumber terbuka (open-source) yang ringan dan dapat dipasangkan dengan aplikasi HMJ SMS di ponsel Android Anda. Saat pesan masuk di ponsel, notifikasi akan langsung muncul di komputer desktop Anda, memungkinkan Anda menyalin kode verifikasi tanpa perlu mengangkat ponsel.
 
+Dapatkan aplikasi HMJ SMS di Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Pesan dikirimkan langsung dari ponsel ke peramban melalui layanan push bawaan peramban itu sendiri, terenkripsi khusus untuk peramban ini. Tidak ada server perantara, dan layanan push tidak dapat membaca isi pesan Anda.
 
 Tips: Sematkan ekstensi di menu Ekstensi Chrome (ikon potongan puzzle) agar ikonnya selalu terlihat di bilah alat.
@@ -20,9 +23,11 @@ FITUR UTAMA
 
 MENYANDINGKAN PONSEL ANDA
 
-1. Klik ikon HMJ SMS Desktop Sync di bilah alat untuk memunculkan kode QR penyandingan.
-2. Di ponsel Anda, buka aplikasi HMJ SMS, buka menu, lalu pilih «Desktop Sync».
-3. Ketuk «Pindai Kode QR» dan arahkan kamera ke kode di layar komputer Anda.
+1. Instal aplikasi HMJ SMS di ponsel Android Anda dari Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Klik ikon HMJ SMS Desktop Sync di bilah alat untuk memunculkan kode QR penyandingan.
+3. Di ponsel Anda, buka aplikasi HMJ SMS, buka menu, lalu pilih «Desktop Sync».
+4. Ketuk «Pindai Kode QR» dan arahkan kamera ke kode di layar komputer Anda.
 
 Notifikasi uji coba akan muncul di desktop untuk mengonfirmasi koneksi. Untuk menyandingkan ponsel lain, klik «Sandingkan Lainnya» di jendela ekstensi.
 

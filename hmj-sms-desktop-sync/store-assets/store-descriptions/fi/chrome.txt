@@ -2,6 +2,9 @@ Vastaanota Android-puhelimesi SMS-viestit ja OTP-vahvistuskoodit työpöytäilmo
 
 HMJ SMS Desktop Sync on kevyt ja avoimen lähdekoodin laajennus, joka muodostaa pariliitoksen Android-puhelimesi HMJ SMS -sovelluksen kanssa. Kun puhelimeesi saapuu viesti, se ilmestyy välittömästi tietokoneen näytölle, jotta voit kopioida kirjautumiskoodit vaivattomasti puhelimeen koskematta.
 
+Hanki HMJ SMS -sovellus Google Playsta:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Viestit siirtyvät suoraan puhelimesta selaimeesi selaimen oman push-palvelun kautta, salattuna ainoastaan tätä nimenomaista selainta varten. Välissä ei ole palvelimia, eikä push-palvelu pysty lukemaan viestiesi sisältöä.
 
 Vinkki: Kiinnitä laajennus Chromen Laajennukset-valikosta (palapelikuvake), jotta sen kuvake pysyy aina näkyvissä työkalurivillä.
@@ -20,9 +23,11 @@ TÄRKEIMMÄT OMINAISUUDET
 
 PUHELIMEN LIITTÄMINEN
 
-1. Napsauta HMJ SMS Desktop Sync -kuvaketta työkalurivillä avataksesi QR-koodin.
-2. Avaa puhelimessasi HMJ SMS -sovellus, siirry valikkoon ja valitse «Desktop Sync».
-3. Napauta «Skannaa QR-koodi» ja lue tietokoneen näytöllä näkyvä koodi.
+1. Asenna HMJ SMS -sovellus Android-puhelimeesi Google Playsta:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Napsauta HMJ SMS Desktop Sync -kuvaketta työkalurivillä avataksesi QR-koodin.
+3. Avaa puhelimessasi HMJ SMS -sovellus, siirry valikkoon ja valitse «Desktop Sync».
+4. Napauta «Skannaa QR-koodi» ja lue tietokoneen näytöllä näkyvä koodi.
 
 Työpöydällesi saapuu testi-ilmoitus yhteyden vahvistamiseksi. Voit yhdistää toisen puhelimen napsauttamalla ponnahdusikkunassa «Liitä toinen».
 
