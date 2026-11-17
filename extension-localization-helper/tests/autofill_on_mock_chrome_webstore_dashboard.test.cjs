@@ -1,6 +1,6 @@
 // Check of chrome.js against a mock of the Chrome Web Store
-// Developer Dashboard's Store listing page, modelled on the real page: a Language menu whose
-// options sit next to it, one Description box whose text the page swaps per language, all
+// Developer Dashboard's Store listing page, modelled on the real page: a Language menu that
+// repeats its label before the language and whose options sit next to it, one Description box whose text the page swaps per language, all
 // languages saved by one Save draft request, and Trusted Types (no innerHTML). The script is
 // run the way pasting it into the console does, with descriptions from a mock GitHub and a
 // local folder.
@@ -70,10 +70,14 @@ const saves = [];
 let failSave = false;
 let submitted = false;
 
+// How many times the Language menu shows its label before the language: 4 on the dashboard
+// now, 1 before it changed.
+let labelRepeats = 4;
+
 const PAGE = () => `<!doctype html><html><head><meta charset="utf-8"><title>Developer Dashboard</title></head><body>
 <h1>Store listing</h1>
 <div class="language-field">
-  <div role="combobox" tabindex="0" aria-expanded="false" aria-controls="language-popup"><span>Language</span> <span class="current"></span></div>
+  <div role="combobox" tabindex="0" aria-expanded="false" aria-controls="language-popup">${'<span>Language</span>'.repeat(labelRepeats)}<span class="current"></span></div>
   <span id="language-popup"></span>
   <ul role="listbox" hidden>${LANGUAGES.map(([v, t]) => `<li role="option" data-value="${v}">${t}</li>`).join('')}</ul>
 </div>
@@ -225,7 +229,7 @@ async function mockDashboard(context) {
     await start();
     assert.match(await status(), /Filled 6 languages, not saved/);
     assert.equal(saves.length, 0);
-    assert.equal(await page.locator('[role=combobox]').innerText().then((t) => t.replace(/\s+/g, ' ')), 'Language English – en',
+    assert.equal(await page.locator('[role=combobox]').innerText().then((t) => t.replace(/\s+/g, ' ')), 'LanguageLanguageLanguageLanguageEnglish – en',
       'the menu is back on the starting language');
     assert.equal(await page.locator('textarea').inputValue(), DESCRIPTION('en'));
     assert.equal(await pageText('iw'), DESCRIPTION('he'));
@@ -294,6 +298,17 @@ async function mockDashboard(context) {
     assert.equal(saves.length, 4, 'only the new panel saved');
     for (const l of EXPECTED) assert.equal(SERVER[VALUE_OF[l] || l], DESCRIPTION(l), `${l} saved from GitHub`);
     await page.waitForTimeout(3000);
+    assert.equal(saves.length, 4);
+
+    step('a Language menu that shows its label once, as the dashboard used to, still switches');
+    labelRepeats = 1;
+    await openPage();
+    assert.equal(await page.locator('[role=combobox]').innerText().then((t) => t.replace(/\s+/g, ' ')), 'LanguageEnglish – en');
+    await button('Load').click();
+    await page.waitForFunction(() => /Press Start/.test(document.querySelector('#localization-helper-cws [role=status]').textContent));
+    await start();
+    assert.match(await status(), /Nothing to change/);
+    assert.match(await details(), /Already up to date: de, en, es_419, fr, he, pt_BR/);
     assert.equal(saves.length, 4);
 
     assert.equal(submitted, false, 'Submit for review was clicked');
