@@ -71,8 +71,9 @@
     return { options, plan, unoffered, missing };
   }
 
-  // The language the menu shows, as its option names it ("German – de").
-  const currentLanguage = () => languageCombo().textContent.replace(/\s+/g, ' ').trim().replace(/^Language\s*/, '');
+  // The language the menu shows, as its option names it ("German – de"). The menu's text
+  // starts with its label, which the page repeats: "LanguageLanguageLanguageLanguageGerman – de".
+  const currentLanguage = () => languageCombo().textContent.replace(/\s+/g, ' ').trim().replace(/^(?:Language\s*)+/, '');
 
   async function selectLanguage(option) {
     if (currentLanguage() === option.name) return;
