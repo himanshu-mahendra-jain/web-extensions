@@ -126,6 +126,9 @@
     "message": "Nastavenia → Synchronizácia s počítačom → Naskenovať QR kód",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Stiahnuť HMJ SMS z Google Play"
+  },
   "pairingQrCode": {
     "message": "QR kód na spárovanie"
   },

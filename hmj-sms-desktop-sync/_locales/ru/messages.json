@@ -126,6 +126,9 @@
     "message": "Настройки → Синхронизация с ПК → Сканировать QR-код",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Скачать HMJ SMS в Google Play"
+  },
   "pairingQrCode": {
     "message": "QR-код для связи"
   },

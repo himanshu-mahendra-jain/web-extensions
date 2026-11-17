@@ -126,6 +126,9 @@
     "message": "Setări → Sincronizare desktop → Scanați codul QR",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Descărcați HMJ SMS din Google Play"
+  },
   "pairingQrCode": {
     "message": "Cod QR de asociere"
   },

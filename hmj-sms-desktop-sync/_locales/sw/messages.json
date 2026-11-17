@@ -126,6 +126,9 @@
     "message": "Mipangilio → Usawazishaji wa Kompyuta → Changanua Msimbo wa QR",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Pata HMJ SMS kwenye Google Play"
+  },
   "pairingQrCode": {
     "message": "Msimbo wa QR wa kuoanisha"
   },

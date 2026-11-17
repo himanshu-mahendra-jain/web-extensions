@@ -131,6 +131,20 @@ test.describe("without a linked phone", () => {
   });
 
 
+  test("the Google Play link opens the HMJ SMS app's page in a new tab", async ({ popup, context }) => {
+    const url = "https://play.google.com/store/apps/details?id=com.hmj.sms";
+    // The tab stays offline: Google Play answers with an empty page.
+    await context.route("https://play.google.com/**", (route) => route.fulfill({ body: "" }));
+
+    const link = popup.getByRole("link", { name: "Get HMJ SMS on Google Play" });
+    await expect(link).toBeVisible();
+
+    const [tab] = await Promise.all([context.waitForEvent("page"), link.click()]);
+    await tab.waitForURL(url);
+    expect(popup.isClosed()).toBe(false);
+  });
+
+
   test("Copy Code copies the v2 pairing code", async ({ popup }) => {
     const button = popup.locator("#btnCopyPairingCode");
 

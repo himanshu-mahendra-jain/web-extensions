@@ -396,6 +396,22 @@ button {
   white-space: nowrap;
 }
 
+/* Opens the app's Google Play page in a new tab. */
+.qr-get-app {
+  margin: -4px 0 8px;
+  font-size: 0.8125rem;
+}
+
+.qr-get-app a {
+  color: var(--accent);
+  font-weight: 600;
+  text-underline-offset: 2px;
+}
+
+.qr-get-app a:hover {
+  color: var(--accent-hover);
+}
+
 .step-arrow:dir(rtl) {
   display: inline-block;
   transform: scaleX(-1);

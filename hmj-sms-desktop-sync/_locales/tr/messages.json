@@ -126,6 +126,9 @@
     "message": "Ayarlar → Masaüstü Senkronizasyonu → QR Kodunu Tara",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "HMJ SMS'i Google Play'den edinin"
+  },
   "pairingQrCode": {
     "message": "Eşleme QR kodu"
   },

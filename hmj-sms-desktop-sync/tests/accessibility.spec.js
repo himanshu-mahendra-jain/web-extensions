@@ -82,6 +82,9 @@ test("without a linked phone", async ({ page }) => {
     - region "Pair with Android Phone":
       - heading "Pair with Android Phone" [level=2]
       - paragraph: Open HMJ SMS app on phone → Settings → Desktop Sync → Scan QR Code
+      - paragraph:
+        - link "Get HMJ SMS on Google Play":
+          - /url: https://play.google.com/store/apps/details?id=com.hmj.sms
       - img "Pairing QR code"
       - button "Copy Code"
       - button "Hide"
@@ -98,6 +101,7 @@ test("without a linked phone", async ({ page }) => {
   expect(stops).toEqual([
     'button "Pair"',
     'button "More options"',
+    'link "Get HMJ SMS on Google Play"',
     'button "Copy Code"',
     'button "Hide"',
     'button "Show Pairing QR Code"'
@@ -122,6 +126,9 @@ test("asking to pair again, with notifications turned off", async ({ page }) => 
     - region "Pair with Android Phone":
       - heading "Pair with Android Phone" [level=2]
       - paragraph: Open HMJ SMS app on phone → Settings → Desktop Sync → Scan QR Code
+      - paragraph:
+        - link "Get HMJ SMS on Google Play":
+          - /url: https://play.google.com/store/apps/details?id=com.hmj.sms
       - img "Pairing QR code"
       - button "Copy Code"
       - button "Hide"
@@ -139,6 +146,7 @@ test("asking to pair again, with notifications turned off", async ({ page }) => 
   expect(stops).toEqual([
     'button "Pair"',
     'button "More options"',
+    'link "Get HMJ SMS on Google Play"',
     'button "Copy Code"',
     'button "Hide"',
     'button "Show Pairing QR Code"'

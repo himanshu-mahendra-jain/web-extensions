@@ -126,6 +126,9 @@
     "message": "సెట్టింగ్‌లు → డెస్క్‌టాప్ సింక్ → QR కోడ్‌ని స్కాన్ చేయండి",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Google Play నుండి HMJ SMS పొందండి"
+  },
   "pairingQrCode": {
     "message": "జత చేసే QR కోడ్"
   },

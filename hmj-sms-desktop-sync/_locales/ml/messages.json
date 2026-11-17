@@ -126,6 +126,9 @@
     "message": "ക്രമീകരണങ്ങൾ → ഡെസ്ക്ടോപ്പ് സമന്വയം → QR കോഡ് സ്കാൻ ചെയ്യുക",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Google Play-ൽ നിന്ന് HMJ SMS നേടുക"
+  },
   "pairingQrCode": {
     "message": "ജോടിയാക്കൽ QR കോഡ്"
   },

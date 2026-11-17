@@ -128,6 +128,9 @@
     "message": "การตั้งค่า → ซิงค์กับเดสก์ท็อป → สแกนรหัส QR",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "ดาวน์โหลด HMJ SMS จาก Google Play"
+  },
   "pairingQrCode": {
     "message": "คิวอาร์โค้ดสำหรับจับคู่"
   },

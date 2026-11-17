@@ -116,6 +116,10 @@
     "message": "Settings → Desktop Sync → Scan QR Code",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Get HMJ SMS on Google Play",
+    "description": "Link under the pairing steps that opens the HMJ SMS app on Google Play. Keep the names HMJ SMS and Google Play in English."
+  },
   "pairingQrCode": {
     "message": "Pairing QR code",
     "description": "Name of the QR code image, for screen readers."
