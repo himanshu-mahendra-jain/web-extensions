@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changes
 
 * The pairing card in the popup links to the HMJ SMS app on Google Play, for anyone who has the extension but not yet the app on their phone.
+* While the pairing card is open with no messages stored, the empty message list behind it, with its redundant Show Pairing QR Code button, is hidden. The card uses that room, so the warning about the pairing code still shows in full.
 
 ## [1.0.1] - 2026-10-26
 

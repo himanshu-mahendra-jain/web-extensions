@@ -145,6 +145,20 @@ test.describe("without a linked phone", () => {
   });
 
 
+  test("the empty list shows only once Hide closes the pairing card", async ({ popup }) => {
+    const showQr = popup.getByRole("button", { name: "Show Pairing QR Code" });
+    await expect(popup.locator("#qrPanel")).toBeVisible();
+    await expect(showQr).toBeHidden();
+
+    await popup.getByRole("button", { name: "Hide" }).click();
+    await expect(popup.locator("#emptyTitle")).toBeVisible();
+
+    await showQr.click();
+    await expect(popup.locator("#qrPanel")).toBeVisible();
+    await expect(showQr).toBeHidden();
+  });
+
+
   test("Copy Code copies the v2 pairing code", async ({ popup }) => {
     const button = popup.locator("#btnCopyPairingCode");
 

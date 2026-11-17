@@ -89,12 +89,10 @@ test("without a linked phone", async ({ page }) => {
       - button "Copy Code"
       - button "Hide"
       - paragraph: This code holds the keys to your link. Show or paste it only on your own phone, and keep it away from clipboard sync and screen sharing.
-    - main:
-      - paragraph: Ready for incoming SMS
-      - text: Incoming SMS and OTPs will appear here in real-time.
-      - button "Show Pairing QR Code"
     - status
   `);
+  // The empty list is hidden behind the pairing card, so its Show Pairing QR Code is too.
+  await expect(page.getByRole("main")).toBeHidden();
 
   const { stops, withoutOutline } = await tabThrough(page);
 
@@ -103,8 +101,7 @@ test("without a linked phone", async ({ page }) => {
     'button "More options"',
     'link "Get HMJ SMS on Google Play"',
     'button "Copy Code"',
-    'button "Hide"',
-    'button "Show Pairing QR Code"'
+    'button "Hide"'
   ]);
   expect(withoutOutline).toEqual([]);
 });
@@ -133,12 +130,10 @@ test("asking to pair again, with notifications turned off", async ({ page }) => 
       - button "Copy Code"
       - button "Hide"
       - paragraph: This code holds the keys to your link. Show or paste it only on your own phone, and keep it away from clipboard sync and screen sharing.
-    - main:
-      - paragraph: Ready for incoming SMS
-      - text: Incoming SMS and OTPs will appear here in real-time.
-      - button "Show Pairing QR Code"
     - status
   `);
+  // The empty list is hidden behind the pairing card, so its Show Pairing QR Code is too.
+  await expect(page.getByRole("main")).toBeHidden();
 
   const { stops, withoutOutline } = await tabThrough(page);
 
@@ -148,8 +143,7 @@ test("asking to pair again, with notifications turned off", async ({ page }) => 
     'button "More options"',
     'link "Get HMJ SMS on Google Play"',
     'button "Copy Code"',
-    'button "Hide"',
-    'button "Show Pairing QR Code"'
+    'button "Hide"'
   ]);
   expect(withoutOutline).toEqual([]);
 });
