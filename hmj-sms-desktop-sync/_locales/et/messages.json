@@ -126,6 +126,9 @@
     "message": "Seaded → Töölauasünkroonimine → Skanni QR-kood",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Hankige HMJ SMS Google Playst"
+  },
   "pairingQrCode": {
     "message": "Sidumise QR-kood"
   },

@@ -126,6 +126,9 @@
     "message": "הגדרות ← סנכרון למחשב ← סריקת קוד QR",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "הורדת HMJ SMS מ-Google Play"
+  },
   "pairingQrCode": {
     "message": "קוד QR להתאמה"
   },

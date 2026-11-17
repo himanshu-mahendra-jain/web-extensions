@@ -126,6 +126,9 @@
     "message": "Iestatījumi → Sinhronizācija ar datoru → Skenēt QR kodu",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Iegūstiet HMJ SMS Google Play"
+  },
   "pairingQrCode": {
     "message": "QR kods savienošanai pārī"
   },

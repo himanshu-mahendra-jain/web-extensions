@@ -126,6 +126,9 @@
     "message": "Configurações → Sincronização desktop → Ler código QR",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Baixe o HMJ SMS no Google Play"
+  },
   "pairingQrCode": {
     "message": "QR code de pareamento"
   },

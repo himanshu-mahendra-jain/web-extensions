@@ -126,6 +126,9 @@
     "message": "Inställningar → Skrivbordssynkronisering → Skanna QR-kod",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Hämta HMJ SMS på Google Play"
+  },
   "pairingQrCode": {
     "message": "QR-kod för parkoppling"
   },

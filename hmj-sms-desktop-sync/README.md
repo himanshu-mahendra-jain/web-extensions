@@ -2,10 +2,11 @@
 
 Ultra-fast (< 250ms), serverless, end-to-end encrypted SMS notification and OTP sync between your Android phone and your desktop browser using standard VAPID Web Push (RFC 8291 / RFC 8292).
 
-The extension pairs with the HMJ SMS Android app.
+The extension pairs with the [HMJ SMS](https://play.google.com/store/apps/details?id=com.hmj.sms) app on your Android phone, which you get from Google Play.
 
 <a href="https://chromewebstore.google.com/detail/mnimbnoaepknhnjkanhmpmhkiodbfnmj" rel="noopener noreferrer"><img src="https://developer.chrome.com/static/docs/webstore/branding/image/UV4C4ybeBTsZt43U4xis.png" alt="Available in the Chrome Web Store"></a>
 <a href="https://microsoftedge.microsoft.com/addons/detail/hmj-sms-desktop-sync/gigedflmenpomcgkcbbgdeafjgllgpob" rel="noopener noreferrer"><img src="https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/add-ons-badge-images/microsoft-edge-add-ons-badge.png" alt="Get it from Microsoft Edge"></a>
+<a href="https://play.google.com/store/apps/details?id=com.hmj.sms" rel="noopener noreferrer"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get the HMJ SMS phone app on Google Play" height="86"></a>
 
 ▶ [Watch the 43-second video on YouTube](https://www.youtube.com/watch?v=3L0DFOIFGVM)
 
@@ -42,14 +43,15 @@ Click the **HMJ SMS Desktop Sync** icon to view your pairing QR code. **Copy Cod
 
 ### Step 2: Pair with Android Phone
 
-1. Open the **SMS** app on your phone.
-2. Tap the top-right menu (3 dots) and choose **Desktop Sync**.
-3. Tap **Scan QR Code** and scan the QR code displayed on your monitor.
-4. Done! A test alert will pop up immediately on your desktop confirming the connection.
+1. Install [HMJ SMS](https://play.google.com/store/apps/details?id=com.hmj.sms) on your phone from Google Play. The popup's pairing card links there too.
+2. Open the **HMJ SMS** app on your phone.
+3. Tap the top-right menu (3 dots) and choose **Desktop Sync**.
+4. Tap **Scan QR Code** and scan the QR code displayed on your monitor.
+5. Done! A test alert will pop up immediately on your desktop confirming the connection.
 
 ### Unlinking
 
-* **One phone**: click the phone's name under the popup's toolbar and choose **Unlink**. Its messages are ignored from then on, and a quiet notice, replaced in place, counts the ones it still sends; clicking it opens the popup. Every phone shares one push address, so to stop that phone sending, also unlink this computer in the SMS app on it. Pairing it again, which sends a test alert, links it again.
+* **One phone**: click the phone's name under the popup's toolbar and choose **Unlink**. Its messages are ignored from then on, and a quiet notice, replaced in place, counts the ones it still sends; clicking it opens the popup. Every phone shares one push address, so to stop that phone sending, also unlink this computer in the HMJ SMS app on it. Pairing it again, which sends a test alert, links it again.
 * **All phones**: **Unlink All Phones** in the popup's menu (⋮) ends the push subscription, makes a new key and pairing code, and removes all stored messages. No phone can reach the browser any more, and each one removes the link itself on its next send. The phones you keep must scan the new QR code.
 
 ### Pairing Again
@@ -108,7 +110,7 @@ hmj-sms-desktop-sync/
 * `src/i18n.js`: the text in the browser's language for the popup and the background: `t()` for a message, `plural()` for one that counts (`name_one`, `name_other`, and the language's other plural forms), lists, and `localizePage()`, which fills the popup's `data-i18n` elements. To add a language, add `_locales/<language>/messages.json` with the English file's names; `locales.spec.js` keeps the code, the English messages and the popup's English HTML in step.
 * `src/background.js`: the Chrome and Edge service worker: the browser's name, its PushManager, the push listener, notifications with copy actions (falling back to `chrome.notifications` with buttons), and clipboard copy through the offscreen document.
 * `src/offscreen.html` and `src/offscreen.js`: the offscreen document that writes OTPs and messages to the clipboard for the service worker.
-* `src/popup.html`, `src/popup.css` and `src/popup.js`: the toolbar popup: the pairing QR code, the linked phones with Unlink, the menu with Unlink All Phones and Clear Messages, and recent messages.
+* `src/popup.html`, `src/popup.css` and `src/popup.js`: the toolbar popup: the pairing QR code with a link to the HMJ SMS app on Google Play, the linked phones with Unlink, the menu with Unlink All Phones and Clear Messages, and recent messages.
 * `src/qrcode.js`: the QR code generator used by the popup.
 * `store-assets/`: browser-store listing text and images. They are not included in the distribution packages.
 * `tests/`: Playwright tests. `sms-core.spec.js` runs the background code through `src/background.js` against the fake APIs in `fake-chrome.js`, and `background.spec.js` covers the real Chrome service worker, with a fake `PushManager` that behaves like Chrome's, as headless Chromium has no push service. `visual.spec.js-snapshots/` holds baseline screenshots of the popup; see [Screenshots](../README.md#screenshots) in the monorepo README.

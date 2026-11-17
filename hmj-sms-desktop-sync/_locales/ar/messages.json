@@ -126,6 +126,9 @@
     "message": "الإعدادات ← مزامنة سطح المكتب ← مسح رمز QR",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "احصل على HMJ SMS من Google Play"
+  },
   "pairingQrCode": {
     "message": "رمز QR للإقران"
   },

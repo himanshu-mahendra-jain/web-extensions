@@ -2,6 +2,9 @@ Primajte SMS poruke i OTP kodove sa svog Android telefona kao obavijesti na radn
 
 HMJ SMS Desktop Sync je lagano proširenje otvorenog koda koje se povezuje s aplikacijom HMJ SMS na vašem Android telefonu. Kada na telefon stigne poruka, ona se odmah prikazuje na zaslonu računala, omogućujući vam kopiranje koda za prijavu bez posezanja za telefonom.
 
+Aplikaciju HMJ SMS preuzmite s Google Playa:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Poruke putuju izravno s telefona u vaš preglednik putem ugrađene push usluge preglednika, šifrirane isključivo za ovaj preglednik. Između nema poslužitelja, a push usluga ne može pročitati sadržaj poruka.
 
 Savjet: U izborniku proširenja preglednika Edge uključite «Prikaži na alatnoj traci» za HMJ SMS Desktop Sync za brz pristup.
@@ -20,9 +23,11 @@ GLAVNE ZNAČAJKE
 
 UPARIVANJE TELEFONA
 
-1. Kliknite ikonu HMJ SMS Desktop Sync na alatnoj traci kako bi se prikazao QR kod za uparivanje.
-2. Na telefonu otvorite aplikaciju HMJ SMS, uđite u izbornik i odaberite «Desktop Sync».
-3. Dodirnite «Skeniraj QR kod» i usmjerite kameru prema kodu na zaslonu.
+1. Instalirajte aplikaciju HMJ SMS na svoj Android telefon s Google Playa:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Kliknite ikonu HMJ SMS Desktop Sync na alatnoj traci kako bi se prikazao QR kod za uparivanje.
+3. Na telefonu otvorite aplikaciju HMJ SMS, uđite u izbornik i odaberite «Desktop Sync».
+4. Dodirnite «Skeniraj QR kod» i usmjerite kameru prema kodu na zaslonu.
 
 Na radnoj površini pojavit će se testna obavijest koja potvrđuje uspješno povezivanje. Za uparivanje drugog telefona kliknite «Upari drugi» u skočnom prozoru.
 

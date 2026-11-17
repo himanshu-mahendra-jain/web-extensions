@@ -128,6 +128,9 @@
     "message": "Cài đặt → Đồng bộ máy tính → Quét mã QR",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Tải HMJ SMS trên Google Play"
+  },
   "pairingQrCode": {
     "message": "Mã QR ghép nối"
   },

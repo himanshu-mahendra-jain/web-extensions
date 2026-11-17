@@ -2,6 +2,9 @@
 
 HMJ SMS Desktop Sync 是一款輕量、開源的瀏覽器擴充功能，能與 Android 手機上的 HMJ SMS 應用程式完美配對。當手機收到簡訊時，電腦桌面會即時跳出通知，讓您不用拿起手機就能快速複製登入驗證碼。
 
+在 Google Play 取得 HMJ SMS 應用程式：
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 簡訊透過瀏覽器內建的推播通道直接由手機傳送至電腦，全程針對當前瀏覽器進行專屬加密。沒有任何中繼伺服器介入，推播服務本身也無法解密或讀取您的簡訊內容。
 
 提示：在 Chrome 的「擴充功能」選單（拼圖圖示）中將本擴充功能釘選到工具列，隨時都能方便使用。
@@ -20,9 +23,11 @@ HMJ SMS Desktop Sync 是一款輕量、開源的瀏覽器擴充功能，能與 A
 
 配對手機步驟
 
-1. 點擊瀏覽器工具列上的 HMJ SMS Desktop Sync 圖示以顯示配對 QR 碼。
-2. 在手機上開啟 HMJ SMS 應用程式，進入選單並點選「Desktop Sync」。
-3. 輕觸「掃描 QR 碼」並對準電腦螢幕上的 QR 碼進行掃描。
+1. 從 Google Play 在 Android 手機上安裝 HMJ SMS 應用程式：
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. 點擊瀏覽器工具列上的 HMJ SMS Desktop Sync 圖示以顯示配對 QR 碼。
+3. 在手機上開啟 HMJ SMS 應用程式，進入選單並點選「Desktop Sync」。
+4. 輕觸「掃描 QR 碼」並對準電腦螢幕上的 QR 碼進行掃描。
 
 配對成功後，電腦桌面會顯示測試通知。若要連接其他手機，只需在面板中點擊「配對另一部手機」。
 

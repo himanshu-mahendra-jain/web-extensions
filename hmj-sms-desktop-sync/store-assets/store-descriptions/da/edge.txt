@@ -2,6 +2,9 @@ Modtag SMS-beskeder og OTP-koder fra din Android-telefon som skrivebordsnotifika
 
 HMJ SMS Desktop Sync er en let og open source-udvidelse, der danner par med HMJ SMS-appen på din Android-telefon. Når der ankommer en besked på telefonen, vises den øjeblikkeligt på dit skrivebord, så du kan kopiere bekræftelseskoder uden at tage telefonen op af lommen.
 
+Hent HMJ SMS-appen på Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Beskeder sendes direkte fra telefonen til din browser via browserens egen push-tjeneste, krypteret specifikt til denne browser. Der er ingen mellemliggende servere, og push-tjenesten kan ikke læse indholdet.
 
 Tip: I Edges udvidelsesmenu kan du slå «Vis på værktøjslinje» til for HMJ SMS Desktop Sync for altid at have hurtig adgang.
@@ -20,9 +23,11 @@ VIGTIGSTE FUNKTIONER
 
 PAR DIN TELEFON
 
-1. Klik på ikonet for HMJ SMS Desktop Sync på værktøjslinjen for at få vist QR-koden.
-2. Åbn HMJ SMS-appen på din telefon, åbn menuen og vælg «Desktop Sync».
-3. Tryk på «Scan QR-kode» og scan koden på computerskærmen.
+1. Installer HMJ SMS-appen på din Android-telefon fra Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Klik på ikonet for HMJ SMS Desktop Sync på værktøjslinjen for at få vist QR-koden.
+3. Åbn HMJ SMS-appen på din telefon, åbn menuen og vælg «Desktop Sync».
+4. Tryk på «Scan QR-kode» og scan koden på computerskærmen.
 
 En testnotifikation vises på skrivebordet for at bekræfte forbindelsen. For at parre en anden telefon skal du blot klikke på «Par en anden» i pop-up-vinduet.
 

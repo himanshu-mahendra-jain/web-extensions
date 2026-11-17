@@ -126,6 +126,9 @@
     "message": "Configuració → Sincronització amb l'escriptori → Escanejar el codi QR",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Obteniu HMJ SMS a Google Play"
+  },
   "pairingQrCode": {
     "message": "Codi QR de vinculació"
   },

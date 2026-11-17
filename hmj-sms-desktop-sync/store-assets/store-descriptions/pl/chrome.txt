@@ -2,6 +2,9 @@ Odbieraj wiadomości SMS i kody OTP ze swojego telefonu z Androidem jako powiado
 
 HMJ SMS Desktop Sync to lekkie rozszerzenie open-source, które współpracuje z aplikacją HMJ SMS na telefonie z Androidem. Gdy na telefon przychodzi wiadomość, pojawia się ona natychmiast na ekranie komputera, umożliwiając szybkie skopiowanie kodu logowania bez konieczności sięgania po telefon.
 
+Pobierz aplikację HMJ SMS z Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Wiadomości są przesyłane bezpośrednio z telefonu do przeglądarki za pośrednictwem jej wbudowanej usługi push, zaszyfrowane wyłącznie dla tej przeglądarki. Po drodze nie ma żadnych serwerów pośredniczących, a usługa push nie ma wglądu w treść.
 
 Wskazówka: przypnij rozszerzenie w menu Rozszerzenia Chrome (ikona puzzla), aby jego ikona była zawsze widoczna na pasku narzędzi.
@@ -20,9 +23,11 @@ GŁÓWNE FUNKCJE
 
 PAROWANIE TELEFONU
 
-1. Kliknij ikonę HMJ SMS Desktop Sync na pasku narzędzi, aby wyświetlić kod QR parowania.
-2. Na telefonie otwórz aplikację HMJ SMS, wejdź w menu i wybierz «Desktop Sync».
-3. Dotknij «Skanuj kod QR» i skieruj aparat na ekran komputera.
+1. Zainstaluj aplikację HMJ SMS na telefonie z Androidem z Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Kliknij ikonę HMJ SMS Desktop Sync na pasku narzędzi, aby wyświetlić kod QR parowania.
+3. Na telefonie otwórz aplikację HMJ SMS, wejdź w menu i wybierz «Desktop Sync».
+4. Dotknij «Skanuj kod QR» i skieruj aparat na ekran komputera.
 
 Na pulpicie pojawi się powiadomienie testowe potwierdzające połączenie. Aby sparować kolejny telefon, kliknij «Sparuj kolejny» w oknie rozszerzenia.
 

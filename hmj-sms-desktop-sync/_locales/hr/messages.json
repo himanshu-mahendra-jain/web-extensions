@@ -126,6 +126,9 @@
     "message": "Postavke → Sinkronizacija s računalom → Skeniraj QR kod",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Preuzmite HMJ SMS s Google Playa"
+  },
   "pairingQrCode": {
     "message": "QR kôd za uparivanje"
   },

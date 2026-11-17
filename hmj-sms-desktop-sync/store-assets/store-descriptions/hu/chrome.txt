@@ -2,6 +2,9 @@ Tekintse meg Android telefonjára érkező SMS üzeneteit és OTP kódjait aszta
 
 A HMJ SMS Desktop Sync egy könnyű és nyílt forráskódú bővítmény, amely közvetlenül kapcsolódik az Android telefonján futó HMJ SMS alkalmazáshoz. Amint üzenet érkezik telefonjára, az azonnal megjelenik a számítógép képernyőjén, így anélkül másolhatja a belépési kódokat, hogy kézbe kellene vennie a telefont.
 
+A HMJ SMS alkalmazás a Google Playen érhető el:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Az üzenetek a telefonjáról a böngésző saját push szolgáltatásán keresztül érkeznek, kizárólag ehhez a böngészőhöz titkosítva. Nincs közvetítő szerver, és maga a push szolgáltatás sem képes elolvasni az üzenetek tartalmát.
 
 Tipp: Rögzítse a bővítményt a Chrome Bővítmények menüjében (kirakós ikon), hogy ikonja mindig kéznél legyen az eszköztáron.
@@ -20,9 +23,11 @@ FŐBB JELLEMZŐK
 
 A TELEFON PÁROSÍTÁSA
 
-1. Kattintson a HMJ SMS Desktop Sync ikonjára az eszköztáron a párosítási QR-kód megjelenítéséhez.
-2. Nyissa meg a HMJ SMS alkalmazást a telefonján, lépjen a menübe, és válassza a «Desktop Sync» pontot.
-3. Érintse meg a «QR-kód beolvasása» gombot, és olvassa be a számítógép képernyőjén látható kódot.
+1. Telepítse a HMJ SMS alkalmazást Android-telefonjára a Google Playről:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Kattintson a HMJ SMS Desktop Sync ikonjára az eszköztáron a párosítási QR-kód megjelenítéséhez.
+3. Nyissa meg a HMJ SMS alkalmazást a telefonján, lépjen a menübe, és válassza a «Desktop Sync» pontot.
+4. Érintse meg a «QR-kód beolvasása» gombot, és olvassa be a számítógép képernyőjén látható kódot.
 
 A kapcsolat megerősítésére egy tesztértesítés jelenik meg az asztalon. Újabb telefon hozzáadásához kattintson az «Újabb párosítása» gombra a felugró ablakban.
 

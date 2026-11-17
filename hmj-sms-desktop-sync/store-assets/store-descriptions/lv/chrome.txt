@@ -2,6 +2,9 @@ Saņemiet sava Android tālruņa SMS ziņas un OTP kodus kā darbvirsmas paziņo
 
 HMJ SMS Desktop Sync ir viegls atvērtā koda paplašinājums, kas savienojas ar lietotni HMJ SMS jūsu Android tālrunī. Kad tālrunī pienāk ziņa, tā nekavējoties parādās datora ekrānā, ļaujot ērti nokopēt verifikācijas kodus, nepieskaroties tālrunim.
 
+Lietotni HMJ SMS varat iegūt Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Ziņas tiek pārsūtītas tieši no tālruņa uz pārlūku, izmantojot paša pārlūka push pakalpojumu, šifrētas tikai šim pārlūkam. Pa ceļam nav starpniekserveru, un push pakalpojums nevar izlasīt jūsu ziņu saturu.
 
 Padoms: piespraudiet paplašinājumu Chrome paplašinājumu izvēlnē (puzles ikona), lai ikona vienmēr būtu redzama rīkjoslā.
@@ -20,9 +23,11 @@ GALVENĀS IEZĪMES
 
 TĀLRUŅA SAVIENOŠANA
 
-1. Noklikšķiniet uz HMJ SMS Desktop Sync ikonas rīkjoslā, lai atvērtu QR kodu.
-2. Tālrunī atveriet lietotni HMJ SMS, atveriet izvēlni un izvēlieties «Desktop Sync».
-3. Pieskarieties «Skenēt QR kodu» un noskenējiet datora ekrānā redzamo kodu.
+1. Instalējiet lietotni HMJ SMS savā Android tālrunī no Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Noklikšķiniet uz HMJ SMS Desktop Sync ikonas rīkjoslā, lai atvērtu QR kodu.
+3. Tālrunī atveriet lietotni HMJ SMS, atveriet izvēlni un izvēlieties «Desktop Sync».
+4. Pieskarieties «Skenēt QR kodu» un noskenējiet datora ekrānā redzamo kodu.
 
 Darbvirsmā parādīsies testa paziņojums, kas apstiprina savienojumu. Lai pievienotu citu tālruni, noklikšķiniet uz «Pievienot citu» uznirstošajā logā.
 

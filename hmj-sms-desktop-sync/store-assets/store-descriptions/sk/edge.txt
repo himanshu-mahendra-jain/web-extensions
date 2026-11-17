@@ -2,6 +2,9 @@ Zobrazujte SMS správy a OTP kódy zo svojho Android telefónu ako oznámenia na
 
 HMJ SMS Desktop Sync je odľahčené open-source rozšírenie, ktoré sa spája s aplikáciou HMJ SMS vo vašom Android telefóne. Keď vám na telefón príde správa, v priebehu okamihu sa zobrazí na obrazovke počítača, vďaka čomu môžete skopírovať prihlasovací kód bez toho, aby ste museli brať telefón do ruky.
 
+Aplikáciu HMJ SMS získate na Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Správy putujú priamo z vášho telefónu do prehliadača prostredníctvom vstavanej push služby prehliadača, zašifrované výhradne pre tento konkrétny prehliadač. Medzi nimi nie je žiadny server a push služba obsah správ nedokáže prečítať.
 
 Tip: V ponuke Rozšírenia v prehliadači Edge zapnite možnosť «Zobraziť na paneli s nástrojmi» pre HMJ SMS Desktop Sync.
@@ -20,9 +23,11 @@ HLAVNÉ FUNKCIE
 
 SPÁROVANIE TELEFÓNU
 
-1. Kliknutím na ikonu HMJ SMS Desktop Sync na paneli s nástrojmi zobrazte párovací QR kód.
-2. Na telefóne otvorte aplikáciu HMJ SMS, otvorte menu a zvoľte «Desktop Sync».
-3. Klepnite na «Naskenovať QR kód» a namierte fotoaparát na obrazovku.
+1. Nainštalujte si do telefónu s Androidom aplikáciu HMJ SMS z Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Kliknutím na ikonu HMJ SMS Desktop Sync na paneli s nástrojmi zobrazte párovací QR kód.
+3. Na telefóne otvorte aplikáciu HMJ SMS, otvorte menu a zvoľte «Desktop Sync».
+4. Klepnite na «Naskenovať QR kód» a namierte fotoaparát na obrazovku.
 
 Na ploche sa zobrazí skúšobné oznámenie potvrdzujúce úspešné spojenie. Ak chcete spárovať ďalší telefón, kliknite na «Spárovať ďalší» v okne rozšírenia.
 

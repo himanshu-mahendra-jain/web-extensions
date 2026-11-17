@@ -2,6 +2,9 @@ Nhận tin nhắn SMS và mã OTP từ điện thoại Android dưới dạng th
 
 HMJ SMS Desktop Sync là tiện ích mở rộng mã nguồn mở nhẹ nhàng, kết nối liền mạch với ứng dụng HMJ SMS trên điện thoại Android của bạn. Khi có tin nhắn đến điện thoại, thông báo sẽ lập tức xuất hiện trên máy tính giúp bạn sao chép mã đăng nhập nhanh chóng mà không cần cầm điện thoại.
 
+Tải ứng dụng HMJ SMS trên Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Tin nhắn được chuyển trực tiếp từ điện thoại sang trình duyệt thông qua dịch vụ push tích hợp sẵn của trình duyệt, được mã hóa riêng biệt cho trình duyệt này. Không có máy chủ trung gian và dịch vụ push hoàn toàn không thể đọc được nội dung tin nhắn.
 
 Mẹo: Trong menu Tiện ích của Edge, bật «Hiển thị trên thanh công cụ» cho HMJ SMS Desktop Sync để truy cập thuận tiện.
@@ -20,9 +23,11 @@ TÍNH NĂNG NỔI BẬT
 
 GHÉP NỐI ĐIỆN THOẠI CỦA BẠN
 
-1. Nhấp vào biểu tượng HMJ SMS Desktop Sync trên thanh công cụ để hiển thị mã QR ghép nối.
-2. Trên điện thoại, mở ứng dụng HMJ SMS, vào menu và chọn «Desktop Sync».
-3. Nhấn «Quét mã QR» và hướng camera vào mã hiển thị trên màn hình máy tính.
+1. Cài đặt ứng dụng HMJ SMS trên điện thoại Android từ Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Nhấp vào biểu tượng HMJ SMS Desktop Sync trên thanh công cụ để hiển thị mã QR ghép nối.
+3. Trên điện thoại, mở ứng dụng HMJ SMS, vào menu và chọn «Desktop Sync».
+4. Nhấn «Quét mã QR» và hướng camera vào mã hiển thị trên màn hình máy tính.
 
 Một thông báo thử nghiệm sẽ xuất hiện trên máy tính để xác nhận kết nối thành công. Để ghép nối thêm điện thoại khác, nhấp «Ghép nối thiết bị khác» trong cửa sổ tiện ích.
 

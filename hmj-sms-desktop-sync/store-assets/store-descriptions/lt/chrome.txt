@@ -2,6 +2,9 @@ Gaukite „Android“ telefono SMS žinutes ir OTP kodus tiesiai į kompiuterio 
 
 „HMJ SMS Desktop Sync“ yra lengvas, atvirojo kodo naršyklės plėtinys, susiejamas su jūsų „Android“ telefone veikiančia programėle „HMJ SMS“. Gavus pranešimą į telefoną, jis iškart atsiranda kompiuterio ekrane, todėl galite greitai nukopijuoti patvirtinimo kodą neliesdami telefono.
 
+„HMJ SMS“ programėlę rasite „Google Play“:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Žinutės keliauja tiesiai iš telefono į naršyklę per pačios naršyklės tiesioginių pranešimų (push) paslaugą, užšifruotos išskirtinai šiai naršyklei. Tarpinių serverių nėra, o pati paslauga negali perskaityti žinučių turinio.
 
 Patarimas: prisekite plėtinį „Chrome“ plėtinių meniu (dėlionės detalės piktograma), kad jis visada būtų po ranka įrankių juostoje.
@@ -20,9 +23,11 @@ PAGRINDINĖS FUNKCIJOS
 
 TELEFONO SUSIEJIMAS
 
-1. Spustelėkite „HMJ SMS Desktop Sync“ piktogramą įrankių juostoje, kad būtų parodytas susiejimo QR kodas.
-2. Telefone atidarykite „HMJ SMS“ programėlę, eikite į meniu ir pasirinkite „Desktop Sync“.
-3. Bakstelėkite „Nuskaityti QR kodą“ ir nukreipkite kamerą į kompiuterio ekrane rodomą kodą.
+1. Įdiekite „HMJ SMS“ programėlę į savo „Android“ telefoną iš „Google Play“:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Spustelėkite „HMJ SMS Desktop Sync“ piktogramą įrankių juostoje, kad būtų parodytas susiejimo QR kodas.
+3. Telefone atidarykite „HMJ SMS“ programėlę, eikite į meniu ir pasirinkite „Desktop Sync“.
+4. Bakstelėkite „Nuskaityti QR kodą“ ir nukreipkite kamerą į kompiuterio ekrane rodomą kodą.
 
 Darbalaukyje pasirodys bandomasis pranešimas, patvirtinantis ryšį. Norėdami susieti kitą telefoną, iššokančiajame lange spustelėkite „Susieti kitą“.
 

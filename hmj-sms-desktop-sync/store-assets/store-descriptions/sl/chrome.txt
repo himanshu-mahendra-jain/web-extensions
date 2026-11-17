@@ -2,6 +2,9 @@ Prejemajte SMS sporočila in kode OTP iz telefona Android kot obvestila na namiz
 
 HMJ SMS Desktop Sync je lahka in odprtokodna razširitev, ki se poveže z aplikacijo HMJ SMS na vašem telefonu Android. Ko na telefon prispe sporočilo, se v trenutku prikaže na namizju, kar vam omogoča kopiranje prijavne kode, ne da bi se dotaknili telefona.
 
+Aplikacijo HMJ SMS dobite v Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Sporočila potujejo neposredno iz telefona v brskalnik prek brskalnikove lastne potisne storitve, šifrirana izključno za ta brskalnik. Vmes ni nobenih strežnikov, potisna storitev pa vsebine ne more prebrati.
 
 Nasvet: Pripnite razširitev v Chromovem meniju za razširitve (ikona sestavljanke), da bo ikona vedno vidna v orodni vrstici.
@@ -20,9 +23,11 @@ KLJUČNE LASTNOSTI
 
 SEZNANITE SVOJ TELEFON
 
-1. Kliknite ikono HMJ SMS Desktop Sync v orodni vrstici, da se prikaže koda QR za seznanjanje.
-2. V telefonu odprite aplikacijo HMJ SMS, odprite meni in izberite «Desktop Sync».
-3. Dotaknite se «Skeniraj kodo QR» in usmerite kamero v kodo na zaslonu.
+1. V telefon Android namestite aplikacijo HMJ SMS iz Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Kliknite ikono HMJ SMS Desktop Sync v orodni vrstici, da se prikaže koda QR za seznanjanje.
+3. V telefonu odprite aplikacijo HMJ SMS, odprite meni in izberite «Desktop Sync».
+4. Dotaknite se «Skeniraj kodo QR» in usmerite kamero v kodo na zaslonu.
 
 Na namizju se prikaže preizkusno obvestilo za potrditev povezave. Če želite seznaniti še en telefon, v pojavnem oknu kliknite «Seznani drugega».
 

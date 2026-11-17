@@ -126,6 +126,9 @@
     "message": "அமைப்புகள் → டெஸ்க்டாப் ஒத்திசைவு → QR குறியீட்டை ஸ்கேன் செய்க",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Google Play-இல் HMJ SMS-ஐப் பெறுக"
+  },
   "pairingQrCode": {
     "message": "இணைப்பதற்கான QR குறியீடு"
   },

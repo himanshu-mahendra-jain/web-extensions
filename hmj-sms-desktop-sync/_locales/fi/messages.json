@@ -126,6 +126,9 @@
     "message": "Asetukset → Tietokonesynkronointi → Lue QR-koodi",
     "description": "Where to go in the HMJ SMS app to scan the QR code. Use the app's own labels."
   },
+  "getAppOnGooglePlay": {
+    "message": "Hanki HMJ SMS Google Playsta"
+  },
   "pairingQrCode": {
     "message": "Yhdistämisen QR-koodi"
   },

@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/6886562a-5ff6-44c1-af17-faf84b35f0b2
 | [`change-video-playback-speed/`](change-video-playback-speed/) | Change Video Playback Speed: cycle video and audio playback speed from the toolbar or a keyboard shortcut. |
 | [`clear-browsing-data-except-kept-sites/`](clear-browsing-data-except-kept-sites/) | Clear Browsing Data Except Kept Sites: clear history, cookies, and site data on browser startup for every site not on your keep list. |
 | [`enable-copy-and-right-click/`](enable-copy-and-right-click/) | Enable Copy and Right Click: restore copying, text selection, and right-click menus on restricted pages. |
-| [`hmj-sms-desktop-sync/`](hmj-sms-desktop-sync/) | HMJ SMS Desktop Sync: end-to-end encrypted SMS and OTP notifications from an Android phone. |
+| [`hmj-sms-desktop-sync/`](hmj-sms-desktop-sync/) | HMJ SMS Desktop Sync: end-to-end encrypted SMS and OTP notifications from an Android phone running [HMJ SMS](https://play.google.com/store/apps/details?id=com.hmj.sms). |
 | [`three-finger-tap-to-close-tab/`](three-finger-tap-to-close-tab/) | Three Finger Tap to Close Tab: close the current tab with a three-finger tap or middle click. |
 
 ## Build

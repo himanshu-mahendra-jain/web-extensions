@@ -2,6 +2,9 @@ Tingnan ang mga SMS at OTP code mula sa iyong Android phone bilang mga desktop n
 
 Ang HMJ SMS Desktop Sync ay isang magaan at open-source na extension na kumokonekta sa HMJ SMS app sa iyong Android phone. Kapag may dumating na mensahe sa iyong telepono, agad itong lalabas sa screen ng iyong computer upang makopya mo ang verification code nang hindi na kailangang hawakan ang telepono.
 
+Kunin ang HMJ SMS app sa Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 Direktang ipinapadala ang mga mensahe mula sa iyong telepono patungo sa iyong browser sa pamamagitan ng sariling push service ng browser, na naka-encrypt para sa browser na ito lamang. Walang intermediate server sa pagitan, at hindi mababasa ng push service ang nilalaman ng mensahe.
 
 Tip: Sa menu ng Extensions ng Edge, i-on ang «Show in toolbar» para sa HMJ SMS Desktop Sync upang madali itong ma-access.
@@ -20,9 +23,11 @@ PANGUNAHING MGA TAMPOK
 
 PAGPAPAREHA NG IYONG TELEPONO
 
-1. I-click ang icon ng HMJ SMS Desktop Sync sa toolbar upang ipakita ang pairing QR code.
-2. Sa iyong telepono, buksan ang HMJ SMS app, pumunta sa menu, at piliin ang «Desktop Sync».
-3. Pindutin ang «I-scan ang QR Code» at i-scan ang code sa screen ng computer.
+1. I-install ang HMJ SMS app sa iyong Android phone mula sa Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. I-click ang icon ng HMJ SMS Desktop Sync sa toolbar upang ipakita ang pairing QR code.
+3. Sa iyong telepono, buksan ang HMJ SMS app, pumunta sa menu, at piliin ang «Desktop Sync».
+4. Pindutin ang «I-scan ang QR Code» at i-scan ang code sa screen ng computer.
 
 May lalabas na test notification sa iyong desktop upang kumpirmahin ang koneksyon. Para magpares ng isa pang telepono, i-click ang «Magpares ng Isa Pa» sa popup.
 

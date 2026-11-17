@@ -2,6 +2,9 @@ Veja as mensagens SMS e códigos OTP recebidos pelo seu telemóvel Android como 
 
 O HMJ SMS Desktop Sync é uma extensão leve e de código aberto que se emparelha com a aplicação HMJ SMS no seu telemóvel Android. Sempre que uma mensagem chega ao telemóvel, surge no seu ecrã num instante, permitindo copiar códigos de início de sessão sem precisar de pegar no telemóvel.
 
+Obtenha a aplicação HMJ SMS no Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+
 As mensagens viajam diretamente do telemóvel para o seu navegador através do serviço push integrado do navegador, encriptadas exclusivamente para este navegador. Não existem servidores intermediários e o serviço push não consegue ler as suas mensagens.
 
 Sugestão: fixe a extensão no menu de Extensões do Chrome (o ícone da peça de puzzle) para manter o ícone visível na barra de ferramentas.
@@ -20,9 +23,11 @@ FUNCIONALIDADES PRINCIPAIS
 
 EMPARELHAR O SEU TELEMÓVEL
 
-1. Clique no ícone do HMJ SMS Desktop Sync na barra de ferramentas para mostrar o código QR de emparelhamento.
-2. No telemóvel, abra a aplicação HMJ SMS, aceda ao menu e escolha «Desktop Sync».
-3. Toque em «Ler código QR» e aponte para o código no seu ecrã.
+1. Instale a aplicação HMJ SMS no seu telemóvel Android a partir do Google Play:
+https://play.google.com/store/apps/details?id=com.hmj.sms
+2. Clique no ícone do HMJ SMS Desktop Sync na barra de ferramentas para mostrar o código QR de emparelhamento.
+3. No telemóvel, abra a aplicação HMJ SMS, aceda ao menu e escolha «Desktop Sync».
+4. Toque em «Ler código QR» e aponte para o código no seu ecrã.
 
 Surgirá uma notificação de teste no seu computador a confirmar a ligação. Para emparelhar outro telemóvel, clique em «Emparelhar outro» na janela de contexto.
 
